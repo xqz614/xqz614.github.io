@@ -3,40 +3,11 @@
 // ============================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Typing animation
-    const titles = [
-        'NLP & AI For Health'
-    ];
-    let titleIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
+    // Static title text
     const typingEl = document.getElementById('typingText');
-
-    function typeText() {
-        if (!typingEl) return;
-        const current = titles[titleIndex];
-        if (isDeleting) {
-            typingEl.textContent = current.substring(0, charIndex - 1);
-            charIndex--;
-        } else {
-            typingEl.textContent = current.substring(0, charIndex + 1);
-            charIndex++;
-        }
-
-        let speed = isDeleting ? 30 : 60;
-
-        if (!isDeleting && charIndex === current.length) {
-            speed = 2000;
-            isDeleting = true;
-        } else if (isDeleting && charIndex === 0) {
-            isDeleting = false;
-            titleIndex = (titleIndex + 1) % titles.length;
-            speed = 500;
-        }
-
-        setTimeout(typeText, speed);
+    if (typingEl) {
+        typingEl.textContent = 'NLP & AI For Health';
     }
-    typeText();
 
     // Navbar scroll effect
     const navbar = document.getElementById('navbar');
