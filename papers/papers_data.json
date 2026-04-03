@@ -1,0 +1,147 @@
+{
+  "last_updated": "2026-04-03 06:51",
+  "papers": [
+    {
+      "id": "sample_med_001",
+      "title": "AgentMD: A Multi-Agent Framework for Clinical Decision Support with Retrieval-Augmented Reasoning",
+      "authors": "Zhang, Y., Wang, L., Chen, X., Liu, H., et al.",
+      "abstract": "We present AgentMD, a novel multi-agent framework designed for clinical decision support. Our system integrates retrieval-augmented generation with structured clinical reasoning to provide evidence-based diagnostic suggestions. The framework employs specialized agents for symptom analysis, medical knowledge retrieval, and differential diagnosis generation, coordinated through a meta-agent that ensures clinical safety constraints. Experiments on three clinical benchmarks demonstrate significant improvements over existing approaches.",
+      "date": "2026-04-02",
+      "url": "https://arxiv.org/abs/2604.00001",
+      "pdf_url": "https://arxiv.org/pdf/2604.00001",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "analysis": {
+        "abstract_translation": "我们提出了AgentMD，一个新颖的多智能体框架，专为临床决策支持而设计。该系统将检索增强生成与结构化临床推理相结合，提供基于证据的诊断建议。该框架采用专门的智能体进行症状分析、医学知识检索和鉴别诊断生成，通过一个元智能体进行协调，确保临床安全约束。在三个临床基准测试上的实验表明，该方法较现有方法有显著改进。",
+        "motivation": "a) 作者提出该方法的驱动力在于：当前的医疗对话系统在复杂临床场景中缺乏系统化的推理能力，单一模型难以同时处理知识检索、症状分析和诊断推理等多维度任务。\n\nb) 现有方法的痛点包括：(1) 单智能体架构在处理复杂临床决策时容易产生幻觉；(2) 缺乏对临床安全约束的显式建模；(3) 检索增强方法与临床推理的结合不够紧密。\n\nc) 核心假设：通过将临床决策分解为多个专业化子任务，并由不同智能体协同完成，可以提高诊断的准确性和安全性。",
+        "method_design": "a) 方法流程：\n输入：患者症状描述和病史 → 症状分析智能体提取结构化症状信息 → 知识检索智能体从医学知识库中检索相关证据 → 诊断推理智能体基于症状和证据生成鉴别诊断列表 → 元智能体进行安全性检查和最终决策 → 输出：排序的诊断建议及支持证据。\n\nb) 模型结构包含四个核心模块：症状分析模块（基于NER和关系抽取）、知识检索模块（基于RAG架构）、诊断推理模块（基于Chain-of-Thought推理）、元协调模块（安全约束检查）。\n\nc) 关键算法：使用加权投票机制整合多个智能体的输出，权重由置信度分数和历史准确率动态调整。",
+        "comparison": "a) 与现有方法的本质区别在于：采用多智能体协作而非单一模型，实现了临床推理的模块化和可解释性。\n\nb) 创新点：(1) 首次将多智能体框架应用于临床决策支持；(2) 引入元智能体进行安全约束检查；(3) 设计了临床特定的检索增强策略。\n\nc) 适用场景：复杂的多症状鉴别诊断、需要多步推理的临床决策。\n\nd) 方法对比：\n| 方法 | 优点 | 缺点 | 改进点 |\n|------|------|------|--------|\n| 单智能体LLM | 简单高效 | 易产生幻觉 | 缺乏安全约束 |\n| RAG方法 | 有证据支持 | 推理能力弱 | 检索质量依赖 |\n| AgentMD | 模块化、可解释 | 计算开销大 | 多智能体协调 |",
+        "experiments": "a) 在MedQA、DDXPlus和自建临床数据集上进行评估。\n\nb) 关键结果：在MedQA上准确率达到78.3%，超过GPT-4基线5.2个百分点。\n\nc) 在复杂多症状场景下优势最为明显，鉴别诊断准确率提升12%。\n\nd) 局限性：计算开销较大，推理延迟约为单模型的3倍；对罕见病的覆盖不足。",
+        "application": "a) 论文代码已开源。关键实现步骤：配置医学知识库、训练各专业智能体、设置元智能体协调规则。\n\nb) 关键超参数：检索文档数量k=5、智能体间通信轮数T=3、安全阈值τ=0.8。\n\nc) 可迁移到法律咨询、金融分析等需要多步专业推理的领域。",
+        "summary": "a) 多智能体协作实现安全可解释的临床诊断。\n\nb) 速记版pipeline：",
+        "pipeline_steps": [
+          "提取患者症状结构化信息",
+          "从医学知识库检索相关证据",
+          "多智能体分别推理并生成诊断",
+          "元智能体安全检查与结果整合",
+          "输出排序诊断建议及证据"
+        ]
+      }
+    },
+    {
+      "id": "sample_med_002",
+      "title": "MedConverse: Empathetic Medical Dialogue Generation with Patient State Tracking",
+      "authors": "Li, M., Zhao, R., Sun, K., et al.",
+      "abstract": "Effective medical dialogue systems must balance clinical accuracy with empathetic communication. We propose MedConverse, a framework that jointly models patient emotional states and medical information needs through a dual-track architecture. Our approach introduces a patient state tracker that maintains both clinical and emotional representations, enabling the system to generate responses that are both medically informative and emotionally supportive.",
+      "date": "2026-04-01",
+      "url": "https://arxiv.org/abs/2604.00002",
+      "pdf_url": "https://arxiv.org/pdf/2604.00002",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical"
+    },
+    {
+      "id": "sample_med_003",
+      "title": "Clinical NLP at Scale: A Benchmark for Medical Entity Linking in Electronic Health Records",
+      "authors": "Johnson, A., Brown, T., Davis, S., et al.",
+      "abstract": "Medical entity linking in electronic health records remains a challenging task due to the diversity of clinical language and the complexity of medical ontologies. We present ClinLink, a comprehensive benchmark covering 15 medical specialties with over 100,000 annotated mentions. Our evaluation reveals significant performance gaps in existing methods, particularly for rare conditions and abbreviations.",
+      "date": "2026-03-30",
+      "url": "https://arxiv.org/abs/2603.15001",
+      "pdf_url": "https://arxiv.org/pdf/2603.15001",
+      "source": "conference",
+      "venue": "ACL 2026",
+      "direction": "medical"
+    },
+    {
+      "id": "sample_cell_001",
+      "title": "CellFormer: A Foundation Model for Combinatorial Perturbation Prediction in Single-Cell Genomics",
+      "authors": "Wu, H., Park, J., Kim, S., et al.",
+      "abstract": "Predicting cellular responses to combinatorial perturbations is crucial for drug discovery and understanding gene regulatory networks. We introduce CellFormer, a transformer-based foundation model pre-trained on large-scale single-cell RNA sequencing data. CellFormer captures complex gene-gene interactions through a novel graph-augmented attention mechanism and achieves state-of-the-art performance on perturbation prediction benchmarks.",
+      "date": "2026-04-02",
+      "url": "https://arxiv.org/abs/2604.00010",
+      "pdf_url": "https://arxiv.org/pdf/2604.00010",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "analysis": {
+        "abstract_translation": "预测细胞对组合扰动的响应对于药物发现和理解基因调控网络至关重要。我们提出了CellFormer，一个基于Transformer的基础模型，在大规模单细胞RNA测序数据上进行预训练。CellFormer通过一种新颖的图增强注意力机制捕获复杂的基因-基因相互作用，在扰动预测基准测试中达到了最先进的性能。",
+        "motivation": "a) 驱动力：组合扰动（如多基因敲除、药物联合作用）的实验成本极高，计算预测方法可以大幅降低实验筛选成本。\n\nb) 现有方法痛点：(1) 传统方法假设扰动效应线性叠加，忽略基因间复杂交互；(2) 现有深度学习方法缺乏对基因调控网络结构的显式建模；(3) 数据稀疏性导致泛化能力不足。\n\nc) 核心假设：通过在大规模单细胞数据上预训练，并引入基因交互图结构，可以学习到通用的细胞状态表示，从而更好地预测未见过的组合扰动效应。",
+        "method_design": "a) Pipeline：\n输入：基因表达向量 + 扰动条件 → 基因嵌入层将基因映射到连续空间 → 图增强注意力模块融合基因交互网络（GO、STRING）信息 → Transformer编码器学习细胞状态表示 → 扰动条件注入模块将扰动信息与细胞状态结合 → 解码器预测扰动后的基因表达变化 → 输出：预测的基因表达谱。\n\nb) 核心模块：(1) 基因嵌入层：将离散基因ID映射为连续向量；(2) 图增强注意力：在标准自注意力基础上，用基因交互图约束注意力权重；(3) 扰动注入模块：通过交叉注意力将扰动信息融入细胞表示。\n\nc) 关键公式：图增强注意力 A_ij = softmax(Q_i K_j^T / sqrt(d) + λ * G_ij)，其中G_ij是基因交互图的邻接矩阵元素，λ是平衡参数。",
+        "comparison": "a) 本质区别：首次将基因交互图结构显式融入Transformer注意力机制。\n\nb) 创新点：(1) 图增强注意力机制；(2) 大规模预训练+微调范式；(3) 组合扰动的非线性建模。\n\nc) 适用场景：多基因敲除预测、药物组合效应预测、基因调控网络推断。",
+        "experiments": "a) 在Perturb-seq、CROP-seq等数据集上评估。\n\nb) 关键结果：在组合扰动预测任务上，Pearson相关系数达到0.85，超过GEARS等基线方法8个百分点。\n\nc) 在未见过的基因组合上泛化能力最强。\n\nd) 局限性：对稀有细胞类型的预测效果有限；计算资源需求较高。",
+        "application": "a) 代码和预训练模型已开源。\n\nb) 关键细节：预训练使用4张A100 GPU训练3天；微调时学习率1e-4，batch size 64。\n\nc) 可迁移到药物响应预测、细胞重编程等任务。",
+        "summary": "a) 图增强Transformer预测组合基因扰动效应。\n\nb) 速记版pipeline：",
+        "pipeline_steps": [
+          "大规模单细胞数据预训练基因表示",
+          "构建基因交互图约束注意力权重",
+          "融合扰动条件到细胞状态表示",
+          "解码预测扰动后基因表达变化"
+        ]
+      }
+    },
+    {
+      "id": "sample_cell_002",
+      "title": "Virtual Cell 2.0: Integrating Multi-Omics Data for Whole-Cell Simulation",
+      "authors": "Chen, W., Liu, Y., Zhang, T., et al.",
+      "abstract": "Whole-cell simulation remains one of the grand challenges in computational biology. We present Virtual Cell 2.0, an integrated framework that combines transcriptomics, proteomics, and metabolomics data to create comprehensive digital twins of cells. Our approach uses a hierarchical graph neural network to model interactions across different molecular layers.",
+      "date": "2026-03-29",
+      "url": "https://doi.org/10.1038/s41592-026-0001",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Nature Methods",
+      "direction": "cell"
+    },
+    {
+      "id": "sample_llm_001",
+      "title": "Reasoning Beyond Chains: Tree-Structured Deliberation for Complex Problem Solving in LLMs",
+      "authors": "Park, S., Lee, J., Kim, D., et al.",
+      "abstract": "Chain-of-thought prompting has shown remarkable success in improving LLM reasoning, but its linear structure limits exploration of alternative solution paths. We propose Tree-of-Deliberation (ToD), a framework that enables LLMs to explore multiple reasoning branches simultaneously and select the most promising path through learned value functions. ToD achieves significant improvements on mathematical reasoning and multi-step planning benchmarks.",
+      "date": "2026-04-03",
+      "url": "https://arxiv.org/abs/2604.00020",
+      "pdf_url": "https://arxiv.org/pdf/2604.00020",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "analysis": {
+        "abstract_translation": "思维链提示在提升大语言模型推理能力方面取得了显著成功，但其线性结构限制了对替代解决路径的探索。我们提出了思维树审议框架（ToD），使大语言模型能够同时探索多个推理分支，并通过学习到的价值函数选择最有前景的路径。ToD在数学推理和多步规划基准测试上取得了显著改进。",
+        "motivation": "a) 驱动力：复杂问题往往需要探索多条推理路径，而线性的思维链只能沿单一路径推进，容易陷入局部最优。\n\nb) 痛点：(1) CoT的线性结构无法回溯和纠错；(2) 现有树搜索方法（如ToT）依赖启发式评估，缺乏系统的路径选择机制；(3) 搜索效率低，计算开销大。\n\nc) 核心假设：通过学习一个价值函数来评估中间推理状态的质量，可以高效地引导树搜索，在保持探索多样性的同时提高推理效率。",
+        "method_design": "a) Pipeline：\n输入：复杂问题 → 初始推理步骤生成 → 树扩展：每个节点生成多个候选下一步 → 价值函数评估每个候选节点的前景 → 剪枝：保留top-k最有前景的分支 → 继续扩展直到达到终止条件 → 选择最高价值路径作为最终答案 → 输出：推理过程和答案。\n\nb) 核心模块：(1) 推理步骤生成器：基于LLM生成候选推理步骤；(2) 价值函数网络：预测当前推理状态到达正确答案的概率；(3) 搜索控制器：决定扩展、剪枝和终止策略。\n\nc) 价值函数通过在已标注的推理轨迹上训练，使用蒙特卡洛树搜索的回报信号作为监督。",
+        "comparison": "a) 与CoT的线性推理和ToT的启发式搜索不同，ToD使用学习到的价值函数进行系统化搜索。\n\nb) 创新点：(1) 可学习的推理路径评估；(2) 自适应搜索深度和宽度；(3) 训练效率高于强化学习方法。\n\nc) 适用于数学证明、多步规划、代码生成等需要深度推理的任务。",
+        "experiments": "a) 在GSM8K、MATH、ARC-Challenge等基准上评估。\n\nb) 在MATH数据集上准确率达到67.8%，超过CoT基线12个百分点，超过ToT 5个百分点。\n\nc) 在难度越高的问题上优势越明显。\n\nd) 局限性：需要额外训练价值函数；推理时间约为CoT的2-3倍。",
+        "application": "a) 代码已开源。\n\nb) 价值函数训练需要约1000条标注推理轨迹；搜索宽度k=5效果最佳。\n\nc) 可迁移到代码调试、科学假设生成等任务。",
+        "summary": "a) 学习价值函数引导树搜索提升推理。\n\nb) 速记版pipeline：",
+        "pipeline_steps": [
+          "生成多个候选推理步骤",
+          "价值函数评估各分支前景",
+          "保留高价值分支继续扩展",
+          "选择最优路径输出答案"
+        ]
+      }
+    },
+    {
+      "id": "sample_llm_002",
+      "title": "RLHF 2.0: Reward Model Ensembles with Uncertainty-Aware Alignment",
+      "authors": "Smith, J., Garcia, M., Thompson, R., et al.",
+      "abstract": "Reward model overoptimization remains a critical challenge in RLHF-based language model alignment. We propose an ensemble-based approach that quantifies reward model uncertainty and uses it to regularize the policy optimization process. Our method significantly reduces reward hacking while maintaining alignment quality across diverse evaluation benchmarks.",
+      "date": "2026-04-01",
+      "url": "https://arxiv.org/abs/2604.00021",
+      "pdf_url": "https://arxiv.org/pdf/2604.00021",
+      "source": "conference",
+      "venue": "ICML 2026",
+      "direction": "llm"
+    },
+    {
+      "id": "sample_llm_003",
+      "title": "RAG-Fusion: Adaptive Retrieval Strategies for Knowledge-Intensive Language Tasks",
+      "authors": "Wang, Z., Miller, K., Anderson, P., et al.",
+      "abstract": "Retrieval-augmented generation has become the standard approach for knowledge-intensive tasks, but fixed retrieval strategies often fail to adapt to varying query complexities. We introduce RAG-Fusion, a framework that dynamically selects and combines multiple retrieval strategies based on query characteristics. Our adaptive approach outperforms fixed-strategy baselines on open-domain QA, fact verification, and knowledge-grounded dialogue.",
+      "date": "2026-03-28",
+      "url": "https://arxiv.org/abs/2603.14001",
+      "pdf_url": "https://arxiv.org/pdf/2603.14001",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm"
+    }
+  ]
+}

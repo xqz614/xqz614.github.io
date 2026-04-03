@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Tracker | Xiaoquan Zhi</title>
+    <meta name="description" content="Daily automated paper tracking for Medical Dialogue, Virtual Cell, and LLM/NLP research.">
+    <link rel="icon" href="assets/img/avatar.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/papers.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">XQ<span>Z</span></a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="index.html#publications" class="nav-link">Publications</a>
+                <a href="papers.html" class="nav-link active">Paper Tracker <span class="badge-new">Daily</span></a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html" class="mobile-link">About</a>
+            <a href="index.html#publications" class="mobile-link">Publications</a>
+            <a href="papers.html" class="mobile-link active">Paper Tracker</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="papers-header">
+        <div class="container">
+            <h1><i class="fas fa-satellite-dish"></i> Research Paper Tracker</h1>
+            <p class="papers-subtitle">
+                每日自动追踪 arXiv、bioRxiv 及顶级会议/期刊的最新论文，涵盖三大研究方向，由 AI 生成深度分析报告。
+            </p>
+            <div class="update-info" id="updateInfo">
+                <i class="fas fa-sync-alt"></i> 
+                Last updated: <span id="lastUpdate">Loading...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Direction Tabs -->
+    <section class="papers-main">
+        <div class="container">
+            <div class="direction-tabs" id="directionTabs">
+                <button class="dir-tab active" data-dir="medical">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>医疗对话系统</span>
+                    <small>Medical Dialogue & NLP</small>
+                </button>
+                <button class="dir-tab" data-dir="cell">
+                    <i class="fas fa-dna"></i>
+                    <span>虚拟细胞</span>
+                    <small>Virtual Cell</small>
+                </button>
+                <button class="dir-tab" data-dir="llm">
+                    <i class="fas fa-robot"></i>
+                    <span>大模型与NLP</span>
+                    <small>LLM & NLP Frontiers</small>
+                </button>
+            </div>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label><i class="fas fa-calendar"></i> Date</label>
+                    <select id="dateFilter">
+                        <option value="all">All Dates</option>
+                        <option value="today">Today</option>
+                        <option value="week">This Week</option>
+                        <option value="month">This Month</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label><i class="fas fa-database"></i> Source</label>
+                    <select id="sourceFilter">
+                        <option value="all">All Sources</option>
+                        <option value="arxiv">arXiv</option>
+                        <option value="biorxiv">bioRxiv</option>
+                        <option value="conference">Conference</option>
+                        <option value="journal">Journal</option>
+                    </select>
+                </div>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search papers...">
+                </div>
+            </div>
+
+            <!-- Papers List -->
+            <div class="papers-list" id="papersList">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading papers...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paper Detail Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="paperModal">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <div class="modal-content" id="modalContent">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Xiaoquan Zhi. Papers auto-updated daily via GitHub Actions.</p>
+                <div class="footer-links">
+                    <a href="mailto:zhixiaoquan@tju.edu.cn"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/xqz614" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/papers.js"></script>
+</body>
+</html>

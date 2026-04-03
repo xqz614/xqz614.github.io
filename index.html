@@ -1,541 +1,238 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
-  <title>PERSONAL BLOG</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  
-  
-  
-  <meta property="og:type" content="website">
-<meta property="og:title" content="PERSONAL BLOG">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="PERSONAL BLOG">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="智小泉">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="PERSONAL BLOG" type="application/atom+xml">
-  
-
-  
-
-  <link rel="icon" href="/css/images/XQZ.jpg">
-  <link rel="apple-touch-icon" href="/css/images/XQZ.jpg">
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <style type="text/css">
-    @font-face{font-family:futura-pt; src:url("/css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt-light; src:url("/css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt-italic; src:url("/css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
-}
-
-  </style>
-  
-<link rel="stylesheet" href="/css/style.css">
-
-
-  
-<script src="/js/jquery-3.1.1.min.js"></script>
-
-  
-<script src="/js/bootstrap.js"></script>
-
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.css" >
-
-  
-    <link rel="stylesheet" href="/css/home.css" >
-  
-
-  
-
-  
-
-  
-  
-  
-    <link rel="stylesheet" href="/css/vdonate.css" >
-  
-
-<meta name="generator" content="Hexo 8.0.0"></head>
-
-
-
-  <body>
-
-
-  
-    <header id="header">
-
-	<!-- 背景图模式 -->
-	
-
-    
-      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
-
-      <!-- Support rolling -->  
-        
-        <section class="awSlider">
-          <div class="carousel slide carousel-fade " data-ride="carousel">
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-               
-                  
-                    <div class="item active">
-                  
-                    <img id="carousel-img0" src="/css/images/touch.jpg">
-                  </div>
-
-                  <!-- 自适应大图 -->
-                  <script>
-                      var img0 = new Image();
-                      var imageTag0 = document.getElementById("carousel-img0");
-                      img0.src = imageTag0.src;
-                      img0.onload=function(){
-                        if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
-                          imageTag0.style.width = document.body.clientWidth + "px";
-                        } else {
-                          imageTag0.style.height = document.body.clientHeight + "px";
-                          imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
-                        }
-                      };
-                  </script>
-                
-                  
-                    <div class="item">
-                  
-                    <img id="carousel-img1" src="/css/images/touch1.jpg">
-                  </div>
-
-                  <!-- 自适应大图 -->
-                  <script>
-                      var img1 = new Image();
-                      var imageTag1 = document.getElementById("carousel-img1");
-                      img1.src = imageTag1.src;
-                      img1.onload=function(){
-                        if (img1.width / img1.height <= document.body.clientWidth / document.body.clientHeight) {
-                          imageTag1.style.width = document.body.clientWidth + "px";
-                        } else {
-                          imageTag1.style.height = document.body.clientHeight + "px";
-                          imageTag1.style.marginLeft = -(document.body.clientHeight * img1.width / img1.height - document.body.clientWidth) / 2 + "px";
-                        }
-                      };
-                  </script>
-                
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaoquan Zhi | 智小泉 - Personal Homepage</title>
+    <meta name="description" content="Xiaoquan Zhi (智小泉) - Undergraduate researcher at Tianjin University. Research interests: NLP, AI for Health, Virtual Cell.">
+    <link rel="icon" href="assets/img/avatar.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">XQ<span>Z</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link active">About</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="papers.html" class="nav-link">Paper Tracker <span class="badge-new">Daily</span></a>
             </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#publications" class="mobile-link">Publications</a>
+            <a href="#experience" class="mobile-link">Experience</a>
+            <a href="papers.html" class="mobile-link">Paper Tracker</a>
+        </div>
+    </nav>
 
-            <!-- Controls -->
-            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Geri</span>
-            </a>
-            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">İleri</span>
-            </a>
-          </div>
-        </section>
-        <script>
-          $('section.awSlider .carousel').carousel({
-              pause: '',
-              interval: 5000
-          });
-          var startImage = $('section.awSlider .item.active > img').attr('src');
-          $('section.awSlider .carousel').on('slid.bs.carousel', function () {
-              var bscn = $(this).find('.item.active > img').attr('src');
-              $('section.awSlider > img').attr('src', bscn);
-          });
-        </script>
-      
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="avatar-wrapper">
+                    <img src="assets/img/avatar.jpg" alt="Xiaoquan Zhi" class="avatar">
+                    <div class="avatar-ring"></div>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:zhixiaoquan@tju.edu.cn" title="Email" class="social-link"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/xqz614" target="_blank" title="GitHub" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com" target="_blank" title="Google Scholar" class="social-link"><i class="fas fa-graduation-cap"></i></a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-name">智小泉 <span class="name-en">Xiaoquan Zhi</span></h1>
+                <div class="hero-title">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-bio">
+                    本科生在读 @ <a href="https://www.tju.edu.cn" target="_blank">天津大学</a> 信息管理与信息系统专业（2023级）<br>
+                    GPA: <strong>3.98/4.00</strong>（排名 <strong>1/48</strong>）| 两次<strong>国家奖学金</strong>获得者
+                </p>
+                <div class="hero-tags">
+                    <span class="tag"><i class="fas fa-brain"></i> Natural Language Processing</span>
+                    <span class="tag"><i class="fas fa-heartbeat"></i> AI for Health</span>
+                    <span class="tag"><i class="fas fa-dna"></i> Virtual Cell</span>
+                    <span class="tag"><i class="fas fa-robot"></i> LLM Agents</span>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">12+</div>
+                        <div class="stat-label">National Awards</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Research Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">340+</div>
+                        <div class="stat-label">GitHub Stars</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#publications" class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
 
-    
- 
+    <!-- Publications Section -->
+    <section class="section" id="publications">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-file-alt"></i></span>
+                Publications
+            </h2>
+            <div class="publications-list">
+                <!-- Survey Paper -->
+                <div class="pub-card featured">
+                    <div class="pub-badge">Survey</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Reinventing Clinical Dialogue: Agentic Paradigms for LLM-Enabled Healthcare Communication</h3>
+                        <div class="pub-authors"><strong>Xiaoquan Zhi</strong>, et al.</div>
+                        <div class="pub-venue">
+                            <i class="fas fa-journal-whills"></i> Submitted to <em>ACM Computing Surveys</em> (Under Review)
+                        </div>
+                        <p class="pub-abstract">
+                            本研究针对智能体时代医疗对话系统缺乏系统性剖析的问题，深度调研并分析了200余篇前沿文献，首创基于智能体底层的AI能动性与知识源的新型分类法，从规划、记忆、工具调用及自我进化等维度全面拆解智能体架构。整合90+个涵盖医疗QA、任务驱动、情感支持等复合任务的数据集与评估指标，构建了从学术指标到现实临床应用场景的映射矩阵。
+                        </p>
+                        <div class="pub-links">
+                            <a href="https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue" target="_blank" class="pub-link">
+                                <i class="fab fa-github"></i> Code & Resources
+                                <span class="stars-badge"><i class="fas fa-star"></i> 340+</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Research Section -->
+    <section class="section section-alt" id="research">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-flask"></i></span>
+                Research Projects
+            </h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon"><i class="fas fa-stethoscope"></i></div>
+                    <h3>个性化医疗诊断系统</h3>
+                    <p class="research-role">学生一作 | 2025.6 - 2026.2</p>
+                    <p>提出基于元学习的二次优化 test-time training 框架，通过构建对话实体关系图谱与语言结构图谱，在10个权威医疗数据集上验证，较 MedRAG、Colacare 等方法准确率平均提升10%，ROUGE-L 平均提升15%。</p>
+                    <div class="research-venue">Target: <em>INFORMS Journal of Computing</em></div>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon"><i class="fas fa-dna"></i></div>
+                    <h3>组合扰动虚拟细胞研究</h3>
+                    <p class="research-role">第一作者 | 2025.12 - 至今</p>
+                    <p>整合 GO、STRING 等生物信息数据库，基于基因表达共变性构建多维知识图谱，设计图学习模型提取扰动预测关键知识路径，创新性引入自定义损失函数与特殊Token，为临床靶向治疗提供计算生物学支撑。</p>
+                    <div class="research-venue">与头部医疗企业合作</div>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon"><i class="fas fa-eye"></i></div>
+                    <h3>医学视觉问答系统</h3>
+                    <p class="research-role">第二作者 | 2025.8 - 2026.2</p>
+                    <p>设计多模态动态搜索引擎架构，引入预定义图像处理工具链，基于 VERL 框架构建强化学习训练管线，采用 GRPO 算法优化大模型的多模态证据调度与推理能力。</p>
+                    <div class="research-venue">在 MedMCQA、PubmedQA 等基准测试中显著超越基线</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <canvas width="100%" height="100%"></canvas>
-    <script>
-      var c = document.getElementsByTagName('canvas')[0],
-          x = c.getContext('2d'),
-          w = window.innerWidth,
-          h = window.innerHeight,
-          pr = window.devicePixelRatio || 1,
-          f = 90,
-          q,
-          m = Math,
-          r = 0,
-          u = m.PI*2,
-          v = m.cos,
-          z = m.random
-      c.width = w*pr
-      c.height = h*pr
-      x.scale(pr, pr)
-      x.globalAlpha = 0.6
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-briefcase"></i></span>
+                Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025.7 - 2025.10</div>
+                        <h3>华润医药集团有限公司</h3>
+                        <p class="timeline-role">数据分析实习生</p>
+                        <p>负责核心药品流通数据 ETL 流程，构建销量预测模型（XGBoost/Prophet），使库存周转率提升约4%。独立搭建销售动态监控看板。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024.7 - 2024.9</div>
+                        <h3>百度在线网络技术（北京）有限公司</h3>
+                        <p class="timeline-role">数据与财务分析实习生</p>
+                        <p>参与百度云金融业务线渠道推广预算管理，构建用户转化漏斗模型，编写 Python 自动化脚本实现多维度财务账单智能匹配。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <!-- 折线Polyline背景 -->
-      
-    </script>
-    
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon"><i class="fas fa-code"></i></span>
+                Technical Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>SQL</span><span>JavaScript</span><span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & ML</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span><span>LoRA</span><span>RAG</span><span>vLLM</span><span>Prompt Engineering</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Development</h3>
+                    <div class="skill-tags">
+                        <span>FastAPI</span><span>Flask</span><span>RESTful API</span><span>Git</span><span>Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-hospital"></i> Domain</h3>
+                    <div class="skill-tags">
+                        <span>NER</span><span>SciSpacy</span><span>UMLS</span><span>Medical NLP</span><span>Text Mining</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
-      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
-    
-
-        
-          <div class="homelogoback"  style="border: 1px solid #404040;" >
-            <h1><a href="#content" id="logo">PERSONAL BLOG</a></h1>
-            <h3></h3>
-            <h5>智小泉</h5>
-            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
-          </div>
-        
-    
-    </div>
-  </div>
-
-  <!-- 自适应主页背景大图 -->
-  
-
- <!-- home_logo_image居中 -->
- 
-    <script>
-        var homelogodiv = document.getElementById("homelogo");
-        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
-          homelogodiv.style.width = document.body.clientWidth + "px";
-          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
-        } else {
-          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
-          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
-        }
-    </script>
-  
-
-  <div class="intro-navigate">
-      <p class="navigater-list">
-        
-          <a id="beautifont" class="main-nav-link" href="/">首页</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/archives">归档</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/categories">分类</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/tags">标签</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/about">关于</a>
-        
-      </p>
-  </div>
-
-</header>
-  
-  <div id="container">
-    <div id="wrap">
-      
-            
-      <div id="content" class="outer">
-        
-          <section id="main" style="float:none;">
-  
-    <article id="post-VisionTransformer"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2025/10/01/VisionTransformer/">VisionTransformer</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2025/10/01/VisionTransformer/" class="article-date">
-	  <time datetime="2025-10-01T15:15:25.000Z" itemprop="datePublished">2025-10-01</time>
-	</a>
-
-      
-      
-      
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          
-        </p>
-        <p class="article-more-link">
-          <a href="/2025/10/01/VisionTransformer/#more">阅读全文</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-      
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Xiaoquan Zhi. Built with passion.</p>
+                <div class="footer-links">
+                    <a href="mailto:zhixiaoquan@tju.edu.cn"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/xqz614" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
-  </div>
-  
-</article>
 
-<!-- Table of Contents -->
-
-
-  
-    <article id="post-hello-world"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2025/10/01/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2025/10/01/hello-world/" class="article-date">
-	  <time datetime="2025-10-01T14:15:46.531Z" itemprop="datePublished">2025-10-01</time>
-	</a>
-
-      
-      
-      
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p class="article-excerpt-content">
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &quot;My New...
-        </p>
-        <p class="article-more-link">
-          <a href="/2025/10/01/hello-world/#more">阅读全文</a>
-        </p>
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-      
-
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-
-  
-
-
-</section>
-        
-      </div>
-      
-        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
-      
-      <footer id="footer">
-  
-
-  <div class="container">
-      	<div class="row">
-	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
-	      <p id="copyRightEn">Copyright &copy; 2013 - 2025 PERSONAL BLOG All Rights Reserved.</p>
-	      
-	      
-    		<p class="busuanzi_uv">
-				访客数 : <span id="busuanzi_value_site_uv"></span> |  
-				访问量 : <span id="busuanzi_value_site_pv"></span>
-		    </p>
-  		   
-		</div>
-
-		
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-    var allheader = document.getElementById("allheader");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
-    if (allheader != null) {
-      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    } else {
-      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    }
-</script>
-    </div>
-    <!-- <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tags</a>
-  
-    <a href="/about" class="mobile-nav-link">About</a>
-  
-</nav> -->
-    
-
-<!-- mathjax config similar to math.stackexchange -->
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/scripts.js"></script>
-
-
-
-  
-<script src="/js/home.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-	<div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
-
-
-
-	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-	</script>
-
-
-
-
-
-
-  </div>
-
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title" id="myModalLabel">设置</h2>
-      </div>
-      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
-      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
-
-
-      <div class="modal-body">
-          <div style="margin:6px;">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
-              正文字号大小
-            </a>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
-            您已调整页面字体大小
-          </div>
-        </div>
-      
-
-
-          <div style="margin:6px;">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
-              夜间护眼模式
-            </a>
-        </div>
-          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="panel-body">
-            夜间模式已经开启，再次单击按钮即可关闭 
-          </div>
-        </div>
-
-        <div>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        </div>
-         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="panel-body">
-            PERSONAL BLOG
-          </div>
-          <div class="panel-body">
-            Copyright © 2025 智小泉 All Rights Reserved.
-          </div>
-        </div>
-      </div>
-
-
-      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
-      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
-      <div class="modal-footer">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
-  
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
