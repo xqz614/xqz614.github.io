@@ -5,10 +5,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Typing animation
     const titles = [
-        'Undergraduate Researcher @ Tianjin University',
-        'Natural Language Processing & AI for Health',
-        'Medical Dialogue Systems & Virtual Cell',
-        'National Scholarship Winner (x2)'
+        'NLP & AI For Health'
     ];
     let titleIndex = 0;
     let charIndex = 0;
