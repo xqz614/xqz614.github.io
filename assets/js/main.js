@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll('.pub-card, .research-card, .timeline-item, .skill-category').forEach(el => {
+    document.querySelectorAll('.pub-card, .research-card, .award-card, .skill-category').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(20px)';
         el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';

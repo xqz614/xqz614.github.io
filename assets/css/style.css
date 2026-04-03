@@ -594,77 +594,81 @@ a:hover {
     border-top: 1px solid var(--border);
 }
 
-/* ============ Timeline ============ */
-.timeline {
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-    padding-left: 32px;
+/* ============ Awards ============ */
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
 }
 
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 7px;
-    top: 8px;
-    bottom: 8px;
-    width: 2px;
-    background: var(--border);
-}
-
-.timeline-item {
-    position: relative;
-    margin-bottom: 32px;
-}
-
-.timeline-item:last-child {
-    margin-bottom: 0;
-}
-
-.timeline-dot {
-    position: absolute;
-    left: -29px;
-    top: 8px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: var(--primary);
-    border: 3px solid white;
-    box-shadow: var(--shadow);
-}
-
-.timeline-content {
+.award-card {
     background: white;
     border-radius: var(--radius);
-    padding: 24px;
+    padding: 28px;
     box-shadow: var(--shadow);
     border: 1px solid var(--border);
+    transition: var(--transition);
+    text-align: center;
 }
 
-.timeline-date {
+.award-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+}
+
+.award-card.highlight {
+    border-color: var(--primary);
+    background: linear-gradient(135deg, rgba(37,99,235,0.03), rgba(6,182,212,0.03));
+    position: relative;
+    overflow: hidden;
+}
+
+.award-card.highlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+.award-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(37,99,235,0.1), rgba(6,182,212,0.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin: 0 auto 16px;
+}
+
+.award-card.highlight .award-icon {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: white;
+}
+
+.award-card h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--text);
+}
+
+.award-year {
     font-size: 0.82rem;
     color: var(--primary);
     font-weight: 600;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
-.timeline-content h3 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin-bottom: 4px;
-}
-
-.timeline-role {
+.award-card p:last-child {
     font-size: 0.88rem;
     color: var(--text-secondary);
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-
-.timeline-content p:last-child {
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 /* ============ Skills ============ */
