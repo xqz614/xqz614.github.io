@@ -315,24 +315,23 @@
     border-color: var(--primary);
 }
 
-.paper-analysis-btn {
+.paper-click-hint {
+    font-size: 0.75rem;
+    color: var(--text-light);
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
-    border-radius: 8px;
-    font-size: 0.82rem;
-    font-weight: 600;
-    background: linear-gradient(135deg, var(--primary), var(--accent));
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: var(--transition);
+    gap: 4px;
 }
 
-.paper-analysis-btn:hover {
-    opacity: 0.9;
-    transform: scale(1.02);
+.modal-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.modal-abstract {
+    text-align: justify;
+    line-height: 1.9;
 }
 
 /* ============ Modal ============ */
@@ -488,56 +487,7 @@
     color: var(--primary-light);
 }
 
-.analysis-section {
-    background: var(--bg-alt);
-    border-radius: var(--radius-sm);
-    padding: 20px;
-    margin: 16px 0;
-    border-left: 3px solid var(--primary);
-}
-
-.analysis-section p {
-    margin-bottom: 8px;
-}
-
-.pipeline-steps {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 12px 0;
-}
-
-.pipeline-step {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
-    background: white;
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    font-size: 0.82rem;
-    color: var(--text);
-    font-weight: 500;
-}
-
-.pipeline-step .step-num {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: var(--primary);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.7rem;
-    font-weight: 700;
-    flex-shrink: 0;
-}
-
-.pipeline-arrow {
-    color: var(--text-light);
-    font-size: 0.8rem;
-}
+/* Analysis styles removed - v3 */
 
 /* ============ Loading & Empty States ============ */
 .loading-state {
