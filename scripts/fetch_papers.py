@@ -60,6 +60,8 @@ RESEARCH_DIRECTIONS = {
 }
 
 MAX_PAPERS_PER_DIRECTION = 10
+MAX_TOTAL_PAPERS = 1000
+RETENTION_DAYS = 180  # Keep papers for 6 months
 
 
 # ============ HTTP Helper ============
@@ -232,7 +234,10 @@ def fetch_openalex(query, max_results=5):
                     source = "conference"
 
             doi = item.get("doi", "")
-            paper_url = doi if doi else item.get("id", "")
+            paper_url = doi if doi else ""
+            # Skip papers without real URLs (openalex internal links are useless)
+            if not paper_url:
+                continue
 
             papers.append({
                 "title": title,
@@ -380,10 +385,14 @@ def main():
 
     # Merge & save
     all_papers = all_new + existing["papers"]
-    cutoff = (datetime.now() - timedelta(days=60)).strftime("%Y-%m-%d")
-    all_papers = [p for p in all_papers if p.get("date", "9999") >= cutoff]
+    today = datetime.now().strftime("%Y-%m-%d")
+    cutoff = (datetime.now() - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
+    # Filter: remove future dates and papers older than retention period
+    all_papers = [p for p in all_papers if cutoff <= p.get("date", "9999") <= today]
+    # Remove papers with openalex internal URLs (no real link)
+    all_papers = [p for p in all_papers if not p.get("url", "").startswith("https://openalex.org/")]
     all_papers.sort(key=lambda x: x.get("date", ""), reverse=True)
-    all_papers = all_papers[:200]
+    all_papers = all_papers[:MAX_TOTAL_PAPERS]
 
     output = {
         "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
