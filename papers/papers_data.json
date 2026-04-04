@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-04-03 19:39",
+  "last_updated": "2026-04-04 19:31",
   "papers": [
+    {
+      "title": "Abstract 4187: scOncoNet: Dual-graph attention network for program-aware <i>in-silico</i> gene perturbation in single-cell cancer data",
+      "authors": "Tingyi Li, Yuanyuan Shen, Bin Baek, Xiaoqing Yu, Xuefeng Wang",
+      "abstract": "Abstract Identifying genes that functionally drive malignant programs in single-cell tumors remains difficult, particularly when CRISPR or Perturb-seq data are unavailable. Co-expression alone cannot separate correlation from regulatory influence, and existing analyses lack a framework that connects global molecular networks with patient-specific cellular programs. Current single-cell foundation models largely rely on gene-gene relationships while making limited use of the cell-cell structure intrinsic to tumor ecosystems. To address these gaps, we developed scOncoNet, a lightweight dual-graph attention network that integrates gene-gene and cell-cell structure, malignant meta-program supervision, and gene-to-program attribution to enable program-aware estimation of gene influence directly from patient scRNA-seq data. The model incorporates PPI networks to provide global molecular context for the gene encoder and constructs a program-aware cell graph blending local transcriptomic similarity with malignant program similarity. A two-layer architecture jointly learns gene and cell embeddings, with an attention mechanism that adaptively reweights cell-cell edges to highlight biologically meaningful transitions such as EMT or hypoxia. A program-prediction module anchors the cell embedding space to malignant programs, and gene impact scores combine PPI-informed gene embeddings with gradients that quantify each gene’s influence on these programs, generating a mechanistic estimate of its potential effect on malignant states. Using an esophageal squamous-cell carcinoma (ESCC) single-cell dataset restricted to epithelial cells, we defined ESCC-specific malignant programs, including proliferation (MKI67), EMT (VIM), hypoxia (CA9), and immune evasion, and applied scOncoNet to prioritize candidate targets. Top-ranked genes were dominated by ESCRT and proteasome components, including multiple CHMP family members along with VPS25, TSG101, PSMD14, and PSMC2, reflecting core survival and vesicle-trafficking functions consistent with their pan-cancer essentiality. Compared with existing scRNA-seq-based approaches, scOncoNet shows stronger alignment between gene embeddings and malignant programs, enabling precise recovery of functional gene-program relationships. Across additional single-cell datasets, the model consistently preserved malignant program structure and generated stable target rankings. In summary, scOncoNet integrates global molecular networks with patient-specific cellular programs to identify functional gene drivers directly from tumor single-cell data. Its ability to reveal core cancer progression machinery and prioritize candidate CRISPR targets without perturbation experiments suggests utility for mechanistic studies and therapeutic target discovery in tumor types lacking perturbation datasets. Citation Format: Tingyi Li, Yuanyuan Shen, Bin Baek, Xiaoqing Yu, Xuefeng Wang, . scOncoNet: Dual-graph attention network for program-aware in-silico gene perturbation in single-cell cancer data [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 4187.",
+      "date": "2026-04-03",
+      "url": "https://doi.org/10.1158/1538-7445.am2026-4187",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Cancer Research",
+      "direction": "cell",
+      "id": "8d9976275571"
+    },
     {
       "id": "sample_llm_001",
       "title": "Reasoning Beyond Chains: Tree-Structured Deliberation for Complex Problem Solving in LLMs",
@@ -27,6 +39,54 @@
           "选择最优路径输出答案"
         ]
       }
+    },
+    {
+      "title": "Multi-emotion and intensity-driven response generation for richer multimodal dialogue",
+      "authors": "Apoorva Singh, Raj Shree, Dhirendra Pandey, Virendra Singh",
+      "abstract": "The combination of well-chosen words becomes a thought, although the thought attains meaningful significance only when spoken with emotion. The significance of every sentence could vary depending on the emotions behind it. As AI speech agents evolve, understanding and integrating human emotions is key to fostering natural and impactful interactions. Recently, researchers have given preference to the development of communication systems that are tuned to emotions. In recent work, our focus is on generating multi-emotional responses with precisely controlled intensity by integrating essential insights from text, audio, and visual elements in multimodal dialogues. In this regard, the authors designed a Multimodal Multi Emotion and Intensity-leaded Deliberation Decoder (MMEI-DD) framework that encodes the multimodal knowledge using the Transformer network and captures the inter-modality representation. The desired emotion and corresponding intensity are provided during the two-step decoding mechanism to the deliberation decoder to generate multi-emotion and intensity guided responses. The authors expanded the multimodal feature set (MEIMD + +) based on the recently introduced MEIMD (Multiple Emotion Intensity-Aware Multi-party Dialogue) dataset and demonstrate that integrating multimodal knowledge enhances the performance and reliability of our proposed approach compared to the existing method. In this paper our proposed model leverage to support further research, the necessary resources and code will be made publicly available.",
+      "date": "2026-04-02",
+      "url": "https://doi.org/10.1038/s41598-026-41034-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "42be77c6483f"
+    },
+    {
+      "title": "Integrating large language models for enhanced predictive analytics in healthcare",
+      "authors": "Yuli Wang, Yuwei Dai, R. Wang, Tej I. Mehta, Premal Trivedi, ...",
+      "abstract": "Physicians frequently confront time-sensitive decisions under uncertain conditions, necessitating reliable tools for forecasting clinical outcomes. Although clinical predictive models have the potential to assist in these critical decisions, their widespread adoption is hindered by complexities in data handling, model development, and integration into clinical workflows. This study introduces a novel framework (Hopkins LLM) leveraging structured electronic health records (EHRs) data to develop and deploy clinical large language models (LLMs) that act as multi-task-capable predictive engines to support clinically constrained decision-support tasks with minimal barriers to implementation. Employing the advanced LLaMA architecture, consisting of 7 billion parameters, our model was pre-trained on a comprehensive corpus and subsequently fine-tuned and tested on a dataset of 42,160 patients within Johns Hopkins Health System, addressing a spectrum of clinical and operational prediction tasks. We validated our model across three diverse external health systems and four key prediction tasks involving 1,329 patients, including 30-day all-cause readmissions, 90-day all-cause mortality, 30-day intensive care unit (ICU) admissions, and treatment recommendations. The proposed Hopkins-LLM framework achieved a mean area under the receiver operating characteristic curve (ROC-AUC) of 0.84 [0.82, 0.88], yielding a significant 0.28 advancement over zero-shot baseline LLMs (p<0.05). These findings underscore the promise of LLMs as unified, user-friendly clinical prediction systems, adept at reasoning across diverse data sources to enhance decision-making at the point of care.",
+      "date": "2026-04-02",
+      "url": "https://doi.org/10.1038/s41746-026-02572-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "medical",
+      "id": "d2119057f55d"
+    },
+    {
+      "title": "Automated Clinical Information Extraction from Diagnostic and Nondiagnostic Radiology Reports Using Modern Language Models",
+      "authors": "Benjamin G. Mittman, Giana D’Aleo, Michael B. Rothberg, Nicholas J. Casacchia, Samer Albahra",
+      "abstract": "Our objective was to automate the extraction of clinical diagnoses from diagnostic and nondiagnostic radiology reports using modern language models and structured electronic health record (EHR) data. We selected venous thromboembolism (VTE) as our use case for which imaging is the gold standard but is not always fully diagnostic. We extracted venous duplex, computed tomography, and ventilation-perfusion scan reports from the Cleveland Clinic EHR system for patients admitted 2011-2020. Report ground truths were positive, negative, or nondiagnostic. We compared multiple large language models (LLMs) and bidirectional encoder representations from transformers (BERT) models on multiclass classification in holdout evaluation sets. Error analysis guided iterative LLM prompt design and maximized the detection of nondiagnostic reports. ICD-10 codes and therapeutic anticoagulation data were used to adjudicate VTE diagnoses for patients with nondiagnostic reports. We identified 82,476 radiology reports among 213,724 patients. Across models, multiclass areas under the receiver operating characteristics and precision-recall curves ranged from 0.83 to 0.96 and 0.57 to 0.94. The most accurate model, Llama-3.3, detected 95% of VTE-positive reports with a precision of 99.6% and detected 87% of nondiagnostic reports with a precision of 88%. The positive detection rate increased to 98% when we paired structured EHR variables with minimal chart review (0.7% of the evaluation set) to adjudicate diagnoses for patients with nondiagnostic reports. In summary, Llama-3.3 was highly sensitive and specific for positive VTE diagnoses and nondiagnostic radiology reports. We integrated an LLM, structured EHR variables, and limited chart review for successful management of diagnostic uncertainty in automated information extraction from radiology reports.",
+      "date": "2026-04-02",
+      "url": "https://doi.org/10.1007/s10278-026-01932-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Imaging Informatics in Medicine",
+      "direction": "medical",
+      "id": "ffef4d64c857"
+    },
+    {
+      "title": "Advances in the Application of Deep Learning for Antimicrobial Peptide Screening",
+      "authors": "Yuting Fu",
+      "abstract": "The problem of bacterial resistance to antibiotics is becoming more and more serious, and it is urgent to develop new antibacterial drugs to cope with this situation. Antimicrobial peptides (AMPs) are a group of natural peptides with advantages including broad-spectrum antibacterial activity and a low tendency to induce resistance, and have become attractive alternatives to antibiotics. However, their broad application is constrained by the inefficiency and high cost of conventional screening methods. Recently, deep learning (DL) has enabled more streamlined identification, design, and prediction of AMP activity through advanced data processing and pattern recognition. A few review articles have previously summarized the application of machine learning (ML) in the identification of antimicrobial peptides, but none of them have detailed the latest advancements in DL. In this review, the latest AMP classification and screening approaches achieved by DL techniques are surveyed. First, the biological background of AMPs is introduced, followed by current applications of antimicrobial peptides in industry and medical treatment. The most popular DL techniques are explained, and state-of-the-art research based on these techniques for classifying antimicrobial peptides and designing novel peptide sequences is highlighted. Finally, the limitations and challenges of AMP prediction are discussed.",
+      "date": "2026-04-02",
+      "url": "https://doi.org/10.62762/asfp.2026.121905",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Agricultural Science and Food Processing",
+      "direction": "cell",
+      "id": "6667a5028c07"
     },
     {
       "title": "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning",
@@ -166,6 +226,30 @@
           "解码预测扰动后基因表达变化"
         ]
       }
+    },
+    {
+      "title": "Bridging the Interpretation Gap: Synchrotron Characterisation for Industry – A Perspective from a Specialist SME",
+      "authors": "A. Vamvakeros, S. W. T. Price, S. D. M. Jacques, A. M. Beale",
+      "abstract": "As synchrotrons around the world transition to fourth generation, the industrial R&D landscape faces a critical paradox: exponential increases in X-ray brilliance have not yet translated into a proportional acceleration of commercial solutions.This article examines the Interpretation Gap between the delivery of raw synchrotron facility measurements and the extraction of scientific information needed to drive industrial R&D.We argue that the traditional facility-centric model tends to focus on high data throughput and often fails to provide the physicochemical insight required for industrial decision-making.Operating from the Harwell Science and Innovation Campus, Finden Ltd serves as a strategic R&D partner, acting as a scientific translator between advanced experiments in large-scale scientific facilities and commercial urgency.We critically assess the prevailing drive toward nanometer resolution at the expense of representative sampling and discuss the associated loss of capability related to the smaller maximum field of view that can be achieved at multimodal imaging beamlines.By advocating for formal Joint Development Programs between facilities and specialised scientific SMEs, we propose a shift toward a more integrated R&D partnership.This model ensures that the massive public investment in scientific infrastructure is fully leveraged to solve complex industrial problems through advanced characterisation and expert data analysis, including state-of-the-art machine learning approaches to handle complex experimental data.",
+      "date": "2026-04-01",
+      "url": "https://doi.org/10.26434/chemrxiv.15001492/v1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ChemRxiv",
+      "direction": "cell",
+      "id": "27f96b31bb49"
+    },
+    {
+      "title": "Artificial Intelligence in Cardiovascular Medicine: A Giant Step in Personalized Medicine?",
+      "authors": "Stanislovas S. Jankauskas, Fahimeh Varzideh, Urna Kansakar, Gaetano Santulli",
+      "abstract": "Artificial intelligence (AI) is rapidly reshaping cardiovascular (CV) medicine, driving a paradigm shift toward truly personalized and data-driven care. This comprehensive review examines the conceptual foundations, clinical applications, and future implications of AI across the CV continuum, spanning prevention, diagnosis, risk stratification, and therapy. Core AI methodologies (including machine learning, deep learning, natural language processing, and computer vision) are discussed in the context of cardiology’s uniquely data-rich environment, encompassing imaging, electrocardiography, electronic health records, wearable devices, and multi-omics data. This systematic review highlights major clinical domains where AI has demonstrated a substantial impact, including CV imaging, ECG interpretation, hypertension and heart failure management, coronary artery disease, acute coronary syndromes, interventional cardiology, and cardiac surgery. AI-driven predictive analytics enable early detection of subclinical disease, improved prognostication, and individualized prevention strategies, while wearable technologies and remote monitoring platforms facilitate continuous, real-world patient surveillance. Emerging applications in pharmacotherapy, drug repurposing, and genomics further reinforce AI’s role in advancing precision cardiology. Equally emphasized are the ethical, legal, and social challenges accompanying AI adoption, such as algorithmic bias, data privacy, cybersecurity, interpretability, and regulatory oversight. Our review underscores the necessity of rigorous clinical validation, transparent model design, and seamless integration into clinical workflows to ensure safety, equity, and physician trust. Ultimately, AI is best positioned as an augmentative tool that complements (but does not replace!) clinical expertise. By fostering hybrid intelligence that integrates human judgment with computational power, AI has the potential to redefine CV care delivery, improve outcomes, and support a more proactive, patient-centered healthcare model.",
+      "date": "2026-04-01",
+      "url": "https://doi.org/10.3390/jpm16040192",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Personalized Medicine",
+      "direction": "cell",
+      "id": "ee3e70fdc4b3"
     },
     {
       "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
