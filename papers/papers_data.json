@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-06 19:53",
+  "last_updated": "2026-04-07 20:02",
   "papers": [
+    {
+      "title": "Machine learning-driven drug repurposing for HER2-positive breast cancer",
+      "authors": "Basavana Gowda Hosur Dinesh, Srinivas Ganjipete, Bandral Sunil Kumar, Damodar Nayak Ammunje, Selvaraj Kunjiappan, ...",
+      "abstract": "Breast cancer, particularly the Human Epidermal Growth Factor Receptor 2 (HER2)-positive subtype, remains a significant clinical challenge due to its aggressive nature and the frequent development of resistance to targeted therapy. In this study, we created a comprehensive machine-learning (ML)-based drug repurposing framework to identify new HER2 inhibitors among FDA-approved drugs. A carefully curated dataset of 13,944 HER2 bioactivity records from BindingDB was used to build high-accuracy predictive models. This involved optimizing descriptors, reducing dimensionality, and selecting key features. The Random Forest model trained on 75 optimized descriptors demonstrated the best performance (R² = 0.81, RMSE = 0.86, MAE = 0.6483). This allowed us to understand structure-activity relationships and perform reliable virtual screening of 4,099 FDA-approved drugs. Docking studies against HER2 wild-type (7PCD) revealed strong interactions, with scores from -10.5 to -7.5 kcal/mol. For the exon-20 insertion mutant (8U8X), the affinities were even higher (-11.6 to -8.0 kcal/mol), exceeding the reference co-crystal ligand in both cases. FDA0870 (Timolol maleate) consistently ranked as a top dual inhibitor, forming stable hydrogen bonds and hydrophobic contacts with key catalytic residues of both wild-type and mutant HER2. Molecular dynamics simulations supported its stability, with wild-type HER2-FDA0870 complexes showing an average protein RMSD of 3.4 Å and a ligand RMSD of 2.9 Å, whereas mutant complexes had an average protein RMSD of 3.9 Å and a ligand RMSD of 2.1 Å over extended trajectories. Persistent interactions with residues such as ASP863/ASP867, THR862/THR866, and LYS753 were observed. ADMET analysis indicated that the drug had good drug-like properties, moderate permeability, a high unbound fraction, and acceptable safety features, suggesting its potential for further development. This integrated ML, docking, MD, and ADMET approach demonstrates that FDA0870 is a promising repurposed dual inhibitor for HER2-positive and HER2-mutant breast cancer, highlighting the value of computational pipelines in speeding up the search for targeted cancer therapies.",
+      "date": "2026-04-06",
+      "url": "https://doi.org/10.1038/s41598-026-45361-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "24d82f6b54b0"
+    },
+    {
+      "title": "Reproducibility and Robustness of Large Language Models for Mobility Functional Status Extraction",
+      "authors": "Xingyi Liu, Muskan Garg, Eunji Jeon, Heling Jia, Jennifer L. St. Sauver, ...",
+      "abstract": "Clinical narrative text contains crucial patient information, yet reliable extraction remains challenging due to linguistic variability, documentation habits, and differences across care settings. Large language models (LLMs) have shown strong accuracy on clinical information extraction (IE), but their reproducibility (stability under repeated runs) and robustness (stability under small, natural prompt variations) are less consistently quantified, despite being central to clinical deployment. In this study, we evaluate three open-weight LLMs representing distinct modeling choices: a dense general-purpose model (Llama 3.3), a mixture-of-experts (MoE) general-purpose model (Llama 4), and a domain-tuned medical model (MedGemma). We focus on binary clinical IE aligned with four mobility classes from the International Classification of Functioning, Disability and Health (ICF) framework. Using a controlled experimental design, we quantify (1) intra-prompt reproducibility across repeated sampling and (2) inter-prompt robustness across paraphrased prompts. We jointly report predictive performance (F1-score) and stability (Fleiss' Kappa [κ]). And we test factor effects using three-way ANOVA with post-hoc comparisons. Results show that increasing temperature generally degrades agreement, but the magnitude depends on model and task; furthermore, prompt paraphrasing can substantially reduce stability, with particularly large drops for the MoE model. Finally, we evaluate a practical mitigation, self-consistency via majority voting, which improves κ substantially and often improves or preserves F1-score, at the cost of additional inference. Together, these findings provide a reproducible framework and concrete recommendations for evaluating and improving LLM reliability in clinical IE.",
+      "date": "2026-04-05",
+      "url": "https://doi.org/10.64898/2026.04.03.26350117",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "medRxiv",
+      "direction": "medical",
+      "id": "304b1118bbc5"
+    },
+    {
+      "title": "AI-Driven BCR Modeling for Precision Immunology",
+      "authors": "Tianming Liu, Xusheng Zhao, Fan Yang",
+      "abstract": "The B cell receptor (BCR) repertoire captures an individual’s immunological history and antigen-driven evolution within a vast, high-dimensional sequence space. Although bulk and single-cell adaptive immune receptor repertoire sequencing (AIRR-seq) now enables deep profiling of BCR diversity, interpreting these datasets remains challenging due to strong inter-individual heterogeneity, nonlinear sequence–structure–function relationships, dynamic clonal evolution, and the rarity of functionally relevant clones. Artificial intelligence (AI) provides a conceptual and computational framework for addressing these challenges. Here, we summarize how advanced deep learning architectures, including antibody-specific language models, graph neural networks (GNNs), and generative frameworks, uncover clonal topology, structural features, and antigen-binding semantics. We further highlight applications in cancer, infectious disease, and autoimmunity. Finally, we propose a closed-loop framework that integrates multimodal datasets, interpretable AI, and iterative experimental validation to advance predictive immunology and accelerate therapeutic antibody discovery.",
+      "date": "2026-04-05",
+      "url": "https://doi.org/10.3390/ijms27073296",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Molecular Sciences",
+      "direction": "cell",
+      "id": "5b5b4519627a"
+    },
+    {
+      "title": "Interactys-AI: Toward AI-Driven Structural Mapping of Virus–Host Interfaces for Antiviral Repurposing and Pandemic Preparedness",
+      "authors": "Christian Poitras, Ali Harake, Nathalie Grandvaux, Benoit Coulombe",
+      "abstract": "Understanding how viruses engage host cell surfaces is fundamental to infection biology and therapeutic development. While vaccines remain central to prevention, recent global crises have emphasized the need for complementary antiviral strategies that can be mobilized rapidly against both known and emerging pathogens. In this context, artificial intelligence (AI) systems for biomolecular structure prediction, culminating in AlphaFold 3, are reshaping what is experimentally and conceptually achievable. Here, we present “Interactys-AI”, a framework designed to exploit AI-based structural modeling to systematically map virus–host protein–protein interactions (PPIs) and connect them to actionable drug repurposing opportunities. Beyond a technical workflow, Interactys-AI reflects a broader transformation toward predictive and anticipatory antiviral discovery. We describe the conceptual foundations of the platform, its implementation, and its application to influenza A H5N1 hemagglutinin. We further discuss how structural AI may redefine preparedness strategies, highlight current limitations, and outline future directions toward real-time therapeutic hypothesis generation.",
+      "date": "2026-04-05",
+      "url": "https://doi.org/10.3390/biom16040541",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Biomolecules",
+      "direction": "cell",
+      "id": "e0bdccec03dd"
+    },
     {
       "title": "The AI interviewer: multi-faceted evaluation of adaptive questioning by large language models",
       "authors": "A.S. Panfilova, Vadim Bolshev, Mikhail Mozikov, V. V. Latynov, Alexander Vanin, ...",
