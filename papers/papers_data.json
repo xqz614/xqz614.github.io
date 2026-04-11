@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-04-10 19:44",
+  "last_updated": "2026-04-11 19:36",
   "papers": [
+    {
+      "title": "Creating customized chatbots with ChatGPT to promote physical activity: a mini review",
+      "authors": "Liam O’Malley, Aidan Halley, Amanda Willms, India Edwards, Sam Liu",
+      "abstract": "Artificial intelligence (AI) chatbots powered by large language models (LLMs) such as ChatGPT offer a promising approach for delivering scalable, personalized physical activity interventions. Despite growing interest in applying these tools to health behaviour change, concerns remain regarding accuracy, safety, hallucinations, privacy, and theoretical grounding. This mini-review summarizes current methods for creating customized ChatGPT-based chatbots for physical activity promotion and outlines approaches for evaluating their performance. A literature search was conducted across five databases, white papers, and OpenAI technical reports. Three primary customization strategies were identified: retrieval-augmented generation (RAG), system prompt engineering, and fine-tuning. RAG enhances accuracy by grounding responses in curated guidelines and behaviour-change frameworks. System prompts define the chatbot's role, tone, and reasoning logic. Fine-tuning adapts the model's communication style using expert-crafted prompt–response pairs. These methods can be implemented independently or in combination, depending on intervention goals. Evaluation of customized chatbots requires both intrinsic model-based testing and extrinsic human-centred assessment. Additional considerations include protecting user privacy by avoiding collecting identifiable data, implementing data-minimization safeguards, and managing token-based operational costs associated with ChatGPT systems. Customized ChatGPT chatbots offer substantial potential for advancing physical activity promotion; however, safe and effective deployment requires thoughtful design, rigorous evaluation, and careful attention to privacy and cost.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.3389/fdgth.2026.1761193",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Digital Health",
+      "direction": "medical",
+      "id": "70a894ac5658"
+    },
+    {
+      "title": "The WHO priority list of antibiotic-resistant bacteria: challenges and opportunities for next-generation antimicrobial development",
+      "authors": "Emad M. Abdallah, Abdulrahman Mohammed Alhudhaibi, Mahmoud M. Dahab, Abdullah Al Noman, Pranav Sharma, ...",
+      "abstract": "Antimicrobial resistance (AMR) remains one of the most serious global threats to public health, driven by the rapid emergence and dissemination of multidrug-resistant bacterial pathogens that compromise existing antibiotic therapies. In response, the World Health Organization (WHO) has defined priority lists of antibiotic-resistant bacteria to guide research, innovation, and drug development efforts. This narrative review synthesizes current knowledge on the molecular mechanisms underlying resistance in WHO-priority pathogens, including reduced membrane permeability, efflux pump overexpression, enzymatic drug inactivation, target modification, biofilm formation, and horizontal gene transfer. Beyond mechanistic insights, we critically evaluate the therapeutic limitations of conventional antibiotics, the failure of traditional discovery pipelines, and the growing clinical and economic burden of resistant infections. Emerging strategies, including artificial intelligence-assisted drug discovery, phage therapy, antimicrobial peptides, CRISPR-based systems, resistance-modifying combinations, and natural product-derived compounds and plant compounds, are assessed with emphasis on pharmacological feasibility, translational challenges, and clinical relevance. Particular attention is given to issues of delivery, toxicity, dosing optimization, resistance emergence, regulatory barriers, and real-world implementation. Finally, we highlight the central role of antimicrobial stewardship, surveillance, and a One Health framework integrating human, animal, and environmental sectors in mitigating resistance and sustaining therapeutic effectiveness. Collectively, this review underscores that addressing WHO-priority pathogens will require integrated, multidisciplinary strategies that bridge molecular biology, pharmacology, clinical translation, and public health.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.3389/fphar.2026.1699987",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "cell",
+      "id": "342d0449d62f"
+    },
+    {
+      "title": "Integrating the 3Rs into Modern Biomedical Research: Ethical Innovations and Multidisciplinary Strategies",
+      "authors": "Shiv Kumar Bhardwaj, Trilochan Satapathy",
+      "abstract": "The ethical use of animals in biomedical research has been shaped by the guiding framework of the 3Rs-Replacement, Reduction and Refinement. With rapid advancements in biotechnology, computational sciences and translational medicine, the practical integration of these principles has evolved beyond regulatory compliance toward innovation-driven ethical research. This review examines emerging multidisciplinary strategies that operationalize the 3Rs across modern biomedical research pipelines. Replacement approaches increasingly employ human-relevant alternatives such as advanced in vitro models, organ-on-chip platforms, computational simulations, and artificial intelligence-assisted predictive models, reducing reliance on traditional animal experimentation. Reduction strategies emphasize rigorous experimental design, improved statistical methodologies, data-sharing initiatives, and high-resolution imaging technologies that maximize data output while minimizing animal use. Refinement focuses on improving animal welfare through enhanced housing conditions, minimally invasive monitoring technologies, precision analgesia and welfare-based humane endpoints. The integration of these principles is strengthened by collaboration among biologists, veterinarians, engineers, bioinformaticians, and ethicists. Furthermore, regulatory frameworks and funding agencies increasingly promote the adoption of innovative alternative methodologies aligned with the 3Rs. By embedding ethical responsibility within scientific practice, the multidisciplinary implementation of the 3Rs contributes to improved research reproducibility, enhanced translational relevance and greater societal acceptance of biomedical research. Ultimately, advancing ethical innovations in research design supports the transition toward more predictive, human-relevant models while maintaining high standards of animal welfare.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.64904/fpm2026.025",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Preventive Medicine",
+      "direction": "cell",
+      "id": "0f860ba41846"
+    },
+    {
+      "title": "Integrating self-attention and LSTM into TD3 for robust mobile robot navigation in dynamic environments",
+      "authors": "Luyun Chen, Qiang Tang, Rui Xu, You Chen",
+      "abstract": "Mobile robot path planning in dynamic environments is challenging because existing deep reinforcement learning methods lack temporal memory, suffer from inefficient sample utilization under uniform replay, and face credit assignment difficulties with sparse rewards. This paper proposes the Self-Attention LSTM TD3 (SAL-TD3) algorithm, which integrates LSTM networks and multi-head self-attention into the TD3 framework to capture temporal dependencies for proactive obstacle avoidance. A rank-based prioritized experience replay with n-step returns improves sample efficiency, and a composite reward function provides dense feedback for efficient policy learning. Experiments show that SAL-TD3 achieves a 91% success rate (vs. 77% for TD3), reduces path length by 16.6%, and lowers collision rate from 23% to 9%. Generalization tests and real-world robot deployment confirm robust sim-to-real transfer performance.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.1038/s41598-026-45819-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "402e9d4382cf"
+    },
+    {
+      "title": "K-STAMM: a knowledge-enhanced spatial – temporal attention model with multimodal fusion for pneumonia prediction",
+      "authors": "S. Anbukkarasi, S. Hemalatha, Arunkumar Balakrishnan, S. Varadhaganapathy, Sathishkumar VeerappampalayamEaswaramoorthy",
+      "abstract": "Precise prediction of pneumonia remains a challenge mainly because effective integration of clinical data that are highly heterogeneous is mandatory. The types of clinical data in question include longitudinal electronic health records (EHRs), medical imaging, clinical text, and domain knowledge. Nevertheless, most existing multimodal transformer-based models face difficulties in multimodal alignment, temporal regularity, and limited incorporation of structured medical knowledge. In order to solve these problems, we present K-STAMM, a knowledge-augmented spatiotemporal attention model for multimodal fusion. Different from traditional methods, K-STAMM brings together biomedical knowledge sourced from the Unified Medical Language System through embedding-based representations, which allow for semantically enriched feature learning. On top of that, it uses attention-based spatial modeling of structured EHR data without direct graph construction along with temporal sequence modeling to effectively capture disease progression at irregular time intervals. Besides, a cross-modal fusion mechanism that harmonizes chest X-ray images, clinical text, and knowledge embeddings is used to build a single and interpretable patient representation. The experimental results on MIMIC-IV and MIMIC-CXR datasets exhibit that K-STAMM surpasses strong unimodal and multimodal baselines, obtaining an AUROC of 0.953, an AUPRC of 0.962, and an F1-score of 0.910. Also, ablation studies confirm the effectiveness of knowledge augmentation, temporal attention, and multimodal fusion. In brief, K-STAMM offers a scalable and interpretable framework for multimodal clinical prediction.",
+      "date": "2026-04-09",
+      "url": "https://doi.org/10.1038/s41598-026-47146-w",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "9cebf7cd823b"
+    },
+    {
+      "title": "Multimodal PPG-Based Arrhythmia Detection Using a CLIP-Initialized Multi-Task U-Net and LLM-Assisted Reporting",
+      "authors": "Youngho Huh, Minhwan Noh, Dongwoo Ji, Yuna Oh, Sukkyu Sun",
+      "abstract": "Photoplethysmography (PPG) has emerged as an attractive modality for non-invasive cardiovascular monitoring due to its low cost, unobtrusive nature, and ubiquity in consumer wearable devices. Despite its potential, existing PPG-based arrhythmia detection systems remain limited in scope: (i) most target only atrial fibrillation, (ii) temporal localization of abnormal segments is rarely provided, and (iii) deep learning models lack explainability, hindering adoption in clinical workflows. We present a comprehensive and fully integrated framework for multi-class arrhythmia detection, segmentation, and explainability based on PPG waveforms, Heart Rate Variability (HRV), and structured clinical metadata. The proposed system introduces a CLIP-style contrastive learning module aligning PPG waveforms with clinical variables and rhythm-state textual descriptions using BioBERT; a multitask U-Net architecture performing 4-class classification and 1D segmentation; a Retrieval-Augmented Generation (RAG) pipeline leveraging Gemini Flash large language models to produce guideline-grounded diagnostic reports; and a real-time Streamlit-based web platform supporting inference, visualization, and database storage. The system significantly improves classification accuracy (from 86.27% to 91.19%) and segmentation Dice (from 0.5815 to 0.7167). These results demonstrate the feasibility of a robust, multimodal, and explainable PPG-based arrhythmia monitoring system for real-world applications.",
+      "date": "2026-04-09",
+      "url": "https://doi.org/10.3390/s26082316",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Sensors",
+      "direction": "medical",
+      "id": "3f1f0ea21ff1"
+    },
     {
       "title": "Ensemble of transformers for depression emotion classification",
       "authors": "Furkan Kasap, Sevinç İlhan Omurca, Ekin Ekinci",
