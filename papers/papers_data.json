@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-04-11 19:36",
+  "last_updated": "2026-04-12 19:39",
   "papers": [
+    {
+      "title": "Leukemia Detection using Quantum Machine Learning",
+      "authors": "Mrs. M. Aruna",
+      "abstract": "Leukemia is a critical blood-related health problem for which early diagnosis is a key aspect in the survival of the patient. Computer-assisted diagnosis using microscopic white blood cell images has received significant attention because the conventional manual approach is too time-consuming. In this paper, a hybrid Quantum Machine Learning-based approach for the classification of leukemia is presented. In the first place, the microscopic white blood cell images are preprocessed using resizing, normalization, and denoising techniques. Then, Principal Component Analysis is applied for dimensionality reduction. The reduced feature vectors are then mapped onto a quantum system using a Variational Quantum Circuit-based Quantum Neural Network.The presented method also validates the possibility of quantum-assisted learning in biomedical image diagnosis. Additionally, it offers a glimpse of how well a hybrid model would perform under Noisy Intermediate-Scale Quantum (NISQ) conditions. The experimental results are achieved using standard performance parameters such as accuracy, precision, recall, and F1-score. This method indicates how a hybrid model of QML can perform in a computationally simpler manner. This paper also indicates the potential of a quantum-classical system in future clinical applications for leukemia screening and diagnosis.",
+      "date": "2026-04-11",
+      "url": "https://doi.org/10.22214/ijraset.2026.79490",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal for Research in Applied Science and Engineering Technology",
+      "direction": "cell",
+      "id": "2a909e79975d"
+    },
+    {
+      "title": "Exploring Parental Vaccine Hesitancy: Reflexive Thematic Analysis—Insights from Traditional vs. AI Methods",
+      "authors": "Carlene Brown",
+      "abstract": "&lt;i&gt;Vaccine hesitancy among parents of young children extends beyond individual family choice and impact; it is an imminent health challenge with far-reaching consequences. This study explores the underlying beliefs of parents through qualitative interviews and compares Traditional human-led reflexive thematic analysis (RTA) with AI-assisted RTA using ChatGPT. It examines latent beliefs contributing to vaccine hesitancy among parents of children under 18 and evaluates the effectiveness of Traditional RTA versus AI-assisted RTA. A basic qualitative research design was used to explore how individuals construct meaning from their experiences. Semi-structured virtual interviews were conducted with 18 participants recruited via convenience sampling through social media. Data were analyzed using RTA, and traditional methods were compared with AI-assisted RTA using ChatGPT. Traditional RTA identified four main themes: influences and perceptions shaping vaccine decisions, trust and concerns in vaccine decision-making, attitudes toward vaccine mandates, and alternative perspectives on vaccinations. AI-assisted RTA discovered five and six themes, respectively. Parental perspectives were shaped by personal and vicarious experiences, trust in healthcare providers, and various information sources. The methodological comparison revealed that Traditional RTA provided a more nuanced and comprehensive analysis than AI-driven RTAs, though the AI analyses were significantly faster.&lt;/i&gt;",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.29333/ajqr/18007",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "American Journal of Qualitative Research",
+      "direction": "medical",
+      "id": "c4b174e70b4d"
+    },
+    {
+      "title": "Between Human Touch and AI: A Phenomenological Study on ChatGPT in Nursing Clinical Education",
+      "authors": "John Richard Apostol Danganan",
+      "abstract": "The researcher employed Moustakas’ transcendental phenomenology through a phenomenological research design to study how fourth-year nursing students from University of the Cordilleras in Baguio City experienced ChatGPT as a clinical education aid during their actual nursing practice. The researcher applied Creswell’s thematic analysis method to discover recurring themes that appeared in student narrative accounts. The research demonstrated that ChatGPT functions as a dual-sided educational tool which supports students who study in clinical environments. The system provides instant responses together with fast information retrieval yet students encounter challenges because they must deal with both non-citable content that functions as unreliable information and the dual problem of restricted source access and network connectivity issues and their risk of becoming addicted to the system. The problems will obstruct critical thinking skill development together with self-directed learning ability growth which nurses require for their professional growth. The students validated information through textbooks and clinical guidelines and instructor feedback while they used the tool in specific circumstances. The students developed digital literacy skills together with ethical understanding of how to use AI technology in managed educational environments. The study shows the necessity to incorporate both structured digital literacy education and ethical AI training into clinical nursing education programs. Institutions should build guided workshops which will strengthen evidence-based verification methods that need technological system upgrades to create a learning environment that supports both digital and actual clinical education.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.69739/jelm.v3i1.1618",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Education Learning and Management",
+      "direction": "medical",
+      "id": "cbb0b94d7be8"
+    },
+    {
+      "title": "Assessing the performance of multimodal large language models in experimental information extraction from liquid–liquid phase separation literature",
+      "authors": "Ka Yin Chin, Satoru Fujii, Shoichi Ishida, Kei Terayama",
+      "abstract": "Advances in experimental techniques have expanded the volume of biological data. This has increased the demand for structured information extraction from papers, with large language models (LLMs) considered promising. However, challenges remain, including limited validation in biology and unclear applicability to multimodal tasks that integrate text with domain-specific figures, such as microscopic images and scatter plots. Here, we developed a multimodal LLM (MLLM)-based workflow to extract the experimental conditions and phase status from the text and figures of experimental papers on liquid-liquid phase separation and validated the effect of various inputs, prompts, and MLLM types. As a result, the MLLM-based extraction methods achieved F1-scores over 0.80 by processing each figure as a processing unit and inputting domain-specific prompts reflecting manual extraction guidance. This study demonstrates the potential and limitations of MLLMs for extracting experimental information using a focused set of LLPS papers as a model case and provides insights into the possibility of advancing multimodal approaches in biology.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.1038/s41598-026-47277-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "e6d81831faf9"
+    },
+    {
+      "title": "Hybrid Machine Learning Architectures for Emergency Triage: A Systematic Review of Predictive Performance and the Complexity Gradient",
+      "authors": "Junaid Ullah, R. Kanesaraj Ramasamay, Venushini Rajendran",
+      "abstract": "Background: Emergency triage systems using machine learning traditionally rely on structured tabular data (vital signs), creating a “contextual blind spot” that ignores diagnostic information embedded in unstructured clinical narratives. Hybrid AI models that fuse tabular and text data may improve predictive discrimination, but the magnitude and conditions under which fusion adds value remain unclear. Methods: Five databases (PubMed, Scopus, Web of Science, IEEE Xplore, ACM Digital Library) were searched from 1 January 2015 to 15 December 2025. Eligible studies employed Hybrid AI models integrating structured and unstructured emergency department data with quantitative baseline comparisons. Twenty-five studies (N ≈ 4.8 million encounters) met inclusion criteria. We extracted marginal performance gains (ΔAUC), calibration metrics, and demographic reporting. Synthesis followed SWiM principles with subgroup meta-regression testing our novel “Complexity Gradient” hypothesis. Results: Hybrid models demonstrated superior discrimination compared to tabular baselines, with effect magnitude dependent on clinical task complexity. Low-complexity tasks (tachycardia prediction) showed minimal gains (median ΔAUC + 0.036, IQR: 0.02–0.05), while high-complexity tasks (hypoxia, sepsis) demonstrated substantial improvement (median ΔAUC + 0.111, IQR: 0.09–0.13). Meta-regression confirmed complexity significantly moderated effect size (R2 = 0.42, p = 0.003). Only 12% (3/25) of studies reported calibration metrics (Brier scores: 0.089–0.142). Zero studies stratified performance by race/ethnicity; 88% (22/25) failed to report training data demographics. Discussion: The complexity gradient framework explains when multimodal fusion adds predictive value: tasks where diagnostic signal resides in narrative features (temporality, negation) rather than physiological measurements. However, systematic absence of calibration reporting and fairness auditing prevents clinical deployment. Seventy-two percent of studies had high risk of bias in the analysis domain due to retrospective designs without temporal validation. Conclusions: Hybrid triage models show promise for complex diagnostic tasks but require mandatory calibration reporting and demographic performance stratification before clinical implementation. We propose minimum reporting standards including Brier scores, race-stratified metrics, and temporal validation protocols.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.3390/biomedinformatics6020021",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "BioMedInformatics",
+      "direction": "medical",
+      "id": "d081f476bcbd"
+    },
+    {
+      "title": "Application of Automated Data Extraction Technologies in Ophthalmic Electronic Health Records",
+      "authors": "Yao Yu",
+      "abstract": "Now that the healthcare industry is increasingly using digital technology, there is a lot of useful unstructured data in the electronic health record of the eye, but it is easy to make mistakes when it takes time to process it manually. In order to solve this problem, this paper carefully examines the application of optical character recognition and natural language processing in ophthalmic electronic medical records, and also pays special attention to the large language models that have recently been very hot. We checked a lot of data through Google Scholar, and after careful screening, we selected 30 good quality articles to study. From the results, these technologies have their own advantages and disadvantages: optical character recognition processing standardized equipment reporting accuracy is very high, but it is not very good when it comes to handwriting. Natural language processing can find vision data and disease characteristics from the medical record text, but if the medical record format is not uniform, the effect will be reduced. The latest large-scale language models are really powerful, they can directly handle words and pictures, and change the entire workflow, but they also have their own problems, such as data security, high operating costs, and possible hallucinations. In general, these automated technologies have deepened the use of data on electronic medical records of ophthalmology. Later research can focus more on how to better combine different types of data, and to develop some language models that are specific to ophthalmology, smaller, and can operate safely locally.",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.54097/p6k4fz34",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Advanced Engineering and Technology Research",
+      "direction": "medical",
+      "id": "6c51e6e52d9f"
+    },
     {
       "title": "Creating customized chatbots with ChatGPT to promote physical activity: a mini review",
       "authors": "Liam O’Malley, Aidan Halley, Amanda Willms, India Edwards, Sam Liu",
