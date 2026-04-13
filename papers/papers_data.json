@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-12 19:39",
+  "last_updated": "2026-04-13 20:06",
   "papers": [
+    {
+      "title": "Reading the Mood Behind Words: Integrating Prosody-Derived Emotional Context into Socially Responsive VR Agents",
+      "authors": "Sangyeop Jeong, Yeongseo Na, Seung Gyu Jeong, Jin-Woo Jeong, Seong‐Eun Kim",
+      "abstract": "In VR interactions with embodied conversational agents, users' emotional intent is often conveyed more by how something is said than by what is said. However, most VR agent pipelines rely on speech-to-text processing, discarding prosodic cues and often producing emotionally incongruent responses despite correct semantics. We propose an emotion-context-aware VR interaction pipeline that treats vocal emotion as explicit dialogue context in an LLM-based conversational agent. A real-time speech emotion recognition model infers users' emotional states from prosody, and the resulting emotion labels are injected into the agent's dialogue context to shape response tone and style. Results from a within-subjects VR study (N=30) show significant improvements in dialogue quality, naturalness, engagement, rapport, and human-likeness, with 93.3% of participants preferring the emotion-aware agent.",
+      "date": "2026-04-13",
+      "url": "https://doi.org/10.1145/3772363.3798643",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "medical",
+      "id": "308d7caaa942"
+    },
+    {
+      "title": "Machine Learning Applications for Opioid Use Management in Chronic Cancer Pain: A Systematic Scoping Review",
+      "authors": "Anastasia Zompola, Thalis Asimakopoulos, Christina Iosifidou, Dimitris Orfeas Monopatis, Fotis Braimakis, ...",
+      "abstract": "Chronic pain remains a critical clinical issue worldwide, with adverse effects on the quality of life of oncology patients. Meanwhile, the overuse of opioids to treat or alleviate chronic cancer pain has contributed to a global opioid crisis. The increasing accessibility of high-quality clinical datasets and computational frameworks has promoted the use of machine learning (ML) techniques in clinical practice to manage opioid consumption. This review investigates the current bibliography referring to the role of applied ML techniques in opioid administration in patients with chronic cancer pain. The objective of the current scoping review, according to population, intervention, comparison, and outcome (PICO) standards, was to evaluate the effectiveness of ML techniques in monitoring opioid consumption in patients with chronic cancer pain. This review includes scientific journal papers published from 2010 to 2024 that use healthcare data from patients with chronic cancer pain, apply machine learning techniques, and may address the potential consequences of the misuse of opioids. A systematic literature search, following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, was performed in PubMed and Google Scholar databases. Data extracted include the study’s goal, dataset used, cohort selected, types of ML models created, model evaluation metrics, and the details of the ML tools and techniques used to create the models. After conducting the screening process, 50 articles were identified, but only four focused specifically on or included data of patients with chronic cancer pain where ML techniques were applied. The four included studies showed high performance (area under the curve {AUC}: &gt;0.8) in predicting opioid adherence, misuse, and long-term use. Although generalizability remains limited due to small sample sizes and a lack of external validation, it sets distinct limits in applying these methods in clinical use. After a thorough review of recent literature, ML models demonstrated promising accuracy in predicting opioid adherence, misuse, and long-term use among patients with chronic cancer pain. However, these findings are based on studies with limited sample sizes and a lack of external validation, which restricts their generalizability. Future research should focus specifically on populations with chronic cancer pain and expand predictive models to incorporate a combination of clinical, psychosocial, biometric, and genomic data. This approach may enable more accurate, personalized, and safer opioid management in oncology care.",
+      "date": "2026-04-11",
+      "url": "https://doi.org/10.7759/cureus.106838",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Cureus",
+      "direction": "medical",
+      "id": "d398553556c9"
+    },
     {
       "title": "Leukemia Detection using Quantum Machine Learning",
       "authors": "Mrs. M. Aruna",
@@ -12,6 +36,90 @@
       "venue": "International Journal for Research in Applied Science and Engineering Technology",
       "direction": "cell",
       "id": "2a909e79975d"
+    },
+    {
+      "title": "Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism",
+      "authors": "Hadas Orgad, Boyi Wei, Kaden Zheng, Martin Wattenberg, Peter Henderson...",
+      "abstract": "Large language models (LLMs) undergo alignment training to avoid harmful behaviors, yet the resulting safeguards remain brittle: jailbreaks routinely bypass them, and fine-tuning on narrow domains can induce ``emergent misalignment'' that generalizes broadly. Whether this brittleness reflects a fundamental lack of coherent internal organization for harmfulness remains unclear. Here we use targeted weight pruning as a causal intervention to probe the internal organization of harmfulness in LLMs. We find that harmful content generation depends on a compact set of weights that are general across harm types and distinct from benign capabilities. Aligned models exhibit a greater compression of harm generation weights than unaligned counterparts, indicating that alignment reshapes harmful representations internally--despite the brittleness of safety guardrails at the surface level. This compression explains emergent misalignment: if weights of harmful capabilities are compressed, fine-tuning that engages these weights in one domain can trigger broad misalignment. Consistent with this, pruning harm generation weights in a narrow domain substantially reduces emergent misalignment. Notably, LLMs harmful generation capability is dissociated from how they recognize and explain such content. Together, these results reveal a coherent internal structure for harmfulness in LLMs that may serve as a foundation for more principled approaches to safety.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.09544v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09544v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d20f865f6880"
+    },
+    {
+      "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
+      "authors": "Wenyi Xiao, Xinchi Xu, Leilei Gan",
+      "abstract": "Large Vision Language Models (LVLMs) achieve strong multimodal reasoning but frequently exhibit hallucinations and incorrect responses with high certainty, which hinders their usage in high-stakes domains. Existing verbalized confidence calibration methods, largely developed for text-only LLMs, typically optimize a single holistic confidence score using binary answer-level correctness. This design is mismatched to LVLMs: an incorrect prediction may arise from perceptual failures or from reasoning errors given correct perception, and a single confidence conflates these sources while visual uncertainty is often dominated by language priors. To address these issues, we propose VL-Calibration, a reinforcement learning framework that explicitly decouples confidence into visual and reasoning confidence. To supervise visual confidence without ground-truth perception labels, we introduce an intrinsic visual certainty estimation that combines (i) visual grounding measured by KL-divergence under image perturbations and (ii) internal certainty measured by token entropy. We further propose token-level advantage reweighting to focus optimization on tokens based on visual certainty, suppressing ungrounded hallucinations while preserving valid perception. Experiments on thirteen benchmarks show that VL-Calibration effectively improves calibration while boosting visual reasoning accuracy, and it generalizes to out-of-distribution benchmarks across model scales and architectures.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.09529v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09529v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9ef2c0415e95"
+    },
+    {
+      "title": "Many Ways to Be Fake: Benchmarking Fake News Detection Under Strategy-Driven AI Generation",
+      "authors": "Xinyu Wang, Sai Koneru, Wenbo Zhang, Wenliang Zheng, Saksham Ranjan...",
+      "abstract": "Recent advances in large language models (LLMs) have enabled the large-scale generation of highly fluent and deceptive news-like content. While prior work has often treated fake news detection as a binary classification problem, modern fake news increasingly arises through human-AI collaboration, where strategic inaccuracies are embedded within otherwise accurate and credible narratives. These mixed-truth cases represent a realistic and consequential threat, yet they remain underrepresented in existing benchmarks. To address this gap, we introduce MANYFAKE, a synthetic benchmark containing 6,798 fake news articles generated through multiple strategy-driven prompting pipelines that capture many ways fake news can be constructed and refined. Using this benchmark, we evaluate a range of state-of-the-art fake news detectors. Our results show that even advanced reasoning-enabled models approach saturation on fully fabricated stories, but remain brittle when falsehoods are subtle, optimized, and interwoven with accurate information.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.09514v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09514v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "94660944f8b7"
+    },
+    {
+      "title": "RecaLLM: Addressing the Lost-in-Thought Phenomenon with Explicit In-Context Retrieval",
+      "authors": "Kyle Whitecross, Negin Rahimi",
+      "abstract": "We propose RecaLLM, a set of reasoning language models post-trained to make effective use of long-context information. In-context retrieval, which identifies relevant evidence from context, and reasoning are deeply intertwined: retrieval supports reasoning, while reasoning often determines what must be retrieved. However, their interaction remains largely underexplored. In preliminary experiments on several open-source LLMs, we observe that in-context retrieval performance substantially degrades even after a short reasoning span, revealing a key bottleneck for test-time scaling that we refer to as lost-in-thought: reasoning steps that improve performance also make subsequent in-context retrieval more challenging. To address this limitation, RecaLLM interleaves reasoning with explicit in-context retrieval, alternating between reasoning and retrieving context information needed to solve intermediate subproblems. We introduce a negligible-overhead constrained decoding mechanism that enables verbatim copying of evidence spans, improving the grounding of subsequent generation. Trained on diverse lexical and semantic retrieval tasks, RecaLLM achieves strong performance on two long-context benchmarks, RULER and HELMET, significantly outperforming baselines. Notably, we observe consistent gains at context windows of up to 128K tokens using training samples of at most 10K tokens, far shorter than those used by existing long-context approaches, highlighting a promising path toward improving long-context performance without expensive long-context training data.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.09494v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09494v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "3eeae0bf2bef"
+    },
+    {
+      "title": "From Reasoning to Agentic: Credit Assignment in Reinforcement Learning for Large Language Models",
+      "authors": "Chenchen Zhang",
+      "abstract": "Reinforcement learning (RL) for large language models (LLMs) increasingly relies on sparse, outcome-level rewards -- yet determining which actions within a long trajectory caused the outcome remains difficult. This credit assignment (CA) problem manifests in two regimes: reasoning RL, where credit must be distributed across tokens and steps within a single chain-of-thought generation (500--30K+ tokens); and agentic RL, where multi-turn environment interaction introduces stochastic transitions, partial observability, and horizons of 100+ turns (100K--1M tokens), making episode-level credit increasingly uninformative. We survey 47 CA methods (41 core, 6 adjacent enablers) published between 2024 and early 2026, organizing them in a two-dimensional taxonomy by assignment granularity (token, segment, step, turn, multi-agent) and methodology (Monte Carlo, temporal difference, model-based, game-theoretic, information-theoretic). Beyond the survey itself, we contribute three reusable resources: (1) a structured, machine-readable paper inventory with taxonomy labels, baseline families, and evidence levels; (2) a reporting checklist for future CA papers, validated against the reviewed literature to identify systematic methodological gaps; and (3) a benchmark protocol specification with task families, metadata requirements, and controlled bifurcation tasks, accompanied by a method selection decision tree. Our synthesis suggests that the shift from reasoning to agentic RL complicates and reshapes the credit assignment landscape: reasoning CA is maturing around process reward models and critic-free group comparison, while agentic CA is driving genuinely new approaches -- hindsight counterfactual analysis, privileged asymmetric critics, and turn-level MDP reformulations -- that have no direct precedent in reasoning RL.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.09459v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09459v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "01ec7dcd6c89"
+    },
+    {
+      "title": "Visually-Guided Policy Optimization for Multimodal Reasoning",
+      "authors": "Zengbin Wang, Feng Xiong, Liang Lin, Xuecai Hu, Yong Wang...",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has significantly advanced the reasoning ability of vision-language models (VLMs). However, the inherent text-dominated nature of VLMs often leads to insufficient visual faithfulness, characterized by sparse attention activation to visual tokens. More importantly, our empirical analysis reveals that temporal visual forgetting along reasoning steps exacerbates this deficiency. To bridge this gap, we propose Visually-Guided Policy Optimization (VGPO), a novel framework to reinforce visual focus during policy optimization. Specifically, VGPO initially introduces a Visual Attention Compensation mechanism that leverages visual similarity to localize and amplify visual cues, while progressively elevating visual expectations in later steps to counteract visual forgetting. Building on this mechanism, we implement a dual-grained advantage re-weighting strategy: the intra-trajectory level highlights tokens exhibiting relatively high visual activation, while the inter-trajectory level prioritizes trajectories demonstrating superior visual accumulation. Extensive experiments demonstrate that VGPO achieves better visual activation and superior performance in mathematical multimodal reasoning and visual-dependent tasks.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.09349v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.09349v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b967b79d7e84"
+    },
+    {
+      "title": "PerMix-RLVR: Preserving Persona Expressivity under Verifiable-Reward Alignment",
+      "authors": "Jihwan Oh, Soowon Oh, Murad Aghazada, Minchan Jeong, Sungnyun Kim...",
+      "abstract": "Persona prompting has been widely adopted to steer large language models (LLMs) behavior and improve their instruction performance by assigning specific characters. However, identifying an optimal persona is time-consuming, and its impact on output quality remains poorly understood. Prior work has mainly addressed this issue at the prompt level via inference-time strategies, incurring additional computation. In this work, we avoid inference-time prompt search by tackling persona sensitivity during training, aiming to train models that adapt their behavior to diverse personas while preserving task performance. In particular, we find that reinforcement learning with verifiable rewards (RLVR) systematically reduces sensitivity to persona prompts, but also reveals an inherent trade-off of outcome-based optimization: while RLVR improves robustness on tasks with verifiable goals, it can also degrade persona expressivity when needed, e.g., in-character role-playing. To address this limitation, we propose PerMix-RLVR, a persona-mixed RLVR strategy that mitigates the persona robustness-fidelity trade-off, preserving strong robustness to harmful persona variation while enabling faithful persona adoption when required. Concretely, PerMix-RLVR improves persona stability score (PSS) over RLVR by +21.2% on MATH500, while also enhancing persona fidelity by +11.4% on PersonaGym.",
+      "date": "2026-04-10",
+      "url": "https://arxiv.org/abs/2604.08986v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.08986v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1cd546c73a8a"
     },
     {
       "title": "Exploring Parental Vaccine Hesitancy: Reflexive Thematic Analysis—Insights from Traditional vs. AI Methods",
@@ -120,6 +228,18 @@
       "venue": "Scientific Reports",
       "direction": "cell",
       "id": "402e9d4382cf"
+    },
+    {
+      "title": "MedConceal: A Benchmark for Clinical Hidden-Concern Reasoning Under Partial Observability",
+      "authors": "Yikun Han, Joey Chan, Jingyuan Chen, Mengting Ai, Simo Du...",
+      "abstract": "Patient-clinician communication is an asymmetric-information problem: patients often do not disclose fears, misconceptions, or practical barriers unless clinicians elicit them skillfully. Effective medical dialogue therefore requires reasoning under partial observability: clinicians must elicit latent concerns, confirm them through interaction, and respond in ways that guide patients toward appropriate care. However, existing medical dialogue benchmarks largely sidestep this challenge by exposing hidden patient state, collapsing elicitation into extraction, or evaluating responses without modeling what remains hidden. We present MedConceal, a benchmark with an interactive patient simulator for evaluating hidden-concern reasoning in medical dialogue, comprising 300 curated cases and 600 clinician-LLM interactions. Built from clinician-answered online health discussions, each case pairing clinician-visible context with simulator-internal hidden concerns derived from prior literature and structured using an expert-developed taxonomy. The simulator withholds these concerns from the dialogue agent, tracks whether they have been revealed and addressed via theory-grounded turn-level communication signals, and is clinician-reviewed for clinical plausibility. This enables process-aware evaluation of both task success and the interaction process that leads to it. We study two abilities: confirmation, surfacing hidden concerns through multi-turn dialogue, and intervention, addressing the primary concern and guiding the patient toward a target plan. Results show that no single system dominates: frontier models lead on different confirmation metrics, while human clinicians (N=159) remain strongest on intervention success. Together, these results identify hidden-concern reasoning under partial observability as a key unresolved challenge for medical dialogue systems.",
+      "date": "2026-04-09",
+      "url": "https://arxiv.org/abs/2604.08788v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.08788v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "4ca0b38340dc"
     },
     {
       "title": "K-STAMM: a knowledge-enhanced spatial – temporal attention model with multimodal fusion for pneumonia prediction",
