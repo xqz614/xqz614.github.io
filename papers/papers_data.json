@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-18 19:42",
+  "last_updated": "2026-04-19 19:42",
   "papers": [
+    {
+      "title": "De novo design and evaluation of dual inhibitory peptide binders targeting MDMX-p53 and MDM2-p53 interactions",
+      "authors": "Olanrewaju Ayodeji Durojaye, Sm Faysal Bellah, Henrietta Uzoeto, Somtochukwu Ezechukwu, Amarachukwu Arazu, ...",
+      "abstract": "The MDMX-p53 and MDM2-p53 interactions are critical regulators of the tumor-suppressive functions of p53, often disrupted in cancers through overexpression of murine double minute X (MDMX) and murine double minute 2 (MDM2). In this study, we designed and computationally evaluated dual inhibitory peptides using RFdiffusion, ProteinMPNN, AlphaFold Multimer, and AlphaFold 3. Electrostatic complementarity, thermal stability, and binding affinity were assessed, followed by 300 ns molecular dynamics (MD) simulations. Mb2 and Mb4 (MDMX/2 binder 2 and 4) exhibited improved predicted binding affinity, enhanced electrostatic complementarity, and higher thermal stability relative to p53. Structural modeling and comparative validation confirmed reliable peptide–protein interactions. MD simulations further demonstrated stable trajectories, reduced conformational fluctuations, and persistent binding of Mb2 and Mb4 to both MDMX and MDM2. These findings identify Mb2 and Mb4 as promising dual inhibitory peptides with potential for restoring p53 activity. This study provides a computational foundation for future experimental validation and therapeutic development.",
+      "date": "2026-04-18",
+      "url": "https://doi.org/10.1186/s43088-026-00765-8",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Beni-Suef University Journal of Basic and Applied Sciences",
+      "direction": "cell",
+      "id": "39dc87659f7c"
+    },
+    {
+      "title": "Novel applications of spoken language corpora: an automated screening method for cognitive ability based on grammatical features",
+      "authors": "Xuanshu Chen, Jiaxuan Chen, Xindi Pan, Xiaojun Zhang, Shiwen Feng",
+      "abstract": "With the continuous intensification of population aging, degenerative cognitive impairment diseases represented by Alzheimer’s disease have imposed a heavy burden on society and families. Developing simple and rapid methods for detecting Alzheimer’s disease or its early symptoms has emerged as a research hotspot in the academic community. Screening potential Alzheimer’s patients based on language features can significantly reduce diagnostic costs and predict disease risks. Along with the rapid development of technologies such as natural language processing and machine learning, a faster, more accurate, and large-scale automated method based on artificial intelligence can be employed to analyze language sample data. Existing research has indicated that, in contrast to single-word sentences, studying the coherent language of patients enables more effective analysis of the language features of patients with cognitive impairment, thereby facilitating more accurate identification of language markers related to cognitive decline. This study utilizes the Chinese natural language processing tool LTP to analyze the Chinese coherent spoken language samples of 51 elderly people with dementia and 48 healthy young people. A dataset of lexical and syntactic language features based on coherent discourse is constructed, and machine learning classification algorithms are trained and applied to classification tasks. The experimental results demonstrate that machine learning classification algorithms can effectively distinguish the cognitive abilities of the Chinese-speaking population based on lexical and syntactic language features in coherent discourse.",
+      "date": "2026-04-17",
+      "url": "https://doi.org/10.1057/s41599-026-07258-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Humanities and Social Sciences Communications",
+      "direction": "medical",
+      "id": "7930ffc86750"
+    },
+    {
+      "title": "From data to discovery: The rise of information-theoretic predictive models in drug development",
+      "authors": "Husham Saied, Othman Alfahad, Ahmad Abduaziz Aljaffer, Ahmad Khaleel AlOmari, Marwa A. Saleh, ...",
+      "abstract": "Accelerating drug design and development is crucial for improving patient outcomes and addressing health concerns. Faster procedures for the drug development process lower costs, speed up the discovery of cures, and provide faster access to life-saving medications. Unlike existing tools that primarily provide probabilistic biological activity spectra from SMILES input, the proposed system incorporates a hybrid neural network integrated with an information-theoretic predictive models to dynamically simulate pharmacokinetic and pharmacodynamic processes using structure-based and biological sample data. This allows for a more robust prediction across various targets and physiological contexts. This paper analyzes information-theoretic predictive models on a set of biological sample screening results for drug design. Based on the formal peptide receptor, the ASC analysis of the data set was used to generate, adapt, and configure ten mathematical models of the research subject, ensuring reliable modeling results. Based on the set of features of biological samples, two active samples were selected, which, with a high degree of reliability, are also suitable for creating drugs based on the formyl peptide receptor. Researchers can choose the most important characteristics of biosamples with the use of class information portraits, which lowers the effort required for drug development and improves forecast accuracy.As a result of the Feature contribution analysis, features that positively affect the active state of bio samples were identified, and the strength of their influence was also determined.",
+      "date": "2026-04-17",
+      "url": "https://doi.org/10.1038/s41598-026-45644-5",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "8be19cc68f17"
+    },
+    {
+      "title": "The Computational Revolution in Natural Product Research: A Data-Driven Roadmap for Next-Generation Drug Development",
+      "authors": "Mia Yang Ang, Siew Woh Choo",
+      "abstract": "Natural products (NPs) have historically provided the foundational scaffolds for drug development, yet traditional bioprospecting faces critical limitations: high rediscovery rates, laborious isolation workflows, and substantial attrition during clinical translation. The emergence of big data technologies is fundamentally transforming this landscape, enabling a shift from serendipity-based discovery toward systematic, data-driven approaches. This review examines how the integration of artificial intelligence (AI), machine learning (ML), and multi-omics datasets is accelerating natural product research across three key domains: (1) genome mining for biosynthetic gene cluster identification using platforms such as antiSMASH, (2) cheminformatics-driven prediction of structure–activity relationships and ADMET properties, and (3) metabolomics-guided dereplication to prioritize novel bioactive scaffolds. We evaluate the convergence of genomics, metabolomics, and computational chemistry in enabling in silico lead optimization and the discovery of cryptic metabolites from previously inaccessible microbial taxa. While challenges in data standardization and scalability persist, the synergy between big data and NP research is accelerating clinical translation. Despite persistent challenges in data standardization, scalability, and equitable benefit-sharing, the convergence of big data and NP research is poised to redefine drug development. These advances position computational NP research as a cornerstone of next-generation drug development.",
+      "date": "2026-04-17",
+      "url": "https://doi.org/10.3390/biology15080632",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Biology",
+      "direction": "cell",
+      "id": "3dc0a02ac643"
+    },
     {
       "title": "Global English-language-dominated discourse on artificial intelligence in healthcare: a three-year longitudinal analysis of the #AIinHealthcare movement on X",
       "authors": "Thomas Wochele‐Thoma, Thadiyan Parambil Ijinu, Sreejith Pongillyathundi Sasidharan, Anoop Manakkadan, Lathikakumariamma Sahadevakurup Shine, ...",
