@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-04-20 20:00",
+  "last_updated": "2026-04-21 20:03",
   "papers": [
+    {
+      "title": "Theoretical evolution of AI in medical education: models, frameworks, and future directions",
+      "authors": "Khalid A. Bin Abdulrahman, Mohamed Ahmed Hefny",
+      "abstract": "Background Artificial intelligence (AI) is increasingly reshaping medical education through personalized learning, adaptive assessments, and advanced simulations. This systematic narrative review synthesizes the theoretical development of AI in medical training, focusing on educational models, frameworks, learning outcomes, and stakeholder considerations. A literature search of PubMed, Scopus, Web of Science, and Google Scholar (January 2000–March 2025) identified 1,288 records, of which 48 studies met the inclusion criteria and were included in qualitative thematic synthesis. No statistical meta-analysis was conducted due to methodological heterogeneity. Results Five major AI domains emerged: Intelligent Tutoring Systems, Simulation-Based Medical Education, Adaptive Learning, Generative AI, and Explainable AI. These domains align with established instructional theories and contribute to improved engagement and learning efficiency. However, concerns persist regarding learner deskilling, academic integrity, and algorithmic bias. AI integration influences multiple stakeholders, including trainees, educators, clinicians, policymakers, and patients. The field has progressed from rule-based approaches to data-driven machine learning models, enabling personalized instruction. Responsible implementation necessitates addressing pedagogical, ethical, and practical challenges, while also reducing the global digital divide. Conclusions This systematic review provides guidance for educators, researchers, and policymakers on integrating AI effectively and ethically into medical education.",
+      "date": "2026-04-20",
+      "url": "https://doi.org/10.3389/feduc.2026.1796632",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Education",
+      "direction": "medical",
+      "id": "d7b2f88d6796"
+    },
+    {
+      "title": "Latent Phase-Shift Rollback: Inference-Time Error Correction via Residual Stream Monitoring and KV-Cache Steering",
+      "authors": "Manan Gupta, Dhruv Kumar",
+      "abstract": "Large language models frequently commit unrecoverable reasoning errors mid-generation: once a wrong step is taken, subsequent tokens compound the mistake rather than correct it. We introduce $\\textbf{Latent Phase-Shift Rollback}$ (LPSR): at each generation step, we monitor the residual stream at a critical layer lcrit, detect abrupt directional reversals (phase shifts) via a cosine-similarity $+$ entropy dual gate, and respond by rolling back the KV-cache and injecting a pre-computed steering vector. No fine-tuning, gradient computation, or additional forward passes are required. LPSR achieves $\\mathbf{44.0\\%}$ on MATH-500 with an 8B model versus $28.8\\%$ for standard AR ($+15.2$ pp; McNemar $χ^2 = 66.96$, $p < 10^{-15}$). Critically, prompted self-correction, the most natural inference-time baseline, scores only $19.8\\%$, below standard AR; LPSR exceeds it by $+24.2$ pp ($χ^2 = 89.4$, $p \\approx 0$). LPSR also outperforms Best-of-16 ($+7.8$ pp) at $5.4\\times$ lower token cost, and surpasses a standard 70B model ($35.2\\%$) with $8.75\\times$ fewer parameters at ${\\sim}3\\times$ the token budget. A 32-layer sweep reveals a novel \\textbf{detection-correction dissociation}: error-detection AUC peaks at layer~14 ($0.718$) but task accuracy peaks at layer~16 ($44.0\\%$ vs.\\ $29.2\\%$), demonstrating that optimal monitoring depth differs for detection and correction.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18567v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18567v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "52ae0d1dc3fe"
+    },
+    {
+      "title": "Dual Alignment Between Language Model Layers and Human Sentence Processing",
+      "authors": "Tatsuki Kuribayashi, Alex Warstadt, Yohei Oseki, Ethan Gotlieb Wilcox",
+      "abstract": "A recent study (Kuribayashi et al., 2025) has shown that human sentence processing behavior, typically measured on syntactically unchallenging constructions, can be effectively modeled using surprisal from early layers of large language models (LLMs). This raises the question of whether such advantages of internal layers extend to more syntactically challenging constructions, where surprisal has been reported to underestimate human cognitive effort. In this paper, we begin by exploring internal layers that better estimate human cognitive effort observed in syntactic ambiguity processing in English. Our experiments show that, in contrast to naturalistic reading, later layers better estimate such a cognitive effort, but still underestimate the human data. This dual alignment sheds light on different modes of sentence processing in humans and LMs: naturalistic reading employs a somewhat weak prediction akin to earlier layers of LMs, while syntactically challenging processing requires more fully-contextualized representations, better modeled by later layers of LMs. Motivated by these findings, we also explore several probability-update measures using shallow and deep layers of LMs, showing a complementary advantage to single-layer's surprisal in reading time modeling.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18563v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18563v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "14317edf59dc"
+    },
+    {
+      "title": "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation",
+      "authors": "Xingchen Xiao, Heyan Huang, Runheng Liu, Jincheng Xie",
+      "abstract": "Large language models (LLMs) are widely used in retrieval-augmented generation (RAG) to incorporate external knowledge at inference time. However, when retrieved contexts are noisy, incomplete, or heterogeneous, a single generation process often struggles to reconcile evidence effectively. We propose \\textbf{MASS-RAG}, a multi-agent synthesis approach to retrieval-augmented generation that structures evidence processing into multiple role-specialized agents. MASS-RAG applies distinct agents for evidence summarization, evidence extraction, and reasoning over retrieved documents, and combines their outputs through a dedicated synthesis stage to produce the final answer. This design exposes multiple intermediate evidence views, allowing the model to compare and integrate complementary information before answer generation. Experiments on four benchmarks show that MASS-RAG consistently improves performance over strong RAG baselines, particularly in settings where relevant evidence is distributed across retrieved contexts.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18509v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18509v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "422b74c11bfa"
+    },
+    {
+      "title": "Aligning Language Models for Lyric-to-Melody Generation with Rule-Based Musical Constraints",
+      "authors": "Hao Meng, Siyuan Zheng, Shuran Zhou, Qiangqiang Wang, Yang Song",
+      "abstract": "Large Language Models (LLMs) show promise in lyric-to-melody generation, but models trained with Supervised Fine-Tuning (SFT) often produce musically implausible melodies with issues like poor rhythm and unsuitable vocal ranges, a phenomenon we term \"constraint violation\". To address this, we propose a novel alignment framework that instills musical knowledge without human annotation. We define rule-based musical constraints to automatically generate a preference dataset from an SFT model's outputs. The model is then aligned through a sequential process, first using Direct Preference Optimization (DPO) on paired preference data, followed by Kahneman-Tversky Optimization (KTO) on unpaired negative samples. Experimental results demonstrate that our aligned model substantially reduces rule violations and outperforms strong baselines in both objective and subjective evaluations, generating melodies with substantially improved musicality and coherence. An interactive demo with audio comparisons is available at https://arain233.github.io/AligningMelody-demo.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18489v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18489v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9cc3833c3b19"
+    },
+    {
+      "title": "Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning",
+      "authors": "Hen Davidov, Nachshon Cohen, Oren Kalinsky, Yaron Fairstein, Guy Kushilevitz...",
+      "abstract": "Large language models (LLMs) using chain-of-thought reasoning often waste substantial compute by producing long, incorrect responses. Abstention can mitigate this by withholding outputs unlikely to be correct. While most abstention methods decide to withhold outputs before or after generation, dynamic mid-generation abstention considers early termination of unpromising reasoning traces at each token position. Prior work has explored empirical variants of this idea, but principled guidance for the abstention rule remains lacking. We present a formal analysis of dynamic abstention for LLMs, modeling abstention as an explicit action within a regularized reinforcement learning framework. An abstention reward parameter controls the trade-off between compute and information. We show that abstaining when the value function falls below this reward strictly outperforms natural baselines under general conditions. We further derive a principled and efficient method to approximate the value function. Empirical results on mathematical reasoning and toxicity avoidance tasks support our theory and demonstrate improved selective accuracy over existing methods.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18419v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18419v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "59cdcf4286fc"
+    },
+    {
+      "title": "Different Paths to Harmful Compliance: Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks",
+      "authors": "Md Rysul Kabir, Zoran Tiganj",
+      "abstract": "Open-weight language models can be rendered unsafe through several distinct interventions, but the resulting models may differ substantially in capabilities, behavioral profile, and internal failure mode. We study behavioral and mechanistic properties of jailbroken models across three unsafe routes: harmful supervised fine-tuning (SFT), harmful reinforcement learning with verifiable rewards (RLVR), and refusal-suppressing abliteration. All three routes achieve near-ceiling harmful compliance, but they diverge once we move beyond direct harmfulness. RLVR-jailbroken models show minimal degradation and preserve explicit harm recognition in a structured self-audit: they are able to identify harmful prompts and describe how a safe LLM should respond, yet they comply with the harmful request. With RLVR, harmful behavior is strongly suppressed by a reflective safety scaffold: when a harmful prompt is prepended with an instruction to reflect on safety standards, harmful behavior drops close to the baseline. Category-specific RLVR jailbreaks generalize broadly across harmfulness domains. Models jailbroken with SFT show the largest collapse in explicit safety judgments, the highest behavioral drift, and a substantial capability loss on standard benchmarks. Abliteration is family-dependent in both self-audit and response to a reflective safety scaffold. Mechanistic and repair analyses further separate the routes: abliteration is consistent with localized refusal-feature deletion, RLVR with preserved safety geometry but retargeted policy behavior, and SFT with broader distributed drift. Targeted repair partially recovers RLVR-jailbroken models, but has little effect on SFT-jailbroken models. Together, these results show that jailbreaks can produce vastly different properties despite similar harmfulness, with models jailbroken via RLVR showing remarkable similarity to the base model.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18510v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18510v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "fb9f1484a08b"
+    },
+    {
+      "title": "StepPO: Step-Aligned Policy Optimization for Agentic Reinforcement Learning",
+      "authors": "Daoyu Wang, Qingchuan Li, Mingyue Cheng, Jie Ouyang, Shuo Yu...",
+      "abstract": "General agents have given rise to phenomenal applications such as OpenClaw and Claude Code. As these agent systems (a.k.a. Harnesses) strive for bolder goals, they demand increasingly stronger agentic capabilities from foundation Large Language Models (LLMs). Agentic Reinforcement Learning (RL) is emerging as a central post-training paradigm for empowering LLMs with these capabilities and is playing an increasingly pivotal role in agent training. Unlike single-turn token-level alignment or reasoning enhancement, as in RLHF and RLVR, Agentic RL targets multi-turn interactive settings, where the goal is to optimize core agentic capabilities such as decision making and tool use while addressing new challenges including delayed and sparse rewards, as well as long and variable context. As a result, the token-centric modeling and optimization paradigm inherited from traditional LLM RL is becoming increasingly inadequate for capturing real LLM agent behavior. In this paper, we present StepPO as a position on step-level Agentic RL. We argue that the conventional token-level Markov Decision Process (MDP) should be advanced to a step-level MDP formulation, and that the step, rather than the token, should be regarded as the proper action representation for LLM agents. We then propose step-level credit assignment as the natural optimization counterpart of this formulation, thereby aligning policy optimization and reward propagation with the granularity of agent decisions. Finally, we discuss the key systems designs required to realize step-level Agentic RL in practice and preliminary experiments provide initial evidence for the effectiveness of this perspective. We hope that the step-aligned, step-level paradigm embodied in StepPO offers the Agentic RL community a useful lens for understanding agent behavior and helps advance LLMs toward stronger general-agent capabilities.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18401v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18401v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ad6e0f2e995f"
+    },
+    {
+      "title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+      "authors": "Guanting Dong, Junting Lu, Junjie Huang, Wanjun Zhong, Longxiang Liu...",
+      "abstract": "Large language models are increasingly expected to serve as general-purpose agents that interact with external, stateful tool environments. The Model Context Protocol (MCP) and broader agent skills offer a unified interface for connecting agents with scalable real-world services, but training robust agents remains limited by the lack of realistic environments and principled mechanisms for life-long learning. In this paper, we present \\textbf{Agent-World}, a self-evolving training arena for advancing general agent intelligence through scalable environments. Agent-World has two main components: (1) Agentic Environment-Task Discovery, which autonomously explores topic-aligned databases and executable tool ecosystems from thousands of real-world environment themes and synthesizes verifiable tasks with controllable difficulty; and (2) Continuous Self-Evolving Agent Training, which combines multi-environment reinforcement learning with a self-evolving agent arena that automatically identifies capability gaps through dynamic task synthesis and drives targeted learning, enabling the co-evolution of agent policies and environments. Across 23 challenging agent benchmarks, Agent-World-8B and 14B consistently outperforms strong proprietary models and environment scaling baselines. Further analyses reveal scaling trends in relation to environment diversity and self-evolution rounds, offering insights for building general agent intelligence.",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.18292v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.18292v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "3e010ee0bdeb"
+    },
+    {
+      "title": "Modeling of Biomechanical and Functional Parameters of Hydrogel–Cell Composites Fabricated by 3D Bioprinting Using AI-Supported Approach",
+      "authors": "Izabela Rojek, Maciej Gniadek, Jakub Kopowski, Tomasz Kloskowski, Dariusz Mikołajewski",
+      "abstract": "3D bioprinting of hydrogel–cell composites requires simultaneous consideration of the biomechanical properties of the printed structures, the construct’s geometric stability, and conditions conducive to cell survival and function. Hydrogel cross-linking techniques and their kinetics play a key role in this process, determining the time of shape fixation, the mechanical strength of the structures, and the mechanical environment in which the cells are located immediately after printing. The relationships between bioprinting parameters, material properties, cross-linking strategies, and the presence of cells are highly nonlinear and often investigated through trial and error, leading to significant time and material costs. This paper proposes an approach based on artificial intelligence-assisted simulation, focusing on computer modeling of the biomechanical and functional parameters of hydrogel–cell composites produced by 3D bioprinting. The methodology is based on data generated from computer simulations and allows for analysis of the impact of printing parameters and different cross-linking strategies on mechanical strength, time-dependent geometric stability, and limitations related to cellular function, including exposure time to non-cross-linked matrices. The use of artificial intelligence methods allows for the integration of simulation results and predictive assessment of material behavior, providing a basis for future optimization of bioprinting parameters and process costs prior to experimental validation.",
+      "date": "2026-04-19",
+      "url": "https://doi.org/10.3390/ma19081637",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Materials",
+      "direction": "cell",
+      "id": "c54d617921ef"
+    },
+    {
+      "title": "Comparative Molecular Insights and Computational Modeling of Multiple Myeloma and Osteosarcoma",
+      "authors": "Alina Ioana Ghiță, Vadim V. Silberschmidt, Mariana Ioniță",
+      "abstract": "Multiple myeloma (MM) and osteosarcoma (OS) are two biologically distinct osseous malignancies with similar molecular networks that present translational challenges for their computational modeling. This comparative research analyzes MM and OS biology relevant to in silico approaches, focusing on PI3K-AKT-mTOR signaling, the RANK-RANKL-OPG axis, angiogenic factors (VEGF, TGFs), and immune mediators in MM, alongside the transcription factors (SOX9, RUNX2), signaling pathways (PI3K-AKT-mTOR, NOTCH), immune cell state (TAM2), and interleukins in OS. Based on this pathophysiologic foundation, the review outlines five computational paradigms: (i) mechanistic models; (ii) data-driven/machine learning schemes; (iii) hybrid mechanistic approaches; (iv) digital twins/virtual cohorts, and (v) MIDD/PBPK models for real-world applications. A cross-cancer comparison section summarizes common and distinct biological axes and their computational translation as well as the overlapping features from the bone microenvironment. For both MM and OS, the research assesses strengths, limitations, and data needs of current models, outlining the strategic objectives for next-generation multiscale, AI-enabled models providing a roadmap for tissue engineers, oncology scientists, and translational researchers to design clinically relevant preclinical tests and accelerate safer, more effective strategies for tumor-affected bones. The differences between MM and OS impose distinct biological constraints, so their comparisons are rare. Combining all these features with artificial intelligence capabilities will underpin a promising transition in the development of in silico adaptive and learning models.",
+      "date": "2026-04-18",
+      "url": "https://doi.org/10.3390/ijms27083611",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Molecular Sciences",
+      "direction": "cell",
+      "id": "b299dcf54c8a"
+    },
     {
       "title": "De novo design and evaluation of dual inhibitory peptide binders targeting MDMX-p53 and MDM2-p53 interactions",
       "authors": "Olanrewaju Ayodeji Durojaye, Sm Faysal Bellah, Henrietta Uzoeto, Somtochukwu Ezechukwu, Amarachukwu Arazu, ...",
@@ -12,6 +144,18 @@
       "venue": "Beni-Suef University Journal of Basic and Applied Sciences",
       "direction": "cell",
       "id": "39dc87659f7c"
+    },
+    {
+      "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
+      "authors": "Prashant C. Raju",
+      "abstract": "Genome engineering has achieved remarkable sequence-level precision, yet predicting the transcriptomic state that a cell will occupy after perturbation remains an open problem. Single-cell CRISPR screens measure how far cells move from their unperturbed state, but this effect magnitude ignores a fundamental question: do the cells move together? Two perturbations with identical magnitude can produce qualitatively different outcomes if one drives cells coherently along a shared trajectory while the other scatters them across expression space. We introduce a geometric stability metric, Shesha, that quantifies the directional coherence of single-cell perturbation responses as the mean cosine similarity between individual cell shift vectors and the mean perturbation direction. Across five CRISPR datasets (2,200+ perturbations spanning CRISPRa, CRISPRi, and pooled screens), stability correlates strongly with effect magnitude (Spearman $ρ=0.75-0.97$), with a calibrated cross-dataset correlation of 0.97. Crucially, discordant cases where the two metrics decouple expose regulatory architecture: pleiotropic master regulators such as CEBPA and GATA1 pay a \"geometric tax,\" producing large but incoherent shifts, while lineage-specific factors such as KLF1 produce tightly coordinated responses. After controlling for magnitude, geometric instability is independently associated with elevated chaperone activation (HSPA5/BiP; $ρ_{partial}=-0.34$ and $-0.21$ across datasets), and the high-stability/high-stress quadrant is systematically depleted. The magnitude-stability relationship persists in scGPT foundation model embeddings, confirming it is a property of biological state space rather than linear projection. Perturbation stability provides a complementary axis for hit prioritization in screens, phenotypic quality control in cell manufacturing, and evaluation of in silico perturbation predictions.",
+      "date": "2026-04-17",
+      "url": "https://arxiv.org/abs/2604.16642v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.16642v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "f1f1ecc1f6ff"
     },
     {
       "title": "Learning to Reason with Insight for Informal Theorem Proving",
