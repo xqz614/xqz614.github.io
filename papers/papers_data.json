@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-04-24 19:52",
+  "last_updated": "2026-04-25 19:44",
   "papers": [
+    {
+      "title": "Fine-grained evaluation of a domain-specific Q&amp;A dataset to support trustworthy medical language models",
+      "authors": "Rafael da C. Fonseca, Ricardo A. Rios, Rodrigo Castaldoni, Adrielle A. Carvalho, Tiago J. S. Lopes, ...",
+      "abstract": "Abstract The effective use of Large Language Models (LLMs) for generating coherent and informative content in specialized domains has largely been driven by the development of robust evaluation strategies. Based on this assumption, we introduce HemoQAL, a domain-specific question-and-answer (Q&amp;A) dataset on hemophilia, derived from recent scientific publications and clinical guidelines. Our main contribution lies in a fine-grained evaluation of the quality of LLM-generated content. First, we carried out a human evaluation in which medical experts assessed the factual accuracy and educational value of the generated Q&amp;A pairs. Second, we conducted a semantic similarity analysis to quantitatively evaluate the alignment between each Q&amp;A pair and its original source material. These lightweight, scalable semantic metrics offer an efficient alternative to more resource-intensive human or LLM-based evaluation pipelines. Our findings show that integrating expert review with semantic similarity measures improves the reliability and trustworthiness of LLM-generated medical content, contributing to the development of dependable AI tools in health informatics.",
+      "date": "2026-04-24",
+      "url": "https://doi.org/10.1007/s13755-026-00458-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Health Information Science and Systems",
+      "direction": "medical",
+      "id": "bbd823585199"
+    },
+    {
+      "title": "Digital affordances of AI chatbots in nursing education: a systematic review of learning gains and gaps in the evidence",
+      "authors": "Shuling Wei, Wei Wei, Guanyang Zou",
+      "abstract": "Background Digital affordances refer to the possibilities provided by digital environments for learners. In the context of nursing education, artificial intelligence (AI) chatbots currently offer multimodal learning approaches and demonstrate various possibilities for digital actions. Therefore, exploring the digital affordances of AI chatbots in nursing education is crucial for the continuous advancement of the field. Objective To evaluate the digital affordances of AI chatbots in nursing education, focusing on the relationship between digital affordances and learning gains. Methods We employed affordance theory to conceptualize the potential actions of AI chatbots and utilized a taxonomy of affective, behavioral and cognitive learning gains to conduct a systematic review in nursing education. Results and conclusions A total of 25 studies were identified in this systematic review. The geographical distribution of the studies is mainly in Asia. The most used study designs were quantitative designs ( n = 12) with sample sizes between 16 and 457. The duration of these studies is usually short, ranging from a few hours to 3 months. The included studies reported several digital affordances of AI chatbots in nursing education, including assistance provision, personalization, human-like conversing, distilling information, and fostering familiarity. However, four digital affordances-facilitation, enriching information, context identification, and ensuring privacy-still lack empirical support. The evidence for the digital affordances of AI chatbots in nursing education was dominated by cognitive learning gains (such as learning achievement, critical thinking, and problem solving) and followed by affective (such as learning interest, self-efficacy, and enjoyment) and behavioral learning gains (such as engagement, diagnostic skills and clinical practice). However, several studies reported no statistically significant improvement in certain cognitive learning gains, particularly knowledge acquisition and clinical reasoning competency. Similarly, limited evidence was found for improvements in learners’ confidence and satisfaction. These findings suggest that the current evidence remains inconclusive. Future research should employ longer study durations and larger sample sizes to further examine the educational impact of AI chatbots.",
+      "date": "2026-04-24",
+      "url": "https://doi.org/10.3389/fmed.2026.1832598",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "medical",
+      "id": "70826f261094"
+    },
+    {
+      "title": "Combining domain knowledge with large language models for predicting suicide risk in online counselling services",
+      "authors": "Daniel Izmaylov, Avi Segal, Kobi Gal, Meytal Grimland, Yossi Levi-Belz, ...",
+      "abstract": "Abstract Online counselling services have seen increased use in recent years, providing critical emergency mental health support. These interactions are typically long, complex, and varied in the dialogue between help seekers and counsellors. The lack of domain-specific models, especially in low-resource languages, poses a significant challenge for the automatic detection of suicide risk in online chat services for mental health support. To address this challenge, our approach adapts a general-purpose large language model (LLM) to the suicide prediction task that employs a two-stage classification architecture to deal with sparse and imbalanced data. It extends the state of the art by: (1) incorporating psychological theory into model training and (2) capturing key aspects of conversation structure in counselling sessions. We evaluate the performance of the proposed LLM against the state-of-the-art LLMs for suicide detection on thousands of conversations in the Hebrew language from a leading national online counselling service in Israel. Results show that the proposed LLM outperformed existing state-of-the-art approaches in detecting suicide risk, as measured by relevant literature metrics. Moreover, the LLM outperforms other approaches even in the early stages of a conversation, which is crucial for real-time detection in practice. We also discuss the ethical implications of combining LLMs in counselling services. The contributions of this work are (1) extending existing LLM architectures to incorporate domain-specific information; (2) evaluating LLM technologies in the context of socially relevant problems; and (3) introducing novel LLM tools for resource-constrained languages.",
+      "date": "2026-04-24",
+      "url": "https://doi.org/10.1017/nlp.2026.10022",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Natural language processing.",
+      "direction": "medical",
+      "id": "7ce706d3261c"
+    },
+    {
+      "title": "Application of Artificial Intelligence and Computational Models in Anatomical Research for Targeted Drug Delivery Systems and Surgical-Assisted Therapeutic Applications",
+      "authors": "Shweta Borad, Durga Prasad Mudrakola, Dr. Bhasha Anjaria, Trivedi Khushboo Nirajkumar, Keyaben Sanket Kumar Patel, ...",
+      "abstract": "The newest developments in drug delivery science have shifted the development of therapeutic approaches towards precision-oriented and patient-specific approaches which consider anatomical, physiological, and pathological variability. Targeted drug delivery systems seek to find a balance between controlled localization and release of therapeutic reagents and reduced systemic exposure, although their design is not easy due to the multiscale nature of the bio-environment. Computational modelling and artificial intelligence have become effective means of solving these issues by allowing the analysis of the data, predictive simulation, and rational optimization of the methods of delivery. This review will focus on the use of artificial intelligence and computational models in anatomical studies to facilitate the creation of targeted drug delivery systems, surgical-assisted therapeutic systems. The application of machine learning in combination with anatomical data obtained by imaging, physiologically realistic pharmacokinetic modelling, computational fluid dynamics, and molecular dynamics simulation is presented in the context of nanoparticle-based delivery vehicles, smart and stimuliresponsive systems, and localized delivery devices. The review also emphasizes the advantages of image-guided and surgical-assisted methods, which are enhanced in computational intelligence to serve as better in terms of spatial accuracy, control of therapies, and customization. The existing constraints associated with data access, the applicability of the model, and regulatory aspects are also discussed and the new possible trends toward an adaptive and anatomy-inspired delivery platform. In general, the intersection of artificial intelligence, computational modelling, and anatomical understanding is a paradigm-shifting model of future drug delivery technologies and precision therapeutics.",
+      "date": "2026-04-24",
+      "url": "https://doi.org/10.25258/ijddt.16.18s.41",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "41a90010e1fc"
+    },
+    {
+      "title": "Artificial Intelligence in Clinical Trial Participant Recruitment and Retention: a Scoping Review and Meta-Analysis",
+      "authors": "Ziran Yin, Yun-Chung Liu, Jonathan Chong Kai Liew, Rui Yang, Stephanie Hendren, ...",
+      "abstract": "Recruitment and retention challenges continue to hinder the success of clinical trials.Artificial intelligence (AI) has emerged as a promising means to optimize various clinical trial processes; however, its impact specifically on recruitment and retention has not been comprehensively evaluated.This scoping review utilized the Joanna Briggs Institute framework and adhered to PRISMA-ScR guidelines, systematically searching literature published between January 2018 and June 2024 across multiple databases.Of the 21,573 records screened, 121 studies were included.A meta-analysis was conducted to quantitatively assess the performance of AI-driven tools.AI applications for patient screening demonstrated strong performance, achieving a pooled sensitivity of 0.91 (95% CI: 0.84-0.95) and an area under the curve (AUC) of 0.79 (95% CI: 0.72-0.85).AI tools employed for eligibility identification and classification also exhibited strong outcomes, with pooled sensitivities of 0.80 (95% CI: 0.76-0.84)and 0.92 (95% CI: 0.84-0.96),respectively, and precisions of 0.84 (95% CI: 0.80-0.88)and 0.91 (95% CI: 0.85-0.95).AI tools aimed at identifying patient cohorts showed moderate effectiveness (pooled sensitivity: 0.70 [95% CI: 0.52-0.84];AUC: 0.74 [95% CI: 0.61-0.84]).Overall, AI presents significant potential for enhancing clinical trial recruitment and retention, with effectiveness varying across specific applications.These findings underscore AI's valuable role in improving trial efficiency and data quality.",
+      "date": "2026-04-23",
+      "url": "https://doi.org/10.1017/cts.2026.10743",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Clinical and Translational Science",
+      "direction": "medical",
+      "id": "122300580751"
+    },
+    {
+      "title": "Explainable deep learning approaches and clinical insights for cancer biomarker identification",
+      "authors": "Kshitij Srivastava, Ruby Srivastava",
+      "abstract": "Biomarkers play a pivotal role in contemporary cancer immunotherapy by guiding diagnosis, patient stratification, therapeutic decision-making, and longitudinal assessment of treatment responses. Despite the transformative impact of immune checkpoint inhibitors, adoptive cell therapies, and neoantigen-based vaccines, durable clinical benefit is achieved in only a subset of patients, highlighting the critical need for accurate predictive and prognostic biomarkers. Technological advances are rapidly expanding the biomarker repertoire through high-resolution approaches such as single-cell and spatial omics, circulating tumor DNA analysis, immune-related gene expression signatures, and microbiome profiling. These platforms enable deeper characterization of immune dynamics, resistance mechanisms, and therapeutic responsiveness. Recent advances in artificial intelligence, machine learning, and deep learning have fundamentally reshaped immunotherapy biomarker discovery by enabling the integration of complex, high-dimensional multiomics, radiomic, and clinical datasets into unified predictive frameworks. Deep learning models have demonstrated superior performance in predicting immune checkpoint inhibitor responses, immune-related adverse events, and mechanisms of therapeutic resistance across multiple cancer types. The incorporation of explainable AI approaches further enhances clinical interpretability by linking algorithmic predictions to biologically validated immune processes. Future progress will depend on multimodal biomarker integration, analytical standardization, and rigorous prospective validation, alongside addressing regulatory, economic, and implementation challenges to advance precision cancer immunotherapy.",
+      "date": "2026-04-23",
+      "url": "https://doi.org/10.3389/fonc.2026.1810793",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Oncology",
+      "direction": "cell",
+      "id": "59070d033682"
+    },
+    {
+      "title": "Evaluating Artificial Intelligence Models for ICU Length of Stay Prediction: A Systematic Review and Meta-Analysis",
+      "authors": "Carlos Zepeda-Lugo, Andrea Insfran-Rivarola, Marcos Sanchez-Lizarraga, Sharon Macias-Velasquez, Ana-Pamela Arevalos, ...",
+      "abstract": "Background/Objectives: Efficient management of intensive care unit (ICU) resources is a critical challenge for modern healthcare systems, which must balance high-quality patient care with operational and financial performance. ICU length of stay (LOS) is a key metric of clinical complexity and hospital efficiency. However, traditional methods for predicting LOS often fail to capture the complex, nonlinear interactions among physiological, demographic, and treatment-related variables. Machine learning (ML) and deep learning (DL) models have emerged as promising tools for enhancing predictive accuracy and supporting data-driven decision-making. Methods: This study presents a systematic review and meta-analysis of ML and DL approaches for predicting ICU LOS in adult patients. Following PRISMA guidelines, eight scientific databases were searched, yielding 33 eligible studies published between 2015 and 2025. Results: Mixed medical–surgical ICUs were the most common setting (51.5%), and 45.5% of datasets were sourced from public repositories. Most studies (19/33) focused on binary classification of prolonged stays, although thresholds ranged from &gt;48 h to ≥14 days. The pooled results from ten studies yielded an AUROC of 0.9005 (95% CI: 0.8890–0.9121), indicating strong predictive capability across diverse clinical contexts. Subgroup analyses showed comparable performance between specialized surgical and general ICUs. Conclusions: These findings suggest that AI-driven LOS prediction models exhibit strong discriminatory power for ICU LOS prediction, supporting hospital capacity planning. However, to translate this into reliable clinical support, the methodological heterogeneity, scarcity of external validation, and near absence of calibration reporting identified in this review need to be addressed.",
+      "date": "2026-04-23",
+      "url": "https://doi.org/10.3390/healthcare14091131",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Healthcare",
+      "direction": "cell",
+      "id": "5facb1c04972"
+    },
+    {
+      "title": "Target discovery and drug design in the era of artificial intelligence",
+      "authors": "Payton Fleming, Andrey A. Ivanov",
+      "abstract": "Abstract The identification of therapeutically actionable targets and the design of effective small-molecule modulators remain central challenges in drug discovery, particularly for complex diseases driven by dynamic, interconnected molecular networks. Recent advances in artificial intelligence (AI) and machine learning are reshaping this landscape by enabling integrative analysis of large-scale biological data, systematic navigation of chemical space, and data-driven optimization of molecular properties. In this review, we outline how AI transforms small-molecule drug discovery by linking target discovery, tractability assessment, and chemical design within integrated, experiment-informed workflows. We highlight AI-enabled strategies for target discovery that integrate network biology, multimodal data fusion, and perturbation-aware modeling. These approaches identify context-specific, functionally actionable targets, including non-enzymatic proteins, protein-protein interactions, and other historically challenging classes. We then focus on advances most relevant to medicinal chemistry, including structure and complex prediction, docking and affinity modeling, ligand-based learning, generative molecular design, ADMET prediction, and synthetic feasibility assessment. Finally, we discuss current limitations related to data quality, generalizability, interpretability, and experimental translation. We emphasize the critical future role of integrated, context-aware AI workflows that connect target discovery with chemical design and experimental feedback. Together, these advances position AI as a robust framework for accelerating the discovery of therapeutically relevant targets and small-molecule modulators.",
+      "date": "2026-04-23",
+      "url": "https://doi.org/10.1007/s00044-026-03562-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Medicinal Chemistry Research",
+      "direction": "cell",
+      "id": "29a51540f68b"
+    },
     {
       "title": "Designing AI-resilient admissions interviews for health professions training in the age of generative AI",
       "authors": "Tara Menon, Arjun Mahajan, Dylan Powell",
