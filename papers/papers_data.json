@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-25 19:44",
+  "last_updated": "2026-04-26 19:47",
   "papers": [
+    {
+      "title": "Structuring versus Problematizing: How LLM-based Agents Scaffold Learning in Diagnostic Reasoning",
+      "authors": "Fatma Betül Güreş, Tanya Nazaretsky, Seyed Parsa Neshaei, Tanja Käser",
+      "abstract": "Supporting students in developing diagnostic reasoning is a key challenge across educational domains. Novices often face cognitive biases such as premature closure and over-reliance on heuristics, and they struggle to transfer diagnostic strategies to new cases. Scenario-based learning (SBL) enhanced by Learning Analytics (LA) and large language models (LLM) offers a promising approach by combining realistic case experiences with personalized scaffolding. Yet, how different scaffolding approaches shape reasoning processes remains insufficiently explored. This study introduces PharmaSim Switch, an SBL environment for pharmacy technician training, extended with an LA- and LLM-powered pharmacist agent that implements pedagogical conversations rooted in two theory-driven scaffolding approaches: structuring and problematizing, as well as a student learning trajectory. In a between-groups experiment, 63 vocational students completed a learning scenario, a near-transfer scenario, and a far-transfer scenario under one of the two scaffolding conditions. Results indicate that both scaffolding approaches were effective in supporting the use of diagnostic strategies. Performance outcomes were primarily influenced by scenario complexity rather than students’ prior knowledge or the scaffolding approach used. The structuring approach was associated with more accurate Active and Interactive participation, whereas problematizing elicited more Constructive engagement. These findings underscore the value of combining scaffolding approaches when designing LA- and LLM-based systems to effectively foster diagnostic reasoning.",
+      "date": "2026-04-25",
+      "url": "https://doi.org/10.1145/3785022.3785105",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "medical",
+      "id": "4078c5467f47"
+    },
+    {
+      "title": "Artificial Intelligence-Based Phytochemical Profiling of Medicinal Plants for Nanoparticle-Mediated Drug Delivery Systems",
+      "authors": "Dr.R. Prabhu, Dr.Pratap Raghunath Desai, Kusuma H M, Prof. Namitha A R",
+      "abstract": "Researchers now use Artificial Intelligence (AI) &amp; Machine Learning (ML) systems to identify bioactive based chemicals from medicinal plants while studying these plants in this manner. The discovery of phytochemicals used to face challenges because secondary metabolites had complex structures which needed bioassay-guided fractionation to be analyzed. Researchers can quickly assess plant extracts using high-throughput \"omics\" data and deep learning frameworks which generate precise predictions of their medicinal value through advanced computational methods. The identified chemicals can be combined with nanotechnology to create drug delivery systems that use nanoparticle-mediated systems for drug transport which solves the problems of low water solubility and poor bioavailability and quick bodily elimination. This research investigates how AI-based profiling interacts with nano-engineering technologies through predictive algorithms which improve green synthesis methods and loading efficiency and targeted delivery systems. The medical field undergoes a major transformation through this convergence which creates a more effective and environmentally friendly and specific treatment system for modern medicine.",
+      "date": "2026-04-25",
+      "url": "https://doi.org/10.25258/ijddt.16.19s.34",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "426ce3df50fd"
+    },
+    {
+      "title": "Multimodal Monitoring Results Around Delayed Cerebral Infarction After Aneurysmal Subarachnoid Hemorrhage",
+      "authors": "Michael Veldeman, Stefan Yu Bögli, Ihsane Olakorede, Catharina Conzen, Miriam Weiss, ...",
+      "abstract": "Background– Delayed cerebral ischemia following aneurysmal subarachnoid hemorrhage is a major cause of secondary brain injury, with progression to infarction occurring in a subset of patients. Although multimodal neuromonitoring provides continuous physiological data, biomarkers characterizing the transition from delayed cerebral ischemia to infarction remain insufficiently defined. Methods– In this prospective single-center study, 69 patients with aneurysmal subarachnoid hemorrhage (2014–2020) underwent invasive neuromonitoring. Twenty-four patients developed delayed cerebral ischemia–related infarction, while 45 served as controls. Monitoring included brain tissue oxygenation, cerebral microdialysis, intracranial pressure, and pressure reactivity index assessment. Temporal dynamics of physiological parameters surrounding infarct detection were analyzed using generalized additive models. A Random Forest classifier evaluated multimodal biomarker patterns across a 73-hour window encompassing infarct detection. Results– Distinct metabolic disturbances preceded infarction development. Glutamate concentrations increased markedly beginning approximately 48 h before infarct detection, consistent with excitotoxic injury. Glycerol levels rose persistently after infarct detection, indicating membrane breakdown. Pressure reactivity index deteriorated after infarction, while brain tissue oxygenation increased post-detection. The Random Forest model demonstrated good discriminative performance (area under the curve 0.814), with temporal glutamate patterns contributing most to feature importance. Averaged biomarker trends outperformed instantaneous measurements. Conclusions– Multimodal neuromonitoring reveals characteristic physiological patterns associated with delayed cerebral ischemia–related infarction. Integration of metabolic, oxygenation, and cerebrovascular reactivity markers enhances characterization of infarction development, warranting validation in larger cohorts. This study was retrospectively registered with the German Clinical Trials Registry(DRKS00030505) on the third of January 2023.",
+      "date": "2026-04-25",
+      "url": "https://doi.org/10.1007/s12975-026-01435-8",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Translational Stroke Research",
+      "direction": "cell",
+      "id": "e354eac88593"
+    },
+    {
+      "title": "Hybrid diagnostic framework for bone cancer detection using deep learning and radiomics analysis",
+      "authors": "Ramesh Ramamoorthy, R. S. Shanmugasundaram, A. Athiraja, Shitharth Selvarajan",
+      "abstract": "Currently, bone cancer remains a big challenge in healthcare, early and accurate diagnosis is therefore key to achieving the required treatment outcomes. To this end, this research attempts to present a novel hybrid framework, i.e. TriMedNet, which works to classify bone cancer using multi-modal data sources. The diagnostic model is derived from integrating imaging data (MRI scans), unstructured clinical note texts and structured patient metrics (e.g., blood pressure, glucose levels). The three specialized branches of TriMedNet are; a Convolutional Neural Network (CNN) for image feature extraction, a Transformer based encoder Bidirectional Encoder Representations from Transformers (BERT) for text analysis, and fully connected dense layers for dealing with numerical data. The features extracted from each branch are fused and sent to the last classification layer for tumor diagnosis. The model was trained and evaluated on publicly available Roboflow dataset, with biopsy as well as blood test results. The accuracy of TriMedNet is 98.5%, precision 97.6%, recall 98.2, which effectively support the clinical decision making of bone cancer diagnosis. In research confirm that when multi-modal features are fused together, the diagnostic performance is greater than that of single modality approaches.",
+      "date": "2026-04-24",
+      "url": "https://doi.org/10.1038/s41598-026-49681-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "6b7f4a640dc8"
+    },
     {
       "title": "Fine-grained evaluation of a domain-specific Q&amp;A dataset to support trustworthy medical language models",
       "authors": "Rafael da C. Fonseca, Ricardo A. Rios, Rodrigo Castaldoni, Adrielle A. Carvalho, Tiago J. S. Lopes, ...",
