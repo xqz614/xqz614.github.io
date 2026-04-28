@@ -1,6 +1,126 @@
 {
-  "last_updated": "2026-04-27 20:08",
+  "last_updated": "2026-04-28 20:16",
   "papers": [
+    {
+      "title": "Toll-like receptors in innate immunity and inflammation: from fundamental biology to clinic insights",
+      "authors": "Cheng Qian, Xuetao Cao, Jules A. Hoffmann",
+      "abstract": "The discovery and investigation of Toll-like receptors (TLRs) has fundamentally reshaped our understanding of innate immunity and inflammation over the past four decades. These pivotal pattern-recognition receptors play a canonical role as sentinels that detect pathogen-associated molecular patterns (PAMPs) and damage-associated molecular patterns (DAMPs). In addition, TLR signaling is subject to exquisite multilayered regulation to prevent excessive inflammation and maintain immune homeostasis. Such regulation includes posttranslational modifications, epigenetic reprogramming, metabolic rewiring, and dynamic assembly of signaling condensates. This review comprehensively summarizes the intrinsic regulatory networks and tissue-microenvironment crosstalk that fine-tune TLR responses. We highlight the central roles of TLR signaling in infection, autoimmunity, cancer, inflammaging, cardiovascular diseases, and neurodegenerative disorders, underscoring how dysregulation drives pathology. Finally, we examine recent analyses and future prospects for pharmacological modulation of TLR pathways with agonists or antagonists as a promising therapeutic strategy for a broad spectrum of inflammatory and immune-mediated diseases. By bridging foundational mechanisms with clinical insights, this article illustrates how TLR research continues to illuminate immune regulation and offers novel avenues for targeted immunotherapy.",
+      "date": "2026-04-27",
+      "url": "https://doi.org/10.1007/s44466-026-00040-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Immunity & Inflammation",
+      "direction": "cell",
+      "id": "79869e77bc66"
+    },
+    {
+      "title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling",
+      "authors": "Parsa Ashrafi Fashi, Utkarsh Saxena, Mehdi Rezagholizadeh, Aref Jafari, Akash Haridas...",
+      "abstract": "Hybrid sequence models that combine efficient Transformer components with linear sequence modeling blocks are a promising alternative to pure Transformers, but most are still pretrained from scratch and therefore fail to reuse existing Transformer checkpoints. We study upcycling as a practical path to convert pretrained Transformer LLMs into hybrid architectures while preserving short-context quality and improving long-context capability. We call our solution \\emph{HyLo} (HYbrid LOng-context): a long-context upcycling recipe that combines architectural adaptation with efficient Transformer blocks, Multi-Head Latent Attention (MLA), and linear blocks (Mamba2 or Gated DeltaNet), together with staged long-context training and teacher-guided distillation for stable optimization. HyLo extends usable context length by up to $32\\times$ through efficient post-training and reduces KV-cache memory by more than $90\\%$, enabling up to 2M-token prefill and decoding in our \\texttt{vLLM} inference stack, while comparable Llama baselines run out of memory beyond 64K context. Across 1B- and 3B-scale settings (Llama- and Qwen-based variants), HyLo delivers consistently strong short- and long-context performance and significantly outperforms state-of-the-art upcycled hybrid baselines on long-context evaluations such as RULER. Notably, at similar scale, HyLo-Qwen-1.7B trained on only 10B tokens significantly outperforms JetNemotron (trained on 400B tokens) on GSM8K, Lm-Harness common sense reasoning and RULER-64K.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24715v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24715v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b1a6c8f10e22"
+    },
+    {
+      "title": "The Chameleon's Limit: Investigating Persona Collapse and Homogenization in Large Language Models",
+      "authors": "Yunze Xiao, Vivienne J. Zhang, Chenghao Yang, Ningshan Ma, Weihao Xuan...",
+      "abstract": "Applications based on large language models (LLMs), such as multi-agent simulations, require population diversity among agents. We identify a pervasive failure mode we term \\emph{Persona Collapse}: agents each assigned a distinct profile nonetheless converge into a narrow behavioral mode, producing a homogeneous simulated population. To quantify persona collapse, we propose a framework that measures how much of the persona space a population occupies (Coverage), how evenly agents spread across it (Uniformity), and how rich the resulting behavioral patterns are (Complexity). Evaluating ten LLMs on personality simulation (BFI-44), moral reasoning, and self-introduction, we observe persona collapse along two axes: (1) Dimensions: a model can appear diverse on one axis yet structurally degenerate on another, and (2) Domains: the same model may collapse the most in personality yet be the most diverse in moral reasoning. Furthermore, item-level diagnostics reveal that behavioral variation tracks coarse demographic stereotypes rather than the fine-grained individual differences specified in each persona. Counter-intuitively, \\textbf{the models achieving the highest per-persona fidelity consistently produce the most stereotyped populations}. We release our toolkit and data to support population-level evaluation of LLMs.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24698v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24698v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "bf36d23eac10"
+    },
+    {
+      "title": "Can LLMs Act as Historians? Evaluating Historical Research Capabilities of LLMs via the Chinese Imperial Examination",
+      "authors": "Lirong Gao, Zeqing Wang, Yuyan Cai, Jiayi Deng, Yanmei Gu...",
+      "abstract": "While Large Language Models (LLMs) have increasingly assisted in historical tasks such as text processing, their capacity for professional-level historical reasoning remains underexplored. Existing benchmarks primarily assess basic knowledge breadth or lexical understanding, failing to capture the higher-order skills, such as evidentiary reasoning,that are central to historical research. To fill this gap, we introduce ProHist-Bench, a novel benchmark anchored in the Chinese Imperial Examination (Keju) system, a comprehensive microcosm of East Asian political, social, and intellectual history spanning over 1,300 years. Developed through deep interdisciplinary collaboration, ProHist-Bench features 400 challenging, expert-curated questions across eight dynasties, accompanied by 10,891 fine-grained evaluation rubrics. Through a rigorous evaluation of 18 LLMs, we reveal a significant proficiency gap: even state-of-the-art LLMs struggle with complex historical research questions. We hope ProHist-Bench will facilitate the development of domain-specific reasoning LLMs, advance computational historical research, and further uncover the untapped potential of LLMs. We release ProHist-Bench at https://github.com/inclusionAI/ABench/tree/main/ProHist-Bench.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24690v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24690v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7ded8e32a7ce"
+    },
+    {
+      "title": "Benchmarking Source-Sensitive Reasoning in Turkish: Humans and LLMs under Evidential Trust Manipulation",
+      "authors": "Sercan Karakaş, Yusuf Şimşek",
+      "abstract": "This paper investigates whether source trustworthiness shapes Turkish evidential morphology and whether large language models (LLMs) track this sensitivity. We study the past-domain contrast between -DI and -mIs in controlled cloze contexts where the information source is overtly external, while only its perceived reliability is manipulated (High-Trust vs. Low-Trust). In a human production experiment, native speakers of Turkish show a robust trust effect: High-Trust contexts yield relatively more -DI, whereas Low-Trust contexts yield relatively more -mIs, with the pattern remaining stable across sensitivity analyses. We then evaluate 10 LLMs in three prompting paradigms (open gap-fill, explicit past-tense gap-fill, and forced-choice A/B selection). LLM behavior is highly model- and prompt-dependent: some models show weak or local trust-consistent shifts, but effects are generally unstable, often reversed, and frequently overshadowed by output-compliance problems and strong base-rate suffix preferences. The results provide new evidence for a trust-/commitment-based account of Turkish evidentiality and reveal a clear human-LLM gap in source-sensitive evidential reasoning.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24665v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24665v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "087eadba6626"
+    },
+    {
+      "title": "DepthKV: Layer-Dependent KV Cache Pruning for Long-Context LLM Inference",
+      "authors": "Zahra Dehghanighobadi, Asja Fischer",
+      "abstract": "Long-context reasoning is a critical capability of large language models (LLMs), enabling applications such as long-document understanding, summarization, and code generation. However, efficient autoregressive inference relies on the key-value (KV) cache, whose memory footprint grows linearly with sequence length, leading to a major memory bottleneck. To mitigate this overhead, KV cache pruning methods discard cached tokens with low attention scores during inference. Most existing methods apply a uniform pruning ratio across layers, implicitly assuming that all layers contribute equally to overall model performance. We show that this assumption is suboptimal, as layers differ significantly in their sensitivity to pruning. We propose DepthKV, a layer-dependent pruning framework that allocates a fixed global KV budget across layers based on their sensitivity, rather than using a uniform allocation. Across multiple models and tasks, DepthKV consistently outperforms uniform pruning at the same global pruning ratio, demonstrating more effective utilization of the KV cache budget through layer-dependent allocation.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24647v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24647v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e554aad7d01f"
+    },
+    {
+      "title": "DPEPO: Diverse Parallel Exploration Policy Optimization for LLM-based Agents",
+      "authors": "Junshuo Zhang, Chengrui Huang, Feng Guo, Zihan Li, Ke Shi...",
+      "abstract": "Large language model (LLM) agents that follow the sequential \"reason-then-act\" paradigm have achieved superior performance in many complex tasks.However, these methods suffer from limited exploration and incomplete environmental understanding, as they interact with only a single environment per step. In this paper, we first introduce a novel paradigm that enables an agent to interact with multiple environments simultaneously and share cross-trajectory experiences. Building upon this paradigm, we further propose DPEPO, a reinforcement learning (RL) algorithm that encourages the agent to perform diverse parallel exploration. There are two stages in DPEPO: initial supervised fine-tuning (SFT) imparts basic parallel reasoning and action generation, followed by reinforcement learning stage with a hierarchical reward scheme. We design a parallel trajectory-level success reward and two step-level rewards: Diverse Action Reward and Diverse State Transition Reward, which actively penalize behavioral redundancy and promote broad exploration. Extensive experiments on ALFWorld and ScienceWorld show that DPEPO achieves state-of-the-art (SOTA) success rates, while maintaining comparable efficiency to strong sequential baselines. (Code is available at https://github.com/LePanda026/Code-for-DPEPO)",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24320v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24320v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "573ed831929c"
+    },
+    {
+      "title": "Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis",
+      "authors": "Zhisong Qiu, Shuofei Qiao, Kewei Xu, Yuqi Zhu, Lun Du...",
+      "abstract": "Process Reward Models (PRMs) have achieved remarkable success in augmenting the reasoning capabilities of Large Language Models (LLMs) within static domains such as mathematics. However, their potential in dynamic data analysis tasks remains underexplored. In this work, we first present a empirical study revealing that general-domain PRMs struggle to supervise data analysis agents. Specifically, they fail to detect silent errors, logical flaws that yield incorrect results without triggering interpreter exceptions, and erroneously penalize exploratory actions, mistaking necessary trial-and-error exploration for grounding failures. To bridge this gap, we introduce DataPRM, a novel environment-aware generative process reward model that (1) can serve as an active verifier, autonomously interacting with the environment to probe intermediate execution states and uncover silent errors, and (2) employs a reflection-aware ternary reward strategy that distinguishes between correctable grounding errors and irrecoverable mistakes. We design a scalable pipeline to construct over 8K high-quality training instances for DataPRM via diversity-driven trajectory generation and knowledge-augmented step-level annotation. Experimental results demonstrate that DataPRM improves downstream policy LLMs by 7.21% on ScienceAgentBench and 11.28% on DABStep using Best-of-N inference. Notably, with only 4B parameters, DataPRM outperforms strong baselines, and exhibits robust generalizability across diverse Test-Time Scaling strategies. Furthermore, integrating DataPRM into Reinforcement Learning yields substantial gains over outcome-reward baselines, achieving 78.73% on DABench and 64.84% on TableBench, validating the effectiveness of process reward supervision. Code is available at https://github.com/zjunlp/DataMind.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24198v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24198v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "bbe9838465ee"
+    },
+    {
+      "title": "IRIS: Interleaved Reinforcement with Incremental Staged Curriculum for Cross-Lingual Mathematical Reasoning",
+      "authors": "Navya Gupta, Rishitej Reddy Vyalla, Avinash Anand, Chhavi Kirtani, Erik Cambria...",
+      "abstract": "Curriculum learning helps language models tackle complex reasoning by gradually increasing task difficulty. However, it often fails to generate consistent step-by-step reasoning, especially in multilingual and low-resource settings where cross-lingual transfer from English to Indian languages remains limited. We propose IRIS: Interleaved Reinforcement with Incremental Staged Curriculum, a two-axis framework that combines Supervised Fine-Tuning on progressively harder problems (vertical axis) with Reverse Curriculum Reinforcement Learning to reduce reliance on step-by-step guidance (horizontal axis). We design a composite reward combining correctness, step-wise alignment, continuity, and numeric incentives, optimized via Group Relative Policy Optimization (GRPO). We release CL-Math, a dataset of 29k problems with step-level annotations in English, Hindi, and Marathi. Across standard benchmarks and curated multilingual test sets, IRIS consistently improves performance, with strong results on math reasoning tasks and substantial gains in low-resource and bilingual settings, alongside modest improvements in high-resource languages.",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.24114v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24114v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "92da5e168aba"
+    },
+    {
+      "title": "A Review of Security Risks of Large Medical Models",
+      "authors": "Songzhe Kang",
+      "abstract": "The breakthrough development of large medical models (LMMs) is reshaping the modern medical ecosystem.Through automated diagnosis, generating personalized treatment schemes, and providing real-time clinical decision support, LMMs have significantly improved the precision and efficiency of medical diagnosis and treatment, especially in limited medical resources, and shown revolutionary application potential.However, its learning performance still relies on a statistical learning paradigm, which results in severe security challenges for medical artificial intelligence systems.This paper systematically combs five core risks of LMMs deployment: (1) Malicious data pollution destroys the model robustness; (2) Deliberate subtle changes of medical images or texts misleads clinical decisions; (3) Privacy disclosure makes sensitive patient information face the threat of reversible extraction; (4) Backdoor attack triggers malicious behavior under specific conditions; (5) Prompt injection manipulates the output results through crafted input instructions.Then, this paper briefly reviews the current mainstream defense strategies against these threats, such as data cleaning and enriching, adversarial training optimization, privacy protection adding, and model behavior verification.It was suggested to establish a collaborative governance system from the perspectives of algorithm transparency, data management standards, clinical validation protocols, and responsibility traceability mechanisms, to achieve a dynamic balance between technological innovation and medical safety.",
+      "date": "2026-04-26",
+      "url": "https://doi.org/10.36838/ijhsr86.99",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International journal of high school research",
+      "direction": "medical",
+      "id": "10f467029c6c"
+    },
     {
       "title": "Structuring versus Problematizing: How LLM-based Agents Scaffold Learning in Diagnostic Reasoning",
       "authors": "Fatma Betül Güreş, Tanya Nazaretsky, Seyed Parsa Neshaei, Tanja Käser",
@@ -828,6 +948,18 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "3e010ee0bdeb"
+    },
+    {
+      "title": "Intervention-Aware Multiscale Representation Learning from Imaging Phenomics and Perturbation Transcriptomics",
+      "authors": "Jiayuan Chen, Ruoqi Liu, Zishan Gu, Ping Zhang",
+      "abstract": "Microscopy-based phenotypic profiling is scalable for drug discovery but lacks the mechanistic depth of transcriptomics, which remains costly and scarce. Existing multimodal approaches either use images to support other modalities or naively align representations by sample identity, ignoring cell-type and dose variations in weakly paired data-limiting generalization to unseen interventions. In this paper, we introduce an intervention-aware distillation framework that leverages perturbational transcriptomics to guide image representation learning. A transcriptome-conditioned teacher integrates gene expression and intervention metadata to produce soft distributions over a chemistry-aware codebook organized by drug similarity. The teacher employs a fine-tuned single-cell foundation model to encode cell-type context and disentangle dose effects. An image-only student learns to predict these distributions from microscopy alone, distilling mechanistic knowledge while operating independently at test time. This design emphasizes intervention semantics rather than identity alignment and explicitly handles dose and cell-type mismatches. We provide theoretical guarantees showing that transcriptomic guidance tightens the risk bound for image-based prediction. On Cell Painting and RxRx datasets paired with L1000, our method significantly improves one-shot transfer to unseen interventions and drug-target gene discovery compared to self-supervised and alignment baselines.",
+      "date": "2026-04-19",
+      "url": "https://arxiv.org/abs/2604.22832v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.22832v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "2064354746ce"
     },
     {
       "title": "Modeling of Biomechanical and Functional Parameters of Hydrogel–Cell Composites Fabricated by 3D Bioprinting Using AI-Supported Approach",
