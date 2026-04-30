@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-04-29 20:10",
+  "last_updated": "2026-04-30 20:09",
   "papers": [
+    {
+      "title": "Select to Think: Unlocking SLM Potential with Local Sufficiency",
+      "authors": "Wenxuan Ye, Yangyang Zhang, Xueli An, Georg Carle, Yunpu Ma",
+      "abstract": "Small language models (SLMs) offer computational efficiency for scalable deployment, yet they often fall short of the reasoning power exhibited by their larger counterparts (LLMs). To mitigate this gap, current approaches invoke an LLM to generate tokens at points of reasoning divergence, but these external calls introduce substantial latency and costs. Alternatively, standard distillation is often hindered by the capacity limitation, as SLMs struggle to accurately mimic the LLM's complex generative distribution. We address this dilemma by identifying local sufficiency: at divergence points, the LLM's preferred token consistently resides within the SLM's top-K next-token predictions, even when failing to emerge as the SLM top-1 choice. We therefore propose SELECT TO THINK (S2T), which reframes the LLM's role from open-ended generation to selection among the SLM's proposals, simplifying the supervision signal to discrete candidate rankings. Leveraging this, we introduce S2T-LOCAL, which distills the selection logic into the SLM, empowering it to perform autonomous re-ranking without inference-time LLM dependency. Empirically, we demonstrate that a 1.5B SLM's top-8 candidates capture the 32B LLM's choice with 95% hit rate. Translating this potential into performance, S2T-LOCAL improves greedy decoding by 24.1% on average across benchmarks, effectively matching the efficacy of 8-path self-consistency while operating with single-trajectory efficiency.",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.26940v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26940v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "fffcae317b86"
+    },
+    {
+      "title": "HealthNLP_Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering",
+      "authors": "Md Biplob Hosen, Md Alomgeer Hussein, Md Akmol Masud, Omar Faruque, Tera L Reynolds...",
+      "abstract": "Patient portals now give individuals direct access to their electronic health records (EHRs), yet access alone does not ensure patients understand or act on the complex clinical information contained in these records. The ArchEHR-QA 2026 shared task addresses this challenge by focusing on grounded question answering over EHRs, and this paper presents the system developed by the HealthNLP_Retrievers team for this task. The proposed approach uses a multi-stage cascaded pipeline powered by the Gemini 2.5 Pro large language model to interpret patient-authored questions and retrieve relevant evidence from lengthy clinical notes. Our architecture comprises four integrated modules: (1) a few-shot query reformulation unit which summarizes verbose patient queries; (2) a heuristic-based evidence scorer which ranks clinical sentences to prioritize recall; (3) a grounded response generator which synthesizes professional-caliber answers restricted strictly to identified evidence; and (4) a high-precision many-to-many alignment framework which links generated answers to supporting clinical sentences. This cascaded approach achieved competitive results. Across the individual tracks, the system ranked 1st in question interpretation, 5th in answer generation, 7th in evidence identification, and 9th in answer-evidence alignment. These results show that integrating large language models within a structured multi-stage pipeline improves grounding, precision, and the professional quality of patient-oriented health communication. To support reproducibility, our source code is publicly available in our GitHub repository",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.26880v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26880v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "4eb82262cb83"
+    },
+    {
+      "title": "SAGE: A Strategy-Aware Graph-Enhanced Generation Framework For Online Counseling",
+      "authors": "Eliya Naomi Aharon, Meytal Grimland, Avi Segal, Loona Ben Dayan, Inbar Shenfeld...",
+      "abstract": "Effective mental health counseling is a complex, theory-driven process requiring the simultaneous integration of psychological frameworks, real-time distress signals, and strategic intervention planning. This level of clinical reasoning is critical for safety and therapeutic effectiveness but is often missing in general-purpose Large Language Models (LLMs). We introduce SAGE (Strategy-Aware Graph-Enhanced), a novel framework designed to bridge the gap between structured clinical knowledge and generative AI. SAGE constructs a heterogeneous graph that unifies conversational dynamics with a psychologically grounded layer, explicitly anchoring interactions in a theory-driven lexicon. Our architecture first employs a Next Strategy Classifier to identify the optimal therapeutic intervention. Subsequently, a Graph-Aware Attention mechanism projects graph-derived structural signals into soft prompts, conditioning the LLM to generate responses that maintain clinical depth. Validated through both automated metrics and expert human evaluation, SAGE outperforms baselines in strategy prediction and recommended response quality. By providing actionable intervention recommendations, SAGE serves as a cutting-edge decision-support tool designed to augment human expertise in high-stakes crisis counseling.",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.26630v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26630v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ba0de47145ca"
+    },
+    {
+      "title": "Naamah: A Large Scale Synthetic Sanskrit NER Corpus via DBpedia Seeding and LLM Generation",
+      "authors": "Akhil Rajeev P, Annarao Kulkarni",
+      "abstract": "The digitisation of classical Sanskrit literature is impeded by a scarcity of annotated resources, particularly for Named Entity Recognition. While recent methodologies utilise generic Large Language Models (LLMs) for data augmentation, these approaches remain prone to error and often lack the reasoning depth required for classical grammar. In this work, we introduce Naamah, a high quality silver standard Sanskrit NER dataset comprising 102,942 sentences. We propose a methodology that combines entity extraction from DBpedia with the generative capabilities of a 24B parameter hybrid reasoning model to create grammatically natural and synthetically diverse training data. We utilize this dataset to benchmark two transformer architectures: the massive multilingual XLM RoBERTa and the parameter efficient IndicBERTv2.",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.26456v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26456v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1be51fe54284"
+    },
+    {
+      "title": "Text Style Transfer with Machine Translation for Graphic Designs",
+      "authors": "Deergh Singh Budhauria, Sanyam Jain, Rishav Agarwal, Tracy King",
+      "abstract": "Globalization of graphic designs such as those used in marketing materials and magazines is increasingly important for communication to broad audiences. To accomplish this, the textual content in the graphic designs needs to be accurately translated and have the text styling preserved in order to fit visually into the design. Preserving text styling requires high accuracy word alignment between the original and the translated text. The problem of word alignment between source and translated text is long known. The industry standards for extracting word alignments are defined by Giza++ and attention probabilities from neural machine translation (NMT) models. In this paper, we explore three new methods to tackle the word alignment problem for transferring text styles from the source to the translated text. The proposed methods are developed on top of commercially available NMT and LLM translation technologies. They include: NMT with custom input and output tags for text styling; LLM with custom input and output tags; a hybrid with NMT for translation followed by an LLM with use of unigram mappings. To analyze the performance of these solutions, their alignment results are compared with the results of an attention head approach to gauge their usability in graphic design applications. Interestingly, the attention head strong baseline proves more accurate than the LLM or NMT approach and on par with the hybrid NMT+LLM approach.",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.26361v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26361v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "fc0020ac9278"
+    },
+    {
+      "title": "Addressing Performance Saturation for LLM RL via Precise Entropy Curve Control",
+      "authors": "Bolian Li, Yifan Wang, Yi Ding, Anamika Lochab, Ananth Grama...",
+      "abstract": "Reinforcement learning (RL) has unlocked complex reasoning abilities in large language models (LLMs). However, most RL algorithms suffer from performance saturation, preventing further gains as RL training scales. This problem can be characterized by the collapse of entropy, a key diagnostic for exploration in RL. Existing attempts have tried to prevent entropy collapse through regularization or clipping, but their resulting entropy curves often exhibit instability in the long term, which hinders performance gains. In this paper, we introduce Entrocraft, a simple rejection-sampling approach that realizes any user-customized entropy schedule by biasing the advantage distributions. Entrocraft requires no objective regularization and is advantage-estimator-agnostic. Theoretically, we relate per-step entropy change to the advantage distribution under minimal assumptions, which explains the behavior of existing RL and entropy-preserving methods. Entrocraft also enables a systematic study of entropy schedules, where we find that linear annealing, which starts high and decays to a slightly lower target, performs best. Empirically, Entrocraft addresses performance saturation, significantly improving generalization, output diversity, and long-term training. It enables a 4B model to outperform an 8B baseline, sustains improvement for up to 4x longer before plateauing, and raises pass@K by 50% over the baseline.",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.26326v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26326v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1e27bc948c31"
+    },
+    {
+      "title": "Ethical challenges of artificial intelligence in education: A systematic literature review on bias, privacy, and academic integrity",
+      "authors": "Musah Ebikabowei",
+      "abstract": "The emergence of artificial intelligence in education has given rise to huge ethical issues concerning the existence of algorithmic bias, data privacy, and academic honesty when generator AI, large language models, ChatGPT, predictive analytics, and learning analytics services are highly used and implemented in the educational environment. These have fueled controversies about equity, openness, accountability, trust, digital equality, and responsible AI in post-secondary education and wider education. This is a systematic literature review that follows the PRISMA framework to discuss the new ethical issues of AI in education with particular attention given to bias, privacy, and academic dishonesty. The review emphasis on trends in AI ethics, educational technology, adaptive learning, automated assessment, surveillance of students, and policy frameworks. The results indicate that bias by algorithm often supports educational inequity, displaces low-represented students, and promotes assessment, admissions, and predictive decision-making disparities. The problem of privacy is associated with large sums of student data collected, a poor policy of governing data, lack of informed consent, and the growing application of learning analytics systems that rely on surveillance. One of the major concerns is academic integrity because of the prevalence of generative AI in plagiarism, ghostwriting, unauthorized collaboration, and cheating with the assistance of AI. The review also establishes an increasing focus on explainable AI, human-centered AI, ethical governance, privacy-preserving AI, stakeholder engagement, and AI literacy as solutions to responsible innovation.",
+      "date": "2026-04-28",
+      "url": "https://doi.org/10.70593/deepsci.0202054",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Applied Resilience and Sustainability",
+      "direction": "medical",
+      "id": "4d500935f24c"
+    },
+    {
+      "title": "Ethical challenges of artificial intelligence in education: A systematic literature review on bias, privacy, and academic integrity",
+      "authors": "Musah Ebikabowei",
+      "abstract": "The emergence of artificial intelligence in education has given rise to huge ethical issues concerning the existence of algorithmic bias, data privacy, and academic honesty when generator AI, large language models, ChatGPT, predictive analytics, and learning analytics services are highly used and implemented in the educational environment. These have fueled controversies about equity, openness, accountability, trust, digital equality, and responsible AI in post-secondary education and wider education. This is a systematic literature review that follows the PRISMA framework to discuss the new ethical issues of AI in education with particular attention given to bias, privacy, and academic dishonesty. The review emphasis on trends in AI ethics, educational technology, adaptive learning, automated assessment, surveillance of students, and policy frameworks. The results indicate that bias by algorithm often supports educational inequity, displaces low-represented students, and promotes assessment, admissions, and predictive decision-making disparities. The problem of privacy is associated with large sums of student data collected, a poor policy of governing data, lack of informed consent, and the growing application of learning analytics systems that rely on surveillance. One of the major concerns is academic integrity because of the prevalence of generative AI in plagiarism, ghostwriting, unauthorized collaboration, and cheating with the assistance of AI. The review also establishes an increasing focus on explainable AI, human-centered AI, ethical governance, privacy-preserving AI, stakeholder engagement, and AI literacy as solutions to responsible innovation.",
+      "date": "2026-04-28",
+      "url": "https://doi.org/10.70593/deepsci.0202054",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Applied Resilience and Sustainability",
+      "direction": "cell",
+      "id": "4d500935f24c"
+    },
     {
       "title": "Enhancing customer value through artificial intelligence and machine learning: Personalization, big data analytics, and customer experience management",
       "authors": "Adejoke Olumide Dele-Rotimi",
