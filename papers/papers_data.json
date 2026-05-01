@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-04-30 20:09",
+  "last_updated": "2026-05-01 20:04",
   "papers": [
+    {
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "authors": "Eyon Jang, Damon Falck, Joschka Braun, Nathalie Kirch, Achu Menon...",
+      "abstract": "Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration of diverse actions by the model during training, which creates a potential failure mode: a model could strategically alter its exploration during training to influence the subsequent training outcome. In this paper we study this behavior, called exploration hacking. First, we create model organisms of selective RL resistance by fine-tuning LLMs to follow specific underperformance strategies; these models can successfully resist our RL-based capability elicitation in agentic biosecurity and AI R&D environments while maintaining performance on related tasks. We then use our model organisms to evaluate detection and mitigation strategies, including monitoring, weight noising, and SFT-based elicitation. Finally, we show that current frontier models can exhibit explicit reasoning about suppressing their exploration when provided with sufficient information about their training context, with higher rates when this information is acquired indirectly through the environment. Together, our results suggest exploration hacking is a possible failure mode of RL on sufficiently capable LLMs.",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.28182v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28182v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "762791aafe57"
+    },
+    {
+      "title": "TopBench: A Benchmark for Implicit Prediction and Reasoning over Tabular Question Answering",
+      "authors": "An-Yang Ji, Jun-Peng Jiang, De-Chuan Zhan, Han-Jia Ye",
+      "abstract": "Large Language Models (LLMs) have advanced Table Question Answering, where most queries can be answered by extracting information or simple aggregation. However, a common class of real-world queries is implicitly predictive, requiring the inference of unobserved answers from historical patterns rather than mere retrieval. These queries introduce two challenges: recognizing latent intent and reliable predictive reasoning over massive tables. To assess LLMs in such Tabular questiOn answering with implicit Prediction tasks, we introduce TopBench, a benchmark consisting of 779 samples across four sub-tasks, ranging from single-point prediction to decision making, treatment effect analysis, and complex filtering, requiring models to generate outputs spanning reasoning text and structured tables. We evaluate diverse models under both text-based and agentic workflows. Experiments reveal that current models often struggle with intent recognition, defaulting to just lookups. Deeper analysis identifies that accurate intent disambiguation serves as the prerequisite for leading these predictive behaviors. Furthermore, elevating the upper bound of prediction precision requires the integration of more sophisticated modeling or reasoning capabilities.",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.28076v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.28076v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e5acdbc80cb4"
+    },
+    {
+      "title": "DPN-LE: Dual Personality Neuron Localization and Editing for Large Language Models",
+      "authors": "Lifan Zheng, Xue Yang, Jiawei Chen, Chenyan Wu, Jingyuan Zhang...",
+      "abstract": "With the widespread adoption of large language models (LLMs), understanding their personality representation mechanisms has become critical. As a novel paradigm in Personality Editing, most existing methods employ neuron-editing to locate and modify LLM neurons, requiring changes to numerous neurons and leading to significant performance degradation. This raises a fundamental question: Are all modified neurons directly related to personality representation? In this work, we investigate and quantify this specificity through assessments of general capability impact and representation-level patterns. We find that: 1) Current methods can change personalities but reduce overall performance. 2) Neurons are multifunctional, connecting personality traits and general knowledge. 3) Opposing personality traits demonstrate distinctly mutually exclusive representation patterns. Motivated by these findings, we propose DPN-LE (Dual Personality Neuron Localization and Editing), which identifies personality-specific neurons by contrasting MLP activations between high-trait and low-trait samples. DPN-LE constructs layer-wise steering vectors and applies dual-criterion filtering based on Cohen's $d$ effect size and activation magnitude to isolate mutually exclusive neuron subsets. Sparse linear intervention on these neurons enables precise personality control at inference time. Using only 1,000 contrastive sample pairs per trait, DPN-LE intervenes on $\\sim$0.5\\% of neurons while achieving competitive personality control and substantially better capability preservation across reasoning tasks. Experiments on LLaMA-3-8B-Instruct and Qwen2.5-7B-Instruct demonstrate the effectiveness and generalizability of our approach.",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.27929v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.27929v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e2b0210be4a2"
+    },
+    {
+      "title": "Can AI Be a Good Peer Reviewer? A Survey of Peer Review Process, Evaluation, and the Future",
+      "authors": "Sihong Wu, Owen Jiang, Yilun Zhao, Tiansheng Hu, Yiling Ma...",
+      "abstract": "Peer review is a multi-stage process involving reviews, rebuttals, meta-reviews, final decisions, and subsequent manuscript revisions. Recent advances in large language models (LLMs) have motivated methods that assist or automate different stages of this pipeline. In this survey, we synthesize techniques for (i) peer review generation, including fine-tuning strategies, agent-based systems, RL-based methods, and emerging paradigms to enhance generation; (ii) after-review tasks including rebuttals, meta-review and revision aligned to reviews; and (iii) evaluation methods spanning human-centered, reference-based, LLM-based and aspect-oriented. We catalog datasets, compare modeling choices, and discuss limitations, ethical concerns, and future directions. The survey aims to provide practical guidance for building, evaluating, and integrating LLM systems across the full peer review workflow.",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.27924v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.27924v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d71b6120f4f1"
+    },
+    {
+      "title": "Reasoning over Object Descriptions Improves Coreference Resolution in Task-Based Dialogue Systems",
+      "authors": "Oier Ijurco, Oier Lopez de Lacalle",
+      "abstract": "Task-based dialogue systems assist users in achieving specific goals, such as executing actions or retrieving information, through natural language interactions. Accurate coreference resolution is essential, as it involves identifying object references within the dialogue - a task that becomes increasingly challenging in visually grounded environments characterized by complex scenes and diverse object metadata. However, coreference resolution in task-based dialogue remains limited by poor generalization across domains and heavy reliance on supervised models that often overfit to dataset-specific artifacts. In this work, we propose a unimodal test-time reasoning approach that enables large language models (LLMs) to reason over detailed object metadata and dialogue history to improve coreference resolution. Empirical results on the SIMMC 2.1 dataset demonstrate that LLMs can generate step-by-step reasoning processes that effectively align dialogue context with objects present in the scene. Extensive experiments highlight the models' ability to link conversations and objects accurately. Moreover, we show that test-time reasoning under few-shot settings generalizes effectively to unseen scenarios and novel objects, outperforming encoder-based supervised methods in cross-domain evaluations. These findings underscore the critical role of structured metadata and careful prompt engineering in enhancing the robustness and generalization of task-oriented dialogue systems.",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.27850v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.27850v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "a148845daf65"
+    },
+    {
+      "title": "From Coarse to Fine: Benchmarking and Reward Modeling for Writing-Centric Generation Tasks",
+      "authors": "Qingyu Ren, Tianjun Pan, Xingzhou Chen, Xuhong Wang",
+      "abstract": "Large language models have achieved remarkable progress in text generation but still struggle with generative writing tasks. In terms of evaluation, existing benchmarks evaluate writing reward models coarsely and fail to measure performance from the perspective of specific requirements. In terms of training, existing training methods either use LLM-as-a-judge approaches or train coarse-grained reward models, lacking fine-grained requirement-adherence reward modeling. To address these issues, we propose a fine-grained evaluation pipeline WEval for writing reward models and a fine-grained reinforcement learning training framework WRL. The evaluation data of WEval covers multiple task categories and requirement types, enabling systematic evaluation of writing reward models by measuring the correlation between the rankings of the reward model and gold rankings. WRL constructs positive and negative samples by selectively dropping instruction requirements, allowing for more precise reward model training. Experiments show that our models achieve substantial improvements across various writing benchmarks and exhibit strong generalization. The code and data are publicly available at \\href{https://github.com/Rainier-rq1/From_Coarse_to_Fine}{https://github.com/Rainier-rq1/From\\_Coarse\\_to\\_Fine}.",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.27453v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.27453v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "2406b0f9cb36"
+    },
+    {
+      "title": "Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models",
+      "authors": "Vijay Sadashivaiah, Georgios Dasoulas, Judith Mueller, Soumya Ghosh",
+      "abstract": "Training stable biological foundation models requires rethinking attention mechanisms: we find that using sigmoid attention as a drop in replacement for softmax attention a) produces better learned representations: on six diverse single-cell datasets, sigmoid achieves 25% higher cell-type separation, better cell-type cohesion metrics, and lower validation loss, b) faster training, models with sigmoid attention train up to 10% faster than their softmax counterparts, and c) more stable training by eliminating inherent sources of instability in softmax attention. We establish that sigmoid attention has globally bounded derivatives ($\\leq 0.25$) as opposed to softmax, and a diagonal Jacobian structure in contrast with softmax's dense coupling, which together help alleviate training instabilities. In stress tests on 160M-parameter bidirectional attention models trained without gradient clipping on 8K-token sequences, softmax diverges catastrophically, with gradients exploding by four orders of magnitude, while sigmoid remains stable. Finally, we implement and open-source TritonSigmoid, an efficient GPU kernel that achieves 515 TFLOPS on H100 GPUs, outperforming both FlashAttention-2 and FlashSigmoid, with native padding support, which is essential for biological sequences. Our results establish sigmoid attention as both theoretically grounded and empirically superior for biological foundation models. Code is available at https://github.com/MSDLLCpapers/triton-sigmoid",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.27124v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.27124v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "16342c734777"
+    },
     {
       "title": "Select to Think: Unlocking SLM Potential with Local Sufficiency",
       "authors": "Wenxuan Ye, Yangyang Zhang, Xueli An, Georg Carle, Yunpu Ma",
@@ -72,6 +156,18 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "1e27bc948c31"
+    },
+    {
+      "title": "Optics-free reconstruction of shapes, images and volumes with DNA barcode proximity graphs",
+      "authors": "Hanna Liao, Sanjay Kottapalli, Yuqi Huang, Matthew Chaw, Jase Gehring, ...",
+      "abstract": "Spatial genomics technologies include imaging- and sequencing-based methods. Sequencing-based spatial methods typically require surfaces coated with coordinate-associated DNA barcodes, but the physical registration of these barcodes to spatial coordinates is challenging, necessitating either high density printing of oligonucleotides or in situ sequencing/probing of randomly deposited, DNA-barcode-bearing beads. As a consequence, the surface areas available to sequencing-based spatial genomic methods are constrained by the time, labor, cost and instrumentation required to either print or decode a coordinate-tagged surface. To address this challenge, we developed SCOPE (Spatial reConstruction via Oligonucleotide Proximity Encoding), an optics-free, DNA microscopy-inspired method. With SCOPE, the relative positions of DNA-barcoded beads within a 2D shape, 2D image or 3D volume are inferred from the ex situ sequencing of chimeric molecules formed from diffusing “sender” and tethered “receiver” oligonucleotides. To demonstrate the potential of this approach, we applied SCOPE to reconstruct 2D shapes, 2D images or 3D volumes defined by 104-106 x 20-100 µm DNA barcoded beads, including an asymmetric “swoosh” resembling the Nike logo (44 mm2), a “color” Snellen eye chart (704 mm2) and the surface topology of 3D molds of a teddy bear, star, butterfly or block letter (75-100 mm3). Each of the resulting “DNA barcode proximity graphs” was computationally reconstructed in an automated fashion, across fields of view and at resolutions that were determined by sequencing depth, bead size and diffusion kinetics, rather than by microarray or microscope instrument time. Because the ground truth shapes are known, these datasets may be particularly useful for the further development of computational algorithms by this nascent field.",
+      "date": "2026-04-28",
+      "url": "https://doi.org/10.7554/elife.110436.1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "eLife",
+      "direction": "cell",
+      "id": "9a62a2df0454"
     },
     {
       "title": "Ethical challenges of artificial intelligence in education: A systematic literature review on bias, privacy, and academic integrity",
