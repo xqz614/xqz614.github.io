@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01 20:04",
+  "last_updated": "2026-05-02 19:54",
   "papers": [
     {
       "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
@@ -492,6 +492,18 @@
       "venue": "International journal of high school research",
       "direction": "medical",
       "id": "10f467029c6c"
+    },
+    {
+      "title": "Are Current AI Virtual Cell Models Useful for Scientific Discovery?",
+      "authors": "Bereket, M. D.; Leskovec, J.",
+      "abstract": "AI models are increasingly developed to predict the effect of perturbations on gene expression, but current benchmarks fail to reliably measure model performance. Here, we argue that new benchmarks that directly measure the value of model predictions for specific scientific discovery outcomes are needed to address this gap. We present PerturbHD, an evaluation framework for AI-enabled hit discovery, to demonstrate the benefits our proposed approach.",
+      "date": "2026-04-25",
+      "url": "https://doi.org/10.64898/2026.04.23.719015",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "f4ac24a05bca"
     },
     {
       "title": "Structuring versus Problematizing: How LLM-based Agents Scaffold Learning in Diagnostic Reasoning",
