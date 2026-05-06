@@ -1,6 +1,174 @@
 {
-  "last_updated": "2026-05-05 20:07",
+  "last_updated": "2026-05-06 20:22",
   "papers": [
+    {
+      "title": "Effects of Explanations in Human-AI Interaction: A Systematic Review and Framework for Future Research on Explainable AI",
+      "authors": "Philipp Reinhard, Mahei Manhai Li, Christoph Peters, Jan Marco Leimeister",
+      "abstract": "Abstract Advancements in artificial intelligence (AI), particularly in generative AI and agentic AI, have intensified challenges related to transparency and explainability. While explainable AI (XAI) research has evolved to facilitate human interaction with such complex, black-box systems, research and practice lack clarity on the causal chain linking explanations, user perceptions, and real-world outcomes, a relationship that remains conceptually fragmented. To address this gap, we conducted a systematic literature review of 107 experimental user studies on XAI. We developed a conceptual framework guided by the stimulus-organism-response-consequences (S-O-R-C) model to systematize current human-XAI research and examine how users respond to explanations. Our study contributes to the literature by clarifying how explanations shape user interactions and downstream effects in real-world settings. We propose five research directions to help navigate the challenges of emerging AI systems (e.g., LLMs, AI agents) and evolving human-AI delegation.",
+      "date": "2026-05-05",
+      "url": "https://doi.org/10.1007/s10796-026-10716-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Information Systems Frontiers",
+      "direction": "medical",
+      "id": "5d1f0a4098c6"
+    },
+    {
+      "title": "A methodological protocol for multimodal profiling of conversational abilities in mandarin-speaking children with and without developmental language disorder",
+      "authors": "Cai Wang, Jiamin Xu, M M Yao, Jingyu Wang, Qin Hong, ...",
+      "abstract": "Introduction Developmental Language Disorder (DLD) is a common neurodevelopmental condition that affects both the structural and pragmatic aspects of language. Conversational abilities—including topic initiation, maintenance, repair, turn-taking, and the integration of non-verbal behaviors—are essential for social communication and peer relationships. While a substantial body of research has described conversational difficulties in DLD among English-speaking populations, there is limited evidence on how these impairments manifest in Mandarin-speaking children. There is a critical need for culturally adapted assessment approaches; thus, this protocol primarily aims to evaluate the feasibility of a multimodal framework tailored specifically to the Mandarin-speaking context. Methods This protocol describes an age-stratified cross-sectional observational study with two phases. In Phase 1, an adapted multimodal profiling framework will be developed and piloted through semi-structured free conversation and role-play tasks, recorded with audio–video equipment. Transcription will follow Codes for the Human Analysis of Transcripts (CHAT) conventions within European Distributed Corpora (EUDICO) Linguistic Annotator (ELAN), with word segmentation supported by Jieba and manual correction. Annotation tiers will capture utterance-level features, communicative acts (Inventory of Communicative Acts-Abridged [INCA-A]), repairs, turn-taking, and gesture–speech alignment (stroke apex ±500 ms). Feasibility (session completion, recording length, and utterance yield) and reliability (Cohen’s κ , ICC, and drift checks) will be evaluated to refine the coding manual. In Phase 2, the finalized protocol will be applied to 90 children with DLD and 90 typically developing (TD) peers (aged 4–6, matched for age and sex). Data analysis will quantify primary outcome measures (topic maintenance ratio, successful repair rate, gesture–speech synchrony index) and secondary outcome measures (lexical diversity, initiation–maintenance balance, and turn-taking productivity), with exploratory analyses of demographic and home-environment moderators. Discussion This protocol advances methodological research by providing a transparent and reproducible framework for multimodal profiling of pragmatic language in Mandarin-speaking preschoolers. Its strengths include multimodal data integration and explicit feasibility benchmarks. Limitations include the cross-sectional design and a modest sample size. Future research may extend the protocol to longitudinal studies, contributing to the establishment of standardized procedural benchmarks and improved data comparability within this specific linguistic environment.",
+      "date": "2026-05-05",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1704308",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Psychology",
+      "direction": "medical",
+      "id": "b5219b8985f8"
+    },
+    {
+      "title": "Adaptive emotion-aware chatbot for mental health diagnosis using recurrent reinforcement learning and transformer models",
+      "authors": "Sonia Dessai, Sandhya Arora, Gayatri Joshi",
+      "abstract": "In the busy and stressful modern world, people tend to disregard mental health, still it is an important factor of overall health. The constant pressure to achieve success, the invasive nature of technology, and the constantly growing needs of the contemporary world may all be the causes of stress, anxiety, and other mental health difficulties. Despite growing awareness, mental health remains a sensitive topic, as social stigma and other factors continue to hinder open discourse. There are many standard tests like GAD-7 for anxiety, PHQ-9 for depression, PSS-10 for stress, and many more openly available on the internet, but people might miss estimate their situation while answering these questionnaires, leading to wrong or inaccurate diagnoses. This paper focuses on integrating the questions of these three standard questionnaires and creating an emotion-aware chatbot with a dynamic questionnaire. To evaluate user responses, i.e., to measure the severity of each mental disorder, a fine-tuned RoBERTa model is used. This fine-tuned transformer model will take in the user response and return a severity value for each of the three disorders on a scale of 0–100. The ROC curve method is applied to the MHP data-set to determine the threshold score for each question. Using the above two, a Recurrent Reinforcement Learning model is trained, which combines Proximal Policy Optimization (PPO) and Long Short-Term Memory (LSTM) to create the dynamic questionnaire. The Recurrent RL model will be trained to understand and evaluate the scores obtained from the user response and the history of the current session and dynamically decide which question to ask next.",
+      "date": "2026-05-05",
+      "url": "https://doi.org/10.3389/frai.2026.1769286",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "medical",
+      "id": "edd8e05f1c7c"
+    },
+    {
+      "title": "The architecture of agreement: from strings to structures",
+      "authors": "Diego Gabriel Krivochen, Douglas Saddy, Julie Franck",
+      "abstract": "In this paper we raise the question “why is agreement so common across natural languages?”. We will argue that the challenge of grammar inference in natural and artificial languages provides key insights into the ubiquity of agreement. By grammar inference , we mean the discovery of a procedure that (i) determines string well-formedness on the basis of exposure to unannotated expressions of a language; and (ii) allows for the construction of structural descriptions for well-formed strings. The idealized version of this problem results in the identification of the generator of a stringset, or -more realistically- a restriction of the class of possible generators. We argue that agreement plays a crucial role not only in flagging dependencies between expressions at the string level, but also, considering that agreement relations occur in restricted structural configurations, in restricting the class of structural descriptions compatible with a string. As such, agreement mediates between strings and structure, providing a parser with information to solve the grammar inference problem. We will furthermore argue that the mechanisms involved in grammar identification are not restricted to natural language acquisition and processing, but in fact extend to a class of problems that motivated much research in the theory of symbolic encoding of dynamical systems and machine learning.",
+      "date": "2026-05-05",
+      "url": "https://doi.org/10.3389/flang.2026.1689620",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Language Sciences",
+      "direction": "cell",
+      "id": "c3f95e0e5e45"
+    },
+    {
+      "title": "Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments",
+      "authors": "Hao Mi, Qiang Sheng, Shaofei Wang, Beizhe Hu, Yifan Sun...",
+      "abstract": "Large Language Models (LLMs) are prone to factual hallucinations, risking their reliability in real-world applications. Existing hallucination detectors mainly extract micro-level intrinsic patterns for uncertainty quantification or elicit macro-level self-judgments through verbalized prompts. However, these methods address only a single facet of the hallucination, focusing either on implicit neural uncertainty or explicit symbolic reasoning, thereby treating these inherently coupled behaviors in isolation and failing to exploit their interdependence for a holistic view. In this paper, we propose LaaB (Logical Consistency-as-a-Bridge), a framework that bridges neural features and symbolic judgments for hallucination detection. LaaB introduces a \"meta-judgment\" process to map symbolic labels back into the feature space. By leveraging the inherent logical bridge where response and meta-judgment labels are either the same or opposite based on the self-judgment's semantics, LaaB aligns and integrates dual-view signals via mutual learning and enhances the hallucination detection. Extensive experiments on 4 public datasets, across 4 LLMs, against 8 baselines demonstrate the superiority of LaaB.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03971v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03971v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "48d661d65578"
+    },
+    {
+      "title": "Correct Is Not Enough: Training Reasoning Planners with Executor-Grounded Rewards",
+      "authors": "Tianyang Han, Hengyu Shi, Junjie Hu, Xu Yang, Zhiling Wang...",
+      "abstract": "Reinforcement learning with verifiable rewards has become a common way to improve explicit reasoning in large language models, but final-answer correctness alone does not reveal whether the reasoning trace is faithful, reliable, or useful to the model that consumes it. This outcome-only signal can reinforce traces that are right for the wrong reasons, overstate reasoning gains by rewarding shortcuts, and propagate flawed intermediate states in multi-step systems. To this end, we propose TraceLift, a planner-executor training framework that treats reasoning as a consumable intermediate artifact. During planner training, the planner emits tagged reasoning. A frozen executor turns this reasoning into the final artifact for verifier feedback, while an executor-grounded reward shapes the intermediate trace. This reward multiplies a rubric-based Reasoning Reward Model (RM) score by measured uplift on the same frozen executor, crediting traces that are both high-quality and useful. To make reasoning quality directly learnable, we introduce TRACELIFT-GROUPS, a rubric-annotated reason-only dataset built from math and code seed problems. Each example is a same-problem group containing a high-quality reference trace and multiple plausible flawed traces with localized perturbations that reduce reasoning quality or solution support while preserving task relevance. Extensive experiments on code and math benchmarks show that this executor-grounded reasoning reward improves the two-stage planner-executor system over execution-only training, suggesting that reasoning supervision should evaluate not only whether a trace looks good, but also whether it helps the model that consumes it.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03862v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03862v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "10ae475b68e7"
+    },
+    {
+      "title": "MCJudgeBench: A Benchmark for Constraint-Level Judge Evaluation in Multi-Constraint Instruction Following",
+      "authors": "Jaeyun Lee, Junyoung Koh, Zeynel Tok, Hunar Batra, Ronald Clark",
+      "abstract": "Multi-constraint instruction following requires verifying whether a response satisfies multiple individual requirements, yet LLM judges are often assessed only through overall-response judgments. We introduce MCJudgeBench, a benchmark for constraint-level judge evaluation in multi-constraint instruction following. Each instance includes an instruction, a candidate response, an explicit constraint list, per-constraint gold labels in {yes, partial, no}, and controlled response-side perturbations. The evaluation protocol further includes evaluation prompt variants to test judge stability. We evaluate proprietary and open-source LLM judges using both correctness and inconsistency metrics, distinguishing intrinsic inconsistency under stochastic decoding from procedural inconsistency under prompt and response perturbations. Our results show that judge reliability has multiple dimensions: strong overall performance does not guarantee equally reliable detection across label categories, especially for rarer partial and no cases. Judges with higher correctness do not always have lower inconsistency. Evaluation with reasoning improves correctness but does not uniformly improve stability. These findings motivate evaluating LLM judges at the constraint level to study these failure modes.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03858v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03858v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c2b20021a8e7"
+    },
+    {
+      "title": "SAM-NER: Semantic Archetype Mediation for Zero-Shot Named Entity Recognition",
+      "authors": "Ruichu Cai, Juntao Gan, Miao Mai, Zhifeng Hao, Boyan Xu",
+      "abstract": "Zero-shot Named Entity Recognition (ZS-NER) remains brittle under domain and schema shifts, where unseen label definitions often misalign with a large language model's (LLM's) intrinsic semantic organization. As a result, directly mapping entity mentions to fine-grained target labels can induce systematic semantic drift, especially when target schemas are novel or semantically overlapping. We propose \\textbf{SAM-NER}, a three-stage framework based on \\emph{Semantic Archetype Mediation} that stabilizes cross-domain transfer through an intermediate, domain-invariant archetype space. SAM-NER: (i) performs \\emph{Entity Discovery} via cooperative extraction and consensus-based denoising to obtain high-coverage, high-fidelity entity spans; (ii) conducts \\emph{Abstract Mediation} by projecting entities into a compact set of universal semantic archetypes distilled from high-level ontological abstractions; and (iii) applies \\emph{Semantic Calibration} to resolve archetype-level predictions into target-domain types through constrained, definition-aligned inference with a frozen LLM. Experiments on the CrossNER benchmark show that SAM-NER consistently outperforms strong prior ZS-NER baselines in cross-domain settings. Our implementation will be open-sourced at https://github.com/DMIRLAB-Group/SAM-NER.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03706v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03706v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "974d45b9a127"
+    },
+    {
+      "title": "SERE: Structural Example Retrieval for Enhancing LLMs in Event Causality Identification",
+      "authors": "Zhifeng Hao, Zhongjie Chen, Junhao Lu, Shengyin Yu, Guimin Hu...",
+      "abstract": "Event Causality Identification (ECI) requires models to determine whether a given pair of events in a context exhibits a causal relationship. While Large Language Models (LLMs) have demonstrated strong performance across various NLP tasks, their effectiveness in ECI remains limited due to biases in causal reasoning, often leading to overprediction of causal relationships (causal hallucination). To mitigate these issues and enhance LLM performance in ECI, we propose SERE, a structural example retrieval framework that leverages LLMs' few-shot learning capabilities. SERE introduces an innovative retrieval mechanism based on three structural concepts: (i) Conceptual Path Metric, which measures the conceptual relationship between events using edit distance in ConceptNet; (ii) Syntactic Metric, which quantifies structural similarity through tree edit distance on syntactic trees; and (iii) Causal Pattern Filtering, which filters examples based on predefined causal structures using LLMs. By integrating these structural retrieval strategies, SERE selects more relevant examples to guide LLMs in causal reasoning, mitigating bias and improving accuracy in ECI tasks. Extensive experiments on multiple ECI datasets validate the effectiveness of SERE. The source code is publicly available at https://github.com/DMIRLAB-Group/SERE.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03701v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03701v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e89df2c79706"
+    },
+    {
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "authors": "Yuwen Du, Rui Ye, Shuo Tang, Keduan Huang, Xinyu Zhu...",
+      "abstract": "Deep search capabilities have become an indispensable competency for frontier Large Language Model (LLM) agents, yet their development remains dominated by industrial giants. The typical industry recipe involves a highly resource-intensive pipeline spanning pre-training, continual pre-training (CPT), supervised fine-tuning (SFT), and reinforcement learning (RL). In this report, we show that when fueled with informative and high-difficulty trajectories, a simple SFT approach could be surprisingly powerful for training frontier search agents. By introducing three simple data synthesis modifications: scaling knowledge graph size for richer exploration, expanding the tool set size for broader functionality, and strict low-step filtering, we establish a stronger baseline. Trained on merely 10.6k data points, our OpenSeeker-v2 achieves state-of-the-art performance across 4 benchmarks (30B-sized agents with ReAct paradigm): 46.0% on BrowseComp, 58.1% on BrowseComp-ZH, 34.6% on Humanity's Last Exam, and 78.0% on xbench, surpassing even Tongyi DeepResearch trained with heavy CPT+SFT+RL pipeline, which achieves 43.4%, 46.7%, 32.9%, and 75.0%, respectively. Notably, OpenSeeker-v2 represents the first state-of-the-art search agent within its model scale and paradigm to be developed by a purely academic team using only SFT. We are excited to open-source the OpenSeeker-v2 model weights and share our simple yet effective findings to make frontier search agent research more accessible to the community.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.04036v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04036v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "4cf1d5b4a43c"
+    },
+    {
+      "title": "Natural Language Processing: A Comprehensive Practical Guide from Tokenisation to RLHF",
+      "authors": "Mullosharaf K. Arabov",
+      "abstract": "This preprint presents a systematic, research-oriented practicum that guides the reader through the entire modern NLP pipeline: from tokenisation and vectorisation to fine-tuning of large language models, retrieval-augmented generation, and reinforcement learning from human feedback. Twelve hands-on sessions combine concise theory with detailed implementation plans, formalised evaluation metrics, and transparent assessment criteria. The work is not a conventional textbook: it is designed as a reproducible research artefact where every session requires publishing code, models, and reports in public repositories. All experiments are conducted on a single evolving corpus, and the work advocates open-weight models over commercial APIs, with special attention to the Hugging Face ecosystem. The material is enriched by original research on low-resource languages, incorporating linguistic resources for Tajik and Tatar (subword tokenisers, embeddings, lexical databases, and transliteration benchmarks), demonstrating how modern NLP can be adapted to data-scarce environments. Designed for senior undergraduates, graduate students, and practising developers seeking to implement, compare, and deploy methods from classical ML to state-of-the-art LLM-based systems.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03799v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03799v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "4450e257268e"
+    },
+    {
+      "title": "FINER-SQL: Boosting Small Language Models for Text-to-SQL",
+      "authors": "Thanh Dat Hoang, Thanh Trung Huynh, Matthias Weidlich, Thanh Tam Nguyen, Tong Chen...",
+      "abstract": "Large language models have driven major advances in Text-to-SQL generation. However, they suffer from high computational cost, long latency, and data privacy concerns, which make them impractical for many real-world applications. A natural alternative is to use small language models (SLMs), which enable efficient and private on-premise deployment. Yet, SLMs often struggle with weak reasoning and poor instruction following. Conventional reinforcement learning methods based on sparse binary rewards (0/1) provide little learning signal when the generated SQLs are incorrect, leading to unstable or collapsed training. To overcome these issues, we propose FINER-SQL, a scalable and reusable reinforcement learning framework that enhances SLMs through fine-grained execution feedback. Built on group relative policy optimization, FINER-SQL replaces sparse supervision with dense and interpretable rewards that offer continuous feedback even for incorrect SQLs. It introduces two key reward functions: a memory reward, which aligns reasoning with verified traces for semantic stability, and an atomic reward, which measures operation-level overlap to grant partial credit for structurally correct but incomplete SQLs. This approach transforms discrete correctness into continuous learning, enabling stable, critic-free optimization. Experiments on the BIRD and Spider benchmarks show that FINER-SQL achieves up to 67.73\\% and 85\\% execution accuracy with a 3B model -- matching much larger LLMs while reducing inference latency to 5.57~s/sample. These results highlight a cost-efficient and privacy-preserving path toward high-performance Text-to-SQL generation. Our code is available at https://github.com/thanhdath/finer-sql.",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.03465v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.03465v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "481e0f9c1e3f"
+    },
+    {
+      "title": "Adoption of generative artificial intelligence in K-12 education: Teacher preparedness, ethical concerns, and implementation challenges",
+      "authors": "Adijat Oluwatoyin Ayanda",
+      "abstract": "The recent acceleration of the inspiratory use of generative artificial intelligence in K-12 education has presented considerable possibilities of personalized learning, instructional innovation, and teacher efficiency, at the same time raising important concerns in the manner of teacher preparedness, ethical oversight, and implementation difficulties. Although the numbers of large language models are rising, there are more multimodal learning systems, and AI-driven educational systems are getting popular, various schools still have to struggle with obstacles linked to the lack of teacher preparation, insufficient AI knowledge, ineffective policies, and inequitable access to online resources. The emergence of new trends also provides evidence of increasing anxiety around the topics of algorithmic bias, data privacy, academic integrity, digital equity, and teacher agency. This literature review has synthesized recent research on the adoption of generative artificial intelligence in K-12 education within PRISMA, specifically, focusing on teacher preparedness as well as ethical issues and implementation barriers. The key themes mentioned in the analysis are AI literacy, professional development, digital pedagogy, technology acceptance, curriculum integration, responsible AI practices, and human-AI collaboration. It has been seen that teachers are becoming increasingly aware of the opportunities that generative AI can offer them through personalized learning, automated administrative work, differentiated instruction, and student engagement. Nevertheless, there are still continuing problems regarding ethical risks, little institutional back-up, inadequate training and unequal technological accessibility among schools and regions. New research indicates also that the key to successful adoption is a sustained professional development in teachers, explainable AI systems, effective school leadership and inclusive policy design.",
+      "date": "2026-05-04",
+      "url": "https://doi.org/10.70593/deepsci.0203003",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Applied Resilience and Sustainability",
+      "direction": "cell",
+      "id": "3ab45f6e4953"
+    },
+    {
+      "title": "Deep learning-driven integrated pipeline for de novo design and synthesis of antimicrobial peptides",
+      "authors": "Jiahui Liu, Yun Chen, Jian Tang, Xupu Xing, Jin‐Shun Lin, ...",
+      "abstract": "Antimicrobial peptides (AMPs) are promising alternatives to conventional antibiotics against bacterial infections. However, the discovery of AMPs is impeded by the limitations of biochemical screening and the difficulty computational approaches face in balancing efficacy with structural diversity. We proposed an integrated “generation-evaluation-validation” framework to facilitate de novo discovery of AMPs. First, we constructed a soft prompt-tuned ProtGPT2 to efficiently generate candidates AMPs with both novel structures and promising therapeutic potential. Secondly, we adopted a multiple-choice learning ensemble model that enables high-confidence evaluation of candidates via a dynamic voting network. Finally, antimicrobial experiments were used to validate the activity of top-ranked de novo AMPs by monitoring bacterial surface changes. Out of nine candidates, four exhibited potent strain-specific activity, while two demonstrated broad-spectrum efficacy. All tested AMPs exhibited strong biofilm inhibition, potent membrane disruption, and minimal hemolysis, indicating significant therapeutic potential. With strong generalizability and versatility beyond AMPs, the proposed framework’s modular design will facilitate adaptation to diverse peptide design tasks in the future. By integrating soft prompt tuning, multimodal ensemble learning, and experimental verification, this framework presents a practical and scalable strategy for rapid, resource-efficient de novo peptide discovery, particularly suited for applications where experimental throughput and cost are critical constraints.",
+      "date": "2026-05-04",
+      "url": "https://doi.org/10.1038/s44386-026-00045-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Drug Discovery.",
+      "direction": "cell",
+      "id": "e2cfba10ebff"
+    },
     {
       "title": "DoFormer: Causal Transformer for Gene Perturbation",
       "authors": "Alireza Karbalayghareh, Evan Paull, Andrea Califano",
@@ -86,6 +254,18 @@
       "id": "2c104a8be2b7"
     },
     {
+      "title": "CT-to-PET Synthesis in the Head–Neck and Thoracic Region via Conditional 3D Latent Diffusion Modeling",
+      "authors": "Mohammed A. Mahdi, Mohammed Al-Shalabi, Reda Elbarougy, Ehab T. Alnfrawy, Muhammad Usman Hadi, ...",
+      "abstract": "Background: Positron emission tomography (PET) provides physiologic information central to oncologic staging and treatment assessment, but its availability is limited by cost, radiation exposure, and scanner access. Synthesizing PET from computed tomography (CT) is attractive but challenging, as tracer uptake is only partially constrained by anatomy, making the mapping inherently one-to-many. Methods: We propose a conditional 3D latent diffusion framework (3D-LDM) for CT-to-PET synthesis in the head–neck and thoracic region. The pipeline localizes anatomy by segmenting lungs in CT and restricting the volume to reduce irrelevant variability. PET volumes are encoded into a compact latent space using a KL-regularized 3D autoencoder, and a conditional 3D diffusion U-Net learns to generate PET latents conditioned on CT via a denoising diffusion process. The model was trained and evaluated on 900 paired PET/CT studies. Performance was assessed in SUV space using MAE, PSNR, and SSIM, and compared against transformer-, CNN-, and GAN-based baselines. Results: On the held-out test cohort, 3D-LDM achieved the best overall quantitative fidelity (MAE = 303.05 ± 22.16 SUV units, PSNR = 32.64 ± 1.79, SSIM = 0.86 ± 0.03), outperforming all baselines with statistically significant differences (p &lt; 0.001). At the lesion level, the model achieved a precision of 0.76 (95% CI: 0.71, 0.81) and recall of 0.76 (95% CI: 0.72, 0.80), detecting an average of 3.19 lesions per scan with a false-positive rate of 0.72/scan. Lesion-wise NMSE was 11.37%, significantly outperforming GAN and transformer baselines. Conclusions: 3D-LDM enables efficient, high-fidelity PET synthesis in the head–neck and thoracic regions, substantially improving lesion-level accuracy over state-of-the-art baselines. While it is not a replacement for diagnostic PET, these results support the model’s potential as a clinical decision support tool.",
+      "date": "2026-05-03",
+      "url": "https://doi.org/10.3390/bioengineering13050534",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bioengineering",
+      "direction": "cell",
+      "id": "fb002a31c6f8"
+    },
+    {
       "title": "Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning",
       "authors": "Arash Ahmadi, Sarah Sharif,  Yaser,  Banad",
       "abstract": "Mathematical reasoning is a key benchmark for large language models. Reinforcement learning is a standard post-training mechanism for improving the reasoning capabilities of large language models, yet performance remains sensitive to the design of the reward function that drives policy optimization. This paper introduces a search-driven framework that treats the reward specification itself as an object of optimization. The setting of interest is one in which the base model is held fixed and the reward specification is the primary remaining design lever. Candidate reward functions are generated by a frontier language model, validated automatically, screened through 500-step Group Relative Policy Optimization (GRPO) training runs on a Llama-3.2-3B-Instruct base model with Low-Rank Adaptation (LoRA), and ranked by F1 on the GSM8K test set. Ranked summaries from prior rounds are then fed back into the next round of generation. Over five rounds, the search produces 50 candidate rewards. The mean F1 rises from 0.596 in Round 1 to 0.632 in Round 5, and the top individual reward reaches F1 = 0.787. Seven ensemble configurations of top-ranked rewards are evaluated. The best ensemble achieves F1 = 0.795 (95% bootstrap CI [0.756, 0.832]) and accuracy 0.660 [0.635, 0.686], a 0.19 absolute F1 gain over a base-rewards-only GRPO baseline (F1 = 0.609). Pairwise McNemar tests with Bonferroni correction show all five-or-more-reward configurations are statistically indistinguishable at α = 0.05/21. A three-seed re-training of the best ensemble yields F1 of 0.785. A randomly drawn 5-reward control collapses to F1 = 0.047, which shows that the ranked-feedback loop, not the additive signal of having more rewards, drives the gain.",
@@ -120,6 +300,18 @@
       "venue": "arXiv",
       "direction": "medical",
       "id": "997c186b60d6"
+    },
+    {
+      "title": "Generating Adversarial Networks to Simulate Authentic Cross-Cultural English Conversation Scenes for Foreign Trade English Teaching Applications",
+      "authors": "WANG Xiaofeng",
+      "abstract": "With the rise of generative adversarial network technology, generative adversarial network brings new research direction for cross-cultural English conversation scenarios, which helps the development of foreign trade English teaching in colleges and universities. In this paper, we introduce the “encoding-decoding” structure as a cross-cultural English response generator on the basis of the generator, and the encoder and decoder are both composed of GRU units. The word vector approximation layer is generated by multiplying the word probability distribution output from the cross-cultural English response generator by the corresponding word vector. A discriminator based on convolutional neural network is used to prompt the cross-cultural English reply generator to produce results closer to the real data, and finally the work of constructing the Generative Adversarial Network-based Conversation Reply Generation Model (GAN-AEL) is completed and the loss function for model training is set. With the support of the corresponding development tools, the Generative Adversarial Network-based Conversation Response Generator model is successfully integrated into cross-cultural English conversation scenarios, and the supporting teaching system is finally designed and analyzed. Before using the FTES, the students' English writing scores were in the range of 6~15, and after using the FTES for one semester, the scores increased to 21~29, with a difference of 7~21, and the rest of the English reading scores, English speaking scores, and English listening scores were the same, which comprehensively confirmed the practical application effectiveness of FTES based on the cross-cultural English conversation scenario, aiming at the design and analysis of the supporting teaching system. It comprehensively confirms the effectiveness of the foreign trade English teaching system based on cross-cultural English dialog scenes, and aims to boost the development of foreign trade English teaching in colleges and universities.",
+      "date": "2026-04-30",
+      "url": "https://doi.org/10.65102/is2026247",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Ingegneria Sismica",
+      "direction": "cell",
+      "id": "81ae3b67bafd"
     },
     {
       "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
