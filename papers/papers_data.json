@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-06 20:22",
+  "last_updated": "2026-05-07 20:17",
   "papers": [
+    {
+      "title": "HEXST: Hexagonal Shifted-Window Transformer for Spatial Transcriptomics Gene Expression Prediction",
+      "authors": "Keunho Byeon, Jin Tae Kwak",
+      "abstract": "Spatial transcriptomics offers spatially resolved gene expression profiling within tissue sections, but its cost and limited throughput hinder large-scale deployment. To extend this capability to routine practice, recent computational methods aim to infer spatial gene expression directly from ubiquitous hematoxylin and eosin-stained histology slides. However, most existing models assume Cartesian or geometry-agnostic locality, despite the hexagonal sampling of widely used spot-array platforms, and point-wise regression objectives often yield over-smoothed gene expression profiles, obscuring gene-specific spatial heterogeneity. To address these, we propose HEXST, a geometry-aligned Transformer for spatial gene expression prediction from histology. HEXST operates directly on hexagonal spot coordinates to enable efficient local-to-global contextual modeling via tailored shifted-window attention mechanism and hexagonal rotary positional encoding. To enhance gene-wise spatial contrast, HEXST complements point-wise regression with a contrast-sensitive differential objective and transcriptomic priors from a pretrained single-cell foundation model during training. Across seven spatial transcriptomics datasets, HEXST consistently outperforms state-of-the-art models, providing accurate and robust spatial gene expression predictions while preserving gene-wise contrast and spatial heterogeneity.",
+      "date": "2026-05-06",
+      "url": "https://arxiv.org/abs/2605.04682v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04682v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "a48b2e8ec415"
+    },
+    {
+      "title": "A Hybrid Approach for Named Entity Recognition in Clinical Case Reports",
+      "authors": "Fernanda de O. Ramos, Cauã G. Marvila, Cristiano da S. Colombo",
+      "abstract": "Context: Natural Language Processing (NLP) has shown significant impact in healthcare by enabling knowledge extraction from unstructured texts. However, in Brazilian Portuguese, there remains a gap in developing models capable of processing clinical case reports, rich sources of crucial information for diagnostics, treatments, and decision-making. Problem: While some models exist (e.g., BioBERTpt), they are scarce and deliver limited performance for Portuguese clinical texts. The lack of accurate entity recognition reduces the ability to transform raw data into structured information that supports clinical decision-making. Solution: This work presents ClinptHyb, a hybrid Named Entity Recognition (NER) model combining a spaCy-based pipeline (ClinptCy, trained from scratch on SemClinBr) with a Large Language Model (Llama-3.3-70b) as reviewer. The hybrid design enhances entity identification and helps detect inconsistencies or omissions in the corpus. IS Theory: Grounded in the Organizational Information Processing Theory (OIPT), the study emphasizes how structuring clinical narratives reduces information uncertainty and increases organizational capacity to process data, thereby improving decision-making in healthcare contexts. Method: Following Design Science Research, the study included corpus preprocessing, stratified dataset splitting, spaCy model training, and prompt-based LLM revision. Evaluation employed Precision, Recall, and F1-score against the SemClinBr gold standard. Summary of Results: ClinptHyb consistently improved over the baseline ClinptCy and outperformed BioBERTpt in 8 of the 10 evaluated categories. The Negation class reached an F1-score of 0.97, a critical result for safe clinical interpretation. The model also revealed annotation inconsistencies, highlighting its potential as a support tool for dataset refinement. Contributions and Impact on the IS Area: This research presents the first hybrid NER approach that combines spaCy with an LLM for Portuguese clinical texts, aligned with IS for data, information, and knowledge management. It contributes to decision support systems, clinical annotation workflows, and the advancement of NLP technologies adapted to the Brazilian healthcare context.",
+      "date": "2026-05-05",
+      "url": "https://doi.org/10.5753/sbsi.2026.248331",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "medical",
+      "id": "a07a08ab96e1"
+    },
+    {
+      "title": "AI and network biology for rational polypharmacology in signaling drug design: a review",
+      "authors": "Xuehao Li, Zhaoqi Wu, Te Fang, Jun Li, Danyang Li, ...",
+      "abstract": "The complexity of disease-causing signaling networks is indicative of the failure of single-target therapeutics to work, particularly because of feedback, redundancy and activation of compensatory responses. The review describes the recent movement to network pharmacology and purposeful polypharmacology facilitated by the emergence of artificial intelligence (AI) and massive biological knowledge graphs. This review explains how machine learning and graph neural networks can be used to characterize molecular interactions systematically, predict targets that are of disease relevance, as well as priorities on multi-target intervention strategies. Generative models and reinforcement-based learning strategies are addressed to create compounds and combinations of drugs designed to modulate networks, and not individual protein inhibition. It describes the experimental validation processes, such as CETSA, NanoBRET, and Perturb-seq, and patient-derived models and MIDD systems to aid the translational evidence. Data quality, bias, interpretability, and reproducibility are taken into consideration. In sum, this review presents a feasible and combined model of AI-assisted network-mediated drug discovery.",
+      "date": "2026-05-05",
+      "url": "https://doi.org/10.1038/s41698-026-01407-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Precision Oncology",
+      "direction": "cell",
+      "id": "5556b7a18ee8"
+    },
     {
       "title": "Effects of Explanations in Human-AI Interaction: A Systematic Review and Framework for Future Research on Explainable AI",
       "authors": "Philipp Reinhard, Mahei Manhai Li, Christoph Peters, Jan Marco Leimeister",
