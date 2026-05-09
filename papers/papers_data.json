@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-08 20:07",
+  "last_updated": "2026-05-09 19:57",
   "papers": [
+    {
+      "title": "Calibrated Multi-Evidence Fusion Framework for Clinical Decision Support Systems",
+      "authors": "Chaithanya Addakula, Sanaboina Dr. Chandra Sekhar",
+      "abstract": "Traditional Clinical Decision Support Systems (CDSS) were built on rule-based engines and standard-alone machine learning classifiers. The emergence of Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) upgraded these systems by enabling knowledge-grounded reasoning and dynamic biomedical evidence retrieval. Recent multi-agent LLM frameworks further integrated biomedical RAG with external web intelligence. However, most existing approaches rely on heuristic score aggregation and lack explicit conflict modeling and probability calibration, limiting reliability in safety critical healthcare environments. The system proposes a conflict aware, machine-learned, and probability-calibrated multi-evidence fusion framework that transforms heuristic reasoning into a structured probabilistic decision model. Biomedical RAG outputs and external web evidence are fused using a supervised ensemble model that learns nonlinear interactions between evidence signals. Engineered features capture diagnostic agreement and disagreement with model reliability. Isotonic regression is applied for probability calibration and evaluated using Brier Score and Expected Calibration Error (ECE). SHAP-based feature attribution ensures transparent and interpretable diagnostic confidence decisions, improving robustness and clinical trust in LLM-based CDSS",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.59256/ijire.20260703007",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Innovative Research in Engineering",
+      "direction": "medical",
+      "id": "2aca3392d561"
+    },
+    {
+      "title": "Artificial intelligence for coordinating vaccine design, antiviral discovery, and real-world monitoring in the era of emerging and endemic viral threats",
+      "authors": "Adewunmi Akingbola, Abiodun Adegbesan, Olajumoke Adewole, Kehinde O Adebiyi, Akpevwe Emmanuel Benson, ...",
+      "abstract": "Vaccine development has traditionally been a lengthy and resource-intensive process, often struggling to keep pace with rapidly emerging infectious threats. Recent advances in artificial intelligence (AI) offer new opportunities to transform this landscape by enabling faster, more precise, and data-driven approaches to vaccine design. This review examines how AI is being applied across key stages of vaccine development, including antigen discovery, epitope prediction, structural optimisation, immunogenicity assessment, and safety evaluation. We highlight the use of machine learning and deep learning models to analyse large-scale genomic, proteomic, and immunological datasets, allowing for more targeted identification of promising vaccine candidates. While AI-driven approaches show considerable promise, their successful translation into effective vaccines depends on the quality and representativeness of the data used, as well as close integration with experimental and clinical validation. Current challenges include data bias, limited representation of populations from low- and middle-income countries, and the need for transparent and interpretable models that can support regulatory decision-making. By synthesising recent developments and ongoing challenges, this review underscores the potential of AI to complement traditional vaccine development pipelines. When responsibly implemented, AI-based methods may accelerate vaccine innovation, improve global preparedness, and support more equitable responses to future infectious disease outbreaks.",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.3389/fphar.2026.1773609",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "cell",
+      "id": "bd3c6f559461"
+    },
+    {
+      "title": "Artificial intelligence directed computational protein design: lessons from COVID-19 for pandemic-ready vaccines and antibody therapeutics",
+      "authors": "Rahul Kaushik, Suyong Re",
+      "abstract": "Artificial intelligence (AI) directed computational protein design has emerged as a transformative force in modern therapeutic discovery, reshaping how vaccines and antibody-based interventions are conceived, optimized, and deployed against emerging infectious diseases. The COVID-19 pandemic served as an unprecedented real-world stress test for these technologies, highlighting their potential to accelerate antigen design, guide antibody optimization, and anticipate viral evolution in near real time. AI driven approaches contributed to faster characterization of viral variants, supported vaccine and broadly neutralizing antibodies developments. Despite the significant contributions, the pandemic also revealed important limitations that must be addressed before such approaches can be relied upon as cornerstones of global preparedness. Challenges related to data bias, model interpretability, experimental validation bottlenecks, and integration with existing regulatory frameworks became increasingly apparent. In several cases, the gap between computational promise and translational readiness underscored the need for closer coupling between in silico design, laboratory experimentation, and clinical evaluation. Moreover, the rapid pace of AI innovation often outstripped established regulatory pathways, raising questions about standardization, validation, and long-term safety. This mini review provides a focused overview of recent advances in AI enabled computational protein design, with an emphasis on applications relevant to pandemic response. Drawing on lessons from COVID-19 case studies, it examines translational and regulatory considerations, highlights unresolved controversies, and identifies critical research gaps. Collectively, these insights outline a path toward transitioning AI designed vaccines and antibody therapeutics from reactive emergency tools into proactive, scalable infrastructures for future pandemic preparedness.",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.3389/jpps.2026.16146",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Pharmacy & Pharmaceutical Sciences",
+      "direction": "cell",
+      "id": "e6a50868ea94"
+    },
     {
       "title": "The Ethics Committee of the Italian Society of Anesthesia, Analgesia, Resuscitation and Intensive Care (SIAARTI) — Artificial intelligence in end-of-life decision-making processes: ethical reflections",
       "authors": "Enrico Furlan, Nereo Zamperetti, Mariassunta Piccinni, Annachiara Marra, Paolo Cotogni, ...",
