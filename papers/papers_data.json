@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-09 19:57",
+  "last_updated": "2026-05-10 19:59",
   "papers": [
+    {
+      "title": "RESPECT: a conversational AI system for informed consent with accuracy, safety, and stakeholder-centered evaluation",
+      "authors": "Salvatore Giorgi, Katie Ryan, Jane Kim",
+      "abstract": "Abstract Informed consent (IC) is a cornerstone of clinical research. IC typically includes both written materials and, particularly in clinical trials, an oral discussion between the investigator and participant. In practice, both components tend to be templated and standardized, limiting opportunities for meaningful, individualized dialog. While Large Language Models (LLMs) offer possibilities for enhancing the accessibility of IC, realizing this potential requires ensuring accurate, safe, and appropriate responses before research deployment. We developed RESPECT (RESearch Participant Engagement and Consent Tool), an LLM consent assistant utilizing Retrieval-Augmented Generation (RAG) to ground responses in IC source documents. We evaluated accuracy through leave-one-out cross-validation and question rephrasing analysis, demonstrating high accuracy in information retrieval for the RAG system. We introduced a novel safety evaluation framework measuring two dimensions: appropriate refusal (how often the system refuses questions it should not answer) and utility (how often it answers questions it should answer). This approach generalizes simple refusal rates by plotting a Refusal–Utility Curve (RUC) analogous to receiver operating characteristic (ROC)-AUC curves. RESPECT demonstrated significantly higher appropriate refusal rates compared to GPT-4, but at the cost of reduced utility in answering legitimate questions. We conducted stakeholder evaluations with research staff to assess accuracy, comprehensiveness, and satisfaction. RESPECT represents the first RAG-based LLM consent assistance tool for research contexts, demonstrating improved safety through higher appropriate refusal rates. The novel RUC evaluation framework provides researchers with a tool for assessing safety-utility tradeoffs in LLM systems, enabling informed decisions about deploying such tools in healthcare research settings.",
+      "date": "2026-05-09",
+      "url": "https://doi.org/10.1038/s41746-026-02691-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "medical",
+      "id": "e5a6c5bff855"
+    },
+    {
+      "title": "Quantifying wildfire impacts on atmospheric pollutants using fire exposure metrics and machine–deep learning approaches",
+      "authors": "khushal Das, Sergio Flesca, Claudia Roberta Calidonna",
+      "abstract": "Wildfires are increasingly recognised as major contributors to atmospheric pollution, yet their spatial-temporal influence on regional air quality remains insufficiently understood. This study quantifies the impact of wildfire activity on atmospheric gas concentrations by integrating exposure modelling, correlation analysis, and advanced machine learning techniques. Two datasets were employed: (i) continuous atmospheric observations of CO, CO[Formula: see text], CH[Formula: see text], and BC alongside meteorological parameters; and (ii) a wildfire dataset containing fire locations, burned area, and duration. A novel Fire Exposure Index (FEI) was developed to quantify the dynamic likelihood that wildfire plumes influence the observatory, incorporating fire distance, burned area, and wind characteristics. Correlation analyses across distance bands and daily lags (up to six days) revealed clear distance and wind-dependent relationships, with short-term lag effects primarily within one to two days. Baseline machine learning models (Gradient Boosting, Random Forest, Decision Tree) achieved moderate accuracy, while recurrent neural networks (LSTM, GRU, BiLSTM) captured stronger temporal dependencies, particularly for CO[Formula: see text] and CO. A stacked ensemble architecture was subsequently implemented, combining LightGBM, LSTM, GRU, and BiLSTM with a LightGBM meta-learner. The hybrid framework achieved substantial performance improvements within the study domain ([Formula: see text] values ranging from 0.959 to 0.9897 across CO, CH[Formula: see text], and CO[Formula: see text]), demonstrating strong predictive capability under the specific meteorological and geographic conditions examined. The proposed approach demonstrates that integrating exposure metrics with hybrid ensemble learning provides a promising and interpretable strategy for predicting wildfire-induced atmospheric variability and supporting air quality management in fire-prone regions.",
+      "date": "2026-05-09",
+      "url": "https://doi.org/10.1038/s41598-026-51766-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "351d27344b20"
+    },
+    {
+      "title": "Advances in AI-Powered Medical Transcription: Implications for Clinical Practice, Radiology, and Future Interface Technologies",
+      "authors": "Parv Mehta, Pranav Ajmera, Anoushka Iyengar, Rajesh Botchu",
+      "abstract": "Abstract Medical transcription is an intrinsic part of clinical documentation, formerly reliant on human transcriptionists or simple speech recognition technology. However, these methods inevitably fall short of alleviating the mounting documentation burden, largely responsible for clinician burnout and reduced health care efficiency. The advent of artificial intelligence (AI), specifically natural language processing and automatic speech recognition, has revolutionized the practice of medical transcription by enabling real-time, context-sensitive, and structured clinical documentation. This article reviews the integration of AI in medical transcription across different clinical environments, including outpatient encounters, radiology, and emergency care. By leveraging large language models and deep learning, AI applications enhance documentation quality, reduce cognitive load, and enrich clinical workflows with features such as the International Classification of Diseases coding, letter generation, and after-visit summaries. Expanding into research, applications involve large-scale data extraction, manuscript preparation, and cross-disciplinary collaboration. Radiology, with its high-volume and precision-rich reporting requirements, will benefit significantly from the application of AI-based tools such as Rad AI, VoxRad, and multilingual tools such as Whisper. Challenges remain in spite of the above advancements. Accuracy, hallucination, data confidentiality, regulation, and physician confidence problems remain hindrances to widespread adoption. In addition, the consolidation of neural interface technologies such as brain–computer interfaces presents both promising possibilities and ethical subtleties for further development. This article critically examines the existing applications, advantages, and limitations of AI-based transcription systems, as well as their potential to revolutionize the future of clinical documentation and health care provision.",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.1055/s-0046-1820451",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Indian journal of radiology and imaging - new series/Indian journal of radiology and imaging/Indian Journal of Radiology & Imaging",
+      "direction": "medical",
+      "id": "8c8dc3a373a4"
+    },
+    {
+      "title": "Doctor Sun: a bilingual multimodal large language model for biomedical AI",
+      "authors": "Dong Xue, Ziyao Shao, Zhaoyang Duan, Fangzhou Liu, Bing Li, ...",
+      "abstract": "While biomedical artificial intelligence (AI) shows great clinical potential, existing systems relying on general-domain large language models (LLMs) often lack sufficient medical data to grasp complex healthcare concepts. Furthermore, recent Large Language and Vision Assistant (LLaVA)-based medical multimodal large language models (MLLMs) still struggle to effectively capture the intricate alignments between medical images and text. Therefore, we introduce Doctor Sun, an MLLM specialized in medicine, developed to encode, integrate, and interpret diverse biomedical data modalities such as text and images. In particular, Doctor Sun integrates a pre-trained vision encoder with a medical LLM and conducts two-stage training on various medical datasets, focusing on feature alignment and instruction tuning. Moreover, we release SunMed-VL, a wide-range bilingual medical multimodal dataset, along with all associated models, code, and resources, to freely support the advancement of biomedical multimodal research.",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.7717/peerj-cs.3853",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "PeerJ Computer Science",
+      "direction": "medical",
+      "id": "4ea0d0fa1653"
+    },
+    {
+      "title": "A Fivefold Maximum Drug-Likeness Strategy for Prioritizing Antibacterial Candidates Against Escherichia coli",
+      "authors": "Haoyu Zhu, Shijie Du, Qin Yang, Lu Xu, Wei Shi",
+      "abstract": "Background/Objectives: Early-stage antibacterial discovery requires balancing activity with broader developability-related properties. This study developed a Fivefold Maximum Drug-Likeness strategy (5F-MDL) as a multidimensional, developability-aware framework for prioritizing antibacterial candidates against Escherichia coli (E. coli). Methods: An ensemble of endpoint-specific deep learning models was used to construct a 33-dimensional predicted property spectrum. Approximately 16 million commercially available molecules were screened by comparing their normalized property profiles with those of clinically approved cephalosporin reference drugs. Fifteen top-ranked candidates were selected for experimental evaluation. Antibacterial activity was assessed by disk diffusion, minimum inhibitory concentration (MIC), and minimum bactericidal concentration (MBC) assays. Molecular docking, molecular dynamics simulations, MM-PBSA analysis, and a Bocillin-FL competition labeling assay were used as target-related supportive analyses. Results: Among the 15 prioritized candidates, three compounds showed measurable antibacterial activity against E. coli ATCC 25922. M2 showed the most favorable in vitro profile among the active candidates, with an MIC of 25.6 µg/mL and an MBC of 51.2 µg/mL, although its potency remained weaker than that of cefuroxime. Docking, molecular dynamics, and MM-PBSA analyses suggested that M2 could maintain a relatively stable noncovalent interaction pattern within the modeled PBP2 pocket, and the Bocillin-FL assay showed that M2 reduced fluorescent probe labeling of PBP2 in vitro. Conclusions: These findings provide preliminary proof-of-concept support for 5F-MDL as a multidimensional prioritization strategy for early-stage antibacterial candidate selection. M2 should be regarded as a preliminary antibacterial hit for further optimization rather than as a validated lead compound. Broader applicability, comparative advantage, and mechanistic relevance require further validation using larger candidate sets, resistant clinical isolates, systematic benchmarking, and direct target-validation experiments.",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.3390/ph19050744",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Pharmaceuticals",
+      "direction": "cell",
+      "id": "9f0bc666e8b0"
+    },
+    {
+      "title": "Advances in Biosimilars: A Systematic Review of Machine Learning Applications",
+      "authors": "Vannessa Duarte, Tomás Gabriel Bas",
+      "abstract": "Background/Objectives: Biosimilars are medicinal products derived from reference biologics and designed to demonstrate a high degree of similarity in quality, efficacy, safety, and immunogenicity. Machine learning (ML) and other artificial intelligence (AI) methodologies have emerged as important tools in this field in biosimilar research and development. This systematic review identifies ML applications throughout the biosimilar lifecycle while distinguishing them from the broader AI literature and from health technology evaluation, economic, and decision-analytic studies. Methods: Following PRISMA, records were retrieved from Scopus, PubMed, and Web of Science. After applying predefined inclusion and exclusion criteria, 44 original peer-reviewed studies were selected. Only studies that implemented a data-driven ML method for a biosimilar-relevant problem were included. Results: The review mapped AI applications at different stages of biosimilar development and characterized emerging trends and the types of methods used at each stage. Evidence indicates that the most mature empirical ML applications are concentrated in manufacturing optimization and analytical comparability, where supervised learning, ensemble models, and neural networks support process control, glycan or spectral analysis, and similarity assessment. By contrast, biosimilar-specific ML applications in clinical prediction and pharmacovigilance remain comparatively limited. Conclusions: These advances support the mission of biosimilars to provide affordable and high-quality biologic therapies. Using ML, developers can reduce timelines, reduce costs, and strengthen safety and efficacy assessments through the analysis of complex datasets that are difficult to address with traditional approaches. The main contribution of this review is to provide a clearer map of methodological maturity, translational relevance, and future opportunities for data-driven biosimilar development.",
+      "date": "2026-05-08",
+      "url": "https://doi.org/10.3390/ph19050745",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Pharmaceuticals",
+      "direction": "cell",
+      "id": "9927b9511a03"
+    },
     {
       "title": "Calibrated Multi-Evidence Fusion Framework for Clinical Decision Support Systems",
       "authors": "Chaithanya Addakula, Sanaboina Dr. Chandra Sekhar",
