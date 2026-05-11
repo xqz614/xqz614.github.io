@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-05-10 19:59",
+  "last_updated": "2026-05-11 20:46",
   "papers": [
+    {
+      "title": "A Structured and Safety-Aware Conversational Framework Using Large Language Models and Retrieval-Augmented Generation for Mental Health Support",
+      "authors": "Mr. Atharva More Mr. Varad Deokar, Prof. Kopal Gangrade Mr. Manav Parmar",
+      "abstract": "The growing demand for accessible mental health support has led to the development of AI-based conversational systems; however, many existing solutions either lack structure or fail to ensure safety and consistency. This paper presents a structured and safety-aware conversational framework that integrates Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) in a controlled, multi-stage pipeline. The proposed system incorporates dedicated modules for crisis detection, assessment, cognitive reflection, and intervention, coordinated through an intent-driven orchestration layer. Unlike conventional chatbots, the system emphasises deterministic dialogue flow and psychological structuring using established frameworks. Evaluation using simulated conversational scenarios demonstrates that the framework produces more coherent, context-aware, and safe responses compared to unstructured approaches. The results highlight the importance of architecture-driven design in building reliable and responsible AI systems for mental health support",
+      "date": "2026-05-10",
+      "url": "https://doi.org/10.48175/ijarsct-34979",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "direction": "medical",
+      "id": "43eaee909cfc"
+    },
     {
       "title": "RESPECT: a conversational AI system for informed consent with accuracy, safety, and stakeholder-centered evaluation",
       "authors": "Salvatore Giorgi, Katie Ryan, Jane Kim",
@@ -24,6 +36,114 @@
       "venue": "Scientific Reports",
       "direction": "cell",
       "id": "351d27344b20"
+    },
+    {
+      "title": "Prototype Guided Post-pretraining for Single-Cell Representation Learning",
+      "authors": "Sachini Weerasekara, Natasha Darras, Sagar Kamarthi, Colles Price, Jacqueline Isaacs",
+      "abstract": "Single-cell representation learning (SCRL) from gene expression data offers a way to uncover the complex regulatory logic underlying cellular function. Inspired by large language models in natural language modeling, several single-cell pretrained models have recently been proposed that treat genes as tokens and cells as sentences. However, these models are fundamentally limited by the long-tailed nature of cell-type distributions and struggle to generalize under covariate shifts in gene expression data. While fine-tuning is often used to mitigate these issues, we observe that performance remains bounded. To address this challenge, we introduce CellRefine, a post-pretraining method that operates between the pretraining and fine-tuning stages of a single-cell foundation model. CellRefine uses a multi-faceted objective that incorporates marker-gene sets as structural priors to guide post-pretraining and refine the latent embedding manifold of cells. Across multiple computational biology tasks, empirical results show that CellRefine consistently improves downstream performance, yielding gains up to 15%.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.07938v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07938v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "204b952911c3"
+    },
+    {
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "authors": "Tong Zheng, Haolin Liu, Chengsong Huang, Huiwen Bao, Sheng Zhang...",
+      "abstract": "Test-time scaling (TTS) has become an effective approach for improving large language model performance by allocating additional computation during inference. However, existing TTS strategies are largely hand-crafted: researchers manually design reasoning patterns and tune heuristics by intuition, leaving much of the computation-allocation space unexplored. We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered automatically. The key to AutoTTS lies in environment construction: the discovery environment must make the control space tractable and provide cheap, frequent feedback for TTS search. As a concrete instantiation, we formulate width--depth TTS as controller synthesis over pre-collected reasoning trajectories and probe signals, where controllers decide when to branch, continue, probe, prune, or stop and can be evaluated cheaply without repeated LLM calls. We further introduce beta parameterization to make the search tractable and fine-grained execution trace feedback to improve discovery efficiency by helping the agent diagnose why a TTS program fails. Experiments on mathematical reasoning benchmarks show that the discovered strategies improve the overall accuracy--cost tradeoff over strong manually designed baselines. The discovered strategies generalize to held-out benchmarks and model scales, while the entire discovery costs only $39.9 and 160 minutes. Our data, and code will be open-source at https://github.com/zhengkid/AutoTTS.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.08083v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08083v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "31b0d71fd88b"
+    },
+    {
+      "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+      "authors": "Jiayuan Liu, Tianqin Li, Shiyi Du, Xin Luo, Haoxuan Zeng...",
+      "abstract": "Context window expansion is often treated as a straightforward capability upgrade for LLMs, but we find it systematically fails in multi-agent social dilemmas. Across 7 LLMs and 4 games over 500 rounds, expanding accessible history degrades cooperation in 18 of 28 model--game settings, a pattern we term the memory curse. We isolate the underlying mechanism through three analyses. First, lexical analysis of 378,000 reasoning traces associates this breakdown with eroding forward-looking intent rather than rising paranoia. We validate this using targeted fine-tuning as a cognitive probe: a LoRA adapter trained exclusively on forward-looking traces mitigates the decay and transfers zero-shot to distinct games. Second, memory sanitization holds prompt length fixed while replacing visible history with synthetic cooperative records, which restores cooperation substantially, proving the trigger is memory content, not length alone. Finally, ablating explicit Chain-of-Thought reasoning often reduces the collapse, showing that deliberation paradoxically amplifies the memory curse. Together, these results recast memory as an active determinant of multi-agent behavior: longer recall can either destabilize or support cooperation depending on the reasoning patterns it elicits.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.08060v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08060v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "5a0b177e21f0"
+    },
+    {
+      "title": "CA-SQL: Complexity-Aware Inference Time Reasoning for Text-to-SQL via Exploration and Compute Budget Allocation",
+      "authors": "James Petullo, Nianwen Xue",
+      "abstract": "While recent advancements in inference-time learning have improved LLM reasoning on Text-to-SQL tasks, current solutions still struggle to perform well on the most challenging tasks in the Bird-Bench (BIRD) benchmark. This is due to inadequate solution space exploration, which is necessary to uncover promising candidate queries that can be further refined to produce the correct output. To address this challenge, we introduce CA-SQL, a novel Text-to-SQL pipeline that utilizes the estimated difficulty of a task to dynamically scale the breadth of the exploration for generating solution candidates. In addition, we use a custom prompt seeding method, based on principles of evolutionary search, to further elicit exploratory behavior from the base LLM and a novel voting method to select the best candidate solution at the end of the search. Experiments demonstrate that our solution achieves a state-of-the-art score of 51.72% on the \"challenging\" tier of BIRD development set problems, using only GPT-4o-mini, out-performing other in-context learning approaches, even those that leverage larger models. Overall, our method attains a competitive 61.06% execution accuracy and 68.77% Soft F1 score on the BIRD development dataset.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.08057v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08057v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "77fd890d25cc"
+    },
+    {
+      "title": "Beyond \"I cannot fulfill this request\": Alleviating Rigid Rejection in LLMs via Label Enhancement",
+      "authors": "Ying Zhang, Congyu Qiao, Xin Geng, Ning Xu",
+      "abstract": "Large Language Models (LLMs) rely on safety alignment to obey safe requests while refusing harmful ones. However, traditional refusal mechanisms often lead to \"rigid rejection,\" where a general template (e.g., \"I cannot fulfill this request\") indiscriminately triggers refusals and severely undermines the naturalness of interactions between humans and LLMs. To address this issue, LANCE is proposed in this paper to ensure safe yet flexible and natural responses via label enhancement. Specifically, LANCE employs variational inference to perform label enhancement, predicting a continuous distribution across multiple rejection categories. These fine-grained rejection distributions provide multi-way textual gradients for a refinement model to neutralize the hazardous elements in the prompt, so that the LLMs could generate safe responses that avoid rigid rejections while preserving the naturalness of interactions. Experiments demonstrate that LANCE significantly alleviates the rigid rejection problem while maintaining high security standards, significantly outperforming existing baseline models in terms of helpfulness and naturalness of responses.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.07883v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07883v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "3f5a728b8e6f"
+    },
+    {
+      "title": "KL for a KL: On-Policy Distillation with Control Variate Baseline",
+      "authors": "Minjae Oh, Sangjun Song, Gyubin Choi, Yunho Choi, Yohan Jo",
+      "abstract": "On-Policy Distillation (OPD) has emerged as a dominant post-training paradigm for large language models, especially for reasoning domains. However, OPD remains unstable in practice due to the high gradient variance of its single-sample Monte Carlo estimator, and recipes for stable training are still immature. We propose vOPD (On-Policy Distillation with a control variate baseline), which casts OPD as policy-gradient RL and stabilizes it by introducing a control variate baseline-canonically a value function -- from the RL literature. We show that the OPD value function admits a closed form as the per-token negative reverse KL divergence between the student and the teacher, available directly from the already-computed forward pass with no additional critic or inference. Existing stabilization methods either compute the full token-level reverse KL over the entire vocabulary, adding significant overhead, or restrict it to a top-k support, biasing the objective. vOPD instead preserves the lightweight single-sample estimator, subtracting the value function as a detached baseline to keep the gradient unbiased while reducing variance. Furthermore, we show that a top-k approximation of the baseline further lowers cost without compromising performance. Across mathematical and scientific reasoning benchmarks, vOPD consistently outperforms vanilla OPD and matches the most expensive full-vocabulary baseline, offering an efficient stabilization of On-Policy Distillation through principled RL variance reduction.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.07865v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07865v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "37e52fe032f9"
+    },
+    {
+      "title": "SOD: Step-wise On-policy Distillation for Small Language Model Agents",
+      "authors": "Qiyong Zhong, Mao Zheng, Mingyang Song, Xin Lin, Jie Sun...",
+      "abstract": "Tool-integrated reasoning (TIR) is difficult to scale to small language models due to instability in long-horizon tool interactions and limited model capacity. While reinforcement learning methods like group relative policy optimization provide only sparse outcome-level rewards. Recently, on-policy distillation (OPD) has gained popularity by supplying dense token-level supervision from a teacher on student-generated trajectories. However, our experiments indicate that applying OPD to TIR leads to a critical failure mode: erroneous tool calls tend to cascade across subsequent reasoning steps, progressively amplifying student-teacher divergence and rendering the teacher's token-level supervision increasingly unreliable. To address this, we propose SOD, a step-wise on-policy distillation framework for small language model agents, which adaptively reweights distillation strength at each step based on step-level divergence. Therefore, SOD can attenuate potentially misleading teacher signals in high-divergence regions while preserving dense guidance in well-aligned states. Experiments on challenging math, science, and code benchmarks show that SOD achieves up to 20.86% improvement over the second-best baseline. Notably, our 0.6B student achieves 26.13% on AIME 2025, demonstrating effective transfer of agentic reasoning to lightweight models. Our code is available at https://github.com/YoungZ365/SOD.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.07725v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07725v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "3b9b7199cc75"
+    },
+    {
+      "title": "Guidance Is Not a Hyperparameter: Learning Dynamic Control in Diffusion Language Models",
+      "authors": "Fan Zhou, Tim Van de Cruys",
+      "abstract": "Classifier-Free Guidance (CFG) is a widely used mechanism for controlling diffusion-based generative models, yet its guidance scale is typically treated as a fixed hyperparameter throughout generation. This static design yields a suboptimal controllability and quality tradeoff, as the optimal degree of guidance varies across tasks and across different stages of the diffusion process, especially in NLP domain. We recast CFG scale selection as a sequential decision-making problem and propose to learn dynamic guidance trajectories via reinforcement learning. Specifically, we model the guidance scale as a discrete control action selected at each generation step based on the evolving diffusion state, and optimize a policy using Proximal Policy Optimization (PPO) under task-level rewards. Experiments on three controlled NLP generation tasks using discrete diffusion language models demonstrate that adaptive guidance consistently achieves a better balance between controllability and generation quality than fixed-scale strategies. Further analysis of the learned policies reveals distinct and interpretable guidance trajectories across tasks, underscoring the importance of treating guidance as a dynamic control process rather than a static design choice.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.07701v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07701v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c799a88fc667"
+    },
+    {
+      "title": "Not All Tokens Learn Alike: Attention Entropy Reveals Heterogeneous Signals in RL Reasoning",
+      "authors": "Gengyang Li, Zheng-Fan Wu, Siqi Bao, Yunfang Wu",
+      "abstract": "Reinforcement-learning-based post-training has become a key approach for improving the reasoning ability of large language models, but its token-level learning signals remain poorly understood. This work studies their heterogeneity through attention entropy, which measures how concentrated or diffuse the contextual support is for each response token. We first show that token-level RL objectives are sparsely estimable: uniformly random 20 percent token subsets preserve much of the full-token held-out performance, suggesting substantial redundancy in token-level updates. However, entropy-structured subsets behave very differently. Low-attention-entropy tokens, which we call anchors, rely on concentrated support, produce stable gradients aligned with full-token updates, and provide a reliable optimization backbone, but tend to plateau on harder benchmarks. High-attention-entropy tokens, which we call explorers, aggregate more diffuse context and induce larger but more volatile gradients. Explorer-only training is unstable on average, though rare successful runs suggest that these tokens may contain useful hard-reasoning signals when optimization remains stable. We support this anchor-explorer spectrum with evidence-gathering analyses, entropy dynamics, gradient-geometry diagnostics, and controls showing that position, predictive entropy, and loss normalization do not explain the observed asymmetry. Finally, a dynamic entropy-aware soft-reweighting intervention improves Qwen3-8B-Base from 34.39 to 37.40 held-out average in the strongest setting. These findings suggest that attention entropy reveals optimization-relevant structure in token-level RL signals, and that uniform token averaging can obscure meaningful heterogeneity in reasoning post-training.",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.07660v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07660v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "87a3c28b244e"
     },
     {
       "title": "Advances in AI-Powered Medical Transcription: Implications for Clinical Practice, Radiology, and Future Interface Technologies",
