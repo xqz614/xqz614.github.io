@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-15 20:17",
+  "last_updated": "2026-05-16 20:01",
   "papers": [
+    {
+      "title": "PRACTICAL EXPLORATION OF INTEGRATING THE CDIO TEACHING MODEL WITH CHATGPT ASSISTANCE IN CLINICAL TEACHING FOR NURSING INTERNS IN THE RESPIRATORY DEPARTMENT",
+      "authors": "LiJiao Huang, Liuxue Lu, FengWen Xu, Caimei Huang, Liya Ma, ...",
+      "abstract": "Background: Although the CDIO (Conceive-Design-Implement-Operate) teaching model can enhance nursing students' core competencies and ChatGPT offers personalized, real-time learning support, their combined application in respiratory nursing clinical teaching remains unexplored. In practice, intern nursing students in respiratory and critical care departments commonly face disconnections between theory and practice, weak knowledge integration and transfer skills, and insufficient critical thinking and clinical decision-making abilities. These challenges are compounded by rigid teaching models, difficulty in providing personalized instruction, limited teaching resources and scenarios, and a lack of opportunities for innovation and hands-on practice. Objective: To design and implement an integrated teaching approach combining the CDIO model with ChatGPT assistance for respiratory nursing interns and evaluate its preliminary effectiveness. Methods: A quasi-experimental study design was employed involving 60 respiratory nursing interns who rotated through a tertiary hospital from May 2025 to March 2026. Participants were assigned to an experimental group (n=30) receiving CDIO model instruction with ChatGPT assistance and a control group (n=30) receiving traditional clinical teaching. Outcome measures included theoretical knowledge assessment, clinical practice scores, autonomous learning ability, and clinical thinking ability. Results: The experimental group demonstrated significantly higher scores in theoretical knowledge assessment (p&lt;0.05), clinical practice skills (p&lt;0.05), clinical thinking ability (p&lt;0.05), and autonomous learning ability (p&lt;0.05) compared with the control group. Conclusion: The integration of the CDIO teaching model with ChatGPT assistance effectively enhances the comprehensive competencies of respiratory nursing interns, improves clinical thinking, and autonomous learning abilities. This innovative approach offers a promising direction for clinical nursing education reform.",
+      "date": "2026-05-15",
+      "url": "https://doi.org/10.61784/wjes3165",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "World Journal of Educational Studies",
+      "direction": "medical",
+      "id": "b6af9ab71f19"
+    },
+    {
+      "title": "Computational and multi-omics systems biology for precision microbiome therapeutics",
+      "authors": "Ahmed Dewan, Maria Teresa Mascellino",
+      "abstract": "The human gut microbiome repr esents a complex and dynamic therapeutic target whose effective interrogation requires system-level analytical approaches beyond single-omics or reductive methods. This mini-review synthesizes recent advances in computational modeling and multi-omics integration relevant to the development of predictive, patient-tailored microbiome therapies. We critically assess the analytical strengths and limitations of genome-scale metabolic models (GEMs); generalized Lotka–Volterra and ODE-based community models; agent-based simulations; and statistical machine-learning frameworks and examine how their integration with metagenomics, metatranscriptomics, metaproteomics, and metabolomics can help bridge microbial functional potential with clinically relevant phenotypes. Representative applications–including MintTea for disease module identification, gNOMO2 for integrative microbiome profiling, and AGORA-based community metabolic modeling–illustrate the translational scope of these frameworks across inflammatory, metabolic, and infectious disease contexts. Hybrid ML–GEM frameworks have not yet been directly applied to FMT outcome prediction; however, the mechanistic principles underlying both approaches – metabolic compatibility modeling and data-driven responder stratification – suggest a compelling direction for future investigation, contingent on prospective validation in adequately powered and independent clinical cohorts. Persistent methodological challenges–such as data heterogeneity, batch effects across sequencing platforms, incomplete multi-omics coverage, and limited interpretability of complex machine-learning models–are being actively addressed through standardized preprocessing pipelines, explainable Artificial intelligence (AI) strategies, and federated analytics. While federated approaches enable privacy-preserving, multi-institutional model training, they introduce additional constraints related to non-identically distributed data, communication overhead, and uneven computational capacity. Overall, the convergence of mechanistic modeling, data-driven learning, and distributed analytical infrastructures may assist in advancing microbiome research from a largely correlational perspective toward mechanistic and ultimately prescriptive frameworks for precision microbiome medicine.",
+      "date": "2026-05-15",
+      "url": "https://doi.org/10.3389/frmbi.2026.1842701",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Microbiomes",
+      "direction": "cell",
+      "id": "759017735fa4"
+    },
+    {
+      "title": "Immunological Drug–Drug Interactions in Immune Checkpoint Inhibitor Therapy: Mechanisms, Clinical Evidence, and Artificial Intelligence",
+      "authors": "Chin Hang Yiu, Kevin Winardi, Christine Y. Lu",
+      "abstract": "PURPOSE OF REVIEW: Immune checkpoint inhibitors (ICIs) have transformed cancer therapy, producing durable responses across multiple malignancies. However, treatment outcomes may be influenced by immunological drug-drug interactions (DDIs) arising from commonly prescribed concomitant medications. Unlike classical pharmacokinetic or pharmacodynamic DDIs, these interactions operate through systemic mechanisms that modulate anti-tumour immunity, including alterations to the gut microbiome, immune signalling pathways, and the tumour microenvironment. This review proposes a conceptual framework for \"immunological DDIs\" (iDDIs), extending beyond metabolic interactions toward a system-level understanding of immune regulation. RECENT FINDINGS: We synthesise current evidence on commonly used medication classes-organised by their primary immunological mechanisms: (1) gut microbiome-mediated effects, (2) systemic immunosuppression, and (3) tumour microenvironment modulation-and their impact on ICI efficacy and safety. Meta-analyses suggest that certain medications, particularly antibiotics and proton pump inhibitors, are associated with poorer clinical outcomes, although confounding by indication and disease severity remain important limitations. Artificial intelligence (AI) is an emerging approach to detect and characterise complex DDIs using large-scale clinical and real-world data. Natural language processing, machine learning models, and large language models show potential for extracting medication exposure, predicting adverse events, and supporting clinical decision-making. Most AI applications remain at an early stage, with limited external validation and uncertain clinical utility. Future research should integrate mechanistic biology, prospective clinical studies, and explainable AI approaches to improve identification of iDDIs and optimise the safe and effective use of ICIs in oncology.",
+      "date": "2026-05-14",
+      "url": "https://doi.org/10.1007/s11912-026-01789-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Current Oncology Reports",
+      "direction": "medical",
+      "id": "a8d3480ae1ce"
+    },
+    {
+      "title": "AI for quality management: A review",
+      "authors": "Yangyang Huang, Yu Tan, Yuanyuan Li, Yongxiang Li, Kwok‐Leung Tsui",
+      "abstract": "Abstract Recent advances in artificial intelligence (AI) have significantly enhanced quality management, enabling more effective handling of complex, high-dimensional, and multi-modal data. AI methods, including machine learning (ML) and deep learning (DL), have been pivotal in advancing key areas such as quality optimization, monitoring, and diagnosis. These methods have increased adaptability, efficiency, and scalability, making them particularly suitable for modern industrial applications. This review provides a comprehensive examination of AI methods in quality management, covering the integration of surrogate models, Bayesian optimization (BO), intelligent control charts, change-point detection (CPD), and interpretable quality diagnosis. The review concludes with proposed directions for future research aimed at overcoming existing challenges and enhancing the deployment of AI in real-world quality management implementation.",
+      "date": "2026-05-14",
+      "url": "https://doi.org/10.1007/s42524-026-5394-x",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ENGINEERING Management",
+      "direction": "medical",
+      "id": "9e3ca494da93"
+    },
+    {
+      "title": "Resolving Action Bottleneck: Agentic Reinforcement Learning Informed by Token-Level Energy",
+      "authors": "Langzhou He, Junyou Zhu, Yue Zhou, Zhengyao Gu, Junhua Liu...",
+      "abstract": "Agentic reinforcement learning trains large language models using multi-turn trajectories that interleave long reasoning traces with short environment-facing actions. Common policy-gradient methods, such as PPO and GRPO, treat each token in a trajectory equally, leading to uniform credit assignment. In this paper, we critically demonstrate that such uniform credit assignment largely misallocates token-level training signals. From an energy-based modeling perspective, we show that token-level training signals, quantified by their correlations with reward variance of different rollouts sampled from a given prompt, concentrate sharply on action tokens rather than reasoning tokens, even though action tokens account for only a small fraction of the trajectory. We refer to this phenomenon as the Action Bottleneck. Motivated by this observation, we propose an embarrassingly simple token reweighting approach, ActFocus, that downweights gradients on reasoning tokens, along with an additional energy-based redistribution mechanism that further increases the weights on action tokens with higher uncertainty. Across four environments and different model sizes, ActFocus consistently outperforms PPO and GRPO, yielding final-step gains of up to 65.2 and 63.7 percentage points, respectively, without any additional runtime or memory cost.",
+      "date": "2026-05-14",
+      "url": "https://arxiv.org/abs/2605.14558v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.14558v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e36c53d6d372"
+    },
+    {
+      "title": "Learning from Failures: Correction-Oriented Policy Optimization with Verifiable Rewards",
+      "authors": "Mengjie Ren, Jie Lou, Boxi Cao, Xueru Wen, Hongyu Lin...",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as an effective paradigm for improving the reasoning capabilities of large language models. However, RLVR training is often hindered by sparse binary rewards and weak credit assignment, resulting in ambiguous optimization signals and underutilization of the useful information embedded in failed trajectories. To address this challenge, we propose Correction-Oriented Policy Optimization (CIPO), a simple and effective extension to RLVR that converts on-policy failed trajectories into correction-oriented supervision, without relying on any external signals. By jointly optimizing correction samples derived from the model's own failed attempts together with the standard RLVR objective, CIPO improves learning effectiveness while explicitly enhancing the model's ability to correct its own errors. Extensive experiments across 11 benchmarks spanning mathematical reasoning and code generation demonstrate that CIPO consistently and significantly outperforms strong baselines in both reasoning and correction performance. Moreover, CIPO yields stronger pass@K gains, indicating that it improves the model's intrinsic reasoning capacity rather than merely redistributing probability mass over existing correct answers.",
+      "date": "2026-05-14",
+      "url": "https://arxiv.org/abs/2605.14539v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.14539v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1e0dec523d3c"
+    },
     {
       "title": "A qualitative systematic review protocol of patient experiences of using large language models for health information seeking and healthcare decision making",
       "authors": "Ravi Shankar, Amaevia Lim, Xu Qian",
