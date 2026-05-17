@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16 20:01",
+  "last_updated": "2026-05-17 20:04",
   "papers": [
     {
       "title": "PRACTICAL EXPLORATION OF INTEGRATING THE CDIO TEACHING MODEL WITH CHATGPT ASSISTANCE IN CLINICAL TEACHING FOR NURSING INTERNS IN THE RESPIRATORY DEPARTMENT",
@@ -24,6 +24,18 @@
       "venue": "Frontiers in Microbiomes",
       "direction": "cell",
       "id": "759017735fa4"
+    },
+    {
+      "title": "MedAI-DX: An AI-Powered Real-Time Clinical Decision Support System for Resource-Constrained Healthcare Environments",
+      "authors": "Hemanth Gowda A, Jayanth Somashekar, Akarsh M, Vinay Gowda PN, Kavitha As",
+      "abstract": "Rural and peri-urban healthcare facilities in developing nations face a critical physician shortage, with a single clinician often managing 80-120 patients daily under severe diagnostic resource constraints.Existing clinical decision support systems are predominantly cloud-only, English-exclusive, unimodal, or cost-prohibitive for deployment at primary health centres.This paper presents MedAI-DX, a multimodal, real-time AI-powered clinical decision support platform designed specifically for resource-constrained environments.The proposed system integrates a fine-tuned clinical Natural Language Processing (NLP) engine based on BioMistral-7B for multilingual symptom extraction and ICD-11 mapping, an EfficientNet-B4 computer vision module trained on NIH ChestX-ray14, ISIC 2020, and APTOS 2019 datasets for diagnostic image classification with Grad-CAM explainability, and a weighted evidence fusion risk stratification engine producing Green/Amber/Red triage classifications with structured referral recommendations.The system achieves a clinical entity F1 score of 0.84, image classification AUC-ROC of 0.87 across four disease categories, and an end-to-end latency under 2.5 seconds on standard cloud infrastructure.The full-stack deployment -React frontend, FastAPI backend, PostgreSQL with pgvector -is validated through a live interactive demonstration accessible via web browser.This work contributes a comprehensive, ethically grounded framework for AI-augmented clinical decision-making in multilingual, low-resource settings.",
+      "date": "2026-05-14",
+      "url": "https://doi.org/10.17148/ijarcce.2026.155131",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "IJARCCE",
+      "direction": "medical",
+      "id": "22a7264d309e"
     },
     {
       "title": "Immunological Drug–Drug Interactions in Immune Checkpoint Inhibitor Therapy: Mechanisms, Clinical Evidence, and Artificial Intelligence",
