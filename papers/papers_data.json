@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-05-22 20:43",
+  "last_updated": "2026-05-23 20:05",
   "papers": [
+    {
+      "title": "Artificial Intelligence in Drug Discovery: Transforming Pharmaceutical Research and Development",
+      "authors": "Rahul Sunil Padvi",
+      "abstract": "Artificial Intelligence (AI) has emerged as a transformative force in drug discovery, addressing the limitations of traditional pharmaceutical research methods. Conventional drug development is a lengthy, costly, and high-risk process, often taking more than a decade with significant financial investment. AI technologies, including machine learning, deep learning, and data analytics, enable rapid processing of vast biological and chemical datasets, thereby accelerating the identification of potential drug candidates and improving decision-making throughout the discovery pipeline. AI applications span multiple stages of drug discovery, including target identification, virtual screening, lead optimization, and clinical trial design. By leveraging predictive models and pattern recognition, AI enhances the accuracy of molecular interactions, toxicity prediction, and pharmacokinetic profiling. Furthermore, AI-driven approaches facilitate drug repurposing, reducing development timelines and costs. The integration of AI with bioinformatics and cheminformatics has significantly improved efficiency, productivity, and success rates in pharmaceutical research. Despite its advantages, the implementation of AI in drug discovery faces challenges such as data quality issues, lack of interpretability, and regulatory concerns. However, ongoing advancements in computational power and algorithm development continue to overcome these limitations. AI is expected to play a pivotal role in the future of personalized medicine and precision therapeutics, ultimately revolutionizing the pharmaceutical industry and improving global healthcare outcomes.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.22214/ijraset.2026.82792",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal for Research in Applied Science and Engineering Technology",
+      "direction": "cell",
+      "id": "2d776d1c79d1"
+    },
+    {
+      "title": "Integrative systems biology identifies SIRT1 as a senescence-related theranostic target in atherosclerosis and poliumoside as a natural activator",
+      "authors": "Xiaolong Wang, Runlu Shi, Chen Ji, Huilin Li, Ziwen Jia, ...",
+      "abstract": "Background Cellular senescence contributes to atherosclerotic plaque progression and instability, yet senescence-related diagnostic biomarkers and actionable targets remain incompletely defined. Purpose To identify senescence-related diagnostic/therapeutic targets in atherosclerosis using integrative systems biology, and to prioritize natural products that modulate the lead target with experimental validation. Methods Transcriptomic profiles from GSE21545 (126 carotid plaques and 97 paired peripheral blood mononuclear cell samples) were analyzed to identify differentially expressed genes and intersected with CellAge senescence genes. WGCNA and two machine-learning approaches (LASSO and SVM-RFE) were used for feature selection and target prioritization, followed by ROC analysis, functional enrichment, immune infiltration analysis, and PPI network construction. A natural product library (5,565 compounds) was screened against SIRT1 via hierarchical docking, MM-GBSA rescoring, and 100-ns molecular dynamics simulations. Lead compound activity was tested in H 2 O 2 -injured HUVECs using CCK-8 assays, qRT-PCR, Western blotting, and siRNA knockdown. Results We identified 255 senescence-related differentially expressed genes enriched in oxidative stress and inflammatory pathways. WGCNA and machine learning converged on 10 hub genes, with SIRT1 prioritized based on network centrality and diagnostic performance (AUC = 0.997, 95% CI: 0.992–1.000) and reduced expression in plaque samples. Virtual screening nominated Poliumoside as a high-affinity SIRT1 binder with stable binding dynamics in molecular simulations. In HUVECs, Poliumoside (40 μM) mitigated H 2 O 2 -induced injury and activated the SIRT1/NRF2/HO-1 axis; these effects were attenuated by SIRT1 knockdown. Conclusion This study highlights SIRT1 as a senescence-related theranostic candidate in atherosclerosis and identifies Poliumoside as a natural SIRT1 activator with endothelial protective activity in vitro .",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.3389/fphar.2026.1805938",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "cell",
+      "id": "b1b1860d0d81"
+    },
+    {
+      "title": "Deciphering skeletal muscle development: cellular heterogeneity and molecular regulatory networks from single-cell and spatial transcriptomic perspectives",
+      "authors": "Xingdong Wang, Yongming Zhang, Huimin Wei, Gerelt Zhao, Ren Mu",
+      "abstract": "The development of skeletal muscle is a biological process of great complexity and high regulation whereby there is a spatiotemporal coordination of interactions amongst various cell and molecular events. Recent advances in scRNA-seq and ST have enabled systematic dissection of skeletal muscle dynamics at single-cell resolution, thereby revealing the underlying molecular regulatory processes. This review provides an overview of existing evidence on molecular components of cellular heterogeneity of skeletal muscle development, which synergistically stabilize transcription factor network, epigenetic regulation, and metabolic reprogramming in cell fate regulation. By systematically comparing findings across species—including humans, mice, pigs, and chickens—we highlight both evolutionarily conserved mechanisms and species-specific regulatory features. This combination of scRNA-seq, ST, and multimodal data enables us to understand the microenvironment as a spatial regulator of muscle stem cell (MuSC) behavior: the composition of the niche, intercellular communication, and mechanical cues. These discoveries not only elucidate the fundamental principles of skeletal muscle development but also provide a theoretical basis for therapeutic strategies against muscle-related diseases and for improving economically important traits in livestock breeding.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.3389/fcell.2026.1827120",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Cell and Developmental Biology",
+      "direction": "cell",
+      "id": "18c4959ccda3"
+    },
+    {
+      "title": "AI-driven multimodal retinal imaging for early detection and risk stratification of vascular and neurodegenerative diseases",
+      "authors": "Lalit Agrawal, Pratik Agrawal, Shivam Sham Agrawal, Manoj Sheshrao Sonune, Rakesh K. Kadu, ...",
+      "abstract": "Systemic vascular and neurodegenerative disorders are important causes of disability and death worldwide, mainly because of the late stage of diagnosis and the high cost of current screening tools. Artificial intelligence (AI) and multimodal retinal imaging offer a non-invasive and viable approach for early risk stratification and longitudinal monitoring. This review highlights how changes in the retinal vasculature and nerve layers are markers of underlying pathophysiologies related to cardiovascular, metabolic, and neurological disorders. It gives an account of the critical retinal imaging modalities, such as fundus photography, optical coherence tomography (OCT), OCT angiography (OCTA), and more recently developed metabolic-sensitive imaging modalities, and how current AI approaches, such as deep learning, self-supervised learning, and multimodal fusion, can be leveraged for better risk stratification and decision support. Evidence from hypertension, stroke, coronary artery disease, diabetic complications, Alzheimer's disease, Parkinson's disease, multiple sclerosis, and cognitive impairment shows the potential for the retina to serve as a scalable biomarker for systemic health. However, there are still hurdles to be cleared, such as multicenter validation, prospective clinical trials, data fusion, and regulatory frameworks. In conclusion, AI-assisted retinal analysis may make way for early screening, better prevention, and more accessible precision healthcare.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.1007/s00417-026-07273-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Graefe s Archive for Clinical and Experimental Ophthalmology",
+      "direction": "cell",
+      "id": "e19d95194633"
+    },
+    {
+      "title": "BioRAG-DRAG: A Multimodal Biological Retrieval Layer for Local-First Biomedical Agents",
+      "authors": "Liang Wang",
+      "abstract": "Biomedical agents need reliable access to heterogeneous evidence: literature text, gene and pathway records, protein sequences, DNA/cDNA sequences, and structured biological relations. Classical sequence tools such as BLAST remain the right choice for alignment-grounded verification, but they are not a unified context interface for large language model agents. We present BioRAG-DRAG, a local-first multimodal retrieval layer that combines pluggable neural sequence-text retrieval, BLAST verification, and graph-based evidence packaging. Specialized encoders such as ESM-2 can serve protein partitions, while OmniGene CPT provides a unified biological-language backbone for mixed sequence/text and agent-facing use; BLAST reranks or verifies sequence candidates; and DRAG graphs expose typed, traceable paths for downstream agents. We introduce BioRAG-Standard v0, a partitioned corpus/library with 257,886 retrievable records and an initial annotation layer for engineering evaluation built from Open-Rosalind Standard biomedical records and sequence-window extensions. On an in-index sequence-window stress test, BLAST nearly saturates biological matching, while vector retrieval recovers substantial but lower biological match rates. On held-out parent-fragment controls, public protein encoders outperform the current OmniGene protein-window embedding, while DNA/cDNA dense retrieval remains weak even with off-the-shelf Nucleotide Transformer pooling; this supports a model-agnostic BioRAG design rather than a claim that one unified generator backbone is the best sequence-search encoder. Indexed Chroma lookup over Standard text and 100k sequence-window collections adds only small lookup overhead after query embedding; this does not measure end-to-end instant latency. Finally, exploratory sequence DRAG traces show inspectable biological neighborhoods, including immunoglobulin-family and gene-symbol modules, with initial graph controls indicating non-random but partly sequence-similarity-driven structure. These results support a bounded architecture: vector retrieval supplies unified candidate context, while BLAST and DRAG provide biological verification and evidence attribution.",
+      "date": "2026-05-21",
+      "url": "https://doi.org/10.64898/2026.05.19.726174",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "direction": "medical",
+      "id": "1bc6a65f2840"
+    },
+    {
+      "title": "Advances in Chemoinformatics: Artificial Intelligence, Big Data, and Computational Strategies in Modern Chemical Research",
+      "authors": "K.B. Misra",
+      "abstract": "Chemoinformatics has emerged as a powerful interdisciplinary domain that integrates chemistry, computer science, data analytics, and information technology to manage and interpret complex chemical information. The rapid development of computational techniques, artificial intelligence (AI), machine learning (ML), and big data analytics has significantly transformed the scope and impact of chemoinformatics. These technologies enable researchers to analyze extensive chemical datasets, predict molecular properties, and accelerate the discovery of new drugs and advanced materials. This review presents an overview of the major developments in chemoinformatics, focusing on molecular modeling techniques, artificial intelligence applications, chemoinformatics databases, and virtual screening approaches used in modern drug discovery. Additionally, the role of chemoinformatics in materials science and sustainable chemistry is discussed. The paper also highlights the current challenges faced by the field, including data quality issues, model interpretability, and integration with experimental validation. Finally, emerging trends such as quantum computing, automated drug discovery platforms, and AI-driven materials design are explored. These developments suggest that chemoinformatics will continue to play a crucial role in advancing chemical research and innovation in the coming decades.",
+      "date": "2026-05-21",
+      "url": "https://doi.org/10.64643/jatirv2i5-140170-001",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "cell",
+      "id": "5478504d6c5c"
+    },
+    {
+      "title": "Survive or Collapse: The Asymmetric Roles of Data Gating and Reward Grounding in Self-Play RL",
+      "authors": "Sophia Xiao Pu, Zhaotian Weng, Chengzhi Liu, Jayanth Srinivasa, Gaowen Liu...",
+      "abstract": "Self-play reinforcement learning trains language models on their own generated tasks, co-evolving a proposer and solver without human labels. Recent systems report strong reasoning gains, but collapse and instability are widely observed and poorly understood. The dominant response treats this as a reward-design problem. We argue instead that self-play stability is governed by two distinct levers: a data-level gate that decides which proposer-generated tasks enter the training pool, and the reward signal that updates the policy on tasks already admitted. Through controlled experiments on a Python output-prediction task and a deterministic-DSL twin task that strips pretraining priors, output ambiguity, and executor noise, we find the two levers are asymmetric. A strict gate is sufficient for stability under every reward variant we test, including a self-consistency reward with no access to ground truth; while no reward variant is sufficient once the gate is removed. This asymmetry exposes a counter-intuitive coupling we call the Grounded Proposer Paradox: a proposer with ground-truth access accelerates collapse faster than an ungrounded one when paired with a self-consistency solver, by concentrating training on clean tasks that form the fastest path to a spurious self-consistent attractor. Replacing the binary gate with a continuous strictness parameter $\\varepsilon$ further reveals a two-stage phase transition: training-side metrics decouple at low $\\varepsilon$, while validation accuracy holds until $\\varepsilon$ is much higher. Data-level gating, not reward calibration, is the binding constraint on self-play stability.",
+      "date": "2026-05-21",
+      "url": "https://arxiv.org/abs/2605.22217v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22217v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "47ef7ab4acb1"
+    },
+    {
+      "title": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles",
+      "authors": "Jinyang Wu, Guocheng Zhai, Ruihan Jin, Yuhao Shen, Zhengxi Lu...",
+      "abstract": "The proliferation of large language models (LLMs) and modular skills has endowed autonomous agents with increasingly powerful capabilities. Existing frameworks typically rely on monolithic LLMs and fixed logic to interface with these skills. This gives rise to a critical bottleneck: different LLMs offer distinct advantages across diverse domains, yet current frameworks fail to exploit the complementary strengths of models and skills, thereby limiting their performance on downstream tasks. In this paper, we present Maestro (Multimodal Agent for Expert-Skill Targeted Reinforced Orchestration), a Reinforcement Learning (RL)-driven orchestration framework that reframes heterogeneous multimodal tasks as a sequential decision-making process over a hierarchical model-skill registry. Rather than consolidating all knowledge into a single model, Maestro trains a lightweight policy to dynamically compose ensembles of frozen expert models and a two-tier skill library, deciding at each step whether to invoke an external expert, which model-skill pair to select, and when to terminate. The policy is optimized via outcome-based RL, requiring no step-level supervision. We evaluate Maestro across ten representative multimodal benchmarks spanning mathematical reasoning, chart understanding, high-resolution perception, and domain-specific analysis. With only a 4B orchestrator, Maestro achieves an average accuracy of 70.1%, surpassing both GPT-5 (69.3%) and Gemini-2.5-Pro (68.7%). Crucially, the learned coordination policy generalizes to unseen models and skills without retraining: augmenting the registry with out-of-domain experts yields a 59.5% average on four challenging benchmarks, outperforming all closed-source baselines. Maestro further maintains high computational efficiency with low latency. The source code is available at https://github.com/jinyangwu/Maestro.",
+      "date": "2026-05-21",
+      "url": "https://arxiv.org/abs/2605.22177v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22177v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "07d8910aeb0f"
+    },
     {
       "title": "AI-Powered Prediction System Using NLP and Deep Learning",
       "authors": "Tushar Zalte Dr. Pankaj Agarkar, Umesh Kardile Farhan Shikalgar",
