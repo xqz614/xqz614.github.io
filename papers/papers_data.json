@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-23 20:05",
+  "last_updated": "2026-05-24 20:07",
   "papers": [
+    {
+      "title": "Drug-Drug Interaction Prediction in Polypharmacy Using Graph Learning and Transformer Models",
+      "authors": "Mayank Tiwari",
+      "abstract": "Drug-drug interactions are a significant concern in modern medicine, particularly because of the rising incidence of polypharmacy. While numerous computational models have been developed for DDI prediction and extraction, many constraints remain, such as inadequate molecular representation, limited multi-drug context handling, insufficient model interpretability, and insufficient annotated training data. We address these research gaps in the current study and present an integrated framework using graph neural networks, transformer-based NLP models, and data fusion strategies to overcome research challenges. In addition to a critical assessment and theoretical framework of the proposed approach, we focused on the need for interpretability and clinical sensitivity for the development of real-time decision-making or warning-based support systems. Open questions remain around fine-tuning large language models on molecular graph data, building DDI pipelines that slot into live EHR systems without disrupting clinical workflows, and establishing evaluation standards that hold across heterogeneous datasets. Until those gaps close, even a well-designed system will struggle to earn the kind of trust that clinical deployment actually requires.",
+      "date": "2026-05-23",
+      "url": "https://doi.org/10.22214/ijraset.2026.82758",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal for Research in Applied Science and Engineering Technology",
+      "direction": "medical",
+      "id": "1db310c22f5f"
+    },
+    {
+      "title": "The Use of Speculative Fiction in Future-Focused Health Care Research",
+      "authors": "Sjors Groeneveld, Jobke Wentzel, Melissa Laurens, Lisette van Gemert-Pijnen, Rudolf M Verdaasdonk, ...",
+      "abstract": "Unlabelled: Health care is undergoing rapid change due to digitalization, artificial intelligence, data-driven decision-making, and shifting patient needs. These developments raise complex ethical, social, and organizational questions that cannot always be addressed by conventional research methods alone. There is a growing need for tools that help stakeholders imagine alternative futures to surface underlying values. Futures studies and speculative fiction respond to this need by presenting \"what if\" scenarios that make uncertain futures concrete and discussable, enabling dialogue among diverse stakeholders such as health care professionals, researchers, policy makers, and decision makers. This paper examines how speculative fiction can be used as a structured yet imaginative tool in health care research. It positions speculative fiction as a tool within futures studies and participatory research approaches, outlining its conceptual grounding and clarifying its role that stimulates interpretation and reflection within methods such as focus groups, workshops, and surveys. In this way, speculative fiction complements established approaches such as human-centered design, contextual inquiry, and value specification by addressing what does not yet exist and making abstract future issues tangible. The paper presents a case study, The Digital Data Divide, in which speculative fiction was used to explore the use of personal data in health care. Two contrasting short films were developed to stimulate dialogue and invite participants to reflect on associated values. Insights from this case are structured into a 6-step practical reporting guide: determining whether speculative fiction fits the research aim, choosing an appropriate form of speculative fiction, creating or selecting speculative scenarios, engaging participants, analyzing responses, and sharing and disseminating results. Across these steps, the paper discusses methodological and ethical considerations, including alignment between scenarios and study aims, balancing utopian and dystopian elements, questions of plausibility and interpretability, and the need for researcher reflexivity. Overall, this paper contributes to the growing discussion on future-oriented tools in health care research by showing how speculative fiction can help address complex and uncertain challenges in ways that are accessible to a wide range of stakeholders and that support dialogue across perspectives, provided that its use is ethically transparent, methodologically explicit, and carefully reported. The paper concludes with a call to other researchers to also experiment with speculative fiction and to share their experiences with the health care research community to learn and advance its use.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.2196/89699",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Medical Internet Research",
+      "direction": "medical",
+      "id": "22231e2b2399"
+    },
+    {
+      "title": "The limits of debiased clinical language models for cross-hospital generalization",
+      "authors": "Angyang Guo, Wenna Chen, Zhang, Yan, 1963-, Mingxia Ji, Bin Fang, ...",
+      "abstract": "As clinical language models are increasingly deployed across healthcare institutions, ensuring equitable predictions for all demographic groups becomes critical. While fairness interventions have shown promise in medical AI, a fundamental question remains underexplored: do models that achieve fairness at one hospital maintain that fairness when deployed elsewhere? We investigated this question through extensive cross-database experiments on ICU mortality prediction, fine-tuning ClinicalBERT on MIMIC-IV and evaluating on eICU-CRD. Our findings reveal that debiasing can backfire: fairness-only training achieves the best in-domain equalized odds gap (0.039) but the worst out-of-domain fairness (0.182), representing a striking 4.7× degradation that completely reverses the intended intervention. We find evidence consistent with a domain leakage mechanism, whereby hospital-specific documentation patterns encoded in learned representations can interact unpredictably with demographic signals across sites, such that in-domain fairness constraints may fail or even reverse when deployed out-of-domain. Crucially, we find that domain leakage, not demographic leakage, is most strongly associated with fairness transfer failures (Pearson [Formula: see text]). To address this challenge, we propose a leakage-aware training framework combining domain confusion, group robustness, and equalized odds penalties, along with MDLS (Minimum-Domain-Leakage Selection), a model selection criterion requiring no out-of-domain labels. Our method reduces the out-of-domain equalized odds gap to 0.064 while improving AUROC from 0.741 to 0.802. These results demonstrate that debiasing without domain awareness can produce models that are locally fair yet globally unfair, underscoring the necessity of domain-aware auditing before cross-institutional deployment of clinical NLP systems.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.1038/s41598-026-53043-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "6af6960d38c8"
+    },
+    {
+      "title": "Bibliometric Insights into Connectomics: Chemistry and Neuroscience Perspectives",
+      "authors": "Juan Pablo Betancourt Arango, Alejandro Patiño Ospina, María Del Carmen Suárez Millán, Gonzalo Taborda Ocampo",
+      "abstract": "Introduction. Connectomics, an emerging omics science, has contributed to the preventive diagnosis of neurodegenerative diseases. This field integrates chemical and neuroscientific information, analyzing neurotransmitter functions and alterations within brain connections. Additionally, it enables theoretical simulations that link the brain´s biophysical structure with neuronal interactions, providing insights into brain function. Objective. This study explores connectomics as an omics science and its contributions to chemistry and neurosciences. Methodology. A bibliometric analysis was conducted using Scopus, RStudio and VOSviewer to identify global research trends in connectomics. Results. Co-citation and keyword co-occurrence analyses key aspects of connectomics research. The findings highlight the need to promote studies on this emerging omics science in Colombia. Conclusions. Connectomics plays a crucial role in understanding neural networks and advancing treatments for neurodegenerative disorders. The field benefits from instrumental techniques such as magnetic resonance imaging and machine learning models for data processing. These tools emphasize the significance of connectomics research in neuroscience and cognitive sciences.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.17151/biosa.2021.20.1.1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Biosalud",
+      "direction": "cell",
+      "id": "418bc7ddcdf2"
+    },
+    {
+      "title": "Anatomy-aware lymphoma lesion detection in whole-body PET/CT",
+      "authors": "Simone Bendazzoli, Antonios Tzortzakakis, Andréas Abrahamsson, Björn Engelbrekt Wahlin, Örjan Smedby, ...",
+      "abstract": "Motivation and objectives Early cancer detection is essential for improving patient outcomes, and 18F-FDG PET/CT imaging plays a central role by combining metabolic and anatomical information. However, accurate lesion detection remains challenging due to the presence of multiple lesions with varying sizes and locations. This study investigates whether incorporating anatomical prior information can improve deep learning-based lesion detection performance. Methods Anatomical priors were incorporated by adding organ segmentation masks generated with TotalSegmentator as auxiliary input channels to two lesion detection frameworks: the CNN-based nnDetection and a transformer-based Swin UNETR implemented in MONAI. The Swin Transformer was trained using a two-stage strategy, with self-supervised pretraining performed on the autoPET dataset and supervised fine-tuning of the detector model conducted on the independent Karolinska lymphoma dataset. Model evaluation followed a single hold-out split, and performance was assessed using FROC and average precision metrics. Results Experiments were conducted on two independent PET/CT datasets covering different tracers and cancer subtypes. The autoPET dataset includes 18F-FDG PET/CT scans of lymphoma, melanoma, and lung cancer, while the Karolinska dataset focuses on lymphoma imaging. Incorporating anatomical priors consistently improved lesion detection performance within the nnDetection framework across both datasets. Specifically, nnDetection augmented with anatomical masks improved in mAP@0.1–0.5 from 0.288 to 0.335. In contrast, anatomical priors had minimal impact on the Swin Transformer, which did not demonstrate clear advantages over CNN-based encoders. Conclusions Anatomy-aware priors substantially enhance lesion detection performance in CNN-based models, highlighting the importance of explicit anatomical context for multi-lesion PET/CT analysis. However, these benefits do not readily transfer to transformer-based architectures, indicating the need for improved strategies to integrate anatomical information into vision transformers for medical image analysis.",
+      "date": "2026-05-22",
+      "url": "https://doi.org/10.3389/fonc.2026.1695211",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Oncology",
+      "direction": "cell",
+      "id": "81f6913a23bd"
+    },
     {
       "title": "Artificial Intelligence in Drug Discovery: Transforming Pharmaceutical Research and Development",
       "authors": "Rahul Sunil Padvi",
