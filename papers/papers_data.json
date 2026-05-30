@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-05-29 21:09",
+  "last_updated": "2026-05-30 20:08",
   "papers": [
+    {
+      "title": "Effectiveness of AI and rule-based conversational agents for depression, anxiety and stress: A meta-analysis",
+      "authors": "Saeed Mokhtari Masoumi Alamdarloo, Ali Mirzakhani, Mohamad Azhdarloo, Elaheh Haghani-Samani, Abouzar Nazari",
+      "abstract": "Depression, anxiety, and stress are significant global health burdens worsened by restricted access to care. Conversational agents (CAs), encompassing both AI(Artificial Intelligence)- and rule-based systems, provide scalable mental health interventions. This systematic review and meta-analysis analyzed the efficacy of CA interventions in 48 randomized controlled trials covering 28,071 participants. It demonstrated small-to-moderate but significant effects in minimizing symptoms of depression (SMD: −0.27), anxiety (SMD: −0.20), and stress (SMD: −0.26). A Robust Variance Estimation (RVE) approach was used to address within-study dependencies, with results consistent with the random-effects model. Subgroup analyses investigated sources of heterogeneity and indicated greater effects in clinical populations and shorter-duration interventions. Meta-regression identified no appreciable effect of outcome timing. Risk of bias was largely low, although some studies had issues due to missing data or selective reporting. Publication bias was negligible. These results provide evidence for the utilization of conversational agents as effective interventions for lessening psychological symptoms. Additional research is required to evaluate their long-term effectiveness and how best to integrate them into mental healthcare systems.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.1038/s41746-026-02820-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "medical",
+      "id": "ad42b0721c83"
+    },
+    {
+      "title": "A Vision for SPARK Health: An AI Assistant Leveraging Biomedical FM/LLM for Smart Remote Senior Healthcare",
+      "authors": "Karthik Reddy",
+      "abstract": "The United Nations (UN) Decade of Healthy Ageing (2021-2030), led by the World Health Organization (WHO), is a global initiative to promote the well-being of seniors, families, and communities.The UN highlights that the global population of seniors is increasing substantially, and the WHO emphasizes the challenges this demographic shift poses for public health systems and social services, underscoring the need for inclusive digital solutions to support healthy aging.Remote healthcare teams, including family members and medical providers, often struggle to provide care for seniors due to geographic separation and the lack of integrated healthcare assistant systems, resulting in compromised quality of care.This work presents a conceptual proposal for Smart Personalized Assistant for Remote Knowledge on Health (SPARK Health), a personalized healthcare AI assistant designed to integrate with digital health platforms, leverage a biomedical foundation model (FM)/large language model (LLM), be managed by families, and facilitate collaboration with medical providers to address remote senior healthcare challenges.This paper reviews FMs/LLMs in healthcare and demonstrates how the conceptualized SPARK Health, leveraging a multimodal, multitask biomedical FM/LLM, could support health monitoring and healthcare decision-making and serve as a remote senior care solution aligned with the UN Decade of Healthy Ageing.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.36838/ijhsr89.193",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International journal of high school research",
+      "direction": "medical",
+      "id": "302f7c200a25"
+    },
+    {
+      "title": "Multitechnological integration advances musculoskeletal regeneration: synergistic progress of organoids, 3D/4D bioprinting, single-cell omics and artificial intelligence",
+      "authors": "Zhichao Liu, HaiYan Fan, TianMin Zhai, ZhongPin Ma, Yun Yang",
+      "abstract": "Regenerative repair of injuries and degenerative diseases in the musculoskeletal system remains a paramount clinical challenge, as conventional single-modal technologies fail to recapitulate the intricate structural and functional complexity of native musculoskeletal tissues. In recent years, the rapid evolution of cutting-edge technologies-including organoids, 3D/4D bioprinting, single-cell omics and artificial intelligence (AI)-has unlocked novel opportunities for addressing this longstanding issue. This review aims to systematically elucidate how the integration of these four core technologies drives progress in musculoskeletal regeneration research. By exploring the intrinsic methodological details of each technology and their underlying synergistic mechanisms, we summarize the latest advances in multitechnological integration for fabricating highly biomimetic in vitro models, enabling precise and dynamic fabrication of tissue-engineered constructs, deciphering cellular heterogeneity during tissue development and repair at high resolution, and optimizing data-driven personalized regenerative strategies. We further explicitly distinguish the in vitro and in vivo applications of each technology with representative experimental evidence and translational implications, and provide comprehensive tabular summaries of state-of-the-art research over the past 5 years. Furthermore, we prospect the future development directions and critical challenges facing this interdisciplinary field.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.3389/fbioe.2026.1824644",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "direction": "cell",
+      "id": "cdd21b546f28"
+    },
+    {
+      "title": "Machine learning based approaches for structure activity relationship analysis of heparanase inhibitors",
+      "authors": "Rachana V. Shanbhogue, Neha S. Gandhi, Shanthi P.B., Sandhyalaxmi G. Navada",
+      "abstract": "Abstract Human Heparanase (HPSE), the only mammalian endo- $$\\beta$$ -D-glucuronidase, plays an important role in extracellular matrix remodeling and the release of heparin-bound growth factors. Its overexpression is strongly correlated with increased tumor growth, angiogenesis, metastasis, and inflammation, highlighting HPSE as a compelling therapeutic target for oncology and inflammatory diseases. This study aimed to develop and validate a robust computational workflow for predicting the activity class of potential HPSE inhibitors using curated data from the ChEMBL database. Bioactivity data ( $$pIC_{50}$$ ) for known HPSE inhibitors were extracted and put through a meticulous data curation process, which included chemical structure standardization, molecular weight filtering, and final deduplication based on standardized isomeric SMILES to ensure structural uniqueness. Continuous $$IC_{50}$$ values (nM) were converted to $$pIC_{50}$$ and subsequently categorized into three activity classes: A ( $$pIC_{50} \\ge 4$$ and $$&lt; 5$$ ), B ( $$pIC_{50} \\ge 5$$ and $$&lt; 6$$ ), and C ( $$pIC_{50} \\ge 6$$ and $$&lt; 7$$ ) for multi-class classification. Molecular representations included two-dimensional physicochemical descriptors, Morgan fingerprints, and three-dimensional descriptors derived from optimized low-energy conformers generated using ETKDGv3 and MMFF94s. Multiple machine learning classifiers were evaluated using pipelines incorporating imputation, scaling, optional Principal Component Analysis (PCA) dimensionality reduction applied to the combined feature sets, and SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance. Models were trained and optimized using randomized search cross-validation on an 80% training split, maximizing balanced accuracy. The best-performing model pipeline (RF_B, a Random Forest with PCA on 2D+Morgan Fingerprints+3D features) achieved approximately 80% accuracy and 78.5% balanced accuracy on the held-out 20% test set. The final validated model was successfully utilized to predict the activity classes of new, unseen compounds. This comprehensive pipeline provides a validated tool for classifying HPSE inhibitors derived from ChEMBL data, potentially aiding virtual screening efforts and guiding hit prioritization in drug discovery campaigns targeting HPSE.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.1038/s41598-026-55098-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "63f2f59ed59c"
+    },
+    {
+      "title": "Predict neuromuscular performance in human epidural electrical stimulation: phase 1 trial interim results",
+      "authors": "Hongda Li, Yunyue Wei, Yanan Sui, Xi Zhang, Xuesong Luo, ...",
+      "abstract": "Epidural electrical stimulation (EES) has emerged as a promising therapy for restoring motor function in patients with paralysis. A primary challenge in this therapy lies in identifying feasible stimulation parameters in huge selection space for different movements, given the limited understanding of the precise alignment between stimulation and corresponding neuromuscular performance. We aimed to develop a computational framework that predicts neuromuscular performance under EES and thereby reduces the need for extensive in-clinic parameter searches. We implanted purpose-designed 32-contact epidural interfaces in two individuals with motor-complete spinal cord injury and reconstructed personalized spinal anatomies from medical imaging. Finite element simulations and axonal recruitment modeling were integrated with machine learning to establish a predictive mapping between stimulation parameters and muscle responses. A dimensionality-reduction Bayesian optimization algorithm was subsequently applied to identify compact sets of stimulation parameters targeting specific motor objectives, and selected configurations were validated through clinical testing. This study is an interim report of an ongoing registered clinical trial (Closed-loop Functional Spinal Cord Stimulation in Patients with Spinal Cord Injury, ClinicalTrials.gov Identifier: NCT04969042), sponsored by Beijing PINS Medical Co., Ltd. Here we present purpose-designed 32-contact epidural neural interfaces that enabled two individuals with spinal cord injury to regain lower-limb motor function. The hybrid predictive model demonstrated strong quantitative agreement with experimentally measured muscle responses (mean squared error = 0.0096). Algorithm-guided parameter recommendations comprising 180 configurations outperformed both the historical dataset (1,602 configurations) and conventional bipolar settings across four functional objectives. Clinical validation further confirmed that the recorded muscle activations were in close agreement with model predictions. The AI-aided computational framework can serve as a reliable and feasible agent for evaluating and recommending effective EES parameters. By bridging anatomical modeling with functional outcomes, this approach offers a practical pathway toward optimizing neuromodulation therapies and advancing the development of personalized treatment strategies for individuals with spinal cord injury. People with spinal cord injury often lose the ability to move their legs because the connection between the brain and spinal cord is damaged. Over recent decades, epidural electrical stimulation—delivering pulses of electricity to the spinal cord—has been shown to help restore leg movement. However, finding the proper stimulation settings for each person is usually time-consuming and depends on trial and error. In this study, we designed and manufactured a 32-contact spinal implant and implanted it in two people with spinal cord injury. We also developed a personalized hybrid model that combines computer simulations and neural-network predictions to estimate how different stimulation settings affect muscle activity. An optimization algorithm then recommends parameter sets for specific movements, and these recommendations were tested in the clinic. By automating and personalizing parameter selection, this approach can reduce the testing burden on patients and clinicians and help enable more tailored neuromodulation treatments. Li et al. integrate computational modeling and AI-based optimization to personalize epidural electrical stimulation for individuals with spinal cord injury. The approach accurately predicts muscle responses and guides stimulation settings that enhance lower-limb motor recovery.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.1038/s43856-026-01695-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Communications Medicine",
+      "direction": "cell",
+      "id": "aaeac0c2cf7a"
+    },
+    {
+      "title": "Artificial intelligence for early detection of pancreatic cancer: pre-diagnostic detection across imaging, biomarkers, and EHRs: a systematic review",
+      "authors": "Vaia Apostolou, George Papageorgiou, Christos Tjortjis",
+      "abstract": "Abstract Pancreatic Ductal Adenocarcinoma (PDAC) is highly lethal, yet outcomes improve markedly when the disease is detected at its earliest stages. This systematic review synthesizes recent applications of Artificial Intelligence (AI) and Machine Learning (ML) for clinically actionable early detection across three data streams: medical imaging, Electronic Health Records (EHRs), and liquid-biopsy biomarkers. We surveyed studies published between 2020 and mid-2025, emphasizing task design, validation strategies, and the authors’ description of model reliability and deployment. Across modalities, retrospective evidence indicates that AI can surface weak, distributed signals, preceding overt radiologic findings, support challenging differential diagnoses, and aid procedure-level verification. EHR-based population pre-filtering (triage via routine data to select patients for imaging) shows promise, and biomarker-driven approaches typically outperform single-analyte baselines. Taken together, the current literature supports the possibility of a pragmatic, tiered workflow, in which EHR/biomarker triage directs confirmatory Computed Tomography (CT) and Magnetic Resonance Imaging (MRI) and where indicated, Endoscopic Ultrasound (EUS)-guided verification. Clinical implementation remains constrained by limited external validation, variability in imaging protocols and biomarker assays, lack of clinical-utility analysis (decision-curve net benefit), and sparse reporting of subgroup outcomes. Across modalities, studies frequently report good Area Under the Receiver Operating Characteristic Curve (AUROC)-based discrimination, high negative predictive value at conservative thresholds in EHR- and biomarker-based triage, and, in some studies, AI models detected PDAC on pre-diagnostic CT scans, providing a meaningful lead time before clinical diagnosis. These findings underscore the promise, but also the need for prospective, pathway-aware evaluation.",
+      "date": "2026-05-28",
+      "url": "https://doi.org/10.1007/s12065-026-01202-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Evolutionary Intelligence",
+      "direction": "medical",
+      "id": "c095008ec721"
+    },
+    {
+      "title": "Who Am I? History-Aware Profiles for Student Simulation in Tutoring Dialogues",
+      "authors": "Zhangqi Duan, Shuyan Huang, Alexander Scarlatos, Jaewook Lee, Simon Woodhead...",
+      "abstract": "A key part of developing large language model (LLM)-powered, automated tutoring tools is student simulation, i.e., using LLMs to role-play as students, which can facilitate tutor model evaluation and training. Existing work mostly focuses on within-dialogue simulation, which lacks context on student knowledge and behavior, partly due to not grounding in past student question-answering or dialogue interactions. In this work, we introduce the task of history-conditioned student simulation, where the goal is to accurately predict student dialogue turns by leveraging information in the student's learning history. We propose a two-component framework in which a profile generator summarizes a student's history and a simulator predicts student turns conditioned on the resulting profile. We train both components with reinforcement learning (RL), yielding profiles optimized for faithful student simulation. We evaluate our method and baselines on the first-of-its-kind real-world dataset of student dialogues and question responses that we collect from a math learning platform. Extensive experiments show that our method significantly outperforms baselines, and demonstrate the importance of history, profiles, and RL training.",
+      "date": "2026-05-28",
+      "url": "https://arxiv.org/abs/2605.30051v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.30051v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "04a49ea2b083"
+    },
     {
       "title": "Problematic use of generative artificial intelligence chatbots: current stage of conceptual and clinical understanding",
       "authors": "Octavian Vasiliu",
