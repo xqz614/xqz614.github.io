@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-30 20:08",
+  "last_updated": "2026-05-31 20:07",
   "papers": [
+    {
+      "title": "AI-driven text mining of the female reproductive system: enabling multiscale biomedical modeling and personalized medicine",
+      "authors": "G S Lee, Jeehyo Jeon, Sharon Jeeho Ham, Sieun Shin, Seo Yeon Kim, ...",
+      "abstract": "The female reproductive system, including the endometrium, placenta, ovary, cervix, and fallopian tube, plays a critical role in conception, implantation, and fetal development. Recent advances in bioengineered models such as organoids, organ-on-a-chip platforms, and 3D bioprinting have expanded experimental capabilities, however, the rapid growth of this field has resulted in a large and fragmented body of literature, limiting systematic integration and analysis. Here, we present an artificial intelligence (AI)-driven text mining framework to systematically map research trends in the female reproductive system. A total of 347 peer-reviewed articles were collected and analyzed. Abstracts were embedded using BioBERT to capture contextual biomedical semantics. Subsequently, unsupervised topic modeling was performed using BERTopic with UMAP-based dimensionality reduction and HDBSCAN clustering. This analysis identified 15 fine-grained subtopics, which were further consolidated into six major thematic categories. The results show that current research is mainly focused on endometrial receptivity and implantation, placental barrier function and maternal–fetal interface, and tissue regeneration and biofabrication. In contrast, integrated multi-organ modeling and translational validation remain relatively underexplored. Overall, this AI-driven framework provides a quantitative and scalable approach to organizing complex biomedical literature. The findings offer a structured overview of the field and highlight emerging directions for multiscale modeling and personalized reproductive medicine.",
+      "date": "2026-05-30",
+      "url": "https://doi.org/10.1186/s40580-026-00554-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Nano Convergence",
+      "direction": "cell",
+      "id": "6398122cb35d"
+    },
+    {
+      "title": "Turning failure into success: how artificial intelligence can help personalize therapies and re-use patient data",
+      "authors": "Maria P. Abbracchio, Ernesto Damiani",
+      "abstract": "Despite robust preclinical evidence, many clinical trials, including several that targeted the purinergic system, fail to demonstrate efficacy in humans. Failure may stem from inability to accurately identify patient subgroups responding similarly to treatments. Here, we explore the potential of artificial intelligence to revolutionize how we group and classify patients in clinical studies. We introduce a new framework using Large Language Models-generated embeddings of detailed patient data, to create a semantic-aware latent space, enabling us to identify truly meaningful patients' clusters. Large Language Models can provide explainable groupings, giving clear reasons why certain patients respond similarly to treatments. We present an example of successful application of this approach through the re-analysis of the AMARANTH clinical trial (NCT02245737, involving ~ 2200 patients and completed in 2018) testing Lanabecestat, a BACE1 inhibitor decreasing β-amyloid production in Alzheimer's disease, for which traditional analysis reported no efficacy. As in the original trial, our simulation showed no overall benefit. However, re-analysis per patients' clusters and subjects' re-stratification by semantic similarities (shared symptom profiles, progression patterns) identified a patients' subgroup in one of the clusters showing Lanabecestat-associated slower disease worsening, thus succeeding where the full trial had failed. By making a new therapy available to at least a subset of patients with a defined disease, this new approach may help maximize the return on drug development and reduce the burden on healthcare. Moreover, it will significantly improve the precision, efficiency and interpretability of clinical trials, paving the way for a new era of personalized medical treatments.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.1007/s11302-026-10165-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Purinergic Signalling",
+      "direction": "medical",
+      "id": "d2362ee57258"
+    },
+    {
+      "title": "A Deep Convolutional Neural Network for Retrieving Tropospheric Temperature and Moisture Profiles from Refractivity over Tropical Oceans: Framework Development and Characterization",
+      "authors": "Santosh Muralidharan, Harris John, Deepak Mishra",
+      "abstract": "Abstract. Retrieving profiles of temperature and water vapor from atmospheric refractivity over tropical oceans constitutes an inherently underdetermined problem. Conventional one-dimensional variational methods resolve this through numerical weather prediction (NWP) priors, potentially propagating model biases into retrieved profiles and limiting the independence desirable for climate monitoring applications. We present a deep learning retrieval that substitutes learned statistical constraints for model-dependent priors. A convolutional neural network, trained on approximately 20,800 high resolution radiosonde profiles —combining reference-grade GCOS Reference Upper-Air Network (GRUAN) measurements with quality-controlled operational GCOS Upper Air Network (GUAN) and field campaign data— predicts dry refractivity and partial pressure of dry air as intermediate targets; temperature, water vapor pressure, and relative humidity are derived analytically. The model achieves water vapor pressure root-mean-squared errors of ~0.5 hPa near the surface (decreasing with height) and relative humidity errors below 6 % from 100 m to 10 km, performance comparable in magnitude to the mean measurement uncertainty of state-of-the-art radiosondes. Temperature errors are ~1.5 K near the surface, improving to ~0.5 K in the 10–15 km range where dry refractivity dominates. Evaluation against more than 27,400 geographically independent radiosonde ascents across the tropical Pacific, Indian Ocean, and Atlantic—including observations from the 1992–93 TOGA-COARE field campaign, two decades predating the training period—demonstrates robust generalization within the tropical marine atmosphere. The framework accepts only refractivity vertical structure as input, with no dependence on geographic coordinates or NWP background states. This paper establishes the retrieval framework and characterizes performance under ideal input conditions; Part 2 addresses application to satellite observations.",
+      "date": "2026-05-29",
+      "url": "https://doi.org/10.5194/egusphere-2026-2027",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "cell",
+      "id": "5c9f8b3d5924"
+    },
     {
       "title": "Effectiveness of AI and rule-based conversational agents for depression, anxiety and stress: A meta-analysis",
       "authors": "Saeed Mokhtari Masoumi Alamdarloo, Ali Mirzakhani, Mohamad Azhdarloo, Elaheh Haghani-Samani, Abouzar Nazari",
