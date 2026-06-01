@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-05-31 20:07",
+  "last_updated": "2026-06-01 22:10",
   "papers": [
+    {
+      "title": "Serene Care: An AI-Powered Cognitive Behavioural Therapy Platform for Mental Wellness",
+      "authors": "",
+      "abstract": "Serene Care is an AI-powered mental health platform designed to deliver personalized Cognitive Behavioural Therapy (CBT) through a conversational chatbot interface.Leveraging Google Gemini API and Natural Language Understanding (NLU), the system provides real-time emotional support and structured therapeutic guidance without requiring a traditional backend database.Built with HTML, CSS, and JavaScript for the frontend, and Flask for the backend, the platform supports core features such as AI-driven CBT sessions, secure user authentication, therapist interaction, and mood tracking.By integrating AI with domain-specific therapy flows, Serene Care offers a scalable and cost-effective solution for accessible mental wellness.The platform demonstrates how generative AI can complement professional mental health practices and improve emotional support delivery across diverse populations.",
+      "date": "2026-05-31",
+      "url": "https://doi.org/10.56726/irjmets77651",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Research Journal of Modernization in Engineering Technology and Science",
+      "direction": "medical",
+      "id": "307b9a69e338"
+    },
+    {
+      "title": "Mapping the role of artificial intelligence in health-related stigma: a scoping review",
+      "authors": "Tianqi Song, Jack Jamieson, Wataru Akahori, Han Meng, Shuqi Wang, ...",
+      "abstract": "Stigma remains a major barrier to equitable health and well-being, while artificial intelligence (AI) is increasingly recognized as a tool with both potential and risk in addressing this challenge. However, research on AI and stigma is fragmented across disciplines, hindering a unified understanding of their intersection. To consolidate existing evidence, we conducted a scoping review of 11,769 records published between 2016 and 2025 and identified 70 studies examining the relationship between AI and health-related stigma. Four research themes emerged: AI measuring stigma (n = 42, 60%), stigma influencing AI use (n = 15, 21%), AI increasing stigma (n = 9, 13%), and AI reducing stigma (n = 4, 6%). Most studies focused on mental health disorders, revealing an imbalance in attention to other health conditions. Across studies, we observed inconsistent definitions of stigma, limited cross-cultural perspectives, and few evaluations of real-world AI applications. Addressing these gaps will be critical for developing responsible and equitable AI systems that mitigate rather than reinforce health stigma across broader societal and health contexts.",
+      "date": "2026-05-30",
+      "url": "https://doi.org/10.1038/s41746-026-02832-x",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "medical",
+      "id": "b0750c243c3f"
+    },
+    {
+      "title": "Title Pending 46",
+      "authors": "Benji Peng, Hanxuan Chen, Keyu Chen, Ming Li, Pohsun Feng, ...",
+      "abstract": "Large Language Models (LLMs) demonstrate impressive capabilities across various fields, yet their increasing use raises critical security concerns. This article reviews recent literature addressing key issues in LLM security, with a focus on accuracy, bias, content detection, and vulnerability to attacks. Issues related to inaccurate or misleading outputs from LLMs is discussed, with emphasis on the implementation from fact-checking methodologies to enhance response reliability. Inherent biases within LLMs are critically examined through diverse evaluation techniques, including controlled input studies and red teaming exercises. A comprehensive analysis of bias mitigation strategies is presented, including approaches from pre-processing interventions to in-training adjustments and post-processing refinements. The article also probes the complexity of distinguishing LLM-generated content from human-produced text, introducing detection mechanisms like DetectGPT and watermarking techniques while noting the limitations of machine learning enabled classifiers under intricate circumstances. Moreover, LLM vulnerabilities, including jailbreak attacks and prompt injection exploits, are analyzed by looking into different case studies and large-scale competitions like HackAPrompt. This review is concluded by retrospecting defense mechanisms to safeguard LLMs, accentuating the need for more extensive research into the LLM security field.",
+      "date": "2026-05-30",
+      "url": "https://doi.org/10.63336/eureka.46",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Eureka",
+      "direction": "medical",
+      "id": "6e195749848b"
+    },
+    {
+      "title": "Multikingdom microbiome-based machine learning enables multiple sclerosis diagnosis",
+      "authors": "Gaochen Zhu, Guan Yang",
+      "abstract": "Emerging evidence suggests a role for the gut bacteria in the pathogenesis of multiple sclerosis (MS); however, the role of other microorganisms and their diagnostic potential for MS remain poorly explored. Here, we analyzed large-scale metagenomic data derived from fecal samples (discovery cohort n = 1152; total n = 1306 across 3 geographically diverse cohorts). Subsequently, we utilized multikingdom gut microbiome data to develop machine learning models to distinguish MS patients from healthy controls. Our analysis identified distinct microbiome alterations, revealing 90 bacterial, 3 fungal, 2 viral species, 119 KEGG orthology genes, and 17 metabolic pathways significantly associated with MS. Machine learning models integrating multikingdom taxonomic and functional features achieved the area under the receiver operating characteristic curves (AUCs) of 0.977 for males and 0.978 for females. On external validation datasets, the ensemble models yielded AUCs of 0.813 in males and 0.745 in females, while the 30-marker models reached AUCs of 0.849 and 0.763, respectively. Notably, the accuracy of the model was associated with Faecalibacterium spp. and L-methionine biosynthesis pathways, which were less abundant in MS patients. Collectively, our findings highlight the potential application of multikingdom and functional gut microbiome markers as non-invasive biomarkers for MS.",
+      "date": "2026-05-30",
+      "url": "https://doi.org/10.1038/s41522-026-01030-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Biofilms and Microbiomes",
+      "direction": "cell",
+      "id": "95e61fc5e5d3"
+    },
     {
       "title": "AI-driven text mining of the female reproductive system: enabling multiscale biomedical modeling and personalized medicine",
       "authors": "G S Lee, Jeehyo Jeon, Sharon Jeeho Ham, Sieun Shin, Seo Yeon Kim, ...",
@@ -12,6 +60,102 @@
       "venue": "Nano Convergence",
       "direction": "cell",
       "id": "6398122cb35d"
+    },
+    {
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "authors": "Nianyi Lin, Jiajie Zhang, Lei Hou, Juanzi Li",
+      "abstract": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-confusability distractors and sparse, outcome-only reward signals that cannot supervise intermediate reasoning steps. To address these issues, we introduce \\textsc{LongTraceRL}. For data construction, we generate multi-hop questions via knowledge graph random walks and leverage search agent trajectories to build \\emph{tiered distractors}: documents the agent read but did not cite (high confusability) and documents that appeared in search results but were never opened (low confusability), producing training contexts that are far more challenging than those built by random sampling or one-shot search. For reward design, we propose a \\emph{rubric reward} that uses the gold entities along each reasoning chain as fine-grained, entity-level process supervision. This rubric reward is applied only to responses with correct final answers (positive-only strategy), distinguishing the reasoning quality among correct responses and preventing reward hacking. Experiments on three reasoning LLMs (4B--30B) across five long-context benchmarks demonstrate that \\textsc{LongTraceRL} consistently outperforms strong baselines and encourages comprehensive, evidence-grounded reasoning. Codes, datasets and models are available at \\href{https://github.com/THU-KEG/LongTraceRL}{https://github.com/THU-KEG/LongTraceRL}.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31584v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31584v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "817765510a50"
+    },
+    {
+      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+      "authors": "Chu Fei Luo, Samuel Dahan, Xiaodan Zhu",
+      "abstract": "Test-time reasoning has become a significant field of study since the introduction of chain-of-thought reasoning in large language models (LLMs). However, the mechanisms of this reasoning process are still under-explored -- from the same input prompt, and even the same partial solution, LLMs can produce varied answers if sampled multiple times. We propose to leverage question-asking as an inference-time intervention that articulates information about the model's hidden state. To achieve that, we present a student-teacher setting where a student asks questions to a teacher. We train a probe on the student's hidden state before and after asking a question and find it is predictive of the trajectory's final correctness, even before generating the teacher's answer. This suggests there is a meaningful signal from the self-diagnosis that occurs during question generation rather than information transfer from the teacher. We then frame question-asking as a sequential decision problem, using this probe as a quality score, and define a gating policy to ask questions that maximize likelihood of correctness. We find that the success of question-asking as an intervention is largely dependent on the model's self-consistency. Our empirical results show a gap between detection and recovery; while our gating policy captures model correctness and uncertainty, interventions are equally likely to harm correct trajectories as they are to recover incorrect ones. This gap between diagnosis and correction has broader implications on language models' capacity for self-refinement under uncertainty.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31561v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31561v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "5a7bc49c8316"
+    },
+    {
+      "title": "Semantic Triplet Restoration: A Novel Protocol for Hierarchical Table Understanding in Large Language Models",
+      "authors": "Yibin Zhao, Fangxin Shang, Dingrui Yang, Yuqi Wang",
+      "abstract": "Table question answering requires models to recover semantic relations encoded implicitly by two-dimensional layout, merged cells, and hierarchical headers. Current pipelines typically use HTML or Markdown as intermediate table representations, but these layout-oriented serializations introduce markup overhead and require large language models to infer header-cell alignments from row and column spans. We propose Semantic Triplet Restoration (STR), a protocol that rewrites each cell as an atomic fact <item path, feature path, value>, where the item path specifies the row-wise entity, the feature path specifies the hierarchical attribute, and the value contains the cell content. We also present TripletQL, a lightweight query-aware router that uses STR to select an appropriate rendering or filtered subset of triplets for each question. Across four Chinese and English table-QA benchmarks, STR matches or improves upon HTML-based baselines while reducing input tokens. The relative benefit grows for smaller language models and longer table contexts, suggesting that explicit semantic representations are especially useful under constrained inference budgets. Code and data are available at https://github.com/Phoenix-ni/STR.git .",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31550v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31550v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "616e8506f581"
+    },
+    {
+      "title": "Preference-Aware Rubric Learning for Personalized Evaluation",
+      "authors": "Yilun Qiu, Xiaoyan Zhao, Yang Zhang, Yuxin Chen, Cilin Yan...",
+      "abstract": "As Large Language Models (LLMs) evolve from general-purpose assistants to user-centric agents, personalization has become central to aligning model behavior with individual preferences, making the evaluation of personalized alignment a critical bottleneck. Existing evaluation methods-ranging from automatic metrics to LLM-as-a-judge approaches-fail to capture subjective, user-specific preferences embedded in long-term interaction histories. We identify three essential principles for reliable and effective personalized evaluation: Representativeness, User-Consistency, and Discriminativeness. To address these principles, we introduce Personalized Evaluation as Learning, a paradigm that formulates personalized evaluation as a learning problem rather than a static judgment. Under this paradigm, we propose PARL (Preference-Aware Rubric Learning for Personalized Evaluation), a framework that learns to induce preference-aware evaluation rubrics directly from raw user histories and performs a self-validation mechanism to ensure consistency with the user's preferences. PARL integrates rubric induction with a discriminative reinforcement learning objective that contrasts user-authored responses against competitive personalized model outputs, enabling the learned rubrics to capture precise, user-specific decision boundaries. Experiments on real-world personalized text generation tasks show that PARL consistently induces high-fidelity rubrics that reliably identify user-aligned responses and generalize across users and tasks, while capturing stable stylistic preferences and fine-grained evaluative patterns. To ensure reproducibility, our code is available at https://github.com/SnowCharmQ/PARL.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31545v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31545v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1bab7658766a"
+    },
+    {
+      "title": "UniAudio-Token: Empowering Semantic Speech Tokenizers with General Audio Perception",
+      "authors": "Yuhan Song, Linhao Zhang, Aiwei Liu, Chuhan Wu, Sijun Zhang...",
+      "abstract": "Semantic speech tokenizers have become a widely used interface for Audio-LLMs, owing to their compact single-codebook design and strong linguistic alignment. However, their focus on linguistic abstraction induces acoustic blindness, limiting their applicability beyond speech-centric tasks. We propose UniAudio-Token, a framework that empowers semantic tokenizers with general audio perception without compromising speech ability. Instead of altering the semantic paradigm, UniAudio-Token mitigates its information loss through two key innovations: (1) Semantic-Acoustic Primitives (SAP) provide structured supervision by decomposing audio into linguistic content, vocal attributes, and auditory-scene primitives; and (2) Semantic-Acoustic Equilibrium (SAE) introduces a content-aware gating mechanism that adaptively restores fine-grained acoustic details from shallow layers. Extensive evaluations show that UniAudio-Token learns comprehensive universal representations while preserving high-fidelity speech generation. When integrated with downstream LLMs, it outperforms all single-codebook baseline tokenizers on both understanding and generation tasks, effectively serving as a unified audio interface. We publicly release all our code, including training and inference scripts, together with the model checkpoints at https://github.com/Tencent/Universal_Audio_Tokenizer.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31521v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31521v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b5327da364f8"
+    },
+    {
+      "title": "DRIFT: Decoupled Rollouts and Importance-Weighted Fine-Tuning for Efficient Multi-Turn Optimization",
+      "authors": "Jian Mu, Tianyi Lin, Chengwei Qin, Zhongxiang Dai, Yao Shu",
+      "abstract": "Large language models are increasingly deployed in multi-turn interactive settings where users or environments can iteratively provide lightweight feedback. Unfortunately, optimizing such behavior presents a sharp dilemma in practice: online reinforcement learning is able to effectively address multi-turn dynamics but is prohibitively expensive due to the cost of generating full correction trajectories at every update, whereas offline supervised fine-tuning (SFT) is efficient but suffers from distribution shift and behavioral collapse. To this end, we novelly propose DRIFT (Decoupled Rollouts and Importance-Weighted Fine-Tuning), a framework that operationalizes the theoretical insight that the KL-regularized RL objective is equivalent to importance-weighted supervised learning. DRIFT decouples rollout from optimization by sampling offline interaction trajectories from a fixed reference policy, deriving return-based importance weights, and optimizing the policy via weighted SFT on the resulting dataset. Empirically, we demonstrate that DRIFT matches or exceeds the performance of multi-turn reinforcement learning baselines while maintaining the training efficiency and simplicity of standard supervised fine-tuning. Code is available at https://github.com/2020-qqtcg/DRIFT.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31455v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31455v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ef18bcea4351"
+    },
+    {
+      "title": "Reinforcement Learning Amplifies Emergent Misalignment from Harmless Rewards",
+      "authors": "Magnus Jørgenvåg, David Kaczér, Lasse Ruttert, Marvin Gülhan, Lucie Flek...",
+      "abstract": "Emergent misalignment (EM) is the surprising tendency of language models to become broadly misaligned after fine-tuning on narrowly misaligned examples. While EM has been extensively studied in the supervised fine-tuning (SFT) setting, evidence that it also arises from reinforcement learning (RL) is limited to large, closed-source models, leaving the phenomenon expensive to study and difficult to reproduce. We characterize EM from RL in small, off-the-shelf open-weight models along three axes. First, we show that rewarding narrow, overtly misaligned behavior produces substantially higher general-domain misalignment than sample-matched SFT. Second, we show that EM from RL can be induced by reward signals that could plausibly arise naturally, such as unpopular aesthetic preferences or poor rhetorical appeals. Third, we evaluate in-training mitigations developed for SFT-induced EM and find that they broadly transfer, with interleaving on-policy safety data performing best.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31328v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31328v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "4bd1326d1291"
+    },
+    {
+      "title": "AdaptR1: Reinforcement Learning Based Adaptive Interleaved Thinking in Multi-hop Question Answering",
+      "authors": "Yuxin Wang, Jiahao Lu, Qifeng Wu, Shicheng Fang, Chuanyuan Tan...",
+      "abstract": "Large Language Models (LLMs) have achieved remarkable performance in complex reasoning tasks through Chain-of-Thought (CoT) prompting. However, this approach often leads to ``over-thinking,'' where models generate unnecessarily long reasoning traces for simple queries and incur avoidable inference cost. While recent work has explored adaptive reasoning, existing methods typically make a single query-level decision about whether to reason. This overlooks the dynamic nature of multi-step tasks, where the need for explicit reasoning varies across intermediate stages. To address this limitation, we introduce AdaptR1, a Reinforcement Learning (RL) based framework for adaptive interleaved thinking in multi-hop Question Answering (QA). Unlike previous approaches that require Supervised Fine-Tuning (SFT) for cold-start initialization, AdaptR1 uses a fully RL-based strategy with a quality-gated efficiency reward to dynamically allocate reasoning budgets at each step. Under the Graph-R1 setting, AdaptR1 reduces average think tokens by 69.71\\%, with a 90.35\\% reduction on HotpotQA, while maintaining performance comparable to or better than standard baselines. Furthermore, our analysis reveals that overthinking in multi-hop reasoning is not uniformly distributed but occurs predominantly during the initial planning stages, highlighting the effectiveness of step-wise adaptive budget allocation.",
+      "date": "2026-05-29",
+      "url": "https://arxiv.org/abs/2605.31062v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.31062v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e3cc3480c529"
     },
     {
       "title": "Turning failure into success: how artificial intelligence can help personalize therapies and re-use patient data",
