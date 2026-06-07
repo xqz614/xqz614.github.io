@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-06 20:08",
+  "last_updated": "2026-06-07 20:12",
   "papers": [
+    {
+      "title": "Prognostic data extraction harnessing a privacy-preserving large language model: a clinician-AI collaborative retrospective evaluation in head and neck oncology",
+      "authors": "Yujing Zou, Laya Rafiee Sevyeri, Farhood Farahnak, George Shenouda, Marie Duclos, ...",
+      "abstract": "Privacy regulations and limited expert-validation constrain the deployment of large language models (LLMs) for electronic health record structuring. We evaluated locally deployed LLMs to extract 30 prognostic variables from 1,360 head and neck cancer reports (882 patients) using zero-shot prompting. A stratified 50-case subset was reviewed by three radiation oncologists (50 cases, 30 fields, 3 reviewers; 4,500 decisions) to form a majority-vote reference for Llama3.3-70B, which achieved 98.6% F1 with high clinician agreement and processed reports in 53 s/report. Among seven additional models (2.6B-70B) benchmarked against this reference, GPT-OSS-20.9B (F1 89.4%) and MedGemma-27B (F1 88.5%) performed best. Integrating LLM-extracted HPV status, smoking history, and Charlson Comorbidity Score into a multivariate Cox Proportional Hazards model (age, sex, T/N stage) improved disease-free survival (likelihood ratio test p = 0.014; ΔC-index + 0.071) and locoregional failure-free survival ( p = 0.026; ΔC-index + 0.108) with 1,000-bootstrap internal validation. This clinician-AI collaborative evaluation shows that on-premises LLMs enable privacy-preserving and efficient tumour board support, longitudinal data curation, and outcome prediction.",
+      "date": "2026-06-06",
+      "url": "https://doi.org/10.1038/s41698-026-01521-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Precision Oncology",
+      "direction": "medical",
+      "id": "94d921332715"
+    },
+    {
+      "title": "GC–MS phytochemical profiling, antibacterial screening, and molecular docking analysis of the ethanolic extract of Cassia fistula stem-bark: an in-vitro and in-silico approach",
+      "authors": "Mutiat  Olaitan Mohammed, Ibrahim Adeola Moronfolu, Ibrahim Olanrewaju Ola-Williams, Racheal Itunu Adediran",
+      "abstract": "Antimicrobial resistance (AMR) poses a severe and escalating threat to global public health, directly attributed to approximately 1.27 million deaths in 2019, with projections estimating 39 million cumulative deaths between 2025 and 2050. This study investigated the in-vitro antibacterial activity, GC-MS phytochemical profile, and in-silico molecular docking potential of the crude ethanolic stem-bark extract of Cassia fistula L. (CFSE) against five clinically significant pathogens. The extract was prepared by cold maceration of 200 g of pulverized stem-bark in 1000 mL of absolute ethanol for 72 h, yielding 21.08% (w/w), and tested at 12.5–100% (v/v) using the Kirby-Bauer disc diffusion method. GC-MS analysis was performed using a Shimadzu GCMS-QP2010 system, while molecular docking was conducted against ten resistance-associated bacterial protein targets using Schrödinger-Maestro GLIDE, with binding free energies estimated via Prime MM-GBSA. CFSE demonstrated concentration-dependent activity against E. coli and marginal activity against P. aeruginosa at 100%, with no activity against remaining pathogens. GC-MS identified 24 compounds, dominated by resorcinol, 4- O -methylmannose, and methyl α-D-mannofuranoside. In the molecular docking study, three GC-MS-identified compounds emerged as the most promising leads across the ten bacterial protein targets. Resorcinol achieved the strongest binding at penicillin-binding protein 4 of S. aureus (docking score: − 6.99 kcal/mol) and Klebsiella LpxH (− 6.66 kcal/mol), surpassing the respective standard drugs at both targets. 1,6-anhydro-4- O -methyl-D-glucopyranose demonstrated the broadest activity across all ten targets, outperforming standard drugs including avibactam and trimethoprim in docking score and/or binding free energy (MM-GBSA) at multiple targets. Methyl α- D -mannofuranoside recorded the most thermodynamically favorable binding energy overall at KPC-44 carbapenemase of K. pneumoniae , exceeding both avibactam and clavulanate. All three lead compounds satisfied Lipinski’s drug-likeness criteria, displayed favorable gastrointestinal absorption, and did not inhibit major cytochrome P 450 enzymes. These findings support further bioactivity-guided fractionation of C. fistula stem-bark for antimicrobial drug discovery.",
+      "date": "2026-06-05",
+      "url": "https://doi.org/10.1007/s44371-026-00766-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Discover Chemistry.",
+      "direction": "cell",
+      "id": "64ff715c5956"
+    },
+    {
+      "title": "Agentic AI in global health equity for high altitude populations",
+      "authors": "Peilun Shi, Tianmin Ren, Yuan Xie, Judy Wawira Gichoya, T WONG, ...",
+      "abstract": "Successfully adapting to life in the highest altitudes (\"Roof of the world\") is a heritage of evolutionary adaptation for humans. With rising interest in adventure travel and expanding transport networks that facilitate mobility from low to high altitudes, provision of healthcare for populations living in high-altitude regions has re-emerged as an area of interest and research. These populations have several unique characteristics that limit the simple generalization of medical knowledge. First, these populations are naturally segregated into distinct ethnic groups, representing a unique marginal demographic. Second, the harsh natural environment, underdeveloped healthcare infrastructure, and limited research and understanding of healthcare needs, issues and challenges experienced by highland communities pose significant barriers to equitable healthcare access. The use of medical artificial intelligence and digital technology provides an opportunity to provide innovative solutions for these populations. However, these technologies would not facilitate health equity in their current state today as most are narrow in their application, are not trained on data representative of these regions, and ignore the multifactorial nature of being healthy that combines biological and physiological factors, in addition to environmental and socio factors. The success of generalist models for tasks such as scientific discovery provides a mechanism to leapfrog existing challenges and provide equitable care in these regions. In this paper, we discuss the opportunity of intelligent medical agents developed on generalist foundation models to meet the unique needs of high-altitude populations.",
+      "date": "2026-06-05",
+      "url": "https://doi.org/10.1038/s41746-026-02701-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "cell",
+      "id": "de0bb875f984"
+    },
+    {
+      "title": "Intelligent Medicine: How Artificial Intelligence and Machine Learning Are Reshaping Modern Healthcare",
+      "authors": "Rahul Chakraborty",
+      "abstract": "Artificial intelligence (AI) and machine learning (ML) have moved from the periphery of healthcare research to the centre of clinical practice, drug development, and health-system operations. By the end of 2025 regulators had authorised well over a thousand AI-enabled medical devices; large language models had begun to absorb the documentation burden that drives clinician burnout; AI-designed molecules had entered human clinical trials; and the first randomised controlled trial of a generative-AI therapy chatbot had reported meaningful symptom reductions. Yet the same period produced sobering evidence that widely deployed models can fail silently, embed structural inequities, and resist external validation. This review synthesises the state of AI and ML across the principal clinical and operational domains- diagnostic imaging, decision support, generative and conversational AI, drug discovery, precision medicine and genomics, pathology, surgery, mental health, remote monitoring, and administrative workflow- and then examines the cross-cutting determinants of success: bias and equity, evidence and reporting standards, explainability, privacy, regulation, and economics. The central argument is that the binding constraint is no longer algorithmic capability but the surrounding system of validation, governance, and human?machine collaboration. AI in healthcare succeeds not when it is most autonomous, but when it is most accountable.",
+      "date": "2026-06-05",
+      "url": "https://doi.org/10.21275/sr26602001634",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Science and Research (IJSR)",
+      "direction": "cell",
+      "id": "b8d44e00f577"
+    },
     {
       "title": "Vaxjo 2.0: An ontology- and large language model-powered knowledge base of vaccine adjuvants and mechanisms",
       "authors": "Joshua Monickaraj, Hasin Rehana, Ani Bernardi, Yuping Zheng, Taiyu Lin, ...",
