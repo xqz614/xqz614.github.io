@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-07 20:12",
+  "last_updated": "2026-06-08 21:11",
   "papers": [
+    {
+      "title": "Advancing Patient-Centered Nursing Practices Through AI-Driven Clinical Decision Support Systems and Personalized Care Plans",
+      "authors": "Amarachi Igwilo",
+      "abstract": "Patient-centered nursing practices prioritize individualized care, shared decision-making, and holistic treatment approaches that align with each patient's unique health needs, preferences, and circumstances.However, delivering highly personalized care in dynamic healthcare environments remains challenging due to increasing patient volumes, complex comorbidities, and the rapid evolution of medical evidence.This paper explores the integration of artificial intelligence (AI)-driven clinical decision support systems (CDSS) with personalized care planning to enhance nursing practice and improve patient outcomes.AI-powered CDSS leverage machine learning algorithms, predictive analytics, and natural language processing to analyze patient health records, laboratory results, imaging data, and real-time monitoring streams, providing nurses with evidence-based recommendations tailored to individual patient profiles.By embedding AI insights directly into nursing workflows, care teams can anticipate patient needs, identify early signs of clinical deterioration, and adjust interventions in real time.Personalized care plans are dynamically updated through continuous data integration, ensuring that interventions remain relevant, patient-centered, and outcome-focused.These systems support nurses in prioritizing high-risk patients, optimizing resource allocation, and reducing variability in care delivery.Case study simulations in acute care settings indicate that combining AI-driven decision support with individualized nursing care plans can improve adherence to clinical guidelines, reduce preventable complications, and enhance patient satisfaction scores.Ethical considerations such as algorithm transparency, bias mitigation, and patient data privacy are addressed to ensure equitable and trustworthy care.The findings suggest that AI-augmented nursing practices represent a transformative step toward scalable, highquality, patient-centered healthcare models capable of adapting to evolving clinical and patient needs.",
+      "date": "2026-06-07",
+      "url": "https://doi.org/10.7753/ijcatr1212.1021",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Computer Applications Technology and Research",
+      "direction": "medical",
+      "id": "40cf771fff86"
+    },
+    {
+      "title": "A Comprehensive Review on Advanced Optimization Techniques for Antenna Design",
+      "authors": "Іслам Ісламов, Jerzy R. Szymański1 -, Marta Żurek-Mortka, Mithileysh Sathiyanarayanan, Shilpa Mehta, ...",
+      "abstract": "The rapid evolution of wireless communication systems has transformed antenna design from a predominantly analytical engineering task into a nonlinear, high-dimensional, and multi-objective optimization problem. Emerging applications such as fifth-generation (5G) and sixth-generation (6G) wireless networks, massive multiple-input multiple-output (MIMO) systems, millimeter-wave communication, satellite constellations, vehicular radar, biomedical implants, wearable electronics, and Internet-of-Things platforms impose stringent requirements on antenna compactness, bandwidth, gain, radiation efficiency, polarization stability, beam steering capability, mutual coupling suppression, and fabrication tolerance. This review presents a systematic and analytical examination of optimization techniques used in antenna design, covering deterministic methods, evolutionary algorithms, swarm intelligence, multi-objective optimization, surrogate-assisted optimization, space mapping, robust optimization, and artificial intelligence-driven frameworks. Special emphasis is placed on the role of surrogate modeling, physics-informed learning, hybrid search strategies, and uncertainty-aware optimization in reducing simulation cost and improving design reliability. The review further identifies unresolved challenges related to scalability, interpretability, convergence assurance, manufacturing uncertainty, and real-time adaptive antenna systems. Finally, future research directions are outlined toward physics-guided, data-efficient, robust, and autonomous optimization frameworks for next-generation electromagnetic systems.",
+      "date": "2026-06-07",
+      "url": "https://doi.org/10.71426/jmt.v3.i1.pp380-405",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Modern Technology",
+      "direction": "cell",
+      "id": "df8213c68f97"
+    },
+    {
+      "title": "Ignet 2.0 and Vignet: An Ontology-Driven Web Platform for Biomedical Gene Interaction Discovery and Visualization",
+      "authors": "Sayed Asaduzzaman, Benu Bansal, Parker Combs, J Zhang, Hasin Rehana, ...",
+      "abstract": "Background: The expansion of biomedical literature demands systematic ontology-guided discovery of gene interactions, vaccine mechanisms, drug associations, and adverse events. Existing platforms such as STRING, DisGeNET, and PubTator fall short of providing a unified, freely accessible system that integrates ontology-based semantic interaction classification, vaccine-focused heterogeneous network construction, and Artificial Intelligence-assisted evidence retrieval. Results: Ignet 2.0 and Vignet are freely accessible dual-platform systems that combine PubMed literature mining, BioBERT-based interaction scoring for millions of gene-gene co-occurrence pairs and integrate three biomedical ontologies and one curated drug resource, Interaction Network Ontology (INO), Vaccine Ontology (VO), Human Disease Ontology (HDO), and DrugBank. Ignet 2.0 supports gene interaction discovery, gene set enrichment retrieval of BioBERT-scored GenePair evidence, and AI-assisted summarization through BioSummarAI. Vignet extends these features with VO-guided Vaccine Exploration, VacPair interaction scoring, and the creation of vaccine, gene, drug, and disease networks in VacNet. A public Representational State Transfer Application Programming Interface (REST API) and Model Context Protocol (MCP) endpoint enable real-time integration, fostering trust in biomedical knowledge discovery. Conclusion: Ignet 2.0 and Vignet are scalable, ontology-guided biomedical knowledge platforms that facilitate evidence-based gene interaction analysis, vaccine-focused semantic exploration, and AI-assisted knowledge discovery. Their real-time PubMed data integration ensures up-to-date insights; however, users should consider validation processes and potential lags in incorporating the latest experimental data, which may affect the reliability of immediate data. Availability: Ignet 2.0: https://ignet.org/ignet; Vignet: https://ignet.org/vignet/",
+      "date": "2026-06-06",
+      "url": "https://doi.org/10.64898/2026.06.02.729682",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "direction": "medical",
+      "id": "a7a45dbced85"
+    },
+    {
+      "title": "Handshake: Partner-Specific Protein-Protein Binding Site Prediction at Scale Using ProstT5 and Cross-Chain Attention",
+      "authors": "Nurit Haspel",
+      "abstract": "Partner-specific protein-protein binding site prediction, identifying which residues of a protein form the interface when bound to a specific partner, remains a challenging task with significant implications for drug discovery and understanding of protein structure and function. Existing computational methods are limited by small training datasets, inconsistent redundancy filtering, and reliance on three-dimensional structural information at test time. Here we present a sequence-only, partner-specific protein-protein interface predictor called Handshake. It combines ProstT5, a protein language model pre-trained on structural data, with Low-Rank Adaptation (LoRA), a cross-chain attention mechanism and a contact supervision head. Our method can detect both binding interfaces and pairwise contact matrices. We trained our model on very large datasets of non-redundant protein-protein pairs derived from the PPInterface dataset, the most comprehensive structural protein-protein database to date, and evaluated it on systematically filtered benchmarks at four redundancy thresholds (30%--90% sequence identity). We demonstrate that sequence redundancy inflates reported AUROC by up to 0.079 and MCC by up to 0.145 on identical models, representing a substantial methodological confound in the field. Even at 30% redundancy threshold, our results (AUROC=0.811, MCC=0.367, F1=0.45) exceed the best published sequence-only result on this convention. Our method also achieves comparable performance to existing partner-specific methods that use explicit structural information. The comprehensive training and evaluation dataset, in addition to the systematic redundancy inflation, can help gain insight into protein-protein interactions and the abilities and limitations of current detection methods.",
+      "date": "2026-06-06",
+      "url": "https://doi.org/10.64898/2026.06.04.730144",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "direction": "cell",
+      "id": "014957cdda95"
+    },
     {
       "title": "Prognostic data extraction harnessing a privacy-preserving large language model: a clinician-AI collaborative retrospective evaluation in head and neck oncology",
       "authors": "Yujing Zou, Laya Rafiee Sevyeri, Farhood Farahnak, George Shenouda, Marie Duclos, ...",
@@ -12,6 +60,78 @@
       "venue": "npj Precision Oncology",
       "direction": "medical",
       "id": "94d921332715"
+    },
+    {
+      "title": "How reliable are LLMs when it comes to playing dice?",
+      "authors": "Luca Avena, Gianmarco Bet, Bernardo Busoni",
+      "abstract": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reasoning, and evaluated 8 state-of-the-art models, each tested with and without Chain-of-Thought prompting. Models achieve an average accuracy of 0.96 on standard problems but only 0.59 on counterintuitive ones. We further provide empirical evidence of token bias: performance drops by over 20% when canonical formulations are replaced by disguised variants. Embedding misleading suggestions in the prompt reduces performance by up to 34%, with no model proving immune. Taken together, the reported findings suggest that current LLMs are not yet genuine probabilistic reasoners, despite their success in advanced mathematical problems.",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.07515v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07515v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "2a81cd1069b1"
+    },
+    {
+      "title": "Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings",
+      "authors": "Songhao Wu, Zhongxin Chen, Yuxuan Liu, Heng Cui, Cong Li...",
+      "abstract": "Large language models exhibit impressive zero-shot capabilities across a wide range of downstream tasks. However, they struggle to function as off-the-shelf embedding models, leading to suboptimal performance on massive text embedding benchmarks. In this paper, we identify a potential cause underlying this deficiency. Our motivation stems from an unexpected observation: text embeddings tend to align with frequent but uninformative tokens when projected onto the vocabulary space. We argue that this excessive expression of high-frequency tokens suppresses the model's ability to capture nuanced semantics. To address this, we introduce EmbedFilter, a simple linear transformation designed to refine text embeddings derived from LLMs directly. Specifically, we uncover that the unembedding matrix within LLMs encodes a latent space that is actively writing these frequent tokens into embedding space. By filtering out this subspace, EmbedFilter suppress the influence of high-frequency tokens, thereby enhancing semantic representations. As a compelling byproduct, this enables an inherent dimensionality reduction, lowering index storage and speedup retrieval while fully preserving the refined embedding quality. Our experiments across multiple LLM backbones demonstrate that LLMs equipped with EmbedFilter achieve superior zero-shot downstream performance even with significantly reduced embedding dimensions. We hope our findings provide deeper insights into the mechanisms of LLM-based representations and inspire more principled designs to improve text embeddings training. Our code is available at https://github.com/CentreChen/EmbFilter.",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.07502v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07502v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "3f2af7f2f69f"
+    },
+    {
+      "title": "Sycophantic Praise: Evaluating Excessive Praise in Language Models",
+      "authors": "Daniel Vennemeyer, Phan Anh Duong, Meryl Ye, Ruihong Huang, Tianyu Jiang",
+      "abstract": "Sycophancy in language models is typically studied as excessive agreement or validation, while explicit praise and flattery have received comparatively little attention. We argue that sycophantic praise is a distinct alignment problem that cannot be reliably measured using current methods. We introduce a parameterized framework that measures whether praise is excessive relative to contribution quality and expected user ability. We show that our framework substantially outperforms generic LLM judges in agreement with human annotations, and that sycophantic praise occurs far more frequently in social and interpretive domains than in objective reasoning settings. Together, these findings position praise calibration as a distinct alignment challenge.",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.07441v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07441v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "55c634644601"
+    },
+    {
+      "title": "The Masked Advantage: Uncovering Local-Language Access to Cultural Knowledge in LLMs",
+      "authors": "Yang Zhang, Xiao Fei, Amr Mohamed, Sarah Almeida Carneiro, Mersin Konomi...",
+      "abstract": "Large language models are increasingly used to answer culturally grounded questions across languages, yet it remains unclear whether local cultural knowledge is better accessed through English or the local language. Existing evaluations face two key limitations: many rely on parallel template-based questions that may not reflect how cultural knowledge naturally appears, and raw accuracy conflates general language proficiency with language-conditioned knowledge access. We address these issues with a controlled framework built on real-world cultural questions collected from regional benchmarks and local sources. By crossing question type (culture-agnostic vs. culture-specific) with query language (English vs. local language), and estimating ability with a shared 1PL item response theory model, we separate proficiency from localized knowledge access. Across 13 locales and roughly 80 models, we find a consistent English advantage on culture-agnostic questions, indicating stronger English proficiency. However, after accounting for this proficiency gap, local languages show a positive knowledge-access advantage in nearly all locale-model settings. This advantage is often masked in raw accuracy but becomes more visible for frontier, regionally aligned, or language-adapted models. Our results suggest that weaker local-language performance does not necessarily imply weaker cultural knowledge; rather, local cultural knowledge may be more accessible through the local language but hidden by limited language proficiency.",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.07422v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07422v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7e83063dded6"
+    },
+    {
+      "title": "When Large Language Models Fail in Healthcare: Evaluating Sensitivity to Prompt Variations",
+      "authors": "Mahdi Alkaeed",
+      "abstract": "Large Language Models (LLMs) are increasingly used in healthcare for tasks such as clinical question answering, diagnosis support, and report summarization. Despite their promise, these models remain highly sensitive to subtle prompt perturbations, both lexical and syntactic, posing serious risks in safety-critical clinical applications. In this study, we conduct a systematic sensitivity analysis to evaluate the robustness of both general-purpose (e.g., GPT-3.5, Llama3) and medical-specific LLMs (e.g., ClinicalBERT, BioLlama3, BioBERT) using the MedMCQA benchmark. We categorize perturbations into natural and adversarial types and examine their effect on model consistency, accuracy, and reliability in clinical reasoning tasks. Our findings reveal that medical LLMs are not intrinsically safe. Even minor variations in phrasing can alter clinical advice, and targeted adversarial prompts can provoke harmful outputs. In high-stakes settings like healthcare, such unpredictability is unacceptable-models that change diagnoses due to reworded inputs or hallucinate medications when slightly rephrased cannot be reliably trusted by clinicians. While models tend to show resilience to simple lexical substitutions or paraphrasing, they often break down under syntactic reordering or misleading contextual cues. This fragility is evident across both general-purpose and domain-specific LLMs. Notably, adversarial manipulations can lead to clinically dangerous outputs, such as recommending incorrect dosages or omitting critical findings.",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.07237v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07237v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ceeb5b2c7d61"
+    },
+    {
+      "title": "Progress-SQL: Improving Reinforcement Learning for Text-to-SQL via Progressive Rewards",
+      "authors": "Shihao Zhang, Xiaoman Wang, Yuan Liu, Yunshi Lan, Weining Qian",
+      "abstract": "Reinforcement learning has recently shown promise in improving large language models for Text-to-SQL generation, yet existing methods typically optimize one-shot rewards defined over a single SQL state. Such rewards provide limited guidance for iterative SQL correction and are insufficient to capture the improvement of multi-turn SQL refinement. In this paper, we propose Progress-SQL, a multi-turn reinforcement learning framework with progressive rewards for Text-to-SQL. Our approach introduces an Oracle-guided Diagnostic Tree (ODT), which abstracts SQL queries into clause-level structural profiles and produces diagnostic feedback for next-turn refinement. To provide dense and robust reward signals, we combine ODT-based structural alignment with lexical alignment and define a progressive reward that measures the improvement from the initial SQL to the final SQL. We further incorporate a progression latency reward that favors earlier correctness and an execution status reward that encourages recovery from the invalid SQL. Experiments on BIRD, Spider, and Spider robustness variants demonstrate that our method consistently improves Text-to-SQL performance across both primary and robustness evaluations.",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.06825v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06825v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "39bc83ddf160"
     },
     {
       "title": "GC–MS phytochemical profiling, antibacterial screening, and molecular docking analysis of the ethanolic extract of Cassia fistula stem-bark: an in-vitro and in-silico approach",
@@ -108,6 +228,30 @@
       "venue": "Frontiers in Cell and Developmental Biology",
       "direction": "cell",
       "id": "06a863dfb50e"
+    },
+    {
+      "title": "What Do People Actually Want From AI? Mapping Preference Plurality",
+      "authors": "Julia Sepúlveda Coelho, Scott A. Hale",
+      "abstract": "Large Language Models (LLMs) are often fine-tuned through Reinforcement Learning from Human Feedback (RLHF) to align with people's preferences and values. However, this method has known limitations: it aggregates conflicting preferences, often relies on unrepresentative samples, and uses only binary comparisons. Analysing 1,500 open-ended responses from the PRISM dataset across 75 countries, we examine what people actually want from AI systems and reveal concrete failures of current methods. We find that different people want different things: most values are requested by fewer than a quarter of respondents, with truthfulness the sole exception at 49%. Furthermore, the same words hide divergent meanings: when people describe what they mean by \"truthfulness\", they reveal distinct, potentially incompatible, epistemological bases, as some ask for sourced claims, some for expert opinions, and some even ask for unpopular views. Certain capabilities, namely how human-like a model behaves, and some features, like AI guardrails, are outright controversial, with some desiring them and others rejecting them. We additionally find that people often use contextual distinctions (what AI should do \"by default\" versus \"if requested\") that binary comparisons cannot capture. These findings expose fundamental problems in current alignment practices. When 49% request truthfulness but define it differently, this is unlikely to be captured by a single reward model. The persistence of high hallucination rates in well-funded models, despite users' clear demands for accuracy, suggests that current methods fail to identify actual preferences. This paper sheds light on the situated, contested, imperfect signals that are currently being flattened into universal preference models, a practice others have characterised as epistemic violence.",
+      "date": "2026-06-04",
+      "url": "https://arxiv.org/abs/2606.06674v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06674v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "bfb698b39a03"
+    },
+    {
+      "title": "Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning",
+      "authors": "Jonathan von Rad, Louis Arts, George Burgess, Eleftheria Kolokytha, Harry O'Donnell...",
+      "abstract": "Large language models (LLMs) trained predominantly on English data encode substantial world knowledge, yet often fail to express it reliably in other languages, a phenomenon known as cross-lingual factual inconsistency. To study and address this, we introduce PolyFact, a large-scale parallel multilingual factual QA dataset containing 100K Wikidata-grounded facts across 12 typologically diverse languages. Using PolyFact, we compare light continual pretraining (CPT), supervised fine-tuning (SFT), and reinforcement learning via Group Relative Policy Optimization (GRPO) for improving cross-lingual factual recall in Qwen-2.5-7B and OLMo-2-1124-7B. We find that GRPO consistently outperforms SFT, improving both cross-lingual consistency and generalization to unseen languages, while CPT on parallel data yields limited additional gains. Mechanistic analyses further show that GRPO reorganizes multilingual routing by reducing language specialization in MLP layers and attention heads, thereby promoting more shared cross-lingual representations. We release our code, models, and dataset.",
+      "date": "2026-06-04",
+      "url": "https://arxiv.org/abs/2606.06586v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06586v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c3c8105bcffd"
     },
     {
       "title": "AI-Assisted Formative Assessment in Clinical Education: From Algorithms to Agency",
