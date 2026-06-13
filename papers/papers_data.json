@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-12 21:02",
+  "last_updated": "2026-06-13 20:16",
   "papers": [
+    {
+      "title": "Deep learning in the early diagnosis of acute aortic dissection",
+      "authors": "Dr Simon Eggleton, Jon Ryan, Blanca Gallego",
+      "abstract": "This review explores the potential of deep learning (DL) to enhance the diagnostic efficiency of acute aortic dissection (AAD), a life-threatening cardiovascular emergency characterised by high misdiagnosis rates. In contrast to a prior systematic review that evaluated DL approaches to aid diagnosis, this review focuses specifically on the early diagnostic phase, examining routinely available investigations, including the electrocardiogram, chest x-ray and tabular clinical data, to inform decisions regarding which patients should and should not proceed to advanced imaging. We analyse current diagnostic challenges contributing to AAD misdiagnosis and existing diagnostic decision support pathways. The review also examines healthcare data modalities and DL architectures capable of identifying complex patterns and relationships not readily recognised by clinicians. We summarise existing DL research in the early phase of AAD diagnosis aimed at improving diagnostic accuracy and offer insights into future research directions. Finally, challenges relevant to DL-based AAD diagnosis are discussed, including data scarcity, class imbalance due to its low prevalence, and the role of explainable AI.",
+      "date": "2026-06-12",
+      "url": "https://doi.org/10.3389/fcvm.2026.1828870",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Cardiovascular Medicine",
+      "direction": "medical",
+      "id": "398123ac9db1"
+    },
+    {
+      "title": "Medical visual question answering with multimodal: a systematic mini review (2023–2026)",
+      "authors": "Maimuna Biswas Noshin, Monoronjon Dutta, Md Nadim Kaysar, Rakib Hossain Sajib, Md Jakir Hossen, ...",
+      "abstract": "Medical visual question answering (Med-VQA) has emerged as a critical application of artificial intelligence within a short period of time. Large language models (LLMs) and vision-language models (VLMs) have fundamentally rewritten the architecture of medical question answering (QA). This study aims to systematically analyze recent developments in Med-VQA. Like past methods, which were simple, text-heavy database systems, there has been a shift toward multimodal frameworks. Recent methods are now highly capable of explaining radiology, pathology, and dermatological images along with clinical questions. This review was conducted following PRISMA guidelines, covering 27 representative studies published in various databases, using predefined inclusion and exclusion criteria. The findings reveal a clear shift toward generative models, supported by retrieval mechanisms and structured reasoning strategies such as Chain-of-Thought and multi-agent frameworks. Generative models, along with retrieval-augmented generation (RAG) and preference optimization, are not just more consistent than traditional classification-based methods but also can enable free-form clinical question answering. Though frameworks like multi-agent and hierarchical CoT have significantly improved interpretability and mitigated hallucinations, they also come with some limitations, like higher computational time, multi-view analysis, multi-lingual question answering, lack of standardized evaluation and exploration, domain-specific evaluation, and real-world clinical settings. Med-VQA systems demonstrate significant potential as a clinical decision answer generation with a vision language model. Future work should focus on computational efficiency during real-world validation, fairness evaluation, standardized diagnostic benchmarks, and interpretable reasoning frameworks including specialized domain knowledge and practical skills.",
+      "date": "2026-06-12",
+      "url": "https://doi.org/10.3389/fdgth.2026.1848710",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Digital Health",
+      "direction": "medical",
+      "id": "48b1b7112107"
+    },
+    {
+      "title": "Fleeing is believing: adaptive behavior under social threat as an inference process",
+      "authors": "Hridai S. Khurana, Valeria Mussetto, Leiron Ferrarese, Cornelius T. Gross, Rory J. Bufacchi",
+      "abstract": "Introduction Adverse social experiences profoundly alter animal behavior, yet the processes underlying context-appropriate behavior selection based on prior social interactions remain poorly understood. Existing models capture statistical patterns but are not framed in mechanistic frameworks that explain individual variability and predict behavioral outcomes. Methods We address this gap by modeling social defeat in mice as a partially observable Markov decision process (POMDP), implementing a heterarchical agent architecture—a structured network of interacting modules balancing exploration and exploitation. Our model successfully reconstructs observed behavioral motifs (e.g., investigation, hesitation, and flights), fits different mouse phenotypes (e.g., susceptible vs. resilient), and mechanistically captures the impact of social defeat as a parameter shift in the animal’s internal generative model. Notably, characteristic behavioral motifs including investigation bouts, hesitation, and flight trajectories emerge from the model’s inference dynamics, without any trajectory-level fitting. The model additionally reproduces effects of interventions like optogenetic stimulation, and generates testable predictions for future experiments. The model’s modular architecture enables natural extension to other behavioral domains including foraging and multi-agent interactions, representing a foundational step toward interpretable models of mouse behavior. By capturing how adverse social experiences reshape decision-making at the computational level, this work offers potential clinical relevance for trauma and anxiety disorders in humans.",
+      "date": "2026-06-12",
+      "url": "https://doi.org/10.3389/fncir.2026.1812938",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Neural Circuits",
+      "direction": "cell",
+      "id": "4bfa60511f74"
+    },
+    {
+      "title": "Revenue-sensitive evaluation of AI-assisted ICD-10-CM coding and human-AI collaboration under dual DRG payment systems",
+      "authors": "Ming-I. Chen, Ying‐Lin Hsu, Yi-Hsin Chen",
+      "abstract": "Automated ICD-10-CM coding is critical for hospital reimbursement under Diagnosis-Related Group (DRG) payment systems, yet standard metrics weight all errors equally. This study evaluated 11 models on MIMIC-IV under heterogeneous conditions (the full 7942-code space, top-50 self-trained baselines, and 200-admission zero-shot LLM samples) and proposed two revenue-sensitive metrics: the Revenue Sensitivity Index (RSI) and Coding Reimbursement Score (CRS). Performance was compared across US Medicare Severity DRG (MS-DRG) and Taiwan DRG (Tw-DRG) systems, with five human-AI review strategies simulated. PLM-ICD achieved the highest micro-averaged F1 (0.5934), while open-source zero-shot LLMs performed markedly worse in this exploratory comparison. A 26.5% CRS gap separated the best and worst fine-tuned models. Rankings were identical under both DRG schemes (Spearman ρ = 1.00), indicating stability under a tiered Tw-DRG approximation (93.9% coverage), not the official grouper. At a 20% review rate, revenue-targeted prioritization achieved 43.2% CRS reduction versus 20.0% for random sampling, reaching 91% of the oracle bound. Revenue-aware evaluation captures financially meaningful differences missed by standard metrics, and revenue-guided human-AI collaboration emerges as a candidate deployment framework requiring prospective validation.",
+      "date": "2026-06-11",
+      "url": "https://doi.org/10.1038/s41598-026-57682-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "38912267892c"
+    },
     {
       "title": "sebis at CRF Filling 2026: A Two-Stage Local LLM Pipeline for Medical CRF Filling",
       "authors": "Katharina Sommer, Tristan Till, Florian Matthes",
