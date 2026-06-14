@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-13 20:16",
+  "last_updated": "2026-06-14 20:17",
   "papers": [
+    {
+      "title": "Large language models for scientometric mapping of scientific controversy: A validated hybrid AI–Human framework",
+      "authors": "Teo Sušnjak, Cole Palffy, Tatiana Zimina, Nazgul Altynbekova, Kunal Garg, ...",
+      "abstract": "Abstract This study advanced large language model (LLM)-enabled scientometric methods for analysing contested scholarly communication through a hybrid AI–human workflow for large-scale mapping of stance and themes in scientific corpora. We treated the literature as a large textual record and examined how competing knowledge claims were distributed across venues and over time. We used the Lyme disease controversy as a testbed, applied multiple LLMs to thousands of abstracts, and validated the outputs with domain experts to trace longitudinal shifts in authorial stance and thematic focus. We examined how alternative perspectives were distributed across venues and themes, how these distributions changed over time, and how venue stratification shaped the visibility of different epistemic positions. Results showed persistent asymmetries in publication placement and citation attention, with higher-impact venues disproportionately hosting one perspective relative to the other, while thematic mapping identified recurring fault lines around disputed claims. Validation showed substantial alignment between LLM outputs and expert ratings across classification tasks (Cohen’s kappa 0.58–0.71), broadly comparable to expert–expert agreement and sufficient for corpus-level scientometric analysis. The framework offers a reproducible model of human–LLM integration in literature-based scientometrics and enables venue- and time-resolved indicators for monitoring controversies and publication imbalances.",
+      "date": "2026-06-13",
+      "url": "https://doi.org/10.1007/s11192-026-05681-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientometrics",
+      "direction": "medical",
+      "id": "5ae8c70de3d6"
+    },
+    {
+      "title": "Unveiling anti-atherosclerotic targets of Perilla frutescens through a multi-scale computational framework integrating network pharmacology, single-cell analysis, machine learning, and molecular dynamics",
+      "authors": "Chenchen Yang, Jianrong Xing, Mengzhu Wang, Wanyi Zhou, Ying Yang, ...",
+      "abstract": "Abstract Medicinal plants have long served as important sources of therapeutic agents owing to their diverse bioactive constituents and multi-target pharmacological properties. In particular, plant-derived compounds have attracted increasing attention for the management of chronic inflammatory and metabolic diseases, including atherosclerosis. However, the molecular mechanisms by which medicinal plants modulate the cellular heterogeneity and intercellular communication networks within atherosclerotic plaques remain insufficiently understood. Despite the widespread implementation of lipid-lowering therapy, the persistence of residual inflammatory risk, driven by immunometabolic network dysregulation, remains a cardinal therapeutic challenge in atherosclerosis (AS) management. While Perilla frutescens exhibits well-documented anti-inflammatory properties, the precise molecular targeting within the atherosclerotic plaque microenvironment and the regulatory mechanisms governing intercellular communication networks remain poorly elucidated. To address this gap, we established a multi-scale integrative computational framework synergizing network pharmacology, human atherosclerotic plaque single-cell transcriptomic (scRNA-seq) profiling, and ensemble machine learning algorithms (LASSO and random forest) for systematic identification of robust therapeutic targets. Subsequently, molecular docking coupled with 100-ns all-atom molecular dynamics (MD) simulations validated the binding affinity and thermodynamic stability of drug–target complexes. The study successfully analyzed the cellular heterogeneity lineage of plaques and identified a core feature set of 10 genes including HIF1A, PPARG and ITGB1, which specifically mapped the differentiation trajectory of macrophages to foam cells. External validation in an independent cohort demonstrated superior diagnostic performance of this signature (AUC = 0.996). Cellular communication network dissection revealed the foam cell-driven SPP1–ITGB1 signaling axis as a pivotal conduit orchestrating inflammatory crosstalk. Molecular docking demonstrated pronounced binding affinity between luteolin, the principal bioactive constituent of Perilla frutescens , and ITGB1 (binding energy: − 8.9 kcal/mol). MD simulations further corroborated the efficacy of luteolin in stabilizing ITGB1 conformation via a \"conformational-locking\" mechanism (RMSD equilibration within 0.10–0.20 nm), thereby abrogating pathological cell adhesion signaling transduction. Collectively, this study provides a high-resolution molecular atlas of Perilla frutescens -mediated AS intervention, systematically elucidating the mechanistic paradigm whereby luteolin attenuates vascular inflammation through targeted disruption of the SPP1–ITGB1 communication axis. These findings underscore the therapeutic targeting of cell adhesion receptors as a translationally promising strategy for mitigating residual inflammatory risk in AS. Graphical abstract",
+      "date": "2026-06-13",
+      "url": "https://doi.org/10.1186/s40643-026-01087-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bioresources and Bioprocessing",
+      "direction": "cell",
+      "id": "4e2ad8708c60"
+    },
+    {
+      "title": "Toward a world model for corrosion science",
+      "authors": "Leonardo B. Coelho, Viacheslav Shkirskiy, N. Birbilis",
+      "abstract": "Abstract Corrosion is a trajectory, not an event, yet current machine learning maps fixed inputs to outputs and cannot model reliably how a corroding interface responds to intervention. We argue that world models, deep learning frameworks that learn latent physical dynamics from observation sequences, can close this gap. A physically interpretable latent space anchored to corrosion mechanisms can enable prediction, counterfactual reasoning, and discovery. We chart a path toward realising it.",
+      "date": "2026-06-13",
+      "url": "https://doi.org/10.1038/s41529-026-00826-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Materials Degradation",
+      "direction": "cell",
+      "id": "69fe48240a30"
+    },
+    {
+      "title": "Fine-Tuning DialoGPT on Common Diseases in Rural Nepal for Medical Conversations",
+      "authors": "Birat Poudel, Satyam Ghimire, Edamana Prasad",
+      "abstract": "Conversational agents are increasingly being explored to support healthcare delivery, particularly in resource constrained settings such as rural Nepal. Large-scale conversational models typically rely on internet connectivity and cloud infrastructure, which may not be accessible in rural areas. In this study, we fine-tuned DialoGPT, a lightweight generative dialogue model that can operate offline, on a synthetically constructed dataset of doctor–patient interactions covering ten common diseases prevalent in rural Nepal, including common cold, seasonal fever, diarrhea, typhoid fever, gastritis, food poisoning, malaria, dengue fever, tuberculosis, and pneumonia. Despite being trained on a limited, domain specific dataset, the fine-tuned model produced coherent, contextually relevant, and medically appropriate responses, demonstrating an understanding of symptoms, disease context, and empathetic communication. The model achieved a perplexity score of 5.9632 and accuracy score of 0.1633, a major improvement compared to the baseline score of 0.0372. These results highlight the adaptability of compact, offline capable dialogue models and the effectiveness of targeted datasets for domain adaptation in low resource healthcare environments, offering promising directions for future rural medical conversational AI.",
+      "date": "2026-06-12",
+      "url": "https://doi.org/10.3126/injet-indev.v2i2.95701",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International  Journal on Engineering Technology and Infrastructure Development.",
+      "direction": "medical",
+      "id": "91019c39e30c"
+    },
+    {
+      "title": "A pretrained biomedical large language model for Persian biomedical text mining",
+      "authors": "Baqer M. Merzah, Tania Taami, Salman Asoudeh, Saeed Mirzaee, Amir reza Hossein pour, ...",
+      "abstract": "Large language models (LLMs) have recently gained attention in the life sciences due to their capacity to model, extract, and apply complex biological information. Beyond their classical use as chatbots, these systems are increasingly used for complex analysis and problem-solving in specialized fields, including bioinformatics. First, we introduce BIOPARS-BENCH, a dataset from over 10,000 scientific articles, textbooks, and medical websites. BioParsQA was also introduced to evaluate the proposed model, which consists of 5231 Persian medical questions and answers. This study then introduces BioPars, a simple but accurate measure designed to assess LLMs for three main abilities: acquiring subject-specific knowledge, interpreting and synthesizing such knowledge, and demonstrating proper evidence. Comparing ChatGPT, Llama, and Galactica, our study highlights their ability to remember and retrieve learned knowledge but also reveals shortcomings in addressing higher-level, real-world questions and fine-grained inferences. These findings indicate the need for further fine-tuning to address the capabilities of LLM in bioinformatics tasks. To our knowledge, BioPars is the first application of LLM in Persian medical QA, especially for generating long answers. Evaluation of four selected medical QA datasets shows that BioPars has achieved remarkable results compared to comparative approaches. The model on BioParsQA achieved a ROUGE-L score of 29.99, which is an improvement over GPT-4 1.0. The model achieved a BERTScore of 90.87 with the MMR method. The MoverScore and BLEURT values were also higher in this model than the other three models. In addition, the reported scores for the model are MoverScore = 60.43 and BLEURT = 50.78.",
+      "date": "2026-06-12",
+      "url": "https://doi.org/10.1038/s41598-026-55970-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "c651b3e628e0"
+    },
     {
       "title": "Deep learning in the early diagnosis of acute aortic dissection",
       "authors": "Dr Simon Eggleton, Jon Ryan, Blanca Gallego",
@@ -732,6 +792,18 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "ba1356d7b23e"
+    },
+    {
+      "title": "Multimodal physical evidence uncovers interpretable gene regulatory networks for perturbation prediction",
+      "authors": "Yang, Z.; Huang, S.; Bai, G.; Dong, J.; Wang, J.; Li, S. Z.",
+      "abstract": "Gene regulatory networks govern cell fate transitions through dynamic causal mechanisms1. Since exhaustively mapping this vast perturbation space experimentally is prohibitive2, scalable computational models are essential. Yet, current frameworks fall short because they infer statistical co-expression rather than physical mechanisms, remain blind to non-canonical regulators lacking classical DNA-binding motifs, and fail to generalize across unseen perturbation factors or cell lines. Here we show that a multimodal biophysical framework, VitaGRN, overcomes these barriers by constructing a biophysical regulatory scaffold from multimodal evidence and propagating interactions to capture non-canonical regulators. By leveraging structurally aligned protein embeddings, VitaGRN predicts zero-shot perturbation responses and uncovers non-canonical translational control programs. Notably, VitaGRN demonstrates robust generalization across unseen factors, cell lines, and developmental transitions. Ultimately, VitaGRN generates a confidence-calibrated virtual perturbation atlas spanning over a thousand factors. This resource reframes gene regulatory networks from static correlation graphs into dynamically generalizable and mechanistically trans-parent models, streamlining wet-lab candidate prioritization.",
+      "date": "2026-06-07",
+      "url": "https://doi.org/10.64898/2026.06.05.729520",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "517325a3871e"
     },
     {
       "title": "Momentum for Reasoning: Dense Intrinsic Signals in Policy Optimization",
