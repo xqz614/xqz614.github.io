@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-06-20 20:14",
+  "last_updated": "2026-06-21 20:25",
   "papers": [
+    {
+      "title": "TimeX: Phenotype Onset Extraction from Clinical Narratives",
+      "authors": "Fangyi Chen, Shiyi Jiang, Q. Nguyen, Casey Ta, Kai Wang, ...",
+      "abstract": "Disease phenotype onset is critical for timely and accurate diagnosis and clinical decision-making, yet it remains poorly characterized in the literature. Estimating phenotype onset using electronic health record (EHR) data holds promise but remains challenging. Researchers often resort to EHR documentation timestamps as proxies for phenotype onset, which can be inaccurate. Conventional natural language processing (NLP) approaches suffer from limited scalability and generalizability, and struggle to interpret implicit or vague temporal expressions. To address these gaps, we introduce TimeX, a novel open-source pipeline that leverages Llama-3.1, using instruction-based prompting for extracting phenotype onset from clinical narratives. TimeX employs a modular workflow comprising family history filtering, phenotype extraction, negation handling, and temporal information extraction to estimate phenotype onset. It yielded an average accuracy of 81.24% in timestamp extraction using 102 manually annotated clinical notes from the Columbia University Irving Medical Center, substantially outperforming all five baselines by at least 14.86%. A case study of four rare disease cohorts revealed that narrative-derived phenotype onset is more precise than that based on documentation timestamps. TimeX supports accurate and scalable phenotype onset extraction, with the potential to enable more precise disease trajectory characterization and timely disease diagnosis.",
+      "date": "2026-06-19",
+      "url": "https://doi.org/10.1038/s44401-026-00099-8",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Health Systems",
+      "direction": "medical",
+      "id": "c293c2e2baa9"
+    },
+    {
+      "title": "Human digital twins in personalized and predictive healthcare: a comprehensive review of technologies, applications, and future directions",
+      "authors": "A. Mohan Babu, E. S. Madhan",
+      "abstract": "The role of real-time data, artificial intelligence, and computational modeling is discussed in this review analytics Human Digital Twins (HDTs) creation- virtual persons of personalities patients which advocate predictive simulation to forecast of physiological behavior, treatment responses, and disease tracks. A synthesis of existing knowledge is done up to the technologies is a foundation to HDTs, clinical application and implementation issues of interest to precision medicine. The conceptual basis of engineering of the digital twins is analyzed and production principles, and technologies, which allow to produce HDTs-machine. Are physiological modeling, learning and distributed cloud-based computing infrastructure identified and evaluated. Cards: cardiology, oncology, genomics and immunology are critically appraised. It is based on the comparative analysis of 35 peer-reviewed documents and technical as it was reported, HDTs have great potential in enhancing personalized prediction of side effects, optimization of clinical trial design using virtual, and scheduling of treatment cohort simulation. But, model standards, an important component of model validation, are not present interoperability, ethical governing mechanisms and regulatory avenues to clinical deployment. The main priority research directions are determined, such as the development of common-validation techniques; implementation of federated learning frameworks to support sharing of data with data privacy limitations; incorporation of multi-omics data into physiological models; and introducing open ethical review procedures. This review provides substantive evidence basis to researchers, clinicians and policy makers to market the. Knowledge about HDTs technology to population health and health care provision revolutionizes.",
+      "date": "2026-06-19",
+      "url": "https://doi.org/10.3389/fdgth.2026.1827007",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Digital Health",
+      "direction": "cell",
+      "id": "bd3be9fd936c"
+    },
+    {
+      "title": "From genomes to interventions: computational strategies transforming parasitology",
+      "authors": "Khali Mohammed, Asmaa El-kady, Elshabrawy HA, Marawan Khodary",
+      "abstract": "In silico techniques have become essential in contemporary parasitology, offering swift, cost-effective, and scalable methods for exploring parasite biology, host–parasite interactions, drug resistance, the discovery of diagnostic markers, vaccine development, and the prioritization of therapeutic targets. Computational frameworks that encompass genomics, pangenomics, phylogenetics, transcriptomics, proteomics, structural biology, molecular docking, molecular dynamics simulations, artificial intelligence (AI), and immunoinformatics have collectively revolutionized parasite research. They enable the systematic identification of conserved antigens, lineage-specific virulence factors, metabolic weaknesses, and potential therapeutics across the primary parasitic disease categories discussed in this review. Simultaneously, the growth of databases and analytical platforms focused on parasites has enhanced genome annotation, inhibitor discovery, epitope prediction, and systems-level analysis. However, despite these advancements, numerous workflows rely on incomplete or inadequately annotated datasets and biologically oversimplified assumptions that fail to accurately represent the complexity of parasites, variations in their life cycles, and host-dependent factors—further complicated by inconsistent data quality and diminished reproducibility across species. As a result, computational findings necessitate thorough integration with transcriptomic, proteomic, structural, and functional experimental data. When utilized in this collaborative manner, in silico methods expedite hypothesis generation, refine experimental parameters, and bolster rational approaches for drug discovery, vaccine design, and epidemiological surveillance.",
+      "date": "2026-06-19",
+      "url": "https://doi.org/10.3389/fvets.2026.1823640",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Veterinary Science",
+      "direction": "cell",
+      "id": "c84685af1e0d"
+    },
+    {
+      "title": "Harnessing the gut microbiome to combat tuberculosis: a technological and clinical review",
+      "authors": "Weiguo Sun, M. Xiao, Shehzad Ali, Chanyuan Jin, Asifullah Khan, ...",
+      "abstract": "Tuberculosis (TB), especially multidrug-resistant and extensively drug-resistant strains, remains a severe global health threat. Advances in high-throughput sequencing, omics technologies and artificial intelligence have revealed the critical involvement of the gut microbiome (GM) in TB pathogenesis, diagnosis and treatment via the gut–lung axis. The GM modulates host immunity and metabolism; TB patients typically show reduced microbial diversity and enriched pro-inflammatory taxa closely linked to disease severity and treatment responses. Omics research has identified promising biomarkers and pathways for early diagnosis and personalized management, while artificial intelligence improves diagnostic accuracy and treatment outcome prediction. GM-targeted interventions, including probiotics, dietary adjustment and fecal microbiota transplantation, can enhance therapeutic efficacy and relieve adverse drug reactions. Current limitations include insufficient validation of the gut-lung axis’ causal mechanisms, lagged clinical translation of biomarkers, biases and errors in diagnosis and prediction, data privacy and security concerns, gaps in intervention research, and poor accessibility of related technologies in resource-scarce medical regions. Future studies need rigorous causal analyses, real-time monitoring tools and large-scale multicenter trials to validate microbiome-based strategies. This review highlights the translational potential of GM interventions to optimize personalized TB prevention, diagnosis and treatment and improve clinical outcomes.",
+      "date": "2026-06-19",
+      "url": "https://doi.org/10.3389/fcimb.2026.1847443",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Cellular and Infection Microbiology",
+      "direction": "cell",
+      "id": "8a5ccb71300c"
+    },
+    {
+      "title": "From CNNs to Vision Transformers: A Survey on Addressing Domain Shift and Adaptation Concepts in Medical Image Analysis",
+      "authors": "Kaan ARIK",
+      "abstract": "Abstract Medical imaging models increasingly achieve high performance under controlled experimental settings, yet their reliability often degrades when applied across institutions, scanners, imaging protocols, and patient populations. This review examines Convolutional Neural Network (CNN) and Vision Transformer (ViT) architectures, together with domain adaptation methods, to address the generalization challenges posed by domain shift in medical imaging. By integrating 160 high-quality studies into a unified analytical framework, the review identifies scenarios in which ViT-based methods offer potential advantages, summarizes effective adaptation techniques, and discusses key obstacles to clinical implementation. The findings show that although ViTs are well suited to capturing global context and long-range dependencies, their reported performance improvements do not imply universal dominance. Their effectiveness depends on dataset characteristics, shift severity, pretraining quality, adaptation strategy, and task type. Adversarial learning, feature alignment, and self-supervised pretraining are identified as effective strategies for reducing cross-domain performance degradation, while CNN–ViT hybrid models offer a practical trade-off between accuracy, robustness, and computational feasibility. Nonetheless, high computational demands, substantial data requirements, interpretability limitations, and the lack of standardized multicenter evaluations continue to hinder widespread clinical use. To address these gaps, the review emphasizes a domain-aware evaluation perspective that distinguishes average task performance from robustness-oriented measures, including cross-domain performance drop, domain-wise variability, worst-domain performance, and calibration under distribution shift. Future research should focus on efficient ViT designs, small-sample adaptation, privacy-preserving frameworks, and robust evaluation protocols that account for cross-domain variability, calibrated uncertainty, workflow integration, regulatory readiness, human oversight, drift monitoring, and controlled model updating in real-world medical imaging environments.",
+      "date": "2026-06-18",
+      "url": "https://doi.org/10.1007/s11831-026-10702-8",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Archives of Computational Methods in Engineering",
+      "direction": "medical",
+      "id": "21caf9b184c7"
+    },
+    {
+      "title": "Centralized Review of Alzheimer’s Disease and Related Dementias Biomedical Repositories and Computational Methods",
+      "authors": "Johaan Kathilankal Jis, Kewei Chen, Zhao Chen, Lingtao Chen, Seyedamin Pouriyeh, ...",
+      "abstract": "Alzheimer’s disease and related dementias (ADRD) are neurodegenerative conditions characterized by progressive cognitive and functional decline. AD pathology is associated with extracellular amyloid-β plaques, intracellular tau neurofibrillary tangles, synaptic dysfunction, and neuronal loss. AD accounts for approximately 60–80% of dementia cases globally. In 2022, AD was the seventh leading cause of death in the United States, and the number of Americans aged 65 and older living with Alzheimer’s dementia is projected to increase substantially by 2060. Despite decades of research, AD/ADRD data resources remain fragmented across clinical, imaging, genetic, genomic, and therapeutic domains. This paper addresses that gap by providing a centralized review of widely used AD/ADRD databases and computational methods. We first summarize computational approaches used to analyze these datasets, including machine learning (ML), natural language processing (NLP), and biomedical imaging. We then review eight databases classified into three categories: Clinical and Population Data, Genetics and Genomics, and Drug Discovery and Therapeutics. Finally, we discuss real-world applications, including early diagnosis, clinical decision support, personalized medicine, and drug-mechanism analysis. This review identifies opportunities for future work in data harmonization, cross-database compatibility, and robust, generalizable AI models for AD/ADRD research.",
+      "date": "2026-06-18",
+      "url": "https://doi.org/10.3390/bioengineering13060698",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bioengineering",
+      "direction": "medical",
+      "id": "aca3cb27cfd3"
+    },
     {
       "title": "Artificial intelligence in neurovascular surgery: advancing diagnosis, treatment, and outcomes",
       "authors": "Liping Li, Zhonghua Zhang, Lin Zong",
