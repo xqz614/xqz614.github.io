@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-06-21 20:25",
+  "last_updated": "2026-06-22 21:31",
   "papers": [
+    {
+      "title": "The ‘Obesity Knowledge Portal’: an AI-powered integrative platform for exploration of obesity genetics",
+      "authors": "Y I X I U Liang, Shiqi Ao, Wei Xu, Baoguo Li, Junfeng Bi, ...",
+      "abstract": "Obesity is a chronic, multifactorial disease in which genetics plays a major role. Genome-wide association studies (GWAS) have identified thousands of loci associated with obesity and related traits, however, translating these findings into mechanistic understanding and clinical application remains challenging. Here we present an open-access and AI-powered web platform, Obesity Knowledge Portal (OKP, https://obesityknowledge.org), which covers 166,582 curated variant-trait associations mapped to 11,298 unique genes from published GWAS and UK Biobank summary statistics, a manually curated database of 49 clinical-stage obesity therapeutics with gene-level GWAS evidence annotation, and a domain-specific AI assistant built on Retrieval-Augmented Generation (RAG) of 10,198 peer-reviewed publications. The portal provides three core analytical capabilities: interactive exploration of gene- and variant-level associations across multiple datasets with cross-linking to clinical-stage drug targets; a genomic target prioritisation algorithm that combines statistical significance and variant density to prioritise novel candidates from genes not targeted by existing therapeutics, and literature-grounded interpretation of genetic and pharmacological queries through a scope-restricted LLM-driven contextualisation system. We demonstrate the portal’s utility through case studies at the FTO locus and an integrated pharmacogenomic analysis of the GLP-1/incretin axis. The OKP is freely available and aims to support the translation of genetic discoveries into therapeutic hypotheses for obesity.",
+      "date": "2026-06-20",
+      "url": "https://doi.org/10.65215/ltspreprints.2026.06.20.000276",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "medical",
+      "id": "4946dbdbd10f"
+    },
     {
       "title": "TimeX: Phenotype Onset Extraction from Clinical Narratives",
       "authors": "Fangyi Chen, Shiyi Jiang, Q. Nguyen, Casey Ta, Kai Wang, ...",
