@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-06-26 20:46",
+  "last_updated": "2026-06-27 20:12",
   "papers": [
+    {
+      "title": "Sentiment trajectory modeling in mental health discussions via transformer-based analysis",
+      "authors": "Shaina U, Tamilarasi Kathirvel Murugan, Akshaya Poorna R, Logeswari Govindaraj, Joel Prince",
+      "abstract": "Introduction Social media platforms produce a constant stream of user-generated text, which holds promise as a source of useful information regarding population-level and individual mental health states. However, existing methods for sentiment analysis on social media texts process these texts as individual, static instances, failing to consider the underlying dynamics of emotional states, which are naturally evolving in nature. Methods In this paper, we introduce a novel framework for Temporal Sentiment Progression Analysis, which uses domain-specific transformer architectures to reconstruct the entire emotional evolution of a user over a given period of time. This framework captures important aspects of emotional evolution, including variability, volatility, and key emotional inflection points in a user’s emotional progression. Our approach performs per-comment sentiment and thematic classification using transformer models, followed by post hoc statistical analysis to examine temporal patterns in user discussions. The framework was evaluated on a dataset of approximately 4,000 Reddit comments collected from eight mental health-related subreddits, with additional synthetic samples used only during training to address class imbalance. Performance evaluation was conducted exclusively on authentic Reddit comments and further validated using external Reddit-based mental health datasets and comparative baseline experiments. Results Our experimental results on a large-scale social media dataset reveal different sentiment progression archetypes, which are strongly correlated with self-reported mental health concerns. Our proposed framework achieves a high classification accuracy of 92%. Discussion Our approach shifts from static sentiment analysis to dynamic sentiment progression analysis, which can help in understanding the evolution of emotional distress in a more nuanced manner and can be useful in the development of context-aware interventions for mitigating mental health concerns.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.3389/frai.2026.1810552",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "medical",
+      "id": "0e8bd9c60a75"
+    },
+    {
+      "title": "From green tide disaster to green resource: a multidisciplinary review of research progress and future prospects on Ulva prolifera",
+      "authors": "Zhongwei Chen, Zhongwei Chen, Z Y Chen, Z Y Chen, Chengjuan Cao, ...",
+      "abstract": "Ulva prolifera is the primary causative species of large-scale green tides in the Yellow Sea, posing recurrent threats to marine ecosystems and coastal economies. In recent years, research has undergone a fundamental shift from disaster control toward resource utilization. This multidisciplinary review synthesizes progress across the entire chain of green tide management, focusing on advances in monitoring and prediction. These include multi-source satellite remote sensing with deep learning, coupled hydrodynamic-ecological models for bloom forecasting, and eDNA-based early detection of micropropagules, alongside insights into ecological and physiological mechanisms such as allelopathic competition, nutrient-driven rapid growth, and stress adaptation traits that underpin bloom dominance. Besides, we also highlight breakthroughs in germplasm and cultivation, notably natural protoplast-based clonal propagation and the potential for genetic improvement using synthetic biology, alongside high-value resource utilization through the extraction of bioactive polysaccharides, the discovery of a thermostable ulvan lyase for efficient enzymatic processing, and the exploration of biomass for functional foods, pharmaceuticals, bioenergy, and biomaterials. This review further examines microbial degradation, including active microbial community succession and key degraders that transform organic matter and influence carbon cycling, and concludes with industrialization prospects centered on a closed-loop “early warning–precise interception –high-value conversion” framework. Unlike previous reviews that focused on individual aspects, this work explicitly linked ecological drivers to biotechnological applications and industrial feasibility. We critically examined how these domains connected, identified knowledge gaps, and proposed a roadmap for establishing U. prolifera as a model species for the marine bioeconomy. This integrated perspective transforms an environmental threat into a sustainable green resource.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.3389/fmars.2026.1871260",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Marine Science",
+      "direction": "cell",
+      "id": "1bfbcb4a4b1f"
+    },
+    {
+      "title": "Artificial intelligence in membranous nephropathy: transforming clinical management toward precision medicine",
+      "authors": "Lei Hua, Cuijie Zhao, Zhenhua Yuan, Hang Su, Mingyang CAI, ...",
+      "abstract": "Membranous Nephropathy (MN) is the leading cause of primary nephrotic syndrome in adults, characterized by significant clinical heterogeneity ranging from spontaneous remission to end-stage kidney disease. Current management of membranous nephropathy, which relies heavily on renal biopsy and static serological markers such as anti-PLA2R antibodies, often fails to predict individual disease trajectories. This limitation frequently leads to empirical immunosuppressive therapy with a trial-and-error approach. This review explores the transformative potential of Artificial Intelligence (AI) in reshaping MN management from evidence-based to data-driven and predictive medicine. We examine AI-driven innovations across the clinical spectrum: from computational pathology systems that automate glomerular morphometry with high objectivity and reproducibility, to non-invasive diagnostic models integrating radiomics and serology for non-invasive diagnosis. In therapeutics, we discuss machine learning algorithms that predict individual responses to Rituximab versus Cyclophosphamide, enabling personalized regimen selection. Furthermore, we highlight the role of AI in prognostic stratification, where dynamic in silico patient models and multi-omics integration unravel molecular subtypes and forecast renal survival with high granularity. While acknowledging critical challenges such as data silos, model interpretability gaps, and the need for global validation, we conclude that AI serves as a powerful augmentation tool. By synthesizing high-dimensional data into actionable insights, AI has the potential to facilitate increasingly predictive, preventative, and personalized care strategies in MN management.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.3389/fmed.2026.1801351",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "cell",
+      "id": "7b30a8657de5"
+    },
+    {
+      "title": "Topological suppression of quantum tunnelling in a lanthanide single-ion molecular magnet",
+      "authors": "Sagar Paul, Eufemio Moreno Pineda, Concepción Molina-Jirón, Appu Sunil, Mario Ruben, ...",
+      "abstract": "Abstract Quantum coherence can be preserved by exploiting topology, encoding information in global geometric properties that resist local perturbations. These properties depend on the trajectory of quantum operations and curvature in parameter space, offering a topology-based route to fault-tolerant quantum computation. While geometric phase interference (Berry phase) is widely studied to probe a system’s topology, its direct detection in 4f-based molecular magnets—promising qudit platforms—has remained elusive. We present a magneto-spectroscopic μSQUID-EPR approach to resolve tunnel splittings in the Gd-based molecular magnet [ 160 GdPc₂]⁻ (Pc = phthalocyanine). By irradiating single crystals with microwaves under transverse magnetic fields, we map the spin ( S = 7/2) manifold and observe pronounced oscillations in tunnel splitting—a hallmark of quantum phase interference. These oscillations reveal topological quenching and higher-order anisotropy, underscoring the role of topology in 4f systems and opening pathways toward holonomic quantum computation.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.1038/s41467-026-74798-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Nature Communications",
+      "direction": "cell",
+      "id": "5e8b8bae5457"
+    },
+    {
+      "title": "Skeletal muscle‑derived extracellular vesicles in multi‑organ degenerative disease: Mechanisms and therapeutic delivery perspectives (Review)",
+      "authors": "Xianji Wei, Chengyan Guo, Wei Zhang, Guanyi Wang, Weiwei Li, ...",
+      "abstract": "Multi-organ degenerative diseases are ageassociated or chronic disorders marked by progressive tissue deterioration, impaired repair and functional decline, with representative conditions including sarcopenia, osteoporosis, osteoarthritis, neurodegenerative or ischemia-associated neurological disorders, heart failure, chronic kidney disease and diabetes-associated tissue dysfunction.Their frequent coexistence in aging populations limits the effectiveness of therapeutic strategies directed at a single organ or pathway.Extracellular vesicles (EVs) are lipid bilayer-enclosed particles that shuttle proteins, lipids, metabolites and regulatory RNAs between cells and tissue.As a highly metabolic and secretory tissue, skeletal muscle releases skeletal muscle-derived EVs (SkM-EVs) that may carry muscle-enriched microRNAs, together with other regulatory cargo molecules involved in local tissue remodeling and systemic signaling.SkM-EVs have therefore been proposed as mediators of muscle-centered cross-organ communication and potential delivery vehicles for molecular intervention, although therapeutic evidence remains largely preclinical.The present review examines the biological functions of SkM-EVs, their regulation by exercise, aging and metabolic stress and their potential involvement in multi-organ degenerative diseases.The present study aimed to discuss engineering strategies for SkM-EVs, including cargo loading, surface modification and targeted delivery, with particular attention to controversies, methodological limitations, quality control requirements and barriers to clinical translation. Contents1. Introduction 2. Biogenesis, structural features and functional cargo of SkM-EVs 3. SkM-EVs in local muscle remodeling and musculoskeletal crosstalk 4. SkM-EVs in neuromuscular and multi-organ communication 5. Context-dependent remodeling of SkM-EV release and cargo profiles 6. Therapeutic targets and technological frontiers for SkM-EV-based intervention 7. Discussion 8. Conclusion",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.3892/ijmm.2026.5903",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Molecular Medicine",
+      "direction": "cell",
+      "id": "1d34935a29d5"
+    },
+    {
+      "title": "Artificial intelligence advancements in monoclonal antibody development technology",
+      "authors": "Manar Ammar, M. Yu. Samsonov, Evgeniya Gurylina, Daniel Bayzigitov",
+      "abstract": "Monoclonal antibody–based therapeutics have become essential tools for treating infectious, autoimmune, and malignant diseases due to their high specificity and efficacy. As their clinical and scientific relevance continues to expand, the need for faster, more accurate and cost-effective development strategies has grown. Traditional laboratory-based methods for antibody design and improving remain reliable but are time-consuming, labor-intensive, and limited by experimental constraints. These challenges have driven a shift toward the integration of computational methods as a complementary approach for antibody engineering. The current review provides a simplified overall explanation of recent advancements in artificial intelligence (AI)-driven in silico tools used to accelerate and enhance the process of antibody discovery and optimization. We have systematically analyzed literature from clinical and research databases and summarized obtained data into a comprehensible overview. We highlighted how AI models contribute to sequence design, epitope-paratope predictions, affinity optimization, structural prediction and developability assessment. In conclusion, the most effective strategy for next-generation monoclonal antibody development relies on the integration of computational prediction and design tools followed by experimental validation. Combining AI-driven innovation with traditional laboratory methods represents a powerful and complementary approach for achieving accurate, efficient, and clinically relevant antibody therapeutics.",
+      "date": "2026-06-25",
+      "url": "https://doi.org/10.3389/fimmu.2026.1802038",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Immunology",
+      "direction": "cell",
+      "id": "d35b4d82ccaf"
+    },
     {
       "title": "Depression Severity Classification from Social Media Text using Natural Language Processing and Machine Learning",
       "authors": "Abhijeetsinh Jadeja, Priyanka Ameta, Deepika Ameta, Asha Patil",
