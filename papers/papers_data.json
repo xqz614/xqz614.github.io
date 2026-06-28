@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-27 20:12",
+  "last_updated": "2026-06-28 20:13",
   "papers": [
+    {
+      "title": "Unsupervised Machine Learning of Inflammatory Bowel Disease Case Reports Reveals Decades of Evolving Research Themes",
+      "authors": "Naruaki Ogasawara",
+      "abstract": "Background and Aims: Inflammatory bowel disease (IBD) case reports provide rich longitudinal insights but have rarely been analyzed using quantitative text-mining approaches. This study applied unsupervised machine learning to PubMed-indexed IBD case reports to identify long-term thematic structures spanning 60 years and evaluate whether major historical milestones in IBD care can be reconstructed from biomedical texts. Methods: Case reports indexed under the keyword “inflammatory bowel disease” were retrieved from PubMed (1960–2025). Titles, key words, and abstracts were concatenated and preprocessed before TF-IDF vectorization. Non-negative matrix factorization (NMF) was applied to extract latent topics, followed by KMeans clustering using the optimal topic number selected by silhouette evaluation (2–15 topics). Cluster characteristics were summarized using report counts and term frequency-inverse document frequency (TF-IDF) statistics. Top discriminative key words were used to assign data-driven topic labels. All analyses were performed in Python 3.10.5 (PyCharm 2022.1.3) using pandas, numpy, scikit-learn, matplotlib, and seaborn. Results: A total of 18,458 case reports were analyzed. Across all time periods, two highly stable clusters consistently emerged, corresponding to Crohn’s disease and ulcerative colitis. Early decades (1960–1989) emphasized pathology and complication-focused descriptions. Reports from the 1990s showed increasing terminology related to diagnosis and emerging therapies. From 2000 onward, infliximab-related and treatment focused terms predominated, paralleling the rise of biology. After 2010, clusters reflected diversified therapeutic strategies, including attention to extraintestinal manifestations and biologic or small-molecule therapies. Conclusions: Unsupervised machine learning successfully reconstructed important historical changes in IBD management, demonstrating that a large case report text corpus captures the evolution of clinical concepts and treatment paradigms over 60 years.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.15403/jgld-6740",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Gastrointestinal and Liver Diseases",
+      "direction": "medical",
+      "id": "c00f6135eaa5"
+    },
+    {
+      "title": "Scalable Agentic Reasoning for Designing Biologics Targeting Intrinsically Disordered Proteins",
+      "authors": "Matthew Sinclair, Moeen Meigooni, Archit Vasan, Ozan Gokdemir, Xinran Lian, ...",
+      "abstract": "Intrinsically disordered proteins (IDPs) represent crucial therapeutic targets due to their significant role in disease-approximately 80% of cancer-related proteins contain long disordered regions -but their lack of stable secondary/tertiary structures makes them “undruggable.” While recent computational advances, such as diffusion models, can design high-affinity IDP binders, autonomous systems can accelerate their translation to practical drug discovery by reducing the need for expert intervention across large-scale design campaigns. To address this challenge, we designed and implemented StructBioReasoner, a scalable multi-agent system for designing biologics that can be used to target both IDPs and structured proteins. StructBioReasoner employs a novel tournament-based reasoning framework where specialized agents compete to generate and refine therapeutic hypotheses, naturally distributing computational load for efficient exploration of the vast design space. Agents integrate domain knowledge with access to literature synthesis, Al-structure prediction, molecular simulations, and stability analysis, coordinating their execution on HPC infrastructure via an extensible federated agentic middleware, Academy. We benchmark StructBioReasoner across Der f 21 and NMNAT-2 and demonstrate that over 50% of 787 designed and validated candidates for Der f 21 outperformed the human-designed reference binders from literature, in terms of improved in silico binding free energy. For the more challenging NMNAT-2 protein, we identified three binding modes from 97,066 binders, including the well-studied NMNAT2:p53 interface. Thus, StructBioReasoner lays the groundwork for agentic reasoning systems for IDP therapeutic discovery on Exascale platforms.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.1145/3815572.3815764",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "cell",
+      "id": "fd23a6df5e95"
+    },
+    {
+      "title": "Computational reconstruction of hierarchical cis-regulatory networks reveals synergistic transcription control and disease-associated rewiring",
+      "authors": "Xunuo Zhu, Xuheng Zhou, Yufang Zhang, Guoxin Cai, Weidong Zhao, ...",
+      "abstract": "Abstract Gene regulation emerges from coordinated interactions among dispersed cis-regulatory elements, yet how these elements integrate into functional regulatory networks and collectively regulate gene transcription remains poorly understood. Here, we present ORIGAMI, a multi-omics, gene-centric deep learning framework that reconstructs functional cis-regulatory networks constrained by transcriptional output. ORIGAMI formulates cis-regulatory modeling as a latent graph inference task, which integrates DNA sequence, epigenomic signals, and three-dimensional chromatin priors to infer denoised regulatory graphs that capture functional interactions rather than structural proximity alone. The inferred regulatory graphs exhibit distinct topological regimes, where hierarchical and modular organization encodes cell-state-specific functional demands and enables synergistic transcriptional control. Furthermore, we show that these regulatory architectures undergo measurable state-dependent rewiring across disease contexts. Finally, ORIGAMI accurately predicts the transcriptional consequences of both cis- and trans-regulatory perturbations and links the rearrangement of regulatory architecture to perturbation response. Together, ORIGAMI advances a network-based view of gene regulation and establishes a foundation for virtual cell modeling of regulatory dynamics.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.64898/2026.06.24.734159",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "direction": "cell",
+      "id": "7911ad36fa79"
+    },
+    {
+      "title": "Single-threshold–guided adaptive cancer therapy with partial-cycle treatment: A mechanistic and reinforcement learning analysis",
+      "authors": "Kexin Ma, Ningjing Wang, Zai Yang, Robert Cheke, Biao Tang",
+      "abstract": "Adaptive cancer therapy seeks to modulate aggressive treatment to preserve drug-sensitive tumor cells that suppress resistant populations, but existing strategies often rely on frequent treatment decisions enabled by intensive surveillance, limiting clinical feasibility. Here, we propose a clinically motivated alternative that shortens the treatment window within a fixed and relatively long surveillance cycle, thereby avoiding the need for frequent monitoring. Based on this idea, we develop a mechanistic modeling framework for single-threshold-guided adaptive therapy with partial surveillance-cycle treatment (AT-PSC) and benchmark its performance using reinforcement learning. Using clinically calibrated parameters from an individual patient, simulations show that AT-PSC prolongs the time to progression (TTP) by 402 days compared with adaptive therapy using full surveillance-cycle treatment, while substantially reducing treatment exposure (dose reduced by 10.1%). Consequently, AT-PSC achieves significantly larger TTP gains than continuous therapy (1891 days) and two-threshold-guided adaptive therapy AT50 (1123 days). Simulations using data from six additional patients and sensitivity analyses further demonstrate that these benefits are robust across heterogeneous tumor growth profiles, while individual-based treatment should be considered to maximize TTP. Reinforcement learning yields comparable outcomes under the same fixed treatment window and can further extend TTP when the treatment window is adaptively adjusted. Together, these results support AT-PSC as a clinically feasible strategy to improve disease control while reducing treatment burden, and suggest that a practical regimen, such as a 14-day treatment window within a 30-day surveillance cycle, can provide sustained benefits for a broad patient population.",
+      "date": "2026-06-26",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014457",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "PLoS Computational Biology",
+      "direction": "cell",
+      "id": "02ee0ff82dec"
+    },
     {
       "title": "Sentiment trajectory modeling in mental health discussions via transformer-based analysis",
       "authors": "Shaina U, Tamilarasi Kathirvel Murugan, Akshaya Poorna R, Logeswari Govindaraj, Joel Prince",
