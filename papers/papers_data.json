@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-06-28 20:13",
+  "last_updated": "2026-06-29 20:49",
   "papers": [
+    {
+      "title": "Graph neural network-based biomedical misinformation detection with semantic consistency analysis",
+      "authors": "Siva Dhievaraj, Agusthiyar Ramu",
+      "abstract": "Conventional misinformation detection approaches primarily rely on textual features and deep learning (DL) classifiers, which often fail to capture complex relationships among biomedical entities and the underlying scientific context of health claims. To address this limitation, this study proposes a graph neural network (GNN)-based biomedical misinformation detection framework that integrates knowledge graph propagation with semantic consistency verification. Initially, key biomedical entities such as diseases, treatments, and biological processes are extracted and mapped into a structured biomedical knowledge graph (BKG) to represent semantic relationships. A graph attention network (GAT) is then employed to model relational dependencies and propagate contextual information across connected entities, enabling the detection of hidden inconsistencies in biomedical claims. The proposed model is evaluated using benchmark biomedical misinformation datasets, including Reliable COVID-19 News Dataset, 2021 (ReCOVery), COVID-19 Healthcare Misinformation Dataset, 2020 (CoAID), and 2018–2020 biomedical health news corpus (HealthStory). Experimental results demonstrate that the proposed framework achieves an average detection accuracy of 96.3%, outperforming conventional long short-term memory (LSTM), convolutional neural networks (CNN), and transformer-based models in terms of precision, recall, and F1-score. The findings highlight that integrating structured biomedical knowledge with graph-based reasoning significantly enhances the reliability and interpretability of misinformation detection systems.",
+      "date": "2026-06-27",
+      "url": "https://doi.org/10.11591/ijres.v15.i2.pp439-449",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Reconfigurable and Embedded Systems (IJRES)",
+      "direction": "medical",
+      "id": "28c6cf484d01"
+    },
+    {
+      "title": "Comprehensive Insights into Bibliometric Analysis: Tools, Techniques, Applications, Challenges, and Emerging Solutions for Research Excellence",
+      "authors": "Gülay Demir",
+      "abstract": "Due to the rapid growth in the volume of scientific literature, there is an increasing need for systematic methods to evaluate scientific output, identify research trends, and support evidence-based decision-making. Bibliometric analysis has become one of the most widely used tools for evaluating scientific productivity, research impact, collaboration networks, and knowledge structures. However, despite its growing popularity, the field of bibliometrics still lacks consistency in terms of the tools, methodologies, reporting practices, and technologies used in bibliometric analysis. The aim of this study is to provide a comprehensive overview of the current state of bibliometrics and propose a practical guide to conducting rigorous and comprehensive bibliometric analyses. Through a systematic literature review and synthesis, the study examines four main aspects of bibliometric analysis: tools, methodologies, application areas, and reporting quality. Major bibliometric software platforms, namely VOSviewer, Bibliometrix/Biblioshiny, CiteSpace, and Gephi, are compared in terms of their functionality, strengths, and limitations. In addition, the study identifies the major stages of bibliometric research, including search strategy development, data collection, data preprocessing, science mapping, scientific performance analysis, visualization, and reporting. The importance of transparency and reproducibility in bibliometric research is highlighted through the presentation of the GLOBAL reporting guideline and the PRISMA-ScR framework. The results show that no single tool can perform all types of bibliometric analyses effectively, while combining multiple tools provides a more comprehensive understanding of the research landscape. Furthermore, the study identifies methodological rigor—particularly the selection of an appropriate database, the development of a robust search strategy, and thorough data cleaning—as a key determinant of high-quality bibliometric research. The study demonstrates how bibliometrics has evolved from a descriptive evaluation instrument into a strategic research assessment tool that supports policy development and promotes research excellence. Finally, emerging developments in artificial intelligence, open science, altmetrics, and open citations are expected to have a significant impact on the future of bibliometric research. The proposed framework can serve as a practical guide for researchers, editors, research managers, and policymakers conducting bibliometric analyses.",
+      "date": "2026-06-27",
+      "url": "https://doi.org/10.67334/cds31202635",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Contemporary Decision Science",
+      "direction": "medical",
+      "id": "633edf427aab"
+    },
+    {
+      "title": "Integrated machine learning, molecular docking, and molecular dynamics simulations for in silico identification of GSK3β inhibitors for Alzheimer’s disease",
+      "authors": "Dileep Kumar, Ajwin Joseph Martin",
+      "abstract": "Glycogen Synthase Kinase-3 Beta is a multifunctional serine/threonine kinase, involved in regulating multiple cellular processes. Its dysregulation plays a key role in progression of Alzheimer's disease and no FDA-approved GSK3β inhibitors for AD therapy are available, due to challenges in isoform selectivity, safety and pharmacokinetic limitations. Here, an OECD guideline-compliant, two-stage machine learning-based virtual screening framework is developed for GSK3β inhibitors. A chemically diverse dataset from different databases were pre-processed and used for model development and validation. A comparative study confirmed the superiority of this two-stage approach over standard multiclass models, by yielding significantly higher balanced accuracy on the internal test set (0.86 against 0.74) and specificity. The best predictive models were deployed as an open-access web tool and were used for screening ASINEX Synergy Library. In the structure-based approach, molecular docking with a validated docking protocol was performed and the best molecules were subjected to molecular dynamics simulation, binding free energy and per-residue decomposition analysis. Principal component analysis of trajectories confirmed global stability and consistent binding modes. Cross-screening against the homologous GSK3α isoform and the structurally distinct Cyclin-dependent kinase 2 (CDK2) by molecular docking revealed distinct mechanistic interaction profiles. Rather than exhibiting strict single-target exclusivity, the top hits showed binding affinity profiles consistent with potential CMGC family Multi-Target Directed Ligands (MTDLs), warranting experimental kinome validation. This presumed polypharmacological profile is advantageous for Alzheimer's therapeutics, positioning these compounds as robust candidates for simultaneously mitigating multiple kinase pathways that drive Tau hyperphosphorylation. Overall, this integrated ML model development, validation, screening, protein selection, molecular docking and molecular dynamics workflow provides a reproducible, interpretable, and high-confidence method for identification of GSK3β inhibitors for Alzheimer's disease.",
+      "date": "2026-06-27",
+      "url": "https://doi.org/10.1038/s41598-026-59744-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "1f6b8ec31165"
+    },
+    {
+      "title": "Improving medical image segmentation in pre-trained U-Nets using Shapley-guided pruning of adaptive skip-connection modules",
+      "authors": "Emil Benedykciuk, Marcin Denkowski, Grzegorz M. Wójcik",
+      "abstract": "Neural architecture search (NAS) can improve medical image segmentation, but its practical use is limited by computational cost and instability of the discovered architectures, particularly when applied to pre-trained models and limited data. We present Shapley-guided pruning as a practical validation-guided extension of retrofit NAS for pre-trained U-Nets. Rather than defining a new NAS family, the method keeps the IAC search space and PC-DARTS-style supernet optimization, while adding iterative pruning driven by Shapley value estimates computed on held-out validation data. By progressively removing low-impact components while preserving learned architecture parameters, the approach reduces search space complexity and improves the reliability of the final discrete architecture. We evaluate the method on four public benchmarks (ACDC, BraTS, KiTS, and AMOS) in a controlled 2D slice-based, [Formula: see text], single-GPU setting. Within this protocol, the proposed approach improves or matches strong baselines in most comparisons, accelerates search by up to four times, and yields more stable operation choices across runs. The findings support Shapley-guided pruning as a practical retrofit-NAS mechanism under resource constraints, without implying direct clinical competitiveness with high-resolution or fully 3D segmentation pipelines.",
+      "date": "2026-06-27",
+      "url": "https://doi.org/10.1038/s41598-026-59012-w",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "a53caac81723"
+    },
+    {
+      "title": "From LIF to QIF: Toward differentiable spiking neurons for scientific machine learning",
+      "authors": "Ruyin Wan, George Em Karniadakis, Panos Stinis",
+      "abstract": "Abstract Spiking neural networks (SNNs) offer biologically inspired computation but remain underexplored for continuous regression tasks in scientific machine learning. In this work, we introduce and systematically evaluate Quadratic Integrate-and-Fire (QIF) neurons as an alternative to the conventional Leaky Integrate-and-Fire (LIF) model in both directly trained SNNs and ANN-to-SNN conversion frameworks. The QIF neuron exhibits smooth and differentiable spiking dynamics, enabling gradient-based training and stable optimization within architectures such as multilayer perceptrons (MLPs), Deep Operator Networks (DeepONets), and Physics-Informed Neural Networks (PINNs). Across benchmarks on function approximation, operator learning, and partial differential equation (PDE) solving, QIF-based networks yield smoother, more accurate, and more stable predictions than their LIF counterparts, which suffer from discontinuous time-step responses and jagged activation surfaces. These results position the QIF neuron as a computational bridge between spiking and continuous-valued deep learning, advancing the integration of neuroscience-inspired dynamics into physics-informed and operator-learning frameworks.",
+      "date": "2026-06-27",
+      "url": "https://doi.org/10.1038/s44387-026-00121-2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Artificial Intelligence",
+      "direction": "cell",
+      "id": "4efb409cfb1e"
+    },
+    {
+      "title": "HPRO: Hierarchical Progressive Reward Optimization via Preference Extraction for Emotional Text-to-Speech",
+      "authors": "Sihang Nie, Xiaofen Xing, Rui Xing, Haoming Li, Ruitong Xiao...",
+      "abstract": "Recently, Large Language Model (LLM)-based Text-to-Speech (TTS) models have achieved remarkable naturalness. However, the standard Supervised Fine-Tuning paradigm often converges to statistically averaged prosody, limiting emotional expressiveness. While preference-driven optimization offers a promising alternative, existing approaches suffer from two structural mismatches: information conflict, where content and emotion in a shared latent space produce conflicting gradients, leading to reward hacking and semantic degradation; and scale gap, where sparse sentence-level rewards struggle to guide dense frame-level generation. To overcome these challenges, we propose HPRO, a hierarchical progressive reward optimization framework. Within HPRO, we introduce the HD-Emo codec as a novel differentiable reward model to resolve the information conflict. It extracts speech into distinct content and style preference tokens, structurally isolating emotional optimization from semantic content. Building upon this structured preference space, HPRO bridges the scale gap by progressively aligning frame-, word- and sentence-level objectives. Experiments demonstrate that HPRO significantly enhances emotional expressiveness, while effectively preserving linguistic intelligibility. The code and audio samples are publicly available at https://xxh333.github.io/hpro-demo/.",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.28249v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28249v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "8a161e85ab52"
+    },
+    {
+      "title": "Cognitive Episodes in LLM Reasoning Traces Enable Interpretable Human Item Difficulty Prediction",
+      "authors": "Chenguang Wang, Ming Li, Xinyue Zeng, Zhuochun Li, Hong Jiao...",
+      "abstract": "Predicting human item difficulty is central to educational assessment, where reliable estimates support fairness and effective test construction. Existing methods often depend on costly human calibration or item-level textual representations, providing limited evidence about the cognitive processes that make items difficult. We argue that difficulty should be viewed not only as a property of item text, but also as an observable consequence of the problem-solving burden an item induces. Large Reasoning Models (LRMs) offer scalable process evidence through reasoning traces, but such evidence must be structured to support interpretable modeling. To this end, we introduce Epi2Diff (Episode to Difficulty), a framework that maps LRM reasoning traces into cognitively grounded episode sequences. These episodes group trace segments into functional problem-solving states, enabling difficulty to be modeled through reasoning scale, effort allocation, and state transitions. Epi2Diff extracts compact episode-dynamic features and combines them with semantic item representations for human difficulty prediction. Experiments on four real-world human difficulty datasets show that Epi2Diff consistently outperforms strong baselines, including fine-tuned small language models, LLM in-context learning, and supervised LLM adaptation. On SAT-derived classification benchmarks, Epi2Diff achieves an 8.1% average relative gain over supervised LLM fine-tuning baselines. Further analyses show that harder items induce more effortful, iterative, and implementation-centered episode dynamics, rather than merely longer responses. These results demonstrate that cognitive episodes in LRM reasoning traces provide a predictive and interpretable process representation for human item difficulty, offering a new lens for educational measurement with reasoning models.",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.28186v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28186v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "74c8428a0358"
+    },
+    {
+      "title": "ToxiREX: A Dataset on Toxic REasoning in ConteXt",
+      "authors": "Stefan F. Schouten, Ilia Markov, Piek Vossen",
+      "abstract": "We introduce a new, contextual, multilingual dataset called ToxiREX: Toxic REasoning in ConteXt. The dataset consists of threads of Reddit comments and structured characterizations of what the comments imply, following a systematic toxic reasoning schema developed in a previous paper. Using the schema allows us to capture and explain implicit and context-dependent toxicity, while supporting mappings to existing toxicity taxonomies. The dataset includes comments in six languages (English, Arabic, Turkish, Spanish, German, and Dutch), collected from posts connected to specific major events (e.g. the 2023 Turkey earthquakes; the Russian invasion of Ukraine). We describe the context-preserving preprocessing of the threads. We create a training set of 125 thousand comments which is annotated by a commercially available LLM, and a test set of just under three thousand comments that is annotated by native speakers. We show that apparent disagreements in the test set annotations often reflect defensible alternative interpretations rather than noise. Finally, we provide baseline results by prompting and fine-tuning language models. To produce these results, we develop evaluation strategies for our hierarchical, schema-based predictions. While models perform better than random, there remains a lot of room for improvement, showing the task to be challenging. ToxiREX is the first dataset to simultaneously incorporate multiple languages, conversational context, and implicit toxicity, while using the toxic reasoning schema for rich, structured annotations. Dataset available at: https://github.com/cltl/toxirex",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.27981v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27981v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b5aa74382013"
+    },
+    {
+      "title": "From Black-Box to Clinical Insight: A Multi-Stage Explainable Framework for Speech-Based Cognitive Impairment Detection",
+      "authors": "Yasaman Haghbin, Sina Rashidi, Ali Zolnour, Fatemeh Taherinezhad, Ali Fartoot...",
+      "abstract": "Speech-based cognitive impairment detection offers a noninvasive, accessible alternative to costly biomarker assays, yet transformer-based models remain clinically uninterpretable. We propose a multi-stage explainability framework that translates black-box transformer predictions into clinically grounded narratives by integrating SHapley Additive exPlanations (SHAP)-based token attribution, theory-informed linguistic features, and a four-stage LLM reasoning pipeline using LLaMA-3.1-70B-Instruct. Built on the SpeechCARE-Adaptive Gating Network multimodal screening model (F1 = 72.11% on the NIA PREPARE benchmark), the framework maps model outputs to four cognitive-linguistic dimensions, including lexical richness, syntactic complexity, and semantic coherence. Physician evaluation on 70 stratified English samples demonstrated strong alignment with patient-level cognitive profiles, and a System Usability Scale score of 82/100 indicated high potential for clinical workflow integration.",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.27973v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27973v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ea7aa6375cfc"
+    },
+    {
+      "title": "Triadic Werewolf: A Jester Role for Multi-Hop Theory of Mind in LLMs",
+      "authors": "Avni Mittal",
+      "abstract": "Theory-of-mind evaluations of large language models typically use dyadic social-deduction games, where every observable cue points to a single hidden side, so a model with strong language priors can score well without ever simulating opponents' incentives. We extend the Werewolf game with a Jester, a third faction whose utility on peer suspicion is inverted because it wins by being voted out, so optimal play requires reasoning across three opposing utility functions. Across 60 games on GPT-4.1, DeepSeek-V3.1, and Llama-3.3-70B with Jester self-learning on and off, the Jester wins 60-70% of games while Werewolves never exceed 20%, and GPT-4.1 wolves vote the Jester out on day 1 in 60-70% of games, a strictly self-defeating action. Self-learning helps DeepSeek and Llama but hurts GPT-4.1, with the cost landing on Villagers rather than Werewolves. Only DeepSeek learns the subtle strategy of looking suspicious without looking intentionally suspicious, and it gains the most from the loop. Triadic incentive structure exposes a layer of multi-agent reasoning that dyadic deduction games leave invisible.",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.27909v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27909v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d62b911d1e2d"
+    },
+    {
+      "title": "Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety",
+      "authors": "Ting Ma, Xiufeng Huang, Benlei Cui, Xiaowen Xu, Shikai Qiu...",
+      "abstract": "As large language models are increasingly deployed in real-world systems, safety failures can still lead to harmful outputs and dangerous misuse. We argue that the essence of safety is adversarial: many failures arise not from natural inputs alone, but from strategic attempts to evade model policies and safeguards. However, existing general-purpose model development largely overlook this adversarial nature, and often remain insufficient for realistic safety scenarios involving planning, tool use, and multi-step reasoning, causing measured safety performance to overestimate real deployment robustness. To address this gap, we present Yuvion LLM, a large language model built for adversarially robust content safety and broader AI safety. Yuvion LLM treats adversarial robustness and agentic capability as first-class objectives. Its pipeline combines adversarially aware data construction, knowledge-enhanced continued pretraining, and policy-grounded multi-task safety post-training, including risk-aware supervised fine-tuning and reinforcement learning-based policy optimization, together with safety-aware agentic reinforcement learning for tool use and multi-step reasoning in complex safety scenarios. We further introduce the Yuvion LLM RiskEval (YLRE), a collection of 93 benchmarks across four evaluation categories, covering diverse open and internal evaluations with a focus on safety, adversarial robustness, and real-world capability requirements. Across these evaluations, Yuvion LLM demonstrates clear advantages on safety-focused benchmarks and particularly strong robustness under adversarial conditions, while maintaining solid overall capability. Notably, Yuvion-8B outperforms most state-of-the-art baselines, including substantially larger models such as GPT-5.4 and Qwen3-MAX, on several safety tasks.",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.27632v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27632v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "25f913d5d86c"
+    },
     {
       "title": "Unsupervised Machine Learning of Inflammatory Bowel Disease Case Reports Reveals Decades of Evolving Research Themes",
       "authors": "Naruaki Ogasawara",
@@ -108,6 +240,18 @@
       "venue": "International Journal of Molecular Medicine",
       "direction": "cell",
       "id": "1d34935a29d5"
+    },
+    {
+      "title": "Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents",
+      "authors": "Vedant Patel",
+      "abstract": "Large language model (LLM) agents operate over long, multi-session interactions in which facts change: a user moves, a price updates, a plan is revised. Acting correctly requires using the current value of a fact and discarding values that have been superseded. We isolate this ability on real conversational data and show that it is a distinct, unsolved failure. On the knowledge-update subset of LongMemEval, replacing an agent's full context with a bounded, self-maintained memory drops accuracy from 92% to 77% even on a frontier model (gpt-5.4), a gap that is statistically significant (paired McNemar p<0.005) and persists across model scale while full-context accuracy saturates near 92%. The bottleneck is therefore memory maintenance, not comprehension, and is not closed by a stronger model. We then ask whether this is merely an undersized memory, and find it is not: as the conversation grows 24x, accuracy falls further (from 68% to 28%), and granting the agent proportionally more memory yields no detectable recovery (28% to 28%, n=25). The failure scales with the length of the conversation, not the compression ratio. We release Supersede, an open reinforcement-learning environment (on the verifiers / prime-rl stack) that turns this measurement into a training signal: agents are rewarded for answering from the current value and penalized for stale ones. Finally, we close the loop and show the gap is trainable: GRPO fine-tuning a small open model (Qwen2.5-3B) on this environment nearly doubles its held-out supersession accuracy on real, unseen conversations (9.0% to 16.7%, a single run), along a monotonic checkpoint curve indicating the learned policy, not the harness, carries the gain. To our knowledge this is the first trainable environment whose reward targets temporal fact-currency, and the first evidence the supersession gap can be trained down, not only measured.",
+      "date": "2026-06-25",
+      "url": "https://arxiv.org/abs/2606.27472v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.27472v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "255a88054d0e"
     },
     {
       "title": "Artificial intelligence advancements in monoclonal antibody development technology",
