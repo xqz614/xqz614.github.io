@@ -1,6 +1,174 @@
 {
-  "last_updated": "2026-06-29 20:49",
+  "last_updated": "2026-06-30 20:56",
   "papers": [
+    {
+      "title": "SIMAX: A Scalable and Interpretable Framework for Multi-Fidelity and Annotated Clinician-Patient Dialogue Simulation",
+      "authors": "Zhuhan Bao, Rui Yang, Bohao Yang, Zhiyi Liu, Sicheng Shu...",
+      "abstract": "Background. The widespread deployment of ambient digital scribes is driving large-scale capture of clinician-patient dialogues. Human coding of clinical communication data remains costly, inconsistent, and difficult to scale, motivating AI-driven communication coding systems. However, evaluating these systems requires real-world dialogues and human-coded labels, both hard to obtain at scale. Methods. We developed SIMAX (Scalable and Interpretable Framework for Multi-Fidelity and Annotated Clinician-Patient Dialogue Simulation), a framework for generating controlled clinical dialogue data with reference behavioral annotations. SIMAX generates clinician-patient dialogues from predefined clinical scenarios, personas and voice conditions, and target communication behaviors. Behaviors are controlled using two codebooks: the Global Codebook for overall communication quality and the WISER Codebook for specific countable behaviors. We evaluated SIMAX using automated and human quality assessments and an example communication coding system. Results. SIMAX generated 3,388 simulated dialogues across three specialties, multiple visit stages, persona characteristics, and accent conditions. Automated assessment showed mean UTMOS and WV-MOS scores of 3.03 and 2.61, WER and CER of 0.07 and 0.05, and CLAP cosine similarity of 0.41, suggesting reasonable speech naturalness, high transcription fidelity, and positive text-audio correspondence. Human evaluation showed a median MOS of 4.67 and a median clinical realism score of 3.00. Downstream evaluation suggests that SIMAX can assess how a communication coding system responds to behavioral targets and reveal insufficient sensitivity in some dimensions. Conclusions. SIMAX generates controlled and reproducible simulated clinician-patient dialogues, providing a data foundation for developing, validating, and refining communication coding systems.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30491v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30491v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "d5b9a04f3e96"
+    },
+    {
+      "title": "Information Dynamics of Language Communication",
+      "authors": "Leonardo S. Goodall, Andrea I. Luppi, Pedro A. M. Mediano",
+      "abstract": "Quantifying how meaning propagates through communicative exchanges remains underdeveloped in computational linguistics. Here we introduce an information-theoretic framework that quantifies the directed flow of semantic content between interlocutors and decomposes multi-source contributions into redundant, unique, and synergistic components. Our approach leverages large language models as probabilistic estimators of natural language to compute two measures: semantic transfer entropy (STE), which captures directed predictive influence between speakers, and semantic partial information decomposition (SPID), which resolves how multiple sources jointly shape a target's language. Across four experiments we show that the framework detects reduced information flow in cognitively rigid dialogue, captures the dominant role of persuaders in shaping discourse, distinguishes high- from low-quality psychotherapy by the directionality of therapist-client information exchange, and reveals synergistic premise contributions in argumentative essays. This framework opens new avenues for studying information dynamics in digital discourse, pedagogical interactions, clinical dialogues, and any domain in which the structure of linguistic exchange is of research relevance.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30096v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30096v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "0282dde79775"
+    },
+    {
+      "title": "Sparse-Dense Fusion with Reciprocal Rank Fusion for HallucinationMitigated Clinical Knowledge Retrieval",
+      "authors": "Abhay Nautiyal, Ramesh Kumar, V. M. Thakkar",
+      "abstract": "Large language models (LLMs) hallucinate—they generate confident but unverifiable medical information, a critical failure in healthcare where accuracy directly impacts patient outcomes. This paper presents a hybrid RetrievalAugmented Generation (RAG) framework that mitigates hallucination by grounding generated answers in verified medical context. The system integrates sparse BM25 retrieval for precise medical term matching with dense FAISS retrieval for semantic similarity through Reciprocal Rank Fusion (RRF), ensuring that neither exact terminology nor conceptual relatedness is overlooked. A cross-encoder reranker refines the fused results, and Llama 3.1 8B Instant is conditioned on top-ranked documents to produce answers with explicit source attribution. Evaluated on 16,412 questionanswer pairs from the MedQuAD dataset covering 138 medical focus areas, the hybrid approach achieves Precision@10 = 63.80%, Recall@10 = 61.84%, NDCG@10 = 78.07%, and Mean Reciprocal Rank = 94.87%—significantly outperforming individual BM25 and FAISS baselines (p &lt; 0.01, bootstrap test). Analysis reveals that 83% of retrieved items change rank after cross-encoder reranking, with the top-1 document changing in 55% of queries, while method overlap analysis demonstrates complementary retrieval behavior with only 42% agreement across methods. The complete system is deployed as an interactive Gradio web application enabling real-time multi-method comparison for clinical decision support.",
+      "date": "2026-06-29",
+      "url": "https://doi.org/10.25258/ijddt.16.59s.94",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "medical",
+      "id": "71d73096bcff"
+    },
+    {
+      "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting 42",
+      "authors": "Gege Gao, Bernhard Schölkopf, Andreas Geiger",
+      "abstract": "Memory is not merely the storage of data; it is the scaffolding of reality. When biological memory fades, the world does not simply turn black; it regresses into an unrecognizable chaos. Echoes of the Prior is an interactive installation that attempts to visualize this subjective phenomenology of forgetting . By inducing controlled synaptic decay within a Feed-Forward 3D Reconstruction model, we create an artistic analogy for the erosion of the brain’s predictive priors. We position the Neural Network not as a tool for engineering, but as a cognitive proxy - a silicon brain whose structural degeneration evokes the disorienting, poetic, and terrifying experience of losing one’s grip on the world. Ultimately, we offer this framework as a catalyst, inviting the wider community to explore the uncharted potential of neuromorphic aesthetics in visualizing the fragility of intelligence. Interactive demo: https://decart-4d.github.io/.",
+      "date": "2026-06-29",
+      "url": "https://doi.org/10.1145/3816072",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+      "direction": "cell",
+      "id": "d117cc0a1898"
+    },
+    {
+      "title": "Examining Part–Part Interactions Toward Improving Mechanistic Explanations in Cell Biology",
+      "authors": "Sepehr Ehsani",
+      "abstract": "Abstract This paper’s aim is to provide a normative notion of relative completeness that pinpoints cell-biological part–part interactions as a critical niche for the integration of mechanistic explanations with the explanatory features of lawlike generalizations. Using a critiquing account of mechanisms that determines whether and how a given mechanistic explanation could become relatively more complete, I highlight the critical role of part–part interactions in the cell. Mechanistic explanations, which are a mainstay of causal accounts in cell biology, are underpinned in large part by a network of such interactions (e.g. protein–protein or protein–nucleic-acid). In studies that attempt to discover these interactions, there is a tacit assumption that an ‘interaction’ is constituted simply by the proximity between and/or enzymatic changes imparted on the interacting parts. As very few substantive theoretical accounts of what may actually constitute an ‘interaction’ in the context of the cell have been put forth, I develop an account of protein–protein interactions (a key type of part–part interactions in the cell with implications for other types of cellular interactions) toward making the explanation more complete. In doing so, I first map out four aspects relevant to the sequence of events taking place in at least a significant proportion of protein–protein interactions, and, second, propose (i) interaction-enabling properties of proteins and (ii) interaction-enabling properties of the proteins’ environment as elements that could be explained by relevant lawlike generalizations. These generalization-based explanations could answer contrastive why-this-and-not-that type of questions pertaining to different aspects of a protein–protein interaction of interest in a mechanistic explanation, which would otherwise be difficult to answer in cell-biological mechanistic terms. This approach illustrates how part–part interactions in a mechanism could be explained by lawlike generalizations, with the eventual goal of making the overall explanation more fruitful and informative.",
+      "date": "2026-06-29",
+      "url": "https://doi.org/10.1007/s10838-026-09767-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal for General Philosophy of Science",
+      "direction": "cell",
+      "id": "f33e2e08fbdb"
+    },
+    {
+      "title": "Identifying predictors of student depression through validated machine learning pipelines",
+      "authors": "Jacob Washton, Tracy Owens, Antony Sierra, Milan Toma",
+      "abstract": "Background Depression among student populations has become a growing public health concern, with prevalence rates ranging from 10 to 30 percent across studies. Machine learning methods offer the potential not only to predict depression risk but also to identify which factors most strongly predict depression through feature importance analysis. However, the validity of such rankings depends critically on the quality of the underlying model's learning dynamics; which is a consideration often overlooked when aggregate performance metrics appear favorable. Methods This study evaluated six baseline classification algorithms (Logistic Regression, Decision Tree, k-Nearest Neighbors, Support Vector Machine, Naive Bayes, and Random Forest) and two RUSBoost pipeline configurations on a student depression dataset comprising 27,901 records. Pipeline A employed fixed hyperparameters with constant model complexity during learning curve construction, while Pipeline B implemented systematic hyperparameter optimization through grid search and scaled model complexity proportionally with training data availability. Learning curves were generated by training models on progressively larger subsets of training data (10% to 100%) to assess whether each algorithm exhibited healthy learning dynamics characterized by monotonically increasing validation accuracy and convergent training-validation gaps. Results Despite achieving the highest F1-score (87.5%), Logistic Regression and other baseline algorithms exhibited pathological learning dynamics including flat curves indicating no benefit from additional training data, severe overfitting with training-validation gaps exceeding 15 percentage points, and erratic non-monotonic behavior. Pipeline A's RUSBoost implementation showed oscillatory validation accuracy and failed to converge to a stable asymptote. Only Pipeline B demonstrated textbook healthy learning dynamics: training accuracy decreased monotonically from 88.8% to 85.4% while validation accuracy increased monotonically from 82.2% to 83.1%, with progressive gap convergence. Feature importance analysis from the validated Pipeline B model identified history of suicidal thoughts as the dominant predictor (normalized importance: 1.0), followed by academic pressure (0.57), financial stress (0.31), age (0.18), work/study hours (0.13), dietary habits (0.11), and study satisfaction (0.07). Conclusions This study demonstrates that aggregate performance metrics are insufficient indicators of model reliability for scientific inference. Learning curve diagnostics must precede interpretation of feature importance rankings to ensure conclusions rest on demonstrably healthy learning processes rather than artifacts of pathological training dynamics. The validated model's identification of suicidal ideation history, academic pressure, and financial stress as leading predictors suggests that targeted screening for suicidal thoughts, academic workload management programs, and financial support initiatives may prove most effective for reducing depression prevalence among student populations.",
+      "date": "2026-06-29",
+      "url": "https://doi.org/10.3389/fmed.2026.1864665",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "cell",
+      "id": "af2e6113ca75"
+    },
+    {
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "authors": "Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng",
+      "abstract": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30639v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30639v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d3c3c728cb5f"
+    },
+    {
+      "title": "Uncertainty-Aware Generation and Decision-Making Under Ambiguity",
+      "authors": "Nico Daheim, Iryna Gurevych",
+      "abstract": "With rapidly improving capabilities, Large Language Models (LLMs) are increasingly used in many complex real-world tasks. Beyond requiring in-depth knowledge and reasoning skills, many of these tasks exhibit a high degree of subjectivity and require that the outputs of the model can be trusted. While a lot of progress has been made to train better models, decision-making algorithms have received less attention. In this work, we present and evaluate various uncertainty-aware decision-making algorithms based on Bayesian decision theory and risk-averse decision making on the tasks of tutoring and automatic peer reviewing. Concretely, we take uncertainty over tutoring strategies and review scores into account when generating a tutor response or review and use conformal prediction to provide guarantees over strategy and score. We find empirically that these algorithms can improve the utility of the generations but need to be carefully implemented when ambiguity is high. For example, risk-averse rules can degrade performance by optimizing for generic outputs, while Bayesian methods tend to perform better. Our work uses techniques from decision theory to improve LLM-based decision-making and outlines open challenges for the community.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30578v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30578v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9c5105106d37"
+    },
+    {
+      "title": "Situation Perception: A Necessary Primitive to Artificial Superintelligence",
+      "authors": "Ziqin Yuan, Jaymari Chua",
+      "abstract": "Current large language models are extraordinary statistical engines. They compress vast amounts of text into useful patterns and can explain science, write code, imitate reasoning, and participate in philosophical conversation. Yet pattern mastery is not the same as general intelligence. A human infant begins with little explicit knowledge, but gradually discovers object permanence, cause and effect, other minds, bodily agency, and the persistence of the physical world. We make an argument that the path to artificial superintelligence (ASI) depends on a missing capacity we call \\emph{situation perception}: the ability to construct, revise, and act within internal simulations of possible worlds across latent time. \\emph{ perception} requires at least three core components: abstract prediction, long-term compressed memory, and active learning guided by objectives. In this work, we analyse why modern large language models remain incomplete, and propose the appropriate tests for measuring progress and consequences of machines that can simulate futures, pursue self-directed goals, and possibly judge their own creators.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30481v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30481v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "527aff1d8f89"
+    },
+    {
+      "title": "REAR: Test-time Preference Realignment through Reward Decomposition",
+      "authors": "Fuxiang Zhang, Pengcheng Wang, Chenran Li, Yi-Chen Li, Yuxin Chen...",
+      "abstract": "Aligning large language models (LLMs) with diverse user preferences is a critical yet challenging task. While post-training methods can adapt models to specific needs, they often require costly data curation and additional training. Test-time scaling (TTS) presents an efficient, training-free alternative, but its application has been largely limited to verifiable domains like mathematics and coding, where response correctness is easily judged. To extend TTS to preference alignment, we introduce a novel framework that models the task as a realignment problem, since the base model often fails to sufficiently align with the stated preference. Our key insight is to decompose the underlying reward function into two components: one related to the question and the other to preference information. This allows us to derive a REAlignment Reward (REAR) that selectively rescales the proportions of these two reward terms. We then show that REAR can be formulated as a linear combination of token-level policy log-probabilities, making it computationally efficient and easy to integrate with various TTS algorithms such as best-of-$N$ sampling and tree search. Experiments show that compared to other test-time baselines, REAR not only enables scalable test-time realignment for preference alignment tasks under diverse user requirements, but also generalizes to mathematical and visual tasks under appropriate preference settings.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30339v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30339v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "6934d1c9c1e9"
+    },
+    {
+      "title": "DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information",
+      "authors": "Roland Roller, Vera Czehmann, Derya Erman, Luke Flanagan, Ibrahim Baroud...",
+      "abstract": "Conversational data collected in domains such as healthcare or social sciences is a valuable resource for research and automated analysis. However, responsible data sharing requires the detection and removal of personally identifiable and sensitive information to protect individual privacy. To support the development and evaluation of automatic de-identification systems, we present DialogPII, a multilingual dataset of synthetic dialogs and speech-derived transcripts for personal information detection. DialogPII covers eight interaction scenarios (emergency calls, medical anamnesis interviews, therapy sessions, insurance communication, customer support, clinical interviews regarding an AI-supported dashboard, police reports, and group therapy discussions), 19 entity types, and 11 languages (English, Arabic, Finnish, French, German, Hindi, Italian, Polish, Portuguese, Spanish, and Turkish). Dialogs were generated semi-automatically using large language models, manually curated for plausibility and diversity, and localized to country- and city-specific contexts. All dialogs were additionally converted to speech via text-to-speech synthesis, transcribed with Whisper, and annotated through automatic projection and manual correction, yielding aligned written and speech-derived resources across all languages. We further release baseline multilingual named entity recognition models and provide technical validation through inter-annotator agreement analysis, translation quality evaluation, annotation projection assessment, and benchmark experiments with transformer-based sequence labeling models.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30312v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30312v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "70584a6043ab"
+    },
+    {
+      "title": "MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training",
+      "authors": "Wenhan Ma, Jianyu Wei, Liang Zhao, Hailin Zhang, Bangjun Xiao...",
+      "abstract": "Modern large language models (LLMs) rely on reinforcement learning during post-training to push specific capabilities, yet integrating multiple capabilities into one model remains hard. Existing methods, such as Off-Policy Finetune and Mix-RL, are either inefficient or lose performance. In this work, we propose Multi-teacher On-Policy Distillation (MOPD), a post-training paradigm for combining the capabilities of multiple domain RL teachers: we first run per-domain specialised RL to obtain a set of domain teachers, then distill these teachers into the student on its own rollouts. This eliminates exposure bias and provides a dense optimization signal. On Qwen3-30B-A3B, MOPD outperforms Mix-RL, Cascade RL, Off-Policy Finetune, and Param-Merge baselines, inheriting nearly all of each teacher's capability. MOPD also enables parallel, independent development of domain teachers, removing the cross-domain coupling typical of multi-domain post-training. MOPD has been deployed in the post-training of MiMo-V2-Flash, an industrial-scale frontier model, demonstrating its practical value for capability integration in frontier-scale LLMs.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30406v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.30406v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "fd81ada7141e"
+    },
+    {
+      "title": "Towards Physical Intuitions for Alignment Dynamics: A Case Study With Randomness Crystallization",
+      "authors": "Kunal Samanta, Ari Holtzman, Peter West",
+      "abstract": "The alignment of language models is typically studied through the lens of capability benchmarks, but the dynamics of how models change during post-training remain poorly understood. We argue that the physical sciences, and thermodynamic phase-transition theory in particular, offer a principled and underexplored vocabulary for reasoning about these dynamics. As a case study, we instantiate this position through the lens of material Crystallization, which is a well-studied thermodynamic phase transition. For tasks like random number generation, this breaks into 3 phases: (1) the high entropy liquid phase in the pretrained model, with many distinct sampling distributions promptable from the model; (2) the nucleation phase caused by supervised finetuning, in which behavior collapses onto a single seed distribution present in the pretrained LLM; and (3) a settling phase in which reinforcement learning techniques redistribute probability of the collapsed distribution, but largely keep it concentrated on the same options as the seed distribution. We propose intuitive metrics to verify the transitions between these phases, and validate the idea across a range of random tasks. Crystallization is one instance of a broader class of physical frameworks we believe alignment research should import to answer questions about where alignment-induced structure comes from, why it converges where it does, and what it fundamentally cannot change.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.29933v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29933v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "97e74341ad30"
+    },
+    {
+      "title": "ARKD: Adaptive Reinforcement Learning-Guided Bidirectional KL Divergence Distillation for Text Generation",
+      "authors": "Zilong Liu, Xuewen Zhang, Jinrui Xing, Juyi Qiao, Huiyong Wang...",
+      "abstract": "Knowledge distillation (KD) is a key technique for compressing Large Language Models (LLMs), yet methods relying on a single KL objective often fail to balance primary distribution fitting with long-tail probability modeling, limiting both generation quality and generalization. To address this, we analyze the complementary roles of forward and reverse KL divergence (FKL/RKL) in distribution alignment from theoretical and empirical perspectives. We then propose a reinforcement-learning-based adaptive KL-weighted distillation framework, in which a policy network dynamically assigns weights to FKL and RKL based on teacher-student distributional characteristics, guided by immediate reward signals to achieve dual alignment on principal and long-tail modes. Extensive experiments demonstrate consistent improvements across Rouge-L and BertScore metrics, surpassing greedy heuristics by 0.4-0.6 points and outperforming other baseline methods on diverse benchmarks.",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.29869v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.29869v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "543ea1e2c9fe"
+    },
     {
       "title": "Graph neural network-based biomedical misinformation detection with semantic consistency analysis",
       "authors": "Siva Dhievaraj, Agusthiyar Ramu",
@@ -60,6 +228,18 @@
       "venue": "npj Artificial Intelligence",
       "direction": "cell",
       "id": "4efb409cfb1e"
+    },
+    {
+      "title": "SVC-Probe: A Framework for Evaluating Perturbation Generalization in Spatial Foundation-Model Embeddings",
+      "authors": "Jake Y. Chen, Huu Phong Nguyen, Fuad Al Abir, Ehsan Saghapour",
+      "abstract": "This work examines perturbation generalization in spatial foundation-model embeddings derived from fluorescence microscopy images. Although these models can discriminate drug conditions accurately, it remains unclear whether the learned representations reflect patterns consistent with expected perturbation axes that transfer across drugs. We introduce SVC-Probe, a perturbation-aware framework that combines Subcellular Embedding Atlas Stability, Mondrian Neighborhood Graphs, and a Foundation Model Perturbation Probe to assess embedding stability, neighborhood rewiring, and centroid prediction under drug treatment. Applied to the CM4AI MDA-MB-468 chemical-perturbation atlas comprising 462 antibody labels and SubCell 1536-dimensional embeddings, SVC-Probe demonstrates that 98.6% three-way condition accuracy does not correlate with reliable cross-drug prediction, with cosine similarity diminishing from 0.944 in-domain to 0.30 under leave-one-drug-out evaluation, constituting a two-drug stress test rather than a general benchmark. Null calibration indicates that raw residual-turnover coupling is largely influenced by generic embedding structure, whereas a drug-specific signal emerges under vorinostat and is consistent with chromatin-related reorganization. In contrast, the paclitaxel axis is not robustly reconstructed, likely due to sparse coverage of microtubule-associated proteins. Together, these results introduce and demonstrate a reusable diagnostic framework for stress-testing spatial virtual-cell representations and indicate that perturbation generalization may serve as a stricter and more informative benchmark than baseline condition discrimination.",
+      "date": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.28465v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.28465v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "6e7b4bf90143"
     },
     {
       "title": "HPRO: Hierarchical Progressive Reward Optimization via Preference Extraction for Emotional Text-to-Speech",
@@ -552,6 +732,18 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "74775c988ac3"
+    },
+    {
+      "title": "HoloCell: A Generative Foundation Model for Holistic Cellular Modeling",
+      "authors": "Jiang, Q.; Li, Z.; Hu, B.; Bie, Y.; Li, K.; Li, Q.; Jin, P.; He, Y.; Deng, P.; Wang, Z.; Chen, X.; Qin, T.; Liu, H.; Jiang, R.; Yin, Q.",
+      "abstract": "Single-cell multi-omics technologies have recently advanced to enable the profiling of epigenomic, transcriptomic, and proteomic layers within individual cells, offering new opportunities to characterize cellular states as integrated biological systems. However, developing a unified framework that can seamlessly integrate diverse omics modalities and remain robust to heterogeneous modality missingness remains challenging. Existing methods are often designed for specific modalities or modality pairs, relying on dataset-specific training or paired measurements. Here we present HoloCell, to our knowledge the first generative foundation model for joint representation learning and generative modeling across all three major single-cell omics modalities, i.e., epigenomics, transcriptomics, and proteomics. HoloCell contains over 860 million parameters and is pretrained on the Human-Multi-Omics-Corpus, which comprises approximately 468 million single-cell profiles across these three omics layers, corresponding to over 425 billion tokens. HoloCell introduces a a simple yet biologically motivated hierarchical tokenization strategy that encodes cis-regulatory elements, genes, and proteins as structured tokens within a shared modeling framework. We evaluated HoloCell across single-omics representation learning, paired multi-omics integration, unpaired multi-omics alignment, and cross-modal generation via iterative diffusion and remasking, demonstrating its superior performance and flexibility across diverse omics tasks. From a representation perspective, HoloCell provides a unified digital mapping of cellular states across multiple omics layers, capturing cell heterogeneity as an integrated system. From a generation perspective, its iterative diffusion and remasking frame-work permits flexible generation orders beyond fixed left-to-right causality, enabling in silico simulation of multi-omics information flow. Together, these capabilities position HoloCell as a versatile foundation model toward the emerging concept of a virtual cell, offering both systematic characterization and generative simulation of cellular systems within a unified framework.",
+      "date": "2026-06-23",
+      "url": "https://doi.org/10.64898/2026.06.07.730684",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "27ae5e93e3b8"
     },
     {
       "title": "Performance variation and implementation barriers of large language models in clinical healthcare: a systematic review",
