@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-07-04 20:08",
+  "last_updated": "2026-07-05 20:13",
   "papers": [
+    {
+      "title": "Distributed named entity recognition using parallel MapReduce and Stanford NER",
+      "authors": "Voolla Sandeep Kumar",
+      "abstract": "Distributed named entity recognition using parallel MapReduce and Stanford NER occupies a distinctive place in the history of large-scale text analytics. The topic sits at the intersection of classical conditional-random-field sequence labeling, batch-oriented distributed computing, and contemporary demands for corpus-scale information extraction. This review examines recent journal literature relevant to that intersection, particularly the declining visibility of explicit Hadoop MapReduce implementations and the continuing analytical relevance of Stanford-style pipeline design. The review argues that the current literature contains few direct reimplementation of Stanford NER on MapReduce clusters; instead, the most relevant evidence comes from adjacent journal work on scalable biomedical, clinical, and domain-specific entity-extraction systems, which helps explain what aspects of the older architecture remain technically relevant and which have been displaced by Spark-native, toolkit-based, or transformer-based systems. Key themes include batch partitioning, model portability, inference locality, deployment economics, annotation normalization, and the tension between throughput and contextual richness. The review suggests that a major gap is the scarcity of direct peer-reviewed journal studies on Hadoop MapReduce and Stanford NER from 2020 onward. This scarcity is itself evidence of a field shift: away from explicit MapReduce orchestration and toward resource-centered toolchains and high-capacity neural inference.",
+      "date": "2026-07-04",
+      "url": "https://doi.org/10.30574/wjaets.2026.20.1.0318",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "World Journal of Advanced Engineering Technology and Sciences",
+      "direction": "medical",
+      "id": "242199406ffd"
+    },
+    {
+      "title": "Role of Artificial Intelligence in Pharmaceutical Sciences: Recent Advances, Applications, Challenges, and Future Perspectives",
+      "authors": "Avril Candida Mathias, K Kavitha, N Venuka Devi, Devi Sneha M, Aswini PV, ...",
+      "abstract": "Background The global expansion of COVID-19 has made the development of pharmacological drugs a more pressing and important area of study. The expensive and time-consuming process of developing new drug molecules to treat any disease continues unabated. Over the past 20 years, artificial intelligence has substantially improved the performance of industrial and service systems. Expert systems, a rapidly developing technology, are a product of artificial intelligence research. Applications Today, it is commonly used to solve complex problems in a range of fields, including science, engineering, business, medicine, and weather forecasting. Sectors utilizing artificial intelligence technology have seen improvements in quality and efficiency. Utilizing existing data resources and discovering fresh and innovative leads is a crucial aspect of drug design. Following identification of the pharmacological target, numerous multidisciplinary fields collaborate using artificial intelligence (AI) and machine learning (ML) techniques to produce enhanced pharmaceuticals. Scope Artificial intelligence-powered medical technology is swiftly evolving into practical clinical practice-related solutions. This review article illustrates the application of artificial intelligence (AI) to a variety of medical specialties from the perspectives of seven different fields: machine learning, intelligent robotics, image recognition technology, expert systems, artificial neural networks, and evolutionary computation, followed by the potential and existing uses of AI in medicine",
+      "date": "2026-07-03",
+      "url": "https://doi.org/10.25258/ijddt.16.61s.110",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "medical",
+      "id": "a23be97ac801"
+    },
+    {
+      "title": "Role of Artificial Intelligence in Pharmaceutical Sciences: Recent Advances, Applications, Challenges, and Future Perspectives",
+      "authors": "Avril Candida Mathias, K Kavitha, N Venuka Devi, Devi Sneha M, Aswini PV, ...",
+      "abstract": "Background The global expansion of COVID-19 has made the development of pharmacological drugs a more pressing and important area of study. The expensive and time-consuming process of developing new drug molecules to treat any disease continues unabated. Over the past 20 years, artificial intelligence has substantially improved the performance of industrial and service systems. Expert systems, a rapidly developing technology, are a product of artificial intelligence research. Applications Today, it is commonly used to solve complex problems in a range of fields, including science, engineering, business, medicine, and weather forecasting. Sectors utilizing artificial intelligence technology have seen improvements in quality and efficiency. Utilizing existing data resources and discovering fresh and innovative leads is a crucial aspect of drug design. Following identification of the pharmacological target, numerous multidisciplinary fields collaborate using artificial intelligence (AI) and machine learning (ML) techniques to produce enhanced pharmaceuticals. Scope Artificial intelligence-powered medical technology is swiftly evolving into practical clinical practice-related solutions. This review article illustrates the application of artificial intelligence (AI) to a variety of medical specialties from the perspectives of seven different fields: machine learning, intelligent robotics, image recognition technology, expert systems, artificial neural networks, and evolutionary computation, followed by the potential and existing uses of AI in medicine",
+      "date": "2026-07-03",
+      "url": "https://doi.org/10.25258/ijddt.16.61s.110",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "a23be97ac801"
+    },
+    {
+      "title": "If Grid Cells are the Answer, What is the Question? A Review of Normative Grid Cell Theory",
+      "authors": "William Dorrell, James Whittington",
+      "abstract": "For 20 years the beautiful structure in the grid cell code has presented an attractive puzzle: what computation do these representations subserve, and why does it manifest so curiously in neurons. The first question quickly attracted an answer: grid cells subserve path-integration, the ability to keep track of one’s position as you move about the world. Subsequent work has only solidified this link: bottom-up mechanistic models that perform path-integration match the measured neural responses, while experimental perturbations that selectively disrupt grid cell activity impair performance on path-integration dependent tasks. A more controversial area of work has been top-down normative modelling: why has the brain chosen to compute like this? Floods of ink have been spilt attempting to build a precise link between the population’s objective and the measured implementation. The holy grail is a normative link with broad predictive power which generalises to other neural systems. We review this literature and argue that, despite some controversies, the literature largely agrees that grid cells can be explained as a (1) biologically plausible (2) high fidelity, non-linearly decodable code for position that (3) subserves path-integration. As a rare area of neuroscience with mature theoretical and experimental work, this story holds lessons for normative theories of neural computations, and on the risks and rewards of integrating task-optimised neural networks into such theorising.",
+      "date": "2026-07-03",
+      "url": "https://doi.org/10.7554/elife.111058.1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "eLife",
+      "direction": "cell",
+      "id": "b6554d685818"
+    },
     {
       "title": "Artificial intelligence for genomic science: a scoping review of concepts, architectures, applications, and open challenges",
       "authors": "Wellington Francisco Rodrigues, Mariana T. D. Parise, Doglas Parise, Lucas Moraes dos Santos, Priscyla dos Santos Ribeiro, ...",
