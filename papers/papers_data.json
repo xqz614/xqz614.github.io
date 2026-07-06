@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-07-05 20:13",
+  "last_updated": "2026-07-06 20:52",
   "papers": [
+    {
+      "title": "PromptStudio: A Governance-Aware Agentic AI Framework for Automated Prompt Generation, Optimization, Evaluation, and Lifecycle Management",
+      "authors": "C. Swetha, G. Devi",
+      "abstract": "Prompt engineering plays a critical role in the effec-tive use of Large Language Models, but manual prompt design is often inconsistent, difficult to reproduce, and weakly governed. This paper presents PromptStudio, a governance-aware Agentic AI framework for automated prompt generation, optimisation, evaluation, and lifecycle management. The proposed framework integrates specialised agents for prompt generation, optimisa-tion, evaluation, feedback, governance, and orchestration. It also supports Human-in-the-Loop review, prompt versioning, rollback, explainability, and audit logging. A prototype implementation was developed using a FastAPI backend, browser-based dashboard, JSON-based storage, YAML configuration, Gemini API integration through environment variables, and mock-mode execution for offline testing. Experimental evaluation on a software security prompt scenario shows improvement in the prompt score from 0.8575 to 0.9165 while maintaining high safety, format compliance, and governance validation. The results indicate that PromptStudio can transform prompt engineering from an informal manual practice into a structured, measurable, governed, and auditable lifecycle suitable for trustworthy LLM application development.",
+      "date": "2026-07-05",
+      "url": "https://doi.org/10.22214/ijraset.2026.84092",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal for Research in Applied Science and Engineering Technology",
+      "direction": "llm",
+      "id": "b0028f12db7e"
+    },
+    {
+      "title": "Score-Based Diffusion Models for Wireless Channel Synthesis and Data Augmentation in Low-Pilot MIMO Systems",
+      "authors": "Milos Milovančević",
+      "abstract": "High-quality channel estimation in massive multiple-input multiple-output (MIMO) and reconfigurable intelligent surface (RIS)-assisted systems depends critically on the availability of accurate channel state information (CSI), but dense pilot acquisition competes directly with spectral efficiency and latency targets in fifth- and sixth-generation (5G/6G) networks. Score-based diffusion models can synthesize physically plausible wireless channel samples and can also be conditioned on sparse pilot observations to support low-pilot channel estimation. This paper reviews diffusion-based channel synthesis from both a modelling and a receiver-deployment perspective. In addition to denoising diffusion probabilistic models (DDPM), score matching with Langevin dynamics (SMLD), and consistency models, the revised discussion explicitly addresses practical constraints: integration with DM-RS/CSI-RS based receiver pipelines, offline versus online deployment modes, latency budgets imposed by channel coherence time, and hardware limitations at the base-station edge and user equipment. Synthesis fidelity is discussed using normalized mean square error (NMSE), power delay profile (PDP) preservation, spatial correlation preservation, and downstream channel-estimation performance across three types of evidence: stochastic simulation with QuaDRiGa Urban Macro, ray-tracing simulation with DeepMIMO at 28 GHz, and over-the-air measurements from the DICHASUS testbed. The paper further clarifies that results obtained on synthetic, ray-tracing, and real-world datasets are complementary but not directly interchangeable. Computational complexity, inference latency, and robustness risks are therefore treated as central deployment criteria rather than secondary implementation details.",
+      "date": "2026-07-04",
+      "url": "https://doi.org/10.31875/2979-1081.2026.02.06",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of AI-Driven Communication Engineering",
+      "direction": "cell",
+      "id": "b32201d16761"
+    },
     {
       "title": "Distributed named entity recognition using parallel MapReduce and Stanford NER",
       "authors": "Voolla Sandeep Kumar",
