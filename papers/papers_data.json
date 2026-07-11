@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-07-10 20:22",
+  "last_updated": "2026-07-11 20:05",
   "papers": [
+    {
+      "title": "Artificial intelligence-based prognostic modeling in temporomandibular disorders and chronic orofacial pain: a critical conceptual review",
+      "authors": "Mohammad H. Al-Harthy",
+      "abstract": "This conceptual review (ⅰ) analyzes the outcomes predicted, data modalities, modeling approaches, validation strategies, and reporting quality of existing artificial intelligence (AI)-driven prognostic models in temporomandibular disorders (TMD) and chronic orofacial pain (OFP); (ⅱ) identifies enduring methodological and ethical constraints that hinder clinical translation; and (ⅲ) proposes a pragmatic research framework to guide the responsible development of clinically relevant prognostic tools for TMD and OFP. The review covers peer-reviewed and other relevant publications from the previous decade, emphasizing AI or machine-learning (ML) based models for prognosis, outcome prediction, or trajectory modeling in TMD and OFP populations. Established paradigms, including the Transparent Reporting of a multivariable prediction model for individual Prognosis Or Diagnosis plus Artificial Intelligence extension (TRIPOD+ AI) and the Prediction model Risk Of Bias Assessment Tool (PROBAST), were used to assess the literature. Methodologies remain highly inconsistent, and current literature lacks the volume and rigor required for clinical translation. Most AI research has concentrated on diagnostic classification rather than prognostic modeling. Small sample sizes, short follow-up, single-center datasets, omission of psychosocial factors, and a general lack of external validation hamper the few prognostic studies that exist. Most model outputs are neither clinically actionable nor suitable for direct use in treatment decisions, limiting their value for clinicians and their potential impact on patient outcomes. Research applying AI to forecast TMD and OFP remains in its early stages. Without a prognosis-first research design, longitudinal data integration, inclusion of biopsychosocial predictors, and clinically significant outcome objectives, existing models are unlikely to influence clinical practice. Clear research objectives, reporting criteria, and ethical norms must be established before AI-based prognostic models can be confidently adopted in TMD and OFP clinical practice. Future objectives comprise establishing multicenter longitudinal cohorts, conducting trajectory-based modeling, employing federated learning for external validation, and initiating prospective clinical trials to demonstrate clear clinical benefit.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.22514/jofph.2026.049",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Oral & Facial Pain and Headache",
+      "direction": "medical",
+      "id": "c5091c3f049b"
+    },
+    {
+      "title": "RAG-GNN: retrieval-augmented graph neural networks for protein interaction network embeddings",
+      "authors": "Hasi Hays, William J. Richardson",
+      "abstract": "We present RAG-GNN, an end-to-end trainable framework that augments a graph neural network (GNN) encoder for protein interaction networks with a jointly optimized dense retrieval module over a TF-IDF-indexed document corpus, a gated fusion mechanism, and contrastive alignment between node and document representations. The study is positioned as a controlled methodological investigation of whether retrieval augmentation provides measurable benefit beyond a matched GNN-only ablation, rather than as a precision-medicine or therapeutic-target discovery tool. On a cancer signaling case study (379 proteins, 3,498 interactions, 14 pathway categories), RAG-GNN improves functional clustering silhouette from −0.237 ± 0.065 (GNN-only) to −0.144 ± 0.066 (+0.093 ± 0.022 across 10 seeds; ARI +0.021 ± 0.015), while the learned retrieval projection attains mean precision at 10 = 0.242, a 152% relative improvement over a random baseline (0.096). Counterfactual experiments confirm that random and absent retrieval contexts degrade performance, but a shuffled-document control (real documents reassigned to incorrect proteins) performs comparably to proper retrieval, indicating that the gain reflects general biological signal in the aggregate TF-IDF corpus rather than node-specific semantic matching. A heuristic information decomposition with bootstrap confidence intervals shows that topology and retrieval encode overwhelmingly shared information (95.6%), with retrieval contributing primarily by reorganizing this shared signal. Benchmarking against eight embedding methods reveals task-specific complementarity: Topology-focused methods are stronger for link prediction, while retrieval augmentation improves functional clustering within the controlled ablation. A DDR1 subnetwork analysis is reported as confirmatory recovery of biology already present in the input corpus, not as prospective discovery.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.3389/frai.2026.1851917",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "medical",
+      "id": "88814ce0785d"
+    },
+    {
+      "title": "Discovery of novel peptidomimetics against HSP90–HOP interactions towards improved cancer therapeutics using machine learning strategies",
+      "authors": "Sarath Perumal, Ramanathan Karuppasamy",
+      "abstract": "Background The HSP90–HOP interaction orchestrates transfer of client proteins from HSP70 to HSP90, promoting their conformational maturation and stabilisation and thereby sustaining oncogenic signalling. The study explores a promising alternative for cancer chemotherapy by targeting this interface rather than the traditional ATP-binding site, which may circumvent the toxicity associated with classical HSP90 inhibitors. Despite its therapeutic relevance, the HSP90–HOP interface remains underexplored, particularly in the context of structure-guided peptidomimetic inhibitors, highlighting a critical gap in strategies to modulate proteostasis in cancer. Aim This study sought to identify a promising peptidomimetic molecule capable of disrupting the HSP90–HOP interface. Methods A seven-residue template peptide was engineered from a crucial segment of HOP, with hotspot residues identified through in silico mutagenesis. These residues were subsequently employed to retrieve a library of 200 peptidomimetic molecules. An in-house developed classification-based machine learning model served as the primary screening tool to identify potential HSP90–HOP interaction modulators. The shortlisted compounds were subsequently evaluated by molecular docking, binding free energy estimation, machine learning-assisted scoring, and ADMET profiling to ensure structural stability, binding reliability, and pharmacokinetic suitability. This scrutiny resulted in the selection of five lead compounds, with MMs01053537 emerging as a top candidate. Results The ML model achieved an accuracy of 0.9055 and an ROC-AUC of 0.9537, indicating strong predictive performance of the model. The lead molecule MMs01053537 demonstrated a favourable binding score of −85.92 kcal/mol, along with a robust stability profile during molecular dynamics simulations. To further assess the consistency of the predicted binding mode across trajectory-derived conformations, ensemble docking and MD-enhanced binding free-energy analysis, along with statistical evaluation were performed. Conclusion Collectively, these findings position MMs01053537 as a potential candidate for disrupting the HSP90–HOP interaction. However, experimental validation remains essential to confirm its therapeutic potential and support further biological evaluation of the compound.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.3389/fbinf.2026.1847387",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Bioinformatics",
+      "direction": "cell",
+      "id": "3eb098ce891e"
+    },
+    {
+      "title": "Artificial intelligence and automation in enzyme engineering: evolution, advances, and future perspectives",
+      "authors": "Kexin Hao, J C Liu, Hui Tang, Yan Zhang, Yandong Sun, ...",
+      "abstract": "Abstract Natural enzymes often fail to meet industrial demands for catalytic efficiency, stability, and substrate specificity, creating a critical bottleneck in biomanufacturing. This review examines how artificial intelligence (AI) and automation are reshaping enzyme engineering from empirical trial‑and‑error toward data-driven, closed-loop design. We trace AI development from feature-engineered machine learning to supervised deep learning and self-supervised protein language models, and automation from standalone task execution to cascade integration and biofoundry-enabled build-test workflows. Their convergence is analyzed through a stage-based autonomy framework, highlighting the transition from semi-automated workflows to conditional and high-autonomy DBTL systems. Recent studies demonstrate that AI-guided prediction, automated experimentation, and active learning can accelerate enzyme optimization; however, key barriers remain, including biased datasets, limited out-of-distribution generalization, weak mechanistic interpretability, automation interoperability constraints, and unresolved multi-objective trade-offs. We discuss future directions involving FAIR-compliant data infrastructure, hybrid sequence-structure-physics models, modular automation platforms, and autonomous closed-loop systems. By integrating historical evolution, representative case studies, success and failure analysis, and practical bottlenecks, this review provides a roadmap for advancing AI-guided and autonomous enzyme engineering.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1186/s40643-026-01096-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bioresources and Bioprocessing",
+      "direction": "cell",
+      "id": "71bbb459c9fe"
+    },
+    {
+      "title": "mKG-RAG: Leveraging Multimodal Knowledge Graphs in Retrieval-Augmented Generation for Knowledge-intensive VQA",
+      "authors": "Xu Yuan, Liangbo Ning, Qingqing Ye, Wenqi Fan, Qing Li",
+      "abstract": "Retrieval-Augmented Generation (RAG) has emerged as an effective paradigm for expanding the knowledge capacity of Multimodal Large Language Models (MLLMs) by incorporating external knowledge sources into the generation process, and has been widely adopted for knowledge-based Visual Question Answering (VQA). Despite impressive advancements, vanilla RAG-based VQA methods that rely on unstructured documents and overlook the structural relations among knowledge elements frequently introduce irrelevant or misleading content, degrading answer accuracy and reliability. To overcome these challenges, a promising solution is to integrate multimodal knowledge graphs (KGs) into RAG-based VQA frameworks, thereby enhancing generation through structured multimodal knowledge. To this end, this paper proposes mKG-RAG, a novel retrieval-augmented generation framework built upon multimodal KGs for knowledge-intensive VQA tasks. Specifically, mKG-RAG leverages MLLM-driven graph extraction and vision-text matching to distill semantically consistent, modality-complementary entities and relations from multimodal documents, constructing high-quality multimodal KGs as structured knowledge representations. Furthermore, a dual-stage retrieval strategy equipped with a query-aware multimodal retriever is introduced to improve retrieval efficiency while progressively refining precision. Comprehensive experiments demonstrate that our approach significantly outperforms existing approaches and sets new state-of-the-art results for knowledge-based VQA. The code is available at https://github.com/xandery-geek/mKG-RAG.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1145/3805712.3809680",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "llm",
+      "id": "0a6272a3f70e"
+    },
+    {
+      "title": "Artificial intelligence and automation in enzyme engineering: evolution, advances, and future perspectives",
+      "authors": "Kexin Hao, J C Liu, Hui Tang, Yan Zhang, Yandong Sun, ...",
+      "abstract": "Abstract Natural enzymes often fail to meet industrial demands for catalytic efficiency, stability, and substrate specificity, creating a critical bottleneck in biomanufacturing. This review examines how artificial intelligence (AI) and automation are reshaping enzyme engineering from empirical trial‑and‑error toward data-driven, closed-loop design. We trace AI development from feature-engineered machine learning to supervised deep learning and self-supervised protein language models, and automation from standalone task execution to cascade integration and biofoundry-enabled build-test workflows. Their convergence is analyzed through a stage-based autonomy framework, highlighting the transition from semi-automated workflows to conditional and high-autonomy DBTL systems. Recent studies demonstrate that AI-guided prediction, automated experimentation, and active learning can accelerate enzyme optimization; however, key barriers remain, including biased datasets, limited out-of-distribution generalization, weak mechanistic interpretability, automation interoperability constraints, and unresolved multi-objective trade-offs. We discuss future directions involving FAIR-compliant data infrastructure, hybrid sequence-structure-physics models, modular automation platforms, and autonomous closed-loop systems. By integrating historical evolution, representative case studies, success and failure analysis, and practical bottlenecks, this review provides a roadmap for advancing AI-guided and autonomous enzyme engineering.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1186/s40643-026-01096-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bioresources and Bioprocessing",
+      "direction": "llm",
+      "id": "71bbb459c9fe"
+    },
+    {
+      "title": "Multimodal temporal feature fusion for teacher competency assessment and precision training resource recommendation",
+      "authors": "Xue Wang, Wang Lumei",
+      "abstract": "Abstract Assessing teacher competency in a reliable and multidimensional manner remains an open problem, largely because conventional evaluation instruments capture only a fraction of the behavioral repertoire that defines effective instruction. We tackle this challenge by developing an integrated framework that fuses heterogeneous classroom signals—video, audio, transcribed text, and physiological recordings—through modality-specific encoders coupled with a cross-modal attention mechanism. The attention module adaptively re-weights each data stream according to its diagnostic relevance for a given competency dimension, while a hierarchical temporal component jointly models short-term pedagogical adjustments and long-term professional growth trajectories. Competency scores are formulated as a continuous regression task (evaluated via RMSE and MAE) and simultaneously discretized into ordinal proficiency levels for classification-based evaluation (accuracy and F1-score), thereby addressing both assessment perspectives within a unified multi-task objective. A knowledge graph–enhanced recommendation engine then maps diagnosed competency gaps onto targeted training resources. Experiments conducted on multimodal recordings from 856 teachers across 15 schools demonstrate that our model reaches 0.834 classification accuracy and 0.312 RMSE, outperforming all baselines on each of the seven evaluation dimensions. The recommendation module attains 0.478 Precision@5, a 13.0% relative gain over the strongest knowledge-graph baseline. Ablation analyses confirm that every architectural component contributes measurably; removing temporal modeling alone reduces accuracy by 7.1 percentage points. Taken together, these results establish a closed-loop, interpretable pipeline from diagnostic assessment to actionable professional development pathways.",
+      "date": "2026-07-09",
+      "url": "https://doi.org/10.1038/s41598-026-60324-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "008e6fcfae6c"
+    },
     {
       "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
       "authors": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang...",
@@ -288,6 +372,18 @@
       "venue": "International Journal of Advanced Research in Science Communication and Technology",
       "direction": "llm",
       "id": "4014b282b182"
+    },
+    {
+      "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
+      "authors": "Yotam Wolf, Noam Wies, Amnon Shashua",
+      "abstract": "Training large language models (LLMs) with extended reasoning has enabled in-context search, in which models iteratively generate, critique, and revise solution attempts. We provide a theoretical analysis of in-context search by modeling it as approximate inference over reasoning traces, where the base model defines a prior and self-reflection provides feedback for posterior updates, and study the resulting inference-time sampling complexity - the number of sequential attempts needed to achieve high success probability. We show that when reflections reliably localize early mistakes, in-context search can yield exponential improvements over the base model, solving problems with exponentially small zero-shot pass rates using only a polynomial number of sequential attempts, whereas when this property fails, conditioning on past attempts offers no asymptotic benefit over parallel sampling. We further show that these gains are robust and learnable: approximate posterior updates suffice, and cross-entropy training on search rollouts recovers the required behavior with polynomial sample complexity. Finally, we show that under a stagewise abstraction of reinforcement learning with verifiable rewards, the optimal policy extension implements the same posterior reweighting rule. We validate key qualitative predictions of the theory on real large reasoning models.",
+      "date": "2026-07-07",
+      "url": "https://arxiv.org/abs/2607.06720v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.06720v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "79742053415d"
     },
     {
       "title": "Ad Headline Generation using Self-Critical Masked Language Model",
@@ -720,6 +816,18 @@
       "venue": "International Journal for Research in Applied Science and Engineering Technology",
       "direction": "llm",
       "id": "b0028f12db7e"
+    },
+    {
+      "title": "Unbalanced Perturbation Dynamics For Cell Fate Design",
+      "authors": "Peng, Q.; Wang, Y.; Li, J.; Wang, X.; Xiao, Y.; Zhou, P.",
+      "abstract": "Large-scale single-cell perturbation sequencing provides an unprecedented opportunity to construct virtual cells for the in silico simulation of cellular responses and the inverse design of optimal interventions. However, most perturbation-response models treat cellular responses primarily as mass-preserving shifts in transcriptomic state, whereas single-cell perturbation measurements are inherently unbalanced: the recovered endpoint population is shaped by technical sampling as well as biological perturbation-induced proliferation, apoptosis and selection. Here we introduce U-Pert, an unbalanced generative framework that learns condition- and context-dependent perturbation dynamics from unpaired single-cell snapshots. U-Pert jointly models transcriptomic state transitions and cell-number dynamics, enabling scalable and robust forward prediction of unseen perturbations and contexts, as well as inverse design to screen for desired genetic or pharmacological interventions that achieve user-defined transcriptomic or population-level outcomes. Across controlled simulations, genetic perturbation benchmarks, sciPlex3 drug responses and PBMC cytokine perturbations, U-Pert predicts unseen responses, captures both molecular and abundance changes, and performs inverse design for target gene-expression programs and cell-type compositions. These results show that cell abundance is an integral component of the perturbation phenotype, providing a mass-aware framework for virtual-cell modeling and perturbation cell fate design.",
+      "date": "2026-07-04",
+      "url": "https://doi.org/10.64898/2026.06.30.735555",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "5ef254a1d17c"
     },
     {
       "title": "Score-Based Diffusion Models for Wireless Channel Synthesis and Data Augmentation in Low-Pilot MIMO Systems",
@@ -11907,130 +12015,6 @@
       "venue": "Journal of Imaging Informatics in Medicine",
       "direction": "medical",
       "id": "ffef4d64c857"
-    },
-    {
-      "title": "Advances in the Application of Deep Learning for Antimicrobial Peptide Screening",
-      "authors": "Yuting Fu",
-      "abstract": "The problem of bacterial resistance to antibiotics is becoming more and more serious, and it is urgent to develop new antibacterial drugs to cope with this situation. Antimicrobial peptides (AMPs) are a group of natural peptides with advantages including broad-spectrum antibacterial activity and a low tendency to induce resistance, and have become attractive alternatives to antibiotics. However, their broad application is constrained by the inefficiency and high cost of conventional screening methods. Recently, deep learning (DL) has enabled more streamlined identification, design, and prediction of AMP activity through advanced data processing and pattern recognition. A few review articles have previously summarized the application of machine learning (ML) in the identification of antimicrobial peptides, but none of them have detailed the latest advancements in DL. In this review, the latest AMP classification and screening approaches achieved by DL techniques are surveyed. First, the biological background of AMPs is introduced, followed by current applications of antimicrobial peptides in industry and medical treatment. The most popular DL techniques are explained, and state-of-the-art research based on these techniques for classifying antimicrobial peptides and designing novel peptide sequences is highlighted. Finally, the limitations and challenges of AMP prediction are discussed.",
-      "date": "2026-04-02",
-      "url": "https://doi.org/10.62762/asfp.2026.121905",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Agricultural Science and Food Processing",
-      "direction": "cell",
-      "id": "6667a5028c07"
-    },
-    {
-      "title": "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning",
-      "authors": "Bangji Yang, Hongbo Ma, Jiajun Fan, Ge Liu",
-      "abstract": "Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning quality or require complex training pipelines. We introduce Batched Contextual Reinforcement, a minimalist, single-stage training paradigm that unlocks efficient reasoning through a simple structural modification: training the model to solve N problems simultaneously within a shared context window, rewarded purely by per-instance accuracy. This formulation creates an implicit token budget that yields several key findings: (1) We identify a novel task-scaling law: as the number of concurrent problems N increases during inference, per-problem token usage decreases monotonically while accuracy degrades far more gracefully than baselines, establishing N as a controllable throughput dimension. (2) BCR challenges the traditional accuracy-efficiency trade-off by demonstrating a \"free lunch\" phenomenon at standard single-problem inference. Across both 1.5B and 4B model families, BCR reduces token usage by 15.8% to 62.6% while consistently maintaining or improving accuracy across five major mathematical benchmarks. (3) Qualitative analyses reveal emergent self-regulated efficiency, where models autonomously eliminate redundant metacognitive loops without explicit length supervision. (4) Crucially, we empirically demonstrate that implicit budget constraints successfully circumvent the adversarial gradients and catastrophic optimization collapse inherent to explicit length penalties, offering a highly stable, constraint-based alternative for length control. These results prove BCR practical, showing simple structural incentives unlock latent high-density reasoning in LLMs.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.02322v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02322v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "f837b09e3c1c"
-    },
-    {
-      "title": "De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules",
-      "authors": "Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar...",
-      "abstract": "Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of source documents into structured Markdown; LLM-driven semantic decomposition into structured rule units; multi-criteria LLM-as-a-judge evaluation across 19 dimensions spanning metadata, definitions, and rule semantics; and iterative repair of low-scoring extractions within a bounded regeneration budget, where upstream components are repaired before rule units are evaluated. We evaluate De Jure across four models on three regulatory corpora spanning finance, healthcare, and AI governance. On the finance domain, De Jure yields consistent and monotonic improvement in extraction quality, reaching peak performance within three judge-guided iterations. De Jure generalizes effectively to healthcare and AI governance, maintaining high performance across both open- and closed-source models. In a downstream compliance question-answering evaluation via RAG, responses grounded in De Jure extracted rules are preferred over prior work in 73.8% of cases at single-rule retrieval depth, rising to 84.0% under broader retrieval, confirming that extraction fidelity translates directly into downstream utility. These results demonstrate that explicit, interpretable evaluation criteria can substitute for human annotation in complex regulatory domains, offering a scalable and auditable path toward regulation-grounded LLM alignment.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.02276v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02276v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "6097c1b8e39b"
-    },
-    {
-      "title": "Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model",
-      "authors": "Jaemin Kim, Jae O Lee, Sumyeong Ahn, Seo Yeon Park",
-      "abstract": "Retrieval-Augmented Language Models (RALMs) have demonstrated significant potential in knowledge-intensive tasks; however, they remain vulnerable to performance degradation when presented with irrelevant or noisy retrieved contexts. Existing approaches to enhance robustness typically operate via coarse-grained parameter updates at the layer or module level, often overlooking the inherent neuron-level sparsity of Large Language Models (LLMs). To address this limitation, we propose Neuro-RIT (Neuron-guided Robust Instruction Tuning), a novel framework that shifts the paradigm from dense adaptation to precision-driven neuron alignment. Our method explicitly disentangles neurons that are responsible for processing relevant versus irrelevant contexts using attribution-based neuron mining. Subsequently, we introduce a two-stage instruction tuning strategy that enforces a dual capability for noise robustness: achieving direct noise suppression by functionally deactivating neurons exclusive to irrelevant contexts, while simultaneously optimizing targeted layers for evidence distillation. Extensive experiments across diverse QA benchmarks demonstrate that Neuro-RIT consistently outperforms strong baselines and robustness-enhancing methods.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.02194v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02194v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "7972760a684e"
-    },
-    {
-      "title": "Adam's Law: Textual Frequency Law on Large Language Models",
-      "authors": "Hongyuan Adam Lu, Z. L., Victor Wei, Zefan Zhang, Zhao Hong...",
-      "abstract": "While textual frequency has been validated as relevant to human cognition in reading speed, its relatedness to Large Language Models (LLMs) is seldom studied. We propose a novel research direction in terms of textual data frequency, which is an understudied topic, to the best of our knowledge. Our framework is composed of three units. First, this paper proposes Textual Frequency Law (TFL), which indicates that frequent textual data should be preferred for LLMs for both prompting and fine-tuning. Since many LLMs are closed-source in their training data, we propose using online resources to estimate the sentence-level frequency. We then utilize an input paraphraser to paraphrase the input into a more frequent textual expression. Next, we propose Textual Frequency Distillation (TFD) by querying LLMs to conduct story completion by further extending the sentences in the datasets, and the resulting corpora are used to adjust the initial estimation. Finally, we propose Curriculum Textual Frequency Training (CTFT) that fine-tunes LLMs in an increasing order of sentence-level frequency. Experiments are conducted on our curated dataset Textual Frequency Paired Dataset (TFPD) on math reasoning, machine translation, commonsense reasoning and agentic tool calling. Results show the effectiveness of our framework.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.02176v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02176v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e44c1c86e629"
-    },
-    {
-      "title": "MTI: A Behavior-Based Temperament Profiling System for AI Agents",
-      "authors": "Jihoon Jeong",
-      "abstract": "AI models of equivalent capability can exhibit fundamentally different behavioral patterns, yet no standardized instrument exists to measure these dispositional differences. Existing approaches either borrow human personality dimensions and rely on self-report (which diverges from actual behavior in LLMs) or treat behavioral variation as a defect rather than a trait. We introduce the Model Temperament Index (MTI), a behavior-based profiling system that measures AI agent temperament across four axes: Reactivity (environmental sensitivity), Compliance (instruction-behavior alignment), Sociality (relational resource allocation), and Resilience (stress resistance). Grounded in the Four Shell Model from Model Medicine, MTI measures what agents do, not what they say about themselves, using structured examination protocols with a two-stage design that separates capability from disposition. We profile 10 small language models (1.7B-9B parameters, 6 organizations, 3 training paradigms) and report five principal findings: (1) the four axes are largely independent among instruction-tuned models (all |r| < 0.42); (2) within-axis facet dissociations are empirically confirmed -- Compliance decomposes into fully independent formal and stance facets (r = 0.002), while Resilience decomposes into inversely related cognitive and adversarial facets; (3) a Compliance-Resilience paradox reveals that opinion-yielding and fact-vulnerability operate through independent channels; (4) RLHF reshapes temperament not only by shifting axis scores but by creating within-axis facet differentiation absent in the unaligned base model; and (5) temperament is independent of model size (1.7B-9B), confirming that MTI measures disposition rather than capability.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.02145v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02145v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "af6f96119613"
-    },
-    {
-      "title": "From Guessing to Placeholding: A Cost-Theoretic Framework for Uncertainty-Aware Code Completion",
-      "authors": "Liang Zhu, Haolin Chen, Lidong Zhao, Xian Wu",
-      "abstract": "While Large Language Models (LLMs) have demonstrated exceptional proficiency in code completion, they typically adhere to a Hard Completion (HC) paradigm, compelling the generation of fully concrete code even amidst insufficient context. Our analysis of 3 million real-world interactions exposes the limitations of this strategy: 61% of the generated suggestions were either edited after acceptance or rejected despite exhibiting over 80% similarity to the user's subsequent code, suggesting that models frequently make erroneous predictions at specific token positions. Motivated by this observation, we propose Adaptive Placeholder Completion (APC), a collaborative framework that extends HC by strategically outputting explicit placeholders at high-entropy positions, allowing users to fill directly via IDE navigation. Theoretically, we formulate code completion as a cost-minimization problem under uncertainty. Premised on the observation that filling placeholders incurs lower cost than correcting errors, we prove the existence of a critical entropy threshold above which APC achieves strictly lower expected cost than HC. We instantiate this framework by constructing training data from filtered real-world edit logs and design a cost-based reward function for reinforcement learning. Extensive evaluations across 1.5B--14B parameter models demonstrate that APC reduces expected editing costs from 19% to 50% while preserving standard HC performance. Our work provides both a theoretical foundation and a practical training framework for uncertainty-aware code completion, demonstrating that adaptive abstention can be learned end-to-end without sacrificing conventional completion quality.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.01849v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01849v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "afe951a0fee7"
-    },
-    {
-      "title": "DEFT: Distribution-guided Efficient Fine-Tuning for Human Alignment",
-      "authors": "Liang Zhu, Feiteng Fang, Yuelin Bai, Longze Chen, Zhexiang Zhang...",
-      "abstract": "Reinforcement Learning from Human Feedback (RLHF), using algorithms like Proximal Policy Optimization (PPO), aligns Large Language Models (LLMs) with human values but is costly and unstable. Alternatives have been proposed to replace PPO or integrate Supervised Fine-Tuning (SFT) and contrastive learning for direct fine-tuning and value alignment. However, these methods still require voluminous data to learn preferences and may weaken the generalization ability of LLMs. To further enhance alignment efficiency and performance while mitigating the loss of generalization ability, this paper introduces Distribution-guided Efficient Fine-Tuning (DEFT), an efficient alignment framework incorporating data filtering and distributional guidance by calculating the differential distribution reward based on the output distribution of language model and the discrepancy distribution of preference data. A small yet high-quality subset is filtered from the raw data using a differential distribution reward, which is then incorporated into existing alignment methods to guide the model's output distribution. Experimental results demonstrate that the methods enhanced by DEFT outperform the original methods in both alignment capability and generalization ability, with significantly reduced training time.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.01787v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.01787v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9a8252c4057e"
-    },
-    {
-      "id": "sample_med_001",
-      "title": "AgentMD: A Multi-Agent Framework for Clinical Decision Support with Retrieval-Augmented Reasoning",
-      "authors": "Zhang, Y., Wang, L., Chen, X., Liu, H., et al.",
-      "abstract": "We present AgentMD, a novel multi-agent framework designed for clinical decision support. Our system integrates retrieval-augmented generation with structured clinical reasoning to provide evidence-based diagnostic suggestions. The framework employs specialized agents for symptom analysis, medical knowledge retrieval, and differential diagnosis generation, coordinated through a meta-agent that ensures clinical safety constraints. Experiments on three clinical benchmarks demonstrate significant improvements over existing approaches.",
-      "date": "2026-04-02",
-      "url": "https://arxiv.org/abs/2604.00001",
-      "pdf_url": "https://arxiv.org/pdf/2604.00001",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "medical",
-      "analysis": {
-        "abstract_translation": "我们提出了AgentMD，一个新颖的多智能体框架，专为临床决策支持而设计。该系统将检索增强生成与结构化临床推理相结合，提供基于证据的诊断建议。该框架采用专门的智能体进行症状分析、医学知识检索和鉴别诊断生成，通过一个元智能体进行协调，确保临床安全约束。在三个临床基准测试上的实验表明，该方法较现有方法有显著改进。",
-        "motivation": "a) 作者提出该方法的驱动力在于：当前的医疗对话系统在复杂临床场景中缺乏系统化的推理能力，单一模型难以同时处理知识检索、症状分析和诊断推理等多维度任务。\n\nb) 现有方法的痛点包括：(1) 单智能体架构在处理复杂临床决策时容易产生幻觉；(2) 缺乏对临床安全约束的显式建模；(3) 检索增强方法与临床推理的结合不够紧密。\n\nc) 核心假设：通过将临床决策分解为多个专业化子任务，并由不同智能体协同完成，可以提高诊断的准确性和安全性。",
-        "method_design": "a) 方法流程：\n输入：患者症状描述和病史 → 症状分析智能体提取结构化症状信息 → 知识检索智能体从医学知识库中检索相关证据 → 诊断推理智能体基于症状和证据生成鉴别诊断列表 → 元智能体进行安全性检查和最终决策 → 输出：排序的诊断建议及支持证据。\n\nb) 模型结构包含四个核心模块：症状分析模块（基于NER和关系抽取）、知识检索模块（基于RAG架构）、诊断推理模块（基于Chain-of-Thought推理）、元协调模块（安全约束检查）。\n\nc) 关键算法：使用加权投票机制整合多个智能体的输出，权重由置信度分数和历史准确率动态调整。",
-        "comparison": "a) 与现有方法的本质区别在于：采用多智能体协作而非单一模型，实现了临床推理的模块化和可解释性。\n\nb) 创新点：(1) 首次将多智能体框架应用于临床决策支持；(2) 引入元智能体进行安全约束检查；(3) 设计了临床特定的检索增强策略。\n\nc) 适用场景：复杂的多症状鉴别诊断、需要多步推理的临床决策。\n\nd) 方法对比：\n| 方法 | 优点 | 缺点 | 改进点 |\n|------|------|------|--------|\n| 单智能体LLM | 简单高效 | 易产生幻觉 | 缺乏安全约束 |\n| RAG方法 | 有证据支持 | 推理能力弱 | 检索质量依赖 |\n| AgentMD | 模块化、可解释 | 计算开销大 | 多智能体协调 |",
-        "experiments": "a) 在MedQA、DDXPlus和自建临床数据集上进行评估。\n\nb) 关键结果：在MedQA上准确率达到78.3%，超过GPT-4基线5.2个百分点。\n\nc) 在复杂多症状场景下优势最为明显，鉴别诊断准确率提升12%。\n\nd) 局限性：计算开销较大，推理延迟约为单模型的3倍；对罕见病的覆盖不足。",
-        "application": "a) 论文代码已开源。关键实现步骤：配置医学知识库、训练各专业智能体、设置元智能体协调规则。\n\nb) 关键超参数：检索文档数量k=5、智能体间通信轮数T=3、安全阈值τ=0.8。\n\nc) 可迁移到法律咨询、金融分析等需要多步专业推理的领域。",
-        "summary": "a) 多智能体协作实现安全可解释的临床诊断。\n\nb) 速记版pipeline：",
-        "pipeline_steps": [
-          "提取患者症状结构化信息",
-          "从医学知识库检索相关证据",
-          "多智能体分别推理并生成诊断",
-          "元智能体安全检查与结果整合",
-          "输出排序诊断建议及证据"
-        ]
-      }
     }
   ]
 }
