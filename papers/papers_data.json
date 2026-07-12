@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-07-11 20:05",
+  "last_updated": "2026-07-12 20:06",
   "papers": [
+    {
+      "title": "Modeling multidimensional perceived risk in HIV-related social media: a multi-label transformers framework with longitudinal analysis",
+      "authors": "Abdollah Abadian, Abdullah, Zulaikha Fatima, Carlos Guzmán Sánchez Mejorada, Miguel Torres-Ruiz, ...",
+      "abstract": "This paper presents a supervised multi-label framework for detecting multidimensional perceived risk in HIV-related Reddit discourse. A longitudinal corpus of 329,707 texts collected from r/hivaids and r/HIV between 2015 and 2025 was analyzed to identify three risk dimensions: transmission risk, health deterioration risk, and social stigma risk. A stratified sample of 2,000 texts was annotated by domain experts, achieving substantial inter-annotator agreement (Cohen’s κ = 0.74–0.81). A RoBERTa-base model was fine-tuned using class-weighted binary cross-entropy loss and per-class threshold optimization. The proposed model achieved a macro-F1 score of 0.87 and a macro-AUC-ROC of 0.97, outperforming 12 baseline models, including traditional machine learning, neural network, and alternative transformer-based approaches. Ablation experiments confirmed the importance of transformer fine-tuning and class weighting, while also showing that handcrafted features provided only marginal gains. Applied to the full corpus, the model revealed significant upward trends in transmission risk and health deterioration risk, strong co-occurrence between transmission and stigma-related discourse, and distinct information-seeking patterns across risk categories. The findings demonstrate that transformer-based multi-label learning can support scalable, reproducible analysis of HIV-related health perceptions in online communities, with potential applications in public health surveillance, communication strategy design, and digital intervention planning.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1038/s41598-026-61101-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "e246cc3f266d"
+    },
+    {
+      "title": "CNN-Assisted Growth Monitoring and Stress Management of Cucumber in Semi-Transparent PV Greenhouses for Agrivoltaics",
+      "authors": "Amuthakkannan Rajakannu, Dinesh Keloth kaithari, Vishnupriyan S, Abubacker KM, Ayya ppadas",
+      "abstract": "Currently operating commercial Photovoltaics (PV) systems combined with agricultural production (Agrivoltaics) have the ability to harvest renewable energy and crop products simultaneously. In Controlled Environment Agriculture (CEA), using Semi-Transparent Photovoltaics (ST-PV) and the ability to micro-manage climate and shadowing are advantageous for the production of high-value crops like cucumber. This study targeted the start of the cultivation of cucumber seedlings under evolving CEA-PV systems coupled with the incorporation of greenhouse experiments and computer-vision driven phenotyping to build an analytical and control framework for cucumber cultivation in an evolving CEA-PV system. This method implemented the control of cucumber plant shading and irrigation in real time using monitored plant vigor. Shading and irrigation control relied on monitored plant vigor assessed using a U-Net++ implementation for canopy segmentation, an EfficientNet-B3 implementation for stress differentiation, and a CNN regressor for growth trait evaluation. Uniform environmental and fertigation conditions were achieved in the greenhouse to study the effects of four shading conditions (0%, 20%, 40%, 60%) on cucumber growth. Simulated, yet realistic results depicted cucumber yield as relatively stable (within ± 4% of full yield) with 20% shading and a 15-20% reduction in evaporation and yield loss as a result of 10-14% to 40-60% shading. The CNN-based models proved to be highly reliable (segmentation IoU 0.91, stress-class F1 0.92, LAI regression R²≈0.93), which enabled precise and extensive monitoring in a non-invasive manner. The greenhouse’s annual PV Yield of 1,550 to 1,750kWh/kWp shows the greenhouse has a higher photo-demand than the PV output, therefore providing a net energy surplus. The results suggest it is possible to combine a cucumber crop with a controlled environment agrovoltaic system with moderate shading to maximize cucumber yield. Also, aided control by Artificial Intelligence (AI) through the closed-loop control system has been proven to optimize the water-use efficiency and yield stability.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.14445/23488379/ijeee-v13i6p108",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Electrical and Electronics Engineering",
+      "direction": "cell",
+      "id": "e8ed0c5443cc"
+    },
+    {
+      "title": "Towards Conversational Dataset Retrieval: A Survey",
+      "authors": "Lisa-Yao Gan, Johanna Walker, Elena Simperl, Klaus Diepold",
+      "abstract": "Abstract Large language models (LLMs) have sparked renewed interest in Conversational Information Retrieval (CIR). Within this shift, Conversational Dataset Retrieval (CDR) is emerging as a new subfield that focuses on using natural, context-aware dialogue to discover structured and semi-structured datasets. We present the first integrative review of this rapidly evolving landscape. We synthesise insights from 44 publications spanning user studies, conversational system design choices, dataset representation and access, and evaluation methods. We introduce a novel, layered conceptual framework that organizes research in CDR across four key dimensions: User Layer, System Layer, Data Layer, and Evaluation Layer. This framework is used to highlight recurring design patterns, technical advances, and persistent gaps. Our analysis identifies core challenges in CDR, including the lack of standardized evaluation benchmarks and limited support for ambiguous or evolving user intent. The aim of this survey is to provide a structured foundation for future research on CDR and guide the development of more interactive, intelligent, and user-centric dataset retrieval systems.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1007/s10796-026-10777-5",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Information Systems Frontiers",
+      "direction": "llm",
+      "id": "8deed95aab7e"
+    },
+    {
+      "title": "A Conceptual Framework for Artificial Intelligence Combining Buddhism and the Free Energy Principle",
+      "authors": "Yasunari Miyagi, Yoko Tateishi, Moe Yorozu, Takehi Yamagata",
+      "abstract": "Remarkable advancements in artificial intelligence (AI) have been made in recent years. There is a theory that brain activity in humans is based on the free energy principle, which is a comprehensive theory that attempts to explain the structure and function of cognition and the brain’s behavior. For any self-organized system to be in equilibrium within its environment, the agent performs active inference to minimize the system’s informational free energy and reduce the prediction error from the current presumption. On the other hand, the theory based on the vijñapti-mātratā of Buddhist philosophy explains consciousness through a multilayered structure comprising manifestation and information storage and seems to result in a certain degree of compatibility with AI systems that perform calculations and store information. Therefore, an AI that integrates the vijñapti-mātratā philosophy with the free energy principle could achieve performance, enabling us to perceive not only knowledge but also actions that include human-like emotional expressions. We hereby report that an AI system theory that integrates the theory of vijñapti-mātratā with the principle of free energy.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.66311/3069-2237.02.03.01",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Digital Humanities Social Science and Cultural Preservation",
+      "direction": "llm",
+      "id": "2b25040f22a3"
+    },
+    {
+      "title": "Clinically grounded retinal representation learning from minimal supervision",
+      "authors": "Boa Jang, Youngbin Ahn, Eun Kyung Choe, Chang Ki Yoon, J H Choi, ...",
+      "abstract": "Early detection of retinal abnormalities is critical for preventing avoidable vision loss, yet large-scale screening programs face challenges including limited specialist availability, heterogeneous imaging conditions, and sparse disease annotations. In routine practice, the primary screening decision is not disease subtyping but whether a fundus image is normal or abnormal, suggesting that binary supervision may provide a clinically grounded and scalable training signal for retinal representation learning. We developed M-FunFound, a clinically grounded retinal representation learning framework pretrained on binary abnormality labels from routine ophthalmic screening. The model was pretrained on 113,645 real-world fundus images and evaluated across three downstream tasks. Abnormality classification was evaluated on both internal and external datasets (JSIEC and RFMiD), while multi-label disease classification and vessel segmentation were evaluated on our internal multi-label dataset and FIVES dataset, respectively. For each task, M-FunFound was compared with models pretrained on ImageNet, FLAIR, and RETFound. M-FunFound achieved AUCs of 0.945 (internal), 0.958 (JSIEC), and 0.829 (RFMiD) for binary abnormality classification, the highest weighted F1-score (0.725) across eight disease categories in multi-label classification, and the highest Dice score for vessel segmentation (0.853). These findings suggest that binary abnormality supervision can support robust and transferable retinal representation learning while substantially reducing annotation burden in real-world screening settings.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1038/s41598-026-60067-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "2956a9217a0d"
+    },
+    {
+      "title": "AI-guided identification of natural CTSL inhibitors with therapeutic potential for renal injury",
+      "authors": "Feier Ma, Qi Li, Sirui Zhou, Xiaoya Li, Jin‐Kui Yang",
+      "abstract": "Cathepsin L (CTSL) is a prominent therapeutic target for kidney injury, yet clinically available CTSL inhibitors remain limited. Here, we developed an artificial intelligence (AI)-assisted discovery strategy to identify novel CTSL inhibitors from a natural products library. Through a robust deep learning model and molecular docking, we screened 200 molecules from natural products library for experimental validation. Active candidates were further analyzed by molecular dynamics simulations to characterize binding modes and key CTSL-ligand interaction networks, followed by evaluation of therapeutic efficacy in kidney injury-relevant models. At a concentration of 100 µM, we found that 43 of them exhibited more than 50% inhibition of CTSL. Notably, nine molecules displayed over 90% inhibition and exhibited concentration-dependent effects. Molecular dynamics simulations indicated that Kuwanon G (KG), Iberverin, and Wighteone stably bind within the CTSL active site. In human renal cells, KG attenuated high glucose and high lipid induced inflammatory and injury responses. Collectively, these findings identify new CTSL inhibitors with therapeutic potential for renal injury and underscore the utility of AI-assisted strategies in accelerating drug discovery.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014464",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "PLoS Computational Biology",
+      "direction": "cell",
+      "id": "a0204b3742c9"
+    },
+    {
+      "title": "An urban functional zone classification framework based on graph adaptive propagation network",
+      "authors": "Xin Yang, X Zhao, Jinfeng Zhou, Rong Huang",
+      "abstract": "Urban functional zone (UFZ) classification is fundamental to urban planning and precision management of cities. Urban functions emerge from multi-scale spatial interactions, where both local dependencies and long-range structural associations coexist with varying importance. However, existing studies typically focus on local dependencies, while only a few consider long-range structural associations between UFZs, and even these fail to differentiate the two spatial interactions, thereby missing their heterogeneous influence patterns. To address this, we propose a Graph Adaptive Propagation Network (GAPN) utilizing a dual-branch architecture to integrate POIs and street-view imagery. GAPN adaptively aggregates multiscale features on a shared graph, learning weights to balance local and long-range dependencies, before selectively fusing modalities via a cross-modal gating mechanism. Additionally, a graph-diffusion attribution scheme ensures interpretability by quantifying multi-hop contributions. Evaluations in Qingdao's Shinan District achieved an accuracy of 0.840 (0.790 Kappa), outperforming baselines, while retraining and validation in Beijing's Chaoyang District (OA = 0.826) confirmed the framework's applicability to other urban contexts.",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s41598-026-61603-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "d9b1a793afaa"
+    },
     {
       "title": "Artificial intelligence-based prognostic modeling in temporomandibular disorders and chronic orofacial pain: a critical conceptual review",
       "authors": "Mohammad H. Al-Harthy",
@@ -11916,105 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "24d5ffcd4101"
-    },
-    {
-      "title": "Rubrics to Tokens: Bridging Response-level Rubrics and Token-level Rewards in Instruction Following Tasks",
-      "authors": "Tianze Xu, Yanzhao Zheng, Pengrui Lu, Lyumanshan Ye, Yong Wu...",
-      "abstract": "Rubric-based Reinforcement Learning (RL) has emerged as a promising approach for aligning Large Language Models (LLMs) with complex, open-domain instruction following tasks. However, existing methods predominantly rely on response-level rewards, introducing severe reward sparsity and reward ambiguity problems. To address these issues, we propose Rubrics to Tokens (RTT), a novel rubric-based RL framework that bridges coarse response-level scores and fine-grained token-level credit assignment. RTT introduces a Token-Level Relevance Discriminator to predict which tokens in the response are responsible for a specific constraint, and optimizes the policy model via RTT-GRPO, which integrates response-level and token-level advantages within a unified framework. Furthermore, when transitioning from one-dimensional, outcome-level reward to three-dimensional reward space in the token-level rubric-based RL, we propose a novel group normalization method, called Intra-sample Token Group Normalization, to accommodate this shift. Extensive experiments and benchmarks demonstrate that RTT consistently outperforms other baselines in both instruction- and rubric-level accuracy across different models.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.02795v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02795v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "044a7d01932b"
-    },
-    {
-      "title": "Reinforcement Learning-based Knowledge Distillation with LLM-as-a-Judge",
-      "authors": "Yiyang Shen, Lifu Tu, Weiran Wang",
-      "abstract": "Reinforcement Learning (RL) has been shown to substantially improve the reasoning capability of small and large language models (LLMs), but existing approaches typically rely on verifiable rewards, hence ground truth labels. We propose an RL framework that uses rewards from an LLM that acts as a judge evaluating model outputs over large amounts of unlabeled data, enabling label-free knowledge distillation and replacing the need of ground truth supervision. Notably, the judge operates with a single-token output, making reward computation efficient. When combined with verifiable rewards, our approach yields substantial performance gains across math reasoning benchmarks. These results suggest that LLM-based evaluators can produce effective training signals for RL fine-tuning.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.02621v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.02621v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "1ab7d8973b3a"
-    },
-    {
-      "title": "Abstract 4187: scOncoNet: Dual-graph attention network for program-aware <i>in-silico</i> gene perturbation in single-cell cancer data",
-      "authors": "Tingyi Li, Yuanyuan Shen, Bin Baek, Xiaoqing Yu, Xuefeng Wang",
-      "abstract": "Abstract Identifying genes that functionally drive malignant programs in single-cell tumors remains difficult, particularly when CRISPR or Perturb-seq data are unavailable. Co-expression alone cannot separate correlation from regulatory influence, and existing analyses lack a framework that connects global molecular networks with patient-specific cellular programs. Current single-cell foundation models largely rely on gene-gene relationships while making limited use of the cell-cell structure intrinsic to tumor ecosystems. To address these gaps, we developed scOncoNet, a lightweight dual-graph attention network that integrates gene-gene and cell-cell structure, malignant meta-program supervision, and gene-to-program attribution to enable program-aware estimation of gene influence directly from patient scRNA-seq data. The model incorporates PPI networks to provide global molecular context for the gene encoder and constructs a program-aware cell graph blending local transcriptomic similarity with malignant program similarity. A two-layer architecture jointly learns gene and cell embeddings, with an attention mechanism that adaptively reweights cell-cell edges to highlight biologically meaningful transitions such as EMT or hypoxia. A program-prediction module anchors the cell embedding space to malignant programs, and gene impact scores combine PPI-informed gene embeddings with gradients that quantify each gene’s influence on these programs, generating a mechanistic estimate of its potential effect on malignant states. Using an esophageal squamous-cell carcinoma (ESCC) single-cell dataset restricted to epithelial cells, we defined ESCC-specific malignant programs, including proliferation (MKI67), EMT (VIM), hypoxia (CA9), and immune evasion, and applied scOncoNet to prioritize candidate targets. Top-ranked genes were dominated by ESCRT and proteasome components, including multiple CHMP family members along with VPS25, TSG101, PSMD14, and PSMC2, reflecting core survival and vesicle-trafficking functions consistent with their pan-cancer essentiality. Compared with existing scRNA-seq-based approaches, scOncoNet shows stronger alignment between gene embeddings and malignant programs, enabling precise recovery of functional gene-program relationships. Across additional single-cell datasets, the model consistently preserved malignant program structure and generated stable target rankings. In summary, scOncoNet integrates global molecular networks with patient-specific cellular programs to identify functional gene drivers directly from tumor single-cell data. Its ability to reveal core cancer progression machinery and prioritize candidate CRISPR targets without perturbation experiments suggests utility for mechanistic studies and therapeutic target discovery in tumor types lacking perturbation datasets. Citation Format: Tingyi Li, Yuanyuan Shen, Bin Baek, Xiaoqing Yu, Xuefeng Wang, . scOncoNet: Dual-graph attention network for program-aware in-silico gene perturbation in single-cell cancer data [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 4187.",
-      "date": "2026-04-03",
-      "url": "https://doi.org/10.1158/1538-7445.am2026-4187",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Cancer Research",
-      "direction": "cell",
-      "id": "8d9976275571"
-    },
-    {
-      "id": "sample_llm_001",
-      "title": "Reasoning Beyond Chains: Tree-Structured Deliberation for Complex Problem Solving in LLMs",
-      "authors": "Park, S., Lee, J., Kim, D., et al.",
-      "abstract": "Chain-of-thought prompting has shown remarkable success in improving LLM reasoning, but its linear structure limits exploration of alternative solution paths. We propose Tree-of-Deliberation (ToD), a framework that enables LLMs to explore multiple reasoning branches simultaneously and select the most promising path through learned value functions. ToD achieves significant improvements on mathematical reasoning and multi-step planning benchmarks.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.00020",
-      "pdf_url": "https://arxiv.org/pdf/2604.00020",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "analysis": {
-        "abstract_translation": "思维链提示在提升大语言模型推理能力方面取得了显著成功，但其线性结构限制了对替代解决路径的探索。我们提出了思维树审议框架（ToD），使大语言模型能够同时探索多个推理分支，并通过学习到的价值函数选择最有前景的路径。ToD在数学推理和多步规划基准测试上取得了显著改进。",
-        "motivation": "a) 驱动力：复杂问题往往需要探索多条推理路径，而线性的思维链只能沿单一路径推进，容易陷入局部最优。\n\nb) 痛点：(1) CoT的线性结构无法回溯和纠错；(2) 现有树搜索方法（如ToT）依赖启发式评估，缺乏系统的路径选择机制；(3) 搜索效率低，计算开销大。\n\nc) 核心假设：通过学习一个价值函数来评估中间推理状态的质量，可以高效地引导树搜索，在保持探索多样性的同时提高推理效率。",
-        "method_design": "a) Pipeline：\n输入：复杂问题 → 初始推理步骤生成 → 树扩展：每个节点生成多个候选下一步 → 价值函数评估每个候选节点的前景 → 剪枝：保留top-k最有前景的分支 → 继续扩展直到达到终止条件 → 选择最高价值路径作为最终答案 → 输出：推理过程和答案。\n\nb) 核心模块：(1) 推理步骤生成器：基于LLM生成候选推理步骤；(2) 价值函数网络：预测当前推理状态到达正确答案的概率；(3) 搜索控制器：决定扩展、剪枝和终止策略。\n\nc) 价值函数通过在已标注的推理轨迹上训练，使用蒙特卡洛树搜索的回报信号作为监督。",
-        "comparison": "a) 与CoT的线性推理和ToT的启发式搜索不同，ToD使用学习到的价值函数进行系统化搜索。\n\nb) 创新点：(1) 可学习的推理路径评估；(2) 自适应搜索深度和宽度；(3) 训练效率高于强化学习方法。\n\nc) 适用于数学证明、多步规划、代码生成等需要深度推理的任务。",
-        "experiments": "a) 在GSM8K、MATH、ARC-Challenge等基准上评估。\n\nb) 在MATH数据集上准确率达到67.8%，超过CoT基线12个百分点，超过ToT 5个百分点。\n\nc) 在难度越高的问题上优势越明显。\n\nd) 局限性：需要额外训练价值函数；推理时间约为CoT的2-3倍。",
-        "application": "a) 代码已开源。\n\nb) 价值函数训练需要约1000条标注推理轨迹；搜索宽度k=5效果最佳。\n\nc) 可迁移到代码调试、科学假设生成等任务。",
-        "summary": "a) 学习价值函数引导树搜索提升推理。\n\nb) 速记版pipeline：",
-        "pipeline_steps": [
-          "生成多个候选推理步骤",
-          "价值函数评估各分支前景",
-          "保留高价值分支继续扩展",
-          "选择最优路径输出答案"
-        ]
-      }
-    },
-    {
-      "title": "Multi-emotion and intensity-driven response generation for richer multimodal dialogue",
-      "authors": "Apoorva Singh, Raj Shree, Dhirendra Pandey, Virendra Singh",
-      "abstract": "The combination of well-chosen words becomes a thought, although the thought attains meaningful significance only when spoken with emotion. The significance of every sentence could vary depending on the emotions behind it. As AI speech agents evolve, understanding and integrating human emotions is key to fostering natural and impactful interactions. Recently, researchers have given preference to the development of communication systems that are tuned to emotions. In recent work, our focus is on generating multi-emotional responses with precisely controlled intensity by integrating essential insights from text, audio, and visual elements in multimodal dialogues. In this regard, the authors designed a Multimodal Multi Emotion and Intensity-leaded Deliberation Decoder (MMEI-DD) framework that encodes the multimodal knowledge using the Transformer network and captures the inter-modality representation. The desired emotion and corresponding intensity are provided during the two-step decoding mechanism to the deliberation decoder to generate multi-emotion and intensity guided responses. The authors expanded the multimodal feature set (MEIMD + +) based on the recently introduced MEIMD (Multiple Emotion Intensity-Aware Multi-party Dialogue) dataset and demonstrate that integrating multimodal knowledge enhances the performance and reliability of our proposed approach compared to the existing method. In this paper our proposed model leverage to support further research, the necessary resources and code will be made publicly available.",
-      "date": "2026-04-02",
-      "url": "https://doi.org/10.1038/s41598-026-41034-z",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "medical",
-      "id": "42be77c6483f"
-    },
-    {
-      "title": "Integrating large language models for enhanced predictive analytics in healthcare",
-      "authors": "Yuli Wang, Yuwei Dai, R. Wang, Tej I. Mehta, Premal Trivedi, ...",
-      "abstract": "Physicians frequently confront time-sensitive decisions under uncertain conditions, necessitating reliable tools for forecasting clinical outcomes. Although clinical predictive models have the potential to assist in these critical decisions, their widespread adoption is hindered by complexities in data handling, model development, and integration into clinical workflows. This study introduces a novel framework (Hopkins LLM) leveraging structured electronic health records (EHRs) data to develop and deploy clinical large language models (LLMs) that act as multi-task-capable predictive engines to support clinically constrained decision-support tasks with minimal barriers to implementation. Employing the advanced LLaMA architecture, consisting of 7 billion parameters, our model was pre-trained on a comprehensive corpus and subsequently fine-tuned and tested on a dataset of 42,160 patients within Johns Hopkins Health System, addressing a spectrum of clinical and operational prediction tasks. We validated our model across three diverse external health systems and four key prediction tasks involving 1,329 patients, including 30-day all-cause readmissions, 90-day all-cause mortality, 30-day intensive care unit (ICU) admissions, and treatment recommendations. The proposed Hopkins-LLM framework achieved a mean area under the receiver operating characteristic curve (ROC-AUC) of 0.84 [0.82, 0.88], yielding a significant 0.28 advancement over zero-shot baseline LLMs (p<0.05). These findings underscore the promise of LLMs as unified, user-friendly clinical prediction systems, adept at reasoning across diverse data sources to enhance decision-making at the point of care.",
-      "date": "2026-04-02",
-      "url": "https://doi.org/10.1038/s41746-026-02572-y",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Digital Medicine",
-      "direction": "medical",
-      "id": "d2119057f55d"
-    },
-    {
-      "title": "Automated Clinical Information Extraction from Diagnostic and Nondiagnostic Radiology Reports Using Modern Language Models",
-      "authors": "Benjamin G. Mittman, Giana D’Aleo, Michael B. Rothberg, Nicholas J. Casacchia, Samer Albahra",
-      "abstract": "Our objective was to automate the extraction of clinical diagnoses from diagnostic and nondiagnostic radiology reports using modern language models and structured electronic health record (EHR) data. We selected venous thromboembolism (VTE) as our use case for which imaging is the gold standard but is not always fully diagnostic. We extracted venous duplex, computed tomography, and ventilation-perfusion scan reports from the Cleveland Clinic EHR system for patients admitted 2011-2020. Report ground truths were positive, negative, or nondiagnostic. We compared multiple large language models (LLMs) and bidirectional encoder representations from transformers (BERT) models on multiclass classification in holdout evaluation sets. Error analysis guided iterative LLM prompt design and maximized the detection of nondiagnostic reports. ICD-10 codes and therapeutic anticoagulation data were used to adjudicate VTE diagnoses for patients with nondiagnostic reports. We identified 82,476 radiology reports among 213,724 patients. Across models, multiclass areas under the receiver operating characteristics and precision-recall curves ranged from 0.83 to 0.96 and 0.57 to 0.94. The most accurate model, Llama-3.3, detected 95% of VTE-positive reports with a precision of 99.6% and detected 87% of nondiagnostic reports with a precision of 88%. The positive detection rate increased to 98% when we paired structured EHR variables with minimal chart review (0.7% of the evaluation set) to adjudicate diagnoses for patients with nondiagnostic reports. In summary, Llama-3.3 was highly sensitive and specific for positive VTE diagnoses and nondiagnostic radiology reports. We integrated an LLM, structured EHR variables, and limited chart review for successful management of diagnostic uncertainty in automated information extraction from radiology reports.",
-      "date": "2026-04-02",
-      "url": "https://doi.org/10.1007/s10278-026-01932-0",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Imaging Informatics in Medicine",
-      "direction": "medical",
-      "id": "ffef4d64c857"
     }
   ]
 }
