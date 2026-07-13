@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-12 20:06",
+  "last_updated": "2026-07-13 20:14",
   "papers": [
+    {
+      "title": "Mapping artificial intelligence integration in objective structured clinical examinations: A scoping review",
+      "authors": "Sergio Andres León-Ariza, María Camila Orobio-Pinzón, Héctor Miguel Ibáñez-Gutiérrez, Jefferson García-Serna, Diego Alejandro Vivas",
+      "abstract": "INTRODUCTION: Objective Structured Clinical Examinations (OSCEs) are widely used to assess clinical competence, but face challenges related to examiner workload, scoring variability, delayed feedback, and resource demands. Although AI may address these constraints and support precision medical education, the evidence remains fragmented. This scoping review maps AI applications in OSCEs. METHODS: We followed PRISMA-ScR. We searched MEDLINE, Scopus, Embase, Web of Science, ERIC, LILACS, and IEEE Xplore from inception to June 2025. Eligible studies examined AI within any phase of an OSCE in health professions education. Data charting captured AI form, technology, OSCE phase, competencies, outcomes, faculty and resource implications, and ethical/governance issues. Synthesis used a hybrid approach: deductive coding with FACETS, SAMR, and operationalized P4 properties, plus inductive coding for emergent themes. Findings were stratified by evidence maturity rather than formal quality scoring. RESULTS: Of 421 records screened, 22 studies were included. AI was used for learner preparation, station/material construction, scoring/evaluation, and operational delivery. Benefits were strongest for grading, feedback speed, and consistency in structured tasks, but weaker for relational competencies. Most applications reflected SAMR Augmentation or Modification. Personalization dominated P4 alignment. Ethical concerns centered on privacy, bias, accuracy, transparency, access, and human oversight. DISCUSSION AND CONCLUSION: AI currently augments rather than transforms OSCE assessment, performing best in structured, observable tasks and least well in relational, situated, and culturally mediated competencies. Claims that AI delivers precision medical education through OSCEs are not yet supported by evidence; alignment with P4 is partial and conditional. Realizing the potential of AI in OSCEs will require human-in-the-loop governance with concrete safeguards and equity-focused implementation in resource-limited settings.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1080/0142159x.2026.2685794",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Medical Teacher",
+      "direction": "medical",
+      "id": "667807ca2ae0"
+    },
+    {
+      "title": "Beyond Generative Intelligence: A Comprehensive Review of Emerging Artificial Intelligence Paradigms, Explainability Challenges, Ethical Risks, and Future Directions",
+      "authors": "Dr. Shankar Subramanian Iyer, Dr Brinitha Raji, Raman Subramanian, Rajesh Arora",
+      "abstract": "The artificial intelligence landscape has undergone a profound transformation from narrow, task-specific automation to sophisticated, multi-paradigm systems capable of autonomous reasoning, emotional understanding, and creative generation. This systematic literature review synthesizes 141 peer-reviewed studies published between 2018 and 2026 to map the evolution of AI paradigms beyond the dominant Generative AI breakthrough. Following PRISMA guidelines, we analyzed 4,250 initial records across six major academic databases, ultimately including 141 studies that address seven emerging AI paradigms: Generative AI, Emotional and Empathetic AI, Social AI, Agentic AI, Multimodal AI, Explainable AI (XAI), and Responsible AI. Quality assessment was conducted using a modified Mixed Methods Appraisal Tool (MMAT) with a 0–10 scoring rubric, achieving excellent inter-rater reliability (ICC = 0.87, 95% CI: 0.83–0.91). Thematic synthesis followed a rigorous three-phase approach yielding 47 first-order codes, 18 second-order descriptive themes, and 5 overarching analytical clusters. Our bibliometric analysis reveals a decisive shift from purely technical AI research to socio-technical integration, with five dominant thematic clusters emerging: Intelligence and Learning, Generative Ecosystems, Human-Centric AI, Governance and Trust, and Autonomous Systems. Key findings indicate that while Generative AI has achieved remarkable capabilities in content creation and reasoning, critical challenges persist in explainability, algorithmic bias, and governance. The Black Box problem remains a fundamental barrier to trust in high-stakes domains such as healthcare, finance, and criminal justice, despite advances in XAI techniques including SHAP, LIME, and attention visualization. Concurrently, Dark AI threats—encompassing deepfakes, AI-powered cyberattacks, autonomous weapons, and surveillance systems—pose unprecedented risks requiring urgent international governance frameworks. We propose an Integrated AI Ecosystem Framework comprising six interdependent layers: Intelligence, Creation, Human Interaction, Autonomous, Governance, and Security, with Trustworthy AI serving as the integrating principle. This framework is positioned against existing AI governance frameworks (EU High-Level Expert Group Trustworthy AI, NIST AI Risk Management Framework, IEEE Ethically Aligned Design) and uniquely integrates technical architecture, governance principles, and an evolutionary pathway from current capabilities toward AGI. However, unlike established frameworks that have undergone extensive stakeholder validation, the proposed framework remains conceptual and its empirical validation represents a key future research priority. This framework positions Generative AI as the foundation for an evolutionary pathway toward Emotional AI, Agentic AI, Cognitive AI, and ultimately Artificial General Intelligence (AGI). Our analysis identifies eleven critical research propositions addressing gaps in multimodal integration, emotional intelligence validation, agentic system safety, XAI standardization, global AI governance, and framework empirical validation. This review contributes a unified conceptual model for understanding AI's convergent evolution and provides actionable recommendations for researchers, practitioners, and policymakers navigating the transition from isolated AI capabilities to integrated, trustworthy, human-centric AI ecosystems.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.51583/ijltemas.2026.150600099",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Latest Technology in Engineering Management & Applied Science",
+      "direction": "medical",
+      "id": "25577204c252"
+    },
+    {
+      "title": "State-Aware Runtime for Long-Horizon LLM Agents: A Conceptual Framework and Research Agenda",
+      "authors": "Xiwei Chen",
+      "abstract": "Long-horizon LLM agents are increasingly expected to operate across extended interactions, evolving tasks, tool calls, memory updates, and multi-step plans. However, many failures in such systems are not adequately explained by single-turn reasoning errors or insufficient model capability. Instead, they arise from unstable state maintenance, uncontrolled memory injection, protocol drift, tool-mediated side effects, and missing recovery mechanisms. This paper defines State-Aware Runtime as the transaction-governance layer that separates model generation from canonical state, memory operations, validation, commit/rollback, and audit traces during execution. Its lifecycle includes boot-time initialization, session resume, baseline recovery, bounded state-view construction, proposal validation, commit, rollback or compensation, and audit. Stronger models may reduce the frequency of invalid proposals, but they do not remove the need for durable state, audit trails, permission boundaries, and side-effect governance when agent actions persist beyond a single model context. We provide a structured conceptual review of work on agent memory, tool use, long-context modeling, self-reflection, generative agents, workflow orchestration, and monitoring, and reorganize these strands around the problem of long-horizon runtime reliability. The central claim is that future agent reliability will depend less on prompt accumulation and more on explicit runtime systems that manage what the model is allowed to know, change, commit, forget, and recover. We conclude with a taxonomy of long-horizon failures and a research agenda for auditable, recoverable, and state-aware agent infrastructure.",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.33774/coe-2026-vt9t2-v2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "llm",
+      "id": "24a19b5fbe56"
+    },
     {
       "title": "Modeling multidimensional perceived risk in HIV-related social media: a multi-label transformers framework with longitudinal analysis",
       "authors": "Abdollah Abadian, Abdullah, Zulaikha Fatima, Carlos Guzmán Sánchez Mejorada, Miguel Torres-Ruiz, ...",
@@ -60,6 +96,66 @@
       "venue": "Scientific Reports",
       "direction": "llm",
       "id": "2956a9217a0d"
+    },
+    {
+      "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+      "authors": "Kaiji Zhou, Ales Leonardis, Yue Feng",
+      "abstract": "Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlooking critical factors such as performance variability and cost efficiency among functionally similar alternatives. To address this, we propose Agora, a framework that introduces an incentive-compatible auction mechanism for dynamically allocating tasks to expert models and tools. By treating reasoning steps as tradeable items, Agora enables agents to bid based on their rectified competence-ensuring that critical logic is routed to the most capable solver rather than the most overconfident one. Evaluations across five benchmarks show that Agora improves over matched single-model, routing, and cascade baselines under comparable candidate pools, while exposing a controllable cost-quality trade-off through a single auction parameter.",
+      "date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2607.09600v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09600v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1d7ad4720e3f"
+    },
+    {
+      "title": "Test-Time Scaling for Small VLMs on Multilingual Visual MCQ",
+      "authors": "Spiros Baxevanakis, Peng-Jian Yang",
+      "abstract": "Test-time scaling (TTS) reliably improves reasoning in large language models, but whether it transfers to small open vision-language models remains unclear. We examine this on EXAMS-V, a multilingual visual multiple-choice benchmark, comparing self-consistency, describe-then-reason with PRM-guided beam search, and two post-hoc selectors across Qwen2.5-VL-7B-Instruct and Qwen3.5-4B. What matters is the conditions under which TTS runs, not the search or verification machinery. The largest factor is parseability: an early prompt format left many chains reasoning correctly yet never committing to an answer letter, which a standard answer cue and a guided repair step largely remove. A larger decoding budget removes the rest: raising the per-chain token limit from 1k to 2k recovers 3.7 pp, whereas sampling more chains (8 to 16) adds only 0.15 pp. Once chains have room to finish, elaborate methods contribute little: PRM-guided beam search trails plain self-consistency by 0.39 pp at over eight times the cost, and neither a training-free generative critic nor a trained multimodal PRM beats majority vote across both policies. The largest gain comes instead from the policy model itself (+11.4 pp). Our best configuration reaches 84.1% on the held-out ImageCLEF 2026 test split, ranking first on the Visual MCQ leaderboard.",
+      "date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2607.09438v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09438v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "be3e27275401"
+    },
+    {
+      "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+      "authors": "Xinyu Zhu, Zhe Xu, Xiaohan Wei, Yunchen Pu, Fei Tian...",
+      "abstract": "Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy often degrades, indicating that models still struggle to identify and use the evidence most relevant to a question. A promising way to improve long-context utilization is test-time training (TTT), which treats the test context as a training example for instance-specific parameter adaptation. However, applying TTT to the entire long context is prohibitively expensive, while adapting on randomly sampled spans introduces severe noise. Because most spans in a long context are irrelevant to the specific question, training on them may even degrade the base model's performance. Our preliminary study shows that TTT is highly sensitive to training-span quality: on LongBench-v2, TTT on randomly sampled spans hurts performance, whereas TTT on oracle spans substantially improves it. Motivated by this, we propose a simple method, Self-Guided TTT (S-TTT): before adaptation, the model identifies the evidence spans it should learn from, and the standard language-modeling training objective is applied only to those selected spans. On two challenging long-context reasoning benchmarks, LongBench-v2 and LongBench-Pro, S-TTT improves accuracy for both Qwen3-4B-Thinking-2507 and Llama-3.1-8B-Instruct, achieving up to a 15% relative improvement.",
+      "date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2607.09415v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09415v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7a71ef36681a"
+    },
+    {
+      "title": "DKCD: Domain Knowledge-Enhanced Causal Discovery from Unstructured Data",
+      "authors": "Xin Li, Jin Li, Shoujin Wang, Kun Yu, Fang Chen",
+      "abstract": "Causal discovery from unstructured data is a challenging yet underexplored task in high-expertise domains such as healthcare, finance, and education. Existing methods typically leverage the general knowledge of large language models (LLMs) to identify causal factors from unstructured data and annotate them into structured data for causal graph construction. However, they remain limited by two key challenges (CHs): (CH1) insufficient identification of latent factors, which are implicit in the data yet essential for causal discovery, due to the lack of domain-specific knowledge; and (CH2) unreliable factor annotation, caused by the lack of domain-grounded reasoning, which propagates errors to the resulting causal graphs. To address these challenges, we introduce a novel Domain Knowledge-enhanced Causal Discovery framework (DKCD) for causal discovery from unstructured data in high-expertise domains with three interconnected components: (1) Knowledge Mining: It retrieves relevant domain knowledge based on observable factors to support subsequent causal reasoning. (2) Knowledge-guided Causal Reasoning: Reasoning with relevant knowledge, it discovers latent causal factors to address CH1 and generates key causal clues for more accurate data annotation to address CH2. (3) Causal Structure Discovery: It constructs the final causal graphs based on a more complete factor set and accurate annotations. Experiments on two domain-specific datasets show that DKCD significantly improves both causal factor identification and causal graph construction.",
+      "date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2607.09348v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09348v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "dba3c1cd89e7"
+    },
+    {
+      "title": "Git-Assistant: Planning-Based Support for Updating Git Repositories",
+      "authors": "Alfredo Garrachón Ruiz, Tomás de la Rosa, Daniel Borrajo",
+      "abstract": "Version control systems are essential for collaborative software development, yet tools like git remain challenging for many practitioners. Recent advances in Large Language Models (LLMs) offer promising capabilities for interpreting developer intent, but their effectiveness in repository management tasks is limited by the need for formal reasoning. This work introduces Git-Assistant, an AI-based assistant that combines LLMs with automated planning to support developers in executing non-trivial git operations. The assistant analyzes repository context, translates natural language requests into actionable command sequences, and incorporates planning techniques to ensure correctness and safety. We present a systematic evaluation methodology using synthetic and randomized git environments, comparing the performance of LLM-only and planning-augmented variants across multiple metrics. Experimental results demonstrate that integrating formal reasoning with LLMs improves reliability and reduces errors in repository management, highlighting the potential of hybrid AI approaches for intelligent developer assistance.",
+      "date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2607.09224v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.09224v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9016647a5911"
     },
     {
       "title": "AI-guided identification of natural CTSL inhibitors with therapeutic potential for renal injury",
@@ -11904,102 +12000,6 @@
       "venue": "SN Computer Science",
       "direction": "cell",
       "id": "20ca6f54de4c"
-    },
-    {
-      "title": "Deep learning-based high-information-content graph representation of early stage bacterial biofilms",
-      "authors": "Lev E. Nersesyan, Daniil A. Boiko, Saniyat Kurbanalieva, Lilya U. Dzhemileva, Konstantin S. Kozlov, ...",
-      "abstract": "Bacterial biofilms are complex, spatially organized microbial communities that exhibit enhanced resistance to antibiotics and contribute to chronic infections. Understanding their structure, especially during early formation stages, is critical for developing effective intervention strategies. Here, we present a high-resolution computational framework that models biofilms as undirected interaction graphs, where individual bacterial cells are vertices and predicted intercellular interactions are edges. Combining microscopy visualization and deep learning, we developed a pipeline that integrates Mask R-CNN for cell segmentation and a custom neural network (BINet) for interaction prediction. The described graph-based representation enables quantitative analysis of biofilm growth, identification of recurrent structural motifs, and classification of substrate-specific colonization patterns. We demonstrate the utility of this approach in predicting both the developmental stage and material type from image-derived graph features. This study provides the tool for revealing nonobvious patterns of biofilm organization and describes a scalable, high-information-content approach for the automated analysis of microbial communities, opening new possibilities for systems-level microbiological research.",
-      "date": "2026-04-03",
-      "url": "https://doi.org/10.1038/s41522-026-00971-3",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Biofilms and Microbiomes",
-      "direction": "cell",
-      "id": "9155235fd7d6"
-    },
-    {
-      "title": "Methods for Molecular Recognition Computing",
-      "authors": "Sai T Reddy",
-      "abstract": "The softmax attention mechanism in transformer architectures (Vaswani et al., 2017) is mathematically identical to the Boltzmann distribution governing molecular binding at thermal equilibrium (Boltzmann, 1877). Luce's Choice Axiom (1959) establishes this function - which we term the convergence equation - as the unique function satisfying five axioms of competitive selection: positivity, normalization, unrestricted domain, rank preservation, and independence of irrelevant alternatives. We show that five additional architecture conditions - discrete intermolecular contacts, bilinear energy decomposition, finite competitor pools, thermal equilibrium, and stochastic selection - are satisfied by at least ten biological molecular recognition systems and together prescribe a complete neural architecture: dual encoders, cross-attention, InfoNCE contrastive training, symmetric loss, learned temperature, and cross-attentive decoder. We term this architecture a Specificity Foundation Model (SFM) and specify it for antibody-antigen, TCR-peptide-MHC, transcription factor-DNA, microRNA-mRNA, enzyme-substrate, CRISPR guide RNA-DNA, drug-target, peptide-MHC, receptor-ligand, and RNA-binding protein-RNA recognition. The first implementation (CALM; Lee et al., 2026) achieves antibody-antigen retrieval from approximately 4,000 training pairs with ~100,000-fold greater data efficiency than comparable contrastive architectures trained without the physics derivation. We classify this as Level 3 architecture-physics alignment and derive three further theoretical results: an exponential scaling law for retrieval accuracy as a function of training data diversity (the MRC scaling law), a two-parameter affinity calibration framework connecting contrastive scores to binding free energies, and a hybrid recursive learning framework for cross-modal reinforcement learning with orthogonal verification. The failure conditions of the framework are analyzed in terms of the validity of equilibrium thermodynamics for molecular binding and the convergence properties of gradient-based parameter estimation.",
-      "date": "2026-04-03",
-      "url": "https://doi.org/10.64898/2026.04.03.716328",
-      "pdf_url": "",
-      "source": "biorxiv",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "direction": "cell",
-      "id": "87d076796cd9"
-    },
-    {
-      "title": "BAS: A Decision-Theoretic Approach to Evaluating Large Language Model Confidence",
-      "authors": "Sean Wu, Fredrik K. Gustafsson, Edward Phillips, Boyan Gao, Anshul Thakur...",
-      "abstract": "Large language models (LLMs) often produce confident but incorrect answers in settings where abstention would be safer. Standard evaluation protocols, however, require a response and do not account for how confidence should guide decisions under different risk preferences. To address this gap, we introduce the Behavioral Alignment Score (BAS), a decision-theoretic metric for evaluating how well LLM confidence supports abstention-aware decision making. BAS is derived from an explicit answer-or-abstain utility model and aggregates realized utility across a continuum of risk thresholds, yielding a measure of decision-level reliability that depends on both the magnitude and ordering of confidence. We show theoretically that truthful confidence estimates uniquely maximize expected BAS utility, linking calibration to decision-optimal behavior. BAS is related to proper scoring rules such as log loss, but differs structurally: log loss penalizes underconfidence and overconfidence symmetrically, whereas BAS imposes an asymmetric penalty that strongly prioritizes avoiding overconfident errors. Using BAS alongside widely used metrics such as ECE and AURC, we then construct a benchmark of self-reported confidence reliability across multiple LLMs and tasks. Our results reveal substantial variation in decision-useful confidence, and while larger and more accurate models tend to achieve higher BAS, even frontier models remain prone to severe overconfidence. Importantly, models with similar ECE or AURC can exhibit very different BAS due to highly overconfident errors, highlighting limitations of standard metrics. We further show that simple interventions, such as top-$k$ confidence elicitation and post-hoc calibration, can meaningfully improve confidence reliability. Overall, our work provides both a principled metric and a comprehensive benchmark for evaluating LLM confidence reliability.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.03216v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.03216v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "95f0ee4438b2"
-    },
-    {
-      "title": "Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation",
-      "authors": "Prakhar Bansal, Shivangi Agarwal",
-      "abstract": "Large language models (LLMs) encode vast world knowledge in their parameters, yet they remain fundamentally limited by static knowledge, finite context windows, and weakly structured causal reasoning. This survey provides a unified account of augmentation strategies along a single axis: the degree of structured context supplied at inference time. We cover in-context learning and prompt engineering, Retrieval-Augmented Generation (RAG), GraphRAG, and CausalRAG. Beyond conceptual comparison, we provide a transparent literature-screening protocol, a claim-audit framework, and a structured cross-paper evidence synthesis that distinguishes higher-confidence findings from emerging results. The paper concludes with a deployment-oriented decision framework and concrete research priorities for trustworthy retrieval-augmented NLP.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.03174v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.03174v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "19f89f7933b0"
-    },
-    {
-      "title": "Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems",
-      "authors": "Yubin Qu, Yi Liu, Tongcheng Geng, Gelei Deng, Yuekang Li...",
-      "abstract": "LLM-based coding agents extend their capabilities via third-party agent skills distributed through open marketplaces without mandatory security review. Unlike traditional packages, these skills are executed as operational directives with system-level privileges, so a single malicious skill can compromise the host. Prior work has not examined whether supply-chain attacks can directly hijack an agent's action space, such as file writes, shell commands, and network requests, despite existing safeguards. We introduce Document-Driven Implicit Payload Execution (DDIPE), which embeds malicious logic in code examples and configuration templates within skill documentation. Because agents reuse these examples during normal tasks, the payload executes without explicit prompts. Using an LLM-driven pipeline, we generate 1,070 adversarial skills from 81 seeds across 15 MITRE ATTACK categories. Across four frameworks and five models, DDIPE achieves 11.6% to 33.5% bypass rates, while explicit instruction attacks achieve 0% under strong defenses. Static analysis detects most cases, but 2.5% evade both detection and alignment. Responsible disclosure led to four confirmed vulnerabilities and two fixes.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.03081v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.03081v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "83e15fe3946b"
-    },
-    {
-      "title": "Speaker-Reasoner: Scaling Interaction Turns and Reasoning Patterns for Timestamped Speaker-Attributed ASR",
-      "authors": "Zhennan Lin, Shuai Wang, Zhaokai Sun, Pengyuan Xie, Chuan Xie...",
-      "abstract": "Transcribing and understanding multi-speaker conversations requires speech recognition, speaker attribution, and timestamp localization. While speech LLMs excel at single-speaker tasks, multi-speaker scenarios remain challenging due to overlapping speech, backchannels, rapid turn-taking, and context window constraints. We propose Speaker-Reasoner, an end-to-end Speech LLM with agentic multi-turn temporal reasoning. Instead of single-pass inference, the model iteratively analyzes global audio structure, autonomously predicts temporal boundaries, and performs fine-grained segment analysis, jointly modeling speaker identity, gender, timestamps, and transcription. A speaker-aware cache further extends processing to audio exceeding the training context window. Trained with a three-stage progressive strategy, Speaker-Reasoner achieves consistent improvements over strong baselines on AliMeeting and AISHELL-4 datasets, particularly in handling overlapping speech and complex turn-taking.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.03074v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.03074v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9da5fdbfb153"
-    },
-    {
-      "title": "R2-Write: Reflection and Revision for Open-Ended Writing with Deep Reasoning",
-      "authors": "Wanlong Liu, Bo Zhang, Chenliang Li, Shaopeng Lai, Yuning Wu...",
-      "abstract": "While deep reasoning with long chain-of-thought has dramatically improved large language models in verifiable domains like mathematics, its effectiveness for open-ended tasks such as writing remains unexplored. In this paper, we conduct a systematic investigation revealing that existing mainstream reasoning models achieve limited gains on open-ended writing tasks. Our further analysis shows that these models lack deep reflection and revision patterns in open-ended writing, resulting in substantially smaller improvements compared to mathematical reasoning tasks. To address this limitation, we introduce R2-Write: an automated framework that synthesizes high-quality thinking trajectories enriched with explicit reflection and revision patterns through iterative writer-judge interaction. To prevent redundant reflections, we design a process reward mechanism that supervises reflection quality during reinforcement learning, improving both performance and token efficiency. Extensive experiments across multiple creative writing and deep-research benchmarks demonstrate significant improvements, validating that explicitly incorporating reflection and revision patterns unlocks deep reasoning capabilities for open-ended writing tasks.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.03004v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.03004v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "906f8875d1e8"
-    },
-    {
-      "title": "JoyAI-LLM Flash: Advancing Mid-Scale LLMs with Token Efficiency",
-      "authors": "Aichen Cai, Anmeng Zhang, Anyu Li, Bo Zhang, Bohua Cai...",
-      "abstract": "We introduce JoyAI-LLM Flash, an efficient Mixture-of-Experts (MoE) language model designed to redefine the trade-off between strong performance and token efficiency in the sub-50B parameter regime. JoyAI-LLM Flash is pretrained on a massive corpus of 20 trillion tokens and further optimized through a rigorous post-training pipeline, including supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and large-scale reinforcement learning (RL) across diverse environments. To improve token efficiency, JoyAI-LLM Flash strategically balances \\emph{thinking} and \\emph{non-thinking} cognitive modes and introduces FiberPO, a novel RL algorithm inspired by fibration theory that decomposes trust-region maintenance into global and local components, providing unified multi-scale stability control for LLM policy optimization. To enhance architectural sparsity, the model comprises 48B total parameters while activating only 2.7B parameters per forward pass, achieving a substantially higher sparsity ratio than contemporary industry leading models of comparable scale. To further improve inference throughput, we adopt a joint training-inference co-design that incorporates dense Multi-Token Prediction (MTP) and Quantization-Aware Training (QAT). We release the checkpoints for both JoyAI-LLM-48B-A3B Base and its post-trained variants on Hugging Face to support the open-source community.",
-      "date": "2026-04-03",
-      "url": "https://arxiv.org/abs/2604.03044v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.03044v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "24d5ffcd4101"
     }
   ]
 }
