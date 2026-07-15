@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-07-14 20:11",
+  "last_updated": "2026-07-15 20:08",
   "papers": [
+    {
+      "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+      "authors": "Monica Munnangi, Saiph Savage",
+      "abstract": "Patients seeking medical information often ask questions that embed incorrect assumptions or misconceptions. In such cases, safe medical communication requires not only answering the question, but identifying and correcting the underlying false belief. These interactions naturally unfold over multiple turns, a pattern now mirrored in interactions with LLMs. Yet current evaluation frameworks do not capture model behavior in these settings, where misconceptions can emerge, persist, or evolve over the course of a conversation. Whether LLMs can reliably correct such misconceptions over time remains largely unexamined. To study this, we introduce ThReadMed-QA, a multi-turn medical dialogue dataset of 2,437 patient-physician conversation threads comprising 8,204 question-answer pairs, derived from real patient interactions on AskDocs. This dataset enables systematic evaluation of whether models can detect and correct misconceptions under a multi-turn context. We evaluate five LLMs using a rubric-based LLM-as-a-Judge framework that scores responses based on their ability to identify and correct misconceptions. Our experiments reveal a consistent pattern: even frontier models that can address misconceptions in a single interaction degrade substantially over subsequent turns. GPT-5 and Claude-Haiku correct these false presuppositions around 85% on initial questions but drop to roughly 50% within two follow-ups. An oracle analysis replacing prior model outputs with physician responses shows that much of the degradation is driven by error propagation, while performance remains imperfect even under correct context. Even when models tend to correct misconceptions initially, their performance degrades substantially over later turns, leading to inconsistent and potentially unsafe guidance in patient-facing settings and highlighting the need for evaluation frameworks that capture multi-turn behavior.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12884v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12884v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "ebedff4c758c"
+    },
+    {
+      "title": "LLM Judges Can Be Too Generous When There Is No Reference Answer",
+      "authors": "Chalamalasetti Kranti, Sowmya Vajjala",
+      "abstract": "LLM judges are increasingly being used to evaluate open-ended model responses, often in no-reference settings where a ground-truth answer is unavailable. However, can they reliably assess in such evaluation setups? We explore this question in this paper through a two stage pipeline with a) calibration experiments that assess the judge model's knowledge of the task it is evaluating, and b) sensitivity experiments that assess how the judge model's performance is impacted by the presence and positioning of the reference answer in the prompt. Across experiments covering three languages, we show that the judge models we evaluated tend to over-credit incorrect answers in the absence of a reference answer, and adding reference answer information to the prompt flips the judge model's correct/incorrect decisions by as much as 85% in some experimental settings. Comparison with a subset of human annotations shows that these reference-driven changes generally align with human judgments. Our results emphasize the need for calibrating the LLM judges with a sample with reference-aware evaluation before using them in reference-free setups reliably, and our methodology provides a blueprint for researchers and practitioners in doing such calibration of LLM judges for other tasks.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12885v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12885v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "92e16fb8b8fd"
+    },
+    {
+      "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+      "authors": "Hanhua Hong, Yizhi Li, Jiaoyan Chen, Luu Gia Huy, Sophia Ananiadou...",
+      "abstract": "Rubric-based evaluation is a promising approach for assessing open-ended outputs from LLM-based research agents, particularly in paper reproduction, where direct paper-to-repository comparison is prone to hallucination. However, constructing paper-specific rubrics requires substantial expert effort, limiting the scalability of benchmarks such as PaperBench. In this work, we present, to our knowledge, the first systematic meta-evaluation of LLM-generated rubrics for paper reproduction. We reformulate rubrics into a checklist-style format and evaluate four generation settings across two backbone models. We meta-evaluate generated rubrics intrinsically by semantic similarity and extrinsically by score alignment with ground-truth rubrics. Our results show that the augmented settings substantially improves downstream evaluation alignment, with the strongest setting approaching the human baseline, while intrinsic gains are more modest. Further analyses reveal that LLM-generated rubrics are often overly fine-grained, biased toward high scores, and less adaptive to paper domains, highlighting both the affordances and limitations.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12835v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12835v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "5c04f4e4e7e3"
+    },
+    {
+      "title": "Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling",
+      "authors": "Roi Cohen, Yvan Carré, Nick Lechtenbörger, Hendrik Droste, Lucas Kerschke...",
+      "abstract": "Language models encode substantial factual knowledge in their parameters, which can lead to unreliable behavior when this knowledge is outdated, incomplete, or misaligned with the provided context. In this work, we study whether modifying the pretraining signal can systematically shift models away from parametric recall and toward evidence-grounded reasoning. We introduce Knowledge--''Less'' Language Models (KLLMs), a fundamentally different epistemic training paradigm for LLMs, which are pretrained on corpora in which named entities are anonymized, thereby removing a primary channel for entity-linked factual supervision. This intervention substantially reduces closed-book factual recall, while often improving performance on tasks where relevant information is provided as context. Across multiple model scales, KLLMs consistently outperform matched baselines on contextual question answering, fact verification, and hallucination detection benchmarks. Crucially, in retrieval-grounded settings with imperfect evidence, KLLMs show improved robustness and achieve up to 20--25\\% relative gains over standard language models. They further exhibit better calibration, with improved ECE, Brier score, and AUROC, as well as more reliable abstention behavior. Our results demonstrate that suppressing entity-linked supervision during pretraining induces a shift in epistemic behavior: KLLMs rely less on parametric knowledge and more on external evidence, leading to improved reliability under realistic conditions. This suggests that pretraining-time control over knowledge acquisition can complement retrieval-augmented and tool-based systems by providing a more evidence-sensitive base model.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12831v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12831v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7bd392e1b483"
+    },
+    {
+      "title": "Do We Really Need Multimodal Emotion Language Models Larger Than 1B Parameters?",
+      "authors": "Kaiwen Zheng, Junchen Fu, Wenhao Deng, Hu Han, Joemon M. Jose...",
+      "abstract": "Recent advances in multimodal large language models (MLLMs) have significantly improved the performance of multimodal emotion recognition (MER) and enabled interpretable description generation by jointly modeling video, audio, and language, etc. However, these performance improvements are often accompanied by an increase in model parameter size (e.g, at least 7B), which simultaneously incurs high computational costs and reduces inference efficiency, thereby hindering real-time deployment on resource-constrained platforms such as robots and mobile devices. This raises a fundamental question: do we really need the multimodal MER model larger than 1B parameters for high-quality MER? In this paper, we challenge the assumption that larger models are inherently necessary and proposes a lightweight MER framework (called Light-MER), which achieves better and faster multimodal sentiment understanding and recognition through knowledge distillation. It can transfer knowledge from a strong, large-scale teacher model to a lightweight sub-billion-parameter student model, aiming to preserve rich multimodal emotion reasoning and recognition while substantially improving deployment efficiency. Specifically, we introduce two new optimization strategies to enhance knowledge transfer: (1) a new optimal transport loss that combines Sliced Wasserstein Distance with hidden-state alignment, and (2) a new multi-reward optimization strategy based on GRPO that balances MER performance and efficiency, aimed at further enhancing the learning capabilities of student models. Extensive experiments on nine benchmark datasets demonstrate that Light-MER achieves state-of-the-art performance while significantly improving inference efficiency. This highlights the strong potential of small multimodal emotion language models for future research. Code is available at https://github.com/GAIR-Lab/Light-MER.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12787v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12787v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "83e76e160c6d"
+    },
+    {
+      "title": "Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models",
+      "authors": "Xingyu Dang, Haocheng Tang, Junmei Wang, Yanjun Li",
+      "abstract": "Reaction mechanisms consist of the step-by-step sequences of elementary reactions that explain chemical transformations. Learning the mechanism logic is therefore essential for enhancing the fundamental chemical intelligence of large language models (LLMs). The stepwise deduction of reaction mechanism aligns naturally with the reasoning paradigms of reasoning LLMs. However, current chemical LLMs primarily emphasize coarse-grained name reactions for product prediction and retrosynthesis, often leading to physical inconsistencies and hallucinations. In contrast, specialized small-scale generative models for mechanism inference typically suffer from restricted generalization capacity across diverse chemical spaces. To overcome these limitations, we built a novel, large-scale reasoning dataset of reaction mechanisms. Furthermore, we established the FukuyamaBench, a difficult benchmark derived from Fukuyama's Advanced Organic Reaction Mechanism book, to rigorously evaluate model performance on hierarchical mechanism reasoning. Our fine-tuned Qwen3-30B-A3B achieves 8.3% exact pathway match on FukuyamaBench Set~A, surpassing the specialized FlowER model (5.1%), demonstrating that mechanism-aware training substantially enhances chemical reasoning in language models.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12771v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12771v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ad42b224de4c"
+    },
+    {
+      "title": "A Learning-Rate-Gated Failure of GRPO in a Small Language and Vision-Language Model Web Agent: A Controlled Null and Its Mechanism",
+      "authors": "Chengguang Gan, Zhixi Cai, Yunhao Liang, Hanjun Wei, Shiwen Ni...",
+      "abstract": "Reinforcement learning with verifiable rewards, and Group Relative Policy Optimization (GRPO) in particular, is now run routinely on a supervised checkpoint in the hope of producing a stronger agent. We ask whether it adds skill to a small language and vision-language model web agent at the 4B to 8B scale, or whether it mostly reshapes behavior the supervised model already has. Across a control grid of 18 runs that varies learning rate, KL weight, seed, initialization, and clipping, no configuration credibly improves the success rate of a strong supervised baseline on tasks the agent has largely mastered. On the text track, moderate to high learning rates make it credibly worse. The null holds under paired testing, 25 evaluation seeds, 6 training seeds, changes to the recipe, both text and Set-of-Marks screenshot observations, and scaling the backbone to 8B; the credible harm is a text-track finding and is only nominal under Set-of-Marks. To show that the null reflects the setting and not a broken pipeline, we run the identical harness, reward, and recipe on tasks whose reward is reachable by sampling, and there the success rate rises by 22 points with a paired interval that excludes zero. GRPO therefore helps only when there is headroom to climb, meaning the sampled policy already succeeds more often than the greedy one. We then explain the failure. A middle learning rate degrades the agent and a high one collapses it, and the two regimes form a double dissociation: grafting localizes the degrade regime to the attention and MLP blocks, while the collapse regime cannot be traced to any single group, and the embedding change that dominates the weight movement is causally inert. At 4B, effective rank in the late layers tracks capability in both directions; at 8B the two come apart. This coupling is specific to the smaller model, so we report it as scale-dependent.",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12640v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.12640v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f0ec9ba996fe"
+    },
     {
       "title": "Behavioral and ethical predictors of continuous intention to use generative AI responsibly in higher education",
       "authors": "İbrahim Arpacı, Мустафа Балоглу",
@@ -134,6 +218,30 @@
       "id": "fc58e15de14c"
     },
     {
+      "title": "To Answer or to Abstain: Mitigating Search-Agent Hallucinations via Abstention-Aware Reinforcement Learning",
+      "authors": "Fengji Zhang, Tianyu Fan, Yuxiang Zheng, Xinyao Niu, Chengen Huang...",
+      "abstract": "Recent advances in equipping Large Language Models (LLMs) with search tools and outcome-reward reinforcement learning (RL) have achieved new state-of-the-art results on open-domain QA tasks. However, we argue that current training paradigms harbor a critical vulnerability: they predominantly reward correct answers but fail to penalize fabricated ones when retrieval fails, thereby implicitly exacerbating hallucinations. To address this, we propose Abstention-Aware Reinforcement Learning (AWA-RL), which dynamically shapes the abstention reward utilizing the model's query-specific prior capabilities and continuous on-policy training observations. We also introduce a novel metric, RA-F1, to measure the capability-reliability trade-off. Compared to non-abstaining baselines, AWA-RL boosts absolute precision by up to 10.3% and overall RA-F1 by 2.9%, with only marginal sacrifice in raw accuracy. These results confirm that AWA-RL successfully yields highly capable and reliable search agents. The code, data, and model weights are publicly available at https://github.com/zfj1998/AWA-RL.",
+      "date": "2026-07-12",
+      "url": "https://arxiv.org/abs/2607.10738v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.10738v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d29e45860811"
+    },
+    {
+      "title": "Tool-Adaptive LLM Reranker",
+      "authors": "Zichuan Liu, Ruijin Hua",
+      "abstract": "Generative Large Language Models (LLMs) have revolutionized information retrieval, yet their strictly parametric nature frequently leads to severe factual hallucinations when confronted with complex queries beyond their epistemic boundaries. While external tool-calling can mitigate this, indiscriminately invoking search tools for every document during reranking incurs prohibitive latency overheads, creating an intractable accuracy-efficiency dilemma. To address this challenge, we propose TALRanker, a novel framework that formalizes pointwise relevance scoring as an agentic Markov decision process. We optimize it via a two-stage training paradigm. An initial warm-up utilizes a language-preserving hybrid loss to prevent the catastrophic forgetting of native generative capacities. Subsequently, an asymmetric cost-aware reward equipped in reinforcement learning forces the policy to autonomously bypass tools for maximum efficiency when confident, while selectively retrieving external evidence to avert severe hallucination penalties when uncertain. Extensive evaluations demonstrate that TALRanker achieves state-of-the-art performance across standard and reasoning-intensive retrieval benchmarks, matching throughput with pointwise rerankers while outperforming parameter-heavy reasoning models.",
+      "date": "2026-07-12",
+      "url": "https://arxiv.org/abs/2607.10555v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.10555v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "cc2db191617c"
+    },
+    {
       "title": "The use of artificial intelligence in English language teaching and learning in higher education: a systematic literature review",
       "authors": "Yue Wang, Zuwati Hasim, Wu Ling, Yujia Fang",
       "abstract": "This PRISMA-guided systematic review synthesizes empirical evidence on how artificial intelligence (AI) is used in English language teaching and learning (ELT/ELL) in higher education. A comprehensive search of Web of Science, Scopus, ScienceDirect and ERIC (2020–2025) identified 1,536 records; 101 peer-reviewed empirical studies met inclusion criteria and underwent mixed-methods synthesis combining thematic analysis, descriptive statistics and topic modeling. Results show a sharp increase in publications from 2020 to 2024, strong regional concentration and a marked imbalance across language skill domains. Mixed-methods designs prevail and samples are largely student-focused. AI tools cluster into five functional families and commonly act as teaching assistants, learning companions, and assessment/feedback providers. Reported outcomes are generally positive, but risks include over-reliance, variable feedback quality, limited cultural adaptability, and equity/ethics concerns. These findings indicate that effective AI integration in higher education ELT/ELL depends not only on tool adoption, but also on enhanced teacher preparation, culturally responsive AI design and longitudinal evaluation across diverse learning contexts.",
@@ -144,6 +252,18 @@
       "venue": "Cogent Education",
       "direction": "medical",
       "id": "96308c47ae58"
+    },
+    {
+      "title": "ARMOR: Stabilizing On-Policy LLM RL with Off-Policy Anchor Samples",
+      "authors": "Kexin Huang, Junkang Wu, Jinda Lu, Shuo Yang, Chiyu Ma...",
+      "abstract": "Reinforcement learning (RL) has significantly enhanced the reasoning capabilities of large language models (LLMs), yet the training process remains notoriously fragile. In this work, we investigate a critical source of this instability: over-optimization, where models exploit training heuristics at the expense of generalizable reasoning. While reverse KL regularization is the standard defense against such degradation, our analysis reveals that it is often insufficient in this regime, as it fails to ensure comprehensive coverage of the reference distribution. To address this, we propose ARMOR (Anchor Rollout and Mixed Optimization for RL), a framework that shifts the paradigm from passive penalty to active sample stabilization. ARMOR comprises two key components: (1) Anchor Rollout, which leverages off-policy data from the reference policy to preserve established solution patterns; and (2) Mixed Optimization, which reformulates the policy objective to enable controlled exploration without relying on auxiliary losses. Extensive experiments on reasoning benchmarks validate that ARMOR effectively mitigates validation collapse, enabling sustained performance improvements over extended training horizons.",
+      "date": "2026-07-11",
+      "url": "https://arxiv.org/abs/2607.10481v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.10481v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "569b6a1f0dd7"
     },
     {
       "title": "Mapping artificial intelligence integration in objective structured clinical examinations: A scoping review",
@@ -11880,126 +12000,6 @@
       "venue": "Journal of Clinical Medicine",
       "direction": "medical",
       "id": "48b7de80e476"
-    },
-    {
-      "title": "The expanding role of artificial intelligence in personalised medicine: from innovation to individualized care",
-      "authors": "Abrar Mohammad Ali, Mohd Adnan Kausar, Sadaf Anwar, Farida Habib Khan, Halima Mustafa Elagib, ...",
-      "abstract": "Artificial intelligence (AI) has become a transformative force in precision medicine, enabling unprecedented personalization of healthcare therapies via sophisticated computational analysis of complex biomedical data. This review examines the evolving landscape of AI applications in precision medicine, highlighting both established technologies and emerging advances that are reshaping clinical practice. Current applications demonstrate the ability of AI to enhance diagnostic precision, refine treatment decisions, accelerate drug development, and improve patient outcomes across multiple disease domains. Despite significant progress, challenges related to data standardization, algorithmic bias, legal frameworks, and equi7 access remain key barriers to broader implementation. As technical capabilities advance and integration with healthcare systems deepens, AI-driven precision medicine is poised to profoundly transform therapeutic strategies via enhanced personalization based on individual biological, environmental, and clinical variables.",
-      "date": "2026-04-07",
-      "url": "https://doi.org/10.3389/fmed.2026.1795879",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Medicine",
-      "direction": "medical",
-      "id": "db8e18626557"
-    },
-    {
-      "title": "The expanding role of artificial intelligence in personalised medicine: from innovation to individualized care",
-      "authors": "Abrar Mohammad Ali, Mohd Adnan Kausar, Sadaf Anwar, Farida Habib Khan, Halima Mustafa Elagib, ...",
-      "abstract": "Artificial intelligence (AI) has become a transformative force in precision medicine, enabling unprecedented personalization of healthcare therapies via sophisticated computational analysis of complex biomedical data. This review examines the evolving landscape of AI applications in precision medicine, highlighting both established technologies and emerging advances that are reshaping clinical practice. Current applications demonstrate the ability of AI to enhance diagnostic precision, refine treatment decisions, accelerate drug development, and improve patient outcomes across multiple disease domains. Despite significant progress, challenges related to data standardization, algorithmic bias, legal frameworks, and equi7 access remain key barriers to broader implementation. As technical capabilities advance and integration with healthcare systems deepens, AI-driven precision medicine is poised to profoundly transform therapeutic strategies via enhanced personalization based on individual biological, environmental, and clinical variables.",
-      "date": "2026-04-07",
-      "url": "https://doi.org/10.3389/fmed.2026.1795879",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Medicine",
-      "direction": "cell",
-      "id": "db8e18626557"
-    },
-    {
-      "title": "AI-driven magnetoencephalography biomarkers in dementia risk prediction: current evidence, challenges and future perspectives",
-      "authors": "Electra Chatzidimitriou, Charis Styliadis, Katherine P. Rankin, Despina Moraitou, Panagiotis Ioannidis, ...",
-      "abstract": "Introduction Dementia imposes a substantial global healthcare burden, with rising prevalence and limited disease-modifying treatments. Early identification of at-risk individuals is critical for timely intervention and care planning. Magnetoencephalography (MEG) provides high-temporal-resolution measurements of neuronal activity, capturing subtle functional alterations that precede clinical symptoms. Artificial intelligence (AI), particularly machine learning (ML), can leverage MEG's rich spatiotemporal information to enhance diagnostic accuracy and dementia risk prediction. This scoping review synthesizes current evidence on AI-driven MEG analysis for the classification, prediction, and prognosis of MCI and dementia, focusing on methodological approaches, predictive performance, and translational potential. Methods A systematic PubMed-MEDLINE search identified studies published between January 2015 and October 2025, capturing the last decade's rapid evolution of AI methodologies and their integration with neurophysiological research. Search terms combined MEG, AI, and ML with cognitive impairment and dementia. Eligible studies were peer-reviewed original research, involved human participants, employed MEG, and applied AI algorithms for classification or prediction. Extracted data included study population characteristics, MEG features, ML models, predictive biomarkers, and performance metrics. Results Fourteen studies met eligibility criteria, covering populations from healthy controls to individuals with subjective cognitive decline, MCI, AD, and other dementias. MEG systems varied, with most studies employing 306-channel whole-head systems. ML algorithms ranged from traditional approaches, such as support vector machines and random forests, to deep learning architectures, including convolutional neural networks. Reported classification accuracies ranged from moderate (~60%) to high, with several studies achieving over 80% in distinguishing diagnostic categories or predicting MCI-to-AD progression. Key biomarkers included alterations in frequency-specific oscillatory activity, functional connectivity patterns, and large-scale network dynamics. Multimodal approaches integrating MEG with structural neuroimaging further improved predictive performance. Discussion/conclusions Despite heterogeneity across study designs, AI-driven MEG analyses hold significant translational potential for early, non-invasive dementia prediction, enhancing diagnostic and prognostic accuracy. Advancing clinical translation will require standardized preprocessing pipelines, larger multicenter cohorts, and explainable AI frameworks. Future research should leverage next-generation MEG technologies, such as optically pumped magnetometers, to capture brain dynamics in ecologically valid, real-world scenarios. Integrating these data with AI-driven multimodal biomarkers will improve individualized risk prediction, early diagnosis, and therapeutic decision-making in dementia.",
-      "date": "2026-04-07",
-      "url": "https://doi.org/10.3389/frdem.2026.1743627",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Dementia",
-      "direction": "cell",
-      "id": "f612857d2c82"
-    },
-    {
-      "title": "Application-Driven Pedagogical Knowledge Optimization of Open-Source LLMs via Reinforcement Learning and Supervised Fine-Tuning",
-      "authors": "Navan Preet Singh, Xiaokun Wang, Anurag Garikipati, Madalina Ciobanu, Qingqing Mao...",
-      "abstract": "We present an innovative multi-stage optimization strategy combining reinforcement learning (RL) and supervised fine-tuning (SFT) to enhance the pedagogical knowledge of large language models (LLMs), as illustrated by EduQwen 32B-RL1, EduQwen 32B-SFT, and an optional third-stage model EduQwen 32B-SFT-RL2: (1) RL optimization that implements progressive difficulty training, focuses on challenging examples, and employs extended reasoning rollouts; (2) a subsequent SFT phase that leverages the RL-trained model to synthesize high-quality training data with difficulty-weighted sampling; and (3) an optional second round of RL optimization. EduQwen 32B-RL1, EduQwen 32B-SFT, and EduQwen 32B-SFT-RL2 are an application-driven family of open-source pedagogical LLMs built on a dense Qwen3-32B backbone. These models remarkably achieve high enough accuracy on the Cross-Domain Pedagogical Knowledge (CDPK) Benchmark to establish new state-of-the-art (SOTA) results across the interactive Pedagogy Benchmark Leaderboard and surpass significantly larger proprietary systems such as the previous benchmark leader Gemini-3 Pro. These dense 32-billion-parameter models demonstrate that domain-specialized optimization can transform mid-sized open-source LLMs into true pedagogical domain experts that outperform much larger general-purpose systems, while preserving the transparency, customizability, and cost-efficiency required for responsible educational AI deployment.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.06385v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.06385v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "0237d8eadeb5"
-    },
-    {
-      "title": "In-Place Test-Time Training",
-      "authors": "Guhao Feng, Shengjie Luo, Kai Hua, Ge Zhang, Di He...",
-      "abstract": "The static ``train then deploy\" paradigm fundamentally limits Large Language Models (LLMs) from dynamically adapting their weights in response to continuous streams of new information inherent in real-world tasks. Test-Time Training (TTT) offers a compelling alternative by updating a subset of model parameters (fast weights) at inference time, yet its potential in the current LLM ecosystem is hindered by critical barriers including architectural incompatibility, computational inefficiency and misaligned fast weight objectives for language modeling. In this work, we introduce In-Place Test-Time Training (In-Place TTT), a framework that seamlessly endows LLMs with Test-Time Training ability. In-Place TTT treats the final projection matrix of the ubiquitous MLP blocks as its adaptable fast weights, enabling a ``drop-in\" enhancement for LLMs without costly retraining from scratch. Furthermore, we replace TTT's generic reconstruction objective with a tailored, theoretically-grounded objective explicitly aligned with the Next-Token-Prediction task governing autoregressive language modeling. This principled objective, combined with an efficient chunk-wise update mechanism, results in a highly scalable algorithm compatible with context parallelism. Extensive experiments validate our framework's effectiveness: as an in-place enhancement, it enables a 4B-parameter model to achieve superior performance on tasks with contexts up to 128k, and when pretrained from scratch, it consistently outperforms competitive TTT-related approaches. Ablation study results further provide deeper insights on our design choices. Collectively, our results establish In-Place TTT as a promising step towards a paradigm of continual learning in LLMs.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.06169v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.06169v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "c986f7faba50"
-    },
-    {
-      "title": "Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement",
-      "authors": "Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao...",
-      "abstract": "Whether Large Language Models (LLMs) develop coherent internal world models remains a core debate. While conventional Next-Token Prediction (NTP) focuses on one-step-ahead supervision, Multi-Token Prediction (MTP) has shown promise in learning more structured representations. In this work, we provide a theoretical perspective analyzing the gradient inductive bias of MTP, supported by empirical evidence, showing that MTP promotes the convergence toward internal belief states by inducing representational contractivity via gradient coupling. However, we reveal that standard MTP often suffers from structural hallucinations, where discrete token supervision encourages illegal shortcuts in latent space that violate environmental constraints. To address this, we propose a novel method Latent Semantic Enhancement MTP (LSE-MTP), which anchors predictions to ground-truth hidden state trajectories. Experiments on synthetic graphs and real-world Manhattan Taxi Ride show that LSE-MTP effectively bridges the gap between discrete tokens and continuous state representations, enhancing representation alignment, reducing structural hallucinations, and improving robustness to perturbations.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.06155v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.06155v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "41fdb4624a13"
-    },
-    {
-      "title": "Social Dynamics as Critical Vulnerabilities that Undermine Objective Decision-Making in LLM Collectives",
-      "authors": "Changgeon Ko, Jisu Shin, Hoyun Song, Huije Lee, Eui Jun Hwang...",
-      "abstract": "Large language model (LLM) agents are increasingly acting as human delegates in multi-agent environments, where a representative agent integrates diverse peer perspectives to make a final decision. Drawing inspiration from social psychology, we investigate how the reliability of this representative agent is undermined by the social context of its network. We define four key phenomena-social conformity, perceived expertise, dominant speaker effect, and rhetorical persuasion-and systematically manipulate the number of adversaries, relative intelligence, argument length, and argumentative styles. Our experiments demonstrate that the representative agent's accuracy consistently declines as social pressure increases: larger adversarial groups, more capable peers, and longer arguments all lead to significant performance degradation. Furthermore, rhetorical strategies emphasizing credibility or logic can further sway the agent's judgment, depending on the context. These findings reveal that multi-agent systems are sensitive not only to individual reasoning but also to the social dynamics of their configuration, highlighting critical vulnerabilities in AI delegates that mirror the psychological biases observed in human group decision-making.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.06091v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.06091v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "279e76f032eb"
-    },
-    {
-      "title": "Stories of Your Life as Others: A Round-Trip Evaluation of LLM-Generated Life Stories Conditioned on Rich Psychometric Profiles",
-      "authors": "Ben Wigler, Maria Tsfasman, Tiffany Matej Hrkalovic",
-      "abstract": "Personality traits are richly encoded in natural language, and large language models (LLMs) trained on human text can simulate personality when conditioned on persona descriptions. However, existing evaluations rely predominantly on questionnaire self-report by the conditioned model, are limited in architectural diversity, and rarely use real human psychometric data. Without addressing these limitations, it remains unclear whether personality conditioning produces psychometrically informative representations of individual differences or merely superficial alignment with trait descriptors. To test how robustly LLMs can encode personality into extended text, we condition LLMs on real psychometric profiles from 290 participants to generate first-person life story narratives, and then task independent LLMs to recover personality scores from those narratives alone. We show that personality scores can be recovered from the generated narratives at levels approaching human test-retest reliability (mean r = 0.750, 85% of the human ceiling), and that recovery is robust across 10 LLM narrative generators and 3 LLM personality scorers spanning 6 providers. Decomposing systematic biases reveals that scoring models achieve their accuracy while counteracting alignment-induced defaults. Content analysis of the generated narratives shows that personality conditioning produces behaviourally differentiated text: nine of ten coded features correlate significantly with the same features in participants' real conversations, and personality-driven emotional reactivity patterns in narratives replicate in real conversational data. These findings provide evidence that the personality-language relationship captured during pretraining supports robust encoding and decoding of individual differences, including characteristic emotional variability patterns that replicate in real human behaviour.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.06071v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.06071v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "38207846017b"
-    },
-    {
-      "title": "From Hallucination to Structure Snowballing: The Alignment Tax of Constrained Decoding in LLM Reflection",
-      "authors": "Hongxu Zhou",
-      "abstract": "Intrinsic self-correction in Large Language Models (LLMs) frequently fails in open-ended reasoning tasks due to ``hallucination snowballing,'' a phenomenon in which models recursively justify early errors during free-text reflection. While structured feedback can mitigate this issue, existing approaches often rely on externally trained critics or symbolic tools, reducing agent autonomy. This study investigates whether enforcing structured reflection purely through Outlines-based constrained decoding can disrupt error propagation without additional training. Evaluating an 8-billion-parameter model (Qwen3-8B), we show that simply imposing structural constraints does not improve self-correction performance. Instead, it triggers a new failure mode termed ``structure snowballing.'' We find that the cognitive load required to satisfy strict formatting rules pushes the model into formatting traps. This observation helps explain why the agent achieves near-perfect superficial syntactic alignment yet fails to detect or resolve deeper semantic errors. These findings expose an ``alignment tax'' inherent to constrained decoding, highlighting a tension between structural granularity and internal model capacity in autonomous workflows. Code and raw logs are available in the GitHub repository: https://github.com/hongxuzhou/agentic_llm_structured_self_critique.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.06066v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.06066v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "34b5ab66cb79"
-    },
-    {
-      "title": "AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning",
-      "authors": "Yuanfu Sun, Kang Li, Dongzhe Fan, Jiajin Liu, Qiaoyu Tan",
-      "abstract": "Large Language Models (LLMs) increasingly rely on agentic capabilities-iterative retrieval, tool use, and decision-making-to overcome the limits of static, parametric knowledge. Yet existing agentic frameworks treat external information as unstructured text and fail to leverage the topological dependencies inherent in real-world data. To bridge this gap, we introduce Agentic Graph Learning (AGL), a paradigm that reframes graph learning as an interleaved process of topology-aware navigation and LLM-based inference. Specifically, we propose AgentGL, the first reinforcement learning (RL)-driven framework for AGL. AgentGL equips an LLM agent with graph-native tools for multi-scale exploration, regulates tool usage via search-constrained thinking to balance accuracy and efficiency, and employs a graph-conditioned curriculum RL strategy to stabilize long-horizon policy learning without step-wise supervision. Across diverse Text-Attributed Graph (TAG) benchmarks and multiple LLM backbones, AgentGL substantially outperforms strong GraphLLMs and GraphRAG baselines, achieving absolute improvements of up to 17.5% in node classification and 28.4% in link prediction. These results demonstrate that AGL is a promising frontier for enabling LLMs to autonomously navigate and reason over complex relational environments. The code is publicly available at https://github.com/sunyuanfu/AgentGL.",
-      "date": "2026-04-07",
-      "url": "https://arxiv.org/abs/2604.05846v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.05846v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "c7a538153b51"
     }
   ]
 }
