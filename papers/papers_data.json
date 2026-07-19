@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-07-18 20:03",
+  "last_updated": "2026-07-19 20:07",
   "papers": [
+    {
+      "title": "Machine learning approaches for biomechanical and bioelectrical regulation in developmental tissue engineering",
+      "authors": "Miriam Filippi, Robert K. Katzschmann",
+      "abstract": "Abstract Developmental tissue engineering is increasingly guided by the principles of morphogenesis, cellular self-organization, and dynamic microenvironmental regulation, moving beyond static scaffold design and towards adaptive, development-inspired strategies. Integrating insights from developmental biology has revealed new structural-functional relationships and more robust tissue maturation pathways, thereby unlocking biofabrication strategies that harness intrinsic biological regulatory mechanisms rather than imposing static architectures on engineered tissue. This review examines machine learning (ML) applications to tissue engineering within a developmental context, emphasizing how bioelectric, biomechanical, and morphogenic cues influence cell fate, tissue organization, and adaptive growth. We highlight how data-driven and physics-based models, surrogate modeling, and generative design can integrate complex biological data, simulate evolving microenvironments, and guide experimental biofabrication. Despite these advances, significant challenges remain, such as the integration of heterogeneous and multiscale biological data, limitations in model interpretability and generalizability, and ethical and regulatory considerations regarding data use and artificial intelligence (AI)-guided decision-making in biofabrication applications. Through the coupling of developmental principles with computational tools, ML-driven tissue engineering is nevertheless well positioned to enable more predictive, adaptive, and reproducible paradigms for creating functional living systems.",
+      "date": "2026-07-18",
+      "url": "https://doi.org/10.1631/bdm.2500560",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bio-Design and Manufacturing",
+      "direction": "cell",
+      "id": "f5caaae7aba1"
+    },
+    {
+      "title": "When Can AI Models Explain Learning? Validity Criteria for AI as Cognitive Models in Education",
+      "authors": "Peng Wang, Olga Viberg, Effie Lai-Chong Law, Samuel Greiff",
+      "abstract": "Abstract Traditional verbal theories in educational psychology often remain underspecified at the mechanistic level. While they offer rich descriptive constructs and conceptual insights, they provide limited accounts of how learning processes unfold dynamically and causally. Here, “verbal” denotes theories stated in prose and qualitative relations rather than as formal, computational process models. This lack of mechanistic precision constrains rigorous theory testing, limits integration across levels of analysis, and reduces the potential to design interventions grounded in explanatory understanding of learning processes. In this Review, we synthesize an emerging paradigm that treats artificial intelligence (AI) systems not merely as predictive tools or instructional technologies, but as cognitive models of learners, explicit, runnable instantiations of theoretical assumptions about cognition and learning. Our central question is not whether AI systems can serve as cognitive models, but when they should be allowed to count as such. We therefore organize the Review around explicit validity criteria, theoretical grounding, construct validity, mechanistic transparency, alignment with human learning trajectories, error-signature matching, causal-intervention tests, ecological validity, and instructional usefulness, that an AI system must satisfy before its cognitive-model status is granted rather than assumed. We examine how major families of AI models, including neural networks, reinforcement learning agents, cognitive architectures, and large language models, have been used to operationalize core educational constructs such as memory, strategy use, motivation, self-regulation, and social learning. Across these approaches, we highlight how mechanistic transparency, interpretability, and alignment with human learning trajectories and error patterns are essential for explanatory validity. We further discuss methodological tools, such as representation analysis, ablation, and trajectory-level comparison, that enable causal inference about learning mechanisms within models. Finally, we outline key challenges and future directions, including construct validity, ecological realism, individual differences, and ethical accountability. By positioning AI as a theoretical instrument rather than solely an engineering solution, this Review argues that AI-based cognitive models can, when they satisfy these criteria, help transform abstract learning theories into precise, testable, and educationally actionable accounts of how students learn.",
+      "date": "2026-07-18",
+      "url": "https://doi.org/10.1007/s10648-026-10202-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Educational Psychology Review",
+      "direction": "cell",
+      "id": "1d8549c6b8bc"
+    },
+    {
+      "title": "Machine learning approaches for biomechanical and bioelectrical regulation in developmental tissue engineering",
+      "authors": "Miriam Filippi, Robert K. Katzschmann",
+      "abstract": "Abstract Developmental tissue engineering is increasingly guided by the principles of morphogenesis, cellular self-organization, and dynamic microenvironmental regulation, moving beyond static scaffold design and towards adaptive, development-inspired strategies. Integrating insights from developmental biology has revealed new structural-functional relationships and more robust tissue maturation pathways, thereby unlocking biofabrication strategies that harness intrinsic biological regulatory mechanisms rather than imposing static architectures on engineered tissue. This review examines machine learning (ML) applications to tissue engineering within a developmental context, emphasizing how bioelectric, biomechanical, and morphogenic cues influence cell fate, tissue organization, and adaptive growth. We highlight how data-driven and physics-based models, surrogate modeling, and generative design can integrate complex biological data, simulate evolving microenvironments, and guide experimental biofabrication. Despite these advances, significant challenges remain, such as the integration of heterogeneous and multiscale biological data, limitations in model interpretability and generalizability, and ethical and regulatory considerations regarding data use and artificial intelligence (AI)-guided decision-making in biofabrication applications. Through the coupling of developmental principles with computational tools, ML-driven tissue engineering is nevertheless well positioned to enable more predictive, adaptive, and reproducible paradigms for creating functional living systems.",
+      "date": "2026-07-18",
+      "url": "https://doi.org/10.1631/bdm.2500560",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Bio-Design and Manufacturing",
+      "direction": "llm",
+      "id": "f5caaae7aba1"
+    },
+    {
+      "title": "Artificial intelligence in acne vulgaris: Current applications, limitations, and future directions",
+      "authors": "Ipshita Bhattacharya, Sanjay Rathi, Priyal Singhal, Rajesh Kumar",
+      "abstract": "Artificial intelligence (AI) has gained increasing attention in dermatology, particularly in acne vulgaris, a highly prevalent disorder in which visual pattern recognition and severity grading play a central role. AI-based systems have demonstrated encouraging performance in automated acne detection, lesion classification, and objective severity assessment using standardized grading scales, with potential to reduce inter-observer variability and improve reproducibility in both clinical and research settings. Recent advances in deep learning and Ensemble models have enabled lesion-level analysis and more consistent phenotyping. This narrative review synthesizes current evidence on the application of AI in acne vulgaris, based on a review of published English-language literature identified through major biomedical databases and manual reference screening. Beyond diagnosis and severity assessment, emerging applications include patient education platforms, over-the-counter product recommendation tools, adherence monitoring, and longitudinal evaluation through serial image analysis. Natural language processing and large language models may further support acne care by assisting with clinical documentation, tele dermatology triage, and personalized counseling. Despite these advances, translation into routine clinical practice remains limited. Key challenges include limited external and prospective validation, dataset bias, underrepresentation of skin of color, and a predominant focus on algorithmic accuracy without evidence of impact on clinical outcomes. Ethical concerns related to data privacy, transparency, and medicolegal responsibility also warrant attention. AI should be viewed as an adjunctive, decision-support tool rather than a substitute for clinical judgment. Dermatologist oversight remains essential for the responsible and equitable integration of AI into acne care.",
+      "date": "2026-07-18",
+      "url": "https://doi.org/10.25259/csdm_77_2026",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Cosmoderma",
+      "direction": "llm",
+      "id": "70a7976d7951"
+    },
+    {
+      "title": "NeuroFusion: A Unified Framework for Generalized Visual Stimulus Decoding from fMRI Across Datasets and Subjects",
+      "authors": "Muhammad Kashif, Matteo Ferrante, Nicola Toschi",
+      "abstract": "Recent advancements in neural decoding have shown promising results in reconstructing visual experiences from brain activity. However, existing approaches focus primarily on decoding within a single dataset or subject, which limits generalization across various sources of neuroimaging. In this work, we propose a novel framework for the decoding of visual stimuli between subjects and between data sets, integrating neural recordings from multiple publicly available fMRI datasets. To address inherent intersubject and interdataset variability, we introduce a contrastive learning-based alignment strategy using image embeddings from a pre-trained IP-Adapter model. Our approach learns a shared latent space by aligning subject-specific neural representations with image features, enabling generalized decoding across both subjects and datasets. In addition, we propose a simple yet effective data augmentation method using ridge regression. This method synthesizes realistic fMRI-like signals from novel images by predicting voxel activity and injecting learned noise distributions, thus enhancing training diversity and model robustness. To the best of our knowledge, while several recent studies have explored cross-subject decoding, we extend recent cross-subject decoding efforts by training a single unified framework jointly across multiple public fMRI datasets and subjects, enabling cross-dataset transfer in addition to cross-subject generalization. We distinguish this multi-dataset unified training setting, where each dataset contributes training data, from a stricter leave-one-dataset-out transfer setting in which the target dataset is excluded from source pretraining and used only for lightweight alignment-layer adaptation. Empirically, our unified model achieves strong semantic reconstruction across datasets (e.g., up to 94.8% CLIP similarity on NSD (AUG) and 0.403 SSIM on BOLD5000 after lightweight finetuning), demonstrating robust cross-subject and cross-dataset transfer.",
+      "date": "2026-07-18",
+      "url": "https://doi.org/10.1007/s12021-026-09803-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Neuroinformatics",
+      "direction": "llm",
+      "id": "32313d8408fa"
+    },
+    {
+      "title": "AI-assisted fragment-based drug discovery of SARS-CoV-2 macrodomain binders validated by NMR and X-ray crystallography",
+      "authors": "Elnaz Aledavood, Sandra Ramos-Inza, Jannis Born, Megan Lambert, Hannes Berg, ...",
+      "abstract": "Fragment-based drug discovery (FBDD) is an effective approach for exploring chemical space using small, low-affinity fragments as starting points to facilitate development of lead compounds. Strategies to improve fragment potency include fragment merging and linking to generate higher-affinity inhibitors. Recently, artificial intelligence (AI) and machine learning (ML) have accelerated this process through structure-based optimization and generative compound design. Here, we present an AI-assisted FBDD workflow applied to the SARS-CoV-2 macrodomain (Mac1), a conserved viral protein involved in immune evasion and ADP-ribose metabolism. Using available structural data and previously identified fragments, we combined deep learning with molecular docking to design novel Mac1 binders. Selected compounds were synthesized and validated by NMR spectroscopy and X-ray crystallography, demonstrating improved binding relative to the original fragment hits with KD values in the range of 299-990 µM. This study demonstrates the advantages of integrating AI with FBDD to streamline molecular design, providing a data-driven framework for discovering new Mac1 inhibitors and guiding future antiviral drug development. Artificial intelligence and machine learning have recently accelerated fragment-based drug discovery (FBDD) processes through structure-based optimization and generative compound design. Here, the authors present an AI-assisted FBDD workflow applied to the SARS-CoV-2 macrodomain, designing and experimentally validating novel Mac1 binders.",
+      "date": "2026-07-17",
+      "url": "https://doi.org/10.1038/s42004-026-02138-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Communications Chemistry",
+      "direction": "cell",
+      "id": "dc82b5ccf5a9"
+    },
     {
       "title": "From hospital dentistry to health systems: advancing special care dentistry through education, integration, and technology",
       "authors": "Sujay A. J. Mehta, Martha Mutis, D Kurtzman, Eric C. Sung",
@@ -792,6 +864,18 @@
       "venue": "Frontiers in Cardiovascular Medicine",
       "direction": "llm",
       "id": "fc58e15de14c"
+    },
+    {
+      "title": "OCellus: A Language-Model Framework for Single-Cell, Spatial, and Perturbation Biology with Natural-Language Reasoning",
+      "authors": "Zhang, C.; Sun, J.; Xu, Z.; Liao, R.; Yin, A.; Gao, H.; Liu, E.; Bao, Y.; Zhao, L.; Wang, G.",
+      "abstract": "Computational modeling of cellular behavior--the virtual cell--has emerged as a stated grand challenge at the intersection of artificial intelligence and biology, yet existing foundation models remain specialized: single-cell models process dissociated transcriptomes only, spatial models require dedicated spatial-aware architectures, and perturbation predictors depend on manually curated knowledge bases that cap generalization. Here we introduce OCellus, a single nine-billion-parameter language model (Qwen3.5-9B) fine-tuned on twenty-two biological tasks that simultaneously addresses all three limitations through three coordinated technical contributions on a shared backbone. First, EvenClock encodes two-dimensional spatial coordinates as eighteen clockface sectors of text, enabling spatial reasoning on a vanilla language model without architectural modification; on ten spatial transcriptomics tasks OCellus attains 77 percent spatial-neighborhood accuracy, 96 percent spatial-cellchat accuracy, and 0.70 proportion-cosine similarity on spatial deconvolution, all without any spatial-aware architectural components. Second, per-gene language-model embeddings replace the Gene Ontology annotations that GEARS depends on, achieving Pearson correlation 0.945 on the Replogle 2022 perturbation benchmark versus 0.84 for GEARS across 457 completely unseen knockout genes. Third, OCellus-Agent provides a Planner-Router-Verifier natural-language interface that achieves 75 percent pipeline accuracy on eighty multi-task queries. Removing language-model embeddings collapses perturbation Pearson to 0.06, confirming that learned functional representations--not graph topology--drive the gain. As a cell-type encoder, OCellus ranks first among fourteen foundation models in linear-probe accuracy at 95.1 percent across four benchmark datasets, and reaches 72.6 percent average across twenty-two evaluated biological tasks--a 57-percentage-point absolute gain over the strongest baseline configuration. As a language model, OCellus uniquely generates natural-language explanations of its predictions, a capability absent from all competing methods. Code, pre-trained model weights, the graph-neural-network module, and the agent system will be made available upon publication.",
+      "date": "2026-07-12",
+      "url": "https://doi.org/10.64898/2026.07.08.737248",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "10e7c27acd60"
     },
     {
       "title": "To Answer or to Abstain: Mitigating Search-Agent Hallucinations via Abstention-Aware Reinforcement Learning",
@@ -11916,90 +12000,6 @@
       "venue": "Frontiers in Plant Science",
       "direction": "cell",
       "id": "5b4d911234a7"
-    },
-    {
-      "title": "CLSGen: A Dual-Head Fine-Tuning Framework for Joint Probabilistic Classification and Verbalized Explanation",
-      "authors": "WonJin Yoon, Kangyu Zhu, Ian Bulovic, Autumn Sehy, Yanjun Gao...",
-      "abstract": "With the recent progress of Large Language Models (LLMs), there is a growing interest in applying these models to solve complex and challenging problems. Modern LLMs, capable of processing long contexts and generating verbalized explanations, offer significant potential in addressing real-world applications. However, a critical hurdle in deploying LLMs for practical decision-making is their inability to provide reliable, quantitative probabilities. While task-specific fine-tuning of LLMs using traditional discriminative objectives (similar to encoder-only models) can yield probability estimates, this often leads to catastrophic forgetting and linguistic collapse. Consequently, the model loses its ability to generate explanations, severely undermining its interpretability and usability. To address this challenge, we propose CLSGen, a novel LLM fine-tuning framework designed for binary classification tasks. The CLSGen framework encompasses a new model architecture, training methodology, and data construction strategy to enable robust probability estimation without sacrificing the model's inherent explanation-generation capabilities. Experimental results across multiple benchmark datasets demonstrate that models fine-tuned with CLSGen outperform existing baselines in classification metrics (AUROC and F1-score). Regarding explanation, the results showed strong alignment between predicted labels and generated justifications, as well as high readability.",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11801v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11801v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "b03f3c33531e"
-    },
-    {
-      "title": "General365: Benchmarking General Reasoning in Large Language Models Across Diverse and Challenging Tasks",
-      "authors": "Junlin Liu, Shengnan An, Shuang Zhou, Dan Ma, Shixiong Luo...",
-      "abstract": "Contemporary large language models (LLMs) have demonstrated remarkable reasoning capabilities, particularly in specialized domains like mathematics and physics. However, their ability to generalize these reasoning skills to more general and broader contexts--often termed general reasoning--remains under-explored. Unlike domain-specific reasoning, general reasoning relies less on expert knowledge but still presents formidable reasoning challenges, such as complex constraints, nested logical branches, and semantic interference. To address this gap, we introduce General365, a benchmark specifically designed to assess general reasoning in LLMs. By restricting background knowledge to a K-12 level, General365 explicitly decouples reasoning from specialized expertise. The benchmark comprises 365 seed problems and 1,095 variant problems across eight categories, ensuring both high difficulty and diversity. Evaluations across 26 leading LLMs reveal that even the top-performing model achieves only 62.8% accuracy, in stark contrast to the near-perfect performances of LLMs in math and physics benchmarks. These results suggest that the reasoning abilities of current LLMs are heavily domain-dependent, leaving significant room for improvement in broader applications. We envision General365 as a catalyst for advancing LLM reasoning beyond domain-specific tasks toward robust, general-purpose real-world scenarios. Code, Dataset, and Leaderboard: https://general365.github.io",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11778v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11778v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "6c3e464a3fdb"
-    },
-    {
-      "title": "Legal2LogicICL: Improving Generalization in Transforming Legal Cases to Logical Formulas via Diverse Few-Shot Learning",
-      "authors": "Jieying Xue, Phuong Minh Nguyen, Ha Thanh Nguyen, May Myo Zin, Ken Satoh",
-      "abstract": "This work aims to improve the generalization of logic-based legal reasoning systems by integrating recent advances in NLP with legal-domain adaptive few-shot learning techniques using LLMs. Existing logic-based legal reasoning pipelines typically rely on fine-tuned models to map natural-language legal cases into logical formulas before forwarding them to a symbolic reasoner. However, such approaches are heavily constrained by the scarcity of high-quality annotated training data. To address this limitation, we propose a novel LLM-based legal reasoning framework that enables effective in-context learning through retrieval-augmented generation. Specifically, we introduce Legal2LogicICL, a few-shot retrieval framework that balances diversity and similarity of exemplars at both the latent semantic representation level and the legal text structure level. In addition, our method explicitly accounts for legal structure by mitigating entity-induced retrieval bias in legal texts, where lengthy and highly specific entity mentions often dominate semantic representations and obscure legally meaningful reasoning patterns. Our Legal2LogicICL constructs informative and robust few-shot demonstrations, leading to accurate and stable logical rule generation without requiring additional training. In addition, we construct a new dataset, named Legal2Proleg, which is annotated with alignments between legal cases and PROLEG logical formulas to support the evaluation of legal semantic parsing. Experimental results on both open-source and proprietary LLMs demonstrate that our approach significantly improves accuracy, stability, and generalization in transforming natural-language legal case descriptions into logical representations, highlighting its effectiveness for interpretable and reliable legal reasoning. Our code is available at https://github.com/yingjie7/Legal2LogicICL.",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11699v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11699v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "ed5364d842af"
-    },
-    {
-      "title": "Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind",
-      "authors": "Hanqi Xiao, Vaidehi Patil, Zaid Khan, Hyunji Lee, Elias Stengel-Eskin...",
-      "abstract": "As large language models (LLMs) become the engine behind conversational systems, their ability to reason about the intentions and states of their dialogue partners (i.e., form and use a theory-of-mind, or ToM) becomes increasingly critical for safe interaction with potentially adversarial partners. We propose a novel privacy-themed ToM challenge, ToM for Steering Beliefs (ToM-SB), in which a defender must act as a Double Agent to steer the beliefs of an attacker with partial prior knowledge within a shared universe. To succeed on ToM-SB, the defender must engage with and form a ToM of the attacker, with a goal of fooling the attacker into believing they have succeeded in extracting sensitive information. We find that strong frontier models like Gemini3-Pro and GPT-5.4 struggle on ToM-SB, often failing to fool attackers in hard scenarios with partial attacker prior knowledge, even when prompted to reason about the attacker's beliefs (ToM prompting). To close this gap, we train models on ToM-SB to act as AI Double Agents using reinforcement learning, testing both fooling and ToM rewards. Notably, we find a bidirectionally emergent relationship between ToM and attacker-fooling: rewarding fooling success alone improves ToM, and rewarding ToM alone improves fooling. Across four attackers with different strengths, six defender methods, and both in-distribution and out-of-distribution (OOD) evaluation, we find that gains in ToM and attacker-fooling are well-correlated, highlighting belief modeling as a key driver of success on ToM-SB. AI Double Agents that combine both ToM and fooling rewards yield the strongest fooling and ToM performance, outperforming Gemini3-Pro and GPT-5.4 with ToM prompting on hard scenarios. We also show that ToM-SB and AI Double Agents can be extended to stronger attackers, demonstrating generalization to OOD settings and the upgradability of our task.",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11666v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11666v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "0e57d480679f"
-    },
-    {
-      "title": "RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents",
-      "authors": "Riccardo Rosati, Edoardo Colucci, Massimiliano Bolognini, Adriano Mancini, Paolo Sernani",
-      "abstract": "The rapid adoption of Large Language Models (LLMs) in interactive systems has enabled the creation of dynamic, open-ended Role-Playing Agents (RPAs). However, evaluating these agents remains a significant challenge, as standard NLP metrics fail to capture the nuances of role adherence, logical consistency, and long-term narrative stability. This paper introduces RPA-Check, a multi-stage automated evaluation framework designed to objectively assess the performance of LLM-based RPAs in complex, constraints-heavy environments. Our methodology is based on a four-step pipeline: (1) Dimension Definition, establishing high-level qualitative behavioral criteria; (2) Augmentation, where these requirements are expanded into granular boolean checklist indicators; (3) Semantic Filtering, to ensure indicator objectivity, no redundancy and agent isolation; and (4) LLM-as-a-Judge Evaluation, which employs chain-of-thought verification to score agent fidelity. We validate this framework by applying it to LLM Court, a serious game for forensic training involving several quantized local models. Experimental results across five distinct legal scenarios demonstrate the framework's ability to identify subtle trade-offs between model size, reasoning depth, and operational stability. Notably, the findings reveal an inverse relationship between parametric scale and procedural consistency, showing that smaller, adequately instruction-tuned models (8-9B) can outperform larger architectures prone to user-alignment bias or sycophancy. RPA-Check thus provides a standardized and reproducible metric for future research in generative agent evaluation within specialized domains.",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11655v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11655v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "cfea74755e7c"
-    },
-    {
-      "title": "Discourse Diversity in Multi-Turn Empathic Dialogue",
-      "authors": "Hongli Zhan, Emma S. Gueorguieva, Javier Hernandez, Jina Suh, Desmond C. Ong...",
-      "abstract": "Large language models (LLMs) produce responses rated as highly empathic in single-turn settings (Ayers et al., 2023; Lee et al., 2024), yet they are also known to be formulaic generators that reuse the same lexical patterns, syntactic templates, and discourse structures across tasks (Jiang et al., 2025; Shaib et al., 2024; Namuduri et al., 2025). Less attention has been paid to whether this formulaicity extends to the level of discourse moves, i.e., what a response does for the person it is addressing. This question is especially consequential for empathic dialogue, where effective support demands not just a kind response at one moment but varied strategies as a conversation unfolds (Stiles et al., 1998). Indeed, prior work shows that LLMs reuse the same tactic sequences more than human supporters in single-turn settings (Gueorguieva et al., 2026). We extend this analysis to multi-turn conversations and find that the rigidity compounds: once a tactic appears in a supporter turn, LLMs reuse it in the next at nearly double the rate of humans (0.50-0.56 vs. 0.27). This pattern holds across LLMs serving as supporters in real emotional support conversations, and is invisible to standard similarity metrics. To address this gap, we introduce MINT (Multi-turn Inter-tactic Novelty Training), the first reinforcement learning framework to optimize discourse move diversity across multi-turn empathic dialogue. The best MINT variant combines an empathy quality reward with a cross-turn tactic novelty signal, improving aggregate empathy by 25.3% over vanilla across 1.7B and 4B models while reducing cross-turn discourse move repetition by 26.3% on the 4B model, surpassing all baselines including quality-only and token-level diversity methods on both measures. These results suggest that what current models lack is not empathy itself, but the ability to vary their discourse moves across a conversation.",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11742v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11742v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d43718cfb431"
-    },
-    {
-      "title": "Utilizing and Calibrating Hindsight Process Rewards via Reinforcement with Mutual Information Self-Evaluation",
-      "authors": "Jiashu Yao, Heyan Huang, Zeming Liu, Yuhang Guo",
-      "abstract": "To overcome the sparse reward challenge in reinforcement learning (RL) for agents based on large language models (LLMs), we propose Mutual Information Self-Evaluation (MISE), an RL paradigm that utilizes hindsight generative self-evaluation as dense reward signals while simultaneously calibrating them against the environmental feedbacks. Empirically, MISE enables an agent to learn autonomously from dense internal rewards supplementing sparse extrinsic signals. Theoretically, our work provides the first formal foundation for the paradigm of generative self-rewarding. We prove that utilizing hindsight self-evaluation rewards is equivalent to minimizing an objective that combines mutual information with a KL divergence term between the policy and a proxy reward policy. This theoretical insight then informs and justifies our calibration step, which actively aligns these rewards with the optimal policy. Extensive experiments show that MISE outperforms strong baselines, enabling open-source LLMs about 7B parameters to achieve performance comparable to GPT-4o on validation without expert supervision.",
-      "date": "2026-04-13",
-      "url": "https://arxiv.org/abs/2604.11611v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11611v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9bd3311c485e"
     }
   ]
 }
