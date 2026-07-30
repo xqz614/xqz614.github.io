@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-07-29 20:14",
+  "last_updated": "2026-07-30 20:15",
   "papers": [
+    {
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "authors": "Jingbo Zhou, Yusai Zhao, Qi Bao, Jingjia Cao, Zhenghai Chen...",
+      "abstract": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at a reasonable cost. We introduce OmegaUse-OfficeVal, a benchmark for evaluating LLM agents on long-horizon office-suite tasks with task-level economic grounding. The benchmark comprises 100 tasks derived from office-suite requests proposed by practitioners and adapted through a privacy-preserving process. On average, these tasks require 2.32 hours of human labor to complete. An important feature of the benchmark is that each task is paired with two economic signals: human labor time and task price proxy. These signals enable direct comparisons between human costs and LLM inference costs, as well as value-weighted evaluation. To support stable evaluation, we develop code-based verifiers from fine-grained rubrics. We evaluate several frontier LLMs together with a human baseline. Although all evaluated LLMs are substantially cheaper and faster than human workers, they have not yet approached human-level deliverable quality. The code and dataset are fully open-sourced, and more information is available on our project website: https://omegause-officeval.github.io.",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.27155v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27155v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7993b7e350e9"
+    },
+    {
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "authors": "Yongjian Guo, Wanlun Ma, Lingyu Shen, Xi Xiao, Sheng Wen",
+      "abstract": "Fine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models that retain professional skills while violating human values on demand. Existing safety-realignment defenses often fail in practice due to three key limitations: they frequently cause catastrophic forgetting of specialized skills; their effectiveness collapses when the defender cannot observe the attacker's prompt template; and successfully realigned models remain susceptible to re-jailbreaking via simple system prompt switches. To address these challenges, we propose Routing-based On-Policy Distillation (ROPD), a novel realignment framework that models the divergence between aligned and compromised output probability distributions rather than fitting specific prompt templates. We conduct extensive experiments comparing ROPD against four state-of-the-art baselines across three datasets and three base models with varying alignment strengths. Our results demonstrate that when baseline defenses face template mismatches, often accompanied by severe degradation in downstream task performance. In contrast, ROPD substantially mitigates template-mismatch risks, maintaining superior robustness in both defense effectiveness and capability preservation. While our analysis indicates ROPD is not entirely immune to template shifts, its performance degradation is negligible compared to existing methods, establishing a new standard for robust LLM realignment.",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.27081v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.27081v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c87bc74131ab"
+    },
+    {
+      "title": "OptimismBench: Forecasting Bias and the Alignment Effect in Language Model Judgment",
+      "authors": "Seonglae Cho, Adriano Koshiyama",
+      "abstract": "Large language models are increasingly used as decision aids whose probability judgments shape downstream choices. Whether those judgments carry a systematic directional tilt has been hard to detect: calibration metrics aggregate unsigned errors, and naturalistic uncertainty offers no ground-truth probability. When an LLM rates a startup's success at 70% but its failure at 15%, the missing 15 points expose a distortion no aggregate score flags. We introduce OptimismBench, which detects directional bias with inverted pairs: each scenario elicits both P(success) and P(failure), and asymmetry between the two framings yields a signed bias score without ground truth. Across 16 models from 8 providers, fourteen are optimistic; pessimism appears only in Anthropic's frontier tier. Eleven matched base-versus-chat pairs across four families show post-training sets the sign of the bias, with opposite shifts in different families. The pattern survives prompt, temperature, perspective, and self-debiasing ablations. A seventeen-model six-language comparison further shows model identity dominates language, with inter-model variance at 4.7x inter-language variance. We release 3,870 items across 10 languages for per-model directional-bias auditing. When alignment makes a model more helpful, it also tilts its probabilities; downstream pipelines inherit the tilt by default.",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.26981v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26981v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1be97f44390e"
+    },
+    {
+      "title": "TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning",
+      "authors": "Jinhu Qi, Wentao Zhang, Siu Man Ng, Feiyang Xu, Yanyu Chen...",
+      "abstract": "Travel planning is a demanding stress test for tool-using LLM agents: a usable itinerary is a single artifact that must be right along many axes at once - every flight, hotel, and attraction must exist and be bookable, the days must be physically traversable, the total must clear a budget, and the plan must serve a traveler whose needs are only partly stated. Existing agent benchmarks reward these properties one at a time and grade the final output with soft or LLM-judged rubrics, which cannot certify that a returned plan is executable and are neither reproducible nor auditable. We introduce TREK (Travel Reasoning and Evaluation Kit), a benchmark for feasible itinerary synthesis: producing a single plan that is jointly constraint-correct, hallucination-free, spatio-temporally executable, budget-valid, and responsive to the traveler's unstated persona needs. TREK comprises 800 multi-constraint tasks - 533 feasible and 267 provably infeasible with typed route/entity/budget causes - over a synthetic, internally consistent knowledge base of 212,530 records across 375 cities and 13 personas, served through a production-style tool sandbox of validated RESTful APIs. Every task is scored by a fully deterministic, rule-based evaluator with no LLM judge and ships a human-verified gold reference that scores a perfect 1.0 under that same evaluator, so the ceiling is demonstrably achievable and every remaining gap is an agent limitation rather than scorer strictness. Evaluating 15 LLM agents across nine constraint dimensions, we find that even the strongest (GPT-5.6) produces a fully-feasible plan on only 46.2% of solvable tasks, with a median of 6.6% and a floor of 0.0%; satisfying travelers' unstated needs emerges as the universal bottleneck, unsolved even at the frontier. We release the dataset, tool sandbox, deterministic evaluator, and agent code as a fully reproducible benchmark.",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.26977v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26977v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "28323fce75b5"
+    },
+    {
+      "title": "Dual-Path LLM Reasoning for Multimodal Few-Shot Knowledge Graph Completion",
+      "authors": "Jinlan Liu, Zhiying Tu, Yongchao Xing, Yicheng Liu, Bolin Zhang...",
+      "abstract": "Knowledge graph completion (KGC) aims to infer missing facts in knowledge graphs (KGs), thereby improving their completeness and supporting downstream intelligent applications. However, emerging entities and relations in real-world deployments make inductive KGC difficult, especially under few-shot and zero-shot settings. Multimodal information and Large Language Model (LLM)-derived priors can enrich sparse relational contexts, but they may also introduce noisy or hallucinated evidence. To address these issues, we propose DuPLeR, a \\textbf{Du}al-\\textbf{P}ath \\textbf{L}LM \\textbf{R}easoning framework for multimodal few-shot KGC. DuPLeR builds a calibrated relation graph by combining multimodal LLM-derived type priors with factual support structures, and performs dual-level structural reasoning over the refined relation topology. Moreover, a dual-pathway multimodal enhancement module regulates message passing with query-relevant multimodal signals and supplements entity representations after graph propagation. Experiments on eight inductive variants of two multimodal KG (MMKG) benchmarks show that DuPLeR achieves robust performance in data-scarce KGC scenarios.",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.26909v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26909v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1a8409c19767"
+    },
+    {
+      "title": "SERPO: Self-Evolving Rubric Policy Optimization for Open-Ended Test-Time Reinforcement Learning",
+      "authors": "Jianze Wang, Kunwang Zheng, Ying Liu, Yu Cao, Qilong Zhang...",
+      "abstract": "Test-time reinforcement learning (TTRL) enables language models to self-evolve at inference time without labeled feedback. Existing methods rely on answer voting and therefore do not extend naturally to open-ended generation, where valid responses cannot be mapped to a shared canonical answer. Without external reward models or stronger judges, adaptation must instead construct reliable rewards from the model's own outputs. We introduce SERPO (Self-Evolving Rubric Policy Optimization), which replaces answer voting with a closed loop that co-evolves response evidence, query-specific rubrics, and policy parameters. Good-Normal-Bad (G-N-B) response evolution organizes maximally separated rollouts into ordered archives; rubric evolution retains criteria that discriminate these archives; probabilistic criterion scoring converts verdict-token likelihoods into reward signals; and policy evolution optimizes the actor with the resulting signals. New actor rollouts then refresh both the archives and rubrics, closing the three-way evolution loop. Across two model configurations, two in-domain benchmarks, and four OOD benchmarks, SERPO improves HealthBench and ResearchQA by up to 20.63 and 20.31 points over the corresponding base models, raises the six-benchmark macro-average by up to 8.06 points, and supports OOD transfer and continued cross-benchmark evolution.",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.26873v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26873v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "84d3378f3f61"
+    },
+    {
+      "title": "Meta-Learned Reward Shaping for Reinforcement Learning from Human Feedback",
+      "authors": "Yunpeng Chu",
+      "abstract": "Reinforcement Learning from Human Feedback (RLHF) is the standard approach for aligning large language models with human preferences, but its quality is limited by static, task-agnostic reward models. This mismatch leads to sparse learning signals and suboptimal alignment. We introduce MeRLa (Meta-Learned Reward Shaping), a principled framework that meta-learns a task-aware shaping function $Φ(x,y;φ)$ across auxiliary tasks before RLHF training. The learned shaping produces a composite reward that preserves policy optimality while providing task-specific learning signals. Our meta-objective combines task discrimination, entropy regularization, and potential-based conservation for stable convergence. We provide theoretical guarantees for policy invariance, analyze representation drift sensitivity, and formally address incentive misalignment from entropy maximization. Experiments on LLaMA-3-8B across four benchmarks show consistent improvements over PPO, DPO, GRPO, and DAPO, achieving a 90.8% length-controlled win rate on AlpacaEval 2.0 and a score of 9.14 on MT-Bench, with 41% less training instability. MeRLa retains its benefits when combined with process-based and rubric-based enhanced rewards.",
+      "date": "2026-07-28",
+      "url": "https://arxiv.org/abs/2607.26094v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26094v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "27a279783f38"
+    },
     {
       "title": "Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs",
       "authors": "Fanfu Wei, Thibault Ehrhart, Raphaël Troncy",
@@ -11916,90 +12000,6 @@
       "venue": "Journal of Clinical and Translational Science",
       "direction": "medical",
       "id": "122300580751"
-    },
-    {
-      "title": "Explainable deep learning approaches and clinical insights for cancer biomarker identification",
-      "authors": "Kshitij Srivastava, Ruby Srivastava",
-      "abstract": "Biomarkers play a pivotal role in contemporary cancer immunotherapy by guiding diagnosis, patient stratification, therapeutic decision-making, and longitudinal assessment of treatment responses. Despite the transformative impact of immune checkpoint inhibitors, adoptive cell therapies, and neoantigen-based vaccines, durable clinical benefit is achieved in only a subset of patients, highlighting the critical need for accurate predictive and prognostic biomarkers. Technological advances are rapidly expanding the biomarker repertoire through high-resolution approaches such as single-cell and spatial omics, circulating tumor DNA analysis, immune-related gene expression signatures, and microbiome profiling. These platforms enable deeper characterization of immune dynamics, resistance mechanisms, and therapeutic responsiveness. Recent advances in artificial intelligence, machine learning, and deep learning have fundamentally reshaped immunotherapy biomarker discovery by enabling the integration of complex, high-dimensional multiomics, radiomic, and clinical datasets into unified predictive frameworks. Deep learning models have demonstrated superior performance in predicting immune checkpoint inhibitor responses, immune-related adverse events, and mechanisms of therapeutic resistance across multiple cancer types. The incorporation of explainable AI approaches further enhances clinical interpretability by linking algorithmic predictions to biologically validated immune processes. Future progress will depend on multimodal biomarker integration, analytical standardization, and rigorous prospective validation, alongside addressing regulatory, economic, and implementation challenges to advance precision cancer immunotherapy.",
-      "date": "2026-04-23",
-      "url": "https://doi.org/10.3389/fonc.2026.1810793",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Oncology",
-      "direction": "cell",
-      "id": "59070d033682"
-    },
-    {
-      "title": "Evaluating Artificial Intelligence Models for ICU Length of Stay Prediction: A Systematic Review and Meta-Analysis",
-      "authors": "Carlos Zepeda-Lugo, Andrea Insfran-Rivarola, Marcos Sanchez-Lizarraga, Sharon Macias-Velasquez, Ana-Pamela Arevalos, ...",
-      "abstract": "Background/Objectives: Efficient management of intensive care unit (ICU) resources is a critical challenge for modern healthcare systems, which must balance high-quality patient care with operational and financial performance. ICU length of stay (LOS) is a key metric of clinical complexity and hospital efficiency. However, traditional methods for predicting LOS often fail to capture the complex, nonlinear interactions among physiological, demographic, and treatment-related variables. Machine learning (ML) and deep learning (DL) models have emerged as promising tools for enhancing predictive accuracy and supporting data-driven decision-making. Methods: This study presents a systematic review and meta-analysis of ML and DL approaches for predicting ICU LOS in adult patients. Following PRISMA guidelines, eight scientific databases were searched, yielding 33 eligible studies published between 2015 and 2025. Results: Mixed medical–surgical ICUs were the most common setting (51.5%), and 45.5% of datasets were sourced from public repositories. Most studies (19/33) focused on binary classification of prolonged stays, although thresholds ranged from &gt;48 h to ≥14 days. The pooled results from ten studies yielded an AUROC of 0.9005 (95% CI: 0.8890–0.9121), indicating strong predictive capability across diverse clinical contexts. Subgroup analyses showed comparable performance between specialized surgical and general ICUs. Conclusions: These findings suggest that AI-driven LOS prediction models exhibit strong discriminatory power for ICU LOS prediction, supporting hospital capacity planning. However, to translate this into reliable clinical support, the methodological heterogeneity, scarcity of external validation, and near absence of calibration reporting identified in this review need to be addressed.",
-      "date": "2026-04-23",
-      "url": "https://doi.org/10.3390/healthcare14091131",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Healthcare",
-      "direction": "cell",
-      "id": "5facb1c04972"
-    },
-    {
-      "title": "Target discovery and drug design in the era of artificial intelligence",
-      "authors": "Payton Fleming, Andrey A. Ivanov",
-      "abstract": "Abstract The identification of therapeutically actionable targets and the design of effective small-molecule modulators remain central challenges in drug discovery, particularly for complex diseases driven by dynamic, interconnected molecular networks. Recent advances in artificial intelligence (AI) and machine learning are reshaping this landscape by enabling integrative analysis of large-scale biological data, systematic navigation of chemical space, and data-driven optimization of molecular properties. In this review, we outline how AI transforms small-molecule drug discovery by linking target discovery, tractability assessment, and chemical design within integrated, experiment-informed workflows. We highlight AI-enabled strategies for target discovery that integrate network biology, multimodal data fusion, and perturbation-aware modeling. These approaches identify context-specific, functionally actionable targets, including non-enzymatic proteins, protein-protein interactions, and other historically challenging classes. We then focus on advances most relevant to medicinal chemistry, including structure and complex prediction, docking and affinity modeling, ligand-based learning, generative molecular design, ADMET prediction, and synthetic feasibility assessment. Finally, we discuss current limitations related to data quality, generalizability, interpretability, and experimental translation. We emphasize the critical future role of integrated, context-aware AI workflows that connect target discovery with chemical design and experimental feedback. Together, these advances position AI as a robust framework for accelerating the discovery of therapeutically relevant targets and small-molecule modulators.",
-      "date": "2026-04-23",
-      "url": "https://doi.org/10.1007/s00044-026-03562-1",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Medicinal Chemistry Research",
-      "direction": "cell",
-      "id": "29a51540f68b"
-    },
-    {
-      "title": "Designing AI-resilient admissions interviews for health professions training in the age of generative AI",
-      "authors": "Tara Menon, Arjun Mahajan, Dylan Powell",
-      "abstract": "Virtual interviews have now become standard practice in health professions training admissions following the COVID-19 pandemic, but the advent of generative AI technologies has raised concerns about the fairness and integrity of such practices. Admissions programs are responding with AI detection software, increased proctoring, and outright bans, all of which are difficult to enforce. A recent randomized controlled trial by Eva and colleagues examining Generative AI tool use among applicants to a medical school during virtual Multiple Mini‑Interviews (MMIs) suggests a different solution: good interview structure may be more resistant to AI advantage, and minor modifications can limit AI use without compromising reliability,authenticity or acceptability. Reframing generative AI as a design problem rather than a detection problem may also help align integrity, equity, and learning values.",
-      "date": "2026-04-23",
-      "url": "https://doi.org/10.1038/s41746-026-02667-6",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Digital Medicine",
-      "direction": "medical",
-      "id": "8af89f48fa6d"
-    },
-    {
-      "title": "The application of conversational artificial intelligence in nursing clinical reasoning education: A scoping review of roles, opportunities, and challenges",
-      "authors": "Hao Chang",
-      "abstract": "Clinical reasoning is a core competency in nursing practice, yet its effective teaching faces challenges such as time constraints, limited resources, and insufficient individualized instruction. The rapid advancement of conversational artificial intelligence (CAI) in recent years offers new possibilities for innovating nursing education models. This scoping review aims to systematically map the current application of CAI in nursing clinical reasoning education, delineate its specific roles, analyze the educational opportunities it presents, and identify the main challenges and future directions. By synthesizing existing evidence, this review seeks to provide an evidence-based reference for educators, technology developers, and policymakers to promote the effective and responsible integration of this technology into nursing education. It also offers practical guidance for the application of conversational AI in clinical nursing teaching such as outpatient nursing training.",
-      "date": "2026-04-23",
-      "url": "https://doi.org/10.63564/jnep.v16n5p14",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Nursing Education and Practice",
-      "direction": "medical",
-      "id": "32af5bd0d725"
-    },
-    {
-      "title": "Stimulated Raman scattering microscopy: fundamentals, instrumentation, and chemical imaging applications",
-      "authors": "吕发科",
-      "abstract": "Stimulated Raman scattering (SRS) microscopy is a fast Raman imaging technique that combines the molecular specificity of vibrational spectroscopy with the high spatial resolution and speed of laser-scanning microscopy. Building on the historical development of Raman and coherent Raman scattering (CRS) theories, advances in ultrafast lasers, modulation schemes, and detection electronics over the past 2 decades have transformed SRS from a laboratory curiosity into a practical platform for chemical imaging. This review article provides an integrated overview of the fundamentals of Raman spectroscopy and SRS microscopy, and presents the architecture of modern SRS instruments, including single-band and hyperspectral designs, contrast mechanisms, and the use of Raman probes. It also reviews recent technological progress in fiber laser sources, denoising and high-sensitivity detection schemes, hybrid and endoscopic SRS implementations, and emerging quantum-enhanced SRS (QE-SRS) approaches that aim to push sensitivity beyond classical limits. On the applications side, this review highlights label-free metabolic imaging at the single-cell level, bioorthogonal Raman tagging of drugs and metabolites, and tissue studies that link lipid metabolism to disease. A dedicated section summarizes the development of stimulated Raman histology (SRH) for intraoperative rapid diagnosis and surgical guidance, including deep-learning convolutional neural network (CNN) and artificial intelligence (AI) models that enable near real-time interpretation of fresh brain and other neoplastic tissues. Additional topics covered in this review include drug delivery, environmental and materials science, analysis of micro- and nanoplastic particles (MNPs), and imaging of fungal, bacterial, and plant systems. Taken together, the studies summarized in this review show that SRS microscopy has matured into a versatile and reliable modality for non-fluorescent chemical imaging across biology, medicine, and materials science, while continued progress in laser sources, detection, computation, and probe design is expected to further expand its capabilities and impact.",
-      "date": "2026-04-23",
-      "url": "https://doi.org/10.3389/fchbi.2026.1754307",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Chemical Biology",
-      "direction": "cell",
-      "id": "84663048c542"
-    },
-    {
-      "title": "A Multimodal Text- and Graph-Based Approach for Open-Domain Event Extraction from Documents",
-      "authors": "Praval Sharma",
-      "abstract": "Event extraction is essential for event understanding and analysis. It supports tasks such as document summarization and decision-making in emergency scenarios. However, existing event extraction approaches have limitations: (1) closed-domain algorithms are restricted to predefined event types and thus rarely generalize to unseen types and (2) open-domain event extraction algorithms, capable of handling unconstrained event types, have largely overlooked the potential of large language models (LLMs) despite their advanced abilities. Additionally, they do not explicitly model document-level contextual, structural, and semantic reasoning, which are crucial for effective event extraction but remain challenging for LLMs due to lost-in-the-middle phenomenon and attention dilution. To address these limitations, we propose multimodal open-domain event extraction, MODEE , a novel approach for open-domain event extraction that combines graph-based learning with text-based representation from LLMs to model document-level reasoning. Empirical evaluations on large datasets demonstrate that MODEE outperforms state-of-the-art open-domain event extraction approaches and can be generalized to closed-domain event extraction, where it outperforms existing algorithms.",
-      "date": "2026-04-23",
-      "url": "https://arxiv.org/abs/2604.21885v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.21885v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "3cbbee951bb9"
     }
   ]
 }
