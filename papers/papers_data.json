@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-08-02 20:09",
+  "last_updated": "2026-08-03 20:26",
   "papers": [
+    {
+      "title": "Deepfakebuster: a confidence-calibrated adaptive ensemble framework for robust Deepfake image detection",
+      "authors": "Rachana Patil, Rucha Shinde, Shruti Patil, Yogesh Patil, ANIKET SHAHADE",
+      "abstract": "Advances in the realism of synthetic media created with generative adversarial networks (GANs), diffusion models, and face manipulation tools has created an increased demand for well-established deepfake detection systems that can detect many different types of manipulation artifacts. However, most single model deepfake detectors are not very robust because they rely on specific forensic cues and do not adapt well to shifts in how synthesis occurs. We present DeepFakeBuster as a confidence-calibrated adaptive ensemble for deepfake image detection by fusing together heterogeneous deep learning models built around detecting complementary forensic cues e.g., spatial inconsistencies, boundary artifacts, noise residuals, semantic consistency, and frequency-domain features. In contrast to traditional ensemble approaches that use static averaging of detector outputs, our proposed framework utilizes reliability aware adaptive fusion where the contribution of each detector to the fused output is adjusted dynamically through the use of reliability priors derived from validation and input-specific confidence estimates. Our experimental evaluation on a dataset comprised of 192,000 authentic and manipulated images shows that our ensemble significantly outperforms both individual constituent detectors as well as static fusion baselines, with an overall accuracy of 97.8% for the evaluated conditions. Additionally, an interpretable forensic analysis module provides visual and quantitative indicators associated with manipulation-sensitive regions. The findings suggest that confidence-aware heterogeneous ensemble learning represents a promising direction for robust deepfake detection.",
+      "date": "2026-08-02",
+      "url": "https://doi.org/10.1038/s41598-026-61247-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "9e5aa8fd4c02"
+    },
+    {
+      "title": "Temporal-spatial reasoning over hypergraph knowledge structures for multimodal retrieval-augmented generation",
+      "authors": "Timothy Dillan, Sani Muhamad Isa, Abba Suganda Girsang, Derwin Suhartono",
+      "abstract": "Abstract Existing graph-based retrieval-augmented generation (RAG) systems represent knowledge with binary relations and rely primarily on semantic similarity for retrieval. This design struggles with multimodal queries requiring temporal constraints, spatial relationships, or higher-order interactions among entities. We present HyperTSRAG, a multimodal RAG retrieval algorithm that models knowledge as a hypergraph and performs explicit temporal-spatial reasoning during traversal. HyperTSRAG performs a bipartite-alternating best-first traversal that alternates between entity nodes and hyperedge nodes to capture higher-order connectivity and ranks candidate evidence using a scoring function applied within traversal that integrates semantic similarity, temporal coherence, spatial overlap, and structural importance. We evaluate HyperTSRAG on a benchmark corpus of 1,000 multimodal documents (text, images, audio, and video) with 500 queries spanning simple lookups through complex multi-hop reasoning. For complex queries, HyperTSRAG achieves 78.3% Recall@10, improving by 12.3% over GraphRAG and 18.3% over LightRAG, while maintaining a 95th-percentile latency of 1.83 s. On temporal-spatial subsets, HyperTSRAG attains 85.2% accuracy on temporal queries and 81.6% on spatial queries. Ablation studies show that individual scoring components contribute 2–5% gains. Relative to a matched Projected-Binary-RAG control derived from the same extracted hyperedges, HyperTSRAG improves Recall@10 by 9.1%, while a separate binary-graph traversal ablation yields a 13.4% decrease, underscoring the value of native n-ary structure. These results support hypergraph-native traversal with temporal-spatial-aware scoring as an effective retrieval paradigm for the evaluated multimodal RAG setting, particularly for constraint-driven queries that semantic-only retrieval cannot address.",
+      "date": "2026-08-01",
+      "url": "https://doi.org/10.1038/s41598-026-63525-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "c568667079e3"
+    },
+    {
+      "title": "Temporal-spatial reasoning over hypergraph knowledge structures for multimodal retrieval-augmented generation",
+      "authors": "Timothy Dillan, Sani Muhamad Isa, Abba Suganda Girsang, Derwin Suhartono",
+      "abstract": "Abstract Existing graph-based retrieval-augmented generation (RAG) systems represent knowledge with binary relations and rely primarily on semantic similarity for retrieval. This design struggles with multimodal queries requiring temporal constraints, spatial relationships, or higher-order interactions among entities. We present HyperTSRAG, a multimodal RAG retrieval algorithm that models knowledge as a hypergraph and performs explicit temporal-spatial reasoning during traversal. HyperTSRAG performs a bipartite-alternating best-first traversal that alternates between entity nodes and hyperedge nodes to capture higher-order connectivity and ranks candidate evidence using a scoring function applied within traversal that integrates semantic similarity, temporal coherence, spatial overlap, and structural importance. We evaluate HyperTSRAG on a benchmark corpus of 1,000 multimodal documents (text, images, audio, and video) with 500 queries spanning simple lookups through complex multi-hop reasoning. For complex queries, HyperTSRAG achieves 78.3% Recall@10, improving by 12.3% over GraphRAG and 18.3% over LightRAG, while maintaining a 95th-percentile latency of 1.83 s. On temporal-spatial subsets, HyperTSRAG attains 85.2% accuracy on temporal queries and 81.6% on spatial queries. Ablation studies show that individual scoring components contribute 2–5% gains. Relative to a matched Projected-Binary-RAG control derived from the same extracted hyperedges, HyperTSRAG improves Recall@10 by 9.1%, while a separate binary-graph traversal ablation yields a 13.4% decrease, underscoring the value of native n-ary structure. These results support hypergraph-native traversal with temporal-spatial-aware scoring as an effective retrieval paradigm for the evaluated multimodal RAG setting, particularly for constraint-driven queries that semantic-only retrieval cannot address.",
+      "date": "2026-08-01",
+      "url": "https://doi.org/10.1038/s41598-026-63525-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "c568667079e3"
+    },
+    {
+      "title": "Beyond the Knowledge Frontier: An Epistemological Framework for Marketing Strategy in the Age of Artificial Intelligence",
+      "authors": "Sidney Anderson",
+      "abstract": "Artificial intelligence represents a fundamental disruption to marketing, yet existing research treats AI as an instrumental tool rather than an epistemological challenge. This paper makes an original theoretical contribution by reframing AI's impact as an epistemological transformation rather than solely as an adoption decision. Introducing a four-quadrant knowledge matrix distinguishing known knowns, known unknowns, unknown unknowns, and unknown knowns, the analysis reveals that AI amplifies exploitation of known knowns through automation, accelerates exploration of known unknowns through analytics, but paradoxically both reveals and generates unknown unknowns through emergent behaviors that reorganize markets unpredictably. Traditional uncertainty-reduction strategies prove inadequate for these inherently unpredictable disruptions. Building on Taleb's concept of antifragility, the paper argues marketing organizations should shift from knowledge optimization toward epistemic antifragility. The goal is to provide scholars with new frameworks for theorizing uncertainty under AI disruption, while offering managers and policymakers actionable guidance for building organizational capabilities that gain strength from disruption rather than simply attempting to eliminate it.",
+      "date": "2026-08-01",
+      "url": "https://doi.org/10.1177/02761467261471796",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Macromarketing",
+      "direction": "llm",
+      "id": "de41dad17696"
+    },
     {
       "title": "Enhancing Clinical Research Classification with Advanced Machine Learning Models and Hierarchical Approaches",
       "authors": "Elena Batanova, Ioanna Birmpa, Osman Gullu, Ginny Meisser",
@@ -60,6 +108,66 @@
       "venue": "Digital Commons - USU (Utah State University)",
       "direction": "llm",
       "id": "ff1ac304e13d"
+    },
+    {
+      "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
+      "authors": "Haoran Ling, Yuecheng Li, Zeyu Song, Jing Yao, Shuwen Kang...",
+      "abstract": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objective, and training-strategy changes. While LLM-based agents can automate this trial-and-error process, allowing the LLM to both select modification directions and generate concrete hypotheses often leads to unstable search under limited experiment budgets. Inspired by the above challenge, we propose RecHarness, a Bandit-Routed Agentic Harness for automated recommender model optimization. RecHarness separates the optimization process into two steps: a bandit router selects the next modification direction according to historical validation feedback, while the LLM generates a concrete optimization hypothesis and executable code edit within the selected direction. To sustain long-horizon exploration, RecHarness uses a jump-basin mechanism to activate a structural-jump arm when local edits stagnate. Across multiple recommendation tasks, datasets, and model backbones, RecHarness achieves more stable performance improvements and uses limited trial budgets more effectively than LLM-reasoning search. During a 7-day online A/B test on a large-scale short-video advertising platform, the selected candidate improves ADVV by 2.084%, Revenue by 0.534%, and Exposure by 0.559%. Code is available at https://github.com/6lyc/RecHarness.",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29241v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29241v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c5e443346793"
+    },
+    {
+      "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
+      "authors": "Xinyan Guan, Jiali Zeng, Chunlei Xin, Yaojie Lu, Hongyu Lin...",
+      "abstract": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, creating risks where plausible-sounding but incorrect derivations mislead users. We characterize this \\textit{futile reasoning} phenomenon through systematic analysis, revealing universal capability overreach and systematic miscalibration between capability and behavior. The dominant failure mode is specious reasoning, which outputs look superficially valid but contain subtle errors, escalating with task difficulty. To address this, we introduce \\textbf{CaRL} (\\textbf{Ca}pability-\\textbf{a}ligned \\textbf{R}einforcement \\textbf{L}earning), which aligns model behavior with capability boundaries through reward shaping that incentivizes refusal over futile reasoning and hindsight refusal augmentation that converts failures into refusal supervision. Experiments demonstrate a substantial reduction in futile reasoning while preserving performance across task difficulties, effectively achieving capability-aligned behavior without sacrificing utility. \\footnote{https://github.com/icip-cas/Knowing-When-to-Quit}",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29211v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29211v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f486dfe54154"
+    },
+    {
+      "title": "Learning Latent Reasoning Traces for Scalar Reward Models End-to-End",
+      "authors": "Sanwoo Lee, Clive Bai, Hsiu-Yuan Huang, Kun Liang, Weijie Liu...",
+      "abstract": "Reward models (RMs) are central to aligning large language models with human preferences via reinforcement learning. Although traditional scalar RMs enable efficient and probabilistic reward modeling, they rely on superficial cues that fail to generalize to complex or out-of-distribution (OOD) tasks. Conversely, generative RMs leverage extensive reasoning to improve robustness on challenging tasks, but their natural language-based scores lack the numerical flexibility and probabilistic interpretability that scalar RMs offer. While recent approaches combine both paradigms through off-policy multi-task learning, such parallel optimization does not guarantee that generated reasoning traces actively align with or benefit downstream scalar reward prediction. To address this mismatch, we propose LatentRM, a reward modeling framework that learns intermediate reasoning traces as discrete latent variables to explicitly maximize the likelihood of downstream scalar rewards. Through on-policy optimization of the latent reasoning space end-to-end, LatentRM tightly couples deep reasoning-based evaluation with precise scoring. Extensive validations on in-distribution and OOD datasets and RLHF show that LatentRM outperforms scalar, generative, and hybrid RMs on preference modeling and policy alignment across tasks ranging from open-ended conversation to complex reasoning.",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29185v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29185v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9c769319d24a"
+    },
+    {
+      "title": "Tokenizer-Agnostic Engram Module",
+      "authors": "Jia Peng Lim, Hai Leong Chieu",
+      "abstract": "Deepseek's Engram, a conditional memory module, was introduced to trade-off storage versus reasoning in large language models. However, the module relies on token-level $N$-gram hashing for Engram embedding lookup, introducing a tight coupling to the tokenizer used: a model with a different tokenizer would have to train its own Engram embeddings from scratch. To improve the reusability of Engram embeddings, we propose a change to the hashing routine, enabling compatibility between Engram models using different tokenizers. Instead of modelling disjoint $N$-gram spaces, we treat $N$-gram as a method to sample potentially useful byte sequences, from all possible byte sequences across tokens. We replace the XOR-based hashing with the general polynomial hashing with a joint embedding space across $N$. This work investigates the possible trade-offs and shows that this simple substitution produces comparable performance and achieves tokenizer-agnosticism: hash equivalence for byte-equivalent token sequences.",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29065v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29065v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "45a2dfa4f9f9"
+    },
+    {
+      "title": "TransMem: Transforming Hidden States into Memory for Large Language Models",
+      "authors": "Haodong Lei, Junming Liu, Yirong Chen, Pinlong Cai, Botian Shi...",
+      "abstract": "Large language model (LLM) agents increasingly operate over long interaction histories, where effective reasoning requires identifying and exploiting task-relevant evidence distributed across past observations and actions. However, useful information encoded in previously computed representations is often underutilized during subsequent generation. We propose \\textbf{TransMem}, a lightweight inference-time parametric memory module that transforms sparse historical hidden states from a frozen LLM backbone into reusable memory representations. TransMem uses a lightweight gating network to dynamically apply the latent intervention to the current hidden states, without repeatedly encoding the preceding context. To learn transferable memory utilization rather than task-specific knowledge, we introduce evidence-conditioned self-distillation. A memory-augmented student processes the full context and matches the predictive distribution of an evidence-only teacher that shares the same frozen backbone. Experiments on LoCoMo, HotpotQA, and MemoryAgentBench demonstrate consistent improvements across different model architectures and scales. TransMem yields gains of 11.58--29.25 $F_1$ on LoCoMo and 10.20--13.03 $F_1$ on HotpotQA, while improving the average MemoryAgentBench accuracy from 29.54\\% to 40.00\\%. These results establish sparse historical hidden states as an effective and efficient memory substrate for long-context LLM agents. Our code is available at https://github.com/Haodong-Lei-Ray/TransMem.",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29032v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.29032v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "553c5e6f09d0"
     },
     {
       "title": "Thinking about scientific authorship in the age of large language&amp;nbsp;models: Implications for geographers",
@@ -11892,114 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "4eb82262cb83"
-    },
-    {
-      "title": "SAGE: A Strategy-Aware Graph-Enhanced Generation Framework For Online Counseling",
-      "authors": "Eliya Naomi Aharon, Meytal Grimland, Avi Segal, Loona Ben Dayan, Inbar Shenfeld...",
-      "abstract": "Effective mental health counseling is a complex, theory-driven process requiring the simultaneous integration of psychological frameworks, real-time distress signals, and strategic intervention planning. This level of clinical reasoning is critical for safety and therapeutic effectiveness but is often missing in general-purpose Large Language Models (LLMs). We introduce SAGE (Strategy-Aware Graph-Enhanced), a novel framework designed to bridge the gap between structured clinical knowledge and generative AI. SAGE constructs a heterogeneous graph that unifies conversational dynamics with a psychologically grounded layer, explicitly anchoring interactions in a theory-driven lexicon. Our architecture first employs a Next Strategy Classifier to identify the optimal therapeutic intervention. Subsequently, a Graph-Aware Attention mechanism projects graph-derived structural signals into soft prompts, conditioning the LLM to generate responses that maintain clinical depth. Validated through both automated metrics and expert human evaluation, SAGE outperforms baselines in strategy prediction and recommended response quality. By providing actionable intervention recommendations, SAGE serves as a cutting-edge decision-support tool designed to augment human expertise in high-stakes crisis counseling.",
-      "date": "2026-04-29",
-      "url": "https://arxiv.org/abs/2604.26630v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26630v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "ba0de47145ca"
-    },
-    {
-      "title": "Naamah: A Large Scale Synthetic Sanskrit NER Corpus via DBpedia Seeding and LLM Generation",
-      "authors": "Akhil Rajeev P, Annarao Kulkarni",
-      "abstract": "The digitisation of classical Sanskrit literature is impeded by a scarcity of annotated resources, particularly for Named Entity Recognition. While recent methodologies utilise generic Large Language Models (LLMs) for data augmentation, these approaches remain prone to error and often lack the reasoning depth required for classical grammar. In this work, we introduce Naamah, a high quality silver standard Sanskrit NER dataset comprising 102,942 sentences. We propose a methodology that combines entity extraction from DBpedia with the generative capabilities of a 24B parameter hybrid reasoning model to create grammatically natural and synthetically diverse training data. We utilize this dataset to benchmark two transformer architectures: the massive multilingual XLM RoBERTa and the parameter efficient IndicBERTv2.",
-      "date": "2026-04-29",
-      "url": "https://arxiv.org/abs/2604.26456v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26456v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "1be51fe54284"
-    },
-    {
-      "title": "Text Style Transfer with Machine Translation for Graphic Designs",
-      "authors": "Deergh Singh Budhauria, Sanyam Jain, Rishav Agarwal, Tracy King",
-      "abstract": "Globalization of graphic designs such as those used in marketing materials and magazines is increasingly important for communication to broad audiences. To accomplish this, the textual content in the graphic designs needs to be accurately translated and have the text styling preserved in order to fit visually into the design. Preserving text styling requires high accuracy word alignment between the original and the translated text. The problem of word alignment between source and translated text is long known. The industry standards for extracting word alignments are defined by Giza++ and attention probabilities from neural machine translation (NMT) models. In this paper, we explore three new methods to tackle the word alignment problem for transferring text styles from the source to the translated text. The proposed methods are developed on top of commercially available NMT and LLM translation technologies. They include: NMT with custom input and output tags for text styling; LLM with custom input and output tags; a hybrid with NMT for translation followed by an LLM with use of unigram mappings. To analyze the performance of these solutions, their alignment results are compared with the results of an attention head approach to gauge their usability in graphic design applications. Interestingly, the attention head strong baseline proves more accurate than the LLM or NMT approach and on par with the hybrid NMT+LLM approach.",
-      "date": "2026-04-29",
-      "url": "https://arxiv.org/abs/2604.26361v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26361v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "fc0020ac9278"
-    },
-    {
-      "title": "Addressing Performance Saturation for LLM RL via Precise Entropy Curve Control",
-      "authors": "Bolian Li, Yifan Wang, Yi Ding, Anamika Lochab, Ananth Grama...",
-      "abstract": "Reinforcement learning (RL) has unlocked complex reasoning abilities in large language models (LLMs). However, most RL algorithms suffer from performance saturation, preventing further gains as RL training scales. This problem can be characterized by the collapse of entropy, a key diagnostic for exploration in RL. Existing attempts have tried to prevent entropy collapse through regularization or clipping, but their resulting entropy curves often exhibit instability in the long term, which hinders performance gains. In this paper, we introduce Entrocraft, a simple rejection-sampling approach that realizes any user-customized entropy schedule by biasing the advantage distributions. Entrocraft requires no objective regularization and is advantage-estimator-agnostic. Theoretically, we relate per-step entropy change to the advantage distribution under minimal assumptions, which explains the behavior of existing RL and entropy-preserving methods. Entrocraft also enables a systematic study of entropy schedules, where we find that linear annealing, which starts high and decays to a slightly lower target, performs best. Empirically, Entrocraft addresses performance saturation, significantly improving generalization, output diversity, and long-term training. It enables a 4B model to outperform an 8B baseline, sustains improvement for up to 4x longer before plateauing, and raises pass@K by 50% over the baseline.",
-      "date": "2026-04-29",
-      "url": "https://arxiv.org/abs/2604.26326v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26326v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "1e27bc948c31"
-    },
-    {
-      "title": "Optics-free reconstruction of shapes, images and volumes with DNA barcode proximity graphs",
-      "authors": "Hanna Liao, Sanjay Kottapalli, Yuqi Huang, Matthew Chaw, Jase Gehring, ...",
-      "abstract": "Spatial genomics technologies include imaging- and sequencing-based methods. Sequencing-based spatial methods typically require surfaces coated with coordinate-associated DNA barcodes, but the physical registration of these barcodes to spatial coordinates is challenging, necessitating either high density printing of oligonucleotides or in situ sequencing/probing of randomly deposited, DNA-barcode-bearing beads. As a consequence, the surface areas available to sequencing-based spatial genomic methods are constrained by the time, labor, cost and instrumentation required to either print or decode a coordinate-tagged surface. To address this challenge, we developed SCOPE (Spatial reConstruction via Oligonucleotide Proximity Encoding), an optics-free, DNA microscopy-inspired method. With SCOPE, the relative positions of DNA-barcoded beads within a 2D shape, 2D image or 3D volume are inferred from the ex situ sequencing of chimeric molecules formed from diffusing “sender” and tethered “receiver” oligonucleotides. To demonstrate the potential of this approach, we applied SCOPE to reconstruct 2D shapes, 2D images or 3D volumes defined by 104-106 x 20-100 µm DNA barcoded beads, including an asymmetric “swoosh” resembling the Nike logo (44 mm2), a “color” Snellen eye chart (704 mm2) and the surface topology of 3D molds of a teddy bear, star, butterfly or block letter (75-100 mm3). Each of the resulting “DNA barcode proximity graphs” was computationally reconstructed in an automated fashion, across fields of view and at resolutions that were determined by sequencing depth, bead size and diffusion kinetics, rather than by microarray or microscope instrument time. Because the ground truth shapes are known, these datasets may be particularly useful for the further development of computational algorithms by this nascent field.",
-      "date": "2026-04-28",
-      "url": "https://doi.org/10.7554/elife.110436.1",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "eLife",
-      "direction": "cell",
-      "id": "9a62a2df0454"
-    },
-    {
-      "title": "Ethical challenges of artificial intelligence in education: A systematic literature review on bias, privacy, and academic integrity",
-      "authors": "Musah Ebikabowei",
-      "abstract": "The emergence of artificial intelligence in education has given rise to huge ethical issues concerning the existence of algorithmic bias, data privacy, and academic honesty when generator AI, large language models, ChatGPT, predictive analytics, and learning analytics services are highly used and implemented in the educational environment. These have fueled controversies about equity, openness, accountability, trust, digital equality, and responsible AI in post-secondary education and wider education. This is a systematic literature review that follows the PRISMA framework to discuss the new ethical issues of AI in education with particular attention given to bias, privacy, and academic dishonesty. The review emphasis on trends in AI ethics, educational technology, adaptive learning, automated assessment, surveillance of students, and policy frameworks. The results indicate that bias by algorithm often supports educational inequity, displaces low-represented students, and promotes assessment, admissions, and predictive decision-making disparities. The problem of privacy is associated with large sums of student data collected, a poor policy of governing data, lack of informed consent, and the growing application of learning analytics systems that rely on surveillance. One of the major concerns is academic integrity because of the prevalence of generative AI in plagiarism, ghostwriting, unauthorized collaboration, and cheating with the assistance of AI. The review also establishes an increasing focus on explainable AI, human-centered AI, ethical governance, privacy-preserving AI, stakeholder engagement, and AI literacy as solutions to responsible innovation.",
-      "date": "2026-04-28",
-      "url": "https://doi.org/10.70593/deepsci.0202054",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Applied Resilience and Sustainability",
-      "direction": "medical",
-      "id": "4d500935f24c"
-    },
-    {
-      "title": "Ethical challenges of artificial intelligence in education: A systematic literature review on bias, privacy, and academic integrity",
-      "authors": "Musah Ebikabowei",
-      "abstract": "The emergence of artificial intelligence in education has given rise to huge ethical issues concerning the existence of algorithmic bias, data privacy, and academic honesty when generator AI, large language models, ChatGPT, predictive analytics, and learning analytics services are highly used and implemented in the educational environment. These have fueled controversies about equity, openness, accountability, trust, digital equality, and responsible AI in post-secondary education and wider education. This is a systematic literature review that follows the PRISMA framework to discuss the new ethical issues of AI in education with particular attention given to bias, privacy, and academic dishonesty. The review emphasis on trends in AI ethics, educational technology, adaptive learning, automated assessment, surveillance of students, and policy frameworks. The results indicate that bias by algorithm often supports educational inequity, displaces low-represented students, and promotes assessment, admissions, and predictive decision-making disparities. The problem of privacy is associated with large sums of student data collected, a poor policy of governing data, lack of informed consent, and the growing application of learning analytics systems that rely on surveillance. One of the major concerns is academic integrity because of the prevalence of generative AI in plagiarism, ghostwriting, unauthorized collaboration, and cheating with the assistance of AI. The review also establishes an increasing focus on explainable AI, human-centered AI, ethical governance, privacy-preserving AI, stakeholder engagement, and AI literacy as solutions to responsible innovation.",
-      "date": "2026-04-28",
-      "url": "https://doi.org/10.70593/deepsci.0202054",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Applied Resilience and Sustainability",
-      "direction": "cell",
-      "id": "4d500935f24c"
-    },
-    {
-      "title": "Enhancing customer value through artificial intelligence and machine learning: Personalization, big data analytics, and customer experience management",
-      "authors": "Adejoke Olumide Dele-Rotimi",
-      "abstract": "The development of the Artificial Intelligence and Machine Learning technologies has altered the process of organizational Customer Value creation, delivery, and maintenance in becoming more competitive digital marketplaces. Conventional Customer Relationship Management and traditional Customer Experience Management solutions tend to be incapable of handling large volumes of consumer data, providing Real-Time Personalization and providing dynamic responses to shifting Consumer Behaviour. This has seen organizations trend towards using Big Data Analytics, Predictive Analytics, Recommender Systems, Conversational AI, and Generative AI, to enhance Customer Satisfaction, Customer Loyalty, Customer Retention, and Customer Lifetime Value. This review of the literature serves to systematically study recent studies on the impact of Artificial Intelligence, Machine Learning, Personalization, Big Data Analytics and Customer Experience Management on improving Customer Value. Keywords such as AI-Driven Marketing, Customer Engagement, Omnichannel Experience, Behavioural Analytics, Digital Customer Experience, Sentiment Analysis and Recommendation Engines were used to identify relevant studies in major Scopus and Web of science indexed databases. The results show that AI based Personalization Algorithms, Real-Time Analytics, Natural Language Processing, Deep Learning and Customer Segmentation are proven to enhance customer engagement and quality of service in retail, e-commerce, banking, healthcare, and hospitality, among other industries. The Customer Journey optimization and service innovations are also redesigned with emerging technologies such as Emotion AI, Explainable AI, Human-AI Interaction, Adaptive Marketing and Smart Retail. But Privacy, Data Security, Ethical AI, AI Governance, Consumer Trust, and algorithmic bias are some of the issues that have led to challenges in sustainable implementation.",
-      "date": "2026-04-28",
-      "url": "https://doi.org/10.70593/deepsci.0202052",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Applied Resilience and Sustainability",
-      "direction": "medical",
-      "id": "8251fbb0b5ff"
-    },
-    {
-      "title": "Efficient and accurate medical AI: MediLore and MediOut",
-      "authors": "S. Mohamed Rayhan, M. Hariprasath, K Hemalatha",
-      "abstract": "Introduction The integration of artificial intelligence (AI) in medical question-answering (QA) systems requires a careful balance between diagnostic accuracy and computational efficiency. Existing large language models (LLMs) achieve strong performance but are often limited by high memory usage, latency, and inconsistent behavior in handling rare or complex clinical queries. This study addresses these limitations by exploring efficient and robust modeling strategies for medical QA. Methods Two complementary approaches were developed: MediLore and MediOut. MediLore employs Weighted Low-Rank Adaptation (LoRA) adapter fusion to integrate domain-specific knowledge into a shared backbone model while reducing computational overhead. MediOut utilizes an output-level ensembling strategy that aggregates predictions from multiple fine-tuned models using semantic similarity-based scoring. Both models were trained and evaluated on clinically curated datasets, including MedQA, PubMedQA, and MedMCQA. Performance was assessed using BLEU, ROUGE, BERTScore, and BioBERT-based similarity metrics. Additionally, 4-bit quantization was applied to optimize deployment efficiency. Results MediOut achieved the highest performance across semantic evaluation metrics, with a BioBERT F1 score of 0.934 and strong improvements in semantic similarity and contextual alignment. MediLore retained up to 91% of the ensembling accuracy while reducing inference cost to approximately 0.3% of the baseline, significantly lowering latency from 141 seconds to 190 ms. BLEU score improvements were moderate (0.066-0.074), indicating that semantic alignment gains were more substantial than lexical overlap improvements. Discussion The results demonstrate that MediLore and MediOut provide complementary advantages in medical QA systems. MediLore enables efficient deployment in resource-constrained environments, while MediOut enhances robustness and semantic fidelity for complex clinical queries. The proposed framework highlights the trade-off between efficiency and accuracy, offering practical guidance for selecting appropriate deployment strategies in real-world healthcare applications. These findings contribute to the development of scalable, reliable, and clinically aligned AI systems for biomedical natural language processing.",
-      "date": "2026-04-28",
-      "url": "https://doi.org/10.3389/frai.2026.1807268",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Artificial Intelligence",
-      "direction": "medical",
-      "id": "97feaa45780a"
     }
   ]
 }
