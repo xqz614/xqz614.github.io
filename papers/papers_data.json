@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-08-07 00:40",
+  "last_updated": "2026-08-07 19:52",
   "papers": [
+    {
+      "title": "Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies",
+      "authors": "Alexander Apartsin, Yehudit Aperstein",
+      "abstract": "Much clinical value is conveyed not through structured records but through communication: exchanges in which patients describe symptoms, clinicians reason and give instructions, ambulances hand over to emergency departments, and nurses pass on a shift. Such language differs from tabular data because meaning depends on speaker role, intent, causality, uncertainty, omission, and channel noise. Healthcare natural language processing must therefore interpret information as conveyed rather than coded. This requires well-annotated corpora, which are scarce because authentic exchanges are private, fragmented, and costly to annotate. Large language models offer a way forward by transforming clinical sources, such as records, diagnostic labels, symptom lists, or care plans, into written and transcribed communication for downstream models. We present a structured narrative survey organized by source representation, communication form and participants, generation method, and downstream task, complemented by thirteen novel case studies. These build clinical NLP systems for communication channels and languages without labeled real-world data, including EMS pre-arrival reports, field-radio casualty documentation, nurse handoffs, patient-portal triage, and low-resource discharge communication. They show that synthetic communication can bootstrap such systems. Findings include the competitiveness of fine-tuned encoder models over evaluated zero-shot baselines and the value of deliberately degraded communication for robustness. The main limitation is that most studies evaluate on held-out synthetic communication, while train-on-synthetic, test-on-authentic evidence remains limited. We conclude that syn-thetic clinical communication is becoming a practical research resource; establishing it as reusable clinical infrastructure will require authentic-data transfer, safety and external validation.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.05993v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05993v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "e3803a1faa36"
+    },
+    {
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+      "authors": "Xinye Wang, Junxiao Liu, Shujian Huang",
+      "abstract": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense token-level supervision on student-generated rollouts, yet their objectives do not explicitly prioritize reasoning signals most critical to cross-lingual transfer. We characterize that target-language reasoning comprises the generation of both surface text and reasoning pivots, which are decisions that advance or redirect the reasoning process and shape subsequent inference. This motivates concentrating privileged distillation around such pivots. We therefore propose RP-OPSD, Reasoning-Pivot-guided On-Policy Self-Distillation, using the distributional shift between matched teacher views with and without an English reference solution as an operational proxy to guide privileged distillation and reference anchoring. Experiments on mathematical reasoning benchmarks covering 17 languages and multiple difficulty levels show that our method outperforms strong multilingual reasoning baselines and OPSD variants. Further analysis reveals that RP-OPSD concentrates privileged distillation on reasoning-control and problem-condistioned state-update tokens, while downweighting it for tokens that mainly support surface realization. Our code is available at https://github.com/NJUNLP/RP-OPSD.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.06347v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06347v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "77b989661580"
+    },
+    {
+      "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+      "authors": "Tao Wang, Qihao Yang, Rongjiao Liang, Lianghong Lin, Haitao Wang...",
+      "abstract": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and governed by explicit rules for scope, terminology, normative wording, and cross-section consistency. Existing benchmarks focus on domain knowledge and question answering, largely overlooking intrinsic quality review for professional documents. Such reviews rely heavily on human experts, making them costly and difficult to scale. To bridge this gap, we introduce GB/T-Bench, the first benchmark for the structured review of national standard documents. Its GB/T Review Taxonomy is a hierarchical schema covering document structure, scope alignment, normative modality, terminology consistency, and normative references, with 25 diagnosable error types. A controllable counterexample generation mechanism combines deterministic rules and constrained LLM rewriting to process 488 documents into 7,306 traceable review error instances for evaluation. We also develop a diagnosis-oriented evaluation protocol requiring exact matches on error location, review dimension, and error type, plus document-level coverage metrics. We further propose GB/T-Reviewer, a multi-agent framework that converts review knowledge into specialized skills and coordinates global inspection, targeted diagnosis, rule scanning, and result verification. Experiments with 14 mainstream LLMs reveal a substantial human-LLM gap: the strongest model achieves only 0.3280 CMCS versus 0.6640 for experts. GB/T-Reviewer raises the best CMCS to 0.5094, showing the value of structured skill coordination for rule-intensive document review. This work paves the way for trustworthy AI in standardization and other high-stakes document domains.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.06312v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06312v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9a1f46917f30"
+    },
+    {
+      "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+      "authors": "Jonas Gann, Michael Gertz",
+      "abstract": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to verify and cannot be reliably attributed to specific evidence. Moreover, missing user-specific context is rarely detected systematically, often leading to incomplete or incorrect output. We propose NeSy-RAG, a modular neuro-symbolic RAG framework that synthesizes attributable Prolog modules from retrieved text chunks. For each chunk, the system generates semantically meaningful predicates that encode Boolean claims, which may depend on user facts. Using joint natural language-code embeddings, predicates are retrieved and composed into Prolog queries. To address incomplete user context, we introduce a symbolic knowledge-gap detection mechanism that identifies missing user facts whose truth values affect the query outcome and automatically triggers follow-up interactions. Executing the resulting Prolog queries yields deterministic answers together with transparent execution traces that link each reasoning step to its originating source. On the ShARC benchmark, without domain-specific training, NeSy-RAG achieves 61.1% accuracy, outperforming a same-model RAG baseline that achieves 42.8% accuracy.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.06292v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06292v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c82473f7b0f7"
+    },
+    {
+      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+      "authors": "Massi-Nissa Abboud, Aladin Djuhera, Elena Cabrio, Holger Boche",
+      "abstract": "Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce Poli-Bias, a counterfactual framework for measuring whether LLMs treat legally equivalent conflict scenarios differently depending on the countries involved. Poli-Bias compares responses to paired prompts in which country identities are systematically swapped across diverse geopolitical relationships, legal violations, and reasoning tasks. Rather than reducing bias to a single judgment, our framework decomposes response disparities into five interpretable dimensions, revealing how and where unequal treatment manifests. Across 13 contemporary LLMs spanning diverse model families and sizes, we find that country identities and user affiliations can systematically affect how equivalent actions are described, evaluated, and defended under international law. Our results thus establish Poli-Bias as a fine-grained framework for auditing political even-handedness and sycophancy in LLMs.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.06123v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06123v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "69f83d8ac2a4"
+    },
+    {
+      "title": "LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs",
+      "authors": "Lukas Twist, Twm Stone, Helen Yannakoudakis, Jie M. Zhang",
+      "abstract": "Large language models (LLMs) have been shown to exhibit strong Python preferences when generating project-level code, but there is currently no systematic way to measure this behaviour across new models. To bridge this gap, we introduce LangChoiceBench, a project-level code-generation benchmark for measuring Python preference, recommendation-implementation consistency, and language diversity. LangChoiceBench covers 28 projects across seven software areas where Python is often a poor default. We evaluate 25 diverse LLMs and find that Python remains heavily over-selected, recommendation-implementation consistency is low, and smaller open-weight models generally show stronger Python preference and lower language diversity. We further analyse 9,826 reasoning traces and find that most Python choices are automatic or driven primarily by ease, rather than explicit consideration of project requirements. In a smaller but important set of cases, models fabricate contextual support for choosing Python - a failure mode we call phantom evidence - or produce code that contradicts the language selected in their own reasoning.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.06041v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.06041v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "bed0f3e6529b"
+    },
+    {
+      "title": "Enhancing Social Intelligence in LLMs with Hierarchical Reasoning and Utterance-Level Goal Rewarding",
+      "authors": "Xiaofeng Wang, Kakam Chong, Shuai Xiao, DeXin Kong, Qingyuan Tian...",
+      "abstract": "Large language models (LLMs) excel in structured tasks but struggle with dynamic social interactions, where success requires long-term goal coordination and rapid adaptation. Current methods often apply uniform goal-based rewards to every utterance, overlooking the specificity of objectives at each dialogue turn and failing to account for the rationale of potential strategies. Inspired by the Theory of Planned Behavior, we propose the Think-Strategy-Response (TSR) framework, which decomposes social dialogue into two hierarchical stages: high-level strategic planning and low-level linguistic execution. To optimize TSR, we introduce Linearized Hierarchical Reinforcement Learning with Variance-Gated Rewards (LHRL-VGR), a novel algorithm that dynamically routes rewards - balancing goal completion and strategy adherence - based on the variance of goal achievement scores. Experiments on the SOTOPIA benchmark show that our approach fine-tunes a Qwen2.5-7B agent to surpass the GPT-4o baseline by 7.32% in goal completion success, demonstrating state-of-the-art performance in multi-agent social negotiation tasks.",
+      "date": "2026-08-06",
+      "url": "https://arxiv.org/abs/2608.05832v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.05832v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "05c9aaf817c6"
+    },
+    {
+      "title": "Neuro-semantic graph fusion for explainable depression risk trajectory mapping using a graph-enhanced RoBERTa framework",
+      "authors": "M. Karthiga, Emerson Raja Joseph, Subhash Patil, K. Saranya",
+      "abstract": "Introduction Early identification of depression through social media analytics is frequently compromised by linguistic ambiguities, contextual complexities, and the opaque nature of conventional deep learning architectures. This study proposes Graph-RoBERTa-CL, a hybrid neuro-semantic framework that explicitly integrates three synergistic components: (i) RoBERTa-based Transformer semantic encoding for deep contextual representation, (ii) Graph Attention Networks (GAT) for relational contextual aggregation across semantically related posts, and (iii) Supervised Contrastive Learning (SCL) for latent space regularization under class imbalance, collectively enabling explainable depression risk trajectory mapping from social media corpora. Methods The framework was trained and validated on the Suicide Detection Dataset ( N = 232,074 posts; 78,541 unique users) using rigorous user-level data splitting to ensure zero user overlap between training and test sets, with cross-dataset consistency assessed on an independent Combined Mental Health Dataset ( N = 3,900 posts) withheld entirely from training and model selection. Both datasets are drawn from Reddit communities with community-based labels; broader generalizability across platforms, populations, and clinically diagnosed cohorts requires further validation. User posts are represented as nodes in a multi-relational semantic graph, where a GAT selectively aggregates contextual embeddings to capture ruminative behavioral patterns and temporal trajectories. A supervised contrastive objective simultaneously reshapes the latent space to improve class separability under linguistic ambiguity, and SHAP-based explanations alongside graph attention visualizations provide structural transparency aligned with established psycholinguistic theories of depression. Results On the internal user-level test set, Graph-RoBERTa-CL achieved Accuracy 91.2%, Precision 89.7%, Recall 93.1%, F1-Score 0.914, and AUC 0.962, substantially outperforming BERT-base (F1: 0.798, AUC: 0.934) and LSTM-Attention (F1: 0.681, AUC: 0.856). On the external independent validation set, the model achieved F1 0.882 and AUC 0.941, with the modest cross-dataset reduction confirming genuine generalizability rather than dataset-specific overfitting. Ablation studies confirm that each architectural component — semantic encoding, graph attention aggregation, and contrastive optimization — contributes independently and synergistically to overall performance. Discussion The proposed framework establishes a rigorous, interpretable, and ethically grounded mechanism for proactive mental health screening in digital ecosystems, designed to function as a human-in-the-loop clinical screening aid rather than a standalone diagnostic tool.",
+      "date": "2026-08-05",
+      "url": "https://doi.org/10.3389/frai.2026.1854179",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "llm",
+      "id": "27e67506e24a"
+    },
     {
       "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
       "authors": "Yinghui He, Ling Yang, Jiarui Liu, Yongjin Yang, Lechen Zhang...",
@@ -11904,102 +12000,6 @@
       "venue": "Pharmaceuticals",
       "direction": "cell",
       "id": "9f0bc666e8b0"
-    },
-    {
-      "title": "Advances in Biosimilars: A Systematic Review of Machine Learning Applications",
-      "authors": "Vannessa Duarte, Tomás Gabriel Bas",
-      "abstract": "Background/Objectives: Biosimilars are medicinal products derived from reference biologics and designed to demonstrate a high degree of similarity in quality, efficacy, safety, and immunogenicity. Machine learning (ML) and other artificial intelligence (AI) methodologies have emerged as important tools in this field in biosimilar research and development. This systematic review identifies ML applications throughout the biosimilar lifecycle while distinguishing them from the broader AI literature and from health technology evaluation, economic, and decision-analytic studies. Methods: Following PRISMA, records were retrieved from Scopus, PubMed, and Web of Science. After applying predefined inclusion and exclusion criteria, 44 original peer-reviewed studies were selected. Only studies that implemented a data-driven ML method for a biosimilar-relevant problem were included. Results: The review mapped AI applications at different stages of biosimilar development and characterized emerging trends and the types of methods used at each stage. Evidence indicates that the most mature empirical ML applications are concentrated in manufacturing optimization and analytical comparability, where supervised learning, ensemble models, and neural networks support process control, glycan or spectral analysis, and similarity assessment. By contrast, biosimilar-specific ML applications in clinical prediction and pharmacovigilance remain comparatively limited. Conclusions: These advances support the mission of biosimilars to provide affordable and high-quality biologic therapies. Using ML, developers can reduce timelines, reduce costs, and strengthen safety and efficacy assessments through the analysis of complex datasets that are difficult to address with traditional approaches. The main contribution of this review is to provide a clearer map of methodological maturity, translational relevance, and future opportunities for data-driven biosimilar development.",
-      "date": "2026-05-08",
-      "url": "https://doi.org/10.3390/ph19050745",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Pharmaceuticals",
-      "direction": "cell",
-      "id": "9927b9511a03"
-    },
-    {
-      "title": "Calibrated Multi-Evidence Fusion Framework for Clinical Decision Support Systems",
-      "authors": "Chaithanya Addakula, Sanaboina Dr. Chandra Sekhar",
-      "abstract": "Traditional Clinical Decision Support Systems (CDSS) were built on rule-based engines and standard-alone machine learning classifiers. The emergence of Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) upgraded these systems by enabling knowledge-grounded reasoning and dynamic biomedical evidence retrieval. Recent multi-agent LLM frameworks further integrated biomedical RAG with external web intelligence. However, most existing approaches rely on heuristic score aggregation and lack explicit conflict modeling and probability calibration, limiting reliability in safety critical healthcare environments. The system proposes a conflict aware, machine-learned, and probability-calibrated multi-evidence fusion framework that transforms heuristic reasoning into a structured probabilistic decision model. Biomedical RAG outputs and external web evidence are fused using a supervised ensemble model that learns nonlinear interactions between evidence signals. Engineered features capture diagnostic agreement and disagreement with model reliability. Isotonic regression is applied for probability calibration and evaluated using Brier Score and Expected Calibration Error (ECE). SHAP-based feature attribution ensures transparent and interpretable diagnostic confidence decisions, improving robustness and clinical trust in LLM-based CDSS",
-      "date": "2026-05-08",
-      "url": "https://doi.org/10.59256/ijire.20260703007",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Innovative Research in Engineering",
-      "direction": "medical",
-      "id": "2aca3392d561"
-    },
-    {
-      "title": "Artificial intelligence for coordinating vaccine design, antiviral discovery, and real-world monitoring in the era of emerging and endemic viral threats",
-      "authors": "Adewunmi Akingbola, Abiodun Adegbesan, Olajumoke Adewole, Kehinde O Adebiyi, Akpevwe Emmanuel Benson, ...",
-      "abstract": "Vaccine development has traditionally been a lengthy and resource-intensive process, often struggling to keep pace with rapidly emerging infectious threats. Recent advances in artificial intelligence (AI) offer new opportunities to transform this landscape by enabling faster, more precise, and data-driven approaches to vaccine design. This review examines how AI is being applied across key stages of vaccine development, including antigen discovery, epitope prediction, structural optimisation, immunogenicity assessment, and safety evaluation. We highlight the use of machine learning and deep learning models to analyse large-scale genomic, proteomic, and immunological datasets, allowing for more targeted identification of promising vaccine candidates. While AI-driven approaches show considerable promise, their successful translation into effective vaccines depends on the quality and representativeness of the data used, as well as close integration with experimental and clinical validation. Current challenges include data bias, limited representation of populations from low- and middle-income countries, and the need for transparent and interpretable models that can support regulatory decision-making. By synthesising recent developments and ongoing challenges, this review underscores the potential of AI to complement traditional vaccine development pipelines. When responsibly implemented, AI-based methods may accelerate vaccine innovation, improve global preparedness, and support more equitable responses to future infectious disease outbreaks.",
-      "date": "2026-05-08",
-      "url": "https://doi.org/10.3389/fphar.2026.1773609",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Pharmacology",
-      "direction": "cell",
-      "id": "bd3c6f559461"
-    },
-    {
-      "title": "Artificial intelligence directed computational protein design: lessons from COVID-19 for pandemic-ready vaccines and antibody therapeutics",
-      "authors": "Rahul Kaushik, Suyong Re",
-      "abstract": "Artificial intelligence (AI) directed computational protein design has emerged as a transformative force in modern therapeutic discovery, reshaping how vaccines and antibody-based interventions are conceived, optimized, and deployed against emerging infectious diseases. The COVID-19 pandemic served as an unprecedented real-world stress test for these technologies, highlighting their potential to accelerate antigen design, guide antibody optimization, and anticipate viral evolution in near real time. AI driven approaches contributed to faster characterization of viral variants, supported vaccine and broadly neutralizing antibodies developments. Despite the significant contributions, the pandemic also revealed important limitations that must be addressed before such approaches can be relied upon as cornerstones of global preparedness. Challenges related to data bias, model interpretability, experimental validation bottlenecks, and integration with existing regulatory frameworks became increasingly apparent. In several cases, the gap between computational promise and translational readiness underscored the need for closer coupling between in silico design, laboratory experimentation, and clinical evaluation. Moreover, the rapid pace of AI innovation often outstripped established regulatory pathways, raising questions about standardization, validation, and long-term safety. This mini review provides a focused overview of recent advances in AI enabled computational protein design, with an emphasis on applications relevant to pandemic response. Drawing on lessons from COVID-19 case studies, it examines translational and regulatory considerations, highlights unresolved controversies, and identifies critical research gaps. Collectively, these insights outline a path toward transitioning AI designed vaccines and antibody therapeutics from reactive emergency tools into proactive, scalable infrastructures for future pandemic preparedness.",
-      "date": "2026-05-08",
-      "url": "https://doi.org/10.3389/jpps.2026.16146",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Pharmacy & Pharmaceutical Sciences",
-      "direction": "cell",
-      "id": "e6a50868ea94"
-    },
-    {
-      "title": "The Ethics Committee of the Italian Society of Anesthesia, Analgesia, Resuscitation and Intensive Care (SIAARTI) — Artificial intelligence in end-of-life decision-making processes: ethical reflections",
-      "authors": "Enrico Furlan, Nereo Zamperetti, Mariassunta Piccinni, Annachiara Marra, Paolo Cotogni, ...",
-      "abstract": "Recent proposals to use artificial intelligence (AI) in end-of-life decision-making for incapacitated patients without advance directives have prompted critical reflection by the Ethics Committee of the Italian Society of Anesthesia, Analgesia, Resuscitation and Intensive Care (SIAARTI). This position paper analyzes both general ethical concerns surrounding AI in clinical practice and specific issues raised by the hypothesis of using AI to reconstruct patients’ presumed wishes through recorded clinical conversations or analysis of digital footprints. At a general level, major challenges include lack of explainability (the so-called black box problem), risks of bias linked to non-representative training data, environmental sustainability, and the potential erosion of the clinician-patient relationship. In end-of-life contexts, these concerns are amplified. Systematic recording and retrospective analysis of sensitive conversations raise serious questions regarding privacy, data security, informed consent, and the authenticity of communication. Moreover, algorithmic interpretation may fail to capture the complexity of non-verbal communication and the inherently interpretative nature of moral reasoning. The construction of a “social portrait” from digital traces risks oversimplifying personal identity and generating conflicts with family narratives at a particularly vulnerable moment. The Committee further highlights the risk of delegating ethically weighty relational tasks to technological systems, thereby reinforcing a procedural model of medicine and weakening shared decision-making. For these reasons, the proposed use of AI in this domain is considered ethically problematic in its current form. Any future application would require robust governance, transparency, and accountability, ensuring that AI supports rather than undermines authentic care relationships.",
-      "date": "2026-05-07",
-      "url": "https://doi.org/10.1186/s44158-026-00395-7",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Anesthesia Analgesia and Critical Care",
-      "direction": "medical",
-      "id": "e6821fafe7dc"
-    },
-    {
-      "title": "Semantic stability protocol: intercoder reliability for zero-shot classification via AI coders",
-      "authors": "Hung-Yen Hsu, Mei‐Ling Hsu",
-      "abstract": "Generative Artificial Intelligence (AI) is increasingly used for zero-shot text classification in social science, yet its outputs exhibit inherent stochasticity. Because reliability is a necessary condition for validity in content analysis methodology, this stochasticity poses a fundamental challenge, yet no systematic framework exists for quantifying and governing classification reliability prior to validity evaluation. This study proposes the Semantic Stability Protocol, which conceptualizes repeated large language model (LLM) outputs as structured groups of “AI coders” and applies traditional intercoder reliability metrics to assess classification consistency. Using DeepSeek Reasoner to classify 424 Chinese news articles into five categories within a single-model, single-language, single-domain configuration (100 runs per article), we find that raw outputs already exhibit high internal consistency (Krippendorff’s α = 0.8485) and that approximately 20 runs suffice for α > 0.94 after aggregation. Central to the protocol is a stability-stratified escalation framework: two diagnostic indicators, the Majority Rate and the Confidence Gap, partition each classification into High-, Moderate-, or Low-stability strata, triggering differentiated procedures: High-stability cases accept aggregated decisions directly, Moderate-stability cases undergo additional runs to reassess consistency, and Low-stability cases are flagged for human review. This study illustrates that generative model stochasticity can be governed within established reliability frameworks, providing researchers with actionable guidance (minimum run counts, aggregation strategy selection, and stability diagnostics) for transforming zero-shot classification into a transparent, auditable procedure.",
-      "date": "2026-05-07",
-      "url": "https://doi.org/10.1007/s11135-026-02832-9",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Quality & Quantity",
-      "direction": "medical",
-      "id": "f33b5bfea2cc"
-    },
-    {
-      "title": "The application of deep learning in tactical analysis of football matches",
-      "authors": "Wuyu Huang, Sihang Wang, Pei Li",
-      "abstract": "This paper presents a deep learning-based framework for tactical analysis in football, focusing on modeling structured tracking data rather than attempting full end-to-end perception. We introduce two modular components: Tactiformer, a transformer-based encoder that captures spatiotemporal player dynamics with role- and zone-aware attention, and StratGaze, a segment-level reasoning module that identifies recurring tactical motifs using contrastive sequence modeling. Tactiformer learns representations of coordinated multi-agent behavior at the player level, while StratGaze operates at the segment level to extract interpretable tactical abstractions over time. Our framework is fully data-driven, modular, and compatible with standard football analytics pipelines. We evaluate the approach on benchmark datasets including SoccerNet and PASS, demonstrating consistent improvements in event prediction accuracy, trajectory forecasting, and motif clustering quality over existing baselines. In addition to quantitative results, we provide qualitative visualizations of model attention maps and inferred tactical timelines, supporting the interpretability and usability of the system in real-world scenarios. Rather than solving the entire pipeline from detection to tactical inference, this work targets the reasoning layer and shows how structured spatiotemporal representations, combined with inductive priors, can support scalable, interpretable, and data-efficient football analytics tools suitable for analysts and coaching staff.",
-      "date": "2026-05-07",
-      "url": "https://doi.org/10.1038/s41598-026-48082-5",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "cell",
-      "id": "88250c44e251"
-    },
-    {
-      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
-      "authors": "Yuhang Lai, Jiazhan Feng, Yee Whye Teh, Ning Miao",
-      "abstract": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential component for advancing LLM training and enabling autonomous scientific research. Existing problem generation approaches either depend on expensive human expert involvement or adopt naive self-play paradigms, which frequently yield invalid problems due to reward hacking. This work introduces VHG, a verifier-enhanced hard problem generation framework built upon three-party self-play. By integrating an independent verifier into the conventional setter-solver duality, our design constrains the setter's reward to be jointly determined by problem validity (evaluated by the verifier) and difficulty (assessed by the solver). We instantiate two verifier variants: a Hard symbolic verifier and a Soft LLM-based verifier, with evaluations conducted on indefinite integral tasks and general mathematical reasoning tasks. Experimental results show that VHG substantially outperforms all baseline methods by a clear margin.",
-      "date": "2026-05-07",
-      "url": "https://arxiv.org/abs/2605.06660v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.06660v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "19570c9daafe"
     }
   ]
 }
