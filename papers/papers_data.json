@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16 19:20",
+  "last_updated": "2026-08-17 19:27",
   "papers": [
     {
       "title": "Toward federated large language models in medicine: a parameter-efficient framework for privacy-preserving, multi-institutional adaptation",
@@ -84,6 +84,78 @@
       "venue": "Annals of Telecommunications",
       "direction": "llm",
       "id": "a6dcc0117b68"
+    },
+    {
+      "title": "CytoBERT: A Foundation Model for Cytometry Data",
+      "authors": "Syed Abdul Haseeb Qadri, Bjarne C. Hiller, Felix Blanke, Vanja Sophie Cangalovic, Kutalmış Coşkun...",
+      "abstract": "Cytometry measures the complex characteristics of single cells (e.g., counts and protein expression of immune cells) and is widely used across immunological research and clinical settings. However, cytometry data is highly heterogeneous and unstandardized due to experimental protocols and the choice of measured features. While machine learning methods hold the potential to gain deeper insights into cell biology, these challenges make them difficult to apply and transfer across studies. Recent advances in foundation models can alleviate these issues, but corresponding approaches are still scarce in this field. To address this, we provide CytoBERT, a publicly available, open-source, open-weight foundation model for single-cell cytometry data with variable marker panels. CytoBERT is pretrained in a self-supervised manner on a large-scale cytometry corpus (15 human datasets with heterogeneous marker panels and more than 50 million cells) curated through marker standardization, enabling it to learn transferable inter-marker relationships within cells. Fine-tuning CytoBERT for sample-level classification demonstrates that transfer learning across heterogeneous cytometry datasets is feasible, providing a starting point for scalable, generalizable cytometry analysis. Code is available at GitHub.",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.14414v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14414v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "cell",
+      "id": "1cbe3f556d6f"
+    },
+    {
+      "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
+      "authors": "Syeda Anshrah Gillani, Mirza Samad Ahmed Baig",
+      "abstract": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a prespecified randomized algorithm audit of what causally moves those recommendations. Seven models (six open-weight; gpt-4o-mini) each chose among five synthetic family-medicine physician cards whose attributes were independently randomized across 3,024 choice sets, three patient personas, nine prompt paraphrases and nine experimental arms, yielding 40,068 scored responses; gender and ethnicity were signaled through names following correspondence-audit methodology. Reputation signals dominate: raising a rating from 3.9 to 4.7 increases choice probability by 31.4 percentage points (pp), and raising the fee from $90 to $190 lowers it by 20.0 pp. Demographic parity is rejected, but not in the direction human audit studies predict: female-signaled names gain 2.5 pp, and Hispanic-, South-Asian- and Black-signaled names gain 1.3-2.9 pp over White-signaled names, tilts worth $7-$14 per visit in fee-equivalent terms, and a content-free first-listed position is worth $11. Yet models mentioned gender or ethnicity in at most 0.03% of their stated reasons and abstained in 0.39% of trials, so these effects are invisible in the models' own explanations, and transparency obligations relying on model self-report would not detect them. One reasoning model failed the prespecified auditability gate outright. The frozen design makes the audit repeatable: any new model can be assessed against identical stimuli, making recurring behavioural audit, rather than self-reported explanation, the monitoring technology fit for purpose.",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.14399v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14399v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7bff536c90e5"
+    },
+    {
+      "title": "MINT: A Universal Zero-Shot Predictor for Transaction Data",
+      "authors": "Parameswaran Kamalaruban, Viktor Drobnyi, Maeve Madigan, Julia Rozanova, David Sutton...",
+      "abstract": "Banks analyse sequential financial transaction data to perform many tasks, including fraud prevention, credit risk assessment and offer personalization. To improve the predictive accuracy of these tasks, Payments Foundation Models encode transaction sequence data as rich contextual embeddings, which can then be provided to task-specific models as features. However, these Foundation Models are not designed for flexible zero-shot reasoning across novel downstream prediction tasks, limiting their adaptability and utility. Existing LLM-based approaches to zero-shot prediction often fail to fully exploit the predictive signal within transaction data, while relying on costly text serialization or task-specific architectures that scale poorly. To address these limitations, we present the Multimodal Instruction Network for Transactions (MINT), a framework that connects a pretrained transaction sequence encoder to a decoder-only LLM through lightweight embedding injection, transaction-language alignment, and instruction tuning. We find that MINT achieves state-of-the-art predictive question-answering performance in both in-distribution and out-of-distribution questions, while substantially reducing input tokens, latency, and memory consumption compared to text-serialization baselines. Through comprehensive analyses of representations, alignment strategies, training data, and history length, we establish that compact transaction embeddings are a superior approach to transaction representation than text serialization for multimodal reasoning and zero-shot prediction tasks.",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.14198v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14198v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "901bf107fa9f"
+    },
+    {
+      "title": "Regime-Conditional Verification: Correctness Estimation for Adapting and Monitoring Safety Classifiers",
+      "authors": "Thiago Sandoval, Ufuk Topcu",
+      "abstract": "Safety classifiers deployed with large language models often fail for two reasons: their decisions reflect the policy learned during training rather than the deployer's desired policy, and their performance degrades as deployment traffic evolves. We present Regime-Conditional Verification (RCV), a lightweight wrapper that adapts an off-the-shelf safety classifier without retraining it. RCV estimates, from the classifier's internal representations, the probability that each prediction disagrees with the deployer's policy, and selectively corrects predictions likely to be wrong. The same correctness estimates also provide a label-free signal for detecting distribution shift, enabling a maintenance loop that updates the correctness estimation layer and resorts to classifier fine-tuning only when necessary. Across three off-the-shelf safety classifiers and two benchmark datasets, RCV improves adherence to the deployer's policy in every classifier-dataset combination, catching up to 0.81 of previously missed unsafe content without modifying the underlying classifier. In a deployment study with ten attack campaigns, each a harm category held out of RCV's training, RCV detects every campaign in a dedicated injection panel; in the maintenance census most drift episodes are repaired without updating the classifier, and the fine-tune is reserved for the residual episodes that repair does not restore.",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.14089v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.14089v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "04bc756d5fc5"
+    },
+    {
+      "title": "CForce: Boosting Parallel Decoding for dLLMs via Consistency Forcing",
+      "authors": "Yuji Ren, Chenkai Xu, Zhuocheng Gong, Jianguo Li, Zhijie Deng",
+      "abstract": "Diffusion large language models (dLLMs) accelerate language generation by predicting multiple masks in a single forward pass. However, existing dLLMs can suffer from unreliable predictions in early denoising stages under aggressive parallelism strategies, leading to errors that can propagate to later stages. To tackle this issue, we present Consistency Forcing (CForce) for dLLMs, a distillation method to force the mask predictions of early stages to align with those of later stages. CForce trains the model on pre-collected self-rollout trajectories, thereby improving training-inference alignment. We introduce Confidence Adaptive KL Divergence as a distillation objective to conjoin the merits of forward and reverse KL. We further provide a theoretical analysis for the consistency objective to explain why CForce can approximately minimize the prediction error of early stages. Critically, the same formulation applies to both mask-to-token decoding and edit-capable decoding; in the edit-capable case, later token-to-token refinements provide additional supervision for earlier masked-state predictions. Experiments on non-edit and edit-capable LLaDA models show improved speed-quality trade-offs, especially under high-parallelism decoding budgets. Code is available at: https://github.com/inclusionAI/dFactory.",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.13925v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13925v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "0de247883f20"
+    },
+    {
+      "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
+      "authors": "Zhaoyan Sun, Xiaoxiao Wang, Guoliang Li",
+      "abstract": "Large language model (LLM) agents are evolving from conversational assistants into autonomous systems that execute long-horizon tasks through reasoning, tool use, code generation, and workspace manipulation. As agents increasingly operate over persistent environments and multi-step workflows, they face challenges analogous to those addressed by transactional database systems: reliable execution, consistent outcomes, safe concurrency, and durable state management. We introduce the concept of an agentic transaction and propose an ACID-compliant agent system framework that reinterprets the classical ACID properties for agent execution through four semantic guarantees: Semantic Atomicity, Semantic Consistency, Semantic Isolation, and Semantic Durability. Together, these properties provide a principled foundation for building reliable agent systems despite model uncertainty and dynamic execution environments. To instantiate this framework, we develop an ACID-compliant data agent that realizes these guarantees through transactional exploration-execution-validation cycles, transactional skill hubs, confidence divergence-based validation, semantic dependency-aware isolation, and transaction-aware semantic state management. Experimental results on widely used benchmarks show that our system achieves a 10.6% improvement over state-of-the-art agents, including Claude Code. This work opens a broader research agenda on extending transactional principles and system architectures toward building trustworthy, scalable, and self-evolving AI agent systems.",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.13900v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13900v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "aa70fd9f4be3"
     },
     {
       "title": "A beginner’s guide to some applications and issues of using generative artificial intelligence in mastitis control on dairy farms",
@@ -228,6 +300,18 @@
       "venue": "Journal of Cardiovascular Imaging",
       "direction": "llm",
       "id": "cca3b5a08a6a"
+    },
+    {
+      "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+      "authors": "Konstantin Dobler, Federico Scozzafava, Jonathan Janke, Mohamed Ali, Simon Lehnerer",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain heavily English-centric. We conduct a large-scale empirical study of multilingual and non-English GRPO across a wide range of base models, training languages, and different reasoning language rewards. We find that training to reason in the native language often leaves only a small gap to training for English reasoning. We further observe strong crosslingual transfer: training in one language often improves performance in many others. However, specific trends are highly model- and language-dependent. In some cases, training in a particular language induces severe regressions on out-of-domain capabilities in other languages. Our analysis shows that RLVR beyond English can provide broad crosslingual gains, but also requires broad evaluation to detect language-specific regressions.",
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.13698v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.13698v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "1c1007a6de04"
     },
     {
       "title": "Construction of Emotional Evolution Map of Online Texts on Medical Student Burnout Integrating BERT and LDA Topic Models",
@@ -11916,90 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "7744ca08e8ff"
-    },
-    {
-      "title": "MixRea: Benchmarking Explicit-Implicit Reasoning in Large Language Models",
-      "authors": "Yuanqing Cai, Ziyi Huang, Minhao Liu, Lixin Duan, Wen Li...",
-      "abstract": "Large language models (LLMs) are increasingly integrated into high-stakes decision-making. Inspired by the theory of \\emph{inattentional blindness} in human cognition, we investigate whether LLMs, trained on human-preferred corpora that embed attentional biases, exhibit a similar limitation: \\emph{failing to attend to subtle yet important contextual cues under explicit task instructions}. To evaluate this, we introduce the task of \\textbf{explicit-implicit reasoning} and present \\textbf{MixRea}, a benchmark of 2,246 multiple-choice questions across 9 reasoning types with varying distributions of explicit and implicit information. Evaluation of 21 advanced LLMs shows that even the best-performing reasoning model (Gemini 2.5 Pro) achieves only 42.8\\% consistency, revealing widespread inattentional blindness. To mitigate this, we propose \\textbf{Potential Relation Completion Prompting (PRCP)}, a prompting method that improves reasoning by recovering overlooked causal relations. Further analysis shows that this limitation persists across diverse multi-source reasoning tasks, highlighting the need for more cognitively aligned models.",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.20128v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.20128v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "086e57ce9a71"
-    },
-    {
-      "title": "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions",
-      "authors": "Chuanyang Jin, Binze Li, Haopeng Xie, Cathy Mengying Fang, Tianjian Li...",
-      "abstract": "Conversational AI has now reached billions of users, yet existing datasets capture only what people say, not what they think. We introduce ThoughtTrace, the first large-scale dataset that pairs real-world multi-turn human--AI conversations with users' self-reported thoughts: their reasons for sending prompts and reactions to assistant responses. ThoughtTrace comprises 1,058 users, 2,155 conversations, 17,058 turns, and 10,174 thought annotations collected across 20 language models. Our analysis shows that ThoughtTrace captures long-horizon, topically diverse interactions, and that thoughts are semantically distinct from messages, difficult for frontier LLMs to infer from context, diverse in content, and tied to conversation stages. We further demonstrate the utility of thoughts for downstream modeling. First, thoughts improve user-behavior prediction as inference-time context. Second, thought-guided rewrites provide fine-grained alignment signals for training personalized assistants. Together, ThoughtTrace establishes user thoughts as a new data modality for studying the cognitive dynamics behind human--AI interaction and provides a foundation for building assistants that better understand and adapt to users' latent goals, preferences, and needs.",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.20087v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.20087v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "01ce4a4ce91e"
-    },
-    {
-      "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
-      "authors": "Dachuan Shi, Hanlin Zhu, Xiangchi Yuan, Wanjia Zhao, Kejing Xia...",
-      "abstract": "Chain-of-thought (CoT) is a standard approach for eliciting reasoning capabilities from large language models (LLMs). However, the common CoT paradigm treats thinking as a prerequisite for answering, which can delay access to plausible answers and incur unnecessary token costs even when the model is able to identify an answer before extended thinking, a behavior known as performative reasoning. In this paper, we introduce CopT, a reformulated reasoning pipeline that reverses the usual order of thinking and answering. Instead of thinking before answering, CopT first elicits a draft answer and then invokes subsequent on-policy thinking conditioned on its own draft answer for reflection and correction. To assess whether the draft answer should be trusted, CopT recasts continuous embeddings as inference-time contrastive verifiers. Specifically, it contrasts the model's support for the same generated tokens under discrete-token inputs and continuous-embedding inputs, yielding a sequence-level reverse KL estimator for answer reliability. Our analysis shows that under certain assumptions, the expected estimate equals the mutual information between the unresolved latent state and the emitted answer token, explaining why it captures answer-relevant uncertainty rather than arbitrary uncertainty in the latent state. When the answer is deemed insufficiently reliable, CopT performs further on-policy thinking, where a second KL estimator dynamically controls draft-answer visibility, preserving useful partial information while reducing the risk of being misled by unreliable content. Across mathematics, coding, and agentic reasoning tasks, CopT improves peak accuracy by up to 23% and reduces token usage by up to 57% at comparable or higher accuracy, without any additional training. The code is available at https://github.com/sdc17/CopT.",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.20075v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.20075v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "912f72ceab1e"
-    },
-    {
-      "title": "Text-to-SPARQL Generation with Reinforcement Learning: A GRPO-based Approach on DBLP",
-      "authors": "Jann Pfeifer, Debayan Banerjee, Ricardo Usbeck",
-      "abstract": "Knowledge graph question answering seeks to translate natural language questions into executable queries over knowledge graphs, but existing approaches often rely on large models or full supervision in the form of gold query annotations. This study examines whether reinforcement learning with outcome-based rewards can train a small instruction-tuned language model to perform zero-shot Text-to-SPARQL generation in the scholarly domain. Group-Relative Policy Optimization (GRPO) is applied to the Qwen3-1.7B model on DBLP-QuAD, using prompts that combine natural language questions with symbolic hints about entities and relations. Training relies on execution feedback, structural constraints, and answer-level rewards, with an additional variant that incorporates gold-query-based shaping. The resulting models are compared to the unmodified zero-shot baseline and to a supervised DoRA-finetuned baseline across answer-level accuracy, execution accuracy, category-wise scores, and generalization to held-out templates. GRPO substantially improves over the zero-shot baseline and exhibits competitive generalization, while supervised DoRA finetuning achieves higher overall accuracy on the same model scale. Ablation analyses indicate that execution-based rewards account for most gains, with additional shaping yielding limited additional benefit, suggesting that outcome-based reinforcement learning is a viable training strategy when gold queries are unavailable for token-level supervision.",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.20066v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.20066v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "fb9aeac17994"
-    },
-    {
-      "title": "Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents",
-      "authors": "Wenjie Tang, Minne Li, Sijie Huang, Liquan Xiao, Yuan Zhou",
-      "abstract": "Reinforcement learning from verifiable rewards (RLVR) is a promising paradigm for improving large language model (LLM) agents on long-horizon interactive tasks. However, in partially observable environments, incomplete observations cause agent beliefs to drift over time, while delayed rewards obscure the causal impact of intermediate decisions, exacerbating temporal credit assignment challenges. To address this, we propose ReBel (Reward Belief), a process-level reinforcement learning algorithm that explicitly models structured belief states to summarize interaction history and guide subsequent policy learning. ReBel introduces belief-consistency supervision, converting discrepancies between predicted beliefs and observed feedback into dense self-supervised signals without requiring external step-wise annotations or verifiers. It also employs belief-aware grouping to compare trajectories under similar belief states, yielding more robust and lower-variance advantage estimates. We evaluate ReBel on challenging long-horizon benchmarks, including ALFWorld and WebShop. ReBel improves task success by up to $20.4$ percentage points over the episode-level baseline GRPO and increases sample efficiency by $2.1\\times$. These results suggest that belief-aware self-supervision is a promising direction for reliable long-horizon decision-making under partial observability. Code is available at: https://github.com/Fateyetian/Rebel.git.",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.20061v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.20061v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "cab6f82b022d"
-    },
-    {
-      "title": "Are Tools Always Beneficial? Learning to Invoke Tools Adaptively for Dual-Mode Multimodal LLM Reasoning",
-      "authors": "Qinghe Ma, Zhen Zhao, Yiming Wu, Jian Zhang, Lei Bai...",
-      "abstract": "Tool-augmented reasoning has emerged as a promising direction for enhancing the reasoning capabilities of multimodal large language models (MLLMs). However, existing studies mainly focus on enabling models to perform tool invocation, while neglecting the necessity of invoking tools. We argue that tool usage is not always beneficial, as redundant or inappropriate invocations largely increase reasoning overhead and even mislead model predictions. To address this issue, we introduce AutoTool, a model that adaptively decides whether to invoke tools according to the characteristics of each query. Within a reinforcement learning framework, we design an explicit dual-mode reasoning strategy with mode-specific reward functions to guide the model toward producing accurate responses. Moreover, to prevent premature bias toward a single reasoning mode, AutoTool jointly explores and balances tool-assisted and text-centric reasoning throughout training, and promotes free exploration in later stages. Extensive experiments demonstrate that AutoTool exhibits outstanding performance and high efficiency, yielding a 21.8\\% accuracy gain on V* benchmark compared to the base model, and a 44.9\\% improvement in efficiency over existing tool-augmented methods on POPE benchmark. Code is available at https://github.com/MQinghe/AutoTool.",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.19852v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.19852v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "de91531e8adb"
-    },
-    {
-      "title": "Ai-Driven Polypharmacology: Designing Multi-Target Drugs for Complex Diseases",
-      "authors": "Shahab Saquib, Alok Kumar, Vijesh Kumar Patel, Md Shahid Ahmad, Ravi Kumar, ...",
-      "abstract": "Contemporary pharmaceutical research faces significant limitations with single-target drug paradigms, particularly for multifactorial diseases such as cancer, neurodegeneration, and metabolic disorders. Polypharmacology—the deliberate design of molecules that modulate multiple disease-relevant biological targets simultaneously—offers a compelling alternative to conventional mono-target strategies. This paper investigates the convergence of artificial intelligence (AI) with polypharmacological drug design, systematically reviewing how deep learning, graph neural networks (GNNs), generative adversarial networks (GANs), and transformer-based molecular architectures are reshaping the discovery pipeline. We discuss the mechanistic basis of multi-target engagement, prominent computational frameworks for network pharmacology and target identification, and landmark AI-designed multi-target candidates across oncology, neurology, and inflammatory diseases. Benchmark comparisons reveal that transformer-based models achieve AUC-ROC scores exceeding 0.97 for multi-target affinity prediction, substantially outperforming classical machine learning baselines. We also address persistent challenges including polypharmacology selectivity, off-target toxicity prediction, and translational validation. Our analysis underscores that AI-driven polypharmacology is transitioning from a conceptual paradigm to a practical drug discovery accelerator with near-term clinical implications.",
-      "date": "2026-05-18",
-      "url": "https://doi.org/10.25258/ijddt.16.28s.104",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Drug Delivery Technology",
-      "direction": "cell",
-      "id": "f126c76c63ac"
     }
   ]
 }
