@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-08-19 19:24",
+  "last_updated": "2026-08-20 19:30",
   "papers": [
+    {
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "authors": "Bo Liu, Simon Yu, Yiding Jiang, Ao Qu, Andrew Zhao...",
+      "abstract": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments as executable code with an OpenAI Gym-style reset()/step() interface, and a Reasoning Agent that learns to act in them. Each is a stateful, multi-turn environment (state transitions, reward functions, and verification code), so one interface spans reasoning problems and multi-step agentic tool use. The Reasoning Agent's regret is estimated using the gap between its reward with and without privileged hints; in optimizing this regret signal the Environment Designer learns to target environments at the edge of the agent's capabilities while keeping them feasible. Through extensive experimentation, we find several components critical to success: grounding the Environment Designer on documents sampled from a large pretraining corpus, and giving it an accumulated environment memory. Scaling to 30B-parameter models, SPADE improves over the strongest fixed-environment baseline by +5.3 on average across eight held-out math, science, code, and reasoning benchmarks, and lifts the tool-use setting by +5.7 on BFCL-v4 multi-turn and +13.9 on ACEBench-Agent; on the games setting, the margin over the strongest baseline grows with model scale. By making environment design itself a learnable component, SPADE takes a concrete step toward open-ended self-improvement.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.19197v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19197v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "5c598a1e2527"
+    },
+    {
+      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "authors": "Joy Jia Yin Lim, Xin Huang, Hao Peng, Yaxi Lu, Xin Cong...",
+      "abstract": "Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that this picture conflates two distinct capabilities: execution-level capability, iterating within a selected training strategy; and strategy-level capability, revising the high-level judgment as experimental evidence accumulates. Analyzing a large corpus of publicly released post-training trajectories, we find that across different tasks, the agent's training strategy is locked in at the very beginning, and the entire remaining budget is spent on local adjustments within the selected strategy. We then examine three natural explanations--missing experience, missing guidance, and insufficient reasoning--with escalating interventions. Extensive experiments show that (1) an experience-driven scaffold improves execution across the board (+12.6 points on GSM8K and +40.8 on HumanEval) but leaves the strategy static; (2) human guidance effectively redirects the initial strategy, yet the agent falls back into local adjustment loops once training starts; and (3) additional inference compute pays off on easier tasks but yields almost no gain on the hardest one. In conclusion, what agents lack is neither experience, guidance, nor reasoning compute, but a mechanism for spontaneously reevaluating their strategy during execution.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.19072v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19072v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "236eb3646d04"
+    },
+    {
+      "title": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
+      "authors": "Minh Hoang Nguyen, Tung Le, Huy Tien Nguyen",
+      "abstract": "Large language models can improve recommendation quality by reasoning explicitly over user history and candidate items - for example, extracting a user's preferences or explaining why one item fits better than another - rather than mapping history directly to a ranked list. This reasoning, however, is expensive to repeat on every ranking request and, once produced, is typically consumed once and discarded, leaving it neither reusable across future requests nor easy to inspect or correct as user tastes drift. Our insight is that reasoning does not need to be regenerated at every call if it can instead be compressed once into a compact, structured memory that a lightweight model retrieves from. We propose rEDMRec, which distills a teacher LLM's reasoning into four typed, editable experience channels - long-term preference, short-term context, item-perception, and counterfactual hard-negative comparisons - maintained by an LLM memory controller that performs Add/Delete/Modify/Keep operations and refines entries via K-agent debate. A lightweight student LLM then ranks candidates purely by retrieving from this memory, without invoking the teacher again, decoupling online inference cost from reasoning depth. Across ML-1M, Amazon Beauty, and Steam and ten student backbones, rEDMRec improves HR@1 over zero-shot, few-shot, and RAG on every backbone, and over GraphRAG on most backbones, with Impv up to 13.3% vs. the second-best baseline on ML-1M. Channel ablations show that short-term context is the only channel that helps consistently across capacity tiers, whereas long-term, item-perception, and counterfactual contributions are capacity-dependent (and can reverse on the strongest students); debate-based memory optimization lowers bank duplication by 7.4 percentage points while raising downstream HR@1 by up to +0.029 over six optimization epochs.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18952v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18952v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "af7004f85325"
+    },
+    {
+      "title": "Assessing Quality of Experience in Natural Language Generation of German Text",
+      "authors": "Dinh Nam Pham, Shushen Manakhimova, Vivien Macketanz, Sebastian Möller",
+      "abstract": "The rapid advancement of Natural Language Generation (NLG) has made the reliable evaluation of generated text increasingly critical, as these systems, such as large language models (LLMs), are now widely deployed in real-world applications. However, traditional automatic metrics fail to capture the multifaceted nature of perceived quality. In this paper, we introduce TextQ-German, a novel dataset suite for human-centered evaluation of German NLG from a Quality of Experience (QoE) perspective, covering automatic text summarization and machine translation. Through crowdsourcing studies with German speakers, we collect human quality ratings and identify relevant perceptual quality dimensions for each task. We develop automatic QoE prediction models, including transformer-based, linguistic feature-based, and hybrid approaches. Hybrid models outperform pure transformer baselines in almost all experimental settings, while linguistic features alone can approach the performance of fine-tuned language models. The dataset is extended with LLM-generated outputs annotated with overall QoE scores. Final validation on held-out sets indicates generalization to unseen data. Our work contributes a publicly accessible resource for NLG evaluation and baselines for automatic QoE prediction, providing a foundation for developing NLG systems that better align with human quality perception.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18888v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18888v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f9fb0d937a15"
+    },
+    {
+      "title": "MemFuse: Multi-Source Memory Fusion from Fragmented Observations",
+      "authors": "Chao Li, Yuanfa Li, Wenhao Wu, Xule Liu, Zhi Wang...",
+      "abstract": "Long-term memory is essential for agents that operate across extended interactions, yet existing memory systems and benchmarks predominantly focus on single-source textual histories. In realistic settings, however, relevant information is often fragmented across applications and devices, as well as across users and time, requiring agents to integrate dispersed observations into coherent episodic memories while preserving their source provenance. To address these gaps, we introduce **MemFuseBench**, a benchmark for *multi-source memory fusion*. MemFuseBench is built with a Scene-to-Sensor pipeline that synthesizes controllable scenarios into source-tagged observations, evidence-grounded questions, and adversarial distractors. It enables systematic evaluation of temporal reasoning, cross-source evidence fusion, and robustness to noise. We further propose **MemFuse**, a structured memory system that preserves source-level evidence in event-layer atomic memory and organizes related atomic events into cluster-layer fused memory within a causal fusion graph. During retrieval, MemFuse retrieves and organizes related evidence fragments while maintaining traceability to original source events. Experiments on MemFuseBench show that MemFuse achieves the best overall performance among the evaluated memory systems under all three LLM settings and consistently improves performance on questions requiring cross-source evidence fusion.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18704v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18704v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "a878d3d32ba8"
+    },
+    {
+      "title": "MLREF: Efficient Module Reuse for Reward Design in Reinforcement Learning via Large Language Models",
+      "authors": "Chenglin Liu, Xun Wang, Ruishuo Chen, Zhuoran Li, Longbo Huang",
+      "abstract": "Reward function design remains a bottleneck in reinforcement learning. While large language models (LLMs) have enabled automated reward generation, existing methods generate and revise reward functions as monolithic programs, making it difficult to reliably preserve and reuse effective components discovered in earlier iterations, leading to unstable performance across iterations. To address this, we propose Module Level Reward Evolution Framework (MLREF). At the core of MLREF is a module pool, a persistent repository of reusable reward components. MLREF treats the module pool as the primary optimization object: the pool evolves across iterations by accumulating successful modules, refining underperforming ones, and reusing proven components; while reward functions are constructed as linear combinations of modules drawn from this pool. To drive this evolution, MLREF integrates three mechanisms: reflection-based refinement, hybrid credit assignment, and a merge strategy with rollback, which together improve the effectiveness and robustness of reward optimization. Experiments on 17 tasks show that MLREF outperforms strong baselines by 25.2% in locomotion and 6.6% in manipulation, with more stable optimization dynamics.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18827v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18827v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "10d930015004"
+    },
+    {
+      "title": "From Storage to Access: Verifiable Activation of Parametric Knowledge in LLMs via Explicit Priming and Implicit Reasoning",
+      "authors": "Zuocheng Ying, Yang Yang, Yumou Wu, Chuanbo Zhu, Jiarui Wang...",
+      "abstract": "Although Large Language Models (LLMs) encode rich factual knowledge in their parameters, reliably recalling and verifying such knowledge remains a key bottleneck in factual question answering. Existing end-to-end methods entangle knowledge elicitation with reasoning, making it difficult to determine whether correct answers arise from parametric knowledge or the input context. To address this challenge, we propose VAKE (Verifiable Activation of Parametric KnowledgE), a two-stage reinforcement-learning framework that externalizes latent parametric knowledge through explicit Priming and transfers the acquired elicitation capability to implicit Reasoning. Given a query and an insufficient retrieved subgraph, the Priming policy explicitly inserts bridging triples as verifiable evidence, with supervision provided by rewards derived from answers generated by a separate frozen model over the augmented subgraph. Building on the policy learned during Priming, the Reasoning stage trains the model to answer from the original input, testing whether the capability acquired through explicit knowledge elicitation transfers to implicit reasoning. Experiments across seven benchmarks and models from 3B to 14B show that VAKE consistently outperforms standard baselines, including when transferring directly from HotpotQA to OOD datasets. LLM-based evaluation further shows that over 80% of the inserted triples provide factual bridging knowledge not derivable from the retrieved context, while more than half elicit knowledge inaccessible through direct prompting. These results suggest that VAKE activates latent parametric knowledge rather than copying the input context or memorizing dataset-specific associations.",
+      "date": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18581v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.18581v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "cbfda7efc19f"
+    },
     {
       "title": "AI safety evaluation in an underrepresented population: real-world performance of clinical decision support and frontier language models on Medicaid patient messaging triage",
       "authors": "Sanjay Basu, Sadiq Patel, Parth Sheth, Bernardo Arevalo, Jeremy Schifberg, ...",
@@ -11916,90 +12000,6 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "direction": "medical",
       "id": "1bc6a65f2840"
-    },
-    {
-      "title": "Advances in Chemoinformatics: Artificial Intelligence, Big Data, and Computational Strategies in Modern Chemical Research",
-      "authors": "K.B. Misra",
-      "abstract": "Chemoinformatics has emerged as a powerful interdisciplinary domain that integrates chemistry, computer science, data analytics, and information technology to manage and interpret complex chemical information. The rapid development of computational techniques, artificial intelligence (AI), machine learning (ML), and big data analytics has significantly transformed the scope and impact of chemoinformatics. These technologies enable researchers to analyze extensive chemical datasets, predict molecular properties, and accelerate the discovery of new drugs and advanced materials. This review presents an overview of the major developments in chemoinformatics, focusing on molecular modeling techniques, artificial intelligence applications, chemoinformatics databases, and virtual screening approaches used in modern drug discovery. Additionally, the role of chemoinformatics in materials science and sustainable chemistry is discussed. The paper also highlights the current challenges faced by the field, including data quality issues, model interpretability, and integration with experimental validation. Finally, emerging trends such as quantum computing, automated drug discovery platforms, and AI-driven materials design are explored. These developments suggest that chemoinformatics will continue to play a crucial role in advancing chemical research and innovation in the coming decades.",
-      "date": "2026-05-21",
-      "url": "https://doi.org/10.64643/jatirv2i5-140170-001",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "",
-      "direction": "cell",
-      "id": "5478504d6c5c"
-    },
-    {
-      "title": "Survive or Collapse: The Asymmetric Roles of Data Gating and Reward Grounding in Self-Play RL",
-      "authors": "Sophia Xiao Pu, Zhaotian Weng, Chengzhi Liu, Jayanth Srinivasa, Gaowen Liu...",
-      "abstract": "Self-play reinforcement learning trains language models on their own generated tasks, co-evolving a proposer and solver without human labels. Recent systems report strong reasoning gains, but collapse and instability are widely observed and poorly understood. The dominant response treats this as a reward-design problem. We argue instead that self-play stability is governed by two distinct levers: a data-level gate that decides which proposer-generated tasks enter the training pool, and the reward signal that updates the policy on tasks already admitted. Through controlled experiments on a Python output-prediction task and a deterministic-DSL twin task that strips pretraining priors, output ambiguity, and executor noise, we find the two levers are asymmetric. A strict gate is sufficient for stability under every reward variant we test, including a self-consistency reward with no access to ground truth; while no reward variant is sufficient once the gate is removed. This asymmetry exposes a counter-intuitive coupling we call the Grounded Proposer Paradox: a proposer with ground-truth access accelerates collapse faster than an ungrounded one when paired with a self-consistency solver, by concentrating training on clean tasks that form the fastest path to a spurious self-consistent attractor. Replacing the binary gate with a continuous strictness parameter $\\varepsilon$ further reveals a two-stage phase transition: training-side metrics decouple at low $\\varepsilon$, while validation accuracy holds until $\\varepsilon$ is much higher. Data-level gating, not reward calibration, is the binding constraint on self-play stability.",
-      "date": "2026-05-21",
-      "url": "https://arxiv.org/abs/2605.22217v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22217v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "47ef7ab4acb1"
-    },
-    {
-      "title": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles",
-      "authors": "Jinyang Wu, Guocheng Zhai, Ruihan Jin, Yuhao Shen, Zhengxi Lu...",
-      "abstract": "The proliferation of large language models (LLMs) and modular skills has endowed autonomous agents with increasingly powerful capabilities. Existing frameworks typically rely on monolithic LLMs and fixed logic to interface with these skills. This gives rise to a critical bottleneck: different LLMs offer distinct advantages across diverse domains, yet current frameworks fail to exploit the complementary strengths of models and skills, thereby limiting their performance on downstream tasks. In this paper, we present Maestro (Multimodal Agent for Expert-Skill Targeted Reinforced Orchestration), a Reinforcement Learning (RL)-driven orchestration framework that reframes heterogeneous multimodal tasks as a sequential decision-making process over a hierarchical model-skill registry. Rather than consolidating all knowledge into a single model, Maestro trains a lightweight policy to dynamically compose ensembles of frozen expert models and a two-tier skill library, deciding at each step whether to invoke an external expert, which model-skill pair to select, and when to terminate. The policy is optimized via outcome-based RL, requiring no step-level supervision. We evaluate Maestro across ten representative multimodal benchmarks spanning mathematical reasoning, chart understanding, high-resolution perception, and domain-specific analysis. With only a 4B orchestrator, Maestro achieves an average accuracy of 70.1%, surpassing both GPT-5 (69.3%) and Gemini-2.5-Pro (68.7%). Crucially, the learned coordination policy generalizes to unseen models and skills without retraining: augmenting the registry with out-of-domain experts yields a 59.5% average on four challenging benchmarks, outperforming all closed-source baselines. Maestro further maintains high computational efficiency with low latency. The source code is available at https://github.com/jinyangwu/Maestro.",
-      "date": "2026-05-21",
-      "url": "https://arxiv.org/abs/2605.22177v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22177v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "07d8910aeb0f"
-    },
-    {
-      "title": "AI-Powered Prediction System Using NLP and Deep Learning",
-      "authors": "Tushar Zalte Dr. Pankaj Agarkar, Umesh Kardile Farhan Shikalgar",
-      "abstract": "Prediction systems grounded in textual data have become indispensable across high-stakes domains including clinical decision support, financial signal detection, and digital misinformation analysis. Classical statistical approaches and shallow machine learning methods have demonstrated satisfactory performance on narrow, well-curated datasets, but they struggle to generalise once input distributions shift or domain vocabulary diverges from training corpora. Deep learning, and more specifically the pre-trained transformer paradigm, has substantially narrowed this gap; nevertheless, single-architecture solutions routinely leave accuracy on the table when applied to tasks that demand both rich contextual encoding and explicit sequential reasoning. This paper presents a cohesive, end-to-end AI- powered prediction framework that fuses BERT- derived contextual representations with a two-layer bidirectional LSTM (BiLSTM) classification head augmented by an additive attention mechanism. The system is designed as a modular pipeline: text acquisition and normalisation, augmentation-based imbalance handling, deep encoding, sequential modelling, and post-hoc probability calibration are treated as independent, replaceable stages. Experimental evaluation across three publicly available benchmark datasets — the LIAR fake news corpus, Stanford Sentiment Treebank v2, and a health-claim verification collection — confirms that the hybrid BERT-BiLSTM-Attention architecture outperforms five competitive baselines on macro-averaged F1 and area under the ROC curve. Ablation experiments quantify the individual contributions of the attention layer, recurrent head, augmentation strategy, and temperature scaling. A discussion of deployment trade-offs addresses inference latency, continual adaptation, and algorithmic fairness..",
-      "date": "2026-05-21",
-      "url": "https://doi.org/10.48175/ijarsct-35622",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Advanced Research in Science Communication and Technology",
-      "direction": "medical",
-      "id": "e7548b12e211"
-    },
-    {
-      "title": "From Snapshots to Trajectories: Learning Single-Cell Gene Expression Dynamics via Conditional Flow Matching",
-      "authors": "Siyu Pu, Qingqing Long, Xiaohan Huang, Haotian Chen, Jiajia Wang...",
-      "abstract": "Single-cell RNA sequencing (scRNA-seq) provides high-dimensional profiles of cellular states, enabling data-driven modeling of cellular dynamics over time. In practice, time-resolved scRNA-seq is collected at only a few discrete time points as unpaired snapshot populations, leaving substantial temporal gaps. This motivates trajectory inference at unmeasured time points. Existing methods mainly follow two directions, optimal-transport (OT) alignment provides distribution-level matching between observed snapshots, while continuous-time generative models support forecasting via learned dynamics. However, two challenges remain: (i) unpaired snapshots render local transitions between adjacent time points ambiguous, leading to unstable supervision; and (ii) long-horizon prediction relies on repeated integration, where small modeling errors compound and cause distribution drift. To address these challenges, we propose single-cell Flow Matching (scFM), a latent generative framework based on coupling-conditioned flow matching. First, we compute entropically regularized OT couplings between adjacent snapshots and use them to construct soft, weighted flow-matching targets for learning time-dependent velocity fields. Second, we learn bidirectional velocity fields and leverage their consistency to refine couplings and improve temporal coherence under sparse supervision. Third, we introduce distribution-level alignment and latent dynamic regularization to anchor long rollouts and mitigate drift. Experiments on real-world time-series scRNA-seq datasets show that scFM consistently improves distributional prediction performance for both temporal interpolation and extrapolation. Moreover, scFM yields more accurate trajectory reconstruction and temporally coherent visualizations where intermediate time points are absent, indicating a more faithful recovery of underlying temporal gene expression dynamics.",
-      "date": "2026-05-21",
-      "url": "https://arxiv.org/abs/2605.22340v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22340v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "cell",
-      "id": "7109dc8ffdfb"
-    },
-    {
-      "title": "Bioactive peptides targeting dyslipidemia and atherosclerosis: from computational discovery and data bottlenecks to precision medicine translation",
-      "authors": "Wei Yin, Qiang Wang, ZhiMing Zeng, Xu Xie",
-      "abstract": "Bioactive peptides have emerged as a promising therapeutic class for dyslipidemia and residual cardiovascular risk, operating through mechanisms that include apolipoprotein mimicry, PCSK9 inhibition, and modulation of cholesterol absorption and inflammation, yet translational success remains constrained by poor pharmacokinetics, limited oral bioavailability, and inconsistent clinical outcomes. Computational approaches, ranging from machine learning classifiers and protein language models to structure-guided docking and generative design, now accelerate peptide discovery by enabling high-throughput screening, rational optimization of stability and affinity, and de novo generation of function-tailored sequences. However, the field faces persistent bottlenecks: lipid-annotated peptide datasets are scarce and fragmented, negative sampling biases inflate model performance, and most predictive algorithms trained on antimicrobial or general bioactive peptide data generalize poorly to cardiovascular applications, with many computationally derived leads lacking orthogonal peptidomics or proteolytic validation and consequently yielding high false-positive rates. Recent successes, particularly the development of orally bioavailable macrocyclic PCSK9 inhibitors, demonstrate that integrated pipelines combining structure-based design, display technologies, and multi-parameter optimization can overcome these barriers. Moving forward, progress will require concerted efforts to build high-quality, standardized lipid-peptide repositories, adopt uncertainty-aware and domain-adaptive modeling strategies, and embed early-stage developability filters into computational workflows. The convergence of generative artificial intelligence, population genomics, and precision medicine may ultimately enable patient-tailored peptide therapeutics capable of addressing the heterogeneous nature of dyslipidemia and atherosclerotic disease.",
-      "date": "2026-05-21",
-      "url": "https://doi.org/10.3389/fmolb.2026.1818173",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Molecular Biosciences",
-      "direction": "cell",
-      "id": "ab050d373db5"
-    },
-    {
-      "title": "Synthetic microbial communities: a novel emerging models for dissecting gut microbiota-host interactions in neurodegenerative diseases",
-      "authors": "Pengya Feng, Wenqiang Zhang, Yonghong Zhao, Pengju Zhao, Enyao Li",
-      "abstract": "The gut-brain axis (GBA) has emerged as a critical regulatory pathway underlying the pathogenesis of neurodegenerative diseases (NDs) such as Alzheimer’s disease and Parkinson’s disease. However, the high complexity and individual variability of native gut microbiotas hinder the precise elucidation of causal relationships between specific microbial taxa, their metabolites, and host neuroinflammatory or neurodegenerative processes. Synthetic microbial communities (SynComs), consisting of defined and reproducible bacterial strains, have recently emerged as powerful experimental models to overcome these limitations. This review summarizes the applications of SynComs in dissecting GBA crosstalk in NDs, highlighting their utility in validating key microbial mediators, deciphering molecular signaling pathways (e.g., microbial metabolite-brain barrier interactions, immune cell activation), and evaluating therapeutic strategies targeting the gut microbiota. By reducing community complexity while retaining core functional traits, SynComs enable controlled in vitro and in vivo studies that bridge the gap between observational microbiome profiling and mechanistic insights. Furthermore, the customization of SynComs allows for mimicking disease-specific microbial dysbiosis, facilitating the identification of novel therapeutic targets for NDs. Collectively, SynComs represent an innovative and standardized tool to advance our understanding of gut microbiota-host interactions in neurodegeneration and accelerate the development of microbiome-based interventions.",
-      "date": "2026-05-21",
-      "url": "https://doi.org/10.3389/fimmu.2026.1822743",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Immunology",
-      "direction": "cell",
-      "id": "97ead14a318d"
     }
   ]
 }
