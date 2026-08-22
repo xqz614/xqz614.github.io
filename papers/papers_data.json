@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-08-21 19:25",
+  "last_updated": "2026-08-22 19:21",
   "papers": [
+    {
+      "title": "Benchmarking generative AI tools for literature retrieval and summarization in genomic variant interpretation",
+      "authors": "Andrea Gazzo, Silvia Berardelli, Matteo Biancospino, Lorenzo Cuollo, Flavia Dei Zotti, ...",
+      "abstract": "Abstract Background Generative AI is increasingly used to extract structured information across domains, but its reliability in academic and clinical research, where precision and accuracy are essential, remains largely unexplored. This study evaluates the ability of Large Language Models (LLMs)-based algorithms to generate accurate, literature-based summaries of human genomic variants, with a focus on real-world usability. Results We benchmarked five open-access generative AI platforms—ChatGPT, MistralAI, VarChat, Perplexity, and ScholarAI—across 40 curated variants equally divided between somatic and germline settings. For each variant, summary reports were generated and blindly evaluated by domain experts using five defined metrics. VarChat emerged as the top-ranked tool, showing the highest summarization accuracy, citation relevance, and robustness against hallucinations. Gpt-4o consistently ranked second, showing particularly stable robustness in conditions where the literature was scarce. Perplexity and ScholarAI, despite being literature-focused, ranked lowest across most metrics. Tool performance was strongly influenced by the availability of peer-reviewed literature, confirming that current generative models remain sensitive to data scarcity. Conclusions Our findings highlight the heterogeneity of current generative AI tools in genomic variant interpretation workflows. While some platforms already provide useful outputs, reliable integration into basic and clinical research requires expert validation and domain-related fine-tuning. This work provides for the first time a curated benchmark for assessing LLM-generated content in variant genomics and underscores the need for caution when using these tools to support variant interpretation.",
+      "date": "2026-08-22",
+      "url": "https://doi.org/10.1186/s13059-026-04237-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Genome biology",
+      "direction": "medical",
+      "id": "66cbe979df2b"
+    },
+    {
+      "title": "Development of AI competencies within the medical curriculum",
+      "authors": "María Belén Morales Cevallos, Diego Fabián Vique López, Catherine Hortensia Martínez Avalos, Brigette Carolina Huaraca Morocho, Jhonatan David Silva Ameza, ...",
+      "abstract": "Introduction The rapid integration of artificial intelligence (AI) into healthcare is transforming clinical practice and redefining the competencies required of future physicians. As AI increasingly supports diagnostics, clinical decision-making, and healthcare management, medical curricula must evolve to ensure graduates possess the knowledge, skills, and ethical competencies necessary to interact effectively with AI-enabled systems. Methodology A systematic review was conducted following PRISMA guidelines. Literature searches were performed in PubMed, Scopus, and IEEE Xplore for studies published between 2020 and 2025. Eligibility criteria focused on original studies addressing AI competency development, curricular interventions, educational frameworks, and AI-related training within medical education. Following screening and eligibility assessment, 20 studies were included in the final synthesis. Results AI literacy was the most frequently identified competency, alongside clinical AI applications, data science, ethical reasoning, critical appraisal, and human–AI collaboration. Integrated and longitudinal curriculum models emerged as the predominant approaches for competency development. Active learning strategies, particularly simulations, workshops, project-based learning, and authentic clinical applications, were consistently associated with positive educational outcomes. Discussion The evidence indicates a transition from isolated AI educational initiatives toward competency-based and longitudinal curriculum integration. Effective AI education extends beyond technical literacy and increasingly incorporates ethical, clinical, and professional competencies necessary for responsible AI adoption in healthcare. Conclusion AI competencies should be recognized as a core component of the medical curriculum. Integrated, longitudinal, and active learning-based educational models provide the strongest foundation for preparing future physicians to critically evaluate, ethically govern, and effectively collaborate with AI technologies in clinical practice.",
+      "date": "2026-08-21",
+      "url": "https://doi.org/10.3389/fmed.2026.1899639",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "llm",
+      "id": "fd971442e4ca"
+    },
+    {
+      "title": "Development of a hybrid artificial intelligence framework for pharmacotherapy optimization",
+      "authors": "Olaf Rose, Stephanie Clemens, Andreas Leiherer, Michael Bücker, Finn Petersson, ...",
+      "abstract": "Abstract Introduction Pharmacotherapy optimization in multimorbid patients is increasingly complex due to polypharmacy, fragmented data, expanding electronic health records, and workforce constraints. Conventional clinical decision support systems remain largely rule-based and often fail to adequately incorporate patient-specific context. While artificial intelligence offers new opportunities, stand-alone models remain insufficiently reliable for high-risk pharmacotherapy decision support. Aim To develop a relevance-driven, clinician-supervised hybrid AI framework for pharmacotherapy optimization. Method Using a design science-informed approach, an interdisciplinary research group developed a conceptual framework for AI-supported pharmacotherapy optimization. Framework development was informed by prior feasibility work, published literature, clinical practice requirements, and iterative interdisciplinary discussions. Hybrid AI was defined as the combination of retrieval-augmented generation, deterministic safety rules, and large language model reasoning. Results Seven design principles were identified, including decomposition of clinical activities, relevance-based prioritization, hybrid reasoning under clinician oversight, integration of patient goals, transparency of evidence sources, longitudinal optimization within a governed closed loop, and evaluation as a design requirement. These principles informed a conceptual architecture integrating structured clinical data, patient preferences, longitudinal patient information, and evidence retrieval within a clinician-governed decision-support framework. Conclusion The proposed framework conceptualizes AI as a relevance-structuring, clinician-governed decision-support layer rather than an autonomous decision-maker. By combining hybrid reasoning, patient-specific context, and professional oversight, it provides a conceptual foundation for future development, implementation, and evaluation of AI-supported pharmacotherapy systems.",
+      "date": "2026-08-21",
+      "url": "https://doi.org/10.1007/s11096-026-02205-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Clinical Pharmacy",
+      "direction": "llm",
+      "id": "78bd0c9dee19"
+    },
+    {
+      "title": "TransCat: a hybrid CNN-transformer network with KAN for medical image segmentation",
+      "authors": "Jin Wang, Zhenghua Yang, Dongming Zhou, Gang Chen, Sihan Wang, ...",
+      "abstract": "Medical image segmentation is a fundamental task in computer vision and plays an important role in clinical diagnosis and treatment planning. Existing methods are mainly built on either convolutional neural networks (CNNs) or Transformer-based encoder-decoder architectures. CNNs are effective at capturing local patterns, whereas Transformers are better suited to modeling long-range dependencies. However, current hybrid designs still face three persistent challenges: insufficient exploitation of multi-scale CNN features for global modeling, rapidly increasing attention cost after token expansion, and ineffective fusion between CNN and Transformer representations. To address these issues, we propose TransCat, a hybrid CNN-Transformer architecture for medical image segmentation. First, we introduce Patch Concat, which converts multi-scale CNN features into patch tokens and feeds them jointly into the Transformer, enabling global reasoning across multiple scales. Second, to control the computational burden caused by the enlarged token set, we develop an extended deformable attention mechanism with attentive value identification. Third, we design a Kolmogorov–Arnold Network (KAN) attention module for adaptive cross-branch fusion. The module projects high-level CNN and Transformer features into a shared space and uses a KAN layer to estimate data-dependent pixel-wise weights. These weights selectively modulate the globally modeled Transformer features, allowing complementary local structural evidence from the CNN branch to be incorporated according to the image content rather than through fixed addition or concatenation. Experiments on multiple medical image segmentation benchmarks show that TransCat is competitive under the reported protocols, with its clearest advantage observed on unseen polyp test data.",
+      "date": "2026-08-21",
+      "url": "https://doi.org/10.3389/fbinf.2026.1849059",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Bioinformatics",
+      "direction": "llm",
+      "id": "def144f2eec5"
+    },
+    {
+      "title": "Comprehensive overview of AI methodologies in nano-drug delivery Optimization and Design",
+      "authors": "Lei Zhang, Jun Li, Li Mu, Lanlan Guo, Jing Zhang, ...",
+      "abstract": "This review comprehensively examines the application of artificial intelligence (AI) to revolutionize precision oncology across all phases of drug development, including target discovery and molecular design, nanomedicine delivery, and resistance mitigation. Deep learning, systems biology, and multi-omics analytics enabled by AI accelerate target discovery, lead optimization, and personalized therapy. This study focuses on a new area of AI-driven nanocarrier design, adaptive therapy design, and digital twin clinical decision support. AI bridges the knowledge gap between molecular information and real-world data to enable forecasting, transparent, patient-centered cancer treatment, and the foundation for a data platform to counsel future generations of cancer patients, therapies, and resistance control.",
+      "date": "2026-08-20",
+      "url": "https://doi.org/10.1038/s41698-026-01513-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Precision Oncology",
+      "direction": "medical",
+      "id": "4a075bade04f"
+    },
+    {
+      "title": "Performing Power and Transitional Space: the Use of Acoustics and Multimodal AI in Etruscan Painted Tombs",
+      "authors": "Maurizio Forte, Jacqueline K. Ortoleva",
+      "abstract": "Abstract This article presents a new multimodal AI and acoustic methodology using two 5th c. BCE Etruscan painted tombs at Tarquinia, Italy, the Tomba del Gallo and the Tomba dei Demoni Azzurri as case studies. Via the integration of AI computer vision–based visual saliency analysis, architectural affordance modelling, acoustic data, and agent-based perceptual trajectories, the study suggests that each tomb affords distinct experiential strategies. The Tomba del Gallo privileges visual sequencing, threshold control, and gaze discipline, whereas the Tomba dei Demoni Azzurri potentially induces perceptual disorientation and immerses the visitor into a sensory and spatial environment that has the possibility of inducing trance-like experiences. A central contribution of the study is the reinterpretation of subterranean funerary spaces as possible transitional spaces, where architectural and symbolic devices mediate between life and death, order and chaos, memory and transformation, and sensory manipulation operate as core ritual technologies. Ultimately, we argue that when combined with scientifically documented acoustic data, AI enables archaeology to move beyond representational interpretation toward the experimental modelling of ritualised experiences in the ancient Mediterranean.",
+      "date": "2026-08-20",
+      "url": "https://doi.org/10.1007/s10816-026-09820-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Archaeological Method and Theory",
+      "direction": "cell",
+      "id": "54c5f5853204"
+    },
     {
       "title": "PubMind: literature-based genetic variant extraction and functional annotation using large language models",
       "authors": "Peng Wang, Kai Wang",
@@ -11928,78 +12000,6 @@
       "venue": "International Journal for Research in Applied Science and Engineering Technology",
       "direction": "medical",
       "id": "1db310c22f5f"
-    },
-    {
-      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
-      "authors": "Beichen Zhang, Yuhong Liu, Jinsong Li, Yuhang Zang, Jiaqi Wang...",
-      "abstract": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fixed predefined toolkits or produce noisy intermediate images from unified multimodal methods. We pursue a third option: using a dedicated image editing model and decouple it with an understanding model. However, off-the-shelf image editors fail as reasoning assistants with two complementary gaps: a language-side gap, where editors trained as passive instruction-followers cannot map an abstract question to an appropriate visual transformation, and a generation-side gap, where edit correctness degrades as reasoning depth grows. Guided by this analysis, we introduce ETCHR (Editing To Clarify and Harness Reasoning), a question-conditioned, reasoning-aware image editor decoupled from the downstream understanding model and trained with a two-stage recipe targeted at the two gaps: Reasoning Imitation via supervised fine-tuning on edit trajectories, followed by Reasoning Enhancement with VLM-derived rewards for edit correctness and downstream reasoning accuracy. Since the editor is decoupled, ETCHR plugs into different open- and closed-source MLLMs in a training-free manner. Across five task families (fine-grained perception, chart understanding, logic reasoning, jigsaw restoration, and 3D understanding), ETCHR raises average Pass@1 from 55.95 to 60.77 (+4.82) with Qwen3-VL-8B, from 65.08 to 70.55 (+5.47) with Gemini-3.1-Flash-Lite, and from 76.55 to 81.16 (+4.61) with the 1T-parameter MoE model Kimi K2.5.",
-      "date": "2026-05-22",
-      "url": "https://arxiv.org/abs/2605.23897v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23897v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "52daea2bf69d"
-    },
-    {
-      "title": "ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models",
-      "authors": "Fen Wang, Zekai Shao, Qiman Kang, Chunran Hu, Zhixuan Zhang...",
-      "abstract": "Chart descriptions are essential for accessibility, cross-modal retrieval, and assisting readers in extracting insights from complex visualizations. As multimodal large language models (MLLMs) are increasingly adopted for automated chart description generation, a critical question arises: how faithfully and insightfully do these models actually describe charts? Current benchmarks fall short on two fronts: existing datasets consist of simple, homogeneous charts paired with shallow, fact-enumerating descriptions; and prevailing metrics fail to capture the multi-faceted nature of description quality. To address these gaps, we present the Chart Faithfulness and Insightfulness Benchmark (ChartFI-Bench). We first summarize four dimensions that characterize high-quality chart descriptions: factual accuracy, salient feature emphasis, domain-informed guidance, and chart-text complementarity. Guided by these dimensions, we construct a high-quality benchmark comprising 896 chart-description pairs, which feature visually complex charts and semantically rich descriptions. Furthermore, we design four aligned evaluation metrics -- Faithfulness, Coverage, Informativeness, and Acuity -- to systematically assess the quality of descriptions across these dimensions. Experiments conducted on mainstream MLLMs demonstrate the effectiveness of the proposed framework and reveal common weaknesses among existing models.",
-      "date": "2026-05-22",
-      "url": "https://arxiv.org/abs/2605.23694v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23694v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "2914eac74e91"
-    },
-    {
-      "title": "Naturalistic measure of social norms alignment",
-      "authors": "Yevhen Kostiuk, Kenneth Enevoldsen, Peter Bjerregaard Vahlstrup, Márton Kardos, Kristoffer Nielbo",
-      "abstract": "Social norms reflect shared expectations on acceptable behavior. Measuring social norms alignment remains challenging, with existing approaches typically relying on artificial closed-form evaluations such as multiple-choice questionnaires or measuring agreement with predefined statements. In the context of this work, social norms alignment refers to measuring an agreement between solutions with respect to the social problem or dilemma. We propose a framework for measuring social norm alignment in naturalistic, free-form settings through solution matching. The framework enables us to measure alignment between any two dilemma responses e.g., LLMs to a human, LLMs to LLMs, or human to human. We introduce two metrics: stated and explicit agreement accuracy, and construct a dataset of 3k non-trivial social dilemmas in Danish. All dilemmas are assigned reference solutions derived from three panelists, who serve as culturally grounded judges. We evaluate the agreement of several LLMs and human responses in an interaction setup that resembles natural user-model conversations. Our results show that the proposed metrics produce consistent model rankings and reveal variation in agreement across different types of dilemmas, with higher agreement observed for topics such as neighbor conflicts and shared living situations. Overall, our work introduces a dataset and evaluation framework for studying culturally grounded social reasoning in naturalistic open-ended conversations.",
-      "date": "2026-05-22",
-      "url": "https://arxiv.org/abs/2605.23420v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23420v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e4f330571b41"
-    },
-    {
-      "title": "Metacognition as Reward: Reinforcing LLM Reasoning via Knowledge and Regulation Signals",
-      "authors": "Sirui Chen, Lei Xu, Yuying Zhao, Yutian Chen, Yu Wang...",
-      "abstract": "Recent RL methods have substantially improved the reasoning abilities of LLMs. Existing reward designs mainly follow two paradigms: (1) Reinforcement learning with verifiable rewards (RLVR) derives outcome signals from executable checks or ground-truth answers, but provides limited guidance for intermediate reasoning behaviors. (2) Rubrics-as-reward (RaR) goes beyond final-answer checking by using natural-language rubrics to assess reasoning quality and task compliance, but often requires instance-specific rubrics and substantial design effort. To address these issues, we introduce Metacognition-as-Reward (MaR), a metacognition-inspired RL framework that guides LLM reasoning through two general process dimensions: i) metacognitive knowledge, which identifies task-relevant information without hand-crafted instance-specific rubrics, and ii) metacognitive regulation, which plans and adjusts the reasoning process to provide reward guidance beyond final-answer outcomes. MaR scaffolds model rollouts into explicit metacognitive components and optimizes them with a trajectory-level reward over task knowledge coverage, regulation fidelity, and final-answer correctness. In this way, MaR extends reward feedback to reasoning trajectories while grounding the reward signals in general metacognitive dimensions. Experiments on 22 benchmarks show that MaR consistently improves model performance, achieving up to a 7.7% gain over the base model and up to an 11.0% gain over vanilla DAPO. Notably, Qwen3.5-9B + MaR narrows the gap to frontier models, surpassing GPT-OSS-120B on overall average and outperforming stronger models on several individual benchmarks. Process-level analysis further shows substantial improvements in reasoning process quality. MaR also generalizes to out-of-domain datasets, where MaR-trained models improve over their corresponding base models on average.",
-      "date": "2026-05-22",
-      "url": "https://arxiv.org/abs/2605.23384v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23384v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "c235e2311f98"
-    },
-    {
-      "title": "Convergence Without Understanding: When Language Models Agree on Representations but Disagree on Reasoning",
-      "authors": "Muhammad Usama, Dong Eui Chang",
-      "abstract": "Large language models trained under diverse objectives and architectures have been shown to develop increasingly similar internal representations, an observation formalized as the Platonic Representation Hypothesis. Whether this representational convergence extends to the reasoning processes that operate over shared representations remains untested. We evaluate representational similarity across 16 language models from 8 families (1.5B to 72B parameters) on 800 reasoning problems spanning mathematics, science, commonsense, and truthfulness, stratifying by problem difficulty, computational stage, and causal relevance. Our analysis reveals three dissociations: a difficulty inversion, where models converge more on problems they collectively fail (Centered Kernel Alignment [CKA] = 0.897) than on those they solve (CKA = 0.830); a generation gap, where pre-decision representations align (CKA = 0.875) while post-decision representations diverge (CKA = 0.274); and epiphenomenal correctness, where shared information is decodable across models (66% transfer accuracy) but exerts minimal causal influence on predictions (1.5% to 5.5% flip rate across ablation protocols). These results indicate that representational convergence in language models reflects shared input processing constraints rather than shared reasoning strategies, with direct implications for ensemble design, interpretability transfer, and evaluations of model similarity. Code is available at https://github.com/Usama1002/convergence-without-understanding.",
-      "date": "2026-05-22",
-      "url": "https://arxiv.org/abs/2605.23315v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23315v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "40c771fe19ab"
-    },
-    {
-      "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations",
-      "authors": "Jiangwang Chen, Bowen Zhang, Zixin Song, Jiazheng Kang, Xiao Yang...",
-      "abstract": "Although large language model (LLM) conversational systems process millions of multi-turn dialogues daily, they remain fundamentally reactive: they respond only after the user types a query. A key step toward proactive interaction is next-query prediction, which anticipates the user's subsequent query based solely on the preceding dialogue. Progress on this task is hindered by the lack of dedicated benchmarks and a fundamental efficiency--quality trade-off: naively concatenating full dialogue history incurs linearly growing token consumption, while truncating to the latest turn discards crucial cross-turn context. Our key insight is that accurate prediction does not require re-reading raw history; it suffices to track the user's evolving intent trajectory across topics, unresolved needs, and interest shifts. We propose OnePred, which maintains a recursively updated memory as its sole cross-turn context, bounding the per-turn cost independently of conversation length. We train the model via a two-stage reinforcement learning pipeline that first teaches what to predict, then what to compress, shaping the memory into a prediction-oriented intent chain. To establish a rigorous testbed, we introduce NQP-Bench, spanning three diverse subsets. Experiments demonstrate that OnePred reduces per-turn token consumption by up to 22$\\times$ compared to full-history inputs while consistently exceeding all baselines in prediction quality, with larger gains on longer conversations. Our code is publicly available at https://github.com/ZBWpro/OnePred.",
-      "date": "2026-05-22",
-      "url": "https://arxiv.org/abs/2605.23668v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.23668v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d986ffe18c08"
     }
   ]
 }
