@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-08-22 19:21",
+  "last_updated": "2026-08-23 19:21",
   "papers": [
+    {
+      "title": "Adaptive fast terminal sliding mode control and bionic intelligent optimization for hydraulic cylinder trajectory tracking and error warning",
+      "authors": "Tong Liu, Xianren You",
+      "abstract": "This paper addresses the challenges of precise trajectory tracking and proactive error management in hydraulic servo systems subject to inherent nonlinearities, parameter uncertainties, and external disturbances. A novel two-layer intelligent control framework is proposed. Distinct from existing approaches that combine adaptive sliding mode control with generic neural networks, this work introduces an adaptive fast terminal sliding mode controller (AFTSMC) that estimates the lumped disturbance bound online without prior knowledge, supported by a rigorous proof of practical finite-time convergence. In the second layer, a long short-term memory (LSTM) network predicts future tracking errors, with its hyperparameters optimized offline by an improved particle swarm optimization (IPSO) algorithm that incorporates future reference trajectory information. A real-time early warning mechanism is then established based on both the predicted error magnitude and its rate of change. Comparative simulations show that the AFTSMC achieves substantially higher tracking accuracy and robustness than conventional sliding mode control, and the IPSO-optimized LSTM yields significantly lower prediction error and improved goodness-of-fit relative to standard PSO-LSTM, demonstrating the effectiveness of the integrated framework.",
+      "date": "2026-08-22",
+      "url": "https://doi.org/10.1038/s41598-026-66044-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "4d285b0282b1"
+    },
+    {
+      "title": "Llm-assisted physics-guided spatiotemporal graph learning for power meteorological disaster evolution",
+      "authors": "Shuanglong Jin, Shenbing Hua, Xiaolin Liu, Zongpeng Song, Shu Wang",
+      "abstract": "Extreme meteorological events—such as winter cold waves, ice accretion, and typhoons—are increasingly becoming primary triggers that threaten the safe and stable operation of power systems. Their disaster-causing processes exhibit strong spatial correlations and multi-stage temporal evolution characteristics, posing severe challenges to traditional static risk assessment methods. Although existing spatiotemporal graph neural network approaches can characterize grid topological dependencies, they generally suffer from limitations including the absence of physical mechanism constraints, insufficient utilization of semantic information from disaster warning texts, and the inability of single-scale graph structures to capture the inherent hierarchical nature of “bus-level fine-grained topology versus meteorological-zone coarse-grained granularity.” To address these issues, this paper proposes an LLM-Assisted Physics-Guided Spatiotemporal Graph Learning model (LPG-STGNet). The proposed model incorporates a large language model (LLM) to perform structured semantic encoding of meteorological warning texts, constructs dynamic graph failure priors based on wind load guidelines and physical equations governing conductor ice accretion growth, and designs a hierarchical spatiotemporal graph encoder that integrates bus-level fine-grained topology with meteorological-zone coarse-grained structure. Furthermore, a semantic–physical dual-gating fusion mechanism is proposed to achieve adaptive weighting among multi-source information, thereby synergistically leveraging data-driven representations, physical priors, and semantic priors within a unified framework. Experiments are conducted on a disaster-evolution dataset constructed through DC-OPF cascade simulation on the ACTIVSg2000 synthetic power grid—built from real geographic and electrical parameters of the Electric Reliability Council of Texas (ERCOT) region and comprising 2,000 bus nodes, 1,250 substations, 3,206 branches, and 8 real meteorological zones—covering 600 synthetic winter cold-wave scenarios (43,200 hourly snapshots). Evaluated against nine mainstream spatiotemporal graph baselines under a unified protocol with three random seeds, LPG-STGNet achieves an F1-score of $$0.798\\pm 0.004$$ and a load-loss RMSE of $$10.02\\pm 0.15$$ MW on the branch-level trip-classification and node-level load-loss regression tasks, respectively, representing improvements of 6.2 percentage points in F1-score and 21.3% in RMSE over the strongest single-modality baseline. Ablation studies further confirm the effectiveness and complementarity of the physics-guided module and the LLM semantic module. This work provides a novel paradigm for power systems to cope with extreme meteorological disasters, featuring both physical interpretability and semantic understanding capabilities.",
+      "date": "2026-08-22",
+      "url": "https://doi.org/10.1007/s44163-026-02016-2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Discover Artificial Intelligence",
+      "direction": "cell",
+      "id": "35c57d1990a6"
+    },
+    {
+      "title": "The Impact of Blockchain-Linked Audit Trails and Stakeholder Feedback Loops on Ethical Adherence in the U.S. Federal and State Agencies",
+      "authors": "Leon Pikor",
+      "abstract": "This dissertation explores the impacts of blockchain-based audit trails and stakeholder feedback loops on ethical conduct in U.S. federal and state public administration. The study addresses ongoing ethical problems in government, such as low levels of accountability, inadequate procedures, policy manipulation, and a waning public confidence in government, despite the existence of government ethics codes and oversight bodies. Ethical adherence is considered using two complementary theories: the virtue theory (Honesty, Fairness, Integrity, Responsiveness, Trust) and the deontological theory (Duty fulfillment, Rule following, Documentation, Accountability, Procedural compliance). The study was conducted with closed and open-ended answers from public administration participants who have experience in ethics, compliance, audit, procurement, oversight, stakeholder engagement, or other related areas using an anonymous online survey via Google Forms. Ten responses were received and nine valid responses were analyzed. The findings revealed that audit trails linked to blockchain were seen as the most beneficial for holding accountable, tracing, ensuring record integrity, reviewing and ensuring duty-based compliance. Stakeholder feedback loops were seen as most beneficial for fairness, honesty, telling the truth, responsiveness and public trust. The two tools were perceived as complementary tools and not as competing tools. The results, however, also showed that transparency instruments are not necessarily the drivers of ethical behavior. They rely on leadership, staff development, correct data entry, active data review, meaningful follow-up to feedback, and follow-through on actions. The study brings to the public administration literature a connection between mechanisms of transparency and ethical adherence in both virtue-based and duty-based approaches. It provides pragmatic advice to agencies that want to build ethical governance through technology, participation, and organizational culture in complex federal, state, and government-adjacent administrative contexts, in everyday practice.",
+      "date": "2026-08-22",
+      "url": "https://doi.org/10.13140/rg.2.2.29843.03368",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scholars Crossing (Liberty University)",
+      "direction": "llm",
+      "id": "e3ae38fbc9a5"
+    },
+    {
+      "title": "Large scale retrieval for the LinkedIn feed using causal language models",
+      "authors": "Sudarshan Srinivasa Ramanujam, Antonio Alonso‐Ayuso, Saurabh Kataria, Siddharth Dangi, A. K. Gupta, ...",
+      "abstract": "Abstract In large‐scale recommendation systems like LinkedIn's, the retrieval stage is critical for narrowing billions of potential candidates to a manageable subset for ranking. LinkedIn's feed now serves suggested content based on the topical interests of members, where 2000 candidates are retrieved from several million candidates with a latency budget of a few milliseconds and inbound QPS of several thousand per second. This paper presents a novel retrieval approach that fine tunes a large causal language model (Meta's LLaMA 3) as a dual encoder to generate high quality embeddings for both users (members) and content (items), using only textual input. We describe the end to end pipeline, including prompt design for embedding generation, techniques for fine tuning at LinkedIn scale, and infrastructure for low latency, cost effective online serving. We share our findings on how quantizing numerical features in the prompt enables the information getting encoded in the embedding facilitating greater alignment between the retrieval and ranking layer. The system was evaluated using offline metrics and an online A/B test, which showed substantial improvements in member engagement. We observed significant gains among newer members, who often lack strong network connections, indicating that high‐quality suggested content aids retention. This work demonstrates how generative language models can be effectively adapted for real time, high throughput retrieval in industrial applications.",
+      "date": "2026-08-22",
+      "url": "https://doi.org/10.1002/aaai.70078",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "AI Magazine",
+      "direction": "llm",
+      "id": "8d005d84e409"
+    },
+    {
+      "title": "Comprehensive machine learning approaches for disease prediction current applications recent advances and future prospects",
+      "authors": "Tehreem Khan, Tayyaba Usman, Ifrah Khalid, Tayyaba Yousaf, Ilyas Ahmad, ...",
+      "abstract": "Machine learning (ML) and deep learning (DL) models are increasingly applied for disease prediction, diagnosis, and risk stratification across a wide range of medical conditions. This review explores current breakthroughs in ML and DL-based disease prediction, with a particular focus on cancer, diabetes, and cardiovascular diseases (CVDs), Alzheimer’s, Parkinson’s disease (PD) and chronic kidney diseases (CKD). A narrative review with structured literature selection was conducted using PubMed and Google Scholar, focusing on studies from 2021 to 2026, articles were included based on their relevance with machine and deep learning in disease prediction. The reviewed studies demonstrated that Deep learning approaches, particularly convolutional neural networks, transformer-based models, and multimodal frameworks, showed improved predictive accuracy when large and diverse datasets were available. Explainable AI techniques enhanced model transparency, while federated learning emerged as promising solution for privacy-preserving model development. However, challenges related to data heterogeneity, limited external validation, class imbalance, model interpretability, and clinical integration remain significant barriers to widespread implementation. Overall, this review highlights the significant potential of ML-DL driven disease prediction while emphasizing the need for robust validation, transparency, clinical integration to ensure safe and effective-real world applications.",
+      "date": "2026-08-22",
+      "url": "https://doi.org/10.1007/s44163-026-01851-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Discover Artificial Intelligence",
+      "direction": "llm",
+      "id": "bb4e56dffd8e"
+    },
     {
       "title": "Benchmarking generative AI tools for literature retrieval and summarization in genomic variant interpretation",
       "authors": "Andrea Gazzo, Silvia Berardelli, Matteo Biancospino, Lorenzo Cuollo, Flavia Dei Zotti, ...",
@@ -12,6 +72,30 @@
       "venue": "Genome biology",
       "direction": "medical",
       "id": "66cbe979df2b"
+    },
+    {
+      "title": "Biointegrative bone screws: materials, architected structures and intelligent design strategies for next-generation orthopedic fixation",
+      "authors": "Bin Yu, Dongdong Du, Xinjun Xie, Chi Zhang, Hui Chen, ...",
+      "abstract": "Bone screws are essential load-bearing fixation devices in spinal, dental, trauma and reconstructive orthopedic surgery, yet their long-term reliability remains limited by loosening, stress shielding, fatigue damage, infection risk and incomplete osseointegration. This review synthesizes materials- and structure-based strategies for transforming conventional screws from inert mechanical fasteners into biointegrative and functionally programmable implants. We first compare permanent metallic systems, including titanium, stainless steel and cobalt–chromium alloys, with biodegradable magnesium-, iron- and zinc-based systems, highlighting the competing requirements of strength, elastic modulus, degradation or corrosion behavior, and biological safety. We then examine how external geometry, thread configuration, surface curvature, roughness, micro/nanotopography and functional coatings regulate insertion stability, protein adsorption, macrophage response, osteogenic differentiation and bone–implant contact. Particular emphasis is placed on architected porous and mechanical-metamaterial designs, including triply periodic minimal surface (TPMS) structures, auxetic lattices, stochastic trabecular-like networks and graded porosity, because these architectures can simultaneously tune apparent stiffness, provide space for vascularized bone ingrowth and modify pull-out, torsional and fatigue behavior. Finally, topology optimization, finite element analysis and data-driven artificial intelligence are discussed as enabling tools for patient-specific and function-driven screw design. The available evidence indicates that no single material, surface treatment or lattice architecture can satisfy all clinical demands. Future bone screws are likely to coordinated optimization of material chemistry, macrogeometry, surface biology, internal architecture, additive-manufacturing quality control and validation strategy. This review provides a Frontiers in Materials-oriented framework for the rational design and translational assessment of next-generation biointegrative bone screws.",
+      "date": "2026-08-21",
+      "url": "https://doi.org/10.3389/fmats.2026.1883646",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Materials",
+      "direction": "cell",
+      "id": "c366f5dff385"
+    },
+    {
+      "title": "Green extraction and smart nanodelivery of bioactive molecules for industrial and biomedical applications",
+      "authors": "Rekha Thiruvengadam, Carmelin Durai Singh, Parimala Lakshmanan, Naveenkumar Suresh, Baskar Venkidasamy, ...",
+      "abstract": "Plant-based bioactive compounds have gained considerable interest owing to their therapeutic and functional benefits in various sectors, including the food, pharmaceutical, cosmetic, and agricultural sectors. However, their real-time applications are limited due to their low solubility and decreased bioavailability. Nanotechnology has emerged as an effective strategy to improve the solubility, stability, and targeted delivery of plant-derived compounds. This review provides a comprehensive and integrated overview of recent advances in green extraction technologies and smart nanodelivery systems, highlighting their synergistic roles in improving the recovery, functionality, and industrial applicability of plant-derived bioactive molecules. Moreover, green extraction technologies, including supercritical CO₂ extraction and ultrasound- and microwave-assisted methods, are discussed. This study further explores advanced nanotechnology platforms, including nanoencapsulation systems, nanoemulsions, biopolymer-based nanoparticles, and nanostructured lipid carriers, which improve bioactive stability and delivery efficiency. Several formulation techniques, including nanoprecipitation, spray drying, freeze drying, and layer-by-layer assembly, have been addressed in relation to encapsulation efficiency, particle size, and shelf life. In addition, physicochemical, thermal, and functional characterization methods are discussed to understand nano-bioactive performance, release kinetics, and bioavailability. The major findings indicate that integrating green extraction with nanotechnology significantly enhances the extraction efficiency, physicochemical stability, bioavailability, and controlled delivery of plant bioactives, thereby facilitating their industrial and biomedical applications. Despite these advances, several challenges remain, including process scalability, long-term formulation stability, manufacturing reproducibility, regulatory approval, and commercialization issues. Future research should focus on the development of smart stimuli-responsive nanocarriers, artificial intelligence-assisted formulation design, sustainable manufacturing strategies, and circular bioeconomy approaches supported by life cycle assessments to accelerate the translation of laboratory research into commercially viable products.",
+      "date": "2026-08-21",
+      "url": "https://doi.org/10.1016/j.indcrop.2026.124186",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Industrial Crops and Products",
+      "direction": "cell",
+      "id": "900de84d21a2"
     },
     {
       "title": "Development of AI competencies within the medical curriculum",
@@ -11916,90 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "401643931a1e"
-    },
-    {
-      "title": "SafeCtrl-RL: Inference-Time Adaptive Behaviour Control for LLM Dialogue via RL-Driven Prompt Optimisation",
-      "authors": "Michael Orme, Yanchao Yu, Zhiyuan Tan",
-      "abstract": "Ensuring safe and contextually appropriate behaviour in Large Language Models (LLMs) remains a critical challenge for real-world deployment. We present \\textbf{SafeCtrl-RL}, an inference-time behavioural control framework that enables adaptive safety regulation without model retraining or parameter modification. The method formulates dialogue generation as a sequential decision process, where a reinforcement learning agent dynamically selects prompt adjustment strategies based on contextual feedback. This allows unsafe behaviours to be suppressed through iterative refinement, which we conceptualise as inference-time behavioural unlearning. Evaluated across multiple LLMs and unsafe dialogue scenarios, SafeCtrl-RL consistently improves safety and response quality, outperforms existing prompt-based optimisation methods, and achieves favourable performance--efficiency trade-offs. **Warning: This paper may contain examples of harmful language, and reader discretion is recommended.",
-      "date": "2026-05-25",
-      "url": "https://arxiv.org/abs/2605.25984v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.25984v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "3ea204688a81"
-    },
-    {
-      "title": "Can LLMs Time Travel? Enhancing Temporal Consistency in Legal Agentic Search through Reinforcement Learning",
-      "authors": "Wei Fan, Yining Zhou, Mufan Zhang, Yanbing Weng, Yiran HU...",
-      "abstract": "While large language models (LLMs) augmented with agentic search capabilities show promise for legal reasoning, they overlook a fundamental constraint that applicable law must match the temporal context of each case, as retroactive application of statutes violates core legal principles and leads to erroneous conclusions. Our observations reveal that current legal LLMs suffer from temporal bias anchored to their training cutoff, while search agents rarely incorporate temporal constraints into queries, and that web search alone cannot provide the precise statute and precedent citations that legal reasoning demands. To address these challenges, we propose LegalSearch-R1, an end-to-end reinforcement learning framework that pairs local statute RAG for precise article matching with online web search for broader legal knowledge, trained on temporally-indexed data spanning multiple amendment periods to enforce temporal consistency. Extensive experiments on our benchmark covering 13 legal tasks demonstrate that our 7B-parameter agent outperforms state-of-the-art deep research frameworks and specialized legal LLMs by 12.9% to 29.8%, surpasses baselines by 57.7% to 80.3% on temporal consistency, and exhibits robust out-of-domain generalization. The code and data are available at https://github.com/AlexFanw/LegalSearch-R1.",
-      "date": "2026-05-25",
-      "url": "https://arxiv.org/abs/2605.25920v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.25920v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "81d56d34ba71"
-    },
-    {
-      "title": "When Self-Belief Misleads: Active Label Acquisition for Reinforcement Learning with Verifiable Rewards",
-      "authors": "Li Wang, Xiaodong Lu, Xiaohan Wang, Yikun Ban, Jiajun Chai...",
-      "abstract": "Large Language Models (LLMs) have achieved remarkable advancements in reasoning capabilities empowered by Reinforcement Learning with Verifiable Rewards (RLVR). Nonetheless, RLVR intrinsically relies on ground-truth labels for reward computation, the acquisition of which is often prohibitively expensive in real-world scenarios. While unsupervised RLVR paradigms attempt to circumvent this by training on pseudo-labels, they are notoriously susceptible to training collapse. Moreover, different samples often exhibit varying annotation values. In this paper, we propose Reinforcement Learning with Active Verifiable Rewards (RLAVR), which actively acquires ground-truth labels for a small set of selected samples and integrates them with pseudo-labels, thereby stabilizing training dynamics and improving performance under limited annotation budgets. To identify valuable samples, we propose the Corrective Advantage Gap (CAG) metric and analyze the sample-level supervision value. Building on this, we introduce Correction-Aware Reliability Estimation for RLAVR (CARE), which translates the oracle CAG criterion into a practical pre-query acquisition policy to substantially improve training stability. Extensive experiments across diverse domains, model families, and model scales demonstrate the effectiveness and generality of our approach. Our code is available at https://github.com/Lumina04/CARE.",
-      "date": "2026-05-25",
-      "url": "https://arxiv.org/abs/2605.25864v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.25864v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d58069b969ba"
-    },
-    {
-      "title": "When Reasoning Hurts: Source-Aware Evaluation of Frontier LLMs for Clinical SOAP Note Generation",
-      "authors": "Faizan Faisal",
-      "abstract": "Reasoning-enabled LLMs perform strongly on medical reasoning benchmarks, but it remains unclear whether these gains transfer to structured clinical documentation; we investigate this question using SOAP note generation from clinical dialogue in a source-aware benchmark spanning OMI Health, ACI-Bench, and PriMock57. We evaluate GPT-5.4, DeepSeek-V4-Flash, and Gemma-4-E4B in a controlled 2x2 design that independently toggles provider-native reasoning and same-source retrieval-augmented generation (RAG). Outputs are assessed using seven automatic metrics alongside two reference-aware LLM judges. Both evaluation approaches agree that a non-reasoning GPT-5.4 configuration achieves the highest overall quality, while DeepSeek-V4-Flash performs best among reasoning-enabled configurations. Enabling reasoning significantly degrades GPT-5.4 performance across all three datasets, whereas same-source RAG yields smaller, model-dependent improvements. Overall, the findings indicate that stronger reasoning capability should not be assumed to improve fidelity-sensitive SOAP note generation without dedicated, task-specific evaluation.",
-      "date": "2026-05-24",
-      "url": "https://arxiv.org/abs/2605.24902v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.24902v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "medical",
-      "id": "569f10a77453"
-    },
-    {
-      "title": "Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us",
-      "authors": "Stylianos Loukas Vasileiou, Antonio; id_orcid 0000-0001-5323-7739 Rago, Francesca Toni, William Yeoh",
-      "abstract": "Computational argumentation offers formal frameworks for transparent, verifiable reasoning but has traditionally been limited by its reliance on domain-specific information and extensive feature engineering. In contrast, LLMs excel at processing unstructured text, yet their opaque nature makes their reasoning difficult to evaluate and trust. We argue that the convergence of these fields will lay the foundation for a new paradigm: Argumentative Human-AI Decision-Making. We analyze how the synergy of argumentation framework mining, argumentation framework synthesis, and argumentative reasoning enables agents that do not just justify decisions, but engage in dialectical processes where decisions are contestable and revisable - reasoning with humans rather than for them. This convergence of computational argumentation and LLMs is essential for human-aware, trustworthy AI in high-stakes domains.",
-      "date": "2026-05-24",
-      "url": "https://doi.org/10.65109/ekaw8904",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "",
-      "direction": "medical",
-      "id": "4f05fc625507"
-    },
-    {
-      "title": "Hepatocellular Carcinoma Prediction using Large Language Model and Meditron",
-      "authors": "Suleiman Dubow, Abraham Matheka",
-      "abstract": "This project investigated the integration of machine learning, large language models (LLMs), and the Meditron medical language model to enhance early prediction and interpretation of hepatocellular carcinoma (HCC) in resource-constrained healthcare settings such as Kenya, where late diagnosis and limited access to advanced diagnostic tools remain major challenges. Using a design science and experimental research approach, an AI-driven clinical decision-support prototype was developed to process unstructured clinical conversations, extract relevant medical features, predict HCC risk, and generate clinically interpretable explanations. A Random Forest classifier was trained on a balanced secondary clinical dataset comprising equal proportions of HCC and non-HCC cases, with preprocessing techniques including median imputation and feature scaling applied to ensure data quality and model robustness. The trained model achieved an accuracy of 0.8780, an F1-score of 0.8780, and an Area Under the Receiver Operating Characteristic Curve (AUC) of 0.9452, demonstrating strong predictive performance. We applied an LLM to convert free-text clinical notes into structured features suitable for the trained predictive model allowing automated HCC risk prediction from conversational input. Then the prediction outputs comprising probabilistic risk scores were submitted to the Meditron model that gave medically grounded interpretations of the results by contextualizing anticipated risk in respect to known clinical indications of HCC. We integrated LLM-based data extraction, machine learning-based prediction, and Meditron-driven interpretation, which enhanced transparency, explainability, and clinical relevance of the system. Results demonstrate that hybrid AI architectures that combine predictive modeling and domain-specific reasoning with medical language can provide accurate, interpretable, and scalable tools for early HCC risk assessment with great potential to support clinical decision-making and improve cancer care delivery in low-resource healthcare settings.",
-      "date": "2026-05-23",
-      "url": "https://doi.org/10.36948/ijfmr.2026.v08i03.79040",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal For Multidisciplinary Research",
-      "direction": "medical",
-      "id": "b5e83a5517e9"
-    },
-    {
-      "title": "Drug-Drug Interaction Prediction in Polypharmacy Using Graph Learning and Transformer Models",
-      "authors": "Mayank Tiwari",
-      "abstract": "Drug-drug interactions are a significant concern in modern medicine, particularly because of the rising incidence of polypharmacy. While numerous computational models have been developed for DDI prediction and extraction, many constraints remain, such as inadequate molecular representation, limited multi-drug context handling, insufficient model interpretability, and insufficient annotated training data. We address these research gaps in the current study and present an integrated framework using graph neural networks, transformer-based NLP models, and data fusion strategies to overcome research challenges. In addition to a critical assessment and theoretical framework of the proposed approach, we focused on the need for interpretability and clinical sensitivity for the development of real-time decision-making or warning-based support systems. Open questions remain around fine-tuning large language models on molecular graph data, building DDI pipelines that slot into live EHR systems without disrupting clinical workflows, and establishing evaluation standards that hold across heterogeneous datasets. Until those gaps close, even a well-designed system will struggle to earn the kind of trust that clinical deployment actually requires.",
-      "date": "2026-05-23",
-      "url": "https://doi.org/10.22214/ijraset.2026.82758",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal for Research in Applied Science and Engineering Technology",
-      "direction": "medical",
-      "id": "1db310c22f5f"
     }
   ]
 }
