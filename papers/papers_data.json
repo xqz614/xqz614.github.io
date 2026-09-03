@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-09-02 21:36",
+  "last_updated": "2026-09-03 21:35",
   "papers": [
+    {
+      "title": "Beyond static responses: multi-agent LLM systems as a new paradigm for social science research",
+      "authors": "Jennifer Haase, Sebastian Pokutta",
+      "abstract": "Abstract As large language models (LLMs) transition from static tools to fully agentic systems, their potential for transforming social science research is well recognized. This paper introduces a structured framework for understanding the diverse applications of agentic LLM systems, ranging from simple data processors to complex, multi-agent systems capable of simulating emergent social dynamics. By mapping this developmental continuum across six levels, the paper clarifies the technical and methodological boundaries between different agentic architectures, surveying current capabilities and future potential. It highlights how lower-tier systems streamline conventional tasks like text classification and data annotation, while higher-tier systems enable new forms of inquiry, including the study of group dynamics, norm formation, and large-scale social processes. However, these advancements also raise challenges around reproducibility, ethical oversight, and emergent biases. The paper critically examines these concerns, arguing for sound validation methods, interdisciplinary collaboration, and standardized evaluation metrics. It argues that while agentic LLM systems offer considerable potential for the social sciences, using them responsibly will require careful, context-sensitive deployment and ongoing methodological refinement. The paper concludes with a call for future research that balances technical innovation with ethical responsibility, working toward agentic systems that not only replicate but also extend social science methodology.",
+      "date": "2026-09-02",
+      "url": "https://doi.org/10.1057/s41599-026-08832-2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Humanities and Social Sciences Communications",
+      "direction": "llm",
+      "id": "33b0b009dd31"
+    },
     {
       "title": "Iterated Agent for Symbolic Regression",
       "authors": "Zhida Song, Zeyu Cai, Shutao Zhang, Jiaoyun Wei, Jichen Pan, ...",
@@ -11988,18 +12000,6 @@
       "venue": "International Journal of Computer Applications Technology and Research",
       "direction": "medical",
       "id": "40cf771fff86"
-    },
-    {
-      "title": "A Comprehensive Review on Advanced Optimization Techniques for Antenna Design",
-      "authors": "Іслам Ісламов, Jerzy R. Szymański1 -, Marta Żurek-Mortka, Mithileysh Sathiyanarayanan, Shilpa Mehta, ...",
-      "abstract": "The rapid evolution of wireless communication systems has transformed antenna design from a predominantly analytical engineering task into a nonlinear, high-dimensional, and multi-objective optimization problem. Emerging applications such as fifth-generation (5G) and sixth-generation (6G) wireless networks, massive multiple-input multiple-output (MIMO) systems, millimeter-wave communication, satellite constellations, vehicular radar, biomedical implants, wearable electronics, and Internet-of-Things platforms impose stringent requirements on antenna compactness, bandwidth, gain, radiation efficiency, polarization stability, beam steering capability, mutual coupling suppression, and fabrication tolerance. This review presents a systematic and analytical examination of optimization techniques used in antenna design, covering deterministic methods, evolutionary algorithms, swarm intelligence, multi-objective optimization, surrogate-assisted optimization, space mapping, robust optimization, and artificial intelligence-driven frameworks. Special emphasis is placed on the role of surrogate modeling, physics-informed learning, hybrid search strategies, and uncertainty-aware optimization in reducing simulation cost and improving design reliability. The review further identifies unresolved challenges related to scalability, interpretability, convergence assurance, manufacturing uncertainty, and real-time adaptive antenna systems. Finally, future research directions are outlined toward physics-guided, data-efficient, robust, and autonomous optimization frameworks for next-generation electromagnetic systems.",
-      "date": "2026-06-07",
-      "url": "https://doi.org/10.71426/jmt.v3.i1.pp380-405",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Modern Technology",
-      "direction": "cell",
-      "id": "df8213c68f97"
     }
   ]
 }
