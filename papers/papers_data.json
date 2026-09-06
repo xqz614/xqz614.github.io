@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-09-05 20:57",
+  "last_updated": "2026-09-06 21:04",
   "papers": [
+    {
+      "title": "Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation",
+      "authors": "Steffen Eger, Cao Yong, Jennifer D’Souza, Andreas Geiger, Christian Greisinger, ...",
+      "abstract": "With the advent of large multimodal language models, science is now at a threshold of an AI-based technological transformation. An emerging ecosystem of models and tools aims to support researchers throughout the scientific lifecycle, including (1) searching for relevant literature, (2) generating research ideas and conducting experiments, (3) producing text-based content, (4) creating multimodal artifacts such as figures and diagrams, and (5) evaluating scientific work, as in peer review. In this survey, we provide a curated overview of literature representative of the core techniques, evaluation practices, and emerging trends in AI-assisted scientific discovery. Across the five tasks outlined above, we discuss datasets, methods, results, evaluation strategies, limitations, and ethical concerns, including risks to research integrity through the misuse of generative models. We aim for this survey to serve both as an accessible, structured orientation for newcomers to the field, as well as a catalyst for new AI-based initiatives and their integration into future “AI4Science” systems.",
+      "date": "2026-09-05",
+      "url": "https://doi.org/10.1145/3845596",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ACM Computing Surveys",
+      "direction": "llm",
+      "id": "f5078ee2810f"
+    },
+    {
+      "title": "Multimodal machine learning-supported comprehensive evaluation of tourism experience",
+      "authors": "Yufang Jia",
+      "abstract": "Tourism experiences are multidimensional as they are influenced by the environmental, cultural and emotional factors. The current tourism analytics methods are based on unimodal data sources (surveys or textual reviews), which creates unimodal bias, cross-modal interaction, and limits the interpretability of the patterns of tourist satisfaction. To overcome these shortcomings, this study suggests a multi-modal machine learning (ML)-based model to evaluate tourism satisfaction comprehensively. It uses Multimodal Tourism Experience Dataset, which consists of 18,300 instances and were gathered on Kaggle; each sample consists of a tourist image, a user-generated review, and a five-point satisfaction rating. The image processing includes Gaussian filters and normalization, and numerical ratings are normalized by the MinMax normalization to guarantee consistency. Sentiment features of texts are obtained by means of Bidirectional Encoder Representations of Transformers (BERT) model, aesthetic and environmental representations are obtained by means of images with the help of a pretrained ResNet model. The extracted modality-specific features are integrated through an early feature-level fusion strategy to construct unified multimodal representation. The proposed Dynamic Differential Annealed Optimized Efficient Categorical Boosting (DDA-ECatBoost) model employs differential annealing to achieve stable convergence, robust hyperparameter tuning, and enhanced predictive capability. Experimental results demonstrate superior performance, achieving an accuracy of 0.9768, precision of 0.9647, recall of 0.9555, and an F1-score of 0.9651. Feature importance analysis reveals that comfort and visual appeal are key determinants of tourist satisfaction. Research demonstrates the effectiveness of multimodal data fusion combined with interpretable ML in enhancing tourism satisfaction analysis. It provides valuable insights for destination planners, cultural heritage managers, and tourism marketers aiming to improve visitor satisfaction.",
+      "date": "2026-09-05",
+      "url": "https://doi.org/10.1007/s44163-026-02117-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Discover Artificial Intelligence",
+      "direction": "llm",
+      "id": "6318be1f8f02"
+    },
+    {
+      "title": "Performance of vision-language models compared with 252 medical students on text-only and image-based dermatology examinations",
+      "authors": "Ozan Erdem, Abdurrahim Yilmaz, Ahmet Sait Şahin, Buğra Burç Dağtaş, Ece Gökyayla, ...",
+      "abstract": "Abstract Vision–language models (VLMs) are increasingly evaluated in medical education, yet their performance on visually intensive assessments remains incompletely understood. We compared four state-of-the-art VLMs (ChatGPT-4o, ChatGPT-5, Gemini 2.5 Flash, and Gemini 3 Pro) with fifth-year medical students on ten consecutive dermatology clerkship examinations administered between September 2023 and January 2025. Examinations combined text-only questions (multiple-choice, multiple-select, and matching; 60% of total score) with image-based, structured open-ended questions (40%) spanning seven dermatologic sub-domains. Model outputs were evaluated using expert-validated answer keys and grading rubrics, with repeated runs to assess output variability. All VLMs significantly outperformed medical students on text-only examinations (mean scores > 95 vs. 84.9; p < 0.001), showing minimal sensitivity to exam difficulty. In contrast, image-based performance was heterogeneous: Gemini 3 Pro and ChatGPT-5 achieved higher scores than students, whereas students significantly outperformed ChatGPT-4o and Gemini 2.5 Flash. Medical students demonstrated the smallest performance gap between text-only and image-based components, indicating greater cross-modal consistency. Sub-domain analyses revealed that some models achieved accurate visual description and diagnosis but showed reduced performance in etiological and treatment reasoning. Gemini 3 Pro exhibited the highest overall accuracy and the lowest output variability across repeated evaluations. These findings indicate that while VLMs excel in text-based dermatologic assessment, multimodal competence remains uneven and model-dependent, supporting their use as complementary rather than standalone tools in dermatology education.",
+      "date": "2026-09-05",
+      "url": "https://doi.org/10.1038/s41598-026-68943-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "2eda24c20f0a"
+    },
+    {
+      "title": "Strategies to Promote HIV Self-Testing and Long-Acting Injectable PrEP Among Ghanaian Youth: Results from the Y-FIT GH National Crowdsourcing Open Call",
+      "authors": "Gloria Aidoo‐Frimpong, Abass Tando Abubakar, Yaa Adutwumwaa Obeng, Winfred Kofi Mensa, Daniel Selase Anyidoho, ...",
+      "abstract": "Abstract Crowdsourcing is a participatory problem-solving approach that engages a large and diverse group of individuals to generate ideas or solutions. In HIV prevention, it provides a structured mechanism for involving youth in shaping intervention strategies. The Innovative Tools to Expand Youth-Friendly HIV Self-Testing and Long-Acting Injectable PrEP Uptake in Ghana (Y-FIT GH) National Open Call applied this method to generate youth-driven ideas to promote HIV self-testing (HIVST) and long-acting injectable PrEP (LAI-PrEP) in Ghana. This study describes youth responses to the open call and identifies strategies they proposed to strengthen HIV prevention among their peers. Ghanaian youth aged 15–24 years were invited to submit creative entries illustrating how HIVST and PrEP could be promoted and accessed by young people. Submissions were received through online platforms and community-based channels between May and August 2025. Following independent review, 103 eligible entries from 12 regions were qualitatively analyzed using an inductive multimodal approach. Written narratives (32%), posters (19%), and audiovisual pieces (18%) were the most common. Six interconnected thematic domains were identified: (1) HIVST and PrEP as pathways to autonomy, safety, and self-respect; (2) creative, peer-led, and culturally resonant communication; (3) multilevel, hybrid delivery models prioritizing accessibility, familiarity, and privacy; (4) stigma shaping youth engagement; (5) gaps in navigation, support, and trust in existing services; and (6) AI and AI-enabled chatbots as emerging channels for confidential information and peer support. The contest effectively engaged Ghanaian youth and generated actionable, contextually grounded strategies to enhance HIVST and PrEP uptake.",
+      "date": "2026-09-05",
+      "url": "https://doi.org/10.1007/s10461-026-05295-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "AIDS and Behavior",
+      "direction": "llm",
+      "id": "b1b02c44c4bb"
+    },
     {
       "title": "Trans-SAC: gamification design for sustained user engagement in residential demand response",
       "authors": "Tianxiao Peng",
@@ -12,6 +60,66 @@
       "venue": "Journal of Engineering and Applied Science",
       "direction": "llm",
       "id": "5dba2e6ee14c"
+    },
+    {
+      "title": "A community-driven recommender system for speed safety camera policy using large language models and knowledge graphs",
+      "authors": "Farhad Sedighi, Brian M. Staes, Benyamin Ghoreishi, Xuehan Jing, Haizhong Wang",
+      "abstract": "Speeding is a persistent contributor to roadway fatalities, accounting for over 30% of traffic deaths in the U.S., prompting the widespread use of Speed Safety Cameras (SSCs) as a proven countermeasure. However, despite their effectiveness, public skepticism, which is driven by concerns over fairness, transparency, and revenue motives, has limited the scalability and sustainability of SSC programs. Existing research lacks systematic integration of public perception into policy frameworks and fails to fully leverage advancements in artificial intelligence for context-aware recommendation. Addressing this gap, this study develops a scalable policy recommender system for SSC deployment in Oregon by fusing public sentiment with authoritative guidance using a novel hybrid framework that integrates Large Language Models (LLMs), Knowledge Graphs (KGs), and Retrieval-Augmented Generation (RAG). A statewide survey of 1,000 residents captured public opinion across six policy dimensions, which, along with state legislation (HB4109), FHWA guidelines, and best practices, formed a multi-source knowledge base stored in a Neo4j graph. The system retrieves both structured and unstructured context to support LLM-based generation of interpretable policy recommendations. Through Monte Carlo simulations, sentence similarity benchmarking, and RAGAS metrics, the proposed framework achieved the highest performance in accuracy, faithfulness, and context recall compared to baseline LLM and RAG pipelines. The results underscore the effectiveness of combining symbolic reasoning with semantic retrieval for generating transparent and community-aligned SSC policy guidance, offering a transferable blueprint for jurisdictions aiming to align traffic safety interventions with public trust and domain expertise.",
+      "date": "2026-09-04",
+      "url": "https://doi.org/10.1016/j.tra.2026.105236",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Transportation Research Part A Policy and Practice",
+      "direction": "medical",
+      "id": "ea625857b6ba"
+    },
+    {
+      "title": "ChatGPT-generated socioscientific issues in the context of systems thinking: affordances and limitations",
+      "authors": "Steven Courchesne, Wardell Powell, Dana L. Zeidler",
+      "abstract": "Abstract This study explores the potential of generative artificial intelligence (GenAI), specifically ChatGPT, in supporting the design of socioscientific issues (SSI) unit plans that foster systems thinking in high school science education. Employing document analysis, we systematically examined a series of outputs generated by ChatGPT 3.5 to produce an instructional unit focused on cross-state air pollution. Activities were coded using Stave and Hopper’s systems thinking taxonomy to assess the depth of student engagement with systems thinking. ChatGPT generated a structured SSI unit plan that provided opportunities for students to practice basic levels of systems thinking. However, GenAI outputs typically lacked specificity and contained inaccuracies. Iterative prompting led to incremental improvements but did not substantively elevate the complexity of systems thinking tasks. Teacher expertise and critical engagement remain essential for ensuring accuracy, depth, and pedagogical value.",
+      "date": "2026-09-04",
+      "url": "https://doi.org/10.1186/s43031-026-00170-2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Disciplinary and Interdisciplinary Science Education Research",
+      "direction": "medical",
+      "id": "5de9e506b676"
+    },
+    {
+      "title": "Discovering disease risk trends by applying Latent Dirichlet Allocation sentiment analysis to social media health discussions",
+      "authors": "Sandeep Bhattacharjee",
+      "abstract": "Social media platforms generate large volumes of health-related content that can provide valuable insights into emerging disease concerns and public perceptions. This study explores disease-risk trends through topic modeling and sentiment analysis of social media discussions. We used Latent Dirichlet Allocation (LDA) to extract topics and VADER sentiments from 50,000 statements related to diseases. The model performance was evaluated in terms of coherence, topic diversity, and stability metrics. The comparison was made with NMF and BERTopic. Three main topics were identified: COVID-19 symptoms and diagnosis; chronic disease management; and disease risk factors. The LDA model obtained coherence and topic diversity scores of 0.402 and 0.77, respectively. The sentiment analysis shows that the discussions are overall neutral, with some sentiments related to negative concerns. The results indicate that the use of topic modeling along with sentiment analysis is a useful approach to extract major disease-related topics from social media data. Future studies using transformer-based models, multilingual data, and longitudinal studies may improve digital disease surveillance and enable proactive public health monitoring.",
+      "date": "2026-09-04",
+      "url": "https://doi.org/10.3846/ntcs.2026.25980",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "New Trends in Computer Sciences",
+      "direction": "medical",
+      "id": "21abef33a9a6"
+    },
+    {
+      "title": "From shared genetic liability to druggable biology in suicide risk",
+      "authors": "Kaifang Yao, Chuanjun Zhuo, Chen Xi-ming, Chao Li, Haitao Song, ...",
+      "abstract": "Suicidal behavior is a clinically heterogeneous and biologically complex outcome. The shared genetic architecture underlying high-risk suicide-related phenotypes and its translational relevance for target discovery remain incompletely defined. Here, we developed an integrative framework combining genomic structural equation modeling (genomic SEM), transcriptome-wide association study (TWAS), causal gene fine‑mapping, artificial intelligence-assisted virtual screening, molecular dynamics simulations, binding free-energy analysis, and integrative causal genomics to characterize a high-suicide-risk syndrome and identify candidate therapeutic targets. Genomic SEM supported a shared latent genetic liability across suicide-related, psychiatric, environmental, socioeconomic, and pain-related phenotypes. Further multidimensional modeling resolved this liability into two biologically interpretable dimensions: endogenous affective risk and exogenous stress. Transcriptomic analyses identified six core risk genes supported by convergent TWAS and fine-mapping evidence: TM9SF4, SUSD3, PTPDC1, VPS33B, XRCC3, and LSM10. Five lead ligands targeting transmembrane 9 superfamily member 4 (TM9SF4) were prioritized following protein-structure prediction and DiffDock-based screening of marine natural products. In the subsequent molecular dynamics simulations and binding free‑energy analyses, all five small molecule–protein complexes maintained stable binding. Integrative analyses of protein and expression quantitative trait loci further identified seven gene associations across neural tissues. Collectively, these findings characterize a genetically informed high-suicide-risk syndrome, indicate TM9SF4 as a potential molecular target, and provide potential candidate natural-product ligands.",
+      "date": "2026-09-04",
+      "url": "https://doi.org/10.1038/s41398-026-04428-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Translational Psychiatry",
+      "direction": "cell",
+      "id": "ea1ea38417e9"
+    },
+    {
+      "title": "Cross-fusion of digital twins and artificial intelligence in diabetes: from mechanistic elucidation to full-cycle precision management",
+      "authors": "Yue Sun, Ruodi Yang, Qirui Xin, Xinxin Luo, Ying Zhou, ...",
+      "abstract": "The integration of digital twins (DT) and artificial intelligence (AI) is driving a paradigm shift in diabetes mellitus (DM) care from traditional population-based, symptomatic intervention to a lifecycle-oriented precision management approach. This review systematically elaborates on the cross-disciplinary integration mechanisms of the two technologies. By integrating multimodal data and constructing physiologically constrained hybrid models, it achieves multi-scale mechanistic analyses ranging from single-cell β-cell protection to multi-organ complications at the basic research level. On the clinical application front, it not only significantly enhances the early screening sensitivity for diabetic retinopathy and the accuracy of blood glucose prediction, but also optimizes insulin dosing, personalized nutritional plans, and exercise decision support through virtual trials. In the field of drug development, virtual clinical trials accelerate target discovery and drug repurposing. Although substantial technical, regulatory, and ethical challenges remain unresolved, ongoing progress in hybrid modeling, federated learning, explainable AI, and evolving regulatory frameworks provides a plausible pathway toward individualized prediction and proactive management, provided that claims of clinical readiness are matched by rigorous prospective validation.",
+      "date": "2026-09-04",
+      "url": "https://doi.org/10.3389/fendo.2026.1919404",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Endocrinology",
+      "direction": "cell",
+      "id": "5a82bbcb1abd"
     },
     {
       "title": "A BERT BiLSTM and BiTCN model for suicidal ideation identification in Spanish texts",
@@ -11892,114 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "3588665459a4"
-    },
-    {
-      "title": "System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5",
-      "authors": "Haotao Xie",
-      "abstract": "Recently, large language models (LLMs) have achieved promising progress in the fields of classical Chinese translation and the generation of classical poetry. However, domain-specific research on precise translation and affective-semantic understanding of classical poetry remains limited. The main challenge is that most studies treat the poetic appreciation task as a general-domain problem, neglecting the distinctive features of poetic appreciation, while high-quality and domain-specific datasets are extremely limited. To address this limitation, we decompose the task into three subtasks: term interpretation, semantic interpretation, and emotional inference. Based on multiple open-source datasets, we perform data cleansing and alignment to construct the Classical Chinese Poetry Instruction Pair Dataset (CCPoetry-49K), which comprises 49,404 high-quality instruction-response pairs explicitly optimized for this domain. We then propose a domain-specialized LLM, called PoetryQwen, by applying Low-Rank Adaptation (LoRA) to fine-tune the Qwen2.5-14B model. Experimental results on the CCL25-Eval Task 5 benchmark demonstrate that PoetryQwen achieves a score of 0.757, representing a 9.7% improvement over the Qwen2.5-14B-Instruct baseline (0.690). These findings clearly indicate that PoetryQwen significantly enhances performance in precise translation and emotional understanding of classical poetry. We present new dataset and methodological considerations intended to support the domain-specific optimization of LLMs.",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.12392v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12392v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "7b82e56adb0f"
-    },
-    {
-      "title": "Verifiable Environments Are LEGO Bricks: Recursive Composition for Reasoning Generalization",
-      "authors": "Hao Xiang, Qiaoyu Tang, Le Yu, Yaojie Lu, Xianpei Han...",
-      "abstract": "Reinforcement Learning (RL) with verifiable environments has emerged as a powerful approach for enhancing the reasoning capabilities of Large Language Models (LLMs). While prior research demonstrates that scaling environment quantity improves RL performance, existing manual or individual construction methods suffer from linear scaling limits, thereby hindering scalable reasoning generalization. This paper introduces RACES (\\textbf{R}ecursive \\textbf{A}utomated \\textbf{C}omposition for \\textbf{E}nvironment \\textbf{S}caling), a framework that conceptualizes verifiable environments as composable building blocks that can be recursively assembled. The key insight is that when the codomain (output type) of one environment matches the domain (input type) of another, they can be automatically fused into a new verifiable environment, enabling recursive composition. RACES is implemented with 300 individual environments and defines a set of composition operators (\\textsc{SEQUENTIAL}, \\textsc{PARALLEL}, \\textsc{SORT}, and \\textsc{SELECT}) that induce diverse reasoning patterns. Extensive experiments show that RL training on these composite environments consistently enhances reasoning generalization. Specifically, RACES improves DeepSeek-R1-Distill-Qwen-14B by an average of 3.1 points (from 48.2 to 51.3) and boosts Qwen3-14B performance from 58.8 to 61.1 on six benchmarks, which are unseen during the construction of training environments. Moreover, RACES achieves performance comparable to training on 300 individual environments using only 50 base environments, demonstrating significant efficiency in environment utilization.",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.12373v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12373v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "028796a6d03c"
-    },
-    {
-      "title": "Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling",
-      "authors": "Yucheng Li, Huiqiang Jiang, Yang Xu, Jianxin Yang, Yi Zhang...",
-      "abstract": "Reinforcement learning (RL) has become a key component in modern large language models, yet the rollout stage remains the key bottleneck in RL training pipelines. Although Multi-Token Prediction (MTP) offers a natural solution to accelerate rollouts through speculative decoding, many studies have observed that MTP acceptance rates degrade significantly during RL training, leading to limited speedup performance. To address this bottleneck, we present Bebop, a systematic study of MTP in LLM post-training, and offer practical recipes to integrate MTP into large-scale RL pipelines. First, we reveal that the MTP acceptance rate is fundamentally bounded by the fluctuation of model entropy, which demonstrates a clear negative linear relationship with the rise of entropy in the RL stage. Second, we show that probabilistic rejection sampling largely alleviates the disturbance introduced by entropy in RL compared to greedy draft sampling. We further identify that the conventional MTP training objectives (cross-entropy or KL) are suboptimal in such settings, and therefore we propose a novel end-to-end TV loss that directly optimizes multi-step rejection sampling acceptance rate, yielding ~10% acceptance rate improvements, achieving up to 95% acceptance rates and up to 25% extra inference throughput gains across mathematical reasoning, code generation, and agentic tasks. Third, we test various online MTP training strategies during RL and show that pre-RL MTP training with e2e TV loss and rejection sampling achieves a consistent acceptance rate and speedup throughout the entire RL, eliminating the need for costly online MTP updating. We provide extensive experiments and analysis that validate our findings. Experimental results show our method achieves up to 1.8x end-to-end acceleration in async RL training of Qwen3.5, Qwen3.6, and Qwen3.7 models.",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.12370v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12370v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8cfa4f2582e4"
-    },
-    {
-      "title": "ALIGNBEAM : Inference-Time Alignment Transfer via Cross-Vocabulary Logit Mixing",
-      "authors": "Chirag Chawla, Pratinav Seth, Vinay Kumar Sankarapu",
-      "abstract": "Domain fine-tuning degrades the safety of large language models: fine-tuned specialists readily comply with harmful prompts framed in domain language. Existing inference-time defenses that mix logits from a safe anchor model require both models to share a vocabulary, which rules them out for the cross-family specialists where safety is most degraded. We present ALIGNBEAM, a training-free method that lifts this restriction by translating anchor logits into the target model's vocabulary token-by-token at each decoding step; a small LLM judge then selects the safest among K candidate continuations. No weights are changed, and the safety-utility trade-off can be tuned at deployment without retraining. Across both cross-vocabulary and same-vocabulary evaluation pairs, ALIGNBEAM substantially raises refusal on adversarial benchmarks while keeping task accuracy and inference overhead within practical bounds. The results show that safety alignment can be transferred between model families at inference time, without touching either model's weights.",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.12342v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12342v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9cfde644649d"
-    },
-    {
-      "title": "Beyond Fully Random Masking: Attention-Guided Denoising and Optimization for Diffusion Language Models",
-      "authors": "Jia Deng, Junyi Li, Wayne Xin Zhao, Jinpeng Wang, Hongyu Lu...",
-      "abstract": "Diffusion large language models (dLLMs) offer an efficient alternative to autoregressive models through parallel decoding, yet existing post-training methods largely rely on random masking strategies that overlook intrinsic token dependencies. In this work, we present an empirical analysis of attention in dLLMs and show that tokens attending more strongly to unmasked context exhibit greater generation stability and play a critical role in reasoning. Motivated by these findings, we propose AGDO, an attention-guided denoising and optimization framework that aligns both training and optimization with attention-derived dependencies. AGDO determines the denoising order based on attention structure and emphasizes attention-critical tokens during supervised fine-tuning and reinforcement learning. Experiments on mathematical and coding benchmarks demonstrate that AGDO consistently improves reasoning performance, outperforming state-of-the-art post-training methods for dLLMs.",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.12273v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.12273v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "c1014eede663"
-    },
-    {
-      "title": "Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents",
-      "authors": "Hao-Lun Hsu, Nikki Lijing Kuang, Boyi Liu, Zhewei Yao, Yuxiong He",
-      "abstract": "Large language model (LLM) agents struggle with long-horizon tasks due to their inherent statelessness, requiring all task-relevant information to be encoded in growing input contexts. The resulting degraded reasoning quality, increased inference cost, and higher latency necessitate efficient working memory mechanisms. However, existing approaches either rely on lossy compression or similarity-based retrieval, which often fail to capture temporal structure and causal dependencies required for multi-step agentic tasks. In this work, we present HORMA, a Hierarchical Organize-and-Retrieve Memory Agent that organizes experience into a file-system-like hierarchical structure, where summarized entities are linked to the corresponding raw trajectories, enabling efficient access without losing detailed information. HORMA decomposes working memory into two stages: structured memory construction and navigation-based retrieval. The construction module iteratively refines how experiences are structured by distinguishing between failures caused by missing information and those caused by misleading or overloaded context. The navigation module retrieves task-relevant context by traversing the hierarchy using a lightweight agent trained with reinforcement learning to select minimal yet sufficient context, thereby reducing latency along the critical execution path. Across ALFWorld, LoCoMo, and LongMemEval, HORMA improves task performance under constrained context budgets while requiring at most 22.17% of the baseline token usage in long conversation tasks. Compared to existing methods, it consistently achieves better efficiency-performance trade-offs and generalizes effectively to unseen tasks.",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.11680v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.11680v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e9cd8961747a"
-    },
-    {
-      "title": "From bench to bedside: The role of interdisciplinary collaboration in advancing&amp;amp;nbsp;&amp;lt;span style=&amp;quot;font-size: 1rem;&amp;quot;&amp;gt;pharmaceutical research and healthcare&amp;lt;/span&amp;gt;",
-      "authors": "Prajakta Devshete, Dipali Mane, Swapnil Phade",
-      "abstract": "The journey from bench to bedside represents a complex translational continuum where discoveries in basic pharmaceutical sciences evolve into clinically viable therapies. This process increasingly depends on interdisciplinary collaboration integrating pharmacology, medicinal chemistry, clinical sciences, bioinformatics, and regulatory expertise. Collaborative frameworks enable the effective translation of molecular insights into safe and efficacious drugs, accelerating innovation and minimizing the attrition rates in drug development. Synergistic interactions among academia, industry, and healthcare practitioners foster a seamless exchange of data and expertise, thereby bridging preclinical and clinical research gaps. Emerging technologies such as Artificial Intelligence (AI), omics integration, and precision medicine further emphasize the necessity for cross-disciplinary coordination to manage big data, optimize trial design, and personalize therapeutic interventions. Moreover, regulatory scientists and clinical pharmacists play pivotal roles in ensuring compliance, pharmacovigilance, and therapeutic optimization at the patient level. This holistic approach not only enhances the efficiency of drug discovery and development but also improves clinical outcomes and cost-effectiveness in healthcare delivery. The future of pharmaceutical innovation lies in breaking disciplinary silos and promoting a collaborative ecosystem supported by advanced data-sharing platforms, ethical governance, and translational research networks. Thus, interdisciplinary collaboration serves as the cornerstone for transforming scientific innovation into tangible healthcare solutions, ensuring that discoveries at the laboratory bench achieve their ultimate impact in patient care at the bedside.",
-      "date": "2026-06-09",
-      "url": "https://doi.org/10.18231/j.jpbs.14293.1779884211",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Pharmaceutical and Biological Sciences",
-      "direction": "cell",
-      "id": "4a4301bae02b"
-    },
-    {
-      "title": "The Periodic Table of LLM Reasoning: A Structured Survey of Reasoning Paradigms, Methods, and Failure Modes",
-      "authors": "Avinash Anand, Mahisha Ramesh, Avni Mittal, Ashutosh Kumar, Erik Cambria...",
-      "abstract": "Large Language Models (LLMs) have achieved strong performance across natural language processing tasks, yet reliable reasoning remains an open challenge. Although modern LLMs show progress in structured inference, multi-step problem solving, and contextual understanding, their reasoning behavior is often inconsistent and sensitive to prompting strategies, task design, and model scale. This survey provides a systematic analysis of more than 300 recent papers from arXiv, Semantic Scholar, Google Scholar, Papers with Code, and the ACL Anthology to examine how reasoning capabilities emerge in LLMs and where they fail. We make three main contributions. First, we introduce a structured taxonomy of LLM reasoning research, covering Chain-of-Thought reasoning, multi-hop reasoning, mathematical reasoning, common sense reasoning, visual and temporal reasoning, code and algorithmic reasoning, retrieval-augmented reasoning, tool-augmented and agentic reasoning, and reinforcement learning-based reasoning. Second, we analyze methodological trends across these paradigms, including prompting methods, model architectures, training objectives, reward modeling, and evaluation benchmarks. Third, we synthesize recurring limitations and failure modes, such as reasoning hallucinations, brittle multi-step inference, weak causal abstraction, and poor cross-domain generalization. By organizing a rapidly expanding literature, this survey offers a unified view of the current capabilities and limitations of reasoning in LLMs. We also identify emerging research directions, including meta-reasoning, self-evolving reasoning frameworks, multimodal reasoning, and socially grounded reasoning. Overall, this work aims to serve as a reference for developing more robust, interpretable, and generalizable reasoning systems in future language models.",
-      "date": "2026-06-09",
-      "url": "https://arxiv.org/abs/2606.11470v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.11470v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "b84753748a51"
-    },
-    {
-      "title": "Evaluating a generative AI-based pitch simulation tool: a pilot study in entrepreneurial training",
-      "authors": "Zohar Elyoseph, Dafna Kariv, Yuval Haber",
-      "abstract": "Purpose Entrepreneurship education faces persistent challenges in providing scalable, standardized, and feedback-rich training for investor pitch skills. This pilot study developed and evaluated a generative AI-powered pitch simulator designed to replicate investor interactions in a low-pressure training environment. Design A mixed-methods feasibility evaluation was conducted with 46 entrepreneurs. The study integrated post-session quantitative measures of perceived utility and learning value, qualitative thematic analysis of open-ended responses, and behavioral engagement data (interaction duration and message frequency). Findings Participants reported moderate perceived learning value (M = 6.02, SD = 2.30) and helpfulness (M = 6.39, SD = 2.14), with moderate-to-positive willingness to recommend the tool (M = 7.00, SD = 2.53). Qualitative analysis identified the simulator's value as a repeatable, structured practice environment, while a subset of participants also noted reduced emotional and nonverbal fidelity compared to face-to-face investor meetings. Practical implications The simulator functions as a scalable supplementary tool for entrepreneurship education, enabling iterative practice in a standardized setting. The findings also suggest that combining simulator practice with human mentorship may be particularly valuable for addressing interpersonal dimensions of pitch performance. Originality This study contributes an initial empirical evaluation of a generative AI pitch simulator and offers preliminary observations on how such tools might support experiential learning approaches in entrepreneurship education, providing a basis for more rigorous future investigation.",
-      "date": "2026-06-09",
-      "url": "https://doi.org/10.3389/feduc.2026.1744984",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Education",
-      "direction": "medical",
-      "id": "68a62679134a"
     }
   ]
 }
