@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11 21:33",
+  "last_updated": "2026-09-12 21:14",
   "papers": [
     {
       "title": "Cross-Lingual Clinical Annotation Projection as Constrained Text Generation: A Six-Language Study",
@@ -96,6 +96,30 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "32c3c76275bf"
+    },
+    {
+      "title": "A hybrid method for navigating in dynamic warehouse environments using recurrent neural networks and probabilistic roadmaps",
+      "authors": "Marek Hering, Krystian Jandy, Paweł Weichbroth",
+      "abstract": "Efficient navigation in dynamic warehouse environments is critical for maintaining productivity and safety within crowded spaces with numerous moving agents. This study addresses the challenge of managing agent movements and ensuring smooth operations by implementing a novel hybrid navigation system that integrates trajectory prediction with collision-aware path planning in response to dynamic agent movements. The system developed in this study introduces a novel approach to navigation by analyzing agent movements through a three-dimensional, spatial–temporal Probabilistic Roadmap graph. It employs a lightweight, custom artificial neural network model that utilizes Long Short-Term Memory and convolutional layers to predict agent trajectories in real time. A unique transformation of location data into relative angle changes, rather than absolute angles, was introduced, yielding improved prediction accuracy. This approach was validated through its application in Warehouse Management Systems, supporting picking-path planning in both simulated and real-world scenarios. The trajectory prediction model achieved an Average Displacement Error of 0.67 m and a Final Displacement Error of 1.01 m in a live setting, with an inference time of less than 1 millisecond. In addition, the proof-of-concept evaluation shows how predicted agent movements can be incorporated into collision-aware path planning. Considering the low computational cost of the trajectory prediction model and the obtained evaluation results, the study provides a viable framework for integrating trajectory prediction with dynamic path planning in warehouse environments.",
+      "date": "2026-09-09",
+      "url": "https://doi.org/10.1016/j.jii.2026.101200",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Industrial Information Integration",
+      "direction": "llm",
+      "id": "6c0001378a88"
+    },
+    {
+      "title": "Smart crop recommendation: fusing nutrient and climate data with Krill Herd Optimization and explainable AI",
+      "authors": "P. Latha, P. Kumaresan",
+      "abstract": "Crop recommendation is a vital part of precision agriculture as it helps farmers choose appropriate crops according to the nutrient profile and environmental conditions. This paper presents a crop recommendation framework in which Multi-Layer Perceptron (MLP), XGBoost, and Tab Transformer are first evaluated as baseline prediction models, followed by the proposed Krill Herd Optimization (KHO)-based explainable framework integrated with Explainable Artificial Intelligence (XAI). These eleven parameters are created based on agronomic and environmental aspects, namely: Nitrogen, Phosphorus, Potassium, Copper, Iron, Magnesium, Sulphur, Temperature, Rainfall, pH and Humidity. For better model transparency and to aid informed decision-making, model explanations with SHAP (SHapley Additive Explanations) and LIME (Local Interpretable Model-Agnostic Explanations) are used to identify feature contributions to crop predictions both locally and globally. The experimental results showed that Tab Transformer significantly outperformed the other models, with an accuracy of 0.99, precision of 0.98, recall of 0.99 and F1-score of 0.98. The proposed framework further incorporates Krill Herd Optimization (KHO) to generate optimized nutrient and climate profiles, while Genetic Algorithm (GA), Particle Swarm Optimization (PSO), and Simulated Annealing (SA) are used for comparative evaluation of optimization performance. By combining explainable AI with optimization methods, the framework improves crop suitability prediction and provides transparent insights into the factors influencing crop recommendations, ensuring reliable decision support for practical farming applications. The proposed framework supports precision agriculture by enabling data-driven crop selection, reducing unnecessary fertilizer usage, optimizing crop productivity, and promoting sustainable farming practices.",
+      "date": "2026-09-09",
+      "url": "https://doi.org/10.3389/frai.2026.1910196",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "llm",
+      "id": "875690df69f2"
     },
     {
       "title": "Can Large Language Models (LLMs) be Trusted for Power Analysis? An Empirical Evaluation",
@@ -11976,30 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "0aeaed1eda3e"
-    },
-    {
-      "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
-      "authors": "Siyi Gu, Jialin Chen, Sophia Zhou, Arman Cohan, Rex Ying",
-      "abstract": "Post-training of reasoning language models is commonly driven by supervised distillation and reinforcement learning with verifiable rewards. Distillation often relies on chain-of-thought annotations that are expensive to obtain and may themselves be noisy, incomplete, or partially incorrect; even when the final solution is correct, an imperfect rationale can interfere with learning. Reinforcement learning with verified rewards, on the other hand, typically compresses evaluative feedback into a scalar signal, obscuring which aspects of a response should be improved. We propose \\textbf{Rubric-Conditioned Self-Distillation}, a framework that incorporates rubrics as structured, fine-grained feedback for on-policy self-distillation. Our method conditions the teacher model on criterion-level rubrics and uses it to provide token-level guidance on the student's own sampled trajectories. This design avoids treating a single reference rationale as the sole supervision target. Instead, rubrics specify what a strong response should satisfy, enabling more fine-grained credit assignment over the reasoning process than scalar reward optimization. We instantiate this framework with a two-stage pipeline that first learns to generate task-specific rubrics and then trains a rubric-guided reasoner. We evaluate on a diverse suite of science reasoning benchmarks and results show that rubric-conditioned self-distillation effectively converts rubric-level criteria into token-level guidance over the reasoning process, surpassing GRPO by 1.0 points and OPSD by 0.9 points on average.",
-      "date": "2026-06-17",
-      "url": "https://arxiv.org/abs/2606.19327v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.19327v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "36dfe42c70e6"
-    },
-    {
-      "title": "REVES: REvision and VErification--Augmented Training for Test-Time Scaling",
-      "authors": "Yuanxin Liu, Ruida Zhou, Xinyan Zhao, Amr Sharaf, Hongzhou Lin...",
-      "abstract": "Test-time scaling via sequential revision has emerged as a powerful paradigm for enhancing Large Language Model (LLM) reasoning. However, standard post-training methods primarily optimize single-shot objectives, creating a fundamental misalignment with multi-step inference dynamics. While recent work treats this as multi-turn reinforcement learning (RL), conventional approaches optimize over the multi-step trajectories directly, failing to further exploit the high-quality mistakes in intermediate steps that model can learn from correcting them. We propose a two-stage iterative framework that alternates between online data/prompt augmentation and policy optimization. By converting the intermediate steps (``near-miss'' answers) in the successful recovery trajectories into decoupled revision and verification prompts, our approach concentrates training on both effective answer transformation and error identification. This approach enables efficient off-policy data generation and reduces the computational overhead of long-horizon sampling compared to standard multi-turn RL. On LiveCodeBench, using publicly available test cases as feedback, we observe gains of +6.5 points over the RL baseline and +4.0 points over standard multi-turn training. Beyond coding, our approach matches the previously reported SOTA result on circle packing while using the smallest base model (4B) and far fewer rollouts than the much larger evolutionary search systems. Math results under ground-truth verification further confirm improved correction ability. It also generalizes to out-of-distribution constraint-satisfaction puzzles such as n\\_queens and mini\\_sudoku, where correctness is defined entirely by problem constraints. Code is available at https://github.com/yxliu02/REVES.git.",
-      "date": "2026-06-17",
-      "url": "https://arxiv.org/abs/2606.18910v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.18910v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "253aa286bf5f"
     }
   ]
 }
