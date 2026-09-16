@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-09-15 21:56",
+  "last_updated": "2026-09-16 21:54",
   "papers": [
+    {
+      "title": "Embedding-aware noise modeling of quantum annealing",
+      "authors": "Seon-Geun Jeong, Dinh Cong Mai, Dae-Il Noh, Quoc‐Viet Pham, Won–Joo Hwang",
+      "abstract": "Quantum annealing provides a practical realization of adiabatic quantum computation and has emerged as a promising approach for solving large-scale combinatorial optimization problems. However, current devices remain constrained by sparse hardware connectivity, which requires embedding logical variables into chains of physical qubits. This embedding overhead limits scalability and reduces reliability as longer chains are more prone to noise-induced errors. In this work, building on the known structural result that the average chain length in clique embeddings grows linearly with the problem size, we develop a mathematical framework that connects embedding-induced overhead with hardware noise in D-Wave's Zephyr topology. Our analysis derives closed-form expressions for chain break probability and chain break fraction under a Gaussian control error model, establishing how noise scales with embedding size and how chain strength should be adjusted with chain length to maintain reliability. Experimental results from the Zephyr topology-based quantum processing unit confirm the accuracy of these predictions, demonstrating both the validity of the theoretical noise model and the practical relevance of the derived scaling rule. Beyond validating a theoretical model against hardware data, our findings establish a general embedding-aware noise framework that explains the trade-off between chain stability and logical coupler fidelity. Our framework advances the understanding of noise amplification in current devices and provides quantitative guidance for embedding-aware parameter tuning strategies.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.1007/s11128-026-05293-z",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Quantum Information Processing",
+      "direction": "cell",
+      "id": "f45e04c84292"
+    },
+    {
+      "title": "A qualitative thematic comparative analysis of independent and AI-supported clinical reflections among medical interns",
+      "authors": "Selçuk Akturan, Sinan Paslı, Salman Yousuf Guraya",
+      "abstract": "Background Reflection is fundamental to medical education, supporting clinical reasoning, professional identity formation, and lifelong learning. Although generative artificial intelligence (AI) chatbots have emerged as tools to facilitate reflection, little is known about how AI-supported reflection differs from independent reflective writing. This study compared the characteristics and educational contributions of independent reflective writing and AI-supported reflection among medical interns. Methods A comparative qualitative quasi-experimental study was conducted with medical interns during an emergency medicine rotation. The control group was instructed to perform reflective writing independently, while the intervention group was tasked to use AI-supported reflections using a purpose-built chatbot to complete reflective writing. Data were analyzed using qualitative content analysis and compared in terms of themes, reflective depth, clinical reasoning, emotional awareness, and professional learning. Results Twenty-one interns completed independent reflective writing, while eighteen engaged in AI-supported reflection using a chatbot. Although both approaches supported reflective learning, they facilitated distinct dimensions of the reflective process. Independent reflective writing was characterized by greater autonomous meaning-making, critical reflection, ethical reasoning, and systems-level thinking. In contrast, AI-supported reflection was characterized by greater emotional articulation, structured reflective dialogue, and future learning planning, but showed more limited exploration of contextual, ethical, and systems-level issues. Participants’ comments embedded within the chatbot interactions suggested that some found the interaction supportive, while repetitive prompting and limited critical exploration emerged as limitations. Conclusions Independent reflective writing and AI-supported reflections represent complementary rather than interchangeable educational approaches. While independent reflective writing fosters deeper critical reflection, AI primarily functions as a reflective scaffold that supports emotional engagement and structures reflective learning. Integrating AI-assisted reflections with independent writing and faculty-guided debriefing may optimize reflective learning in medical education.",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.3389/fmed.2026.1942949",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "medical",
+      "id": "e58bd949714b"
+    },
+    {
+      "title": "Reliable Drug Recommendations using a Hybrid CNN-BiLSTM and Whale Algorithm-Optimized Aspect-Based Sentiments",
+      "authors": "Suruchi Chawla, Aakanksha, Madhu Rani",
+      "abstract": "The growing availability of drug reviews from patients has paved the way for future patient-centric and data-enabled healthcare support; however, the majority of existing sentiment-based drug recommendation systems use overall sentiment (sentiment polarity) to generate drug recommendations. In this study, an aspect-aware and optimized deep-learning-based drug recommendation system is proposed using sentiment analysis. A combined Convolutional Neural Network and Bidirectional Long Short-Term Memory architecture is employed to leverage important local semantics as well as contextual and sequential dependencies from drug reviews. The model is extended into an explainable drug recommendation system that maps user-reported symptoms to patient-opinion-informed drug rankings. Sentiments are analyzed at the aspect level, focusing on effectiveness, side effects, dosage, safety, and cost. To achieve better results, the Whale Optimization Algorithm is used to assign optimal weights to each aspect, thereby ranking drugs according to data-driven aspect preferences learned from patient reviews. Experimental evaluation on the drug dataset, comprising patient reviews, demonstrates that the proposed hybrid sentiment classification model achieves 99.80% accuracy. It outperforms traditional machine learning and deep learning approaches. The proposed framework not only improves sentiment classification accuracy but also provides transparent and improved top-k drug recommendations, offering explainable patient-opinion-informed recommendation rankings derived from large-scale review data. The generated rankings are derived from patient-generated review data and should therefore be interpreted as opinion-aware recommendations rather than clinically validated treatment recommendations.",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.54392/irjmt26510",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Research Journal of Multidisciplinary Technovation",
+      "direction": "medical",
+      "id": "7d1f8a98ebf6"
+    },
+    {
+      "title": "Automated pancreatic cancer pathology image segmentation using deep learning to quantify lymphocyte stroma ratio",
+      "authors": "Xiawei Li, Changming Lv, Haozhong Ma, Yongji Sun, Sien Hu, ...",
+      "abstract": "Pancreatic ductal adenocarcinoma (PDAC) exhibits profound tumor microenvironment heterogeneity, and conventional prognostic tools often fail to adequately quantify critical features like the lymphocyte-stroma ratio (LSR). Manual assessment of LSR is prone to variability and inefficiency, which limits its clinical utility. We developed a Vision Transformer-based model using whole-slide images (WSIs) from multiple centers for training and validation. Our model achieved high accuracy in tissue classification and demonstrated that higher LSR is significantly correlated with improved overall survival. Kaplan–Meier survival curves indicated a significantly higher risk for the LSR-low group in both development ( P = 0.002) and multicenter cohorts ( P < 0.001). We also built an online platform for automated WSI segmentation and quantification, providing both visualization and quantification of tissue categories. This study establishes a robust, automated LSR quantification system validated across multicenter PDAC cohorts, offering a scalable solution for precision oncology by linking computational biomarkers to therapeutic outcomes.",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.1038/s41746-026-03207-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "llm",
+      "id": "b31cfcad118d"
+    },
+    {
+      "title": "Agentic AI for Digital Product Passport Documentation: A Feasibility Study on Heterogeneous Manufacturing Documents",
+      "authors": "Lukas Wohlschläger, Arne Falkenreck, Johannes Fottner",
+      "abstract": "Digital Product Passports (DPPs) are intended to make lifecycle product information accessible across the value chain and enable circular business models. Yet, the adoption remains constrained by the heterogeneity of existing industrial documentation and the cost for normalizing it into unified schemes. Agentic systems based on large language models (LLMs) offer an alternative path that operates directly on existing documents rather than restructuring them. This paper presents a feasibility study combining a PRISMA-guided systematic literature review (SLR) of 23 agentic document-reasoning systems with a small-scale empirical evaluation of one system on a purposive sample of 204 questions across the documents of 12 industrial and consumer products. The aim of the study is to generate qualitative insights about where current capabilities are sufficient and where they fall short. The system answered 85% of questions correctly, with 5% incomplete and 10% false. Two patterns emerge consistently. First, the reasoning capabilities of the frontier model appeared adequate for industrial document understanding. The practical bottleneck, for the single frontier model and orchestration pattern evaluated here, lay in retrieval, where general-purpose embeddings failed to bridge the terminological gap between user queries and manufacturer-specific vocabulary. Second, deterministic tools markedly improved the answer quality in question categories, where LLMs are structurally weakest. These observations suggest that the retrieval infrastructure adapted to manufacturer vocabulary and complementary deterministic tools may be more consequential design priorities for DPP deployments supported by agentic AI than further work on orchestration complexity.",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.55845/hv5ywx12",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Circular Economy",
+      "direction": "llm",
+      "id": "50ba135043f4"
+    },
+    {
+      "title": "TransMoE: Multimodal traffic prediction with large language model and mixture of experts",
+      "authors": "Songyi Cui, Sen Shen, Xinyue Guo, Ceyu Liu, Yimo Yan, ...",
+      "abstract": "Traffic prediction plays a crucial role in intelligent transportation systems, especially given the challenges posed by complex spatiotemporal dynamics and the integration of multimodal data. To address this, our work introduces TransMoE, an innovative framework that leverages Large Language Models (LLMs) in combination with a Mixture-of-Experts (MoE) architecture to forecast traffic from heterogeneous data sources. Specifically, we propose a novel adapter, MixLoHa, designed for parameter-efficient fine-tuning and capable of modeling spatially heterogeneous contextual patterns and temporal dynamics across multiple modalities for grid-wise traffic forecasting. Using real-world datasets that incorporate social media streams, real estate information, and points of interest, TransMoE demonstrates significantly improved accuracy and robustness compared to existing methods, achieving a substantial reduction in Mean Absolute Percentage Error. This research underscores the potential of multimodal fusion technologies in advancing traffic prediction, offering new possibilities for real-time urban traffic management.",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.1016/j.trc.2026.106018",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "direction": "llm",
+      "id": "6d803d0ad9fe"
+    },
     {
       "title": "An integrated sequential deep learning framework with experience replay for large-scale species distribution modeling under data scarcity",
       "authors": "Fabián Santos, Silvana Moreno, Mauricio Mejía-Guerrero, Valerie Graw",
@@ -11928,78 +12000,6 @@
       "venue": "3 SEKTÖR SOSYAL EKONOMİ DERGİSİ",
       "direction": "cell",
       "id": "516c23e40f7a"
-    },
-    {
-      "title": "Emerging AI Techniques in ligand-Centric Drug Design: Opportunities and Constrains a Review of Current Methods and Future Prospects",
-      "authors": "Suruthika V., Elamathi Natarajan",
-      "abstract": "The emergence of artificial intelligence in the modern medicinal approach represents a revolutionary approach towards solving the shortcomings of conventional techniques employed in drug design and discovery. The application of ligand-based drug design (LBDD) relies on information obtained from already existing biologically active compounds to predict potential candidate molecules that possess required properties. Emerging trends in machine learning (ML), deep learning (DL), and computational chemistry have provided new ways of improving LBDD by making precise predictions about molecular parameters like their bioactivity, toxicity, and pharmacokinetics. QSAR modeling, molecular fingerprinting, virtual screening, molecular docking, and pharmacophore modeling have become essential elements of AI-based drug design techniques. In addition to this, there is an increased focus on using generative AI to develop new molecules through de novo design and lead optimization strategies. The current paper provides an overview of the most recent achievements in AI-assisted LBDD, including relevant computational methods, applications, advantages, and challenges.",
-      "date": "2026-06-22",
-      "url": "https://doi.org/10.38124/ijisrt/26jun753",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
-      "direction": "cell",
-      "id": "f89efe7194c1"
-    },
-    {
-      "title": "Molecular Structure Analysis of Chemical Compounds Using Computational Chemistry Techniques",
-      "authors": "Wisam Hassan Ali Alfartosi",
-      "abstract": "The sophisticated chemistry of the pioneers of theoretical physics research in the 1920s, the visionaries behind the creation of the \"Ridingerra\" company for high-quality mechanical installations, suggests that with new production facilities, quantum mechanics can experimentally simulate living organisms using a simple puff system, involving a gel atom and a water molecule. This new design takes over the organization of simple systems, planning methods, and expansion models through the full expansion of spectral and interactive structures, making them broad-spectrum living organisms. Electronic computers have been transmitting a message for several hours to other springs of revolution. In the 1950s, undesirable chemistry was highly disciplined, and the utmost discipline was achieved in the atmosphere, providing excellent methods for correcting and predicting the fine mechanical mechanics of molecular molecules. The first to exert their utmost effort to achieve significant progress in good possibilities, regenerative travel, and brilliant algorithms can have a powerful impact on life. In recent years, biochemistry has played an important role in solving the main problems of chemistry, leading to the resolution of molecular structures, reaction mechanisms, and volatile materials with high viscosity. This certainly evokes great interest among humans. In the 1980s, subsequent generations used vast amounts of computers to model various chemical systems, thus removing the capacity that computers could provide. These technologies hold immense potential for accelerating the discovery of new catalysts, advanced materials, and high-temperature superconductors, opening up new horizons in chemistry and materials research.",
-      "date": "2026-06-22",
-      "url": "https://doi.org/10.47760/cognizance.2026.v06i06.024",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Cognizance Journal of Multidisciplinary Studies",
-      "direction": "cell",
-      "id": "800146209e22"
-    },
-    {
-      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
-      "authors": "Manas Mehta, Fangcong Yin, Greg Durrett",
-      "abstract": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length generalization by combining YaRN-based positional extrapolation with randomized positional encoding and a length curriculum. During training on short context data, tokens are assigned YaRN positional encodings sampled from a larger position range, exposing the model to out-of-distribution positional representations even on short-context inputs. We evaluate Randomized YaRN on two challenging long-context reasoning benchmarks, BABILong and Multi-Round Coreference Resolution (MRCR). When training on data with <8K context, Randomized YaRN consistently improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning, with the largest gains appearing at far out-of-distribution lengths. Our results suggest that progressively exposing models to OOD positional distributions provides an effective recipe for generalizable long-context reasoning.",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.23687v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.23687v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "5d48149e6d9e"
-    },
-    {
-      "title": "Can LLMs Reliably Self-Report Adversarial Prefills, and How?",
-      "authors": "Quang Minh Nguyen, Uzair Ahmed, Taegyoon Kim",
-      "abstract": "Prior work shows that large language models (LLMs) exhibit introspective capability on benign tasks. We extend the question to safety contexts and examine how reliably a model can recognize that its own prior response was elicited by an adversarial prefill attack. Across ten open-weight instruction-tuned LLMs (3B to 70B) and four safety benchmarks, no model reliably recognizes its own compromised outputs, with models claiming intent on prefilled responses at an average rate of $27.3\\%$. Introspective signal stems largely from safety- and refusal-related reasoning. Orthogonalizing models' weights against the refusal direction collapses the gap between claiming rates on prefilled and natural outputs to near zero, though the direction is not its unique mediator. The signal is also probe-dependent: framing the question as internal intention versus external tampering elicits qualitatively different responses on the same models. We test three LoRA finetuning methods (SFT, GRPO, DPO) on eight models from 3B to 27B; all three widen the intention-probe gap on every model from 8B to 27B, with method ranking varying by model. The intervention does not transfer to the tampering probe and counterintuitively raises attack success rate under adversarial prefill on most models, amounting to a partial mitigation. These findings outline mechanisms underpinning the observed introspective signals in safety contexts and highlight risks in the reliability of LLM self-reports.",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.23671v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.23671v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e4153a1050dd"
-    },
-    {
-      "title": "War in the Abstract: The Rise and Consequences of Militarized Language in Scientific Communication",
-      "authors": "Sovesh Mohapatra, David Lydon-Staley, Dani S. Bassett",
-      "abstract": "Scientists do not, by profession, wage war. Yet warfare's vocabulary consistently appears in their abstracts. To quantify the extent to which warfare's vocabulary pervades scientific abstracts, we analyze 21.4 million papers (2010-2025; OpenAlex, PubMed). We additionally run a within-subject war-framing experiment (N = 801; 32,040 trials) designed to provide causal insight into the effects of militaristic language on persuasion. Between 2010 and 2025, the presence of militaristic terms in scientific abstracts rose 48% in OpenAlex and 32% in PubMed, with the rise accelerating sharply after 2019 (cross-database r = 0.96, p < 10^-8). The prevalence of militaristic language is conflict-aligned at both country and annual scales (Uppsala Conflict Data Program; r = 0.77-0.84), with the abstracts from the Global South displaying the fastest rise in militaristic language. Among disciplines, social sciences leads in level of such language while engineering and computer science lead in growth. The COVID and post-2022 large-language-model eras also saw the rise and narrowed the language gap between native-English and non-English authors. In our follow-up experiment, we found that war framing reduced credibility (mean shift -0.18 Likert units, 95% CI [-0.21, -0.14]; d_z = -0.28, p < 10^-20), funding willingness (d_z = -0.12) and policy support (d_z = -0.08), with a trend-level increase in sense of urgency (d_z = +0.07). Collectively, findings reveal that while scientific abstracts drift toward warfare, the use of militaristic language may erode credibility, funding willingness, and policy support.",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.23462v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.23462v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "ee998bc6438f"
-    },
-    {
-      "title": "TriggerBench: Investigating Prospective Memory for Large Language Models",
-      "authors": "Tianhua Zhang, Xinjiang Wang, Qianxi Zhang, Qi Chen, Kun Li...",
-      "abstract": "While Large Language Models (LLMs) are increasingly deployed in long interactions, existing evaluations focus predominantly on retrospective memory (RM) via explicit queries. Prospective memory (PM), the critical ability to spontaneously recall and act on latent constraints without direct prompts, remains largely unevaluated. We introduce TriggerBench, a comprehensive PM benchmark spanning five dimensions across both daily assistants and professional workflows. TriggerBench pairs scenarios with matched RM controls, contrastive positive/negative variants, and overloaded triggers, enabling fine-grained measurement of proactive recall, false-alarm rate, and attentional robustness under a single protocol. Our evaluation yields three key findings. (i) PM shows a precision-recall trade-off and attentional fragility. Though enhanced reasoning significantly improves proactive recall, models may overfit to an \"always-remind\" heuristic. Furthermore, PM accuracy degrades substantially under implicit constraints or triggers overloaded by concurrent user requests, indicating that robust PM remains an open challenge. (ii) PM is notably harder than RM: on identical contexts, RM near-saturates up to 100K tokens, while PM decays sharply as context length scales. (iii) PM may serve as a behavioral probe of spare reasoning capacity. Pairing PM scenarios with AIME-2025 math problems reveals that successful trajectories yield higher PM accuracy than failed ones at the same context length, showing PM tracks spare reasoning budget that token count obscures. Project page: https://github.com/KristenZHANG/TriggerBench-Official.",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.23459v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.23459v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "2e7bcb19072d"
     }
   ]
 }
