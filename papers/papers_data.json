@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-09-16 21:54",
+  "last_updated": "2026-09-17 21:55",
   "papers": [
+    {
+      "title": "Genolator enables protein function interpretation using a multimodal large language model fusing genomic and structural interpretation with natural language interaction",
+      "authors": "Martin Danner, Tanhim Islam, Matthias Begemann, Florian Kraft, Miriam Elbracht, ...",
+      "abstract": "Abstract Background Decoding the genetic code to unveil its genome functionality is a monumental task which would greatly advance the understanding of disease mechanisms and development of targeted treatments. Although large language models (LLMs) have transformed natural language processing across diverse domains, translating the complex language of DNA into human-readable form remains challenging due to genomic data complexity and unexplored regions of the human genome. Current language models either are capable of processing natural language or the genomic code. Models fusing both aspects are largely lacking. Results Here we present Genolator, a multimodal large language model that integrates embeddings from DNA sequences, amino acid sequences, and protein structures with natural language queries. Fine-tuned on over 365,000 question–answer pairs generated using abstracted Gene-Ontology (GO) terms, Genolator effectively answers queries regarding protein subcellular localization, molecular function, and biological processes. Evaluation demonstrates high accuracy in confirming or denying protein function associations, outperforming baseline models such as openly available allrounder LLMs like GPT 4.1 as well as smaller domain-specific models integrating knowledge from a protein structure transformer. Explorations of Genolator’s hidden states unveil a biologically and linguistically plausible organization of its learned representations. Analysis of the attention heads of the underlying language model and an ablation study provide evidence for a benefit of the multi-modal approach. Conclusion Genolator enhances accessibility to genomic information by enabling natural language interaction with protein data, facilitating biological discovery, and clinical research. It represents a step towards bridging genomic code and human language through the integration of a multimodal LLM.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.1186/s13059-026-04274-w",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Genome biology",
+      "direction": "medical",
+      "id": "aa9a7e92d9d8"
+    },
+    {
+      "title": "Adversarial attacks on medical hyperspectral imaging exploiting spectral-spatial dependencies and multiscale features",
+      "authors": "Yunrui Gu, Zhenzhe Gao, Cong Kong, Jiawei Du, Zhaoxia Yin",
+      "abstract": "Abstract Medical hyperspectral imaging (MHSI) has demonstrated considerable promise in disease diagnosis by capturing spectral-spatial information of tissues. While deep learning has substantially improved MHSI classification accuracy, its robustness remains limited due to the well-known trade-off between accuracy and robustness in deep neural networks (DNNs). This issue is particularly critical in MHSI, where reliable prediction depends on local tissue relationships and multiscale spectral-spatial structures. A practical way to improve robustness is to identify the most unstable adversarial examples and incorporate them into adversarial training. However, existing attack methods do not sufficiently exploit these MHSI-specific properties, leading to suboptimal attack effectiveness and limited value for robustness enhancement. To address this gap, we propose a structured adversarial attack framework for MHSI that progressively models its local spectral-spatial dependencies and multiscale hierarchical representations. The proposed method generates anatomically consistent perturbations by modeling neighborhood dependencies and hierarchical spectral-spatial features. Experiments on the hyperspectral human brain image (the Brain) dataset and the multidimensional choledoch (MDC) dataset show that our method degrades lesion-related classification performance in critical tumor regions more effectively than existing baselines while maintaining low perturbation magnitude. These results reveal a clinically relevant robustness weakness in current MHSI models and provide stronger adversarial samples for developing targeted defense strategies.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.1007/s44267-026-00129-x",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Visual Intelligence",
+      "direction": "cell",
+      "id": "65042ed0675e"
+    },
+    {
+      "title": "A Competency-Aware Machine Learning Framework for Personalized Course Recommendation Using Cognitive Skills and Expert Knowledge",
+      "authors": "Ketankumar Saluke",
+      "abstract": "Personalized course selection has become increasingly important in higher education as students are presented with a growing range of courses and specialization options.Conventional recommendation approaches generally rely on academic performance, previous course choices, or stated preferences, which may not adequately capture the cognitive abilities and subject specific competencies required for successful learning.This paper proposes a competency aware machine learning framework for personalized course recommendation that integrates student subject knowledge, cognitive skills, and expert defined course requirements.The proposed framework first constructs an individual student competency profile by combining subject level knowledge assessment with cognitive skill assessment covering dimensions such as logical reasoning, analytical thinking, problem solving, pattern recognition, and computational thinking.In parallel, domain experts define the relative importance of these skills for different courses through a course skill knowledge model.The resulting student and course representations are used to determine competency-course alignment and generate personalized recommendation scores.Machine learning models are then employed to learn the relationship between student characteristics and suitable course choices, while an explainable recommendation component identifies the skills contributing to each recommendation.The framework is evaluated against progressively enriched baseline models using both predictive and recommendation-oriented measures, including accuracy, precision, recall, and F1 score, Precision@K, Recall@K, NDCG@K, and MRR.An ablation analysis is further used to examine the con attribution of cognitive skills, subject competency, and expert knowledge.The proposed approach aims to provide recommendations that are not only personalized but also competency aligned and interpretable, thereby supporting more informed course selection in computer science education.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.7753/ijcatr1509.1007",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Computer Applications Technology and Research",
+      "direction": "llm",
+      "id": "434416bc7ba9"
+    },
+    {
+      "title": "Development of an Adaptive AI Physics Tutor Based on a Large Language Model to Improve Scientific Literacy and Remediate High School Students’ Misconceptions",
+      "authors": "Ramadani Khotibul Umam",
+      "abstract": "The shift toward Society 5.0 and generative AI (Artificial Intelligence) has opened new opportunities for personalizing physics learning, yet Indonesian students’ scientific literacy in PISA (Programme for International Student Assessment) 2022 remains far below the OECD (Organization for Economic Co-operation and Development) average, and misconceptions involving force, motion, energy, electricity, and waves remain resistant to conventional instruction. LLM (Large Language Model) chatbots such as ChatGPT, Gemini, and Claude are used ad hoc by students, without being designed to diagnose misconceptions, grounded in conceptual change theory, or equipped with PISA-aligned scientific literacy assessment. This article formulates a theoretical framework for an Adaptive AI Physics Tutor, a new-generation Intelligent Tutoring System integrating LLM architecture, Retrieval-Augmented Generation, a Misconception Detector, and a Student Model into one personalized, adaptive learning ecosystem. Using narrative review, critical review, concept analysis, and theory synthesis on 2021-2026 literature, it combines Conceptual Change theory, Interactive Engagement, Modeling Instruction, Vygotsky-Piaget constructivism, and TPACK (Technological Pedagogical Content Knowledge) into a conceptual model mapping student input, the AI engine, and learning output. The resulting model positions the AI Physics Tutor as a mediator of misconception remediation explicitly aligned with three PISA competencies, namely explaining phenomena scientifically, evaluating and designing scientific inquiry, and interpreting data and evidence, and offers a staged 2026-2045 development roadmap with a Design-Based Research agenda for prototype validation, along with theoretical and practical implications for curriculum developers, physics teachers, universities, and policymakers in Indonesia.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.55047/jrpp.v5i2.1226",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Jurnal Riset Pendidikan dan Pengajaran",
+      "direction": "llm",
+      "id": "37a01da88e06"
+    },
+    {
+      "title": "C2f-space: coarse-to-fine space grounding for spatial instructions using vision-language models",
+      "authors": "Nayoung Oh, Dohyun Kim, Junhyeong Bang, Rohan Paul, Daehyung Park",
+      "abstract": "Abstract Space grounding refers to localizing a set of spatial references described in natural language instructions. Traditional methods often fail to account for complex reasoning— such as distance, geometry, and inter-object relationships— while vision-language models (VLMs), despite strong reasoning abilities, struggle to produce fine-grained regions. To overcome these limitations, we propose C2F-Space , a novel coarse-to-fine space-grounding framework that (i) estimates an approximated yet spatially consistent region using a VLM and then (ii) refines the region to align with the local environment through superpixelization. For the coarse estimation, we design a grid-based visual-grounding prompt with a propose-validate strategy, maximizing the VLM’s spatial understanding and yielding physically and semantically valid canonical regions (i.e., ellipses). For the refinement, we locally adapt the region to the surrounding environment without over-relaxing into free space. We construct a new space-grounding benchmark and compare C2F-Space with five state-of-the-art baselines using success rate and intersection-over-union. Our C2F-Space significantly outperforms all baselines. Our ablation study confirms the effectiveness of each module in the two-step process and the synergistic effect of the combined framework. We finally demonstrate the applicability of C2F-Space to simulated robotic pick-and-place tasks.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.1007/s11370-026-00729-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Intelligent Service Robotics",
+      "direction": "llm",
+      "id": "fcdb9aac4e40"
+    },
+    {
+      "title": "Artificial intelligence in otolaryngology: current applications, limitations, and future perspectives",
+      "authors": "Eleni Litsou, Ioannis Tzotzis, Theodoros Malisovas, Asimakis Asimakopoulos, Georgios Psychogios",
+      "abstract": "PURPOSE: Artificial intelligence (AI) is increasingly integrated into modern otolaryngology practice and has emerged as one of the most rapidly evolving technologies in contemporary medicine. Recent advances in machine learning, deep learning, computer vision, and multimodal AI systems have accelerated the development of diagnostic and therapeutic applications across multiple otolaryngology subspecialties. METHODS: This narrative review was conducted through a structured literature search of PubMed/MEDLINE, Scopus, and Web of Science databases. Relevant publications evaluating artificial intelligence applications in otolaryngology were identified using combinations of predefined keywords. Priority was given to peer-reviewed studies published in English that investigated clinically relevant diagnostic, prognostic, surgical, educational, or workflow-related applications of artificial intelligence within otolaryngology. Both retrospective and prospective studies, review articles, landmark methodological studies, and representative publications with substantial influence on the field were considered. RESULTS: AI-assisted technologies have demonstrated promising clinical utility in diagnostic imaging, endoscopic assessment, audiology, rhinology, laryngology, vestibular medicine, surgical simulation, head and neck oncology, radiotherapy planning, and predictive analytics. Emerging evidence suggests that deep learning algorithms may enhance detection of sinonasal disease, facilitate automated image segmentation, predict lymph node metastasis, classify thyroid nodules, and support prognostic modeling in head and neck cancer patients. In addition, multimodal AI systems integrating radiologic, pathologic, molecular, and clinical data may further improve diagnostic precision and personalized treatment planning. Generative AI tools, including GPT-based large language models, have also demonstrated emerging applications in medical education, image interpretation, differential diagnosis, and clinical decision support. CONCLUSION: Nevertheless, important methodological and translational challenges continue to limit broader clinical implementation. Current challenges include limited external validation, retrospective study design, dataset heterogeneity, algorithmic bias, lack of transparency, patient privacy concerns, medico-legal uncertainty, and the potential risks associated with automation bias. This narrative review summarizes current clinical applications of artificial intelligence in otolaryngology, discusses the strengths and limitations of currently available technologies, and highlights future perspectives for responsible clinical integration. Current evidence suggests that AI may serve as a valuable adjunctive tool in otolaryngology practice; however, further prospective multicenter studies, standardized validation frameworks, and ethical oversight remain necessary before widespread adoption can be achieved.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.1007/s00405-026-10560-x",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "European Archives of Oto-Rhino-Laryngology",
+      "direction": "llm",
+      "id": "1b3c97b3ada8"
+    },
+    {
+      "title": "Transit-oriented development for cultural heritage districts: the case of Msheireb downtown Doha",
+      "authors": "Raffaello Furlan, Ali Alraouf, Michael Grosvald, Reem Awwaad, Muhammad Madandola",
+      "abstract": "Abstract Decades of heavy reliance on private cars have produced traffic congestion, urban sprawl, and fragmented districts across the Arabian Gulf, prompting Qatari authorities to introduce the Doha Metro and transit-oriented development (TOD) strategies to reconnect urban areas and reduce car dependency. Yet little research examines how TOD can be operationalized within culturally sensitive heritage districts such as Msheireb Downtown Doha. This study addresses that gap through a mixed-methods approach—literature and TOD-index review, a questionnaire survey ( N = 60), interviews, GIS and spatial analysis, site mapping, and design visioning—to evaluate Msheireb’s TOD performance across travel behavior, built-environment diversity and density, and cultural heritage preservation. Findings show strong satisfaction with the Msheireb Metro Station (mean = 4.38; 55% excellent), though 87% of users treat it as a transit interchange rather than a destination. Extreme summer heat was cited by 89% of respondents as the principal barrier to walking and cycling, while parking and cycling infrastructure received the lowest ratings. Spatial analysis revealed an imbalanced land-use structure dominated by special-use (43.4%) and residential (33.4%) zones, with mixed-use development comprising only 5.1%. Heritage assets, including four preserved traditional houses, were rated highly for authenticity (mean = 4.58) and integration (mean = 4.52) but remain spatially clustered rather than distributed across the catchment. These findings inform a context-sensitive regeneration framework addressing multimodal connectivity, thermal comfort, mixed-use intensification, and heritage distribution. The study concludes that heritage-led TOD in car-dependent Gulf cities requires people-centred, climate-responsive design integrating cultural identity with mobility infrastructure, offering transferable guidance for historic districts across the GCC region.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.1007/s10668-026-08108-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Environment Development and Sustainability",
+      "direction": "llm",
+      "id": "d81a4e40039a"
+    },
+    {
+      "title": "DXSP: gesture-only temporal localization of decisive moments in dyadic persuasion",
+      "authors": "Pakpoom Chaimook, Kaoru Sumi",
+      "abstract": "Persuasive systems must detect user engagement in real time in order to adapt their strategy. Existing methods rely primarily on facial expressions or voice signals. Both raise privacy concerns and degrade under low video quality, motion blur, and ambient noise. Body gestures offer a privacy-preserving alternative, since skeleton representations do not encode identifiable facial features. What is missing is a method that localizes the specific moments at which gesture matters, rather than averaging behavior across the whole interaction. We introduce Dyadic Cross-Sparse Pooling (DXSP), a gesture-only neural architecture that localizes sparse decisive moments in dyadic persuasion without using face, voice, or verbal content. DXSP models both participants through cross-attention, weights candidate moments by interpersonal synchrony through a concordance gate, and selects exactly k = 3 windows per dyad through a hard top- k mechanism. We evaluate DXSP on 46 Japanese dyadic persuasion dialogues using upper-body pose data from the Sapiens Goliath foundation model. First, decisive moments are distributed across the full interaction rather than concentrated in any single phase. A three-component mixture fits the selected positions, but random selection of the same number of windows reproduces this evidence at every value of k from 1 to 10. Second, the relative concentration of decisive moments across phases differs between successful and failed outcomes. Successful dyads place 49.1% of their peaks in the opening phase. Failed dyads place 42.0% in the middle phase. Three tests converge on this contrast, including a permutation test that accounts for within-dyad clustering. Only the opening-phase comparison survives correction, and the association is not stable across values of k . Third, joint-level differences did not reach significance after correction across the seven joints, and the joint ranking is exploratory. The study contributes a mechanism that returns explicit decisive positions, evidence that mixture-based clustering claims require calibration against a matched null, and a preliminary phase-level link between decisive-moment placement and outcome. Gesture-only sensing therefore relates to persuasion at the level of phase distribution rather than detecting three-phase structure. This offers preliminary guidance for phase-aware intervention timing.",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.3389/frai.2026.1928901",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "llm",
+      "id": "39c2c0df824a"
+    },
     {
       "title": "Embedding-aware noise modeling of quantum annealing",
       "authors": "Seon-Geun Jeong, Dinh Cong Mai, Dae-Il Noh, Quoc‐Viet Pham, Won–Joo Hwang",
@@ -11904,102 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "ebc219fd3071"
-    },
-    {
-      "title": "CANDLE: Character-level Arabic Noise Deduplication using Lightweight Encoder",
-      "authors": "Faris Alasmary, Taif Nono, Orjuwan Zaafarani, Kholood Al Tabash, Ahmad Ghannam...",
-      "abstract": "Handling repeated characters in text can be tricky, since they can represent either the correct spelling of a word or informal character elongation often seen in social media posts. We present CANDLE, a lightweight system for character-level Arabic noise deduplication that addresses this challenge without relying on handcrafted rules, dictionaries, or morphological analyzers. At the heart of CANDLE is a novel application of Connectionist Temporal Classification (CTC) to this task, a formulation not previously explored for character deduplication, which frames normalization as a sequence alignment problem over a character-based encoder. Evaluated on three benchmarks spanning clean newspaper, manually curated ambiguous cases, and real-world social media text, the CTC model achieves a Sentence Error Rate (SER) as low as $5.37\\%$ and consistently outperforms a classification-based baseline by a large margin. To reduce inference overhead, we distill the 6-layer CTC model into a 2-layer student, achieving a $3\\times$ depth reduction with minimal performance degradation. Beyond deduplication accuracy, normalization yields a practical downstream benefit: a relative reduction in tokenizer fertility of up to $12.8\\%$ across a diverse set of Arabic LLM tokenizers, directly lowering inference costs and improving context window utilization. We release all code and models publicly to support reproducibility and advance future research\\footnote{https://github.com/abjadai/candle}.",
-      "date": "2026-06-23",
-      "url": "https://arxiv.org/abs/2606.24758v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24758v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8ee972e2acdd"
-    },
-    {
-      "title": "To Compare, or Not to Compare: On Methodological Practices in Evaluating Social Bias",
-      "authors": "Federico Marcuzzi, Xuefei Ning, Roy Schwartz, Iryna Gurevych",
-      "abstract": "As Large Language Models are increasingly deployed in critical applications, robustly evaluating their social biases is paramount. However, the current literature suffers from widespread methodological fragmentation, which yields contradictory conclusions. This stems largely from ignoring the structural framing of benchmark-level evaluations. To resolve this, we introduce a unified and controllable framework that standardizes heterogeneous benchmarks to systematically contrast isolated demographic assessments with forced-choice comparative settings. Crucially, this allows us to disentangle the confounding effects of Chain-of-Thought reasoning, neutral fallback options, and other structural artifacts in social bias evaluations. Our evaluation across multiple model families reveals a massive, systematic paradigm gap: while isolated assessments limit prejudice activation, comparative settings act as aggressive catalysts for latent discrimination, a shift primarily driven by underspecified contexts. Alarmingly, CoT reasoning exacerbates social biases under comparative settings, and this systemic bias persists as a deterministic prejudice even when models are provided neutral fallback options or claim to answer randomly. Finally, we demonstrate that this comparative prejudice is a generalized phenomenon that scales positively with model size. Ultimately, we offer a crucial methodological guideline: while researchers must leverage comparative settings to robustly audit hidden biases, practitioners cannot safely rely on comparative deployments in ambiguous real-world tasks.",
-      "date": "2026-06-23",
-      "url": "https://arxiv.org/abs/2606.24596v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24596v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d3b7ba7a8603"
-    },
-    {
-      "title": "AdversaBench: Automated LLM Red-Teaming with Multi-Judge Confirmation and Cross-Model Transferability",
-      "authors": "Khanak Khandelwal",
-      "abstract": "Scaling adversarial evaluation of large language models requires both a method for generating hard inputs and a reliable way to confirm that resulting failures are real. We present AdversaBench, an end-to-end red-teaming pipeline that mutates seed prompts with five structured operators, queries a target model, and confirms failures through a three-judge panel with a meta-judge tiebreaker. We report experiments on 45 seeds across three categories: reasoning, instruction-following, and tool use. Every seed produced a confirmed failure. Four findings stand out. First, operator effectiveness varies sharply by category: inject_distractor scores 0.00 mean reward on instruction-following seeds but 0.80-0.83 on reasoning and tool-use. Second, binary failure rate hides difficulty: instruction-following seeds required 2.4 attacker iterations on average versus 1.1 for other categories, a gap visible in survival curves. Third, pairwise judge agreement of 80-87% coexists with near-zero Cohen's kappa due to label skew; category-level disagreement rates are more informative. Fourth, adversarial prompts generated against Llama 3.1 8B transfer zero-shot to Llama 3.3 70B, suggesting the mutations exploit general behavioral patterns rather than model-specific weaknesses. Code, dataset, and analysis scripts are available at https://github.com/khanak0509/AdversaBench .",
-      "date": "2026-06-23",
-      "url": "https://arxiv.org/abs/2606.24589v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24589v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "2a105fb2e43b"
-    },
-    {
-      "title": "Transformer-Based Language Models Across Domain Verticals: Architectures, Applications and Critical Assessment",
-      "authors": "Guruprakash J, Krithika L. B",
-      "abstract": "Transformer-based language models have become the default substrate for natural language processing and the pace of new releases has made it hard for practitioners to separate durable ideas from the noise of incremental announcements. This review works at two levels. At the level of mechanism, we organise the main transformer families into a working taxonomy, covering encoder-only, decoder-only, encoder-decoder, long-context, permutation-based, and generator-discriminator variants. We then extend the discussion to post-2023 developments that changed the picture in practice: instruction tuning, reinforcement learning from human feedback, direct preference optimisation, mixture-of-experts scaling, retrieval augmentation and the current flagship model families from OpenAI, Anthropic, Google, Meta, Mistral and DeepSeek. At the level of use, we survey deployments across healthcare, finance, legal, education, customer service, creative writing and scientific work. Based on this we link each to the specific capabilities that make a transformer the appropriate tool. The contribution of this paper is a critical assessment that is based on the survey. We compare architectures on four axes that matter to deployment decisions, we quantify the trade-off between parameter count and energy cost. We also discuss how alignment methods, data provenance and benchmark saturation change what it means to call a model \"state of the art\". The final section lists the research questions that we think deserve more attention.",
-      "date": "2026-06-23",
-      "url": "https://arxiv.org/abs/2606.24331v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24331v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "7eb31dae4ffc"
-    },
-    {
-      "title": "Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning",
-      "authors": "Chenhao Dang, Jing Ma, Mingjie Liao",
-      "abstract": "The composition of training data, governed by the diversity of sources and their mixing strategy, is a cornerstone of Large Language Model (LLM) pre-training. Online Data Mixing (ODM), the technique of adaptively adjusting data mixtures during training, has emerged as a promising direction to improve efficiency. However, existing methods are constrained by their reliance on a singular optimization perspective, which fundamentally overlooks the need for complex LLM pre-training to consider the dynamic data composition from multiple dimensions. To overcome this limitation, we introduce the Holistic Data Scheduler (HDS), a novel online data mixing framework. HDS formulates the data scheduling challenge as a reinforcement learning problem in a continuous control space and leverages the Soft Actor-Critic (SAC) algorithm for its stability and sample efficiency in exploring the high-dimensional policy space. At the core of HDS lies a novel multi-objective, holistic reward function that integrates three critical perspectives: a data-driven reward for quality, a loss-driven reward capturing inter-domain influence, and a model-driven reward based on weight norms. To validate our design and determine its optimal configuration, we conducted systematic experiments on LLMs of various sizes. On The Pile benchmark, HDS reaches the final validation perplexity of the next best method with 44% fewer training iterations. Furthermore, it achieves a 7.2% improvement on the MMLU 0-shot task along with consistent gains on other benchmarks, showcasing its ability to enhance both training efficiency and final model capability.",
-      "date": "2026-06-23",
-      "url": "https://arxiv.org/abs/2606.24133v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24133v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "14bd4dccc422"
-    },
-    {
-      "title": "Natural language processing methods to classify unplanned returns following dental extractions",
-      "authors": "Farhana Pethani, Jonathan K. Kummerfeld, Albert Yaacoub, Xiang Dai, Dr Mike Conway, ...",
-      "abstract": "Information about the reasons why patients return after a dental extraction could be used in quality-of-care indicators in dentistry, but these reasons are typically not recorded in a structured form in dental records. Our aim was to determine whether information in dental clinical notes could be used to help identify which patient returns were unplanned and due to complications. We manually annotated the clinical notes for 4,756 return visits occurring within 14 days of a dental extraction, separating unplanned returns due to complications from unplanned returns for other reasons and planned return visits. Four pre-trained language models (PLMs) and a bag-of-words logistic regression model were tested and performance was measured by F1-score. SHapley Additive exPlanations (SHAP) values were used as a post-hoc explainability analysis. When classifying unplanned returns due to complications versus all reasons for return, the best performing PLM produced an F1-score of 0.82. No significant difference in performance was found across the four PLMs. The performance of the bag-of-words logistic regression model was significantly lower (F1-score of 0.71). The SHAP analysis suggested that notes related to alveolar osteitis and post-operative infection were most predictive of unplanned returns following a dental extraction. NLP methods can be used to distinguish between unplanned returns due to complications from dental clinical notes. The results suggest that dental clinical notes could be used to improve measures of unplanned returns as a quality-of-care indicator.",
-      "date": "2026-06-22",
-      "url": "https://doi.org/10.1186/s44247-026-00273-w",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "BMC Digital Health",
-      "direction": "medical",
-      "id": "608e6648632e"
-    },
-    {
-      "title": "A scoping review of the use of artificial intelligence as a psychological assessment tool",
-      "authors": "Vinayak Dev, Nathan S. Consedine, Yuan Gao, Rajitha Narayanasamy, Anna Serlachius",
-      "abstract": "Mental health disorders are highly prevalent worldwide, yet access to timely and effective mental health assessment (and care) remains limited. Artificial intelligence (AI) offers potential solutions, but the literature on its use in psychological assessment contexts has not been comprehensively mapped. This review aimed to systematise existing research, identify gaps, evaluate methodological limitations, and outline future directions. Using a librarian-approved search strategy, 7595 records were retrieved from major databases and screened independently by two coders. Following the eligibility assessment, 320 peer-reviewed articles were included. Studies showed wide variability in sample sizes (1-19,400,000) with no clear temporal trend. Most recruited clinical (21%) or general population (16%) samples from China (24%) or the United States (21%), and focused on depression (54%), anxiety (14%), suicidality (12%) or stress (8%). Supervised (75%) and deep learning (47%) approaches predominated, often with multiple algorithms compared (77% of the studies). Validation commonly relied on cross-validation and convergence with screening instruments, with relatively little use of DSM or ICD diagnostic criteria (71% used neither). Area-Under-the-Receiver-Operating-Characteristics-Curve (AUC) was the most frequently used performance metric, and unsupervised models achieved the highest average AUC. A marginal improvement in performance was evident from 2014 to 2025. Overall, AI shows promise as a psychological assessment tool, but progress is constrained by limited transparency, heavy reliance on self-report data, inconsistent use of validated diagnostic standards, a narrow focus on outcomes, and insufficient demographic and cultural analyses. Future research should prioritise interpretability, ethical and cultural responsiveness, multi-modal data, diverse samples, and clinically meaningful validation.",
-      "date": "2026-06-22",
-      "url": "https://doi.org/10.1038/s41398-026-04181-5",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Translational Psychiatry",
-      "direction": "medical",
-      "id": "5faa2ea822c7"
-    },
-    {
-      "title": "Mapping The Sustainable Development Goals in Digital Twin Research: Low Code Topic Modeling and LLM-Based Evaluation Framework",
-      "authors": "Hüseyin Parmaksız, Hande BOĞAZLIYAN TURANLI, Osman Akarsu",
-      "abstract": "Birleşmiş Milletler Genel Kurulu'nun 2015 yılında \"Sürdürülebilir Kalkınma için 2030 Gündemi\"ni kabul etmesi, 2030 yılına kadar 17 Sürdürülebilir Kalkınma Hedefine (SKH) ulaşma konusunda küresel bir taahhüt oluşturmuştur. Son tarih yaklaşırken, bilim, teknoloji ve inovasyon (BTİ), bu hedeflere doğru ilerlemeyi hızlandırmada hayati öneme sahip olarak kabul edilmektedir. Bu çalışmada; Web of Science'da (WoS) indekslenen 10.306 dijital ikiz araştırma yayının SKH'lerle olan ilişkisi analiz edilmiştir. KNIME platformu ile konu modellemesi kullanılarak, dijital ikiz literatüründeki gizli temalar belirlenmiş ve belirli SKH'lerle uyumluluk açısından değerlendirilmiştir. Her konu için alt hedef ilişkileri, yerelde Ollama uzakta ise OpenRouter aracılığıyla yeni, popüler modeller aracılığıyla yapılmıştır. Ek olarak, mezo ve mikro düzey analizler, dijital ikiz teknolojileri içindeki zamansal evrimi, tematik yoğunluğu ve araştırma odağını vurgulamaktadır. Bulgular, dijital ikiz teknolojileri ile sürdürülebilir kalkınma arasındaki kesişim noktasına dair ayrıntılı bir anlayış sunarak, gelecekteki BTİ politikalarının geliştirilmesi için stratejik bilgiler sağlamaktadır. Çalışma ayrıca, dijital ikiz araştırmalarında odaklanılması gereken temel sürdürülebilirlik alanlarını özetlemekte ve araştırmacılar için SKH odaklı bir yol haritası sunarak, teknolojik yeniliklerin sürdürülebilirlik üzerindeki etkilerini analiz etmek için kapsamlı bir çerçeve oluşturmaktadır.",
-      "date": "2026-06-22",
-      "url": "https://doi.org/10.63556/tisej.2026.1814",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "3 SEKTÖR SOSYAL EKONOMİ DERGİSİ",
-      "direction": "cell",
-      "id": "516c23e40f7a"
     }
   ]
 }
