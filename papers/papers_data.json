@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-09-18 21:26",
+  "last_updated": "2026-09-19 21:18",
   "papers": [
+    {
+      "title": "What is the Role of Small Models in the LLM Era: A Survey",
+      "authors": "Lihu Chen, Gaël Varoquaux",
+      "abstract": "Abstract Large Language Models (LLMs) have demonstrated remarkable capabilities in various reasoning tasks, which leads to the development of increasingly large models. However, scaling up model sizes results in significantly higher computational costs and energy consumption, which makes these models impractical for academic researchers and businesses with limited resources. At the same time, Small Models (SMs) are frequently used in practical settings, although their significance is currently underestimated. This raises important questions about the role of small models in the era of LLMs, a topic that has received limited attention in prior surveys. In this work, we systematically examine the relationship between LLMs and SMs from two key perspectives: Collaboration and Competition (or Complementarity). We hope this survey provides valuable insights for practitioners, fostering a deeper understanding of the contribution of small models and promoting more efficient use of computational resources. Code and additional resources for this survey are available at: https://github.com/tigerchen52/awesome_role_of_small_models.",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.1162/coli.a.652",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Computational Linguistics",
+      "direction": "medical",
+      "id": "cce921546172"
+    },
+    {
+      "title": "What is the Role of Small Models in the LLM Era: A Survey",
+      "authors": "Lihu Chen, Gaël Varoquaux",
+      "abstract": "Abstract Large Language Models (LLMs) have demonstrated remarkable capabilities in various reasoning tasks, which leads to the development of increasingly large models. However, scaling up model sizes results in significantly higher computational costs and energy consumption, which makes these models impractical for academic researchers and businesses with limited resources. At the same time, Small Models (SMs) are frequently used in practical settings, although their significance is currently underestimated. This raises important questions about the role of small models in the era of LLMs, a topic that has received limited attention in prior surveys. In this work, we systematically examine the relationship between LLMs and SMs from two key perspectives: Collaboration and Competition (or Complementarity). We hope this survey provides valuable insights for practitioners, fostering a deeper understanding of the contribution of small models and promoting more efficient use of computational resources. Code and additional resources for this survey are available at: https://github.com/tigerchen52/awesome_role_of_small_models.",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.1162/coli.a.652",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Computational Linguistics",
+      "direction": "llm",
+      "id": "cce921546172"
+    },
+    {
+      "title": "Evaluating fine-tuned, embedding-based, and zero-shot models for aspect-based sentiment analysis in South Slavic news",
+      "authors": "Nishan Chatterjee, Boshko Koloski, Antoine Doucet, Senja Pollak, Matthew Purver",
+      "abstract": "In the contemporary digital media landscape, the ability to automatically distill public opinion from a vast and continuous stream of information is highly important. Aspect-Based Sentiment Analysis (ABSA) offers this granular capability. In this work, we address a specific, industrially relevant formulation of this task, more formally known as document-level entity-targeted sentiment analysis (TSA) or entity-level sentiment analysis (ELSA), where the “aspects” are named entities such as companies and brands. However, its application to morphologically complex, less-resourced languages like those in the South Slavic family, particularly within the long-form news domain, remains a significant challenge. In this work, we introduce AspectBench, a new benchmark dataset for document-level ABSA, comprising real-world online news articles in Slovenian and Serbo-Croatian, designed to test generalization to unseen aspects, with the Serbo-Croatian portion being made publicly available. Using this benchmark, we conduct a comprehensive empirical study evaluating five distinct modeling paradigms, including lightweight document-embedding-based classifiers, fine-tuned multilingual and language-specific pretrained language models (PLMs), hierarchical attention networks (HANs), local large language models (LLMs) in zero and few-shot settings, and learning-to-defer (L2D) policies with multi-expert PLMs, complete LLM deferral, and confidence-gated selective LLM deferral using DSPy-calibrated prompts. Our experiments show that supervised expert models remain the most reliable foundation for this task, with Longformer, mDeBERTa-v3, mT5, language-specific encoders, and hierarchical models providing strong performance depending on language and class balance. Aspect masking is generally useful for supervised expert models, especially the PLM and HAN variants, but is not uniformly beneficial across all model families and evaluation views. Standalone local LLMs are not competitive, and complete LLM deferral is unstable when applied to every instance. However, selective LLM deferral is more promising because routing low-confidence expert predictions to the LLM can improve or stabilize performance while limiting unnecessary LLM calls. We additionally use minimum viable set analysis to show how performance, calibration, and uncertainty scale with annotation volume, providing practical guidance for future media-monitoring annotation campaigns on real-world datasets. Our work therefore fills a crucial gap for less-resourced ABSA and offers practical insights into the trade-offs between model complexity, data characteristics, and the development of robust, learning-to-defer systems for real-world media monitoring.",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.3389/frai.2026.1844418",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "llm",
+      "id": "f9f75caebf6d"
+    },
+    {
+      "title": "AI-Assisted Risk and Incident Analysis: Advances and Future Opportunities",
+      "authors": "Uchechi Mary-Linda Unamma",
+      "abstract": "Operational risk and security incidents now unfold across distributed, cloud-native estates that generate volumes of telemetry no human team can manually triage at speed. Over the past decade, artificial intelligence (AI) and machine learning (ML) have moved from experimental log-mining prototypes to production components of security operations centres, site reliability engineering practices, and enterprise risk functions. This paper synthesises the advances that have made AI assisted risk and incident analysis viable and examines the opportunities and limitations that will shape the next phase of adoption. We organise the state of the art into five capability areas: anomaly and detection analytics over logs, metrics, and traces; alert triage, deduplication, and correlation; natural language processing (NLP) and large language models (LLMs) for incident summarisation, knowledge retrieval, and postmortem authoring; automation and orchestration of response workflows; and human–AI collaboration in the analyst loop. We map these capabilities to established incident-handling and risk-management frameworks and present a structured capabilities table describing typical inputs, methods, and outputs. We then interrogate the open challenges that temper enthusiasm: model hallucination and reliability, the sensitivity and governance of incident data, the immaturity of evaluation methodology, and the operational hazards of over-automation. Finally, we propose a research agenda spanning benchmarking, retrieval-grounded and explainable reasoning, evaluation of human–AI teams, and resilience aware automation. We argue that the near-term value of AI in this domain lies less in autonomous decision-making than in augmenting scarce expert attention, and that trustworthy deployment depends on grounding, evaluation, and human oversight rather than on model scale alone.",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.56201/wjimt.v9.no8.2025.pg99.142",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "WORLD JOURNAL OF INNOVATION AND MODERN TECHNOLOGY",
+      "direction": "medical",
+      "id": "af55c7becba9"
+    },
+    {
+      "title": "Organ-on-a-chip platforms for disease modeling and in vitro diagnostic applications",
+      "authors": "Po Hao, Jingrong Deng, Jian Xu",
+      "abstract": "Organ-on-a-Chip (OoC) systems, as microphysiological models integrating microfluidic engineering, 3D tissue construction, and sensing technologies, can faithfully recapitulate the barrier functions, dynamic microenvironments, and inter-tissue crosstalk of human organs. They effectively address the inherent limitations of traditional 2D cell cultures and animal models in in vitro diagnostics (IVD), offering a novel avenue to tackle the high failure rate of candidate drugs and biomarkers in clinical translation. This review systematically summarizes the technological advances and application practices of OoC in the IVD field, covering core construction technologies (microfluidic regulation, cell and tissue engineering, material innovation), the integrated optimization of the “online real-time monitoring–offline in-depth analysis” dual-detection system, and typical applications in disease modeling, biomarker screening, drug toxicity evaluation, and personalized diagnosis. It further explores Multi-Organ-Chip (MOC) systems and Artificial Intelligence (AI) empowerment, analyzes core bottlenecks including insufficient physiological complexity, lack of standardization, and barriers to clinical translation and industrialization, and prospects future directions from technological optimization, standardization establishment, and regulatory pathway exploration. By focusing on the IVD-oriented perspective, this review aims to provide theoretical references and practical guidance for the transformation of OoC from laboratory research to clinical IVD tools.",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.3389/fbioe.2026.1956618",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "direction": "cell",
+      "id": "06e08407cdf8"
+    },
+    {
+      "title": "Physics-guided diffusion models for inverse design of disordered metamaterials",
+      "authors": "Ziyuan Xie, Weipeng Xu, Dazhi Zhao, Wenchang Zhang, Daoyang Dong, ...",
+      "abstract": "Disordered metamaterials are promising for programming physical properties, yet their inverse design remains challenging due to the non-intuitive structure-property relationships. Recent generative approaches, particularly diffusion models, have shown potential in high-dimensional inverse design tasks. However, existing methods typically rely on task-specific training strategies, such as conditional data-driven or physics-informed loss functions. Consequently, models must be retrained from scratch whenever governing equations, boundary conditions, or design objectives change, limiting their flexibility and generalization. In this work, we propose physics-guided diffusion models that leverage differentiable physics-based solvers to instantly guide the generative process for inverse design. Drawing inspiration from classifier guidance, we develop a sampling strategy that directly incorporates physics guidance into the reverse stochastic differential equations. Using gradients from differentiable solvers, our approach enables task-adaptive generation within a learned morphology prior, while requiring the diffusion model to be trained only once on unlabeled data. Focusing on 2D disordered closed-cell foam metamaterials, we present three design tasks: (1) achieving target effective thermal conductivity, (2) matching desired load-displacement response, and (3) maximizing energy absorption involving fractures. The results in each scenario demonstrate the versatility, efficiency, and practicality of physics-guided diffusion models for tackling complex inverse design problems in disordered metamaterials and beyond.",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.1038/s41524-026-02328-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Computational Materials",
+      "direction": "cell",
+      "id": "80d6db8076a8"
+    },
+    {
+      "title": "Source-Free Domain Adaptation with Vision-Language Prior",
+      "authors": "Song Tang, Yunxiang Bai, Wenxin Su, Mao Ye, Jianwei Zhang, ...",
+      "abstract": "Abstract Source-Free Domain Adaptation (SFDA) seeks to adapt a source model, which is pre-trained on a supervised source domain, for a target domain, with only access to unlabeled target training data. Relying on pseudo labeling and/or auxiliary supervision, conventional methods are inevitably error-prone. To mitigate this limitation, in this work we for the first time explore the potentials of off-the-shelf vision-language (ViL) multimodal models (e.g., CLIP) with rich whilst heterogeneous knowledge. We find that directly applying the ViL model to the target domain in a zero-shot fashion is unsatisfactory, as it is not specialized for this particular task but largely generic. To make it task-specific, we propose a novel DIFO++ approach. Specifically, DIFO++ alternates between two steps during adaptation: (i) Customizing the ViL model by maximizing the mutual information with the target model in a prompt learning manner, (ii) Distilling the knowledge of this customized ViL model to the target model, centering on gap region reduction. During progressive knowledge adaptation, we first identify and focus on the gap region, where enclosed features are entangled and class-ambiguous, as it often captures richer task-specific semantics. Reliable pseudo-labels are then generated by fusing predictions from the target and ViL models, supported by a memory mechanism. Finally, gap region reduction is guided by category attention and predictive consistency for semantic alignment, complemented by referenced entropy minimization to suppress uncertainty. Extensive experiments show that DIFO++ significantly outperforms the state-of-the-art alternatives. Our code and data are available at https://github.com/tntek/DIFO-Plus .",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.1007/s11263-026-03023-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Computer Vision",
+      "direction": "llm",
+      "id": "36732a5f3852"
+    },
     {
       "title": "ImaGGen: Zero-Shot Generation of Co-Speech Semantic Gestures Grounded in Language and Image Input",
       "authors": "Hendric Voß, Stefan Kopp",
@@ -11916,90 +12000,6 @@
       "venue": "Scientific Reports",
       "direction": "cell",
       "id": "cef27503b1d8"
-    },
-    {
-      "title": "Machine learning–driven discovery of antimicrobial peptides against Pseudomonas aeruginosa",
-      "authors": "Yatong Zhang, Xuelin Sun, Hui Li, Dandan Li, Caiyuan Yu, ...",
-      "abstract": "Introduction Antibiotic resistance has become a global health crisis, driving the urgent need for novel antibacterial strategies. Antimicrobial peptides (AMPs) have emerged as promising therapeutic candidates due to their broad-spectrum activity and low propensity for resistance development. However, conventional discovery approaches remain time-consuming and inefficient for large-scale screening. Methods In this study, we developed an integrated prediction framework that combines deep learning with classical machine learning methods to enable rapid and accurate identification of AMPs. The model was applied to screen over 250,000 artificially generated peptide sequences. Candidate peptides were selected based on physicochemical descriptors and activity-associated features, followed by solid-phase synthesis and minimum inhibitory concentration assays against Pseudomonas aeruginosa. Mechanistic investigations were conducted using scanning electron microscopy to visualize membrane damage, molecular dynamics simulations to probe peptide-membrane interactions, and transcriptomic profiling to assess bacterial stress responses and metabolic pathway alterations. Results Ten promising antibacterial candidates were successfully identified and experimentally validated. All selected peptides exhibited measurable activity against P. aeruginosa, with several showing potent inhibitory effects. Microscopic and simulation analyses confirmed that the peptides exert their antibacterial effects primarily through membrane disruption. Transcriptomic data further revealed that these peptides interfere with key metabolic pathways and activate bacterial stress response systems. Discussion Our findings demonstrate that the integrated deep learning-machine learning pipeline offers an efficient and reliable approach for large-scale AMP discovery. The mechanistic insights gained from this study not only validate the predicted candidates but also provide a foundation for rational optimization of peptide-based therapeutics. This comprehensive strategy holds promise for accelerating the development of next-generation alternatives to conventional antibiotics.",
-      "date": "2026-06-24",
-      "url": "https://doi.org/10.3389/fphar.2026.1837055",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Pharmacology",
-      "direction": "cell",
-      "id": "ef631e4fb39d"
-    },
-    {
-      "title": "Growth-rate analysis of clathrin assembly: inferring endocytic kinetics in living cells and tissues",
-      "authors": "Aritra Mondal, Cömert Kural",
-      "abstract": "Measuring protein kinetics in living cells remains challenging due to the complexity of intracellular environments and the limitations of live-cell imaging. Clathrin-mediated endocytosis (CME) provides a model system in which protein assembly dynamics encode functional outcomes, yet conventional approaches rely on reconstructing full trajectories of individual events, making them sensitive to tracking errors and difficult to extend to dense or in vivo systems. Here, we review growth rate–based analysis of clathrin assembly as an alternative framework for quantifying endocytic kinetics. By extracting local rates of fluorescence intensity change from short temporal segments, this approach bypasses trajectory reconstruction and instead yields growth rate distributions that robustly capture ensemble dynamics. The standard deviation of these distributions serves as a quantitative metric of kinetic variability and distinguishes distinct dynamical regimes. We highlight how growth-rate analysis reveals key regulatory mechanisms, including membrane tension–dependent modulation of CME and spatiotemporal heterogeneity across cells and tissues, and discuss recent advances leveraging deep learning to infer dynamic behavior from single images. Together, these developments establish a scalable and minimally invasive strategy for measuring protein kinetics in living systems under physiologically relevant conditions.",
-      "date": "2026-06-24",
-      "url": "https://doi.org/10.3389/fmolb.2026.1844575",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Molecular Biosciences",
-      "direction": "cell",
-      "id": "dfb0e3a77c6c"
-    },
-    {
-      "title": "Enhancing Real-time Arabic Sign Language Recognition Using CNN-BiLSTM with a Two-stage Training Strategy based on Feature Extraction Refinement",
-      "authors": "Asmaa Ourdighi, Khadidja Belbachir, Sarah Maroc",
-      "abstract": "Convolutional Neural Networks (CNNs) have become a cornerstone of Arabic Sign Language (ArASL) recognition.However, many state-of-the-art approaches rely on intensive preprocessing pipelines or aggressive data augmentation, which can limit real-time applicability and increase computational overhead.In this work, we demonstrate that highly competitive performance can be achieved directly from raw grayscale inputs by strategically decoupling representation learning from classifier optimization.Instead of emphasizing data manipulation, we focus on the co-design of model architecture and training dynamics.We propose a two-stage optimization framework for hybrid CNN-RNN models, incorporating a frozen-head refinement strategy.This approach promotes a structured evolution of the latent space and enhances training stability by preventing premature overfitting of the classification layers.The proposed framework is evaluated on the ArASL2018 benchmark using a CNN-Bidirectional Long Short-Term Memory (CNN-BiLSTM) architecture.Experimental results show that our method achieves a state-of-the-art accuracy of 99.50% without the need for data augmentation.Beyond raw accuracy, the framework demonstrates strong efficiency and robustness, making it particularly suitable for real-time deployment in resource-constrained Arabic sign language recognition systems.",
-      "date": "2026-06-24",
-      "url": "https://doi.org/10.22266/ijies2026.0731.24",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International journal of intelligent engineering and systems",
-      "direction": "cell",
-      "id": "c0ada2537e8d"
-    },
-    {
-      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
-      "authors": "Akshay Paruchuri, Sanmi Koyejo, Ehsan Adeli",
-      "abstract": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability property called for by emerging AI evaluation guidelines. We introduce Facet-Probe, a five-facet audit (option, evidence-chunk, document-rank, image-set, and mixed-modality ordering) of 18 frontier and open-weight MLLMs. A Bayesian item-response model separates ordering noise from per-facet bias, and a same-ordering control estimates the decoder-stochastic floor for observed flips. We find that none of the 18 MLLMs we audit are order-invariant: screened per-facet panel-mean flip rates span 24-50%. A Gemini same-ordering control at temperature 0 estimates a substantial ordering excess over a same-input decoder-noise floor in verified cells. Capability predicts but does not eliminate flips; the best model still flips on 13.4% of trials. In our Gemini mitigation tests, training-free prompt changes are modality-conditional and do not transfer from text to visual reasoning. These results suggest that prompt-level mitigation alone is unlikely to provide general order robustness, motivating future work on training-time and architectural approaches. We propose cross-ordering flip rate as a standard reporting axis for MLLMs.",
-      "date": "2026-06-24",
-      "url": "https://arxiv.org/abs/2606.26079v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26079v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "039f7c7c25e9"
-    },
-    {
-      "title": "How Robust is OCR-Reasoning? Evaluating OCR-Reasoning Robustness of Vision-Language Models under Visual Perturbations",
-      "authors": "Yuxing Cheng, Yuan Wu, Yi Chang",
-      "abstract": "Vision-language models (VLMs) have achieved strong performance on OCR-based benchmarks and increasingly focused on text-rich understanding, but their robustness under controlled visual degradation remains insufficiently understood. This gap is critical for OCR reasoning, where visual corruption can induce OCR errors and structural distortions, thereby introducing uncertainty into the reasoning task. To systematically study this problem, we introduce OCR-Robust, a benchmark designed for evaluating OCR reasoning robustness under visual perturbations. It contains 812 samples across two complementary subsets: OCR1.0, covering documents, scene text, receipts, handwriting, and mathematical content, and OCR2.0, focusing on charts, geometry diagrams, and tables. To enable efficient yet informative evaluation, we conduct a pilot study over 18 candidate perturbations and select 5 representative types at 3 severity levels each based on their impact and cross-model discriminability. We evaluate robustness using clean accuracy, Relative Corruption Retention (RCR), Worst-Case Retention (WCR), and a composite Corruption Robustness Index (CRI), and benchmark 18 models spanning proprietary systems, open-source VLMs, and OCR+LLM pipelines. Our results show that higher clean accuracy does not necessarily imply stronger robustness, and that models can suffer pronounced degradation in the worst case on OCR tasks that are sensitive to structure, and charts and tables are substantially more fragile than document-like inputs under perturbation.",
-      "date": "2026-06-24",
-      "url": "https://arxiv.org/abs/2606.26041v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26041v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8bec85ee8732"
-    },
-    {
-      "title": "AI translation of literary texts is \"fine\", but readers still prefer human translations",
-      "authors": "Yves Ferstler, Adam Podoxin, Ty Brassington, Roman Grundkiewicz, Maite Taboada...",
-      "abstract": "AI translation of literary works is increasingly common. While the content may be rendered adequately, we do not know enough about how readers experience it in terms of immersiveness and literary effect, aspects poorly captured by automatic machine translation metrics or human evaluation targeting fluency and adequacy. We ask 15 avid readers to compare recently published human translations (HT) to machine translations (MT) generated with an agentic large language model (LLM)-based pipeline, for 15 recent novels in French, Polish, and Japanese and translated into English. Readers evaluated approximately 8K-word excerpts in two conditions: immersive reading of the whole excerpt (30 comparisons) and close reading of 386 aligned HT-MT chunk pairs (772 comparisons), with two readers per book and in alternating order of presentation. Overall, readers find MT \"fine\", but prefer HT (slightly at excerpt-level 19/30, more clearly at chunk-level 522/772) for its ease, clarity, and immersive nature. Readers' highlights show that MT's quality varies more within one book than HT's does. Crucially, readers cannot reliably tell the two apart (17/30 guess correctly) and tend to prefer the version they believe to be human. Automatic metrics, including LLM-as-a-judge approaches, fail to recover reader preferences and favor MT. We release LAIT (Literary AI Translation), a reader-centered evaluation dataset with 1K reader comments, 2K judgments and preference ratings, and 7.2K span-level annotations, along with our evaluation protocol and supporting interface.",
-      "date": "2026-06-24",
-      "url": "https://arxiv.org/abs/2606.26040v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26040v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "442390035178"
-    },
-    {
-      "title": "Overview of HIPE-2026: Person-Place Relation Extraction from Multilingual Historical Texts",
-      "authors": "Juri Opitz, Maud Ehrmann, Corina Raclé, Andrianos Michail, Matteo Romanello...",
-      "abstract": "Was this person ever at that place, and if so, when? Answering such questions from noisy, multilingual historical documents is the central challenge of HIPE-2026, the third edition of the HIPE evaluation series. Moving from named entity recognition and linking (HIPE-2020, HIPE-2022) to reasoning about relationships between entities, HIPE-2026 targets two temporally grounded relation types: $at$, indicating that a person was present at a location at some point prior to a document's publication date, and $isAt$, indicating presence contemporaneous with that date. This paper presents the results of the evaluation campaign, which confronted 17 participating teams with the challenges of historical language variation, OCR noise, and indirect contextual cues across three languages: French, German, and English. The datasets include historical newspaper text from the nineteenth and twentieth centuries, as well as a surprise-domain generalization set drawn from early modern French literary texts. A distinctive feature of HIPE-2026 is its three-fold evaluation framework, which assesses predictive accuracy, computational efficiency, and cross-domain generalization, reflecting the practical demands of large-scale historical document processing in the cultural heritage domain. Across more than 40 submitted runs, results reveal a wide range of strategies, from state-of-the-art large language models to lightweight task-specific classifiers, and highlight the trade-offs between accuracy, efficiency, and robustness inherent to historical relation extraction at corpus scale. System descriptions, datasets, and findings are presented and discussed, offering a detailed picture of the current state of temporally grounded relation extraction for historical documents.",
-      "date": "2026-06-24",
-      "url": "https://arxiv.org/abs/2606.25935v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25935v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d02c005996fe"
     }
   ]
 }
