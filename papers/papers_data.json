@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-09-20 21:11",
+  "last_updated": "2026-09-21 22:27",
   "papers": [
+    {
+      "title": "Generative AI for Drug Discovery: GPT-2 and LSTM-Based Models for Designing EGFR Inhibitors",
+      "authors": "Omar Dasser, Othmane Filali Benaceur, Salma Fadel, Rim Kaanane",
+      "abstract": "Effective inhibitors for the epidermal growth factor receptor (EGFR) still present a major obstacle in the development of cancer drugs. In this work, we create new EGFR inhibitors using generative artificial intelligence (AI) by fine-tuning a GPT-2 model on a dataset comprising around 500,000 molecules from the ChEMBL database. We evaluate our method against a Long Short-Term Memory (LSTM) network trained on the same dataset to create benchmarks. Before being filtered depending on Lipinski's rule of five, synthetic accessibility, and drug-likeness scores, the produced compounds were evaluated for validity, distinctiveness, and novelty. To assess their binding affinities, chosen candidates underwent molecular docking experiments against EGFR (PDB ID: 1M17). Our results show that although GPT-2 excels in producing structurally varied molecules, the LSTM model generates a larger fraction of chemically valid compounds. Many produced candidates showed good binding interactions with EGFR, therefore highlighting the possibilities of deep learning-based generative models in hastening the early phases of therapeutic development. This work presents a scalable method for creating tailored cancer treatments by showing the synergy between AI and in silico drug design. Received: 24 February 2026 | Revised: 21 July 2026 | Accepted: 3 September 2026 Conflicts of Interest The authors declare that they have no conflicts of interest to this work. Data Availability Statement The data that support this work are available upon reasonable request to the corresponding author. Author Contribution Statement Omar Dasser: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data curation, Writing– original draft, Writing– review & editing, Visualization, Supervision, Project administration. Othmane Filali benaceur: Software, Visualization. Salma Fadel: Validation, Inves tigation, Writing– review & editing. Rim Kaanane: Validation, Formal analysis, Investigation, Writing– review & editing.",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.47852/bonviewmedin62029449",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Medinformatics",
+      "direction": "cell",
+      "id": "f6437375da3c"
+    },
+    {
+      "title": "Large Language Model-Driven Autonomous UAV Systems: Technical Evolution, Core Architectures, and Critical Challenges",
+      "authors": "Meijie Zhang, Hao Wang",
+      "abstract": "The rapid development of large language models (LLMs) has expanded the capabilities of autonomous unmanned aerial vehicle (UAV) systems in naturallanguage instruction understanding, multimodal perception, and decision-making. This survey reviews the technical evolution, system architectures, and deployment challenges of LLM-driven UAVs across perception, planning, control, multi-agent coordination, and edge–cloud computing. Beyond cataloguing representative systems, we separate semantic-reasoning latency, control timing, power, task outcomes, hardware, and validation settings to avoid misleading cross-platform comparisons. We further analyze Sim2Real gaps, intermittent connectivity, hallucination-induced action risk, cyberattacks, and privacy leakage. In this survey, a semantically adaptive safety certificate denotes a runtime-verifiable CBF/MPC/STL constraint whose safe set or margin is parameterized by grounded task and scene semantics but enforced by a deterministic safety layer outside the generative model. Future directions emphasize hierarchical lightweight reasoning, communication-aware autonomy, formally bounded semantic adaptation, and airworthiness-oriented assurance.",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.53941/ic.2026.100011",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Intelligence & Control",
+      "direction": "llm",
+      "id": "e885e4802f69"
+    },
+    {
+      "title": "Developing meta-FM machine learning model with application for personalized language learning environment",
+      "authors": "Qian Li, Y. Zhang",
+      "abstract": "A meta-pretrained factorization machine (FM) framework, termed Meta-FM, is proposed to address the cold-start problem in personalized learning path generation for middle-school foreign language education. The framework further introduces a cross-modal feature augmentation module that integrates categorical metadata (e.g., learning style) with continuous interaction data (e.g., quiz performance) to enrich sparse representations for new learners. The method integrates meta-learning principles with a high-dimensional FM architecture, enabling rapid adaptation to new students from minimal initial data while preserving generalizability across diverse cohorts. The core innovation lies in a three-module system: a meta-pretrained FM backbone that captures feature interactions through latent factors, an adaptive fine-tuning mechanism that updates these factors via few-shot learning, and a cross-modal feature augmentation layer that enriches sparse inputs with structured metadata. Unlike conventional approaches that rely on heuristic rules or extensive per-learner data, the framework dynamically refines recommendations by combining behavioral metrics with cognitive and demographic indicators. The system interfaces with existing diagnostic and ranking modules, replacing one-hot encodings with dense feature representations and stochastic Plackett–Luce ranking for path generation. Implemented with mixed-precision quantization and Transformer-based feature encoding, the method achieves efficient memory usage and robust cold-start performance. Experiments on multilingual student interaction logs demonstrate significant improvements in personalization accuracy and adaptation speed compared with baseline methods. The results highlight the potential of meta-pretrained FMs to bridge the gap between interpretable feature interactions and rapid cold-start adaptation in educational recommendation systems.",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.1038/s41598-026-71932-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "f369566d66b0"
+    },
+    {
+      "title": "Statistically grounded evaluation of demographic bias in deep facial representations using FairFace and UTKFace",
+      "authors": "Andisani Nemavhola, Serestina Viriri, Colin Chibaya",
+      "abstract": "Abstract Deep facial representation learning has achieved remarkable performance in computer vision applications; however, high overall accuracy does not necessarily ensure equitable performance across demographic groups. This study presents a unified framework for evaluating the quality and demographic fairness of pretrained deep facial representations. ResNet50, MobileNetV3, and the Data-efficient Image Transformer (DeiT) were evaluated using ImageNet-pretrained weights on the FairFace and UTKFace datasets, representing balanced and unconstrained demographic settings, respectively. Feature embeddings were assessed using one-nearest neighbour (1-NN) retrieval to measure the intrinsic discriminative capability of the representation space and Logistic Probe classification to evaluate the linear separability of demographic information. Fairness was examined through overall accuracy, subgroup performance, race–gender intersectional analysis, fairness gap, coefficient of variation, and statistical significance testing. Logistic Probe classification consistently outperformed 1-NN retrieval across both datasets, indicating that pretrained facial representations encode demographic information that can be effectively separated using simple linear classifiers. ResNet50 achieved the highest overall classification performance, whereas MobileNetV3 demonstrated more consistent subgroup performance in several evaluation settings. Intersectional analysis revealed persistent demographic disparities despite improvements in overall accuracy, underscoring the importance of fairness evaluation beyond aggregate metrics. The proposed framework provides a reproducible methodology for jointly assessing representation quality, demographic fairness, and statistical significance in deep facial representation learning.",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.1038/s41598-026-71795-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "5bfcb06266c2"
+    },
+    {
+      "title": "From search agents to dissemination interfaces: understanding human trust in health information from conversational search",
+      "authors": "Xin Sun, Rongjun Ma, Xiaochang Zhao, Janne Lindqvist, Jan de Wit, ...",
+      "abstract": "Large Language Models (LLMs) deployed through Conversational User Interfaces (CUIs) are transforming health information-seeking by offering immediate, interactive experiences compared to traditional search engines like Google. However, how trust is influenced by both the types of search agents and the interface used to disseminate the information remains underexplored. This research integrates two mixed-methods studies (lab sessions and interviews) to comprehensively explore trust perceptions in health information across different search agents and dissemination interfaces. In Study 1 (N = 21), we investigated trust in health information sourced from ChatGPT and Google across three types of health-related search tasks. Results showed significantly higher trust in health information from ChatGPT, highlighting the promise of LLM-powered conversational search. Building on this, Study 2 (N = 20) extended the investigation to explore how the dissemination interface influences trust in LLM-sourced health information by comparing three interfaces: text-based, speech-based, and embodied, all sourcing from the same LLM. Findings revealed significant trust variations across the dissemination interfaces. Interviews from both studies revealed key factors influencing trust in LLM-powered conversational search, including source credibility, participants' search autonomy, and prior knowledge as well as the interaction style and modality. Our findings highlight the potential of LLM-powered conversational search to transform health information-seeking, underscoring the interplay between the credible search agents and the thoughtfully designed dissemination interfaces in shaping trust. These insights are crucial for developing effective, trustworthy LLM-powered health tools to enhance the health information-seeking experience.",
+      "date": "2026-09-19",
+      "url": "https://doi.org/10.1080/0144929x.2026.2719735",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Behaviour and Information Technology",
+      "direction": "medical",
+      "id": "e192b130a14f"
+    },
+    {
+      "title": "‘AI does not get tired, but it has no feelings’: feedback quality, relational motivation, and learner agency in Thai EFL academic writing",
+      "authors": "Bayatee Dueraman, Yusop Boonsuk",
+      "abstract": "As generative AI tools become increasingly embedded in second language writing instruction, understanding how learners experience and reconcile AI-generated feedback alongside traditional teacher feedback has become an urgent pedagogical concern. This study investigated how Thai EFL university learners perceive, emotionally engage with, and negotiate AI-generated and human teacher feedback in academic writing. Inductive thematic analysis of semi-structured interviews and focus group discussions with 26 undergraduate students revealed three primary findings. First, the preference for AI feedback reflected its systematic coverage and the institutional constraints governing teacher commentary. This suggests that the structural limitations of human instruction under institutional constraints, rather than inherent evaluative superiority, may account for participants’ perceived advantages of AI. Second, participants described teacher feedback as motivationally irreplaceable due to its relational dimensions. Conversely, AI appeared to serve an unanticipated threshold utility. This role reduced the emotional cost of early help-seeking and facilitated focused subsequent engagement with instructors. Third, cultural norms of deference in Thai educational contexts appeared to act as a barrier to learner agency. These norms appeared to restrict students’ capacity for action even when participants regarded AI feedback as more credible than teacher grades. These findings suggest a boundary condition for distributed agency theory in high-power-distance settings, challenge foundational assumptions in hybrid feedback research, and reposition the affective role of AI within the feedback ecology. Implications are drawn for feedback theory, writing pedagogy, and AI tool design.",
+      "date": "2026-09-19",
+      "url": "https://doi.org/10.1080/17501229.2026.2734840",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Innovation in Language Learning and Teaching",
+      "direction": "medical",
+      "id": "bde0d020d7ee"
+    },
+    {
+      "title": "Artificial intelligence and Machine learning in pharmacy and pharmaceutical technology",
+      "authors": "Shoheb Shakil Shaikh",
+      "abstract": "Artificial intelligence (AI) and Machine learning (ML) are transforming the pharmaceutical lifecycle—from target identification and lead optimization to clinical development, manufacturing, supply chain orchestration, and real-world pharmacovigilance. This review synthesizes recent advances (2018–2025) across core methodological families (supervised, unsupervised, reinforcement, and deep learning) and maps them to high-impact use cases in pharmacy and pharmaceutical technology. We systematically screen academic and industry literature using PRISMA guidelines, extracting evidence on model classes, datasets, performance metrics, validation strategies, and regulatory considerations. Key progress includes foundation and multimodal models for de novo molecular design, active learning for assay triage, graph neural networks and transformer architectures for property prediction and ADMET profiling, and digital twins and predictive control for continuous manufacturing. In clinical and post-marketing contexts, federated learning enhances privacy-preserving trial analytics, while NLP models accelerate signal detection in safety reports and EHRs. Despite clear gains in speed, cost, and decision quality, translation hurdles persist: data heterogeneity and bias, limited external validity, explainability gaps in high-stakes decisions, GMP/21 CFR Part 11/GxP-aligned validation, and evolving regulatory expectations for Software as a Medical Device and AI-as-a-Service. We outline best practices for reproducibility, model risk management, and human-AI governance, and identify research frontiers in causal ML, uncertainty quantification, hybrid physics-ML models, and responsible deployment. The review provides a consolidated roadmap for researchers, practitioners, and regulators to harness AI/ML for more efficient, safe, and equitable pharmaceutical innovation.",
+      "date": "2026-09-19",
+      "url": "https://doi.org/10.18231/j.jpbs.14270.1787994979",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Pharmaceutical and Biological Sciences",
+      "direction": "medical",
+      "id": "870c62003ed2"
+    },
+    {
+      "title": "Systematic benchmarking of evaluation paradigms, safety boundaries, and clinical reasoning gaps for multimodal large language models in rehabilitation",
+      "authors": "Ping Ye, Yu Li, Mengjian Qu, Xuan Zhang, Jing Liu, ...",
+      "abstract": "Abstract Motor rehabilitation and clinical biomechanical assessment rely on expert judgement to evaluate movement quality, pathological compensation, and spatiotemporal motor dynamics. Existing automated approaches mainly depend on conventional computer vision methods, such as skeletal keypoint-based analysis, but they provide limited clinical semantic interpretation and mechanistic reasoning. With the emergence of multimodal large language models (MLLMs), movement assessment may shift from geometric pose tracking toward end-to-end visual clinical reasoning. However, the ability of current MLLMs to identify fine-grained kinematic abnormalities and suppress visually unsupported hallucinations in rehabilitation videos remains insufficiently evaluated. This study aimed to develop a multidimensional video benchmark, ActionEval-MedBench , to systematically evaluate the clinical reasoning capability, safety boundaries, and failure modes of MLLMs in motor rehabilitation and clinical biomechanics. ActionEval-MedBench included 522 rigorously screened and de-identified videos, comprising 328 clinical upper-limb rehabilitation videos and 194 general functional biomechanics videos. Each video was paired with six multi-select multiple-choice questions, yielding 3132 video—MCQ assessment items. We designed a six-dimensional ActionEval protocol covering semantic action recognition, kinematic feature alignment, pathological compensation identification, spatiotemporal dynamics analysis, comprehensive movement quality and clinical decision-making, and visual grounding for anti-hallucination assessment. Expert consensus labels were established through a dual-track Delphi-style procedure. Twenty-six leading MLLMs were evaluated under standardized zero-shot prompts and structured response-parsing rules. The primary outcome was the cohort-weighted ActionEval composite score, while the D6 false-positive hallucination rate ( $$FP_{D6}$$ ) was used as an independent safety endpoint. Among 81,432 expected dimension-level response opportunities, 81,006 responses were successfully returned, whereas 426 were unavailable because of missing outputs or system-level failures. Among the returned responses, 80,931 were parsable and valid, while 75 were invalid or unparsable, yielding an overall valid-response rate of 99.38%. Gemini-3.1-Pro-Preview, Doubao-Seed-2.0-Lite-260428, Gemini-3.5-Flash, Claude-Opus-4-7, GLM-5V-Turbo, and GPT-5.5 formed a numerically high-performing cluster, with weighted ActionEval scores ranging from 66.17 to 65.46. The Friedman test showed significant overall performance differences among the 26 models ( $$\\chi ^2 = 2671.34$$ , $$P < 0.001$$ ), whereas Holm–Bonferroni-adjusted pairwise comparisons within the high-performing cluster were not statistically significant (all $$P > 0.05$$ ). Dimension-wise analysis revealed a marked semantic-to-clinical reasoning gap: models achieved strong performance in D1 semantic action recognition, with a mean F1-score of 91.1%, but declined substantially in higher-order clinical dimensions involving pathological compensation, spatiotemporal dynamics, and clinical decision-making, with mean F1-scores below 50% across D3–D5. Performance was lower in the clinical rehabilitation cohort than in the general functional biomechanics cohort, with an average drop of 9.44 percentage points; this difference was interpreted as a combined domain-shift burden between standardized functional videos and real-world fine-grained clinical rehabilitation videos rather than the isolated effect of pathology. In D6 negative-probe testing, nine models produced visually unsupported affirmative selections, with the highest $$FP_{D6}$$ reaching 6.51%. ActionEval-MedBench quantifies the cognitive boundaries and safety risks of current MLLMs in dynamic rehabilitation video understanding. Although MLLMs show promise for structured preliminary screening and clinical semantic reasoning, their limitations in detecting subtle pathological compensation and modeling spatiotemporal dynamics preclude their use as independent diagnostic tools. Future digital rehabilitation AI should follow a human-in-the-loop paradigm and incorporate domain-specific causal reasoning, kinematic-chain modeling, and rigorous visual-grounding safety probes.",
+      "date": "2026-09-19",
+      "url": "https://doi.org/10.1038/s41598-026-71999-w",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "llm",
+      "id": "23177831e46a"
+    },
     {
       "title": "IBUA-BioNER: Integrating Balanced Undersampling and Adaptive Augmentation for Few-Shot Biomedical Named Entity Recognition",
       "authors": "Agus Siswanto, Bambang Tutuko, Firdaus, Jasmir",
@@ -96,6 +192,30 @@
       "venue": "International journal of intelligent engineering and systems",
       "direction": "llm",
       "id": "60b18520ce3d"
+    },
+    {
+      "title": "An omnichannel strategy development framework leveraging customer opinion divergence using large language models and explainable AI",
+      "authors": "Bohyun Choi, Yeonbin Son, yerim choi",
+      "abstract": "Successful omnichannel retail management requires integrated strategies because customers evaluate product aspects differently across online and offline channels. However, prior research has relied on macro-level or qualitative analyses that cannot quantify which specific aspects are associated with customer satisfaction in each channel, limiting efforts to mitigate strategic gaps across channels. We propose an aspect-level omnichannel strategy development framework. First, we use a novel LLM (large language model)-based method to extract and normalize product aspects from customer reviews, thereby identifying the aspects that customers consider important in each channel while overcoming the limitations of predefined taxonomies and external tools. Next, we quantify each aspect’s contribution to customer satisfaction using SHAP (Shapley additive explanations)-based XAI (explainable AI). Finally, strategies are developed to mitigate the satisfaction gaps based on the quantified aspect contributions. We validated the framework on 6.8 million customer reviews from South Korea’s largest health and beauty omnichannel retailer. The proposed normalization method achieved a 24.70 percentage point improvement in accuracy over existing state-of-the-art LLM-based methods for e-commerce product review data that do not use predefined taxonomies or external tools. Furthermore, the strategies derived from our framework align with those employed by omnichannel retailers, demonstrating the framework’s effectiveness as a data-driven decision-support system for optimizing omnichannel management.",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.1038/s41598-026-71125-w",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "5400c3ee5f8d"
+    },
+    {
+      "title": "Mechanism-aware and safety-validated AI for drug repurposing: a critical review and translational pharmacology framework",
+      "authors": "Moumita Hazra, Harishchander Anandaram",
+      "abstract": "Background Artificial intelligence (AI)-assisted drug repurposing seeks to identify new therapeutic applications for existing drugs. Nevertheless, most of the existing studies are centered on prediction scores and candidate ranking, and there is still relatively little attention paid to the pharmacological mechanisms, safety and translational validation. Objective This critical review summarizes existing AI approaches to drug repurposing, identifies their mechanistic, safety, and translational barriers, and incorporates the emerging evidence gaps into a mechanism-driven and safety-proven translational pharmacology model. Findings The literature reviewed shows that machine learning, deep learning, network medicine, knowledge graphs, graph neural networks, and foundation models have the potential to significantly increase the number of candidates identified, but they have marked variations in terms of interpretability, biological support, safety integration, external validation, and clinical applicability. In all of these strategies, common shortcomings are inadequate mechanism validation, poor causal evidence, incomplete dose and safety evaluation, weak pharmacovigilance integration, and reliance on internal validation, and varying experimental or real-world confirmatory evidence. These persistent evidence gaps were incorporated into a sequence of steps that incorporates candidate predictions, mechanism mapping, determination of causal plausibility, safety and toxicity evaluation, pharmacovigilance, real-world validation, expert pharmacology review and evidence-based candidate prioritization. Conclusion AI-driven drug repurposing presents huge potential in the field of therapeutic innovation, but current applications require more clinical evidence and pharmacological mechanisms demonstrating safety, as well as clinical relevance. The proposed framework can support the more reliable prioritization of candidates for experimental testing, real world validation and future clinical testing.",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.3389/fphar.2026.1915973",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "medical",
+      "id": "5b29ee62364f"
     },
     {
       "title": "Effective Video Mirror Detection with Random Motion Cues Using Weighted Sum Model",
@@ -11880,126 +12000,6 @@
       "venue": "Frontiers in Medicine",
       "direction": "cell",
       "id": "7b30a8657de5"
-    },
-    {
-      "title": "Topological suppression of quantum tunnelling in a lanthanide single-ion molecular magnet",
-      "authors": "Sagar Paul, Eufemio Moreno Pineda, Concepción Molina-Jirón, Appu Sunil, Mario Ruben, ...",
-      "abstract": "Abstract Quantum coherence can be preserved by exploiting topology, encoding information in global geometric properties that resist local perturbations. These properties depend on the trajectory of quantum operations and curvature in parameter space, offering a topology-based route to fault-tolerant quantum computation. While geometric phase interference (Berry phase) is widely studied to probe a system’s topology, its direct detection in 4f-based molecular magnets—promising qudit platforms—has remained elusive. We present a magneto-spectroscopic μSQUID-EPR approach to resolve tunnel splittings in the Gd-based molecular magnet [ 160 GdPc₂]⁻ (Pc = phthalocyanine). By irradiating single crystals with microwaves under transverse magnetic fields, we map the spin ( S = 7/2) manifold and observe pronounced oscillations in tunnel splitting—a hallmark of quantum phase interference. These oscillations reveal topological quenching and higher-order anisotropy, underscoring the role of topology in 4f systems and opening pathways toward holonomic quantum computation.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.1038/s41467-026-74798-z",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Nature Communications",
-      "direction": "cell",
-      "id": "5e8b8bae5457"
-    },
-    {
-      "title": "Skeletal muscle‑derived extracellular vesicles in multi‑organ degenerative disease: Mechanisms and therapeutic delivery perspectives (Review)",
-      "authors": "Xianji Wei, Chengyan Guo, Wei Zhang, Guanyi Wang, Weiwei Li, ...",
-      "abstract": "Multi-organ degenerative diseases are ageassociated or chronic disorders marked by progressive tissue deterioration, impaired repair and functional decline, with representative conditions including sarcopenia, osteoporosis, osteoarthritis, neurodegenerative or ischemia-associated neurological disorders, heart failure, chronic kidney disease and diabetes-associated tissue dysfunction.Their frequent coexistence in aging populations limits the effectiveness of therapeutic strategies directed at a single organ or pathway.Extracellular vesicles (EVs) are lipid bilayer-enclosed particles that shuttle proteins, lipids, metabolites and regulatory RNAs between cells and tissue.As a highly metabolic and secretory tissue, skeletal muscle releases skeletal muscle-derived EVs (SkM-EVs) that may carry muscle-enriched microRNAs, together with other regulatory cargo molecules involved in local tissue remodeling and systemic signaling.SkM-EVs have therefore been proposed as mediators of muscle-centered cross-organ communication and potential delivery vehicles for molecular intervention, although therapeutic evidence remains largely preclinical.The present review examines the biological functions of SkM-EVs, their regulation by exercise, aging and metabolic stress and their potential involvement in multi-organ degenerative diseases.The present study aimed to discuss engineering strategies for SkM-EVs, including cargo loading, surface modification and targeted delivery, with particular attention to controversies, methodological limitations, quality control requirements and barriers to clinical translation. Contents1. Introduction 2. Biogenesis, structural features and functional cargo of SkM-EVs 3. SkM-EVs in local muscle remodeling and musculoskeletal crosstalk 4. SkM-EVs in neuromuscular and multi-organ communication 5. Context-dependent remodeling of SkM-EV release and cargo profiles 6. Therapeutic targets and technological frontiers for SkM-EV-based intervention 7. Discussion 8. Conclusion",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.3892/ijmm.2026.5903",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Molecular Medicine",
-      "direction": "cell",
-      "id": "1d34935a29d5"
-    },
-    {
-      "title": "CellOS: Learning a World Model of Cellular State through Joint Embedding Prediction",
-      "authors": "Zhou, Q.; Le, Y.; Qi, X.; Chang, S.; Lu, H.; Wu, Y.; Wang, H.; Ran, R.; li, x.",
-      "abstract": "Foundation models learned from single-cell transcriptomes are central to the prospect of AI virtual cell that can represent, query and predict cellular state. However, most current single-cell foundation models learn from a single view of gene expression and are optimized primarily through reconstruction or next-token prediction. As a result, they capture expression abundance but cannot explicitly reconcile complementary views of cellular state. Here we present CellOS, a multi-view foundation model that learns cellular representations from paired expression and perception views. CellOS integrates complementary views through a scalable three-stage training strategy that combines causal cell-sentence language modelling, function-preserving dense-to-mixture-of-experts expansion and latent-space alignment via an LLM-JEPA objective. Using this framework, we trained a 12-billion-parameter model on 390.5 million single-cell transcriptomes. Across diverse benchmarks spanning cell-state annotation, batch integration and perturbation-response prediction, CellOS consistently outperformed state-of-the-art single-cell foundation models. Together, these results suggest that predictive alignment between complementary cellular views provides a scalable path toward representation-centric cellular world models and transferable AI virtual cells.",
-      "date": "2026-06-25",
-      "url": "https://doi.org/10.64898/2026.06.18.733163",
-      "pdf_url": "",
-      "source": "biorxiv",
-      "venue": "bioRxiv",
-      "direction": "cell",
-      "id": "e8d2d0507754"
-    },
-    {
-      "title": "Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents",
-      "authors": "Vedant Patel",
-      "abstract": "Large language model (LLM) agents operate over long, multi-session interactions in which facts change: a user moves, a price updates, a plan is revised. Acting correctly requires using the current value of a fact and discarding values that have been superseded. We isolate this ability on real conversational data and show that it is a distinct, unsolved failure. On the knowledge-update subset of LongMemEval, replacing an agent's full context with a bounded, self-maintained memory drops accuracy from 92% to 77% even on a frontier model (gpt-5.4), a gap that is statistically significant (paired McNemar p<0.005) and persists across model scale while full-context accuracy saturates near 92%. The bottleneck is therefore memory maintenance, not comprehension, and is not closed by a stronger model. We then ask whether this is merely an undersized memory, and find it is not: as the conversation grows 24x, accuracy falls further (from 68% to 28%), and granting the agent proportionally more memory yields no detectable recovery (28% to 28%, n=25). The failure scales with the length of the conversation, not the compression ratio. We release Supersede, an open reinforcement-learning environment (on the verifiers / prime-rl stack) that turns this measurement into a training signal: agents are rewarded for answering from the current value and penalized for stale ones. Finally, we close the loop and show the gap is trainable: GRPO fine-tuning a small open model (Qwen2.5-3B) on this environment nearly doubles its held-out supersession accuracy on real, unseen conversations (9.0% to 16.7%, a single run), along a monotonic checkpoint curve indicating the learned policy, not the harness, carries the gain. To our knowledge this is the first trainable environment whose reward targets temporal fact-currency, and the first evidence the supersession gap can be trained down, not only measured.",
-      "date": "2026-06-25",
-      "url": "https://arxiv.org/abs/2606.27472v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27472v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "255a88054d0e"
-    },
-    {
-      "title": "Artificial intelligence advancements in monoclonal antibody development technology",
-      "authors": "Manar Ammar, M. Yu. Samsonov, Evgeniya Gurylina, Daniel Bayzigitov",
-      "abstract": "Monoclonal antibody–based therapeutics have become essential tools for treating infectious, autoimmune, and malignant diseases due to their high specificity and efficacy. As their clinical and scientific relevance continues to expand, the need for faster, more accurate and cost-effective development strategies has grown. Traditional laboratory-based methods for antibody design and improving remain reliable but are time-consuming, labor-intensive, and limited by experimental constraints. These challenges have driven a shift toward the integration of computational methods as a complementary approach for antibody engineering. The current review provides a simplified overall explanation of recent advancements in artificial intelligence (AI)-driven in silico tools used to accelerate and enhance the process of antibody discovery and optimization. We have systematically analyzed literature from clinical and research databases and summarized obtained data into a comprehensible overview. We highlighted how AI models contribute to sequence design, epitope-paratope predictions, affinity optimization, structural prediction and developability assessment. In conclusion, the most effective strategy for next-generation monoclonal antibody development relies on the integration of computational prediction and design tools followed by experimental validation. Combining AI-driven innovation with traditional laboratory methods represents a powerful and complementary approach for achieving accurate, efficient, and clinically relevant antibody therapeutics.",
-      "date": "2026-06-25",
-      "url": "https://doi.org/10.3389/fimmu.2026.1802038",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Immunology",
-      "direction": "cell",
-      "id": "d35b4d82ccaf"
-    },
-    {
-      "title": "Depression Severity Classification from Social Media Text using Natural Language Processing and Machine Learning",
-      "authors": "Abhijeetsinh Jadeja, Priyanka Ameta, Deepika Ameta, Asha Patil",
-      "abstract": "With its potential for early diagnosis, research on mental health monitoring is an active area and automatic analysis is an important component of such a system.However most research involves simply detecting presence/absence of depression, which is not sufficiently granular for practical application.We propose the development of a interactive chatbot which would classify user responses into four severity levels of depression-Minimal, Mild, Moderate and Severe.We developed an NLP pipeline using lemmatization and TF-IDF vectorization to train and compare a Logistic Regression model with a fine-tuned Support Vector Machine.Results indicate that the SVM model achieved 74.36% accuracy among other algorithms and could be used as a suitable engine to provide an interactive conversational interface to asses user's current stress level in real time.",
-      "date": "2026-06-25",
-      "url": "https://doi.org/10.5120/ijca9769b912849a",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Computer Applications",
-      "direction": "medical",
-      "id": "61e26f737432"
-    },
-    {
-      "title": "AI-driven drug reposition for pathogens: a new paradigm in pandemic preparedness",
-      "authors": "Lixuan Ma, Jingshu Zhao, Junwen Luan, Leiliang Zhang",
-      "abstract": "Faced with a severe outbreak of diseases caused by newly emerging and recurrent pathogens, the development cycle of traditional drugs is long, making it difficult to meet emergency needs. Drug repositioning has become a key strategy for rapidly providing therapies by exploring new therapeutic uses of approved drugs. However, traditional reposition methods have bottlenecks such as slow speed and strong randomness. Artificial intelligence (AI) is revolutionizing drug reposition by analyzing and integrating multi-source data with computational models, dramatically accelerating the discovery process. This article summarizes the core technological approaches of AI-driven drug reposition, including predictions based on network medicine, virtual screening through deep learning models, and association discovery via real-world data mining. Multiple successful cases are presented to verify their effectiveness. Although there are still challenges in terms of data quality, model interpretability, and clinical translation, AI will undoubtedly reshape our drug development paradigm for addressing future public health crises, serving as a pivotal engine for rapid response and precise intervention.",
-      "date": "2026-06-25",
-      "url": "https://doi.org/10.3389/fchem.2026.1842082",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Chemistry",
-      "direction": "cell",
-      "id": "766bbd07273b"
-    },
-    {
-      "title": "Dynamic Bacterial Communities, Resistome–Virulome Coupling, and Biomonitoring Paradigms at Direct Sea Discharge Outlets: An Integrated Microbiome Perspective for Coastal Pollution Control",
-      "authors": "Bingkun Wang, Shulei Jia, Lingling Chen, Miming Zhang",
-      "abstract": "Direct sea discharge outlets served as critical conduits for urban sewage and industrial wastewater disposal, playing dual roles as pollutant dilution channels and hotspots for pathogens and antibiotic resistance genes. Traditional monitoring approaches relying on physicochemical parameters and fecal indicator bacteria failed to capture the latent and cumulative risks posed by complex microbial communities. In this review, a holistic microbiome perspective was adopted to systematically synthesize current knowledge on the bacterial community dynamics, assembly mechanisms, resistome–virulome coupling patterns, mobilome-associated risk characteristics, and emerging biomonitoring strategies in direct sea discharge outlets. By integrating high-throughput multi-omics technologies with ecological network analysis and machine learning, we delineated a paradigm shift from cataloging microbial presence to deciphering functional interactions, risk propagation dynamics, and proactive surveillance strategies. Furthermore, under the “One Health” framework, we discussed emerging research frontiers and future challenges in managing pollution at discharge outlets, aiming to provide a scientific basis for environmental risk management in coastal zones.",
-      "date": "2026-06-25",
-      "url": "https://doi.org/10.3390/microorganisms14071401",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Microorganisms",
-      "direction": "cell",
-      "id": "bbd19fd925dc"
-    },
-    {
-      "title": "The Geometry of Updates: Fisher Alignment at Vocabulary Scale",
-      "authors": "John Sweeney",
-      "abstract": "Training-free source selection for LLM families with shared vocabularies arises in scientific string domains such as SMILES, protein, and genomic sequences, where candidate corpora share a tokenizer but differ in prediction targets. This creates an activation-dark regime: representation-similarity metrics can be uninformative without assumptions about label-conditioned error geometry, while classical update-geometry metrics are computationally prohibitive at vocabulary scale. We show that, in a shared-output head setting, representation metrics (e.g., CKA) are non-identifiable for transfer; models can share identical representations yet have orthogonal head updates. The key identity is that head Fisher alignment is exactly a cosine between kernel mean embeddings in the joint activation-error space, exposing activation, error, and coupling factors rather than requiring a materialized Fisher matrix. FisherSketch estimates this cosine directly in a single streaming pass, making K=128,256 head Fisher alignment practical with a 16 KB task signature (m=4096) and a 192 KB per-task streaming state, small enough to store next to a model hash, but encoding transfer-relevant update structure. Beyond source selection, the same signatures and marginals provide a diagnostic instrument for studying whether LLM task similarity is driven by activations, errors, or their coupling; shared-parameter and internal-layer validations, together with Llama-3.1-8B verbalizer-shift experiments, show that FisherSketch remains informative when activation similarity cannot distinguish tasks.",
-      "date": "2026-06-25",
-      "url": "https://arxiv.org/abs/2606.27242v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27242v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "6626c433c2b4"
-    },
-    {
-      "title": "Forecasting With LLMs: Improved Generalization Through Feature Steering",
-      "authors": "Humzah Merchant, Bradford Levy",
-      "abstract": "Successful forecasting involves identifying patterns between historical and future states of the world which generalize to future observations. We apply LLMs to a variety of forecasting tasks and inspect their internal states using sparse autoencoders to understand whether they appear to rely on time-specific pieces of knowledge versus generalizable patterns. Our analyses identify features associated with both time-aware reasoning and look-ahead-biased reasoning. We then apply the LLMs to an entirely different domain and intervene on these features. We find that amplifying time-awareness features substantially reduces look-ahead bias on forecasting prompts while preserving general reasoning performance. In contrast, steering the candidate look-ahead-bias features does not produce an effect. These results suggest that interpretable temporal features can be used to causally shift LLMs toward more historically grounded reasoning.",
-      "date": "2026-06-25",
-      "url": "https://arxiv.org/abs/2606.27199v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27199v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "2d268dbc6048"
     }
   ]
 }
