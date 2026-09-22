@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-09-21 22:27",
+  "last_updated": "2026-09-22 21:48",
   "papers": [
+    {
+      "title": "Affordance-based robot manipulation with flow matching",
+      "authors": "Fan Zhang, Michael Gienger",
+      "abstract": "We present a framework for assistive robot manipulation that addresses two fundamental challenges: efficient adaptation of large-scale models for scene affordance understanding and effective learning of robot actions by grounding the visual affordance. To tackle the first challenge, we adopt a parameter-efficient prompt tuning method, prepending learnable text prompts to a frozen vision model to predict affordances, while considering spatial and semantic relationships in multi-task scenarios. For the second challenge, we propose a flow matching method, representing a robot visuomotor policy as a conditional process of flowing random waypoints to desired robot actions. We introduce a real-world dataset with 10 tasks to evaluate our approach. Experiments show our prompt tuning method achieves competitive or superior performance to other finetuning protocols across data scales, while satisfying parameter efficiency. Furthermore, flow matching yields more stable training and faster inference compared to diffusion policy; specifically, 1-step flow matching achieves comparable accuracy to 16-step DDIM while reducing inference time by roughly 85%. Our framework seamlessly unifies high-level parameter-efficient affordance representation learning with low-level flow matching policies, illustrating how explicit affordances serve as effective spatial grounding for flow-based policies. https://github.com/HRI-EU/flow_matching .",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.3389/frobt.2026.1906861",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Robotics and AI",
+      "direction": "llm",
+      "id": "efa5f5b59b2a"
+    },
+    {
+      "title": "AI-guided ethnopharmacology for cardiovascular drug discovery: from biomedical data to experimental validation",
+      "authors": "Shun Yao, Xiaoxin Chen",
+      "abstract": "Despite substantial advances in pharmacological therapy, cardiovascular disease remains the leading cause of mortality worldwide. Botanical drugs represent a rich source of structurally diverse bioactive metabolites, yet their translation into modern cardiovascular therapeutics remains limited by chemical complexity, incomplete mechanistic understanding, and challenges in experimental validation. Meanwhile, the rapid expansion of biomedical data resources and advances in artificial intelligence (AI) have created new opportunities to systematically investigate botanical drugs beyond empirical approaches. In this review, we summarize the major biomedical data resources supporting AI-guided ethnopharmacology, including phytochemical and ethnomedicinal databases, multiomics datasets, single-cell and spatial transcriptomics, perturbation-response resources, biological interaction networks, and clinical evidence. We then discuss the computational approaches used for molecular property prediction, drug-target interaction prediction, perturbation-response modeling, and foundation-model transfer learning, highlighting how these complementary strategies address distinct stages of pharmacological discovery. Building on these advances, we propose two complementary AI-guided discovery frameworks: a compound-first strategy that predicts the pharmacological activities of botanical drugs and a disease-first strategy that identifies natural products capable of reversing disease-associated molecular and cellular states. We further discuss emerging applications in cardiovascular diseases, emphasizing the integration of AI with single-cell atlases, disease-state prediction, mechanistic investigation, and experimental validation to prioritize candidate botanical therapeutics. Finally, we outline current challenges in data standardization, model robustness, interpretability, and prospective validation. We propose that AI-guided ethnopharmacology should be viewed as a hypothesis-generation framework that complements, rather than replaces, pharmacological experimentation. When supported by standardized botanical materials, high-quality multimodal data, rigorous biological validation, and prospective clinical evaluation, AI has the potential to accelerate cardiovascular botanical drug discovery and facilitate the translation of ethnomedicinal knowledge into modern precision therapeutics.",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.3389/fphar.2026.1962508",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "cell",
+      "id": "bf375308dcfe"
+    },
+    {
+      "title": "When, how long and how much? Interpretable neural networks for time series regression by learning to mask and aggregate",
+      "authors": "Florent Forest, Anlei Wei, Olga Fink",
+      "abstract": "Abstract Time series extrinsic regression (TSER) aims to predict a continuous target variable from an input time series. It arises in domains such as healthcare, finance, environmental monitoring, and engineering, where both accuracy and interpretability are essential. Despite strong predictive performance, state-of-the-art TSER models typically operate as black boxes, making it difficult to understand which temporal patterns drive their predictions. Post-hoc explanation methods attempt to address this issue but often produce coarse, noisy, or unstable explanations. Inherently interpretable approaches based on additive decompositions or concepts offer an alternative, yet they often require concept supervision, struggle to capture multivariate interactions, and lack expressiveness for complex temporal patterns. To address these limitations, we propose Mask-and-Aggregate Networks for Time Series (MAGNETS), an inherently interpretable neural architecture for TSER. MAGNETS learns a compact set of human-understandable concepts directly from data, without requiring concept annotations. Each concept corresponds to a learned, mask-based aggregation over selected input features, revealing both which features influence the prediction and when they matter. Predictions are expressed as transparent combinations of these concepts, yielding faithful, input-specific explanations by design. Experiments on synthetic and real-world univariate and multivariate TSER datasets show that MAGNETS achieves accuracy comparable to black-box models while substantially outperforming existing interpretable baselines, particularly on tasks involving multivariate feature interactions.",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.1007/s10618-026-01267-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Data Mining and Knowledge Discovery",
+      "direction": "llm",
+      "id": "4fb9c03c55d3"
+    },
+    {
+      "title": "Differentially private multimodal in-context learning via adaptive semantic manifold synthesis in large foundation models",
+      "authors": "Su Yan, Xingquan Guo, Liuting Gu, Yonghuan Li, Lingzhi Chen Mei, ...",
+      "abstract": "Abstract Multimodal foundation models excel at in-context learning (ICL) but heavily rely on high-quality demonstrations. Using raw sensitive data for ICL in domains like healthcare and smart grids poses severe privacy risks. Furthermore, traditional differential privacy (DP) fine-tuning often degrades model utility and incurs prohibitive computational costs, especially in few-shot settings. To address this dilemma, we propose a novel, training-free Differentially Private In-Context Learning (DP-ICL) framework. At its core is an adaptive semantic manifold synthesis mechanism that shifts privacy protection from the parameter space to the semantic prompt space. By interpolating features and injecting calibrated noise along the hidden data manifold under a formal differential privacy guarantee, our framework substantially obfuscates sensitive micro-level attributes while preserving essential macro-level semantic class boundaries, an effect further corroborated by empirical resistance to membership inference and attribute inference attacks. Consequently, the foundation model's extensive prior knowledge effectively compensates for the DP noise-induced information loss. Extensive experiments on multimodal few-shot tasks demonstrate that DP-ICL successfully breaks the longstanding barrier between privacy protection and model utility. It achieves superior classification accuracy and robustness across a continuous spectrum of privacy budgets compared to state-of-the-art methods. Ultimately, this framework provides a secure, lightweight, and highly effective solution for deploying powerful AI models in data-sensitive industrial scenarios.",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.1186/s44147-026-01235-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Engineering and Applied Science",
+      "direction": "llm",
+      "id": "e70d57753b55"
+    },
     {
       "title": "Generative AI for Drug Discovery: GPT-2 and LSTM-Based Models for Designing EGFR Inhibitors",
       "authors": "Omar Dasser, Othmane Filali Benaceur, Salma Fadel, Rim Kaanane",
@@ -192,6 +240,18 @@
       "venue": "International journal of intelligent engineering and systems",
       "direction": "llm",
       "id": "60b18520ce3d"
+    },
+    {
+      "title": "Twelve quick tips for designing AI-driven HPC workflows",
+      "authors": "Jamie J. Alnasir",
+      "abstract": "High-performance computing (HPC) clusters remain the backbone of large-scale scientific computation, traditionally executing deterministic, linear pipelines optimised for predictable performance. However, the pervasive integration of artificial intelligence (AI) and foundation models into scientific research has introduced a fundamentally new computational paradigm. AI-driven workflows are characteristically iterative, data-driven, and probabilistic, introducing unique challenges regarding data gravity, heterogeneous resource management, and complex workflow orchestration. This guide provides twelve practical tips designed to help researchers design efficient, scalable, and reproducible AI-driven HPC workflows. By addressing critical system-level bottlenecks - such as containerisation for environment portability, strategic deployment of job arrays, explicit feedback loop mechanics, and I/O optimisation for small files - this article offers a framework for transitioning from rigid execution pipelines to adaptive, intelligent computational environments. While these architectural principles are broadly applicable across distributed environments, they are particularly tailored to the resource-intensive throughput demands of modern computational biology.",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014777",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "PLoS Computational Biology",
+      "direction": "cell",
+      "id": "d9b9270be1d7"
     },
     {
       "title": "An omnichannel strategy development framework leveraging customer opinion divergence using large language models and explainable AI",
@@ -11940,66 +12000,6 @@
       "venue": "",
       "direction": "cell",
       "id": "fd23a6df5e95"
-    },
-    {
-      "title": "Computational reconstruction of hierarchical cis-regulatory networks reveals synergistic transcription control and disease-associated rewiring",
-      "authors": "Xunuo Zhu, Xuheng Zhou, Yufang Zhang, Guoxin Cai, Weidong Zhao, ...",
-      "abstract": "Abstract Gene regulation emerges from coordinated interactions among dispersed cis-regulatory elements, yet how these elements integrate into functional regulatory networks and collectively regulate gene transcription remains poorly understood. Here, we present ORIGAMI, a multi-omics, gene-centric deep learning framework that reconstructs functional cis-regulatory networks constrained by transcriptional output. ORIGAMI formulates cis-regulatory modeling as a latent graph inference task, which integrates DNA sequence, epigenomic signals, and three-dimensional chromatin priors to infer denoised regulatory graphs that capture functional interactions rather than structural proximity alone. The inferred regulatory graphs exhibit distinct topological regimes, where hierarchical and modular organization encodes cell-state-specific functional demands and enables synergistic transcriptional control. Furthermore, we show that these regulatory architectures undergo measurable state-dependent rewiring across disease contexts. Finally, ORIGAMI accurately predicts the transcriptional consequences of both cis- and trans-regulatory perturbations and links the rearrangement of regulatory architecture to perturbation response. Together, ORIGAMI advances a network-based view of gene regulation and establishes a foundation for virtual cell modeling of regulatory dynamics.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.64898/2026.06.24.734159",
-      "pdf_url": "",
-      "source": "biorxiv",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "direction": "cell",
-      "id": "7911ad36fa79"
-    },
-    {
-      "title": "Single-threshold–guided adaptive cancer therapy with partial-cycle treatment: A mechanistic and reinforcement learning analysis",
-      "authors": "Kexin Ma, Ningjing Wang, Zai Yang, Robert Cheke, Biao Tang",
-      "abstract": "Adaptive cancer therapy seeks to modulate aggressive treatment to preserve drug-sensitive tumor cells that suppress resistant populations, but existing strategies often rely on frequent treatment decisions enabled by intensive surveillance, limiting clinical feasibility. Here, we propose a clinically motivated alternative that shortens the treatment window within a fixed and relatively long surveillance cycle, thereby avoiding the need for frequent monitoring. Based on this idea, we develop a mechanistic modeling framework for single-threshold-guided adaptive therapy with partial surveillance-cycle treatment (AT-PSC) and benchmark its performance using reinforcement learning. Using clinically calibrated parameters from an individual patient, simulations show that AT-PSC prolongs the time to progression (TTP) by 402 days compared with adaptive therapy using full surveillance-cycle treatment, while substantially reducing treatment exposure (dose reduced by 10.1%). Consequently, AT-PSC achieves significantly larger TTP gains than continuous therapy (1891 days) and two-threshold-guided adaptive therapy AT50 (1123 days). Simulations using data from six additional patients and sensitivity analyses further demonstrate that these benefits are robust across heterogeneous tumor growth profiles, while individual-based treatment should be considered to maximize TTP. Reinforcement learning yields comparable outcomes under the same fixed treatment window and can further extend TTP when the treatment window is adaptively adjusted. Together, these results support AT-PSC as a clinically feasible strategy to improve disease control while reducing treatment burden, and suggest that a practical regimen, such as a 14-day treatment window within a 30-day surveillance cycle, can provide sustained benefits for a broad patient population.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.1371/journal.pcbi.1014457",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "PLoS Computational Biology",
-      "direction": "cell",
-      "id": "02ee0ff82dec"
-    },
-    {
-      "title": "Sentiment trajectory modeling in mental health discussions via transformer-based analysis",
-      "authors": "Shaina U, Tamilarasi Kathirvel Murugan, Akshaya Poorna R, Logeswari Govindaraj, Joel Prince",
-      "abstract": "Introduction Social media platforms produce a constant stream of user-generated text, which holds promise as a source of useful information regarding population-level and individual mental health states. However, existing methods for sentiment analysis on social media texts process these texts as individual, static instances, failing to consider the underlying dynamics of emotional states, which are naturally evolving in nature. Methods In this paper, we introduce a novel framework for Temporal Sentiment Progression Analysis, which uses domain-specific transformer architectures to reconstruct the entire emotional evolution of a user over a given period of time. This framework captures important aspects of emotional evolution, including variability, volatility, and key emotional inflection points in a user’s emotional progression. Our approach performs per-comment sentiment and thematic classification using transformer models, followed by post hoc statistical analysis to examine temporal patterns in user discussions. The framework was evaluated on a dataset of approximately 4,000 Reddit comments collected from eight mental health-related subreddits, with additional synthetic samples used only during training to address class imbalance. Performance evaluation was conducted exclusively on authentic Reddit comments and further validated using external Reddit-based mental health datasets and comparative baseline experiments. Results Our experimental results on a large-scale social media dataset reveal different sentiment progression archetypes, which are strongly correlated with self-reported mental health concerns. Our proposed framework achieves a high classification accuracy of 92%. Discussion Our approach shifts from static sentiment analysis to dynamic sentiment progression analysis, which can help in understanding the evolution of emotional distress in a more nuanced manner and can be useful in the development of context-aware interventions for mitigating mental health concerns.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.3389/frai.2026.1810552",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Artificial Intelligence",
-      "direction": "medical",
-      "id": "0e8bd9c60a75"
-    },
-    {
-      "title": "From green tide disaster to green resource: a multidisciplinary review of research progress and future prospects on Ulva prolifera",
-      "authors": "Zhongwei Chen, Zhongwei Chen, Z Y Chen, Z Y Chen, Chengjuan Cao, ...",
-      "abstract": "Ulva prolifera is the primary causative species of large-scale green tides in the Yellow Sea, posing recurrent threats to marine ecosystems and coastal economies. In recent years, research has undergone a fundamental shift from disaster control toward resource utilization. This multidisciplinary review synthesizes progress across the entire chain of green tide management, focusing on advances in monitoring and prediction. These include multi-source satellite remote sensing with deep learning, coupled hydrodynamic-ecological models for bloom forecasting, and eDNA-based early detection of micropropagules, alongside insights into ecological and physiological mechanisms such as allelopathic competition, nutrient-driven rapid growth, and stress adaptation traits that underpin bloom dominance. Besides, we also highlight breakthroughs in germplasm and cultivation, notably natural protoplast-based clonal propagation and the potential for genetic improvement using synthetic biology, alongside high-value resource utilization through the extraction of bioactive polysaccharides, the discovery of a thermostable ulvan lyase for efficient enzymatic processing, and the exploration of biomass for functional foods, pharmaceuticals, bioenergy, and biomaterials. This review further examines microbial degradation, including active microbial community succession and key degraders that transform organic matter and influence carbon cycling, and concludes with industrialization prospects centered on a closed-loop “early warning–precise interception –high-value conversion” framework. Unlike previous reviews that focused on individual aspects, this work explicitly linked ecological drivers to biotechnological applications and industrial feasibility. We critically examined how these domains connected, identified knowledge gaps, and proposed a roadmap for establishing U. prolifera as a model species for the marine bioeconomy. This integrated perspective transforms an environmental threat into a sustainable green resource.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.3389/fmars.2026.1871260",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Marine Science",
-      "direction": "cell",
-      "id": "1bfbcb4a4b1f"
-    },
-    {
-      "title": "Artificial intelligence in membranous nephropathy: transforming clinical management toward precision medicine",
-      "authors": "Lei Hua, Cuijie Zhao, Zhenhua Yuan, Hang Su, Mingyang CAI, ...",
-      "abstract": "Membranous Nephropathy (MN) is the leading cause of primary nephrotic syndrome in adults, characterized by significant clinical heterogeneity ranging from spontaneous remission to end-stage kidney disease. Current management of membranous nephropathy, which relies heavily on renal biopsy and static serological markers such as anti-PLA2R antibodies, often fails to predict individual disease trajectories. This limitation frequently leads to empirical immunosuppressive therapy with a trial-and-error approach. This review explores the transformative potential of Artificial Intelligence (AI) in reshaping MN management from evidence-based to data-driven and predictive medicine. We examine AI-driven innovations across the clinical spectrum: from computational pathology systems that automate glomerular morphometry with high objectivity and reproducibility, to non-invasive diagnostic models integrating radiomics and serology for non-invasive diagnosis. In therapeutics, we discuss machine learning algorithms that predict individual responses to Rituximab versus Cyclophosphamide, enabling personalized regimen selection. Furthermore, we highlight the role of AI in prognostic stratification, where dynamic in silico patient models and multi-omics integration unravel molecular subtypes and forecast renal survival with high granularity. While acknowledging critical challenges such as data silos, model interpretability gaps, and the need for global validation, we conclude that AI serves as a powerful augmentation tool. By synthesizing high-dimensional data into actionable insights, AI has the potential to facilitate increasingly predictive, preventative, and personalized care strategies in MN management.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.3389/fmed.2026.1801351",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Medicine",
-      "direction": "cell",
-      "id": "7b30a8657de5"
     }
   ]
 }
