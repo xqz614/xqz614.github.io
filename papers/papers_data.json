@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-09-22 21:48",
+  "last_updated": "2026-09-23 22:05",
   "papers": [
+    {
+      "title": "Numerical Investigation of Sequence Modeling Theory using Controllable Memory Functions",
+      "authors": "Haotian Jiang, Zeyu Bao, Shida Wang, Qianxiao Li",
+      "abstract": "The evolution of sequence modeling architectures, from recurrent neural networks and convolutional models to Transformers and structured state-space models, reflects ongoing efforts to address the diverse temporal dependencies inherent in sequential data. Despite this progress, systematically characterizing the strengths and limitations of these architectures remains a fundamental challenge. In this work, we propose a synthetic benchmarking framework to evaluate how effectively different sequence models capture distinct temporal structures. The core of this approach is to generate synthetic targets, each characterized by a parametric memory function $\\rho(s, \\alpha)$ and a controllable parameter $\\alpha$ that determines the temporal strength. This setup allows us to produce a continuum of tasks that vary in temporal complexity, enabling fine-grained analysis of model behavior with respect to specific memory properties. We focus on four representative memory functions, each corresponding to a distinct class of temporal structures: exponential and polynomial functions for decay dynamics, impulse functions for long-range dependencies, and Airy functions for sparsity patterns. Experiments on several sequence modeling architectures confirm existing theoretical insights and reveal new findings regarding approximation capabilities, optimization dynamics, and architectural trade-offs. These results demonstrate the effectiveness of the proposed method in advancing theoretical understanding and highlight the importance of using controllable targets with clearly defined structures for evaluating sequence modeling architectures.",
+      "date": "2026-09-23",
+      "url": "https://doi.org/10.4208/jml.251216",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Machine Learning",
+      "direction": "llm",
+      "id": "eb2e8130b395"
+    },
+    {
+      "title": "The Thousand Brains Theory 2.0: An Extension for the Long-Range Connections of the Neocortical Heterarchy",
+      "authors": "Jeff Hawkins, Niels Leadholm, Viviane Clay",
+      "abstract": "Abstract Vernon Mountcastle hypothesized that the basis for intelligence in mammals is the replication of a general computational unit, the cortical column. The Thousand Brains Theory proposed that each column is a sensorimotor system, capable of learning structured models of objects by integrating sensory input over multiple movements. Previous papers on the Thousand Brains Theory focused on the computations that occur within individual cortical columns and how columns can use long-range connections to rapidly reach a consensus. However, several prominent long-range connection types in the neocortex were not addressed by the theory. These include hierarchical feedforward and feedback connections, as well as those that go through the thalamus. In addition, several theoretical requirements were not addressed. These include how the cortex learns compositional objects and how information is converted from the egocentric perspective of sensors to the allocentric perspective of models in the cortex. In this letter, we extend the Thousand Brains Theory to address these issues. We begin by reviewing the anatomy of long-range neocortical connections, arguing that they form a heterarchy, rather than hierarchy, which has made their functions challenging to understand through existing theoretical models. We then propose specific roles for each of these connections. First, the thalamus converts the orientation of features and movement information from an egocentric perspective to the allocentric perspective of learned models. Second, hierarchical feedforward, feedback, and cortico-thalamo-cortical projections enable columns to learn compositional models. We discuss the relationship of our proposals to experimental findings at the levels of anatomy, neurophysiology, and behavior, along with testable predictions for future experimental work. We conclude by discussing the implications of the extended Thousand Brains Theory for the design of artificial intelligence.",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1162/neco.a.1579",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Neural Computation",
+      "direction": "llm",
+      "id": "116d2444ad9b"
+    },
     {
       "title": "Affordance-based robot manipulation with flow matching",
       "authors": "Fan Zhang, Michael Gienger",
@@ -11976,30 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "25f913d5d86c"
-    },
-    {
-      "title": "Unsupervised Machine Learning of Inflammatory Bowel Disease Case Reports Reveals Decades of Evolving Research Themes",
-      "authors": "Naruaki Ogasawara",
-      "abstract": "Background and Aims: Inflammatory bowel disease (IBD) case reports provide rich longitudinal insights but have rarely been analyzed using quantitative text-mining approaches. This study applied unsupervised machine learning to PubMed-indexed IBD case reports to identify long-term thematic structures spanning 60 years and evaluate whether major historical milestones in IBD care can be reconstructed from biomedical texts. Methods: Case reports indexed under the keyword “inflammatory bowel disease” were retrieved from PubMed (1960–2025). Titles, key words, and abstracts were concatenated and preprocessed before TF-IDF vectorization. Non-negative matrix factorization (NMF) was applied to extract latent topics, followed by KMeans clustering using the optimal topic number selected by silhouette evaluation (2–15 topics). Cluster characteristics were summarized using report counts and term frequency-inverse document frequency (TF-IDF) statistics. Top discriminative key words were used to assign data-driven topic labels. All analyses were performed in Python 3.10.5 (PyCharm 2022.1.3) using pandas, numpy, scikit-learn, matplotlib, and seaborn. Results: A total of 18,458 case reports were analyzed. Across all time periods, two highly stable clusters consistently emerged, corresponding to Crohn’s disease and ulcerative colitis. Early decades (1960–1989) emphasized pathology and complication-focused descriptions. Reports from the 1990s showed increasing terminology related to diagnosis and emerging therapies. From 2000 onward, infliximab-related and treatment focused terms predominated, paralleling the rise of biology. After 2010, clusters reflected diversified therapeutic strategies, including attention to extraintestinal manifestations and biologic or small-molecule therapies. Conclusions: Unsupervised machine learning successfully reconstructed important historical changes in IBD management, demonstrating that a large case report text corpus captures the evolution of clinical concepts and treatment paradigms over 60 years.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.15403/jgld-6740",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Gastrointestinal and Liver Diseases",
-      "direction": "medical",
-      "id": "c00f6135eaa5"
-    },
-    {
-      "title": "Scalable Agentic Reasoning for Designing Biologics Targeting Intrinsically Disordered Proteins",
-      "authors": "Matthew Sinclair, Moeen Meigooni, Archit Vasan, Ozan Gokdemir, Xinran Lian, ...",
-      "abstract": "Intrinsically disordered proteins (IDPs) represent crucial therapeutic targets due to their significant role in disease-approximately 80% of cancer-related proteins contain long disordered regions -but their lack of stable secondary/tertiary structures makes them “undruggable.” While recent computational advances, such as diffusion models, can design high-affinity IDP binders, autonomous systems can accelerate their translation to practical drug discovery by reducing the need for expert intervention across large-scale design campaigns. To address this challenge, we designed and implemented StructBioReasoner, a scalable multi-agent system for designing biologics that can be used to target both IDPs and structured proteins. StructBioReasoner employs a novel tournament-based reasoning framework where specialized agents compete to generate and refine therapeutic hypotheses, naturally distributing computational load for efficient exploration of the vast design space. Agents integrate domain knowledge with access to literature synthesis, Al-structure prediction, molecular simulations, and stability analysis, coordinating their execution on HPC infrastructure via an extensible federated agentic middleware, Academy. We benchmark StructBioReasoner across Der f 21 and NMNAT-2 and demonstrate that over 50% of 787 designed and validated candidates for Der f 21 outperformed the human-designed reference binders from literature, in terms of improved in silico binding free energy. For the more challenging NMNAT-2 protein, we identified three binding modes from 97,066 binders, including the well-studied NMNAT2:p53 interface. Thus, StructBioReasoner lays the groundwork for agentic reasoning systems for IDP therapeutic discovery on Exascale platforms.",
-      "date": "2026-06-26",
-      "url": "https://doi.org/10.1145/3815572.3815764",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "",
-      "direction": "cell",
-      "id": "fd23a6df5e95"
     }
   ]
 }
