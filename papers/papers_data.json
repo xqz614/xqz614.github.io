@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-09-23 22:05",
+  "last_updated": "2026-09-24 21:59",
   "papers": [
+    {
+      "title": "\"Is This Really a Human Peer Supporter?\": Misalignments Between Peer Supporters and Experts in LLM-Supported Interactions",
+      "authors": "Kellie Yu Hui Sim, Roy Ka-Wei Lee, Kenny Tsu Wei Choo",
+      "abstract": "Mental health is a growing global concern, prompting interest in AI-driven solutions to expand access to psychosocial support. Peer support , grounded in lived experience, offers a valuable complement to professional care. However, variability in training, effectiveness, and definitions raises concerns about quality, consistency, and safety. Large Language Models (LLMs) present new opportunities to enhance peer support interactions, particularly in real-time, text-based interactions. We present and evaluate an AI-supported system with an LLM-simulated distressed client ( SimClient ), context-sensitive LLM-generated suggestions ( Suggestions ), and real-time emotion visualisations. 2 mixed-methods studies with 12 peer supporters and 6 mental health professionals (i.e., experts) examined the system’s effectiveness and implications for practice. Both groups recognised its potential to enhance training and improve interaction quality. However, we found a key tension emerged: while peer supporters engaged meaningfully, experts consistently flagged critical issues in peer supporter responses, such as missed distress cues and premature advice-giving. This misalignment highlights potential limitations in current peer support training, especially in emotionally charged contexts where safety and fidelity to best practices are essential. Our findings underscore the need for standardised, psychologically grounded training, especially as peer support scales globally. They also demonstrate how LLM-supported systems can scaffold this development–if designed with care and guided by expert oversight. This work contributes to emerging conversations on responsible AI integration in mental health and the evolving role of LLMs in augmenting peer-delivered care.",
+      "date": "2026-09-23",
+      "url": "https://doi.org/10.1145/3816956",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "direction": "medical",
+      "id": "a1bcb5582d66"
+    },
     {
       "title": "Numerical Investigation of Sequence Modeling Theory using Controllable Memory Functions",
       "authors": "Haotian Jiang, Zeyu Bao, Shida Wang, Qianxiao Li",
@@ -72,6 +84,30 @@
       "venue": "Journal of Engineering and Applied Science",
       "direction": "llm",
       "id": "e70d57753b55"
+    },
+    {
+      "title": "Combating antimicrobial resistance through multimodal data via artificial intelligence",
+      "authors": "Qi Xia, Jiayang Li, Wenqi Wu, Jiajie Wang, Zhitao Zhou, ...",
+      "abstract": "Antimicrobial resistance (AMR) poses a critical global health challenge, leading to substantial mortality and economic losses without science-based interventions. Conventional approaches to combating AMR have important limitations in addressing this escalating threat. Recent advances in AI, including deep learning, large language models, and protein language models, provide new opportunities to integrate multimodal data for AMR research. However, evidence remains uneven, with many approaches limited to computational benchmarking rather than real-world validation. Here, we critically review AI applications in AMR, focusing on rapid diagnosis, therapeutic discovery, and clinical decision support. AI-based diagnostic models can identify resistant pathogens and predict resistance profiles, but most lack prospective clinical evaluation. AI-assisted drug discovery and alternative therapies have generated promising candidates, although most remain at computational, in vitro, or early preclinical stages. Large language models may support decision-making, but their clinical use remains preliminary. Successful translation of AI into clinical and One Health practice will require representative datasets, independent validation, prospective evaluation, and robust governance.",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.1016/j.onehlt.2026.101573",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "One Health",
+      "direction": "medical",
+      "id": "7547ef5508df"
+    },
+    {
+      "title": "Combating antimicrobial resistance through multimodal data via artificial intelligence",
+      "authors": "Qi Xia, Jiayang Li, Wenqi Wu, Jiajie Wang, Zhitao Zhou, ...",
+      "abstract": "Antimicrobial resistance (AMR) poses a critical global health challenge, leading to substantial mortality and economic losses without science-based interventions. Conventional approaches to combating AMR have important limitations in addressing this escalating threat. Recent advances in AI, including deep learning, large language models, and protein language models, provide new opportunities to integrate multimodal data for AMR research. However, evidence remains uneven, with many approaches limited to computational benchmarking rather than real-world validation. Here, we critically review AI applications in AMR, focusing on rapid diagnosis, therapeutic discovery, and clinical decision support. AI-based diagnostic models can identify resistant pathogens and predict resistance profiles, but most lack prospective clinical evaluation. AI-assisted drug discovery and alternative therapies have generated promising candidates, although most remain at computational, in vitro, or early preclinical stages. Large language models may support decision-making, but their clinical use remains preliminary. Successful translation of AI into clinical and One Health practice will require representative datasets, independent validation, prospective evaluation, and robust governance.",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.1016/j.onehlt.2026.101573",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "One Health",
+      "direction": "cell",
+      "id": "7547ef5508df"
     },
     {
       "title": "Generative AI for Drug Discovery: GPT-2 and LSTM-Based Models for Designing EGFR Inhibitors",
@@ -11964,42 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "b5aa74382013"
-    },
-    {
-      "title": "From Black-Box to Clinical Insight: A Multi-Stage Explainable Framework for Speech-Based Cognitive Impairment Detection",
-      "authors": "Yasaman Haghbin, Sina Rashidi, Ali Zolnour, Fatemeh Taherinezhad, Ali Fartoot...",
-      "abstract": "Speech-based cognitive impairment detection offers a noninvasive, accessible alternative to costly biomarker assays, yet transformer-based models remain clinically uninterpretable. We propose a multi-stage explainability framework that translates black-box transformer predictions into clinically grounded narratives by integrating SHapley Additive exPlanations (SHAP)-based token attribution, theory-informed linguistic features, and a four-stage LLM reasoning pipeline using LLaMA-3.1-70B-Instruct. Built on the SpeechCARE-Adaptive Gating Network multimodal screening model (F1 = 72.11% on the NIA PREPARE benchmark), the framework maps model outputs to four cognitive-linguistic dimensions, including lexical richness, syntactic complexity, and semantic coherence. Physician evaluation on 70 stratified English samples demonstrated strong alignment with patient-level cognitive profiles, and a System Usability Scale score of 82/100 indicated high potential for clinical workflow integration.",
-      "date": "2026-06-26",
-      "url": "https://arxiv.org/abs/2606.27973v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27973v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "ea7aa6375cfc"
-    },
-    {
-      "title": "Triadic Werewolf: A Jester Role for Multi-Hop Theory of Mind in LLMs",
-      "authors": "Avni Mittal",
-      "abstract": "Theory-of-mind evaluations of large language models typically use dyadic social-deduction games, where every observable cue points to a single hidden side, so a model with strong language priors can score well without ever simulating opponents' incentives. We extend the Werewolf game with a Jester, a third faction whose utility on peer suspicion is inverted because it wins by being voted out, so optimal play requires reasoning across three opposing utility functions. Across 60 games on GPT-4.1, DeepSeek-V3.1, and Llama-3.3-70B with Jester self-learning on and off, the Jester wins 60-70% of games while Werewolves never exceed 20%, and GPT-4.1 wolves vote the Jester out on day 1 in 60-70% of games, a strictly self-defeating action. Self-learning helps DeepSeek and Llama but hurts GPT-4.1, with the cost landing on Villagers rather than Werewolves. Only DeepSeek learns the subtle strategy of looking suspicious without looking intentionally suspicious, and it gains the most from the loop. Triadic incentive structure exposes a layer of multi-agent reasoning that dyadic deduction games leave invisible.",
-      "date": "2026-06-26",
-      "url": "https://arxiv.org/abs/2606.27909v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27909v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d62b911d1e2d"
-    },
-    {
-      "title": "Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety",
-      "authors": "Ting Ma, Xiufeng Huang, Benlei Cui, Xiaowen Xu, Shikai Qiu...",
-      "abstract": "As large language models are increasingly deployed in real-world systems, safety failures can still lead to harmful outputs and dangerous misuse. We argue that the essence of safety is adversarial: many failures arise not from natural inputs alone, but from strategic attempts to evade model policies and safeguards. However, existing general-purpose model development largely overlook this adversarial nature, and often remain insufficient for realistic safety scenarios involving planning, tool use, and multi-step reasoning, causing measured safety performance to overestimate real deployment robustness. To address this gap, we present Yuvion LLM, a large language model built for adversarially robust content safety and broader AI safety. Yuvion LLM treats adversarial robustness and agentic capability as first-class objectives. Its pipeline combines adversarially aware data construction, knowledge-enhanced continued pretraining, and policy-grounded multi-task safety post-training, including risk-aware supervised fine-tuning and reinforcement learning-based policy optimization, together with safety-aware agentic reinforcement learning for tool use and multi-step reasoning in complex safety scenarios. We further introduce the Yuvion LLM RiskEval (YLRE), a collection of 93 benchmarks across four evaluation categories, covering diverse open and internal evaluations with a focus on safety, adversarial robustness, and real-world capability requirements. Across these evaluations, Yuvion LLM demonstrates clear advantages on safety-focused benchmarks and particularly strong robustness under adversarial conditions, while maintaining solid overall capability. Notably, Yuvion-8B outperforms most state-of-the-art baselines, including substantially larger models such as GPT-5.4 and Qwen3-MAX, on several safety tasks.",
-      "date": "2026-06-26",
-      "url": "https://arxiv.org/abs/2606.27632v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.27632v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "25f913d5d86c"
     }
   ]
 }
