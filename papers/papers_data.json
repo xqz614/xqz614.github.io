@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-09-25 21:59",
+  "last_updated": "2026-09-26 21:51",
   "papers": [
+    {
+      "title": "LEME: open large language models for ophthalmology with advanced reasoning and clinical validation",
+      "authors": "Hyunjae Kim, X. C. Ai, Sahana Srinivasan, Aidan Gilson, Maxwell Singer, ...",
+      "abstract": "The rising prevalence of eye diseases poses a growing public health burden. Large language models (LLMs) offer a promising path to reduce documentation workload and support clinical decision-making. However, few have been tailored for ophthalmology, and most evaluations focus mainly on knowledge-based QA without clinically relevant benchmarks or real-world validation. Here, we present LEME, a suite of open-weight LLMs developed through a two-stage process: (1) instruction tuning on 200,000 samples from clinical guidelines, textbooks, and case reports to enhance reasoning and task-following, and (2) reinforcement learning with ~30,000 preference labels to enhance accuracy and informativeness. LEME was evaluated on five curated zero-shot benchmarks spanning tasks such as patient QA, consultation, and treatment planning. It outperformed all seven baselines (all p < 0.004), exceeding GPT-4o by 3.32% (absolute ROUGE-L gain). It was further evaluated on three downstream tasks using deidentified patient data, reviewed by clinicians. In patient QA, LEME received the highest ratings from attending clinicians in 3 out of 4 criteria, with scores of 4.67 for factuality, 4.77 for specificity, 4.79 for completeness, and 4.88 for safety (1-5 scale). Its completeness score surpassed that of expert-written answers (4.79 vs. 4.56; p = 0.015). In visual acuity extraction, LEME achieved the highest F1, outperforming LLaMA-3 by 14.1% and Eye-LLaMA by 59.0%. In a pilot evaluation on assessment and treatment planning for diabetic retinopathy, AMD, and glaucoma, LEME received scores of 4.36 for factuality, 4.55 for specificity, 4.42 for completeness, and 4.36 for safety, approaching attending-level performance. All models, data, and code will be released to support further development and clinical translation, laying the groundwork for improved efficiency and patient care",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.1038/s41746-026-03104-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "llm",
+      "id": "b2ac76bba6fd"
+    },
+    {
+      "title": "AI for Mathematics: Progress, Challenges, and Prospects",
+      "authors": "Haocheng Ju, Bin Dong",
+      "abstract": "AI for Mathematics (AI4Math) has emerged as a distinct field that leverages machine learning to navigate mathematical landscapes historically intractable for early symbolic systems. While mid-20th-century symbolic approaches successfully automated formal logic, they faced severe scalability limitations due to the combinatorial explosion of the search space. The recent integration of data-driven approaches has revitalized this pursuit. In this review, we provide a systematic overview of AI4Math, highlighting its primary focus on developing AI models to support mathematical research. Crucially, we emphasize that this is not merely the application of AI to mathematical activities; it also encompasses the development of stronger AI systems where the rigorous nature of mathematics serves as a premier testbed for advancing general reasoning capabilities. We categorize existing research into two complementary directions: problem-specific modeling, involving the design of specialized architectures for distinct mathematical tasks, and general-purpose modeling, focusing on foundation models capable of broader reasoning, retrieval, and exploratory workflows. We conclude by discussing key challenges and prospects, advocating for AI systems that go beyond facilitating formal correctness to enabling the discovery of meaningful results and unified theories, recognizing that the true value of a proof lies in the insights and tools it offers to the broader mathematical landscape.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.70777/si.v3i3.18747",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "SuperIntelligence - Robotics - Safety & Alignment",
+      "direction": "llm",
+      "id": "4762f7afbb07"
+    },
+    {
+      "title": "Automated Conjecture Resolution with Formal Verification",
+      "authors": "Haocheng Ju, Guoxiong Gao, Jiedong Jiang, Bin Wu, Zeming Sun, ...",
+      "abstract": "Recent advances in large language models (LLMs) have significantly improved their ability to perform mathematical reasoning, extending from elementary problem solving to increasingly capable performance on research-level problems. However, reliably solving and verifying such problems remains challenging due to the inherent ambiguity of natural language reasoning. In this paper, we propose an automated framework for tackling research-level mathematical problems that integrates natural language reasoning with formal verification, enabling end-to-end problem solving with minimal human intervention. Our framework consists of two components: an informal reasoning agent, Rethlas, and a formal verification agent, Archon. Rethlas mimics the workflow of human mathematicians by combining reasoning primitives with our mathematical theorem search engine, Matlas, to explore solution strategies and construct candidate proofs. Archon, equipped with our formal theorem search engine LeanSearch, translates informal arguments into fully formalized Lean 4 projects through structured task decomposition, iterative refinement, and automated proof synthesis, ensuring machine-checkable correctness. Using this framework, we automatically resolve an open problem in commutative algebra proposed by D. D. Anderson (2014) and formally verify the resulting proof in Lean 4 with essentially no human involvement. Additional research-level case studies further illustrate the capabilities of Rethlas in informal mathematical reasoning and discovery, as well as the ability of Archon to formalize research-level proofs in Lean 4. Our experiments demonstrate that strong theorem retrieval tools enable the discovery and application of deep, cross-domain mathematical techniques, while the formal agent is capable of autonomously filling nontrivial gaps in informal arguments. More broadly, our work illustrates a promising paradigm for mathematical research in which informal and formal reasoning systems, equipped with theorem retrieval tools, operate in tandem to produce verifiable results, substantially reduce human effort, and offer a concrete instantiation of human–AI collaborative mathematical research with minimal human involvement.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.70777/si.v3i3.18746",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "SuperIntelligence - Robotics - Safety & Alignment",
+      "direction": "llm",
+      "id": "5604297a6e3f"
+    },
+    {
+      "title": "TacVerse: A Multisensor Dataset and Benchmark for Cross‐Sensor Vision‐Based Tactile Perception",
+      "authors": "Lan Wei, Garvit Khurana, Sirine Bhouri, Wenhao Hong, Zeyuan Xin, ...",
+      "abstract": "Vision‐based tactile sensors (VBTSs) enable robots to infer contact geometry and force‐related cues by imaging deformation through an internal camera, yet generalization across sensor designs remains poorly understood. We present TacVerse, a multisensor dataset and benchmark for cross‐sensor vision‐based tactile perception. The dataset contains 106 800 tactile images from seven VBTSs and supports three downstream tasks: shape classification, grating classification, and force regression. Experiments are conducted under three settings: within‐sensor training, zero‐shot cross‐sensor transfer, and few‐shot adaptation. Strong within‐sensor performance across all tasks indicates that the collected tactile observations are informative for the target objectives. Direct cross‐sensor transfer, however, leads to substantial degradation. Shape classification is comparatively robust, whereas grating classification and force regression are more sensitive to sensor shift. Few‐shot adaptation for force regression consistently improves performance on unseen target sensors but does not fully close the gap to within‐sensor upper bounds. A representation study further shows that Masked Autoencoder pretraining provides the most consistent gains across tasks and sensors. TacVerse provides a controlled testbed for studying sensor shift, data‐efficient adaptation, and self‐supervised learning in tactile perception.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.1002/adrr.70169",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Advanced Robotics Research",
+      "direction": "llm",
+      "id": "230bf17735a6"
+    },
+    {
+      "title": "Comparing GenAI Summaries Versus Chatbots for Supporting Reflection in Healthcare Simulation",
+      "authors": "Mikaela Elizabeth Milesi, Viktoria Pammer‐Schindler, Linxuan Zhao, Yueqiao Jin, Vanessa Echeverría, ...",
+      "abstract": "Reflection is critical for learning. In healthcare, simulations help learners practice clinical and teamwork skills, while reflection supports improving practice. Learning analytics (LA) dashboards can support reflection by visualizing activity data, but their effectiveness is limited by learners’ ability to interpret data visualizations and domain knowledge. Generative AI (GenAI) may bridge this gap through narrative explanations of data. Yet little is known about how forms of GenAI support—such as chatbots or summaries—affect reflection. We conducted a comparative study with 41 nursing students who wrote reflections after a simulation, supported by an LA dashboard augmented with a GenAI summary or chatbot. Results suggest that written reflections differed across conditions: GenAI summaries help align reflections with learning goals, while chatbots encourage consideration of actions and plans. However, nursing teachers identified no difference in the quality of plans. These findings suggest GenAI configuration may shape how technologies support reflection.",
+      "date": "2026-09-24",
+      "url": "https://doi.org/10.1080/10447318.2026.2731321",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Human-Computer Interaction",
+      "direction": "medical",
+      "id": "52b25b60cd87"
+    },
+    {
+      "title": "Artificial intelligence for toxicokinetic parameterization in environmental exposure assessment",
+      "authors": "Xue Wu, Zhicheng Zhang, Kun Mi, Qiran Chen",
+      "abstract": "Toxicokinetics (TK) characterizes the absorption, distribution, metabolism, and excretion (ADME) of chemicals in the body and connects exposure with internal dose and potential toxicity. Because in vivo and in vitro TK assays are costly and low-throughput, and demand for emerging chemicals is growing, artificial intelligence and machine learning (AI/ML) offer alternative tools to predict ADME profiles for data-poor chemicals. This review examines recent developments in AI-based TK parameterization with relevance to environmental exposure assessment. First, we outline the essential elements of AI-based TK parameterization paradigms, including data sources, molecular representations, and commonly used ML algorithms. Second, the recent applications of AI/ML models across four ADME processes are introduced. Third, we discuss current limitations and future perspectives, including model reliability, interpretability, data availability for environmental chemicals, and integrating AI-predicted TK parameters into mechanistic models, such as physiologically based pharmacokinetic (PBPK) models and other downstream modeling frameworks. Although many existing studies rely on pharmaceutical or mixed chemical datasets, these approaches could support TK parameterization and exposure assessment for environmental chemicals. Further progress will depend on improved data quality, broader environmental chemical coverage, and more rigorous model validation and uncertainty evaluation.",
+      "date": "2026-09-24",
+      "url": "https://doi.org/10.20517/jeea.2026.34",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Environmental Exposure Assessment",
+      "direction": "cell",
+      "id": "928c9f8c45a3"
+    },
     {
       "title": "Artificial intelligence for precision gene therapy: emerging technologies, clinical applications, and future directions",
       "authors": "Govinder Flora, Abhinay Thakur",
@@ -120,6 +192,18 @@
       "venue": "Journal of Machine Learning",
       "direction": "llm",
       "id": "eb2e8130b395"
+    },
+    {
+      "title": "Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study",
+      "authors": "Shuai Yang, Yundong Xu, Chaoju Jia, Yimeng Wang",
+      "abstract": "This study proposes an ontology-guided, validation-aware LLM workflow for scientific information extraction and evaluates it in a single-domain case study of yeast metabolic engineering. The workflow integrates section-aware evidence targeting, context expansion, adversarial “Seed-of-Doubt” validation, and ontology-guided semantic checking. We instantiate the approach by constructing a unified schema of 37 structured features and a hybrid featurization strategy that bridges semantic interoperability with downstream machine-learning readiness. From 220 eligible research articles, the workflow extracted 2312 experimental records. Evaluation against 183 expert-curated records from 15 articles yielded an F 1 of 0.96 (95% article-clustered bootstrap CI [0.93, 0.99]), compared with 0.80 for zero-shot full-text extraction and 0.89 for self-refinement. On a shared 21-field subset, the workflow achieved F 1 = 0.95 versus 0.83 for SPIRES/OntoGPT. The rates of strain–data mismatch and genotype hallucination decreased from 22.0% to 3.0% and from 15.0% to 1.8%, respectively; numerical extraction MAE decreased from 2.45 to 0.12 g/L. The records preserved the reference correlation structure ( r = 0.94 ) and supported downstream modeling ( R 2 = 0.762 under article-grouped cross-validation; 0.805 under record-level splitting). In a separate comparison on the 183-record reference set, training on curated rather than extracted records improved R 2 by 0.027 (95% CI [−0.011, 0.064]); this interval does not establish equivalence. Ablation supports an incremental contribution from ontology-guided validation beyond structural constraints. The results support improved extraction reliability and analytical reuse within the studied domain.",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1016/j.ipm.2026.105179",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Information Processing & Management",
+      "direction": "medical",
+      "id": "e5ab20683781"
     },
     {
       "title": "Artificial Intelligence in Multimodal Neuroimaging Research on Depression: A Bibliometric Analysis",
@@ -11916,90 +12000,6 @@
       "venue": "Frontiers in Medicine",
       "direction": "cell",
       "id": "af2e6113ca75"
-    },
-    {
-      "title": "Self-Evolving World Models for LLM Agent Planning",
-      "authors": "Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng",
-      "abstract": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30639v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30639v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d3c3c728cb5f"
-    },
-    {
-      "title": "Uncertainty-Aware Generation and Decision-Making Under Ambiguity",
-      "authors": "Nico Daheim, Iryna Gurevych",
-      "abstract": "With rapidly improving capabilities, Large Language Models (LLMs) are increasingly used in many complex real-world tasks. Beyond requiring in-depth knowledge and reasoning skills, many of these tasks exhibit a high degree of subjectivity and require that the outputs of the model can be trusted. While a lot of progress has been made to train better models, decision-making algorithms have received less attention. In this work, we present and evaluate various uncertainty-aware decision-making algorithms based on Bayesian decision theory and risk-averse decision making on the tasks of tutoring and automatic peer reviewing. Concretely, we take uncertainty over tutoring strategies and review scores into account when generating a tutor response or review and use conformal prediction to provide guarantees over strategy and score. We find empirically that these algorithms can improve the utility of the generations but need to be carefully implemented when ambiguity is high. For example, risk-averse rules can degrade performance by optimizing for generic outputs, while Bayesian methods tend to perform better. Our work uses techniques from decision theory to improve LLM-based decision-making and outlines open challenges for the community.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30578v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30578v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9c5105106d37"
-    },
-    {
-      "title": "Situation Perception: A Necessary Primitive to Artificial Superintelligence",
-      "authors": "Ziqin Yuan, Jaymari Chua",
-      "abstract": "Current large language models are extraordinary statistical engines. They compress vast amounts of text into useful patterns and can explain science, write code, imitate reasoning, and participate in philosophical conversation. Yet pattern mastery is not the same as general intelligence. A human infant begins with little explicit knowledge, but gradually discovers object permanence, cause and effect, other minds, bodily agency, and the persistence of the physical world. We make an argument that the path to artificial superintelligence (ASI) depends on a missing capacity we call \\emph{situation perception}: the ability to construct, revise, and act within internal simulations of possible worlds across latent time. \\emph{ perception} requires at least three core components: abstract prediction, long-term compressed memory, and active learning guided by objectives. In this work, we analyse why modern large language models remain incomplete, and propose the appropriate tests for measuring progress and consequences of machines that can simulate futures, pursue self-directed goals, and possibly judge their own creators.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30481v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30481v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "527aff1d8f89"
-    },
-    {
-      "title": "REAR: Test-time Preference Realignment through Reward Decomposition",
-      "authors": "Fuxiang Zhang, Pengcheng Wang, Chenran Li, Yi-Chen Li, Yuxin Chen...",
-      "abstract": "Aligning large language models (LLMs) with diverse user preferences is a critical yet challenging task. While post-training methods can adapt models to specific needs, they often require costly data curation and additional training. Test-time scaling (TTS) presents an efficient, training-free alternative, but its application has been largely limited to verifiable domains like mathematics and coding, where response correctness is easily judged. To extend TTS to preference alignment, we introduce a novel framework that models the task as a realignment problem, since the base model often fails to sufficiently align with the stated preference. Our key insight is to decompose the underlying reward function into two components: one related to the question and the other to preference information. This allows us to derive a REAlignment Reward (REAR) that selectively rescales the proportions of these two reward terms. We then show that REAR can be formulated as a linear combination of token-level policy log-probabilities, making it computationally efficient and easy to integrate with various TTS algorithms such as best-of-$N$ sampling and tree search. Experiments show that compared to other test-time baselines, REAR not only enables scalable test-time realignment for preference alignment tasks under diverse user requirements, but also generalizes to mathematical and visual tasks under appropriate preference settings.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30339v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30339v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "6934d1c9c1e9"
-    },
-    {
-      "title": "DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information",
-      "authors": "Roland Roller, Vera Czehmann, Derya Erman, Luke Flanagan, Ibrahim Baroud...",
-      "abstract": "Conversational data collected in domains such as healthcare or social sciences is a valuable resource for research and automated analysis. However, responsible data sharing requires the detection and removal of personally identifiable and sensitive information to protect individual privacy. To support the development and evaluation of automatic de-identification systems, we present DialogPII, a multilingual dataset of synthetic dialogs and speech-derived transcripts for personal information detection. DialogPII covers eight interaction scenarios (emergency calls, medical anamnesis interviews, therapy sessions, insurance communication, customer support, clinical interviews regarding an AI-supported dashboard, police reports, and group therapy discussions), 19 entity types, and 11 languages (English, Arabic, Finnish, French, German, Hindi, Italian, Polish, Portuguese, Spanish, and Turkish). Dialogs were generated semi-automatically using large language models, manually curated for plausibility and diversity, and localized to country- and city-specific contexts. All dialogs were additionally converted to speech via text-to-speech synthesis, transcribed with Whisper, and annotated through automatic projection and manual correction, yielding aligned written and speech-derived resources across all languages. We further release baseline multilingual named entity recognition models and provide technical validation through inter-annotator agreement analysis, translation quality evaluation, annotation projection assessment, and benchmark experiments with transformer-based sequence labeling models.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30312v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30312v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "70584a6043ab"
-    },
-    {
-      "title": "MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training",
-      "authors": "Wenhan Ma, Jianyu Wei, Liang Zhao, Hailin Zhang, Bangjun Xiao...",
-      "abstract": "Modern large language models (LLMs) rely on reinforcement learning during post-training to push specific capabilities, yet integrating multiple capabilities into one model remains hard. Existing methods, such as Off-Policy Finetune and Mix-RL, are either inefficient or lose performance. In this work, we propose Multi-teacher On-Policy Distillation (MOPD), a post-training paradigm for combining the capabilities of multiple domain RL teachers: we first run per-domain specialised RL to obtain a set of domain teachers, then distill these teachers into the student on its own rollouts. This eliminates exposure bias and provides a dense optimization signal. On Qwen3-30B-A3B, MOPD outperforms Mix-RL, Cascade RL, Off-Policy Finetune, and Param-Merge baselines, inheriting nearly all of each teacher's capability. MOPD also enables parallel, independent development of domain teachers, removing the cross-domain coupling typical of multi-domain post-training. MOPD has been deployed in the post-training of MiMo-V2-Flash, an industrial-scale frontier model, demonstrating its practical value for capability integration in frontier-scale LLMs.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30406v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30406v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "fd81ada7141e"
-    },
-    {
-      "title": "Towards Physical Intuitions for Alignment Dynamics: A Case Study With Randomness Crystallization",
-      "authors": "Kunal Samanta, Ari Holtzman, Peter West",
-      "abstract": "The alignment of language models is typically studied through the lens of capability benchmarks, but the dynamics of how models change during post-training remain poorly understood. We argue that the physical sciences, and thermodynamic phase-transition theory in particular, offer a principled and underexplored vocabulary for reasoning about these dynamics. As a case study, we instantiate this position through the lens of material Crystallization, which is a well-studied thermodynamic phase transition. For tasks like random number generation, this breaks into 3 phases: (1) the high entropy liquid phase in the pretrained model, with many distinct sampling distributions promptable from the model; (2) the nucleation phase caused by supervised finetuning, in which behavior collapses onto a single seed distribution present in the pretrained LLM; and (3) a settling phase in which reinforcement learning techniques redistribute probability of the collapsed distribution, but largely keep it concentrated on the same options as the seed distribution. We propose intuitive metrics to verify the transitions between these phases, and validate the idea across a range of random tasks. Crystallization is one instance of a broader class of physical frameworks we believe alignment research should import to answer questions about where alignment-induced structure comes from, why it converges where it does, and what it fundamentally cannot change.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.29933v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.29933v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "97e74341ad30"
     }
   ]
 }
