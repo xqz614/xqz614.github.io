@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-09-26 21:51",
+  "last_updated": "2026-09-27 21:51",
   "papers": [
+    {
+      "title": "X-MASIR: AN EXPLAINABLE MULTI-AGENT LARGE LANGUAGE MODEL FRAMEWORK FOR AUTOMATED SECURITY INCIDENT RESPONSE",
+      "authors": "Tinakaran Chinnachamy",
+      "abstract": "Today's Security Operations Centers (SOCs) need to process vast amounts of complex and diverse security data from endpoints, cloud, identity and network systems in a timely manner.Large Language Models (LLMs) have been shown to have a good performance in reasoning but are not widely used in automated incident response for the following reasons: Lack of explainability: LLM outputs are often hard to interpret; Decision validation is inconsistent: Not every decision made by LLM is verified; Evidence correlation is poor: LLM fails to correlate evidence in fragments; Collaborative reasoning is also limited: LLM is not good at reasoning together.To tackle these problems, this paper introduces a novel framework for AI-enabled cyber defense, X-MASIR (Explainable Multi-Agent Security Incident Response).X-MASIR is a platform that uses specialized agents based on LLMs, each dedicated to a specific task, such as evidence collection, threat intelligence correlation, attack-path reconstruction, risk assessment, response planning, policy verification and explanation generation.",
+      "date": "2026-09-26",
+      "url": "https://doi.org/10.34218/ijaiml_05_02_007",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "",
+      "direction": "llm",
+      "id": "77e727573b9a"
+    },
+    {
+      "title": "“Already outdated and still under review”: mapping the landscape of research on adolescent development and AI chatbot use",
+      "authors": "Anne Julia Maheux, Caitlin Mbuakoto, Madeline G. Valentino, Jana Haritatos, Anthony Vaccaro, ...",
+      "abstract": "Artificial intelligence (AI) chatbots are increasingly embedded in adolescents’ daily lives, yet developmental science research struggles to keep pace with adoption. This mixed-methods study gathered developmental expert perspectives via a survey ( n = 141 researchers studying youth and technology and adjacent professionals) and semi-structured interviews ( n = 15) to inform a coordinated research and policy agenda on adolescent AI use. The study aims were to identify (1) priority AI use cases for future study, (2) priority research questions and methods, as well as barriers to future research, and (3) societal guardrails that developmental professionals recommend enacting now, while research is underway. Participants cautioned against vague “screen time” measures and agreed that nearly all use cases merit study but prioritized those with severe or irreversible immediate-term harms, AI literacy, AI as a social/relational actor, AI-generated (mis)information, and overreliance. Participants emphasized that methodological pluralism and triangulation, including within individual studies, are essential, agreeing that different methods can be complementary to address distinct research questions. Key barriers included the rapid pace of change in AI technology and use relative to academic timelines, limited industry transparency, funding gaps, and misaligned academic incentives. Proposed solutions included shared infrastructure, interdisciplinary consortia, and community partnerships. Participants underscored that responsibility for safe AI should not rest primarily on adolescents and families and identified three immediate guardrails: enforceable youth-centered regulation, developmentally informed design, and multidimensional AI literacy. Findings clarify a preliminary direction for the field and emphasize that coordination among researchers and between sectors is needed.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.1007/s00146-026-03380-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "AI & Society",
+      "direction": "medical",
+      "id": "f600abfcf7aa"
+    },
+    {
+      "title": "Prediction of pathological complete response after neoadjuvant therapy in breast cancer using pretreatment core biopsy pathology reports: a pathology-report-driven model with exploratory clinical-laboratory fusion",
+      "authors": "Rui Zhang, Luxia Qi, Bin Li, Guifang Zhang",
+      "abstract": "Pathological complete response (pCR) after neoadjuvant therapy is an important response endpoint in breast cancer. We investigated whether routinely generated pretreatment core biopsy pathology reports could support pCR prediction and whether clinical, preoperative laboratory, and treatment information provided incremental predictive value. This single-center retrospective model-development study included 171 patients with breast cancer who underwent core biopsy, neoadjuvant therapy, and surgery at Xinxiang Central Hospital between March 1, 2016, and January 1, 2026; 64 achieved pCR and 107 did not. We converted 361 pretreatment pathology files to patient-level text, extracted structured pathology phenotypes with a rule-based pipeline, and represented report text with character/marker n-gram term frequency-inverse document frequency followed by singular value decomposition. Five primary elastic net logistic regression models were assessed using 20 repeats of stratified 5-fold cross-validation, with all learned preprocessing confined to training folds. The clinical-laboratory model showed weak discrimination (area under the receiver operating characteristic curve [AUC] 0.420, 95% confidence interval [CI] 0.326-0.509). The structured pathology and report text models achieved AUCs of 0.738 (95% CI 0.664-0.810) and 0.689 (95% CI 0.606-0.767), respectively. Pathology fusion achieved an AUC of 0.747 (95% CI 0.672-0.815; Brier score 0.200, 95% CI 0.175-0.226). Adding clinical-laboratory variables did not improve AUC (multimodal AUC 0.733, 95% CI 0.656-0.805; difference vs. pathology fusion −0.014, 95% CI -0.048 to 0.017; P = 0.388). In a post-hoc secondary analysis, adding standardized regimen components to pathology fusion yielded an AUC of 0.757 (95% CI 0.679-0.824) and an AUC increase of 0.009 (95% CI −0.019 to 0.037; P = 0.487). The tested frozen BGE, Chinese RoBERTa, and ERNIE-Health embeddings did not outperform the lexical text representation. Among 20 audited image-only cases, OCR character accuracy was 98.72%; across 40 audited cases, critical pathology-field agreement ranged from 95.0% to 100%. Pretreatment pathology reports carried most of the observed predictive signal, whereas the incremental value of treatment information was small and imprecisely estimated. Independent external validation is required before clinical use.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.3389/fonc.2026.1909071",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Oncology",
+      "direction": "medical",
+      "id": "03b0bd9c8c9f"
+    },
+    {
+      "title": "Comparative evaluation of traditional and advanced AI models for classifying brain tumor status from MRI reports",
+      "authors": "Hamza Shafiq, Adven Masih, Talha Asif, Rooha Tariq, Jabar Mahmood, ...",
+      "abstract": "Abstract To evaluate automated classification of English brain MRI reports into nontumor, posttreatment-tumor, and pretreatment-tumor categories under duplicate-aware internal validation, comparing transparent lexical baselines, a recurrent deep-learning baseline, and pretrained transformer encoders with comprehensive statistical and explainability diagnostics. The analytic dataset contained 820 usable reports (541 nontumor, 181 pretreatment, 98 posttreatment) after removal of one completely blank row. Only the report Description field was used as model input. Exact and near-duplicate reports were grouped before a 585/120/115 train/validation/held-out internal test split. Models included a lexical rule baseline, TF-IDF logistic regression with unigram-bigram features (and a unigram-only sensitivity specification), a bidirectional LSTM with trainable embeddings, and four transformer encoders (BERT, BioBERT, ClinicalBERT, DistilBERT). Transformer epoch count was selected on validation data. Stochastic models (BiLSTM and transformers) were repeated using seeds 0, 42, 70, 300, and 2026. Logistic regression was assessed through feature-specification sensitivity and paired comparisons. Primary outcomes included accuracy, balanced accuracy, macro-F1, macro precision-recall AUC, class-wise metrics, duplicate-cluster bootstrap intervals, paired McNemar tests with Holm correction, calibration scores (Brier score, log loss, expected calibration error), lexical challenge tests, and quantitative LIME fidelity and stability. The unigram-bigram TF-IDF logistic regression produced the highest primary-seed test accuracy (88.70%) and macro-F1 (0.869). The unigram-only sensitivity specification achieved 86.96% accuracy and macro-F1 0.852. Among transformer models, ClinicalBERT demonstrated the strongest repeated-run profile with mean accuracy of 86.09% (SD = 0.87% points), macro-F1 of 0.831 (SD = 0.014), macro PR-AUC of 0.918 (SD = 0.003), and the most favorable calibration metrics (mean Brier score 0.252, mean ECE 0.124). BioBERT achieved 86.96% accuracy at seed 42 but showed greater variability across runs (SD = 2.51% points). BiLSTM averaged 81.22% (SD = 1.58) accuracy and macro-F1 of 0.739 (SD = 0.029). Using logistic regression as the paired reference, none of the BERT-family or BiLSTM accuracy differences remained statistically significant after Holm correction; only the comparison with the simple rule baseline was significant. Posttreatment classification remained challenging across all models (recall range: 0.333–0.815). In focal BioBERT diagnostics, LIME local fidelity ranged from 0.147 to 0.676, and top-feature stability was modest (mean pairwise top-10 Jaccard overlap approximately 0.25–0.50). No single model should be declared best overall. TF-IDF logistic regression had the strongest primary-seed point estimate, whereas ClinicalBERT was the strongest and most stable transformer across repeated runs. BioBERT was retained as the focal model for calibration, lexical challenge, and LIME diagnostics for continuity with the original analysis, not because it was the overall winner. These internally validated results support cautious use for report triage, cohort identification, or registry support, but patient-independent, center-held-out, temporal, and external validation are required before clinical deployment.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.1038/s41598-026-72966-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "c302ba49a09a"
+    },
+    {
+      "title": "Multimodal profiling uncovers an aging-associated ETS1-MYO1B vascular niche responsive to ipragliflozin",
+      "authors": "Mingzhu Jin, Yue Zhang, Haien Wu, Bo You, Ling Li, ...",
+      "abstract": "Background Tissue aging involves complex changes in vascular, immune, and stromal compartments that collectively reshape the local tissue ecosystem and may contribute to age-related diseases, including cancer, fibrotic diseases, and cardiovascular disease. However, it remains unclear whether reproducible, cell-specific vascular niche states emerge during aging and whether these states can be therapeutically targeted. Methods A machine-learning single-cell age-clock model was constructed using three published human skin single-cell transcriptomic datasets and validated against chronological age. Vascular subpopulations were resolved by NMF clustering and diffusion pseudotime analysis. These findings were further validated in 15 human skin samples using H&E-based digital image analysis and immunohistochemistry. An inflammatory HMEC-1 model was used for RT-qPCR, flow cytometry, SA-β-gal staining, siRNA knockdown, and ChIP-qPCR. Structure-based virtual screening of an FDA drug library, molecular dynamics simulation, and biolayer interferometry were used to identify and validate ETS1-targeting compounds. Efficacy was assessed in vivo in a D-galactose-induced aging model treated with oral ipragliflozin. Results Predicted age correlated with chronological age, with vascular endothelial cells, lymphatic endothelial cells, and pericytes carrying the strongest aging signals. Aged skin showed a higher low-hematoxylin-area burden, reduced boundary-complexity variation, and reduced vascular-area heterogeneity. An aging-associated pericyte subcluster marked by MYO1B was identified, together with a continuous endothelial-to-pericyte transition (EndoPT). TGF-β1/IL-1β stimulation induced MYO1B- and PDGFRB-positive pericyte-like transition and senescence in HMEC-1 cells. ETS1 bound the MYO1B promoter and was associated with aging status. Ipragliflozin bound the transcription-regulatory region of ETS1, suppressed the ETS1–MYO1B axis, reduced EndoPT and senescence in vitro , and restored epidermal thickness while reducing MYO1B, PDGFRB, and PAI-1 in aged rat skin. Conclusion Multimodal profiling identifies an aging-associated ETS1-MYO1B vascular niche characterized by heightened inflammation, endothelial-to-pericyte plasticity, and cellular senescence, and demonstrates that this niche can be therapeutically targeted with ipragliflozin. As these processes also contribute to the microenvironmental remodeling observed in cancer and other age-related diseases, this niche may provide broader insight into how vascular and stromal alterations shape tissue aging and disease susceptibility.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.3389/fcell.2026.1968248",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Cell and Developmental Biology",
+      "direction": "cell",
+      "id": "8b9c451221f3"
+    },
+    {
+      "title": "Colorectal cancer organoids: a developmental trajectory from Matrigel embedding to AI-empowered precision medicine",
+      "authors": "Muxin Tang, Lin Shaoyi, Qian Liang, Di Long",
+      "abstract": "The high heterogeneity and complex microenvironment of colorectal cancer (CRC) represent critical bottlenecks contributing to treatment resistance and clinical translation failure, and the iterative development of organoid technology provides a key driving force for precision oncology. This narrative review systematically outlines the four-stage developmental trajectory of CRC organoid technology—while recognizing that these stages are not strictly sequential replacements but rather long-term coexisting and complementary approaches. The first-generation Matrigel embedding method established the foundation for three-dimensional culture but lacked adequate microenvironment simulation. The second generation achieved preliminary tumor–stromal interactions through optimized culture media and co-culture systems. The third generation integrated engineering technologies such as microfluidic chips and bioprinting, overcoming bottlenecks in high-throughput standardization and dynamic regulation in dedicated platforms. The fourth generation leverages artificial intelligence (AI), achieving substantial advances in intelligent phenotypic analysis, drug-response prediction, and initial exploration of digital twin systems. By comparing differences in heterogeneity retention, throughput, clinical potential, and cost-effectiveness among the four generations, this review emphasizes their core clinical value in individualized medication guidance and novel target discovery. Despite persistent challenges—including insufficient microenvironment simulation, poor AI explainability, and lack of standardization—current evidence suggests that interdisciplinary integration and intelligent platform development can transform organoid technology into a key hub bridging basic research and clinical practice. We therefore recommend accelerating the establishment of standardized organoid biobanks, embedding AI-driven predictive models into clinical workflows, and formulating regulatory frameworks to facilitate the translation of organoid-based precision medicine for colorectal cancer.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.3389/fonc.2026.1901112",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Oncology",
+      "direction": "cell",
+      "id": "445c9b67083f"
+    },
+    {
+      "title": "Tau protein in Parkinson’s disease: advances in phosphoproteomics and molecular dynamics simulations",
+      "authors": "Jessica Ledesma-Aparicio, Luis Alberto Caro-Gómez, Francisco Javier Padilla-Godínez, Omar Hernández‐González, Luis O. Soto-Rojas, ...",
+      "abstract": "Tau dysregulation, particularly abnormal phosphorylation, is increasingly implicated in Parkinson’s disease (PD) and in the pathogenic interaction between Tau and α-synuclein. This review proposes an integrated PD-focused workflow connecting phosphoproteomic discovery, structural modeling, computational drug discovery, and experimental validation. Phosphoproteomic analyses of post-mortem brain tissue, biofluids, and patient-derived dopaminergic neuronal models can identify candidate Tau phosphosignatures associated with vulnerable brain regions, α-synuclein pathology, genetic background, or clinical progression. Molecular dynamics simulations can then evaluate how these signatures alter Tau conformation, microtubule binding, aggregation-prone motifs, membrane association, and pathogenic protein interactions. The resulting structural information can guide ensemble docking, chemoinformatics, and artificial intelligence approaches to prioritize conformer-selective ligands and regulatory targets. Candidate biomarkers should subsequently be validated in independent and longitudinal PD cohorts, whereas therapeutic candidates require mechanistic and functional validation in PD-relevant experimental models before clinical translation. This iterative framework may help distinguish mechanistically relevant Tau phosphoconformers from nonspecific phosphorylation changes, support biomarker-based patient stratification, and focus therapeutic development on structurally defined pathological states. Because much of the available structural evidence derives from Alzheimer’s disease and other tauopathies, direct validation in PD remains essential. By linking PD-derived and disease-relevant molecular evidence with atomistic mechanisms and therapeutic prioritization, this workflow may support biomarker-informed strategies aimed at restoring Tau homeostasis and disrupting pathogenic Tau–α-synuclein interactions.",
+      "date": "2026-09-25",
+      "url": "https://doi.org/10.3389/fnagi.2026.1841131",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Aging Neuroscience",
+      "direction": "cell",
+      "id": "aaf2b6facc71"
+    },
     {
       "title": "LEME: open large language models for ophthalmology with advanced reasoning and clinical validation",
       "authors": "Hyunjae Kim, X. C. Ai, Sahana Srinivasan, Aidan Gilson, Maxwell Singer, ...",
@@ -48,6 +132,30 @@
       "venue": "Advanced Robotics Research",
       "direction": "llm",
       "id": "230bf17735a6"
+    },
+    {
+      "title": "Effectiveness of deep recurrent neural networks in classifying COVID-19-related respiratory conditions using clinical reports",
+      "authors": "Y.V. Srinivasa Murthy, Kavishna Sekar, R. Thanushri, Varsha Vinod, Gauri Kalnoor, ...",
+      "abstract": "Abstract Countries all around the world have been severely affected by the novel coronavirus, popularly known as COVID-19, causing hundreds of thousands of unfortunate deaths without having found a widespread immunization method. It is extremely crucial for healthcare officials and the Governments of various countries to be able to differentiate the possible coronavirus strains to provide appropriate care and treatment. This paper proposes an effective way to set apart coronavirus strains into classes such as severe acute respiratory syndrome (SARS), acute respiratory distress syndrome (ARDS), and COVID-19 using machine learning algorithms and recurrent neural networks (RNN). Natural language processing (NLP) techniques were performed on textual clinical reports to structure the data and improve its usability for the model. Bag of words model and Term Frequency-Inverse Document Frequency (TF-IDF) vectorization were some of the few processes involved in extracting the prominent symptoms associated with each variant. The same has fed to various machine learning algorithms include multinomial naive Bayes (NB), logistic regression (LR), decision tree (DT), support vector machines (SVMs), and random forest (RF). Moreover, two more algorithms namely bagging, and gradient boost, are used for classification purposes. The reasons for choosing them are to observe their performance while classifying the proposed problem and compare the overall potency of the prediction system with RNNs. From this investigation, RNNs proved to be the optimal and expeditious technique to distinguish the covid strains. Adding more layers to the RNN has been noted to increase the efficacy of the system. The proposed approach with RNNs is giving an accuracy of around 99.14%.",
+      "date": "2026-09-24",
+      "url": "https://doi.org/10.1038/s41598-026-70371-2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "a5ca4d1d9bb3"
+    },
+    {
+      "title": "Knowledge Driven Event Extraction from Low Resource Language Content Using Strategic Few-Shot Learning",
+      "authors": "Prasenjeet Roy, Lipika Dey, Suman Kundu",
+      "abstract": "Timely extracting structured information from social media during disaster events is critical for effective response and coordination. This work presents a comprehensive pipeline for sub-event information extraction (IE) from Hindi-language tweets and news articles, covering eleven key categories such as casualties, infrastructure damage, relief operations and others. We introduce CrisisIE-Hindi, a benchmark dataset of around 9.6k annotated posts spanning cyclone, earthquake, flood and other disaster events. To assess the robustness of disaster IE models under low-resource and multilingual settings, we evaluate seven open-source and proprietary language models of varying sizes. Our analysis reveals that smaller models struggle to follow structured output instructions and generalize across unseen scenarios, particularly those with limited exposure to Hindi or domain-specific data. To mitigate these challenges, we propose a strategic few-shot prompting framework that leverages a frozen data bank for dynamic demonstration selection. This approach significantly improves model performance across all eleven categories, even on out-of-domain events. To show the efficacy of our proposed approach, we also showed the performance on three other low-resource language datasets- L3-Cube-MahaNER, B-NER, and HiNER. Notably, our method enables small and mid-sized language models to generalize effectively in instruction-following tasks for disaster IE. Our findings highlight the potential of prompt-based adaptation for low-resource languages and domains. We release our dataset to foster future Hindi disaster response systems research.",
+      "date": "2026-09-24",
+      "url": "https://doi.org/10.1145/3849475",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "direction": "medical",
+      "id": "9500c3f1dc69"
     },
     {
       "title": "Comparing GenAI Summaries Versus Chatbots for Supporting Reflection in Healthcare Simulation",
@@ -11892,114 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "d36e73b8d012"
-    },
-    {
-      "title": "Modeling Cell-Cycle-Aware Single-Cell Drug Perturbation Responses",
-      "authors": "Dingping Zhao, Jie Lin",
-      "abstract": "Single-cell drug perturbation models should predict not only transcriptional response magnitude, but also whether a treatment alters the proliferative state of a cell. This is challenging because cell-cycle variation is often treated as nuisance variation, and benchmark pipelines rarely treat drug-induced phase changes as a primary prediction target. We introduce scCycleMol, a cell-cycle-aware perturbation prediction framework built on a curated 24-hour SciPlex3 benchmark with standardized molecule identities, dose and cell-line metadata, and gene expression with cell-cycle supervision derived from treated states. Instead of using cell-cycle state as an input covariate, scCycleMol derives supervision from predicted treated expression and propagates it through a learnable full-expression cell-cycle head with circular G1/S/G2M phase targets. We evaluate marker-based supervision, molecular representations, and pretraining strategies to isolate sources of improvement. Across a SciPlex3 benchmark with over 600k cells, 186 perturbation conditions, multiple cancer cell lines, and thousands of genes, scCycleMol improves out-of-distribution expression prediction compared with conditional perturbation baselines. The best LINCS-pretrained circular model achieves 0.9093 expected all-gene r squared and 0.6843 expected differentially expressed gene r squared, compared with 0.6800 and 0.5400 for LINCS-pretrained ChemCPA. Closed-loop cell-cycle supervision improves phase accuracy by about 0.5 to 0.6 points while maintaining nearly unchanged expression prediction. A Tahoe-pretrained variant reaches 0.9609 phase accuracy, highlighting the benefit of explicit cell-cycle-aware supervision in perturbation modeling.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30695v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30695v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "cell",
-      "id": "06ca24941f7d"
-    },
-    {
-      "title": "From Search to Synthesis: Training LLMs as Zero-Shot Workflow Generators",
-      "authors": "Gan Luo, Zihan Qin, Bin Dong, Wotao Yin",
-      "abstract": "Large language models (LLMs) excel across a wide range of tasks, yet their instance-specific solutions often lack the structural consistency needed for reliable deployment. Workflows that encode recurring algorithmic patterns at the task level provide a principled framework, offering robustness across instance variations, interpretable traces for debugging, and reusability across problem instances. However, manually designing such workflows requires significant expertise and effort, limiting their broader application. While automatic workflow generation could address this bottleneck, existing methods either produce instance-specific solutions without learning task-level patterns, or cannot generalize beyond their training configurations. We present MetaFlow, which casts workflow generation as a meta-learning problem: given a task and an operator set, the model learns to compose solution strategies. MetaFlow trains in two stages: supervised fine-tuning on synthetic workflow data, followed by reinforcement learning with verifiable rewards (RLVR) that uses execution feedback across problem instances in the task to improve end-to-end success. The resulting model produces effective workflows for trained tasks and exhibits strong generalization to untrained tasks and novel operator sets. Across benchmarks in question answering, code generation, and mathematical reasoning, MetaFlow achieves performance comparable to state-of-the-art baselines on in-domain tasks with single inference, while demonstrating remarkable zero-shot generalization capabilities on out-of-domain tasks and operator sets.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30704v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30704v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "ec4dd9eb3f00"
-    },
-    {
-      "title": "KbSD: Knowledge Boundary aware Self-Distillation for Behavioral Calibration in Agentic Search",
-      "authors": "Tao Feng, Xinke Jiang, Chao Wu",
-      "abstract": "Agentic search equips large language models with dynamic retrieval abilities, but existing reinforcement learning methods remain limited by reward sparsity in knowledge boundary calibration -- deciding when to trust parametric memory, when to rely on retrieved evidence, and when to abstain. Binary rewards can penalize undesirable outcomes, but provide little guidance on the reasoning process required to make calibrated decisions across different knowledge states. To address this, we propose KbSD (Knowledge boundary Self-Distillation), a framework that tackles this limitation through dense token-level supervision, outcome-level sparse rewards, and quadrant-adaptive optimization. KbSD constructs a hint-augmented teacher, architecturally identical to the student, that receives explicit knowledge boundary signals -- including parametric certainty, retrieval quality, and ground-truth answers -- to generate calibrated reasoning demonstrations. This information-asymmetric self-distillation enables dense supervision without requiring a larger external model. To further account for the heterogeneous reasoning distributions across knowledge states, we introduce a quadrant-adaptive distillation objective: reverse KL for concentrated integration, forward KL for diverse refusal, and Pareto-optimal bidirectional KL for asymmetric quadrants requiring both precision and coverage. Experiments on multiple benchmarks show that KbSD consistently improves both task accuracy and hallucination mitigation over strong baselines, with the largest gains appearing in the challenging quadrants where sparse rewards are least informative.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.29863v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.29863v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "96720db37a1e"
-    },
-    {
-      "title": "SIMAX: A Scalable and Interpretable Framework for Multi-Fidelity and Annotated Clinician-Patient Dialogue Simulation",
-      "authors": "Zhuhan Bao, Rui Yang, Bohao Yang, Zhiyi Liu, Sicheng Shu...",
-      "abstract": "Background. The widespread deployment of ambient digital scribes is driving large-scale capture of clinician-patient dialogues. Human coding of clinical communication data remains costly, inconsistent, and difficult to scale, motivating AI-driven communication coding systems. However, evaluating these systems requires real-world dialogues and human-coded labels, both hard to obtain at scale. Methods. We developed SIMAX (Scalable and Interpretable Framework for Multi-Fidelity and Annotated Clinician-Patient Dialogue Simulation), a framework for generating controlled clinical dialogue data with reference behavioral annotations. SIMAX generates clinician-patient dialogues from predefined clinical scenarios, personas and voice conditions, and target communication behaviors. Behaviors are controlled using two codebooks: the Global Codebook for overall communication quality and the WISER Codebook for specific countable behaviors. We evaluated SIMAX using automated and human quality assessments and an example communication coding system. Results. SIMAX generated 3,388 simulated dialogues across three specialties, multiple visit stages, persona characteristics, and accent conditions. Automated assessment showed mean UTMOS and WV-MOS scores of 3.03 and 2.61, WER and CER of 0.07 and 0.05, and CLAP cosine similarity of 0.41, suggesting reasonable speech naturalness, high transcription fidelity, and positive text-audio correspondence. Human evaluation showed a median MOS of 4.67 and a median clinical realism score of 3.00. Downstream evaluation suggests that SIMAX can assess how a communication coding system responds to behavioral targets and reveal insufficient sensitivity in some dimensions. Conclusions. SIMAX generates controlled and reproducible simulated clinician-patient dialogues, providing a data foundation for developing, validating, and refining communication coding systems.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30491v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30491v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "medical",
-      "id": "d5b9a04f3e96"
-    },
-    {
-      "title": "Information Dynamics of Language Communication",
-      "authors": "Leonardo S. Goodall, Andrea I. Luppi, Pedro A. M. Mediano",
-      "abstract": "Quantifying how meaning propagates through communicative exchanges remains underdeveloped in computational linguistics. Here we introduce an information-theoretic framework that quantifies the directed flow of semantic content between interlocutors and decomposes multi-source contributions into redundant, unique, and synergistic components. Our approach leverages large language models as probabilistic estimators of natural language to compute two measures: semantic transfer entropy (STE), which captures directed predictive influence between speakers, and semantic partial information decomposition (SPID), which resolves how multiple sources jointly shape a target's language. Across four experiments we show that the framework detects reduced information flow in cognitively rigid dialogue, captures the dominant role of persuaders in shaping discourse, distinguishes high- from low-quality psychotherapy by the directionality of therapist-client information exchange, and reveals synergistic premise contributions in argumentative essays. This framework opens new avenues for studying information dynamics in digital discourse, pedagogical interactions, clinical dialogues, and any domain in which the structure of linguistic exchange is of research relevance.",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30096v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.30096v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "medical",
-      "id": "0282dde79775"
-    },
-    {
-      "title": "Sparse-Dense Fusion with Reciprocal Rank Fusion for HallucinationMitigated Clinical Knowledge Retrieval",
-      "authors": "Abhay Nautiyal, Ramesh Kumar, V. M. Thakkar",
-      "abstract": "Large language models (LLMs) hallucinate—they generate confident but unverifiable medical information, a critical failure in healthcare where accuracy directly impacts patient outcomes. This paper presents a hybrid RetrievalAugmented Generation (RAG) framework that mitigates hallucination by grounding generated answers in verified medical context. The system integrates sparse BM25 retrieval for precise medical term matching with dense FAISS retrieval for semantic similarity through Reciprocal Rank Fusion (RRF), ensuring that neither exact terminology nor conceptual relatedness is overlooked. A cross-encoder reranker refines the fused results, and Llama 3.1 8B Instant is conditioned on top-ranked documents to produce answers with explicit source attribution. Evaluated on 16,412 questionanswer pairs from the MedQuAD dataset covering 138 medical focus areas, the hybrid approach achieves Precision@10 = 63.80%, Recall@10 = 61.84%, NDCG@10 = 78.07%, and Mean Reciprocal Rank = 94.87%—significantly outperforming individual BM25 and FAISS baselines (p &lt; 0.01, bootstrap test). Analysis reveals that 83% of retrieved items change rank after cross-encoder reranking, with the top-1 document changing in 55% of queries, while method overlap analysis demonstrates complementary retrieval behavior with only 42% agreement across methods. The complete system is deployed as an interactive Gradio web application enabling real-time multi-method comparison for clinical decision support.",
-      "date": "2026-06-29",
-      "url": "https://doi.org/10.25258/ijddt.16.59s.94",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Drug Delivery Technology",
-      "direction": "medical",
-      "id": "71d73096bcff"
-    },
-    {
-      "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting 42",
-      "authors": "Gege Gao, Bernhard Schölkopf, Andreas Geiger",
-      "abstract": "Memory is not merely the storage of data; it is the scaffolding of reality. When biological memory fades, the world does not simply turn black; it regresses into an unrecognizable chaos. Echoes of the Prior is an interactive installation that attempts to visualize this subjective phenomenology of forgetting . By inducing controlled synaptic decay within a Feed-Forward 3D Reconstruction model, we create an artistic analogy for the erosion of the brain’s predictive priors. We position the Neural Network not as a tool for engineering, but as a cognitive proxy - a silicon brain whose structural degeneration evokes the disorienting, poetic, and terrifying experience of losing one’s grip on the world. Ultimately, we offer this framework as a catalyst, inviting the wider community to explore the uncharted potential of neuromorphic aesthetics in visualizing the fragility of intelligence. Interactive demo: https://decart-4d.github.io/.",
-      "date": "2026-06-29",
-      "url": "https://doi.org/10.1145/3816072",
-      "pdf_url": "",
-      "source": "conference",
-      "venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
-      "direction": "cell",
-      "id": "d117cc0a1898"
-    },
-    {
-      "title": "Examining Part–Part Interactions Toward Improving Mechanistic Explanations in Cell Biology",
-      "authors": "Sepehr Ehsani",
-      "abstract": "Abstract This paper’s aim is to provide a normative notion of relative completeness that pinpoints cell-biological part–part interactions as a critical niche for the integration of mechanistic explanations with the explanatory features of lawlike generalizations. Using a critiquing account of mechanisms that determines whether and how a given mechanistic explanation could become relatively more complete, I highlight the critical role of part–part interactions in the cell. Mechanistic explanations, which are a mainstay of causal accounts in cell biology, are underpinned in large part by a network of such interactions (e.g. protein–protein or protein–nucleic-acid). In studies that attempt to discover these interactions, there is a tacit assumption that an ‘interaction’ is constituted simply by the proximity between and/or enzymatic changes imparted on the interacting parts. As very few substantive theoretical accounts of what may actually constitute an ‘interaction’ in the context of the cell have been put forth, I develop an account of protein–protein interactions (a key type of part–part interactions in the cell with implications for other types of cellular interactions) toward making the explanation more complete. In doing so, I first map out four aspects relevant to the sequence of events taking place in at least a significant proportion of protein–protein interactions, and, second, propose (i) interaction-enabling properties of proteins and (ii) interaction-enabling properties of the proteins’ environment as elements that could be explained by relevant lawlike generalizations. These generalization-based explanations could answer contrastive why-this-and-not-that type of questions pertaining to different aspects of a protein–protein interaction of interest in a mechanistic explanation, which would otherwise be difficult to answer in cell-biological mechanistic terms. This approach illustrates how part–part interactions in a mechanism could be explained by lawlike generalizations, with the eventual goal of making the overall explanation more fruitful and informative.",
-      "date": "2026-06-29",
-      "url": "https://doi.org/10.1007/s10838-026-09767-7",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal for General Philosophy of Science",
-      "direction": "cell",
-      "id": "f33e2e08fbdb"
-    },
-    {
-      "title": "Identifying predictors of student depression through validated machine learning pipelines",
-      "authors": "Jacob Washton, Tracy Owens, Antony Sierra, Milan Toma",
-      "abstract": "Background Depression among student populations has become a growing public health concern, with prevalence rates ranging from 10 to 30 percent across studies. Machine learning methods offer the potential not only to predict depression risk but also to identify which factors most strongly predict depression through feature importance analysis. However, the validity of such rankings depends critically on the quality of the underlying model's learning dynamics; which is a consideration often overlooked when aggregate performance metrics appear favorable. Methods This study evaluated six baseline classification algorithms (Logistic Regression, Decision Tree, k-Nearest Neighbors, Support Vector Machine, Naive Bayes, and Random Forest) and two RUSBoost pipeline configurations on a student depression dataset comprising 27,901 records. Pipeline A employed fixed hyperparameters with constant model complexity during learning curve construction, while Pipeline B implemented systematic hyperparameter optimization through grid search and scaled model complexity proportionally with training data availability. Learning curves were generated by training models on progressively larger subsets of training data (10% to 100%) to assess whether each algorithm exhibited healthy learning dynamics characterized by monotonically increasing validation accuracy and convergent training-validation gaps. Results Despite achieving the highest F1-score (87.5%), Logistic Regression and other baseline algorithms exhibited pathological learning dynamics including flat curves indicating no benefit from additional training data, severe overfitting with training-validation gaps exceeding 15 percentage points, and erratic non-monotonic behavior. Pipeline A's RUSBoost implementation showed oscillatory validation accuracy and failed to converge to a stable asymptote. Only Pipeline B demonstrated textbook healthy learning dynamics: training accuracy decreased monotonically from 88.8% to 85.4% while validation accuracy increased monotonically from 82.2% to 83.1%, with progressive gap convergence. Feature importance analysis from the validated Pipeline B model identified history of suicidal thoughts as the dominant predictor (normalized importance: 1.0), followed by academic pressure (0.57), financial stress (0.31), age (0.18), work/study hours (0.13), dietary habits (0.11), and study satisfaction (0.07). Conclusions This study demonstrates that aggregate performance metrics are insufficient indicators of model reliability for scientific inference. Learning curve diagnostics must precede interpretation of feature importance rankings to ensure conclusions rest on demonstrably healthy learning processes rather than artifacts of pathological training dynamics. The validated model's identification of suicidal ideation history, academic pressure, and financial stress as leading predictors suggests that targeted screening for suicidal thoughts, academic workload management programs, and financial support initiatives may prove most effective for reducing depression prevalence among student populations.",
-      "date": "2026-06-29",
-      "url": "https://doi.org/10.3389/fmed.2026.1864665",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Medicine",
-      "direction": "cell",
-      "id": "af2e6113ca75"
     }
   ]
 }
