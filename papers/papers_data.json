@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-10-01 23:00",
+  "last_updated": "2026-10-02 22:55",
   "papers": [
+    {
+      "title": "Understanding and Improving Model Editing for Secure Code Generation",
+      "authors": "Weifeng Sun, Quanjun Zhang, Yuchen Chen, Chengran Yang, Gou Tan, ...",
+      "abstract": "Large language models (LLMs) are widely used for code generation but may reproduce vulnerabilities learned from insecure training data. Prior work mainly relies on inference-time hardening, which introduces auxiliary components and runtime overhead. We present the first systematic study of model editing as a model-level hardening mechanism for secure code generation, directly injecting security knowledge through localized parameter updates. We evaluate three state-of-the-art editing methods across diverse LLM families against CoSec, a representative inference-time approach, examining security effectiveness and robustness, generalization to unseen vulnerabilities, and functional correctness. Model editing substantially outperforms CoSec on seen vulnerabilities, improving security ratios by 15",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3832254",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "direction": "cell",
+      "id": "3a0d51972472"
+    },
+    {
+      "title": "Learning from the Test: Self-Referential Differential Testing for Deep RL Agents",
+      "authors": "Junda He, Jieke Shi, Zhou Yang, Mingfei Cheng, David Lo",
+      "abstract": "Deep Reinforcement Learning (DRL) has achieved significant success in complex decision-making problems. As DRL systems are increasingly deployed in real-world applications, ensuring their quality and reliability is paramount. Current works primarily focus on detecting safety-critical failures, often neglecting policy optimality, which can lead to reduced efficiency, user distrust, and economic losses. This oversight, compounded by the inherent “testing oracle problem” for optimality, leaves a significant gap in comprehensively evaluating DRL systems. To address this gap, we propose Delta (Differential Testing for DRL Agents), a novel and comprehensive framework that automatically identifies both safety-critical and optimality bugs in DRL agents. Delta employs a two-phase approach: (1) Safety Testing, where the Agent Under Test (AUT) is evaluated for catastrophic failures while collecting data from its decision-making policy, and (2) Optimality Testing, where this collected data from the prior phase is used to train a challenger agent via Offline Reinforcement Learning. Differential testing is then performed by comparing the challenger agent against the AUT; instances where the challenger achieves higher cumulative rewards indicate optimality issues in the AUT. We demonstrate Delta’s effectiveness across five environments. We investigate the effectiveness of three offline RL algorithms (BC, BCQ, and CQL) in generating challenger agents. Experimental results demonstrate that safety testing datasets are valuable for training competent DRL agents. Challenger agents trained with BCQ proved most effective for identifying optimality issues within the framework of Delta. Across the five environments, Delta uncovered an average of 2,518 optimality issues, outperforming the baseline methods by 50.2%.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3832102",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "direction": "cell",
+      "id": "43f85d1f20ff"
+    },
+    {
+      "title": "Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment",
+      "authors": "Yuchong Xie, Mingyu Luo, Zesen Liu, Zhixiang Zhang, K. F. Zhang, ...",
+      "abstract": "Coding agents powered by large language models are becoming central modules of modern IDEs. They help users to perform various complex coding tasks by invoking tools. Although powerful, tool-invocation operation in coding agents opens a substantial attack surface for adversaries. Prior work has demonstrated attacks against both general-purpose LLM agents and domain-specific agents. However, to our knowledge, no previous works focus on the security risks of tool-invocation in coding agents. To fill this gap, we conduct the first systematic, in-depth red-teaming from a tool-invocation perspective in six popular real-world coding agents: Cursor, Claude Code, Copilot, Windsurf, Cline, and Trae. Our red-teaming proceeds in two phases. In Phase 1, we conduct a prompt leakage as reconnaissance to recover system prompts and related context. Specifically, we identify a mode gap between chat generation and tool-call argument generation: during schema-driven argument completion, the model behaves as if it is performing benign structured filling and may copy hidden agent context into tool-call arguments. We instantiate this gap as ToolLeak, which exfiltrates agent-internal prompts (e.g., system prompts and tool metadata) via required tool parameters. In Phase 2, we hijack the tool-invocation behavior of the coding agent with a novel two-channel prompt injection in the tool description and the tool return. Our hijacking achieves remote code execution (RCE) on major real-world coding agents. We adaptively construct the malicious payload using leaked security information in Phase 1. Our evaluation shows that ToolLeak substantially outperforms strong prompt-leak baselines in both emulated and real-world settings. In the emulated setting, ToolLeak achieves the best overall prompt-exfiltration performance across all six simulated coding agents. On real-world coding agents, ToolLeak achieves the best pseudo-recall on 18 of 25 evaluated agent-LLM pairs. Furthermore, our red-teaming successfully hijacks all six real-world coding agents for RCE and consistently yields higher attack success rates than baseline attacks. Lastly, we present two case studies on Cursor and Claude Code to demonstrate the real-world impact of our red-teaming.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3832267",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "direction": "llm",
+      "id": "a623bac00c9b"
+    },
+    {
+      "title": "Towards Explorative IRBL: Combining Semantic Retrieval with LLM-Driven Iterative Code Exploration",
+      "authors": "Moumita Asad, Rafed Muhammad Yasir, Sam Malek",
+      "abstract": "Information Retrieval-based Bug Localization (IRBL) aims to identify buggy source files for a given bug report. Traditional and deep learning-based IRBL techniques often suffer from vocabulary mismatch and dependence on project-specific metadata. In contrast, recent Large Language Model (LLM)-based approaches struggle to provide appropriate context to the model: they either restrict analysis to a fixed set of candidate files, overwhelm the model with repository-wide information, or rely on explicit bug report cues to guide context collection. To address these issues, we propose GenLoc, a technique that combines semantic retrieval with LLM-driven code-exploration functions to iteratively analyze the code base and identify buggy files. We evaluate GenLoc on three complementary benchmarks, including large-scale and recent Java datasets as well as the Python based SWE-bench Lite dataset. Results demonstrate that GenLoc substantially outperforms traditional IRBL, deep learning-based approaches and recent LLM-based methods, while also localizing bugs that other techniques fail to detect.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3832151",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "direction": "llm",
+      "id": "466cd5627c88"
+    },
+    {
+      "title": "Equivalence Checking of ML GPU Kernels",
+      "authors": "Benjamin Driscoll, Kshitij Dubey, Anjiang Wei, Neeraj Kayal, Rahul Kumar Sharma, ...",
+      "abstract": "With the rapid progress of deep learning and large language models (LLMs), companies spend enormous sums executing GPU kernels. These kernels have become prime targets for aggressive optimization. Recent efforts increasingly leverage LLMs to generate GPU kernels, but make no formal guarantees about the generated kernels. We present the first equivalence checker for GPU kernels and use it to formally verify the correctness of machine learning (ML) kernels optimized by hand, by LLM, and by compiler. We show that our equivalence checker is sound and, for a well-defined class of GPU kernels which includes many programs of interest, complete. Our implementation, VOLTA, can verify ML computations such as convolutions, matrix multiplications, and various attention mechanisms.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3839470",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "direction": "llm",
+      "id": "ee26ff1d4be3"
+    },
+    {
+      "title": "Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments",
+      "authors": "Yitong Zhang, Ximo Li, Liyi Cai, Jia Li",
+      "abstract": "Graphical User Interface (GUI) agents are increasingly deployed to interact with online web services, yet their exposure to open-world content renders them vulnerable to Environmental Injection Attacks (EIAs). In these attacks, an attacker can inject crafted triggers into a website to manipulate the behavior of other users’ GUI agents. In this paper, we find that most existing EIA studies fall short of realism. In particular, they fail to capture the dynamic nature of real-world websites, often assuming that a trigger’s on-screen position and surrounding visual context remain largely consistent between training and testing. To better reflect practice, we introduce a realistic dynamic-environment threat model in which the attacker is a regular user and the trigger is embedded within a dynamically changing environment. Under this threat model, existing approaches largely fail, suggesting that their effectiveness in exposing GUI agent vulnerabilities has been overestimated. To expose the hidden vulnerabilities of existing GUI agents effectively, we propose Chameleon, an attack framework with two key components designed for dynamic environments. (1) To synthesize more realistic training data, we introduce LLM-Driven Environment Simulation, which automatically generates diverse, high-fidelity webpage simulations that mimic the variability of real-world dynamic environments. (2) To optimize the trigger more effectively, we introduce Attention Black Hole, which converts attention weights into explicit supervisory signals. We evaluate Chameleon on six realistic websites and four representative LVLM-powered GUI agents. Across these settings, it significantly outperforms existing methods. Ablation studies confirm that both components are critical to performance, and a closed-loop sandbox experiment further demonstrates that Chameleon can successfully hijack agent behavior in conditions that closely mirror real-world usage. Our results uncover a critical, previously underexplored vulnerability of GUI agents in realistic dynamic environments and establish a robust foundation for future research on defenses for open-world GUI agent systems.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3832148",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "direction": "llm",
+      "id": "fde263125248"
+    },
+    {
+      "title": "Seeing Is Coding: On the Effectiveness of Vision Language Models in Code Understanding",
+      "authors": "Yanan Shi, Chaoxiang Xie, Zhensu Sun, Yeheng Chen, Chenxu Zhang, ...",
+      "abstract": "Large Language Models (LLMs) have achieved remarkable success in source code understanding, yet as software systems grow in scale, computational efficiency has become a critical bottleneck. Currently, these models rely on a text-based paradigm that treats source code as a linear sequence of tokens, which leads to a linear increase in context length and associated computational costs. The rapid advancement of Multimodal LLMs (MLLMs) introduces an opportunity to optimize efficiency by representing source code as rendered images. Unlike text, which is difficult to compress without losing semantic meaning, the image modality is inherently suitable for compression. By adjusting resolution, images can be scaled to a fraction of their original token cost while remaining recognizable to vision-capable models. To explore the feasibility of this approach, we conduct the first systematic study on the effectiveness of MLLMs for code understanding. Our experiments reveal that: (1) MLLMs can effectively understand code with substantial token reduction, achieving up to 8× compression; (2) MLLMs can effectively leverage visual cues such as syntax highlighting, improving code completion performance under 4× compression; and (3) Code-understanding tasks like clone detection exhibit exceptional resilience to visual compression, with some compression ratios even slightly outperforming raw text inputs. Our findings highlight both the potential and current limitations of MLLMs in code understanding, which points out a shift toward image-modality code representation as a pathway to more efficient inference.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1145/3832167",
+      "pdf_url": "",
+      "source": "conference",
+      "venue": "Proceedings of the ACM on software engineering.",
+      "direction": "llm",
+      "id": "33f315385e60"
+    },
     {
       "title": "Big data and psychiatry: advances, constraints and future directions.",
       "authors": "Dan Joseph Stein, Ronald C. Kessler, John Blake Torous, Hugh P Garavan, Odile A. van den Heuvel, ...",
@@ -11916,90 +12000,6 @@
       "venue": "arXiv",
       "direction": "cell",
       "id": "1ef73b4d8b94"
-    },
-    {
-      "title": "Hybrid mechanistic–machine learning PK/PD models with digital biomarkers: from cage to clinic",
-      "authors": "Szczepan W. Baran, Stefano Gaburro",
-      "abstract": "Background Pharmacometric PK/PD models remain central to dose selection for first-in-human studies, therapeutic drug monitoring, and animal-to-human extrapolation of exposure–response relationships, but modern datasets, including digital biomarkers from continuous monitoring, omics, and imaging, challenge traditional modeling assumptions. Hybrid mechanistic–machine learning (ML) approaches offer a structured way to combine causal pharmacological frameworks with data-driven flexibility. Methods This review surveys the emerging landscape of hybrid mechanistic–ML PK/PD modeling with a focus on digital biomarker integration. We examine model architectures, covariate discovery methods, cross-species scaling strategies, and validation practices relevant to preclinical-to-clinical extrapolation. Literature was identified through PubMed, Scopus, and Web of Science using search terms combining pharmacokinetics, pharmacodynamics, machine learning, hybrid modeling, digital biomarkers, and cross-species pharmacology. Studies published between 2015 and 2025 were prioritized, with inclusion of foundational earlier work where necessary. Results Hybrid approaches improve individual clearance estimation, covariate discovery, and cross-species PK scaling in defined settings, particularly when dense time-series data are available and the mechanistic model is structurally sound but parametrically under-identified. Integration of multimodal datasets introduces practical challenges around missingness, device drift, and data leakage that require explicit mitigation. Application examples span rodents, dogs, non-human primates, and minipigs, where continuous digital measures strengthen exposure–response inference. Discussion The credibility of hybrid models depends on validation rigor, interpretability, and regulatory alignment rather than on algorithmic novelty. When mechanistic models fit well and sample sizes are small, adding an ML layer risks overfitting without measurable gain. Models that are prospectively tested, transparently documented, and fitted to a defined context of use will be more influential than those that are merely complex. We outline reporting and audit practices to support robustness, reproducibility, and regulatory review.",
-      "date": "2026-07-06",
-      "url": "https://doi.org/10.3389/fphar.2026.1815118",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Pharmacology",
-      "direction": "cell",
-      "id": "b31bd47a7318"
-    },
-    {
-      "title": "Complementary structure of statistical significance and predictive relevance in explainable machine learning–based transcriptomic tissue classification of Hanwoo cattle",
-      "authors": "Dogyeong Lee, Junyoung Lee, Inchul Choi, Dajeong Lim",
-      "abstract": "Understanding tissue-specific transcriptomic structures in livestock is essential for elucidating the molecular basis of economically important traits. Conventional differential gene expression analysis efficiently identifies genes with large average expression differences but does not fully capture multivariate expression structures and gene-gene interaction patterns that define tissue identity. In this study, we developed an explainable machine learning framework to classify seven Hanwoo cattle tissues using RNA sequencing data and to systematically compare the relative contributions of statistical and model-derived signals. A Random Forest–based one-versus-rest classification model was trained on 130 Hanwoo transcriptomes and externally validated using 231 independent Bos taurus samples derived from heterogeneous public datasets following reference-based batch correction. Repeated balanced validation demonstrated stable generalization performance, achieving a mean accuracy of 0.907 and a macro-average area under the receiver operating characteristic curve of 0.963. A comparative analysis of gene sets selected by differential expression analysis, genes prioritized by model-based feature attribution, their union, and randomly selected genes within the same classification framework revealed that strongly differentially expressed genes form the primary discriminatory structure for tissue classification. In contrast, integration of model-prioritized genes enhanced classification performance, particularly for biologically related tissues, whereas randomly selected genes produced reduced and unstable predictive performance. Model interpretation further revealed that highly contributory genes were consistent with known tissue-specific biological functions and exhibited non-linear, expression-dependent contribution patterns shaped by coordinated multigene contexts. These findings indicate that tissue identity is supported by a hierarchical transcriptional structure in which dominant differential signals establish primary class boundaries and multivariate interaction patterns refine decision surfaces. The proposed framework provides an interpretable strategy for distinguishing statistical significance from predictive relevance in high-dimensional transcriptomic data and offers practical implications for molecular marker development in livestock genomics and breeding programs.",
-      "date": "2026-07-06",
-      "url": "https://doi.org/10.3389/fgene.2026.1818099",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Genetics",
-      "direction": "cell",
-      "id": "b833921faab3"
-    },
-    {
-      "title": "Morphogenic adversarialism: reaction-diffusion patterns reveal structural vulnerabilities in deep neural networks",
-      "authors": "Gaddisa Olani Ganfure",
-      "abstract": "Deep neural networks have achieved remarkable success in image recognition tasks, yet they remain vulnerable to carefully designed input perturbations that can cause incorrect predictions while producing little visible change in the original image. In this study, we introduce the Turing Deimatic Attack (TDA), a biologically inspired adversarial attack that generates structured perturbations using reaction-diffusion processes that mimic natural pattern formation. Unlike conventional approaches that rely on gradient information from the target model, TDA operates without model queries and creates coherent spatial patterns from a compact set of control parameters. We evaluated TDA on seven benchmark datasets spanning natural images, facial recognition, medical imaging, and traffic sign classification using both convolutional and transformer-based neural network architectures. The proposed method consistently reduced classification performance across all datasets while maintaining high visual similarity to the original images. Mean attack success rates reached 48.3% on Fashion-MNIST and 63.3% on Labeled Faces in the Wild, with individual models exhibiting success rates of up to 80.5%. Despite these performance reductions, image quality remained largely preserved, with structural similarity values exceeding 0.93 and perceptual similarity scores remaining below 0.10 across all benchmarks. Our experiments further reveal that model susceptibility varies with the interaction between the spatial structure of the perturbation and the features used by different architectures. Convolutional networks were generally more vulnerable on lower-resolution images, whereas transformer-based models became increasingly susceptible at higher resolutions. Ablation analyses indicate that attack effectiveness is associated primarily with the spatial organization of the generated patterns rather than with perturbation magnitude alone. These findings demonstrate that biologically inspired pattern-generation mechanisms can expose systematic weaknesses in modern vision systems and provide a practical framework for evaluating model robustness under realistic, spatially structured perturbations.",
-      "date": "2026-07-06",
-      "url": "https://doi.org/10.1038/s41598-026-61040-5",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "cell",
-      "id": "649696e76146"
-    },
-    {
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-      "authors": "Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang...",
-      "abstract": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that prompt LLMs to produce discrete scores for candidate solutions, LLM-as-a-Verifier computes the expectation over the distribution of scoring token logits to generate continuous scores. This probabilistic formulation enables verification to scale along multiple dimensions: (1) score granularity, (2) repeated evaluation, and (3) criteria decomposition. In particular, we show that scaling the scoring granularity leads to better separation between positive and negative solutions, resulting in more calibrated comparisons. Moreover, scaling repeated evaluation and criteria decomposition consistently lead to additional gains in verification accuracy through variance and complexity reduction. We further introduce a cost-efficient ranking algorithm for selecting the best solution among candidates using the verifier's continuous scores. LLM-as-a-Verifier achieves state-of-the-art performance on Terminal-Bench V2 (86.5%), SWE-Bench Verified (78.2%), RoboRewardBench (87.4%), and MedAgentBench (73.3%). Beyond verification, the fine-grained signals from LLM-as-a-Verifier can also serve as a proxy for estimating task progress. We build an extension for Claude Code, enabling developers to monitor and improve their own agentic systems. Finally, we show that LLM-as-a-Verifier can provide dense feedback for RL, improving the sample efficiency of SAC and GRPO on robotics and mathematical reasoning benchmarks.",
-      "date": "2026-07-06",
-      "url": "https://arxiv.org/abs/2607.05391v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05391v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "50c50d65bb09"
-    },
-    {
-      "title": "Unified Audio Intelligence Without Regressing on Text Intelligence",
-      "authors": "Zhifeng Kong, Sang-gil Lee, Jaehyeon Kim, Boxin Wang, Zihan Liu...",
-      "abstract": "Audio intelligence involves understanding, reasoning about, and generating both audio and speech. In this work, we introduce Nemotron-Labs-Audex-30B-A3B (Audex), a unified audio-text LLM built on Nemotron-Cascade-2-30B-A3B, a strong text-only MoE LLM. Audex adopts a simple unified design with a single Transformer decoder: audio inputs are encoded and projected into the text embedding space, while text tokens and quantized audio output tokens are treated uniformly during generation. This architecture enables strong audio-text fusion, seamless multimodal generation, and compatibility with standard LLM training and inference infrastructure. For training, we meticulously curate audio-text datasets comprising 157.4B audio tokens and 320.5B text tokens. We apply multi-stage supervised training on these datasets, followed by text-only Cascade RL and multi-domain on-policy distillation. Audex delivers state-of-the-art audio understanding, speech recognition and translation, text-to-speech, audio generation, and speech-to-speech generation, while preserving very compelling reasoning, alignment, knowledge, long-context, and agentic capabilities of its text-only LLM backbone with marginal or no regression. We release the model checkpoints to facilitate open research.",
-      "date": "2026-07-06",
-      "url": "https://arxiv.org/abs/2607.05196v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05196v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "48fb73b01aa6"
-    },
-    {
-      "title": "Multi-Large Language Model Orchestrated Severity Assessment of Clinical Records (MOSAIC)",
-      "authors": "Manuela Del Castillo Suero, Arnault-Quentin Vermillet, Nicole Sonne Heckmann, Darmendra Ramcharran, Maurizio Sessa",
-      "abstract": "Background: Disease severity is a multidimensional construct difficult to capture with rule-based approaches in Electronic Healthcare Records (EHR). Agentic large language model (LLM) systems could synthesise clinical evidence and reason over EHRs, but remain unevaluated for this task. Methods: MOSAIC is a two-phase agentic LLM framework for severity phenotyping, using type 2 diabetes (T2D) as a proof-of-concept. MOSAIC was evaluated on a synthetic cohort (SyntheticMass; open-weight N = 4,886; closed-weight N = 200) against three algorithmic ground truths (DCSI, DiSSCo, Cooper) and against all-cause mortality and incident complications. Open-weight (locally deployable) and proprietary pipelines were also compared. Results: The generated framework spanned domains absent from the comparators, including biomarker-based glycaemic staging, beta-cell function, and social determinants of health. Open-weight MOSAIC matched the proprietary pipeline (closed- vs open-weight weighted kappa = 0.773) and reached moderate agreement with Cooper (kappa = 0.597) and DCSI (kappa = 0.534) and fair agreement with DiSSCo (kappa = 0.320). Agent-based (Type 1) tiers showed significant separation of all-cause mortality (log-rank p < 0.001; crude hazard ratios 1.6-2.4 for non-Baseline tiers), with non-monotonic separation at the upper tiers, and an inverse gradient for incident complications (log-rank p < 0.001) consistent with depletion of susceptibles. Agentic classification also diverged from deterministic execution of the same rubric (MOSAIC Frozen; kappa = 0.428), indicating reasoning beyond fixed rules. Conclusion: MOSAIC shows agentic LLM systems can generate and apply clinically meaningful severity phenotypes from structured EHR data in T2D. Extending it to other diseases with similarly multidimensional severity warrants further research.",
-      "date": "2026-07-06",
-      "url": "https://arxiv.org/abs/2607.05032v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05032v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "900a589b8522"
-    },
-    {
-      "title": "Knowledge Knows, Verbalization Tells: Disentangling Latent Directions for Mathematical Solvability in LLMs",
-      "authors": "Nikolaos Xiros, Maria-Eleni Zoumpoulidi, Georgios Paraskevopoulos",
-      "abstract": "Although LLMs have made significant progress in mathematical reasoning, determining whether a mathematical problem is solvable remains a fundamental yet challenging capability. While recent studies have probed internal representations of model solvability beliefs, verbalization has primarily been studied behaviorally rather than as an internal representation, limiting its analysis and manipulation. We address this gap by separately probing representations of solvability knowledge and verbalization, allowing us to disentangle the two within model hidden states. Across multiple LLMs, we show that knowledge and verbalization are encoded as distinct, linearly decodable representations and that fabrication is primarily associated with changes in verbalization rather than the underlying knowledge. Prompting with unsolvability cues reduces fabrication primarily by shifting verbalization, while activation steering demonstrates that these representations can be echanistically manipulated to improve model abstention.",
-      "date": "2026-07-06",
-      "url": "https://arxiv.org/abs/2607.05013v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05013v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "0bb3ded6be53"
     }
   ]
 }
