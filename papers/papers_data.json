@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-10-03 21:59",
+  "last_updated": "2026-10-04 22:12",
   "papers": [
+    {
+      "title": "Agentic Software Issue Resolution with Large Language Models: A Survey",
+      "authors": "Zhonghao Jiang, David Lo, Zhongxin Liu",
+      "abstract": "Software issue resolution task aims to address real-world issues in software repositories based on natural language descriptions provided by users, representing a key aspect of software maintenance. With the rapid development of large language models (LLMs) in reasoning and generative capabilities, LLM-based approaches have made significant progress in automated software issue resolution. However, real-world software issue resolution is inherently complex and requires long-horizon reasoning, iterative exploration, and feedback-driven decision-making that demand agentic capabilities beyond conventional single-step approaches. Recently, LLM-based agentic systems have become a promising research direction for software issue resolution, since the related literature has experienced explosive growth. Advancements in agentic software issue resolution can not only greatly enhance software maintenance efficiency and quality but also provide a realistic environment for validating agentic systems’ reasoning, planning, and execution capabilities, bridging AI and software engineering. This work presents a systematic survey of 242 recent studies at the forefront of LLM-based agentic software issue resolution research. It outlines the general workflow of the task and establishes a taxonomy across three dimensions: benchmarks, techniques, and empirical studies. Furthermore, it highlights how reinforcement learning has become an increasingly important training paradigm for agentic systems in software engineering. Finally, it summarizes key challenges and outlines promising directions for future research. The artifacts’ page accompanying this survey is at https://github.com/ZhonghaoJiang/Awesome-Issue-Solving.",
+      "date": "2026-10-03",
+      "url": "https://doi.org/10.1145/3849702",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ACM Computing Surveys",
+      "direction": "llm",
+      "id": "53e9d1c348d5"
+    },
+    {
+      "title": "Knowledge boundary probing and demand-guided intervention for LLM-based power system code generation",
+      "authors": "hui wu, Xiaoyang Wang, Zhong Fan",
+      "abstract": "Large language models (LLMs) can turn grid-analysis requests into executable programs for power-system simulation, but utilities and research laboratories often require on-premise deployment. In this setting, first-pass failures frequently arise at an API-knowledge boundary , through hallucinated functions, misused parameters, and mishandled result tables. We present PowerCodeBench , a parameterised benchmark generator released as a frozen 2000-task suite for pandapower , and a deployment-time workflow that requires no weight updates. Documentation-driven L0–L3 probes produce per-model API profiles for diagnosis, model comparison, documentation allocation, and backend calibration. A query-side demand estimator selects layered API evidence before generation, while execution feedback routes targeted repair. Across ten open-weight LLMs (1.5B–480B) and four mid-tier APIs, the validation-enabled workflow raises scalar-match accuracy by 32–56 percentage points after up to three repair rounds relative to an unassisted first pass, for every model of at least 7B and every API. Open-weight models in the 70B–120B range reach the four-vendor mid-tier accuracy range under matched no-tool conditions. Selective injection approaches the full-layer reference using 41% of its prompt tokens. Among model–item pairs passing numerical checks under both workflows, engineering review confirms the requested analysis in 88% of full-workflow outputs versus 66% under plain repair. Round-0 pilots on OpenDSS and PyPSA motivate staged onboarding from broad retrieval at cold start to calibrated selective injection. Measured throughput, latency, energy, and allocated GPU memory establish a practical on-premise serving envelope.",
+      "date": "2026-10-03",
+      "url": "https://doi.org/10.1016/j.aei.2026.105328",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Advanced Engineering Informatics",
+      "direction": "llm",
+      "id": "cc3e5c67213d"
+    },
+    {
+      "title": "Global trends and knowledge structure of cardiovascular magnetocardiography research: a bibliometric analysis",
+      "authors": "Yaxing He, Xu Zhang, Xiaole Han, Zifeng Zhang, Shiqiang Zheng, ...",
+      "abstract": "Background Cardiovascular diseases remain a leading global health threat. Recent advances in room-temperature sensing and artificial intelligence (AI) have renewed research interest in the clinical translation of magnetocardiography (MCG) for cardiovascular diagnosis, yet the global research evolution of MCG has yet to be quantitatively characterized. Methods Literature from the Web of Science Core Collection and Scopus (2000–2026) was analyzed using CiteSpace, VOSviewer, and R to evaluate publication trends, knowledge networks, and evolving frontiers. Results A total of 631 WoSCC and 755 Scopus articles were included. The publication trajectory exhibits a prolonged plateau followed by substantial recent growth. Germany, the United States, and China are the most prolific contributors. Keyword analysis revealed a diversification of technological and analytical themes. While early literature was strongly associated with superconducting quantum interference devices-based MCG, recent research has increasingly highlighted optically pumped magnetometers, magnetic-field control, sensor arrays, magnetic noise suppression, and AI-based signal analysis. The application landscape has broadened from physiological validation to coronary artery disease diagnosis, arrhythmia assessment, and fetal electrophysiology. Conclusion Collectively, these findings suggest that the evolution of cardiovascular MCG reflects the parallel development and interaction of sensor technologies, AI-based analysis, and emerging clinical applications. Future research should prioritize standardized protocols, scalable and robust acquisition systems, and explainable AI models to accelerate clinical implementation.",
+      "date": "2026-10-02",
+      "url": "https://doi.org/10.3389/fmed.2026.1960096",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "cell",
+      "id": "c9de21e0700d"
+    },
     {
       "title": "Integrated transcriptomic, machine learning, and network pharmacology analyses reveal shared inflammatory biomarkers between intervertebral disc degeneration and osteoporosis",
       "authors": "Mengjie Zheng, Guizhi Zhu, Hongde Jiang, Yuzhu Chen, Jinwen Jiang, ...",
@@ -36,6 +72,42 @@
       "venue": "Biomedical Signal Processing and Control",
       "direction": "llm",
       "id": "92e70957393a"
+    },
+    {
+      "title": "Harmonizing Vietnamese traditional and western medicine: a digital health blueprint and the IMKE architectural framework",
+      "authors": "Anh Nguyen Thi Dieu, Hieu Le Ngoc",
+      "abstract": "The concurrent use of traditional and Western medicine is a global healthcare reality. In countries like Vietnam, dual-paradigm clinical guidelines actively mandate integrated treatments for high-prevalence chronic diseases. However, safe integration at the point of care is severely hindered by data fragmentation, profound epistemological differences, and a critical “shadow pharmacovigilance” crisis regarding underreported herb-drug interactions (HDIs). This paper analyzes the state-of-the-art of Artificial Intelligence (AI) in integrative healthcare and proposes the Integrative Medicine Knowledge Engine (IMKE), a novel architectural blueprint designed to safely bridge Vietnamese traditional medicine (VTM) and Western biomedicine. Shifting from siloed technical models to a clinical-first perspective, the IMKE conceptualizes a three-stage digital health pipeline: (1) advanced medical text mining to digitize unstructured traditional practitioner notes; (2) an Integrative Knowledge Graph (IKG) that maps holistic VTM diagnostic patterns to Western pharmacological databases and ICD-10 standards; and (3) an AI-driven Clinical Decision Support System (CDSS) for proactive HDI safety monitoring. We illustrate this architectural data flow through three clinical scenarios—Essential Hypertension, Type 2 Diabetes, and Rheumatoid Arthritis. These scenarios demonstrate the system’s theoretical capacity to retrieve culturally appropriate treatments, identify cross-paradigm therapeutic synergies, and generate explainable, mechanistic safety alerts that augment physician judgment while mitigating clinical alert fatigue. Ultimately, the IMKE framework provides a scalable, culturally inclusive roadmap for digital health. By translating centuries of experiential medical wisdom into an interoperable, computationally safeguarded infrastructure, this blueprint sets the foundation for evidence-based integrative care, future retrospective clinical validation, and enhanced patient safety.",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.3389/fdgth.2026.1928965",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Digital Health",
+      "direction": "medical",
+      "id": "d4b62c0aa46a"
+    },
+    {
+      "title": "My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning",
+      "authors": "Yihua Zhu, Qianying Liu, Weixu Qiao, Xuan Ren, Weiwei Xu...",
+      "abstract": "Agentic reinforcement learning (RL) has emerged as a powerful approach for training large language model agents on multi-step tasks, yet reliance on terminal outcome rewards creates two credit-assignment problems, particularly in long-horizon tasks. First, same-outcome rollout groups provide no learning signal from terminal rewards. Second, terminal rewards provide only trajectory-wide feedback, making it difficult to identify which decisions caused a failure. Recent work supplements terminal rewards with finer-grained information from trajectory analysis, such as natural-language reflections on intermediate decisions and errors. However, natural-language diagnoses are difficult to use directly for credit assignment: their error claims may be unreliable, and they do not quantify how much each error should affect learning. We propose Self-Diagnosis-guided Terminal Credit Redistribution (FAULT), which turns diagnosed errors into explicit step-level credit anchored by terminal outcomes. FAULT checks diagnostic evidence and learns relative error costs from task outcomes. During training, the policy and self-diagnoser co-evolve, while error costs are updated online from recent outcomes. On ALFWorld, FAULT recovers learning signals from same-outcome groups, reaching 95% signal coverage versus 41% for GRPO and 72% for GiGPO, while better localizing credit to specific error steps. Across two model scales, FAULT delivers strong. improvements on the long-horizon ALFWorld and WebShop tasks while remaining competitive on short-horizon Search-based QA.",
+      "date": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.01161v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.01161v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7f7c688850c2"
+    },
+    {
+      "title": "Probe with Participation Trophies: Random-Reward RL as a Probe of LLM Capability",
+      "authors": "Yu Mao, Lei Yu, Zining Zhu, Yusheng Zheng, Haohang Li...",
+      "abstract": "We connect the spurious-reward paradox to a model's reachability and propose random-reward reinforcement learning (RL) as a useful tool for the probing enterprise, addressing a decade-long debate over what probing performance actually reveals about a model. There are two prevailing explanations for the surprising finding that even random rewards can improve the performance of large language models (LLMs): one attributes the gains to particular mechanisms within RL training; the other to data contamination. Our results motivate a different view: spurious-reward RL can probe a model's reachability, or what further training can attain from its current state under specified constraints, beyond what is reflected in its current performance. Two OLMo checkpoints with the same accuracy on synthetic arithmetic (3.5%), for example, reach 8.5% and 55% in their best runs under the same correctness-rewarded RL. Examining OLMo checkpoints across pre-training and mid-training reveals three distinct regimes of training response: early on, RL produces little improvement even when correct answers are rewarded; later in pre-training, rewarding correct answers becomes effective while random rewards remain weak; and, upon entering mid-training, even random rewards can produce large gains. A similar ordering appears in a number-masked supervised fine-tuning (SFT) analysis of these checkpoints, suggesting that the pattern is not specific to a particular RL mechanism. Moreover, RL with random rewards offers a distinctive perspective on what training can make an LLM do, since its reward signal supplies no information about which answers are correct. By asking what training can attain without correctness feedback, it addresses the label-leakage side of a central problem in decodability-based probing: whether a successful probe reveals the model's capabilities or learns the task itself.",
+      "date": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.01066v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.01066v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e05d79f166da"
     },
     {
       "title": "When Do Biological Reasoning Models Use Their Biological Inputs?",
@@ -228,6 +300,30 @@
       "venue": "PubMed",
       "direction": "llm",
       "id": "61f2998179e2"
+    },
+    {
+      "title": "DICD-IE: an expert-annotated benchmark for evaluating pretrained biomedical language models in dental implant literature and clinical knowledge extraction",
+      "authors": "Almonzer NoorAldaim, Azza A. Abushama, Hiba Ahmed, Marwa Mohamed, Wiaam Elrashid Mubarak Salih, ...",
+      "abstract": "Dental implant literature contains clinically important information on risk factors, treatments, outcomes, and, in rare cases, co-occurrences with oral cancer have been reported. However, this information is typically embedded in concise narrative statements, which complicates automated extraction and limits large-scale evidence synthesis and structured clinical information extraction. Because existing biomedical datasets and pretrained models are insufficient for this domain due to a lack of implant-specific terminology, procedural context, and clinically relevant relationships reported in implant literature, a new approach is needed. To address this challenge, we developed DICD-IE (Dental Implant Clinical Dataset for Information Extraction) as an expert-annotated corpus for Named Entity Recognition (NER) and Relation Extraction (RE), which includes an exploratory oncologic dimension based on nine rare case-report articles. Specifically, the dataset comprises 2,204 clinically meaningful text segments from 30 peer-reviewed full-text articles, including 16 entity types and 21 relation types. Five domain experts annotated the corpus using a consensus-based protocol, achieving strong inter-annotator agreement across tasks, with overall agreement, average pairwise agreement, and Gwet’s AC1 values of 0.8499, 0.8936, and 0.8624 for NER and 0.7808, 0.8622, and 0.8577 for RE, respectively. Six biomedical transformer models were evaluated using the dataset. SciBERT achieved the best performance under the sentence-level benchmark, with F1 scores of 0.6213 for NER and 0.6274 for RE. Additional article-level evaluation, designed to reduce article-specific information overlap between data splits, produced more conservative estimates (F1 = 0.6041 for NER and 0.5162 for RE), highlighting the importance of stricter validation strategies for domain-specific biomedical NLP datasets. Furthermore, cross-dataset evaluation using two protocols, forward and reverse transfer, provided exploratory insights into model transfer behavior across biomedical datasets and highlighted the challenges posed by domain-specific terminology, annotation differences, and implant-specific clinical narratives. The oncologic component of DICD-IE provides contextual representation of reported co-occurrences rather than evidence of causal relationships or clinical prediction. Knowledge graph construction further demonstrated the potential of the dataset for organizing implant-related clinical concepts and relationships. Overall, DICD-IE provides a foundation for dental implant information extraction, knowledge graph development, and future document-level clinical NLP research.",
+      "date": "2026-09-30",
+      "url": "https://doi.org/10.1038/s41598-026-67923-x",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "0edcbf4f4fba"
+    },
+    {
+      "title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+      "authors": "Tong Zheng, Skylar Zhai, Zhan Cheng, TianMing Sha, Youling Huang...",
+      "abstract": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to active-group density: the fraction of rollout groups in which the reward provides nonzero relative advantages. This reveals a residual batch-level signal imbalance and provides a basis for calibrating reward contributions. Based on this relation, we propose Density-Aware Reward Aggregation (DARA). We derive an inverse-square-root density correction that gives greater weight to signals from less frequently active rewards. DARA computes its weights from each rollout batch, adapting to changes in reward activity throughout training without modifying the underlying policy optimization objective. Experiments on tool calling and mathematical reasoning show that DARA learns the targeted behaviors faster than GDPO, reaching high format compliance in up to 26% fewer training steps on tool calling and near-saturated length compliance in up to 65% fewer steps on mathematical reasoning, while remaining competitive in final performance. Our code is available at https://github.com/zhaihaotian/DARA.",
+      "date": "2026-09-30",
+      "url": "https://arxiv.org/abs/2610.00574v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.00574v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "bbaa9d909f24"
     },
     {
       "title": "MedRev: Reversing Negative Transfer in Medical Multi-modal Foundation Model Fine-tuning for Improved Medical Image Analysis",
@@ -660,6 +756,18 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "3a0e27855659"
+    },
+    {
+      "title": "Benchmarking single-cell foundation models for aging biology",
+      "authors": "Ni, X.; Liang, Y.; Zhu, J.; Zhang, L.; Shen, X.; Yang, M.; Xu, R.; Li, H.; Ji, R.; Jin, C.; Ni, S.",
+      "abstract": "Single cell foundation models (scFMs) provide representations of cellular states, but their utility across biological questions in aging research remains unclear. We established a benchmark of cellular representations for aging research, evaluating ten general-purpose scFMs, three aging-specific models and conventional methods across five biological questions using more than 2.5 million single cell transcriptomes. Using frozen pretrained representations, Geneformer performed best among scFMs for chronological age prediction and age pseudotime concordance, although 2,000 highly variable genes achieved higher mean performance. Several scFMs captured positive molecular age shifts across three disease contexts, consistent with reported aging-associated changes. SCimilarity performed well for rare cellular state identification across out-of-distribution datasets, exceeding aging specific models and conventional baselines. At the gene level, scGPT showed the highest recovery of reference TF target interactions, including aging-related regulatory hubs. Overall, scFMs supported diverse aging analyses, but performance depended on the biological question, highlighting their utility for rare cellular state identification and regulatory analysis.",
+      "date": "2026-09-27",
+      "url": "https://doi.org/10.64898/2026.09.21.753191",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "12a063d3f3c0"
     },
     {
       "title": "Large language models for social governance: An analytical framework and research agenda",
@@ -11892,114 +12000,6 @@
       "venue": "Frontiers in Psychology",
       "direction": "llm",
       "id": "a5d797076e40"
-    },
-    {
-      "title": "Generative AI and Academic Integrity in Higher Education: Challenges and Future Directions",
-      "authors": "Dr. S. Ganapathy Dr. G. Purushothaman, Mr. Thanga Kumaran M Mr. Saurabh Jaiswal",
-      "abstract": "The public release of ChatGPT in late 2022, and the wave of generative artificial intelligence (GenAI) tools that followed it, has unsettled long-standing assumptions about how learning is demonstrated and assessed in higher education. Essays, reports, code, and even reflective writing can now be produced in seconds by systems whose output is fluent, personalised, and largely indistinguishable from student work. This paper examines the resulting collision between GenAI and academic integrity from a governance and assurance perspective. Drawing on the rapidly growing literature published since 2022, it maps the principal challenges facing institutions: the unreliability and demonstrated bias of AI-text detection tools, the erosion of assessment validity, widening equity gaps, fragmented and reactive policy, limited faculty capacity, and the contamination of scholarly work by fabricated references and hallucinated content. The paper argues that detection-centred enforcement is a structurally weak control and proposes instead a layered institutional framework in which policy and governance, pedagogy and assessment redesign, and technology-based assurance operate as mutually reinforcing controls, sustained by a continuous audit and improvement cycle. Future directions are discussed, including two-lane assessment models, AI literacy as a graduate attribute, provenance and watermarking infrastructure, and the emergence of academic integrity as an auditable domain of institutional risk management",
-      "date": "2026-07-08",
-      "url": "https://doi.org/10.48175/ijarsct-37626",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Advanced Research in Science Communication and Technology",
-      "direction": "llm",
-      "id": "4014b282b182"
-    },
-    {
-      "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
-      "authors": "Yotam Wolf, Noam Wies, Amnon Shashua",
-      "abstract": "Training large language models (LLMs) with extended reasoning has enabled in-context search, in which models iteratively generate, critique, and revise solution attempts. We provide a theoretical analysis of in-context search by modeling it as approximate inference over reasoning traces, where the base model defines a prior and self-reflection provides feedback for posterior updates, and study the resulting inference-time sampling complexity - the number of sequential attempts needed to achieve high success probability. We show that when reflections reliably localize early mistakes, in-context search can yield exponential improvements over the base model, solving problems with exponentially small zero-shot pass rates using only a polynomial number of sequential attempts, whereas when this property fails, conditioning on past attempts offers no asymptotic benefit over parallel sampling. We further show that these gains are robust and learnable: approximate posterior updates suffice, and cross-entropy training on search rollouts recovers the required behavior with polynomial sample complexity. Finally, we show that under a stagewise abstraction of reinforcement learning with verifiable rewards, the optimal policy extension implements the same posterior reweighting rule. We validate key qualitative predictions of the theory on real large reasoning models.",
-      "date": "2026-07-07",
-      "url": "https://arxiv.org/abs/2607.06720v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06720v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "79742053415d"
-    },
-    {
-      "title": "Ad Headline Generation using Self-Critical Masked Language Model",
-      "authors": "Yashal Shakti Kanungo, Sumit Negi, Aruna Rajan",
-      "abstract": "For any E-commerce website it is a nontrivial problem to build enduring advertisements that attract shoppers. It is hard to pass the creative quality bar of the website, especially at a large scale. We thus propose a programmatic solution to generate product advertising headlines using retail content. We propose a state of the art application of Reinforcement Learning (RL) Policy gradient methods on Transformer based Masked Language Models. Our method creates the advertising headline by jointly conditioning on multiple products that a seller wishes to advertise. We demonstrate that our method outperforms existing Transformer and LSTM + RL methods in overlap metrics and quality audits. We also show that our model-generated headlines outperform human submitted headlines in terms of both grammar and creative quality as determined by audits.",
-      "date": "2026-07-07",
-      "url": "https://arxiv.org/abs/2607.06818v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06818v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "190d491d4b9d"
-    },
-    {
-      "title": "Enhancing medical Q&amp;A systems with multimodal knowledge graphs and dual-layer attention mechanisms",
-      "authors": "Guoqiang Qiu, Qingni Yuan, Yi Wang, Pengju Qu, Wei Jia",
-      "abstract": "Medical intelligent question-answering (QA) systems have become important tools for improving the efficiency of healthcare services, and recent research has increasingly emphasized performance optimization and multimodal integration. However, existing systems still face several challenges in intent recognition, entity extraction, and multimodal knowledge fusion, particularly reduced accuracy in multi-label classification, heavy reliance on large-scale annotated data, and limited support for cross-modal retrieval. To address these issues, this study proposes a medical intelligent QA framework that integrates a dual-layer attention mechanism, a large language model, and a multimodal medical knowledge graph to improve system understanding and response generation in complex clinical scenarios. Specifically, we develop a text-based intent recognition model with a dual-layer attention architecture, in which a global contextual attention module is introduced to capture long-range semantic dependencies and improve multi-label classification performance. In addition, an instruction-tuned large language model is employed for zero-shot medical entity recognition, thereby reducing dependence on manually annotated datasets. Building on this foundation, we construct a multimodal medical knowledge graph comprising more than 15,000 associated medical images and develop a visualization-oriented retrieval interface using Flask and ECharts. Experimental results show that the proposed intent recognition model achieves a peak Micro-F1 of 94.42% on multiple benchmark datasets, outperforming several baseline methods. The LLM-based entity recognition module achieved competitive recall in medical entity extraction, demonstrating strong capability in identifying medical entities. User evaluation results further indicate that the system is effective and practical across a variety of medical query types. This study provides a feasible framework for advancing medical QA systems through improved intent recognition, low-resource entity extraction, and multimodal knowledge integration.",
-      "date": "2026-07-07",
-      "url": "https://doi.org/10.1371/journal.pone.0353112",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "PLoS ONE",
-      "direction": "medical",
-      "id": "b2324f6f90ed"
-    },
-    {
-      "title": "Artificial Intelligence-Driven Call Center Operations in a High-Volume Neurology Practice: Impact on Access, Efficiency, Revenue Growth, and Cost Containment",
-      "authors": "Patricio S Espinosa, Yaira R Espinosa, Juan P Espinosa",
-      "abstract": "Background Healthcare systems face increasing administrative burdens, workforce shortages, rising labor costs, and growing patient expectations for rapid communication. Telephone call management remains one of the most labor-intensive nonclinical functions in outpatient medicine. Artificial intelligence (AI)-driven voice assistants have emerged as a potential solution to improve patient access while reducing operational costs. Beyond cost savings, AI communication platforms may increase revenue by improving the capture of new patient consultations and diagnostic referrals otherwise lost to communication delays. Objective To evaluate the operational, financial, and revenue impact of implementing an AI-powered telephone answering and patient communication system in a high-volume outpatient neurology practice, emphasizing patient access, referral capture, and new patient acquisition. Methods A retrospective, observational pre-post cohort study was conducted at Espinosa Neuroscience Institute, a practice of three neurologists and four advanced practice providers. After deploying an AI-powered call center platform, inbound communications - including appointment scheduling, demographic intake, insurance collection, FAQs, message routing, and patient triage - were managed through a Health Insurance Portability and Accountability Act (HIPAA)-compliant automated voice interface. The study evaluated operational metrics, staffing requirements, call volume, communication backlog, referral capture, and estimated labor costs by comparing a 90-day pre-implementation period (December 2025-February 2026) to an 86-day post-implementation period (March-May 2026). As a retrospective analysis of de-identified data for quality improvement, it was exempt from Institutional Review Board (IRB) approval. Results The practice receives 400-500 inbound calls daily. Before AI implementation, unresolved communication queues frequently exceeded 500 messages, with patients reporting prolonged wait times and delayed responses. Following deployment, all incoming calls could be answered simultaneously without queue limitations. During the first 86 days, the AI platform processed communications representing 5,484 unique patient encounters and managed an average of 63.8 new patient interactions per day. Communication backlogs were reduced by over 98%, with fewer than 10 active conversations open at any given time. Eliminating communication bottlenecks improved the capture of new patient consultations and referrals for neurological evaluations, EEG, EMG, and MRI. Requests previously lost to unanswered calls or excessive hold times were more consistently scheduled and completed, resulting in increased utilization of clinical and diagnostic services. Financial modeling estimated annual labor cost savings of approximately $216,500 while creating new revenue opportunities through improved referral conversion and patient acquisition. Conclusions Implementing an AI-powered call center significantly improved patient access, reduced communication backlogs, increased operational efficiency, and lowered staffing costs in a high-volume neurology practice. Beyond cost containment, the system enhanced new patient acquisition and referral capture, generating new lines of business through increased utilization of neurological and diagnostic services. AI-assisted communication represents a scalable strategy for improving financial sustainability and patient access in outpatient healthcare.",
-      "date": "2026-07-07",
-      "url": "https://doi.org/10.7759/cureus.112227",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Cureus",
-      "direction": "medical",
-      "id": "6ad60afc0e43"
-    },
-    {
-      "title": "Artificial intelligence in pharmacy and medicine: From drug discovery to patient care",
-      "authors": "Tha'er Ata, Israa Al Ani, Derar H. Abdel-Qader, Rana Abu‐Huwaij, Maisrh Ali Alrubaye, ...",
-      "abstract": "Artificial intelligence (AI) is increasingly reshaping the biomedical continuum, offering new capabilities from early discovery to patient care. This review explores current advances, starting with drug discovery, where AI aids in target identification, virtual screening, lead optimization, and prediction of pharmacokinetic and toxicological profiles, thereby reducing development costs and attrition rates. In preclinical and translational research, AI may support improvements in in vitro&amp;ndash;in vivo correlations, physiologically based pharmacokinetic modeling, and the development of AI-assisted approaches that could complement selected animal studies. These applications may improve predictive reliability while also helping to address some ethical concerns related to preclinical evaluation. In clinical trials, AI may have a role in patient recruitment, adaptive trial design, dose prediction, and the analysis of real-world evidence. In clinical medicine and pharmacy practice, its use is also increasing across diagnostic support, clinical decision-making, pharmacovigilance, and supply chain management. These applications could improve the delivery of more personalized and accessible care, but this is not always straightforward, since the usefulness of AI depends on the quality of the available data, the validation process, and how the system is applied in real clinical settings. Several concerns, therefore, remain, particularly regarding transparency, algorithmic bias, data privacy, validation, and regulatory compliance. The review also discusses possible future directions, including precision medicine, digital twin technologies, and the integration of AI with emerging biotechnologies, while stressing the need for responsible, validated, and equitable use of AI in healthcare.",
-      "date": "2026-07-07",
-      "url": "https://doi.org/10.36922/aih026210048",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Artificial Intelligence in Health",
-      "direction": "cell",
-      "id": "4c8322c0ed4d"
-    },
-    {
-      "title": "The role of artificial intelligence solutions in contemporary marketing shifts: Evidence and analysis from advanced digital environments",
-      "authors": "Raafat Awad Mosa, Abdulridha Faraj Badrawi",
-      "abstract": "Abstract The main objective of this study is to explore the solutions of artificial intelligence (AI) and their role in reshaping modern marketing orientations. To accomplish this objective, technological leaps were deconstructed, and the impact of accelerated intelligent transformations was analyzed across five key themes: the advertising industry, retail commerce, customer service, and customer relationship management (CRM). The final theme was privacy and data security as pressing ethical concerns that must be considered when using AI. The study explains how intelligent applications enhance cognitive abilities to understand customer preferences and requirements, thereby improving audience targeting, building smooth, enjoyable purchasing journeys, redefining traditional service models, and establishing a new phase of strong customer relationships through personalized, individualized experiences. Furthermore, it demonstrates the support that intelligent technologies provide to customers in protecting their data and privacy. The analysis draws on the latest developments in academic research and professional fieldwork, enhanced with examples from advanced digital environments and pragmatic interpretations of the implications of adapting these solutions for marketing practices. By linking theoretical concepts to applied contexts, this study proposes practical solutions and recommendations for the dissemination of AI applications in contemporary marketing strategies.",
-      "date": "2026-07-07",
-      "url": "https://doi.org/10.1186/s43093-026-00920-8",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Future Business Journal",
-      "direction": "medical",
-      "id": "81dd67de89da"
-    },
-    {
-      "title": "Mapping the otoactive landscape: an LLM-aided extraction of compounds and their targets",
-      "authors": "Aylin del Moral-Morales, Jean Arguello‐Camarillo, Jesús Yael Castañón Bello, Angélica Chavez-Romero, José L. Medina-Franco, ...",
-      "abstract": "Several widely used drugs have been associated with inner ear damage, including aminoglycosides prescribed for bacterial infections and cisplatin, a principal component of several chemotherapeutic regimens. Drug-induced ototoxicity remains a significant clinical challenge, often exacerbated by the lack of a systematic framework to map the growing body of scientific literature. To fill this gap, we developed a high-throughput computational pipeline to characterize the chemical and biological landscape of otoactive small-molecules. To do so, an automated Python-based workflow was developed to retrieve and process 7,801 PubMed abstracts. GPT-4 was employed as a text extraction tool, identifying compound names and their explicitly reported roles directly from the provided abstracts. Extracted compounds were enriched with structural data from PubChem and cross-referenced with experimental drug–protein interactions from BindingDB to construct a comprehensive drug-target network. Our LLM-driven approach identified 1,758 otoactive compounds, of which 619 are otoprotective and 1,092 ototoxic. Network analysis revealed the transporters ABCC3, ABCC4, and albumin as central hubs of drug interaction for the ototoxic compounds. All results are organized and publicly accessible through a dedicated web application at https://ototoxdb.streamlit.app . This comprehensive registry serves as a primary entry point for researchers screening otoactive molecules and provides a systematic framework for the automated surveillance of ototoxic drugs, supporting the future development of otoprotective strategies.",
-      "date": "2026-07-07",
-      "url": "https://doi.org/10.3389/fddsv.2026.1834905",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Drug Discovery",
-      "direction": "medical",
-      "id": "71a20e0952d9"
-    },
-    {
-      "title": "Unveiling the structural insights and inhibitory potential of coumarin-1,2,3-triazole hybrids against BACE1: a promising approach for Alzheimer’s disease therapy",
-      "authors": "Mervt Almostafa, Iqra Ali, Galal Yahya, Abdul Rauf Siddiqi",
-      "abstract": "Alzheimer’s disease (AD) is a progressive neurodegenerative disorder characterized by amyloid beta (Aβ) plaque accumulation, in which β-secretase (BACE1) plays a central role in the amyloidogenic pathway. Inhibition of BACE1 represents a promising therapeutic strategy; however, effective and safe inhibitors remain limited. This study aimed to identify novel coumarin-1,2,3-triazole hybrids as potential BACE1 inhibitors using comprehensive in silico approaches. Molecular shape and distance-based features derived from co-crystal ligands were used to generate and validate a pharmacophore model through ROC-based area under the curve analysis. A designed library of hybrids underwent pharmacophore-based virtual screening, yielding 92 hits with ≤0.6 RMSD. These compounds were further evaluated via structure-based molecular docking, from which six top candidates were selected, demonstrating superior docking scores relative to reported inhibitors. ADMET and density functional theory analyses indicated favorable pharmacokinetic profiles and electronic properties, highlighting potential reactive sites. The selected compound, CUM-0199, was subsequently validated through a 200 ns molecular dynamics simulation and MMGBSA binding free energy analysis, confirming structural stability and favourable binding affinity toward BACE1. Overall, the findings suggest CUM-0199 as a potential lead candidate for AD therapy, warranting further experimental validation and clinical investigation.",
-      "date": "2026-07-07",
-      "url": "https://doi.org/10.3389/fchem.2026.1824875",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Chemistry",
-      "direction": "cell",
-      "id": "77a9547835aa"
     }
   ]
 }
