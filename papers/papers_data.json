@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-10-10 22:14",
+  "last_updated": "2026-10-11 22:40",
   "papers": [
+    {
+      "title": "AI-Powered Healthcare Assistant with Drug Interaction Detection and Emergency Support",
+      "authors": "Savara Gnan Prakash, Diwakar Nallappagari, Gangana Jashwanth Reddy,  Veduruparthi Raja Krishna Deepak, Sulake Shanmuka Rao, ...",
+      "abstract": "Modern healthcare delivery continues to be con-strained by fragmented digital tools, delayed diagnosis, unmoni-tored drug-drug interactions (DDIs), and insufficient emergency response mechanisms, particularly for users without direct spe-cialist access. This paper presents an AI-Powered Healthcare Assistant—an integrated, secure, web-based platform that unifies conversational symptom analysis, hybrid disease-risk classifi-cation, knowledge-graph-based drug interaction detection, and geolocation-enabled emergency support within a single appli-cation. The system combines a GPT-based NLP pipeline for symptom interpretation, a hybrid rule-and-scoring risk engine classifying patient state into Low, Medium, High, and Emergency tiers, and a Neo4j biomedical knowledge graph modelling drugs, diseases, genes, and proteins to flag Mild, Moderate, or Severe medication interactions. Built on React.js, Node.js/Express.js, MongoDB, and Neo4j, and secured through JWT authentication, bcrypt password hashing, and role-based access control (RBAC), the platform achieved a validated disease-prediction accuracy of 87.3% and end-to-end response latency suitable for interactive clinical decision support. Grounded in an evaluation spanning healthcare microservices, explainable AI, clinical NLP, graph neural networks, and healthcare data security, the system demonstrates that a single, well-secured platform can meaningfully bridge the gap between AI-driven diagnostic guidance and actionable, real-time patient care",
+      "date": "2026-10-10",
+      "url": "https://doi.org/10.22214/ijraset.2026.85050",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal for Research in Applied Science and Engineering Technology",
+      "direction": "medical",
+      "id": "8bfc33734cf3"
+    },
+    {
+      "title": "AN EXPLAINABLE DEEP LEARNING FRAMEWORK FOR PREDICTIVE SOFTWARE QUALITY ENGINEERING AND AUTOMATED DEFECT DETECTION",
+      "authors": "Prathap Raghavan",
+      "abstract": "Software Quality Engineering (SQE) is evolving from reactive defect detection toward predictive and intelligent quality assurance. Traditional testing approaches identify defects after implementation and require extensive manual effort to analyze source code, test results, historical defects, and execution behavior. Machine learning and deep learning techniques enable prediction of defect-prone software components before failures occur; however, many deep learning models operate as black boxes, making their predictions difficult for developers, testers, and quality engineers to understand and validate. This paper proposes the Explainable Deep Learning Framework for Predictive Software Quality Engineering and Automated Defect Detection (XDL-SQE). The framework integrates static code metrics, change history, historical defect data, test execution results, runtime information, and source-code embeddings. A hybrid deep learning engine (CNN-LSTM-Transformer) generates defect-risk predictions, while an explainability layer based on SHAP and LIME provides feature attribution. A quality-prioritization layer converts predictions into actionable testing recommendations integrated with CI/CD pipelines. The framework addresses five key gaps: prediction without explanation, fragmented quality data, limited testing integration, human trust, and cross-project generalization. A comprehensive research protocol is proposed for evaluating predictive accuracy, explanation quality, testing efficiency, and operational usefulness. This work contributes a unified architecture for interpretable, actionable, and continuous predictive quality engineering.",
+      "date": "2026-10-10",
+      "url": "https://doi.org/10.30574/wjarr.2026.32.1.2563",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "World Journal of Advanced Research and Reviews",
+      "direction": "llm",
+      "id": "cdebf751aa85"
+    },
+    {
+      "title": "Monte Carlo and Neural Network-based Prediction of Base Shear Force in Airport Tunnels using the Pushover Method Considering Both Soil-Structure Interaction and Non-Interaction across Different Soil Types",
+      "authors": "Awatif EL BRIGUI, Mouna EL MKHALET, Nouzha Lamdouar",
+      "abstract": "Artificial Neural Networks (ANNs) are powerful nonlinear function approximators that can learn complicated relationships from data. They offer increasing value in civil, seismic, and geotechnical engineering applications. Recent findings indicate that ANNs can also be applied to structural health monitoring, material behaviour prediction and the evaluation of deep buried structures, whereas their application to airport tunnels remains largely unexplored. This study expands the Monte Carlo framework developed for the seismic assessment of an airport tunnel. It integrates the principles of a neural network. 200 samples are generated for each scenario by incorporating uncertainties of peak ground acceleration and material strength into Monte Carlo simulations. The findings indicate a significant variation in the structure’s roof displacement and base shear and larger dispersion of these parameters is observed as the ground acceleration increases. In the case without SSI, the roof displacement varies between 1.40 and 3.44 cm while the base shear varies from 690.0 to 1,845.1 kN; these are the minimum and maximum values obtained over the 200 Monte Carlo samples and correspond exactly to the figures reported in Table 4. The performance of tunnels is sensitive to the interdependence between seismic input and material. As a whole, the results obtained by combining ANN concepts, nonlinear static procedures, and probabilistic Monte Carlo simulation yield a sound framework for evaluation of performance under uncertainties. A combination of data analysis and modelling would enhance accuracy and strengthen decision-making for airport tunnel design and safety management.",
+      "date": "2026-10-10",
+      "url": "https://doi.org/10.14445/23488352/ijce-v13i9p104",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Civil Engineering",
+      "direction": "llm",
+      "id": "3894428a2cda"
+    },
+    {
+      "title": "A Disease-Memory Guided Framework for Radiology Report Generation from Multi-View Chest X-rays",
+      "authors": "Prajakta Dhamanskar, Chintan Bhupeshbhai Thacker, Saurabh A Shah",
+      "abstract": "Chest X-rays are widely used, low-cost diagnostic tools. Writing chest X-ray reports manually is a time-consuming and tedious task. The increasing number of X-rays burdens radiologists, creating a need for a clinically accurate, fast and automated report generation system. To solve this challenge, we propose a new disease-memory-guided vision-language framework for radiology report generation. Frontal and lateral chest X-rays (multi-view) are encoded using a Swin-Transformer. These encoded visual features are then passed through a multi-label classification head that predicts disease probabilities, from which the top three labels are converted into learnable disease-memory embeddings. These are concatenated with projected visual tokens and fixed task instruction embeddings to form a multimodal prompt which is fed into a frozen decoder. A LLaMA-2-7B model adapted to the radiology domain using LoRA fine-tuning on the train-only MIMIC-CXR subset is used as an autoregressive decoder. The disease-memory embeddings serve as disease guidance during report generation. An extensive experimental analysis of different experimental variants is conducted on the benchmark Indiana University Chest X-ray dataset using three aspects: 1) statistical n-gram overlap, 2) semantic similarity, and 3) clinical label-based metrics. Experimental results of the proposed system show improvements in semantic evaluation metrics, with BERTScore precision, recall, and F1 values of 0.898, 0.891 and 0.894, respectively, and ROUGE-L and METEOR scores of 0.327 and 0.281, indicating improved contextual consistency between generated and reference reports. However, performance on statistical metrics (e.g., BLEU4=0.068) and clinical evaluation metrics remains limited, with Micro-F1, Macro-F1, Precision and Recall values of 0.4211, 0.0640, 0.4272, and 0.4151, respectively, indicating only partial abnormality description. This framework improves abnormality grounding while maintaining computational efficiency and can be used as a supportive tool for preliminary report drafting in research or resource-constrained settings.",
+      "date": "2026-10-10",
+      "url": "https://doi.org/10.35882/jeeemi.v8i4.1882",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Electronics Electromedical Engineering and Medical Informatics",
+      "direction": "llm",
+      "id": "e0ee0f6ac9dc"
+    },
+    {
+      "title": "Retrieval-to-abstraction LLM-assisted literature synthesis: Case demonstrations in digital health technology-enabled randomized controlled trial outcome reporting",
+      "authors": "Taylor B. Harrison, Dian Hu, Heling Jia, Shyang Hong Tan, Fang Chen, ...",
+      "abstract": "Systematic reviews of randomized controlled trials (RCTs) support evidence-based clinical advancement. Clinical trial reporting guidelines, including CONSORT, establish common data elements that support systematic synthesis of published trial outcomes. However, the rapid rise of digital health technologies presents new challenges for reporting guidelines, and substantial real-world reporting heterogeneity has been observed. Therefore, machine-assisted evaluation of reporting adherence offers a pathway for more agile information management to accommodate the diverse and disruptive nature of digital health technology-enabled RCTs. Here, we propose an accelerated retrieval-to-abstraction literature synthesis framework to conduct article screening, text and table data preprocessing, and full-text review using an unmodified pretrained large language model. We apply this methodology in two digital health technology-enabled RCT case studies evaluating adherence to technology and digital health equity guideline reporting items. Large language model performance was on par with inter-annotator agreement F1 scores (≥0.9) in both screening and information-extraction tasks. These findings support the scalability and rigor of accelerated evidence synthesis and demonstrate the importance of common reporting elements across digital health technology-enabled RCTs.",
+      "date": "2026-10-09",
+      "url": "https://doi.org/10.1371/journal.pdig.0001768",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "PLOS Digital Health",
+      "direction": "medical",
+      "id": "8506cea497ad"
+    },
+    {
+      "title": "Advancing chemical reaction prediction in data-scarce drug discovery with active and geometric deep learning",
+      "authors": "Mason Minot, Yannick Stenzhorn, Jens Wolfard, Sebastian Strobel, Philippe Jablonski, ...",
+      "abstract": "The success of generative molecular design depends on the synthetic accessibility of the molecules it creates. While computational models can help predict chemical reactions, their current effectiveness is limited by a lack of reference data and the difficulty of accurately predicting reaction regioselectivity. Here, to address this, we present an integrated closed-loop workflow that combines efficient reaction data acquisition with high-accuracy deep learning. We developed an active learning strategy, driven by a tree-based ensemble, to guide the acquisition of the most informative laboratory experiments. This experimental campaign yielded a diverse benchmark for C-H borylation. The bespoke dataset allowed us to train and evaluate geometric graph neural networks. We demonstrate that augmenting these symmetry-aware models with self-supervised auxiliary tasks consistently improves performance for both reaction outcome prediction and regioselectivity prediction. Prospective tests on unseen substrates, featuring challenging N-heteroaryl motifs, pinpointed the correct borylation positions in all cases, illustrating the practical utility of our workflow for efficient drug optimization.",
+      "date": "2026-10-09",
+      "url": "https://doi.org/10.1038/s43588-026-01063-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Nature Computational Science",
+      "direction": "cell",
+      "id": "2ee11628a529"
+    },
     {
       "title": "A Controlled Single-Speaker Evaluation of Ambient Voice Technologies’ Speech-to-Text Function Using Narrated Surgical Case-Reports",
       "authors": "Ruairí O’Kane, Daniel Stonehouse‐Smith, Melody Shirazi, Rachel Hutchinson, Morgan Gregg, ...",
@@ -108,6 +180,18 @@
       "venue": "ACM Transactions on Multimedia Computing Communications and Applications",
       "direction": "llm",
       "id": "4911fe440edc"
+    },
+    {
+      "title": "Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals",
+      "authors": "Lei Zhao, Qichao Zhao, Bowen Zuo, Qishi Zhan",
+      "abstract": "On-policy distillation (OPD) enables effective capability transfer between language models, yet the mechanisms underlying its failures are not fully understood. Across code generation and mathematical reasoning, OPD with larger-scale teachers exhibits early loss plateaus, with an average final loss reduction of 25.1% after 200 updates, compared with 96.2% for self-RL teachers, obtained by further reinforcement learning (RL) training of the initial student. To understand this difference, we analyze OPD as an idealized continuous-time dynamical system in the small-learning-rate limit. Our training-log diagnostics associate these plateaus with an early decline in a gradient-based learning-signal proxy while substantial loss remains; these measurements do not establish why the underlying gradient weakens. We further prove a local recovery guarantee for teachers sufficiently close to the initial student in a shared parameterization under regularity conditions, offering a conditional explanation for the success of self-RL teachers in our experiments. Across runs with and without loss plateaus, we observe small relative parameter changes (0.025-0.098%) and high similarity between the student's representations before and after OPD (linear CKA $>0.98$ across layers). These observations suggest that limited representation adaptation may contribute to learning-signal collapse, a hypothesis that remains to be tested. Code is available at https://github.com/leizhao7/opd-learning-signals.",
+      "date": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.11247v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.11247v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "8c85273a5be5"
     },
     {
       "title": "Artificial Intelligence in Auditing the Quality of Electronic Nursing Records: A Critical Narrative Literature Review",
@@ -11916,90 +12000,6 @@
       "venue": "Frontiers in Pharmacology",
       "direction": "cell",
       "id": "591be2c435ad"
-    },
-    {
-      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
-      "authors": "Patrik Wolf, Thomas Kleine Buening, Andreas Krause, Celestine Mendler-Dünner",
-      "abstract": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic identities. In particular, the law of total probability asserts that prior-weighted conditional distributions aggregate into population-level marginals over any valid partition of the population. In this work, we investigate to what extent LLM estimates adhere to this self-consistency principle. We use binary trees as an evaluation scaffold to recursively partition a population into increasingly fine-grained subpopulations. We then prompt LLMs with verbalized subpopulation descriptions in context, aggregate the resulting estimates back into population-level estimates, and compare them across partitions of varying granularity. Applying this protocol across problem domains and state-of-the-art frontier models, we show widespread violations of basic consistency properties. An in-depth study of persona prompting reveals a pattern we call the macro fallacy: estimates reconstructed from more fine-grained subpopulation responses are often better aligned with human reference data than direct population-level estimates. This effect persists across variations in tree structure and estimation task, and can be partially recovered through implicit prompting. Together, these findings suggest that models possess relevant subpopulation knowledge but do not reliably propagate it into aggregate estimates. This gap establishes statistical self-consistency as an unsaturated, reference-free criterion for evaluating LLMs.",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.15277v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15277v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "3fb5368fd931"
-    },
-    {
-      "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
-      "authors": "Haran Raajesh, Kulin Shah, Adam Klivans, Philipp Krähenbühl",
-      "abstract": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likelihood estimation. Existing approaches approximate this log-likelihood by modeling only the token predictions, ignoring the order in which positions are unmasked during generation. We observe that MDLM generation involves two decisions at each step: what tokens to place at each masked position and which positions to remask. We formalize this as a two-stage action MDP, showing that the policy gradient naturally decomposes into a token term and a masking term. Combining optimization of both terms leads to state-of-the-art outcomes on mathematical reasoning and coding benchmarks, with scores of 87.1% on GSM8K and 53.4% on MBPP.",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.15200v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15200v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "c9676fb6ee84"
-    },
-    {
-      "title": "On-Policy Delta Distillation",
-      "authors": "Byeongho Heo, Jaehui Hwang, Sangdoo Yun, Dongyoon Han",
-      "abstract": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-policy distillation has been studied and applied across various settings, its fundamental design remains underexplored. In this paper, we introduce a new distillation reward, termed the delta signal, instead of directly imitating the teacher's output distribution. The delta signal is defined as the difference between the teacher model and its base model prior to instruction tuning for reasoning capability. It therefore captures the changes induced by reasoning tuning and provides a more direct signal for transferring reasoning capabilities. Using extensive empirical evidence, we show that the delta signal substantially improves on-policy distillation and refer to the new distillation method as On-Policy Delta Distillation (OPD$^2$). Experiments across mathematics, science, and code-reasoning benchmarks demonstrate that OPD$^2$ consistently outperforms conventional on-policy distillation, enabling reasoning LLMs to achieve strong performance with only a short post-training period. Code will be available at https://github.com/naver-ai/opd2",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.15161v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15161v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e8bf80214cb2"
-    },
-    {
-      "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
-      "authors": "Dylan Van Mulders, Matthias Bogaert, Dirk Van den Poel",
-      "abstract": "The formation of political coalitions is a complex negotiation driven by both concrete policy objectives and deep-seated ideological convictions. While Large Language Models (LLMs) open new avenues for computational political science, the neutrality and helpfulness biases instilled by Reinforcement Learning from Human Feedback (RLHF) prevent them from sustaining steadfast partisan behaviour. We present a multi-agent framework that reconciles factual grounding with ideological alignment by combining Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Retrieval-Augmented Generation (RAG): DPO instils aggressive party-specific personas, while a per-party RAG pipeline keeps each agent bounded to its official manifesto. We operationalize the framework on the 2019 Flemish election, deploying the partisan agents in a hub-and-spoke negotiation arbitrated by a formateur. To make the emergent negotiation interpretable, we introduce a Multi-Layered Information Lineage Topology (MILT) that traces every clause in the final agreement back to its manifesto origin and classifies it into five provenance states, a Coalition Influence Score (CIS) that aggregates these traceable contributions to identify which party shaped the agreement, and a real-world grounding pass that benchmarks each simulated provision against the historically adopted coalition agreement. Across three independent simulations the framework yields a stable winner and ranking (N-VA ahead of CD\\&V and Open Vld), and manifesto-anchored lineage reliably predicts real-world materialization whereas hallucinated content does not. The result is a transparent, scalable testbed for the ex-ante exploration of party compatibility and formateur-mediated compromise.",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.15095v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15095v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "b6aaa17f4726"
-    },
-    {
-      "title": "Show Me How You Reason and I'll Tell You Who You Are: Reasoning Graphs for Robust LLM Authorship Attribution",
-      "authors": "Zlata Kikteva, Artur Romazanov, Annette Hautli-Janisz, Ramon Ruiz-Dolz",
-      "abstract": "Given the current trend to employ large language models (LLMs) in almost any imaginable context, LLM-generated text detection and authorship attribution have become a pressing issue. Prior work has primarily focused on surface-level linguistic features, an approach shown to be susceptible to paraphrasing and other obfuscation techniques. In this paper, we go beyond the linguistic surface, extracting and analysing reasoning structures in LLM-generated texts with the goal of capturing more complex signals of LLM authorship. We propose a graph neural network approach that leverages reasoning graphs extracted by an argument mining pipeline, demonstrating improved robustness and generalisation over a traditional Longformer baseline. Our approach outperforms the baseline by up to 27 percentage points under the obfuscation attacks such as paraphrasing and backtranslation, and 19 percentage points when evaluated on the texts generated by the unseen model versions, simulating real-world conditions in which new LLM versions are continuously released.",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.14905v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14905v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "833fbf0241e8"
-    },
-    {
-      "title": "Leveraging Instruction Tuning and Merging for Reasoning Model Adaptation",
-      "authors": "Yu-Du Feng, Niels Mündler-Sasahara, Mark Vero, Martin Vechev",
-      "abstract": "Reasoning language models (RLMs) have demonstrated impressive performance in domains such as mathematics and coding. These domains permit reliable verification of model outputs, which is important for enabling the reinforcement learning that drives RLM performance gains. However, training RLMs on domains that lack reliable verifiers remains challenging. Meanwhile, for both verifiable and unverifiable domains, large amounts of unused supervised fine-tuning data with human-written solutions exist. In this work, we show that these data can be used efficiently to further improve RLM performance. For this, we first use classic instruction tuning, supervised fine-tuning without reasoning traces, on the RLM. Next, we merge our instruction-tuned model with the original reasoning model, recovering its reasoning behavior on the target domain. Our extensive evaluation demonstrates that our technique improves RLM performance in both verifiable and hard-to-verify domains, including coding and text summarization, while preserving RLM capabilities across other domains. Importantly, our method is highly cost-effective, enabling such improvements for less than USD $3.",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.14895v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14895v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "ed544a35e6be"
-    },
-    {
-      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
-      "authors": "Jinyang Wu, Shuo Yang, Zhengxi Lu, Fan Zhang, Yuhao Shen...",
-      "abstract": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level rewards offer limited guidance on intermediate decisions, leaving a supervision gap between episode-level outcomes and token-level policy learning. We propose SEED (SElf-Evolving On-Policy Distillation), a self-evolving framework that converts completed on-policy trajectories into training-time hindsight skills and distills their behavioral effect back into the policy model. SEED first fine-tunes the policy to analyze completed trajectories and generate natural-language skills that capture reusable workflows, decisive observations, or failure-avoidance rules. During RL, the current policy both collects trajectories and serves as the analyzer that extracts hindsight skills from them. Policy updates therefore improve subsequent decision making and skill analysis together, allowing hindsight supervision to evolve with the policy. SEED then re-scores the sampled actions under ordinary and skill-augmented contexts, converting the skill-induced probability shift into a dense token-level on-policy distillation signal. This signal is jointly optimized with outcome-based RL, keeping the auxiliary supervision aligned with the current trajectory distribution. Extensive experiments on text-based and vision-based agentic tasks show that SEED consistently improves performance and sample efficiency, exhibiting robust generalization to unseen scenarios. Our code is available at https://github.com/jinyangwu/SEED.",
-      "date": "2026-07-16",
-      "url": "https://arxiv.org/abs/2607.14777v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.14777v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "dc3d243dc56e"
     }
   ]
 }
