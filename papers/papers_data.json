@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-10-13 01:10",
+  "last_updated": "2026-10-13 23:11",
   "papers": [
+    {
+      "title": "Barriers and facilitators to healthcare artificial intelligence adoption in Wales: findings from focus groups",
+      "authors": "Michal Pruski, Jasmine Rollings, Kathleen L. Withers",
+      "abstract": "Background Building on a previous Wales-wide survey, this study aimed to provide more in-depth exploration of the barriers and facilitators to healthcare artificial intelligence adoption in Wales. Objectives The study aimed to explore these barriers and facilitators among various social groups, to inform policy development in Wales. Methods Four focus groups were conducted with a group of members of the public and a group of healthcare professionals (both groups recruited from a previous survey), as well as a group Sixth Form students and a group of retired adults. Inductive thematic analysis was used to generate themes and to compare the issues raised by the various groups. Contiguity-based analysis was undertaken to underscore how themes related with each other. Results A total of 21 individuals participated in the focus groups (healthcare professionals=6, members of the public=6, sixth-form students=5, retirees=4). Seven thematic networks were identified. Across groups, seven themes were identified in the healthcare professional group, six in the general members of the public group, seven in the sixth form student group, and seven in the retiree group. All groups voiced concerns about data privacy and highlighted the importance of human oversight of AI and human contact during the clinical encounter as they expressed more trust in human practitioners. There were though differences between groups, such as greater trust in black-box systems by healthcare professionals, and between individual participants in regard to trust in private organisations developing AI for healthcare organisations. Conclusions All groups were concerned with information security and expressed a preference for human contact during the clinical encounter and a human-in-the-loop approach. There were differences between the groups, such as in attitudes towards black-box AI technologies and trust in clinicians. No additional barriers or facilitators were identified for proxy consent.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.3389/fdgth.2026.1927799",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Digital Health",
+      "direction": "medical",
+      "id": "d2eef5916c48"
+    },
+    {
+      "title": "Large-scale prospective evaluation of co-folding across hundreds of Mac1–ligand complexes and three virtual screens",
+      "authors": "Jongbin Kim, G.J. Correy, Brendan W. Hall, Moira M. Rachman, Olivier Mailhot, ...",
+      "abstract": "Abstract Accurate prediction of ligand-bound protein complexes and ranking them by affinity are central problems in drug discovery. While deep learning co-folding methods can help address these challenges, their evaluation has been hampered by the difficulties in assessing independence from training data and insufficiently large test sets. Here we test the ability of co-folding methods to predict the structures of 551 ligands, 489 of which are of sufficient quality for evaluation, bound to the SARS-CoV-2 NSP3 macrodomain (Mac1) that were determined after the training cut-off dates. AlphaFold3 (AF3), Boltz-2, and Chai-1 each reproduced >50% of the Mac1 ligand poses to better than 2 Å RMSD of experiment. Despite the potential for co-folding to describe protein conformational changes that stabilize ligand binding, we did not find that common conformational rearrangements, including peptide flip and a large loop opening, were recapitulated by the co-folding prediction. For AF3 and Chai-1, ligand pose prediction confidence weakly, but significantly, tracked experimental potency, while DOCK3.7 energies were only weakly correlated. Boltz-2 affinity predictions showed the strongest correlation with measured potency and, after calibration, achieved lower mean absolute error than a baseline predictor. We next assessed whether co-folding scores could rescore docking hit-lists to distinguish true ligands from non-binders among hundreds of molecules prospectively experimentally tested against AmpC β-lactamase, the dopamine D4 and the σ 2 receptors. AF3 ligand pose confidence values did not separate true ligands from high-scoring false-positives as effectively as docking scores or Boltz-2 affinity predictions did. Taken together, the modest, but independent correlations of docking score and co-folding confidence or affinity suggests that integrating physics-based and deep-learning and approaches may help with hit prioritization and subsequent optimization in structure-based ligand discovery.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.7554/elife.110475.3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "eLife",
+      "direction": "cell",
+      "id": "144d0e83f969"
+    },
+    {
+      "title": "Self-Evolving Digital Twin Ecosystems for Early Detection and Precision Management of Breast, Lung, Colorectal, and Ovarian Cancers",
+      "authors": "",
+      "abstract": "Background: The convergence of multi-omics profiling, radiomics, and advanced machine learning has opened new frontiers in precision oncology.Despite this progress, existing computational frameworks remain static, failing to incorporate evolving patient data or simulate treatment outcomes dynamically.A self-evolving digital twin ecosystem offers a solution by continuously synchronizing patient-specific virtual models with real-world clinical trajectories.Objective: To develop and validate a self-evolving digital twin ecosystem integrating clinical, genomic, transcriptomic, proteomic, radiomic, and pathological data for early cancer detection, disease progression prediction, and personalized treatment optimization across breast, lung, colorectal, and ovarian cancers.Methods: A retrospective multi-center cohort of 400 patients (breast n=120, lung n=100, colorectal n=100, ovarian n=80; age range 25-75 years) was assembled.A six-layer digital twin framework was constructed, incorporating a cross-modal transformer foundation model alongside Random Forest, XGBoost, and Deep Neural Network comparators.Key performance metrics included accuracy, precision, recall, F1-score, and area under the ROC curve (AUC).Virtual clinical trial simulations and feature importance analyses were performed.Results: The foundation model achieved superior performance across all metrics (accuracy 0.921, AUC 0.947) compared with Random Forest (0.812/0.847),XGBoost (0.841/0.879), and Deep Neural Network (0.873/0.906).Tumor stage, TP53 mutation, and EGFR mutation emerged as the most predictive features.Risk stratification identified 148 (37.0%) low-risk, 153 (38.3%) moderate-risk, and 99 (24.8%)high-risk patients.Virtual trial simulation demonstrated a 23.4% improvement in projected progression-free survival for the high-risk subgroup.Conclusion: The self-evolving digital twin ecosystem significantly outperforms conventional machine learning approaches and provides a clinically actionable, adaptive platform for real-time precision oncology decision support across multiple cancer types.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.25258/ijddt.16.65s.22",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "09ae367c8bb9"
+    },
+    {
+      "title": "Generative Health Data Science for Data-to-Dose Precision Pharmacology: A Critical Methodological Review and Translational Framework",
+      "authors": "",
+      "abstract": "Precision pharmacology aims to select the most appropriate medicine, dose and monitoring strategy for an individual patient.Its translation is limited by fragmented records, incomplete biological characterization, timevarying physiology and the difficulty of converting high-dimensional evidence into a safe action.Generative health data science extends conventional prediction by learning structured representations of molecules, cells, patients and clinical trajectories and by producing reviewable candidates such as molecular structures, treatment options, synthetic records, counterfactual courses and dose scenarios.This critical review evaluates large language models, multimodal and biological foundation models, graph and diffusion architectures, syntheticpatient generators, digital twins and bounded agentic workflows across target discovery, repurposing, pharmacogenomics, treatment selection, individualised dosing and pharmacovigilance.Evidence is strongest for representation learning, structure-enabled discovery and selected pharmacogenomic pathways; autonomous patient-level treatment and dosing remain investigational.Recent advances include explainable drug-repurposing foundation models, multimodal clinical foundation models and a randomised phase 2a trial of a generative-AIdiscovered TNIK inhibitor.We propose a Data-to-Dose framework linking intended-use definition, data provenance, longitudinal patient-state modelling, constrained generation, mechanistic and causal checks, uncertainty-aware ranking, professional review and lifecycle monitoring.Generation must remain distinct from clinical authorisation, and synthetic-data fidelity must not be equated with privacy, fairness or external validity.Generative systems may become an enabling layer for precision pharmacology only when their creative capacity is bounded by pharmacology, evidence and accountable clinical judgment.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.25258/ijddt.16.86s.140",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "bbd668aae6cd"
+    },
+    {
+      "title": "Hackathon on predictive modelling in systems pharmacology: design, implementation, and outcomes",
+      "authors": "Malvina Marku, The-Chuong Trinh, Racym Berrah, Guido Uguzzoni, Moreno Ursino, ...",
+      "abstract": "Background The growing availability of multi-omics data and machine learning methods creates both an opportunity and a challenge for the systems pharmacology community: the opportunity to model drug action at unprecedented mechanistic resolution, and the challenge of equipping a new generation of researchers with the computational literacy to do so. There is a particular need for training formats that bridge classical pharmacometrics with omics data science, and that foster interdisciplinary community building. Methods We organised a 4-day intensive hackathon on Predictive Modelling in Systems Pharmacology, bringing together 16 early-career researchers from the Horizon Europe CANVAS and French PEPR DIGPHAT consortia, spanning biology, bioinformatics, and computational science. The event pursued the dual aim of fostering a multidisciplinary consortium community and providing hands-on training that bridges classical pharmacometrics with omics data science. Three scientific tracks were delivered: (i) pharmacokinetic/pharmacodynamic (PK/PD) modelling, (ii) drug perturbation modelling through network diffusion in gene regulatory networks (GRN), and (iii) machine learning for pharmacogenomics. A theory-to-practice pedagogical framework structured each day, with morning workshops grounding participants in methodological foundations followed by afternoon coding sprints on real-world datasets. Results All three tracks produced working computational outputs within the hackathon timeframe. In the PK/PD track, all teams successfully identified a two-compartment structural model and key covariate effects. In the GRN track, participants implemented a network diffusion algorithm on gene regulatory networks, yielding patient-stratified therapy recommendations. In the pharmacogenomics track, four out of seven teams surpassed the logistic regression baseline in Matthews Correlation Coefficient on an external validation set. Conclusions The hackathon demonstrated that a structured multi-track format combining community-targeted outreach, theory-to-practice pedagogy, and real-world datasets constitutes a replicable model for interdisciplinary computational pharmacology training at the European level.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.12688/f1000research.186702.1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "F1000Research",
+      "direction": "cell",
+      "id": "e4d02462394c"
+    },
+    {
+      "title": "Less can be more for predicting properties with large language models",
+      "authors": "Nawaf Alampara, Santiago Miret, Kevin Maik Jablonka",
+      "abstract": "Abstract Predicting properties from coordinate–category data—sets of vectors paired with categorical information—is fundamental to computational science, manifesting in materials science as predicting formation energies or elastic moduli from crystal structures. While large language models (LLMs) have increasingly been applied to such tasks, optimal strategies for achieving reliable predictions remain elusive. Here we report fundamental limitations in LLM’s ability to learn from coordinate information in coordinate–category data. Through systematic experiments using synthetic datasets with tunable coordinate and category contributions, and a comprehensive benchmarking framework (MatText), we find that LLMs consistently fail to capture coordinate information while excelling at category patterns. This geometric blindness persists regardless of model size (up to 70 billion parameters), dataset scale (up to 2 × 10 6 structures) or text representation strategy. For material property prediction tasks dominated by structural effects, specialized geometric architectures consistently outperform LLMs, as evidenced by a clear ‘Graph Neural Network Language Model (GNN-LM) wall’ in performance benchmarks. Our analysis provides concrete guidelines for architecture selection in scientific machine learning.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.1038/s43588-026-01045-2",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Nature Computational Science",
+      "direction": "llm",
+      "id": "4199fe9fca2d"
+    },
+    {
+      "title": "SENSE: SELF-SUPERVISED NEURAL EMBEDDINGS FOR SPATIAL ENSEMBLES",
+      "authors": "Hamid Gadirov, Lennard Manuel, Steffen Frey",
+      "abstract": "Analyzing and visualizing scientific ensemble datasets characterized by high dimensionality and structural complexity remains a significant challenge.While dimensionality reduction methods and autoencoders are widely used for feature extraction, their performance often degrades in high-dimensional settings.In this work, we propose an enhanced autoencoder framework that integrates clustering and contrastive loss functions into the latent space to improve the interpretability and visualization of scientific ensemble data.Clustering is guided by a soft silhouette score, encouraging compact and well-separated latent representations.To address the presence of unlabeled data, EfficientNetV2 is employed to generate pseudo-labels for partially unlabeled ensembles.The model is trained by jointly optimizing reconstruction, clustering, and contrastive objectives, resulting in improved grouping of similar samples and clearer separation of distinct structures in the latent space.UMAP is subsequently applied to the learned embeddings to produce two-dimensional visualizations, which are quantitatively evaluated using silhouette scores.We evaluate multiple autoencoder variants on two scientific ensemble datasets: subsurface channel structures generated via Markov chain Monte Carlo simulations and droplet-impact dynamics on a liquid film.The results show that incorporating clustering or contrastive objectives yields marginal but consistent improvements over baseline autoencoders.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.30546/09090.2025.510.1002",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "JOURNAL OF BAKU ENGINEERING UNIVERSITY- MATHEMATICS AND COMPUTER SCIENCE",
+      "direction": "llm",
+      "id": "1e0bd9f329c8"
+    },
+    {
+      "title": "The impact of GenAI on the future of requirements engineering",
+      "authors": "Travis D. Breaux, Anmol Singhal",
+      "abstract": "Abstract Recent advances in artificial intelligence (AI), particularly large language models (LLMs), are transforming how we design and build systems by increasing access to domain knowledge and by providing automation support to software engineering (SE). As implementation becomes less expensive through generalist SE agents, engineering effort shifts away from writing correct code and toward expressing, curating, verifying, and evaluating requirements. In this paper, we survey the state of the art in AI for requirements engineering (RE) research leading up to the transformation, before reviewing advances in LLMs. We survey two subsequent research areas: prompt programming, which treats LLM instructions as a program in SE vernacular, and generalist SE agents, which combine multiple LLM advances to yield semi-autonomous processes that complete SE tasks. Finally, we explore the future of requirements engineering along two axes: matters changing how we interact with requirements through the SE process, and matters changing how requirements are experienced by software developers and stakeholders more broadly, including end-users. This article aims to inform how RE researchers can navigate this transformation in the selection of future research priorities.",
+      "date": "2026-10-12",
+      "url": "https://doi.org/10.1007/s00766-026-00477-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Requirements Engineering",
+      "direction": "llm",
+      "id": "27b2b1b1a217"
+    },
     {
       "title": "Adapting Segment Anything Model 3 for concept-driven lesion segmentation in medical images: an experimental study",
       "authors": "Guoping Xu, Jayaram K. Udupa, Yubing Tong, Xin Long, Ying Zhang, ...",
@@ -12,6 +108,18 @@
       "venue": "Visual Computing for Industry Biomedicine and Art",
       "direction": "llm",
       "id": "708db55acf03"
+    },
+    {
+      "title": "Simulating Directed Evolution In Silico with an Iterative, Physics-Based Workflow",
+      "authors": "Chey M. Jones, Deeptak Verma",
+      "abstract": "Abstract Directed evolution consistently delivers engineered enzymes that facilitate diverse biocatalytic transformations. Despite advances in automation and high-throughput workflows, our ability to rapidly engineer novel enzymes is limited by our inability to thoroughly sample the vast protein design space. Generative artificial intelligence (AI) methods have alleviated this challenge to some degree, due to their ability to propose mutations based on learned patterns from complex protein data sets. However, the hidden logic of these AI-based methods can complicate our ability to reveal and exploit fundamental details of these enzymes. To complement these hidden-logic models, we present a structure- and physics-based workflow that mimics directed evolution in silico. This Virtual Protein EngineeR (referred to as ViPER) aims to simulate directed evolution by leveraging computational modeling, molecular dynamics simulations, in silico mutagenesis, and structure-based property evaluation to iteratively engineer an enzyme toward a desired target. In this work, we present a retrospective analysis to demonstrate ViPER’s ability to efficiently navigate the complex protein–protein interfaces associated with the oligomerization of a ketoreductase (KRED) enzyme. In addition to successfully predicting >70% of sites that are crucial for toggling the oligomerization of this KRED enzyme (after only five rounds), this dynamics-based methodology identifies a distal mutation that was incorporated during experiment-based directed evolution. This work provides a novel foundation for computationally driven directed evolution efforts, opening the opportunity to simultaneously pursue and evaluate multiple evolutionary routes through a physics-based lens.",
+      "date": "2026-10-11",
+      "url": "https://doi.org/10.1021/acsomega.6c08421",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ACS Omega",
+      "direction": "cell",
+      "id": "7b02599393bb"
     },
     {
       "title": "Cellular and spatial context of genetic convergence between insomnia liability and DTI ALPS perivascular diffusivity",
@@ -60,6 +168,18 @@
       "venue": "Scientific Reports",
       "direction": "llm",
       "id": "2e50e34b3bd2"
+    },
+    {
+      "title": "The Grounding Tax: How Domain Fine-Tuning Suppresses Context Utilisation in Retrieval-Augmented Generation",
+      "authors": "Usman Yunusa Labaran, Rufai Yauri Aliyu, Isah Charles Saidu, Rislan Abdulazeez Kanya, Ahmad Nurudeen Tambaya",
+      "abstract": "Large language models (LLMs) are routinely adapted to specialised domains through fine-tuning and grounded in external evidence through retrieval-augmented generation (RAG). The prevailing assumption is that these methods are complementary even though minimal empirical work examines whether domain-specific fine-tuning influences a model’s responsiveness to retrieved context. Thus, this study examines the interaction between fine-tuning and RAG through a controlled evaluation in a high-stakes public-finance domain. The evaluation is conducted through 12 model configurations built on two open-weight model families (LLaMA-3.1-8B and Qwen2.5-7B), using a frozen 100-query benchmark covering factual question-answering (factual-QA), risk assessment, and summarisation under both closed-book and context-matched conditions. The evidence confirms successful knowledge injection as domain fine-tuning raised closed-book numeric-fact accuracy (NFA) from 0.148 to 0.248. However, when retrieved context is introduced, the benefit collapses as the base model gained +0.183 from context while the fine-tuned model gained only +0.021. Across the backbone pairs, the change in context gain ranged from -0.161 to -0.348 and was statistically significant for the LLaMA Instruct and Qwen Base pairs. Further ablation analysis shows that prompt-template and instruction alignment can amplify this effect. We term this phenomenon the grounding tax: domain fine-tuning imposes a measurable cost on the model’s ability to use retrieved evidence because the adapted model relies on internally encoded knowledge rather than faithfully using the evidence supplied to it. Thus, these findings show that conventional closed-book evaluation can mask degradation in context utilisation and that fine-tuned RAG systems must be evaluated jointly under both closed-book and context-conditioned settings. Therefore, we argue for treating domain adaptation, instruction alignment, and retrieval grounding as distinct and potentially competing design dimensions.",
+      "date": "2026-10-10",
+      "url": "https://doi.org/10.70382/ajsitr.v13i9.096",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Science Innovation and Technology Research",
+      "direction": "medical",
+      "id": "a72f449d6a3b"
     },
     {
       "title": "Evaluation of Turkish artificial intelligence-generated responses about osteoporosis in terms of accuracy, completeness, and readability",
@@ -120,6 +240,54 @@
       "venue": "Journal of Electronics Electromedical Engineering and Medical Informatics",
       "direction": "llm",
       "id": "e0ee0f6ac9dc"
+    },
+    {
+      "title": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
+      "authors": "Amit Kumar Jaiswal, Sagar Uprety, Prayag Tiwari",
+      "abstract": "Large language models (LLMs) are now a standard source of query expansion terms but they hallucinate. They inject non existent entities and off-topic terms that add ranking noise and can hurt strong retrievers. Existing remedies such as corpus grounding, mutual verification and preference alignment treat hallucinated terms as an undifferentiated nuisance to be filtered by agreement heuristics, without a mechanistic account of why a given term appears or a principled criterion for how many terms to keep. We propose Subsequence-Association Filtered, breadth-aware query expansion (SAFE-QE), a training-free, retriever agnostic method that draws on the subsequence-association account of hallucination. We score each candidate expansion term by its corpus conditioned cross-context reproducibility, terms that reappear under randomised query contexts yet lack support in the pseudo-relevant set are flagged as products of dominant hallucinatory associations and down-weighted. Drawing on the characterisation of language generation as a trade-off between consistency (no hallucination) and breadth (coverage), we cast term selection as constrained coverage maximisation over the pseudo-relevant set, keeping a set that is approximately broad but consistent and stable across resampling. We also introduce the Hallucinated Expansion Term Rate, a query side faithfulness metric that counts injected expansion terms no relevant document supports. We evaluate our approach on benchmarked TREC and BEIR collections. Our SAFE-QE is statistically indistinguishable from generative and corpus-steered expansion on nDCG@10 while injecting fewer unsupported terms 4.3 per query against 27.8 for Query2doc and 57.5 for HyDE and on a strong learned sparse retriever, where every expansion method regresses. Faithfulness is therefore available at no measurable cost in ranking quality.",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13810v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13810v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "0b3bc0802ace"
+    },
+    {
+      "title": "Inject a Turn, Not a Token: Learning Where to Redirect LLM Reasoning for Self-Correction",
+      "authors": "Jiwon Jeon, Myungsik Cho, Jeonghye Kim, Youngchul Sung",
+      "abstract": "Large language models struggle to reliably identify and correct errors in their own reasoning. Unlike prior training-based approaches that fine-tune an LLM to generate revisions or feedback, we learn where to intervene in failed rollouts and determine how to redirect them. To choose where to intervene, we train a 130K-parameter MLP head on a frozen encoder using only final-answer correctness. For redirection, we find that under a fixed generation budget, the tested inline injections fail to reliably redirect reasoning, whereas presenting the same instruction in a new user turn changes the model's course. The resulting correction framework, UPTURN (User-Prompt TURN injection at a learned position), requires no LLM fine-tuning: it retains a selected prefix, injects an instruction as a new user turn, and regenerates the suffix. Across four reasoners and six math benchmarks, UPTURN improves average accuracy in every setting over a 32-rollout baseline. It outperforms self-correction and reflection-token injection baselines under matched correction budgets, transfers across reasoners and to GPQA-Diamond without retraining, and complements GRPO and self-correction methods.",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13672v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13672v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "407357ab8dea"
+    },
+    {
+      "title": "Training User Simulators with Latent Intrinsic Feedback",
+      "authors": "Tarek Naous, Craig Boutilier, Wei Xu, Ofer Meshi",
+      "abstract": "User simulators are gaining attention as environments to train LLM assistants that can better cope with the nuances of multi-turn conversations with real users. Prior work on user simulation has emphasized generating realistic user utterances, leaving unexplored their potential as a source of direct feedback on the assistant's responses. Such evaluation signals may not be explicitly communicated in language, but can instead reside in the latent reasoning of users. In this work, we introduce user simulators with intrinsic feedback, namely, models equipped with latent evaluation states: internal thoughts, reactions, and scalar ratings that evaluate the assistant from a first-person user perspective at each conversation turn. We train LLM-based simulators using interaction logs between real users and assistants and demonstrate that intrinsic feedback improves simulation realism and critiquing behaviors versus prompted simulator baselines, while also providing turn-level evaluations that existing fine-tuned simulators lack. Further, evaluations generated by our trained simulators correlate better with human judgments than those of prompted simulators of the same size. Lastly, our experiments reveal that simulators with intrinsic feedback provide effective reward signals for multi-turn RL training, matching setups that rely on external judge LLMs for rewards while cutting RL compute by more than half.",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13617v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13617v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ebc6ca2299c7"
+    },
+    {
+      "title": "MoPrO-SD: Modular Prompt Optimization for Stance Detection",
+      "authors": "Meysam Sabbaghan, Nikesh Gyawali, Arman Zareian Jahromi, Sebastian Loera-Lozano, Doina Caragea...",
+      "abstract": "Stance detection remains challenging for large language models (LLMs) due to implicit opinions, sarcasm, and context-dependent expressions of stance. Although automatic prompt optimization offers an alternative to fine-tuning without updating model parameters, existing structured approaches are not specifically designed around stance-label semantics and class-specific ambiguities. We introduce MoPrO-SD, a stance-specific prompt optimization framework that decomposes prompts into functional semantic modules and refines them sequentially using LLM-based feedback. We study three refinement strategies: instruction-only optimization (I), instruction with reasoning (I+R), and instruction with per-example reasoning (I+R+E), using class-conditioned errors for stance-label refinement. We also introduce VaccineStance, a new human-annotated benchmark for vaccine stance detection. Experiments across four datasets and five open-weight LLMs show that MoPrO-SD improves upon the human-written Base prompt in many settings. On SemEval-2016, class-conditioned feedback achieves higher mean Macro-F1 than pooled feedback for four of five backbones. Both reasoning-based strategies, I+R and I+R+E, achieve strong performance, with their relative effectiveness varying across models and datasets, while remaining competitive with recent prompt optimization methods. The MoPrO-SD code and VaccineStance dataset are available on GitHub.",
+      "date": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13386v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13386v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "0c03dca0adbb"
     },
     {
       "title": "Retrieval-to-abstraction LLM-assisted literature synthesis: Case demonstrations in digital health technology-enabled randomized controlled trial outcome reporting",
@@ -11832,174 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "e78354d87004"
-    },
-    {
-      "title": "Frontier AI performance across the business disciplines: a case-grounded benchmark of knowledge work and analytical reasoning",
-      "authors": "Ajay Patel, Kartik Hosanagar, Ramayya Krishnan, Chris Callison-Burch, Karim Lakhani...",
-      "abstract": "Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematical problem-solving, and coding and agentic tool-use. What remains poorly measured is AI progress on the analytical knowledge work white-collar professionals perform daily, including synthesizing complex information, exercising judgment under uncertainty and incomplete information, applying strategic and adversarial thinking in multi-stakeholder settings, weighing trade-offs, and producing defensible, structured analyses. This gap is even more pronounced for subjective components of such work, where success can be challenging to define. The \"case method\" form of education practiced by top business schools provides a natural foundation for addressing this measurement gap, and we construct BusinessCaseBench, a benchmark spanning hundreds of questions drawn from business cases across eighteen disciplines, each paired with a grading rubric derived from the expert-written instructor case solution. On BusinessCaseBench, frontier AI models already score highly against instructor rubrics, and capability within one model family improves substantially over two years. These results provide strong evidence that AI performance on this class of work is already high and rapidly improving, with implications for business schools, where case pedagogy trains undergraduates and MBAs in this kind of analytical reasoning, and for entry-level professional roles, where such skills have historically anchored early-career work.",
-      "date": "2026-07-17",
-      "url": "https://arxiv.org/abs/2607.16057v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.16057v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "3ed88483358e"
-    },
-    {
-      "title": "From Plausible to Actionable: A Position on LLM Self-Explanations",
-      "authors": "Elize Herrewijnen, Benedetta Muscato, Gizem Gezici, Fosca Giannotti",
-      "abstract": "Large Language Models (LLMs) can generate natural language explanations that rationalize their own decisions, a phenomenon commonly referred to as self-explanations.Such explanations have emerged as a promising direction for explainable artificial intelligence (XAI), particularly for interpreting LLM behavior.However, while self-explanations often appear plausible, whether they faithfully reflect a model's underlying reasoning process remains an open question. In this opinion paper, we argue that self-explanations can be highly plausible, questionably faithful, and yet highly actionable. From a traditional XAI perspective, we identify the limitations of standard evaluation protocols for LLM-generated self-explanations and propose practical guidelines for assessing their plausibility and faithfulness. Moreover, we argue that evaluation should extend beyond these criteria to actionability, highlighting applications of LLM rationalization capabilities that support informed decision-making and appropriate action across diverse stakeholders.",
-      "date": "2026-07-17",
-      "url": "https://arxiv.org/abs/2607.15957v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.15957v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "5b26cd968388"
-    },
-    {
-      "title": "AI-assisted fragment-based drug discovery of SARS-CoV-2 macrodomain binders validated by NMR and X-ray crystallography",
-      "authors": "Elnaz Aledavood, Sandra Ramos-Inza, Jannis Born, Megan Lambert, Hannes Berg, ...",
-      "abstract": "Fragment-based drug discovery (FBDD) is an effective approach for exploring chemical space using small, low-affinity fragments as starting points to facilitate development of lead compounds. Strategies to improve fragment potency include fragment merging and linking to generate higher-affinity inhibitors. Recently, artificial intelligence (AI) and machine learning (ML) have accelerated this process through structure-based optimization and generative compound design. Here, we present an AI-assisted FBDD workflow applied to the SARS-CoV-2 macrodomain (Mac1), a conserved viral protein involved in immune evasion and ADP-ribose metabolism. Using available structural data and previously identified fragments, we combined deep learning with molecular docking to design novel Mac1 binders. Selected compounds were synthesized and validated by NMR spectroscopy and X-ray crystallography, demonstrating improved binding relative to the original fragment hits with KD values in the range of 299-990 µM. This study demonstrates the advantages of integrating AI with FBDD to streamline molecular design, providing a data-driven framework for discovering new Mac1 inhibitors and guiding future antiviral drug development. Artificial intelligence and machine learning have recently accelerated fragment-based drug discovery (FBDD) processes through structure-based optimization and generative compound design. Here, the authors present an AI-assisted FBDD workflow applied to the SARS-CoV-2 macrodomain, designing and experimentally validating novel Mac1 binders.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.1038/s42004-026-02138-9",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Communications Chemistry",
-      "direction": "cell",
-      "id": "dc82b5ccf5a9"
-    },
-    {
-      "title": "From hospital dentistry to health systems: advancing special care dentistry through education, integration, and technology",
-      "authors": "Sujay A. J. Mehta, Martha Mutis, D Kurtzman, Eric C. Sung",
-      "abstract": "Special Care Dentistry has been defined by the populations it serves rather than by standardized frameworks, clinical pathways, and accountable care models. This population-centered framing has left the field dependent on the goodwill of individual clinicians rather than on reproducible standards. The results are wide variability in training, inconsistent care delivery, and persistent exclusion of medically complex, disabled, and frail patients from oral health systems not designed to serve them. We argue that this absence of systematization is a patient safety problem, and hospital dentistry offers a practical framework for addressing it that the field has not fully engaged. Hospital-based dental practice has developed the interprofessional competencies, documentation standards, and referral protocols that SCD requires but has not yet codified. The American Association of Hospital Dentistry holds the institutional experience to serve as an intellectual steward for the field's transformation. Our central hypothesis is that embedding SCD within the educational infrastructure of hospital dentistry, and aligning it with competency-based, value-driven, and interprofessional frameworks, represents a testable pathway toward more coherent and equitable care for populations with complex needs. We draw on evidence across workforce development, care delivery, and health policy to identify gaps in current systems and proof of concept from hospital-based models. The stakes are clear: without a systems-level response, SCD will continue to function as an accommodation rather than a discipline, and the populations it is meant to serve will continue to bear the consequences.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.3389/froh.2026.1910418",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Oral Health",
-      "direction": "medical",
-      "id": "26732dc903b4"
-    },
-    {
-      "title": "The role of biomedical engineering in public health management: advances, impact, and emerging challenges",
-      "authors": "Chandrani Mondal, Ketaki Namjoshi, Bulbul Bhati, Sarvesh Lodam, Mitali Kale, ...",
-      "abstract": "Biomedical engineering has emerged as a transformative force in modern healthcare systems, enhancing diagnostic precision, therapeutic interventions, biomaterials, regenerative medicine, digital health technologies, and robotic-assisted surgery. Advancements in the field of biomedical engineering (Artificial Intelligence (AI)-driven imaging, wearable biosensors, 4-Dimensional (D) scaffolding, 3D bioprinting, vaccine biomanufacturing, and personalized AI platforms) are enhancing precision medicine, disease surveillance, surgical accuracy, and resilience against diseases. Despite this, their utility is limited by many factors in public health management, which include exorbitant costs, regulatory hurdles, infrastructure limitations, workforce deficits, data privacy risks, algorithmic biases, and profound global inequities in low resource environments. Translational roadblocks in bench-to-bed translation also exist, apart from failures of interoperable, translation, translation ethics, and sustainability in financial translation. Prospective trajectories prioritize agile regulations, eco-sustainable biomanufacturing, digital inclusivity, and robust supply chains to harmonize technological ingenuity with administrative acumen. This review integrates progress in the domain areas, explains the engineering-management synergies through health technology assessment and the value paradigm shift, and outlines the cross-cutting drivers such as synergy through interdisciplinarity and policy innovation with equity.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.1016/j.nxbio.2026.100040",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Next Bioengineering",
-      "direction": "cell",
-      "id": "0998df69d499"
-    },
-    {
-      "title": "scYeast: a biological-knowledge-guided foundation model on yeast single-cell transcriptomics",
-      "authors": "Xingcun Fan, Wenxing Liao, Luchi Xiao, Xuefeng Yan, Hongzhong Lu",
-      "abstract": "Abstract Though large-scale pre-trained models are vital for foundational cell modeling, most focus on human or mouse systems, neglecting model organisms like yeast ( Saccharomyces cerevisiae ) and often failing to use existing biological prior knowledge effectively. To address this, we present scYeast, the first foundational cell model tailored for yeast that seamlessly embeds biological priors. scYeast employs a novel asymmetric parallel architecture to infuse transcriptional regulatory information directly into the Transformer’s attention mechanism, leveraging established biological knowledge during training. Pre-trained on large-scale yeast single-cell transcriptomics data, scYeast demonstrates strong generalization and biological interpretability. It excels in zero-shot tasks, such as inferring regulatory relationships and identifying critical cell states. After fine-tuning, scYeast performs exceptionally across a diverse set of tasks from cell type classification to predicting growth doubling time and gene perturbation response. Additionally, using transfer learning, scYeast can be adapted to other omics datasets, such as proteomics, thus broadening its utility in big data analysis. Overall, scYeast is a powerful tool for yeast single-cell biology research and sets a new standard for integrating foundational models with biological prior knowledge, dramatically accelerating the pace of discovery in yeast synthetic and systems biology and providing a replicable framework for other organisms.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.1016/j.synbio.2026.05.014",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Synthetic and Systems Biotechnology",
-      "direction": "cell",
-      "id": "db6a819f2621"
-    },
-    {
-      "title": "Application of deep learning in prognostic prediction of non-small cell lung cancer",
-      "authors": "Xiaoqi Lun",
-      "abstract": "Non-small cell lung cancer (NSCLC) is characterized by high heterogeneity. Traditional prognostic evaluation methods such as TNM staging are difficult to accurately characterize the survival differences of patients, and there is an urgent clinical need for more efficient individualized prediction tools. With its powerful automatic feature extraction and nonlinear modeling capabilities, deep learning has shown significant advantages in the processing of multimodal medical data and has become a core technical direction in NSCLC prognosis research. This paper reviews the research progress of deep learning in NSCLC prognosis prediction, sorts out the technical characteristics and challenges of core modalities such as CT/PET-CT imaging, pathological whole-slide images, genomics and clinical data, analyzes the design logic and applicable scenarios of key architectures including 2D/3D convolutional neural networks, multiple instance learning, graph convolutional networks, deep survival models and Transformers, and expounds the evolution path of multimodal fusion from early concatenation and late fusion to attention interaction, tensor fusion and graph interaction modeling. It also introduces the application status of model interpretability techniques such as Grad-CAM and SHAP. On this basis, this paper summarizes the bottlenecks of current research in data heterogeneity, small-sample overfitting, insufficient verification of interpretability, lack of deep multimodal fusion and weak clinical generalization verification, and prospects future development directions. This paper aims to provide technical references for researchers in the field of medical artificial intelligence and facilitate the development of clinically translatable high-precision NSCLC prognosis prediction models.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.3389/fcell.2026.1878798",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Cell and Developmental Biology",
-      "direction": "cell",
-      "id": "f335bf7342f0"
-    },
-    {
-      "title": "WS-UIENet: a wavelet-decoupled semantics-guided underwater image enhancement network",
-      "authors": "Shixuan Xu, Xinghui Dong",
-      "abstract": "Abstract Underwater images often suffer from severe degradation caused by wavelength-dependent light absorption and scattering, resulting in color distortion, illumination attenuation, low contrast, and loss of fine structural details. Existing underwater image enhancement (UIE) approaches have achieved promising progress, yet they still face notable limitations. Prior-based methods usually depend on restrictive physical assumptions and therefore show limited adaptability to diverse underwater environments, whereas learning-based methods often rely on increasingly complex network architectures, leading to high computational cost and limited practicality in resource-constrained underwater platforms. To overcome these challenges, we propose a wavelet-decoupled semantic-guided underwater image enhancement network (WS-UIENet), which integrates the wavelet transform with textual semantic guidance. Specifically, WS-UIENet adopts a two-stage enhancement framework, which comprises a wavelet-based frequency enhancement stage and a semantic-guided spatial refinement stage. In the frequency enhancement stage, wavelet decomposition is used to separate low-frequency illumination and color degradation from high-frequency texture and structural degradation, enabling targeted restoration of different degradation components while reducing the learning burden of the network. In the spatial refinement stage, textual semantic features extracted using a vision–language model are injected into the bottleneck layer as conditional modulation signals, providing perceptually meaningful guidance for semantic-consistent enhancement. To our knowledge, this work is the first to jointly exploit wavelet-based frequency decomposition and textual semantic guidance within a unified framework for efficient UIE. Comprehensive experiments on four real-world underwater datasets demonstrate that the proposed WS-UIENet achieves competitive performance compared with 20 state-of-the-art UIE methods. In addition, WS-UIENet achieves comparable performance to the strongest text-guided UIE method while nearly halving computational complexity, demonstrating a favorable balance between effectiveness and efficiency. Code and models are available at https://github.com/INDTLab/WS-UIENet .",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.1007/s44295-026-00110-w",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Intelligent Marine Technology and Systems",
-      "direction": "llm",
-      "id": "80be8c727d3f"
-    },
-    {
-      "title": "Application of deep learning in prognostic prediction of non-small cell lung cancer",
-      "authors": "Xiaoqi Lun",
-      "abstract": "Non-small cell lung cancer (NSCLC) is characterized by high heterogeneity. Traditional prognostic evaluation methods such as TNM staging are difficult to accurately characterize the survival differences of patients, and there is an urgent clinical need for more efficient individualized prediction tools. With its powerful automatic feature extraction and nonlinear modeling capabilities, deep learning has shown significant advantages in the processing of multimodal medical data and has become a core technical direction in NSCLC prognosis research. This paper reviews the research progress of deep learning in NSCLC prognosis prediction, sorts out the technical characteristics and challenges of core modalities such as CT/PET-CT imaging, pathological whole-slide images, genomics and clinical data, analyzes the design logic and applicable scenarios of key architectures including 2D/3D convolutional neural networks, multiple instance learning, graph convolutional networks, deep survival models and Transformers, and expounds the evolution path of multimodal fusion from early concatenation and late fusion to attention interaction, tensor fusion and graph interaction modeling. It also introduces the application status of model interpretability techniques such as Grad-CAM and SHAP. On this basis, this paper summarizes the bottlenecks of current research in data heterogeneity, small-sample overfitting, insufficient verification of interpretability, lack of deep multimodal fusion and weak clinical generalization verification, and prospects future development directions. This paper aims to provide technical references for researchers in the field of medical artificial intelligence and facilitate the development of clinically translatable high-precision NSCLC prognosis prediction models.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.3389/fcell.2026.1878798",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Cell and Developmental Biology",
-      "direction": "llm",
-      "id": "f335bf7342f0"
-    },
-    {
-      "title": "Road use as conversation: a Multimodal Multi-scale Coordinated Action Model (MCAM) for immersive and generative traffic safety applications",
-      "authors": "Merve Keskin, Rebekah Wegener, Michael Moser",
-      "abstract": "Understanding how VRUs—pedestrians, cyclists, and micromobility users—coordinate social action and resolve conflict in mixed-mode urban traffic is not merely a technological but a fundamental human factors problem. The challenge concerns how people perceive, attend to, and act upon the behavioral signals of others under real-world conditions of unpredictability and uncertainty. Intention prediction is a key mechanism through which traffic safety applications attempt to manage this complexity, yet existing frameworks treat coordination as a binary classification task and fail to capture its multi-scale, gradient nature. Current research has major gaps related to data, robustness, and contextual understanding. XR and digital twin systems are deployed for urban traffic safety, yet a critical validity problem persists: these systems are designed and evaluated without ground-truth knowledge of how people look, move, and experience cognitive load in real mixed-mode traffic. Simulator-based studies offer control but sacrifice ecological validity; existing real-world datasets are vehicle-centric, single-modality, and restricted to pedestrian-crossing scenarios. This paper introduces the MCAM, a theoretical framework that reconceptualises urban mobility as structured communicative interaction governed by shared behavioral conventions across three spatiotemporal scales—micro (1–5 s), meso (5–30 s), and macro (longer-term contextual)—operationalising conflict as a five-phase gradient progression from coordinated flow to conflict event . MCAM is operationalised through a multimodal field study using a BIBD at three ecologically distinct urban sites (a signalized intersection, a shared space, and a cycling corridor), observed across peak hours and seasonal conditions. Thirty gender- and age-balanced participants each navigate all three sites as pedestrians, cyclists, and e-scooter riders—a within-subject cross-modal design is often absent from the majority of existing intention detection datasets— would give approximately 60 h of usable recording and 1,500 hours of annotation. Three contributions are presented: (1) a reusable multimodal field methodology for ecologically valid human factors data collection; (2) an MCAM-grounded annotation scheme applicable to both real and simulated environments; and (3) a methodological bridge between real-world human behavior and the design of immersive and generative traffic safety applications.",
-      "date": "2026-07-17",
-      "url": "https://doi.org/10.3389/fcomp.2026.1882606",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Computer Science",
-      "direction": "llm",
-      "id": "9f7cf0647906"
-    },
-    {
-      "title": "Neurotechnology through the lens of users and as a novel field for society",
-      "authors": "Danesh Ashouri, Ludwig Weh, Vera Borrmann, Christopher Coenen, Eva Maria Kraft, ...",
-      "abstract": "Successful and responsible innovation in neurotechnology requires clear ethical priorities and a deep understanding of individual and societal needs as well as public concerns. Recent cases of consumer exploitation, misleading claims, and inadequate patient aftercare reveal critical gaps in current practices and underscore the urgent need for more ethical, transparent, and user-centered engagement in this rapidly developing field. This study focuses on four complementary domains: (1) neuroethics and embodiment; (2) the cultural embedding of neurotechnologies; (3) art and culture in relation to neurotechnology; and (4) human enhancement, technovisions, and sociotechnical imaginaries. Across these domains, the manuscript explores user and societal perceptions, highlighting often overlooked asymmetries in communication between scientists and entrepreneurs and those who ultimately receive research outcomes in the form of products. Drawing on the authors’ multidisciplinary expertise and a synthesis of the relevant literature, the manuscript outlines a possible foundation for developing more balanced, inclusive and symmetric communication formats that empower stakeholders regardless of status or expertise. Integrating insights from neurotechnology with applied ethics, the humanities, social sciences, technology assessment and the arts, this work seeks to contribute to a broader understanding of the societal and individual impacts of emerging neurotechnologies and to support the protection and empowerment of users by prioritizing their needs.",
-      "date": "2026-07-16",
-      "url": "https://doi.org/10.3389/fneur.2026.1842746",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Neurology",
-      "direction": "medical",
-      "id": "e38caf37247d"
-    },
-    {
-      "title": "Construction and Applications of Knowledge Graphs in Ophthalmology",
-      "authors": "Siyani Chen, Haoyu Chen",
-      "abstract": "Knowledge Graph (KG) is an artificial intelligence technique that provides a structured representation of medical entities and their relationships, thereby facilitating integration of heterogeneous information, knowledge discovery, and intelligent reasoning. The process of KG construction includes knowledge acquisition, knowledge extraction, knowledge fusion, knowledge inference, knowledge graph visualization and knowledge graph evaluation. In ophthalmology, KGs have demonstrated significant potential in advancing disease understanding, supporting clinical decision-making, assisting in ophthalmic image analysis, and facilitating clinical intelligent question answering. This paper reviews the methodologies for constructing medical KGs and highlights their applications in ophthalmology, with particular emphasis on the integration of ophthalmic KGs with medical imaging and large language models (LLMs). Furthermore, it discusses existing challenges-ranging from privacy and regulatory constraints to high construction and maintenance costs, limited fusion of imaging and multimodal data, insufficient coverage of rare eye diseases and insufficient application in education and basic research-aiming to provide insights that promote deeper research and clinical translation of ophthalmology KGs.",
-      "date": "2026-07-16",
-      "url": "https://doi.org/10.1159/000553612",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Ophthalmic Research",
-      "direction": "medical",
-      "id": "8451d3018952"
-    },
-    {
-      "title": "Modeling symptom-acupoint interactions via a heterogeneous graph learning framework for intelligent acupoint recommendation",
-      "authors": "Wei Lin, Jiaqi Chen, Zhuo Chen, Tao Yin, Jing Guo, ...",
-      "abstract": "OBJECTIVE: Acupuncture prescriptions involve complex compatibility mechanisms grounded in multi-symptom and multi-acupoint interactions, embodying millennia of clinical experience. Despite growing interest in computational acupoint recommendations, significant challenges persist due to sparse clinical data and the insufficient modelling of symptom-acupoint relationships, posing considerable hurdles to effective prediction. METHODS: We introduced an acupoint compatibility prediction framework with graph neural networks (GNN) and fine-tuned bidirectional encoder representations from transformers (termed GNN-BERT-Attention). The heterogeneous feature interaction learning mechanism was introduced to model symptom-acupoint interactions through heterogeneous graph construction, capturing semantic features and relational patterns in a unified space, which alleviated the sparsity of data. Neural collaborative filtering is utilised via label-aware fusion to iteratively refine the confidence of predictions, while Focal Loss and randomised augmentation strategies enhance robustness against imbalanced label distribution. RESULTS: Comprehensive experiments demonstrate the superiority of the proposed GNN-BERT-Attention model over State-of-the-Art (SOTA) baselines in precision, recall, ranking-based metrics and robustness. Ablation studies validate the effectiveness of each architectural module, and hyperparameter tuning confirms models' stability. A web-based demonstration system further validates clinical applicability, enabling real-time, interpretable acupoint recommendations. CONCLUSION: This study contributes to enhancing the performance of acupoint prediction, ultimately benefiting the efficiency and precision of acupuncture treatment while providing a theoretical foundation for optimising prescriptions and advancing evidence-based traditional Chinese medicine interventions.",
-      "date": "2026-07-16",
-      "url": "https://doi.org/10.1186/s13020-026-01458-1",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Chinese Medicine",
-      "direction": "medical",
-      "id": "b8123c57b9e5"
-    },
-    {
-      "title": "Voice, Speech, and Large Language Models in Neurology: From Acoustic Biomarkers to Conversational AI",
-      "authors": "Shahar Shelly",
-      "abstract": "Background: Speech models (wav2vec 2.0, HuBERT, Whisper), large language models (GPT, LLaMA), and conversational AI have expanded computational speech analysis from handcrafted acoustic features to dialogue-based neurological assessment. How well these approaches address clinical practice has not been evaluated. Methods: We conducted a narrative review searching PubMed, Google Scholar, and IEEE Xplore, supplemented by Interspeech and ICASSP proceedings. Findings are organized along three layers: acoustic-motor (voice quality, prosody, articulation), language-transcript (lexical, syntactic, semantic, and discourse analysis), and integrated multimodal-conversational (interactive dialogue systems). Traditional acoustic biomarkers provide background; the primary focus is on foundation models, LLMs, and conversational AI. Findings: Speech foundation models outperform handcrafted features on several classification tasks but degrade on severely impaired speech due to domain mismatch with healthy training data. LLMs classify transcripts and score cognitive tests, but operate on text alone and cannot access acoustic-motor information. Conversational AI can administer cognitive screening through naturalistic dialogue, but validation is limited to small single-centre feasibility studies. Prospective clinical validation remains limited. Cross-linguistic generalizability is untested for most methods. Interpretation: The field is moving toward integrated speech-language assessment, but the gap between technical capability and clinical utility remains wide. Closing it requires diverse multilingual datasets, standardized benchmarks, prospective validation, and ethical governance.",
-      "date": "2026-07-16",
-      "url": "https://doi.org/10.3390/computation14070160",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Computation",
-      "direction": "medical",
-      "id": "d073b98f9fc2"
     }
   ]
 }
