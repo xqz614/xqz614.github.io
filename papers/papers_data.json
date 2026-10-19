@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-10-18 21:16",
+  "last_updated": "2026-10-19 22:49",
   "papers": [
+    {
+      "title": "Global Research Trends in Artificial Intelligence and Machine Learning for Drug Delivery Technology: A Bibliometric and Science Mapping Analysis (2015–2026)",
+      "authors": "",
+      "abstract": "Artificial Intelligence (AI) and Machine Learning (ML) have emerged as transformative technologies in pharmaceutical research, significantly influencing the design, optimization, and personalization of drug delivery systems.AI-assisted approaches are increasingly applied to predict drug release kinetics, optimize formulation parameters, identify novel drug carriers, enhance therapeutic efficacy, and accelerate pharmaceutical product development.Despite the rapid growth of this interdisciplinary research area, a comprehensive understanding of its global scientific evolution, collaborative networks, and emerging research themes remains limited.The present study aims to systematically map the global research landscape of AI and ML applications in drug delivery technology through a bibliometric analysis of publications published between 2015 and 2026.Bibliographic records will be retrieved from the Scopus database using a predefined search strategy, screened according to established inclusion and exclusion criteria, and analyzed using Bibliometrix (R-package) and VOSviewer.The study will evaluate annual publication trends, citation performance, influential authors, institutions, countries, journals, collaborative networks, keyword co-occurrence, thematic evolution, and emerging research hotspots.The findings are expected to provide a comprehensive overview of the intellectual structure and development of AI-driven drug delivery research, identify influential contributors and collaborative patterns, and highlight promising directions for future investigations.The study also seeks to offer practical insights for researchers, pharmaceutical scientists, healthcare professionals, policymakers, and industry stakeholders by identifying technological innovations that can enhance drug development processes and improve patient-centric therapeutic outcomes.By integrating bibliometric techniques with science mapping, this study contributes to the growing body of knowledge on AI-enabled pharmaceutical technologies and provides a strategic research agenda for advancing intelligent drug delivery systems.",
+      "date": "2026-10-18",
+      "url": "https://doi.org/10.25258/ijddt.16.75s.134",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "67e6e447cdc7"
+    },
+    {
+      "title": "MODELING AND PERFORMANCE EVALUATION OF A PVBASED EV CHARGING STATION USING INC MPPT AND ANN CONTROLLER",
+      "authors": "",
+      "abstract": "The rapid adoption of electric vehicles (EVs) has intensified the need for efficient, reliable, and sustainable charging infrastructure.Photovoltaic (PV)-based EV charging stations present a promising solution by utilizing renewable energy to reduce dependency on fossil fuels.However, the nonlinear characteristics of PV systems and varying environmental conditions pose significant challenges in achieving optimal performance.This paper presents a detailed study and analysis of a PV-powered EV charging station employing the Incremental Conductance (INC) Maximum Power Point Tracking (MPPT) technique integrated with an Artificial Neural Network (ANN) controller.The INC algorithm ensures accurate and fast tracking of the maximum power point (MPP), while the ANN controller enhances system performance by providing adaptive and intelligent control.The proposed system includes a PV array, DC-DC boost converter, ANN controller, and EV battery charging unit.The system is evaluated based on efficiency, stability, and dynamic response.Results demonstrate improved performance in terms of reduced oscillations, faster convergence, and higher energy utilization compared to conventional methods.",
+      "date": "2026-10-18",
+      "url": "https://doi.org/10.25258/ijddt.16.73s.168",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "cell",
+      "id": "b8e57450da48"
+    },
+    {
+      "title": "Artificial Intelligence in Engineering Technology: Opportunities, Challenges, and Future Outlook",
+      "authors": "Sabit Ekin, Farid El Breidi, Milad Saadat, Mohammed Metwaly",
+      "abstract": "This systematic study examines how artificial intelligence (AI), particularly generative AI and large language models, is reshaping Engineering Technology across education, research, laboratory environments, and professional practice.",
+      "date": "2026-10-18",
+      "url": "https://doi.org/10.18260/jet.43.2.1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ASEE Journal of Engineering Technology",
+      "direction": "llm",
+      "id": "63d07bd38f8e"
+    },
+    {
+      "title": "Global Research Trends in Artificial Intelligence and Machine Learning for Drug Delivery Technology: A Bibliometric and Science Mapping Analysis (2015–2026)",
+      "authors": "",
+      "abstract": "Artificial Intelligence (AI) and Machine Learning (ML) have emerged as transformative technologies in pharmaceutical research, significantly influencing the design, optimization, and personalization of drug delivery systems.AI-assisted approaches are increasingly applied to predict drug release kinetics, optimize formulation parameters, identify novel drug carriers, enhance therapeutic efficacy, and accelerate pharmaceutical product development.Despite the rapid growth of this interdisciplinary research area, a comprehensive understanding of its global scientific evolution, collaborative networks, and emerging research themes remains limited.The present study aims to systematically map the global research landscape of AI and ML applications in drug delivery technology through a bibliometric analysis of publications published between 2015 and 2026.Bibliographic records will be retrieved from the Scopus database using a predefined search strategy, screened according to established inclusion and exclusion criteria, and analyzed using Bibliometrix (R-package) and VOSviewer.The study will evaluate annual publication trends, citation performance, influential authors, institutions, countries, journals, collaborative networks, keyword co-occurrence, thematic evolution, and emerging research hotspots.The findings are expected to provide a comprehensive overview of the intellectual structure and development of AI-driven drug delivery research, identify influential contributors and collaborative patterns, and highlight promising directions for future investigations.The study also seeks to offer practical insights for researchers, pharmaceutical scientists, healthcare professionals, policymakers, and industry stakeholders by identifying technological innovations that can enhance drug development processes and improve patient-centric therapeutic outcomes.By integrating bibliometric techniques with science mapping, this study contributes to the growing body of knowledge on AI-enabled pharmaceutical technologies and provides a strategic research agenda for advancing intelligent drug delivery systems.",
+      "date": "2026-10-18",
+      "url": "https://doi.org/10.25258/ijddt.16.75s.134",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Drug Delivery Technology",
+      "direction": "llm",
+      "id": "67e6e447cdc7"
+    },
+    {
+      "title": "Experimental Design Signatures Emerge from Topic Modeling of Graphene Oxide Literature",
+      "authors": "Henry Julio Kobs, Henrique Ferreira, Yang Liu, Amauri Jardim de Paula, Carlos E. Andrade, ...",
+      "abstract": "Abstract The literature on graphene oxide (GO) comprises hundreds of thousands of publications spanning synthesis, characterization, and applications in diverse domains. Advancing GO materials requires a structured knowledge map derived from systematic mining of this extensive corpus. However, extracting meaningful insights from this vast, heterogeneous, sparse, and unstructured data remains a challenge. To address this challenge, Natural Language Processing techniques, including topic modeling, community discovery, and parameter extraction, are here employed to establish a framework. Latent Dirichlet Allocation (LDA) was applied to the full text of more than 120,000 articles, enabling the identification of eight macro-domains within the GO literature, and neural topic modeling was subsequently employed to characterize the granularity and heterogeneity of these domains. Parameter extraction was performed using Large Language Models (LLMs) on a subset of 8000 full-text articles, with a proto-ontology incorporated into the extraction prompt. Even with a broad prompt, an F1 score of 94% was achieved against manual validation. The extracted parameters were then clustered through community modeling and compared with the LDA-derived topics. At this intermediate resolution of the literature, we demonstrate the application of a recommendation system for relevant parameters according to the material family and application domain. The applicability of the framework at higher resolutions was further demonstrated through the construction of a data set of CO2 adsorption for graphene- and GO-based materials. This data set was subsequently employed in a downstream predictive case study using an Extremely Randomized Trees Regressor, with different training-test splitting strategies evaluated to assess in-domain and out-of-domain generalization at article-level resolution.",
+      "date": "2026-10-17",
+      "url": "https://doi.org/10.1021/acsnano.6c04548",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ACS Nano",
+      "direction": "llm",
+      "id": "f9a1b6a4a486"
+    },
     {
       "title": "Language modeling on tabular data: a survey of foundations, techniques and evolution",
       "authors": "Yucheng Ruan, Xiang Lan, Jingying Ma, Yizhi Dong, Kai He, ...",
@@ -24,6 +84,54 @@
       "venue": "International Journal of Drug Delivery Technology",
       "direction": "llm",
       "id": "3a125f07f380"
+    },
+    {
+      "title": "VISTA: Steering LLMs with Latent User Values Inferred from a Few Survey Answers",
+      "authors": "Yinuo Xu, Jadie Adams, Brian Hu, Shivani Kumar, David Jurgens...",
+      "abstract": "Personalizing a language model requires knowing what a person values, which stays largely consistent across tasks. Yet most methods either learn task-specific preferences or place the user's profile in the prompt, where models struggle to act on it. We introduce VISTA (Value-Informed Steering and Targeted Acquisition), which infers a latent profile from users' (full or partial) survey answers, and maps the profile through a hypernetwork to a user-specific steering intervention in a frozen LLM to select answer choices or generate free-text responses. Given the same evidence, VISTA matches or beats in-context profiles on synthetic preferences (Food2D), the World Values Survey (WVS), and PrimeX, without adding prompt tokens. To reduce the cognitive burden of completing full surveys, VISTA also chooses which questions to ask and when to stop: on WVS it stops after 6% of the questionnaire while retaining 94% of the full-history gain, where standard adaptive testing retains at most 42%. The dominant steering direction is an interpretable value axis on which VISTA places unseen users accurately. Our results point toward pluralistic alignment that adapts to individuals at deployable cost.",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23702v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23702v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "8c1b8c351dc7"
+    },
+    {
+      "title": "Truth in Contrast: Calibrated Factual Evidence from Language Model Likelihoods",
+      "authors": "Ponhvoan Srey, Jason Lucas, Pittawat Taveekitworachai, Junyoung Lee, Anh Tuan Luu",
+      "abstract": "Large Language Models (LLMs) encode substantial factual knowledge. Yet, estimating confidence in factual claims reliably remains challenging. We study likelihood-based factual confidence from the complementary perspectives of discrimination and calibration across multilingual factual statements. Specifically, we instantiate contrastive generative likelihoods as Contrastive Factual Evidence (CFE), which compares the likelihood of the same claim under competing factual and non-factual conditions, and derive its probabilistic counterpart, the Contrastive Factual Posterior (CFP). We show analytically that CFP calibration depends on the differential error between the two surrogate conditionals, allowing errors shared across them to cancel and yield tighter calibration bounds. Empirically, CFP substantially improves calibration while maintaining factual discrimination comparable to its strongest competitor. Nonetheless, discrimination is uniformly weak across methods in lower-resource languages, which simultaneously undermines the utility of the measured calibration. To this end, we interpret a likelihood geometry, within which an evidence-bearing direction is induced, along with an orthogonal evidence-invariant direction. In our investigation, we selectively align target-language claims with stronger English evidence only along the factual-evidence direction, improving discrimination and open-ended factual generation without target-language labels.",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23527v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23527v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "df037fe1ce66"
+    },
+    {
+      "title": "Perceive, Solve, Reason: Progressive Capability Formation in Time Series-LLMs",
+      "authors": "Xin Qiu, Junlong Tong, Wei Zhang, Xiaoyu Shen",
+      "abstract": "Large language models (LLMs) can now perceive, describe, and reason about images and audio, yet time series understanding remains underestimated: most work uses LLMs as forecasters and classifiers, reasoning studies are few and narrow, and no suite trains and evaluates the full range of capabilities. In this paper, we build the first such suite, with 337K training and 44K evaluation samples across three progressive capabilities, Perceive, Solve, and Reason, and use it to ask how time series should enter an LLM that must master all three, and in what order. We find that a dedicated encoder is essential: with one, a 4B model surpasses GPT-4o on every perception attribute we test, whereas textualizing the series costs 8--10 points in reasoning accuracy. The capabilities then build on one another: learning them in order beats mixing the same data and rivals reasoning-only training with over three times the reasoning data, but only when an encoder is used. Analyses further reveal that capabilities are transferred through distinct network depths rather than simply stacked, and that a stage converged on its own benchmark is not necessarily ready for the next. Distilled into a simple recipe, these findings yield 4B TS-LLMs that, without any target-domain data, outperform four recent 7B TS-LLMs on seven of eight out-of-domain metrics, by up to 11 points. We therefore advocate treating time series as a first-class modality for LLMs, read through dedicated encoders and taught to perceive before they reason.",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23521v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23521v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "2d59cb84b106"
+    },
+    {
+      "title": "ScoutRoute: Efficient Mixture-of-Experts Routing Using Internal Language Model Signals",
+      "authors": "Rajdeep Pandhare, Delzaan Bharucha",
+      "abstract": "Efficient expert routing is a fundamental challenge in Mixture-of-Experts (MoE) systems, particularly for heterogeneous collections of independently trained Large Language Mod els (LLMs). Existing routing approaches typically rely on jointly trained gating networks, prompt-based predictors, or computationally expensive multi-model inference, limiting their flexibility and efficiency. This paper presents ScoutRoute, a lightweight post-hoc routing framework that predicts expert competence using internal language model signals extracted from a single forward pass through an inexpensive scout model. Hidden-state representations are used to estimate cross-model competence through lightweight logistic probes, while logit-derived confidence measures are incorporated within a domain-aware routing strategy for efficient expert selec tion without modifying the underlying language models. ScoutRoute isevaluatedon fiveopen-weightlanguagemodels across fourbenchmark datasets covering mathematical reasoning, code generation, commonsense reasoning, and multidis ciplinary knowledge. Experimental results show that ScoutRoute consistently outperforms individual routing signals while requiring only a single scout-model inference. The proposed competence probes also achieve superior calibration compared with conventional confidence measures, demonstrating that internal language model representations provide transferable information for accurate and efficient expert routing across heterogeneous language models",
+      "date": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23443v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23443v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "6d2f325d6420"
     },
     {
       "title": "Sycophantic AI, critical-feedback tolerance, and the case for productive friction in medical training",
@@ -11892,114 +12000,6 @@
       "venue": "Frontiers in Psychiatry",
       "direction": "medical",
       "id": "1031b421feb5"
-    },
-    {
-      "title": "Organizational closure through regenerative signaling as a possible basis for conscious awareness",
-      "authors": "Peter Cariani, Janet M. Baker",
-      "abstract": "Along the lines of neuronal global workspace theories, the paper hypothesizes that active neural signal regeneration in recurrent, re-entrant circuits could constitute an organizational basis for states of conscious awareness. In this view, brains are self-production systems that regenerate their own informational, signal states (“neural autopoiesis”). States of awareness themselves depend critically on sustained regeneration of sets of neural signals in local and global circuits. The set of regenerated signals at each moment determines the specific contents of consciousness. Two hypotheses are proposed. H1: Organizational closure and with it, awareness, is achieved when regenerative, self-production loops are completed, such that a stable set of signal productions is sustained. The organization of informational processes stabilizes and closes on itself. H2: Neural coding is critical for signal regeneration. Neural signals must be properly encoded in order for them to be regenerated and thereby affect the contents of awareness. In addition to simple signal suppressions at their points of origin, one means by which general anesthetic agents may abolish awareness is by scrambling neural signals. Rendering internal control signals incoherent by altering within- and across-neuron rate profiles and/or temporal patternings may disrupt signal regeneration in local and global circuits. The two hypotheses are agnostic with respect to neural coding. Our own signal-centric time-domain (TD) brain theory framework is presented to illustrate how signal regeneration could be mediated by local and global temporal codes and neural temporal processing networks. Similarities and differences between TD, global neuronal workspaces (GNW), recurrent processing (RP), integrated information (IIT) and predictive processing (PP) are discussed. Empirical testing will necessitate solving the neural coding problem at multiple system levels. This will involve investigating correlations and causal linkages between regeneration of tracked neural signals and states of awareness as well as between alternative candidate neural codes and the contents of awareness. Rhythm-tagged stimuli and high temporal resolution neural recordings are proposed to enable tracking of specific neural signals throughout the brain under conditions of waking vs. sleep vs. anesthesia, with masking and unmasking signal/noise levels. Some philosophical comments regarding organization as a potential basis for consciousness are made.",
-      "date": "2026-07-24",
-      "url": "https://doi.org/10.3389/fncom.2026.1806695",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Computational Neuroscience",
-      "direction": "cell",
-      "id": "f8099d99029e"
-    },
-    {
-      "title": "AI-enabled multimodal neuroimaging for neurotransmitter mapping in normal aging and age-related disease",
-      "authors": "Paige Hewitt, H.D. Kim, Thomas A. Vida",
-      "abstract": "Aging reshapes neurotransmitter systems through nonlinear and region-specific shifts that alter excitatory–inhibitory balance, weaken metabolic coupling, and destabilize large-scale neural networks. PET, MRS, molecular MRI, and optical imaging quantify elements of these trajectories, but modality-specific artifacts, cross-site variability, and limited spatial or temporal resolution fragment mechanistic interpretation. Artificial intelligence now enables the integration of these heterogeneous signals into harmonized, multimodal representations that link molecular alterations to circuit-level dynamics and clinical outcomes. This review demonstrates how AI-enabled fusion can transform neurotransmitter imaging by correcting acquisition bias, enhancing reproducibility, and revealing hidden dependencies among GABAergic, glutamatergic, cholinergic, dopaminergic, and serotonergic systems. We advance three hypotheses: that conserved neurotransmitter coupling patterns distinguish healthy from pathological aging; that excitatory–inhibitory reorganization reflects compensatory signaling rather than linear degeneration; and that AI-driven multimodal integration can generate mechanistic predictors of cognitive, affective, and motor decline. By embedding PET-, MRS-, and MRI-derived features into explainable architectures, AI models can identify early neurochemical inflection points, stratify individuals by neurotransmitter vulnerability, and support precision diagnostics. AI-enabled multimodal neuroimaging, therefore, establishes a foundation for mechanistic neuroscience in aging, reframing neurochemical decline as a dynamic interplay between adaptation and vulnerability rather than a uniform trajectory of loss.",
-      "date": "2026-07-24",
-      "url": "https://doi.org/10.3389/fnagi.2026.1748671",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Aging Neuroscience",
-      "direction": "cell",
-      "id": "5ca9c4bd7ba9"
-    },
-    {
-      "title": "AI-enabled multimodal neuroimaging for neurotransmitter mapping in normal aging and age-related disease",
-      "authors": "Paige Hewitt, H.D. Kim, Thomas A. Vida",
-      "abstract": "Aging reshapes neurotransmitter systems through nonlinear and region-specific shifts that alter excitatory–inhibitory balance, weaken metabolic coupling, and destabilize large-scale neural networks. PET, MRS, molecular MRI, and optical imaging quantify elements of these trajectories, but modality-specific artifacts, cross-site variability, and limited spatial or temporal resolution fragment mechanistic interpretation. Artificial intelligence now enables the integration of these heterogeneous signals into harmonized, multimodal representations that link molecular alterations to circuit-level dynamics and clinical outcomes. This review demonstrates how AI-enabled fusion can transform neurotransmitter imaging by correcting acquisition bias, enhancing reproducibility, and revealing hidden dependencies among GABAergic, glutamatergic, cholinergic, dopaminergic, and serotonergic systems. We advance three hypotheses: that conserved neurotransmitter coupling patterns distinguish healthy from pathological aging; that excitatory–inhibitory reorganization reflects compensatory signaling rather than linear degeneration; and that AI-driven multimodal integration can generate mechanistic predictors of cognitive, affective, and motor decline. By embedding PET-, MRS-, and MRI-derived features into explainable architectures, AI models can identify early neurochemical inflection points, stratify individuals by neurotransmitter vulnerability, and support precision diagnostics. AI-enabled multimodal neuroimaging, therefore, establishes a foundation for mechanistic neuroscience in aging, reframing neurochemical decline as a dynamic interplay between adaptation and vulnerability rather than a uniform trajectory of loss.",
-      "date": "2026-07-24",
-      "url": "https://doi.org/10.3389/fnagi.2026.1748671",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Aging Neuroscience",
-      "direction": "llm",
-      "id": "5ca9c4bd7ba9"
-    },
-    {
-      "title": "Mapping seasonal dynamics of forage and cereal crops in a hyper-arid environment using Sentinel-1 and Sentinel-2 time series",
-      "authors": "Areej Alwahas, Kasper Johansen, Jorge Rodriguez, Matthew F. McCabe",
-      "abstract": "Introduction In arid and hyper-arid regions, agriculture depends heavily on irrigation, making crop type monitoring important for water allocation, monitoring crop management policies, and providing the information required to forecast food supply. However, field labels are often scarce, and crop calendars can shift due to locally managed planting, harvest, and irrigation decisions, complicating mapping at field-scale. Methods We present a seasonal crop type mapping approach applied to Wadi Al-Dawasir, Saudi Arabia, generating maps for 2020–2024 from biweekly optical and radar satellite time series. The method learns representations from unlabeled imagery through self-supervised pretraining and fine-tunes a segmentation model using a small set of field observations with pseudo-label augmentation from unsupervised clustering. We mapped four classes: fallow, cereal, vegetables, and forage, and evaluated performance using overall accuracy, F1-score, and mean intersection-over-union (mIoU). Results The configuration combining self-supervised pretraining, pseudo-label augmentation, and optical-radar inputs achieved an mIoU of 0.80, an F1-score of 0.88, and an overall accuracy of 0.97. In contrast, using optical information alone substantially reduced accuracy, with an mIoU of 0.35, an F1-score of 0.32, and an overall accuracy of 0.64. Fallow and forage produced the highest mapping accuracies, with mIoU values of 0.97 and 0.85, respectively, while vegetables had the lowest accuracy among the four crop groups, with an mIoU of 0.52. Discussion These results show that self-supervised temporal pretraining combined with pseudo-label augmentation can support efficient multi-season, field-scale crop mapping using limited labels in irrigation-driven arid regions. The lower accuracy for vegetables highlights the continued challenge of mapping heterogeneous crop groups with overlapping phenological patterns.",
-      "date": "2026-07-24",
-      "url": "https://doi.org/10.3389/frai.2026.1803320",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Artificial Intelligence",
-      "direction": "llm",
-      "id": "a4addecaa661"
-    },
-    {
-      "title": "Quantifying reticulocyte biomechanics in health and disease",
-      "authors": "Zhaojie Chai, Jianlu Zheng, He Li, Ming Dao, George Em Karniadakis",
-      "abstract": "Red blood cell (RBC) populations are mechanically heterogeneous, yet how this shapes transport, clogging, and rheology in confined environments remains unclear. We combine microfluidic microchannel experiments with dissipative particle dynamics (DPD) simulations to study how reticulocyte morphology, deformability, and cell-cell hydrodynamic coupling govern microconfined blood flow, and link these to acute and chronic mountain sickness. Reticulocyte-rich samples show three subtypes (multilobular, cup-shaped, near-discocytic), parameterized (R1-R3) by fitting microchannel transit and shape-under-flow data. Single-cell simulations show that 5-micron microchannels amplify mechanical heterogeneity (R1 transits 30-50% more slowly than softer cells), whereas bending-dominated splenic slits discriminate subtypes by only 10-20%. Pairwise simulations show that a leading cell never lets a follower pass below its own single-cell threshold - so the order-of-magnitude, wake-\"unjamming\" reduction is absent - but the leader's compliance shapes crowded single-file passage: a soft reticulocyte leader lowers a trailing stiff cell's critical passage pressure by ~12% relative to a stiff (sickle-trait) leader and speeds its transit by ~10%. The controlling variable is the single-cell critical pressure gradient Delta_P_c, which rises monotonically with membrane stiffness from control discocytes through reticulocytes to sickle-cell-trait cells. Our simulations reproduce the shear-thinning viscosity of control blood, against which the reported chronic-mountain-sickness hyperviscosity reflects predominantly hematocrit-driven crowding rather than a change in single-cell rheology. These results place benign acclimatization, chronic-mountain-sickness hyperviscosity, and sickle-cell-trait splenic syndrome on a single mechanical axis defined by Delta_P_c relative to the splenic operating pressure.",
-      "date": "2026-07-23",
-      "url": "https://arxiv.org/abs/2607.21810v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21810v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "cell",
-      "id": "729c9d54e965"
-    },
-    {
-      "title": "Distributional Determinantal Point Process for Repulsive Clustering of Distributions",
-      "authors": "Khai Nguyen, Yang Ni, Elizabeth Juarez-Colunga, Peter Mueller",
-      "abstract": "We introduce the distributional determinantal point process (dDPP) as a novel repulsive point process whose atoms are probability distributions rather than points in a real space. The dDPP is constructed via an L-ensemble with a sliced Wasserstein (SW) kernel between distributions. We show its validity as a well-defined point process. In the discrete setting, we derive concentration results for plug-in estimators of the L-ensemble, the correlation kernel, and their determinants given i.i.d. samples from the distributional atoms. Leveraging this framework, we propose a distribution-valued random partition model by way of a repulsive generalized Bayesian mixture model. The model places a dDPP prior over the atoms of the mixing measure and defines a generalized likelihood based on SW distance. To summarize posterior inference, we develop a decision-theoretic approach to report a point estimate of the mixing measure as a Bayes rule under a hierarchical optimal transport utility function. The latter is a natural choice given that the mixing measure is itself a distribution over distributions. We use the proposed framework for inference with single-cell gene expression data and human epilepsy data, producing interpretable and well-separated clusters that reflect meaningful structure in the data.",
-      "date": "2026-07-23",
-      "url": "https://arxiv.org/abs/2607.21847v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.21847v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "cell",
-      "id": "9047235a4451"
-    },
-    {
-      "title": "Engineering Intelligent Decision-Support Systems for Medical Image Analysis: A Review of Computer Vision Models and Clinical Chatbots",
-      "authors": "Humberto J. Navarro",
-      "abstract": "Deploying artificial intelligence systems for medical image analysis in clinical settings involves considerations that go beyond model accuracy: infrastructure constraints, integration with existing workflows, and generalization across patient populations all determine whether a system works outside a research lab. This paper examines how computer vision architectures and large language models can be combined into a unified decision-support system for early detection of diseases through medical image analysis. Through a systematic review of 25 recent studies published between 2022–2025, the work develops an engineering-oriented taxonomy of architectures such as VGG16, DeiT, GPT-4 and LLaMA2, evaluating models against criteria including computational complexity, scalability, dataset dependency and deployment feasibility in low-resource environments. The evidence indicates that combining automated image analysis with LLM-based decision support can improve diagnostic accuracy and lower screening costs, with classification metrics exceeding 90% in controlled settings, contributing to the fulfillment of the Sustainable Development Goals. However, real-world deployment remains constrained by hardware requirements, interoperability gaps and dataset bias that limit generalization across diverse populations. This analysis provides concrete engineering guidelines for the design, validation and scalable implementation of AI systems in medical image analysis clinical workflows.",
-      "date": "2026-07-23",
-      "url": "https://doi.org/10.59543/jidmis.v3.807",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Intelligent Decision Making and Information Science",
-      "direction": "medical",
-      "id": "ef0cf1c717ce"
-    },
-    {
-      "title": "Generative AI mental health chatbots: a scoping review of intervention design and user experience",
-      "authors": "Lotenna Olisaeloka, Chris G. Richardson, Angel Y Wang, Richard J. Munthali, Daniel V. Vigo",
-      "abstract": "Generative AI (GenAI) mental health chatbots offer scalable, on-demand support with the potential to address persistent gaps in mental healthcare access. Yet evidence on how these interventions are designed and how users experience them remains fragmented. To our knowledge, this scoping review represents the first integrated mapping of conversational agent features, intervention design characteristics and user experience (UX) outcomes in purpose-built GenAI mental health chatbot interventions. A systematic search of seven databases identified 1899 articles, from which 21 studies across 11 countries published between 2023 and 2025 were included. Most interventions were early-stage, cognitive behavioral therapy-based, and delivered through non-embodied text chatbots. Target conditions included depression, anxiety, dementia, eating disorders, and post-traumatic stress disorder. UX outcomes indicated moderate-to-high usability, therapeutic alliance, and user satisfaction, driven by convenience, personalization, and perceived empathy. However, engagement commonly declined over time, attributed to limited interactivity and erosion of trust following inaccurate or contextually misaligned outputs. Design approaches such as domain knowledge grounding, adaptive tailoring, multimodal interaction, and structured delivery formats emerged as important features in relation to reported UX outcomes. Future work should prioritize efficacy trials, and incorporate standardized UX and safety evaluation. Researchers should also adopt inclusive co-design approaches that enable ethical, human-centered interventions.",
-      "date": "2026-07-23",
-      "url": "https://doi.org/10.1038/s41746-026-02972-0",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Digital Medicine",
-      "direction": "medical",
-      "id": "933ce993e10b"
-    },
-    {
-      "title": "Starved by scarcity: A three scarcities framework and decision roadmap for medical named entity recognition in low-resource languages",
-      "authors": "Elira Hoxha, Polina Çeço",
-      "abstract": "Named entity recognition (NER) is a foundational task in medical natural language processing (NLP), enabling the extraction of clinically relevant information from unstructured text and supporting downstream applications such as information retrieval and clinical decision support. While pre-trained language models such as BioBERT, ClinicalBERT, and PubMedBERT have achieved state-of-the-art performance for English medical NER, progress in low-resource languages remains fragmented and uneven, even though healthcare systems worldwide generate vast amounts of textual data whose value depends on the availability of language technologies. Existing surveys provide valuable overviews but largely treat low-resource settings as a single category, overlooking important differences in the constraints practitioners face. To address this gap, we conducted a systematic review of 46 studies on medical NER in low-resource languages published since 2020. Based on the synthesized evidence, we introduce the three scarcities framework, which conceptualizes low-resource medical NLP as the interaction among data, model, and infrastructure scarcities. We also propose a practitioner-oriented decision roadmap that maps appropriate modeling and data augmentation strategies to different resource configurations. Our review develops a structured taxonomy of approaches, including cross-lingual transfer, in-domain pre-training, annotation projection, back-translation, and large language model-based synthetic data generation, and shows that the effectiveness of techniques depends less on the method itself than on the underlying scarcity profile. We also identify persistent weaknesses in evaluation practices, including inconsistent reporting and limited use of statistical significance testing.",
-      "date": "2026-07-23",
-      "url": "https://doi.org/10.36922/aih026260068",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Artificial Intelligence in Health",
-      "direction": "medical",
-      "id": "36e021260b84"
     }
   ]
 }
