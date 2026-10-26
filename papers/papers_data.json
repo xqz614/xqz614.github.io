@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-10-25 21:27",
+  "last_updated": "2026-10-26 23:01",
   "papers": [
+    {
+      "title": "Eyegent: Visual Attention Orchestration on Concepts",
+      "authors": "Alessandro D’Amelio, Sabrina Patania, Luca Annese, Giuseppe Boccignone",
+      "abstract": "Abstract Where a human looks is not random, nor is it merely a reflex to visual salience. It is a decision shaped by goals, constrained by language, and driven by the need to resolve uncertainty. We propose Eyegent , an active vision agent built on this premise: that visual search is best understood as sequential Bayesian inference over semantically grounded hypotheses, with fixations serving as epistemic actions. Given an image and a natural-language query, Eyegent constructs a discrete hypothesis space of candidate segmentation masks, maintains an explicit posterior belief distribution, and selects each fixation to maximise expected information gain—updating beliefs via vision–language model verification and terminating when uncertainty falls below a principled risk threshold. We formalise this process as Bayesian Active Semantic Grounding (BASG), a computational-level account that provides formal guarantees on belief concentration, entropy reduction, and bounded decision risk. The framework is neurobiologically grounded in the large-scale network organisation of the human brain, with the Salience Network identified as the dynamic orchestrator of semantic, inferential, and oculomotor processes. Critically, Eyegent requires no gaze supervision and no task-specific training: it is zero-shot, modular, and built entirely from off-the-shelf components. Evaluated on RefCOCO-Gaze and AiR-D, two benchmarks coupling language-driven visual tasks with human eye-tracking ground truth, Eyegent achieves competitive or state-of-the-art performance among zero-shot methods across semantic, spatial, and structural scanpath metrics, and approaches supervised baselines on several dimensions. The result is a system that does not merely predict where humans look, but generates scanpaths for the same reason humans generate them: to find out.",
+      "date": "2026-10-25",
+      "url": "https://doi.org/10.1007/s11263-026-03042-4",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Computer Vision",
+      "direction": "llm",
+      "id": "2721b617ab47"
+    },
+    {
+      "title": "Artificial Intelligence-Driven Digital Twin for Disease Progression Prediction: A Comprehensive Review",
+      "authors": "Asaad Abd-Alsada A., Zainab Najem Nemer",
+      "abstract": "Purpose: This study aims to integrate machine learning and deep learning techniques with Digital Twin technology to improve the accuracy of disease progression prediction and support personalised clinical decision-making. Design/Methodology/Approach: The study reviews existing Digital Twin frameworks in healthcare and proposes an Artificial Intelligence-driven Digital Twin paradigm based on temporal electronic health record data. The proposed approach develops dynamic digital representations of patients that reflect their current health conditions and predict their future clinical evolution. Machine learning and deep learning techniques analyse large-scale medical data, identify hidden patterns, and provide early predictions of patient deterioration, particularly in intensive care environments. Research Limitation: Further validation using diverse, multi-centre clinical datasets and real-time patient information is required before the model can be widely implemented in clinical practice. Findings: The findings indicate that AI-powered Digital Twins can improve the accuracy of disease progression prediction, facilitate early identification of patient deterioration, and support clinical treatment decisions. The proposed approach may also enable proactive, personalised, and data-driven disease management. Practical Implication: The proposed Digital Twin paradigm can help healthcare professionals monitor patients, identify high-risk cases, select appropriate interventions, and allocate critical care resources more effectively. Social Implication: Improved early prediction and personalised treatment may reduce mortality rates, prevent avoidable complications, enhance healthcare quality, and reduce the clinical and economic burden on patients and healthcare institutions. Originality/Value: This study highlights the value of combining temporal electronic health record data, Artificial Intelligence, and Digital Twin technology within a unified framework for predicting disease progression. It contributes to the development of intelligent and patient-specific clinical decision-support systems for critical healthcare environments.",
+      "date": "2026-10-24",
+      "url": "https://doi.org/10.26437/wtghzb40",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "African Journal Of Applied Research",
+      "direction": "cell",
+      "id": "324aff28a6fa"
+    },
     {
       "title": "AI vs. AI: An AI-Enabled Conversational Intervention to Inoculate Against AI-Generated Fake News",
       "authors": "Mohammad S. Najjar, Murtaza Nasir",
@@ -60,6 +84,90 @@
       "venue": "Scientific Reports",
       "direction": "llm",
       "id": "9eb6cccdf4c1"
+    },
+    {
+      "title": "Decoupling Patient Personas and Clinical Workflows: A Dual-Agent Approach to Realistic Medical Dialogue Generation",
+      "authors": "Qiyuan Li, Xiaomei Guo, Chao Gao, Haijiang Liu, Deyu Chen...",
+      "abstract": "Pre-consultation medical dialogues are essential for collecting comprehensive patient information, but are costly to obtain at scale due to privacy and ethical constraints. Existing LLM-based synthesis methods often rely on prompt engineering or rigid rules, limiting their ability to balance clinical relevance with realistic patient diversity. We propose CoRPS-Dial, a controllable dual-agent framework for pre-consultation medical dialogue synthesis that integrates patient personas with guideline-aligned clinical workflow rules. CoRPS-Dial generates dialogues through interactions between a persona-driven patient agent and a process-guided doctor agent, followed by post-hoc quality control for role consistency, workflow completeness, and textual consistency. Experiments on coronary heart disease demonstrate that CoRPS-Dial improves alignment between synthetic and real dialogues in information coverage, clinical compliance, and dialogue naturalness. Downstream fine-tuning experiments further confirm the utility of the generated synthetic data for medical dialogue tasks. These results highlight the effectiveness of CoRPS-Dial for clinically grounded and controllable medical dialogue synthesis.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32443v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32443v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "228aab295bb9"
+    },
+    {
+      "title": "PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
+      "authors": "Qituan Zhang, Guo Chen, Linfeng Zhang, Wenlong Zhang",
+      "abstract": "Large language models and agents have shown significant power in advanced physical research. In this paper, We introduce PHYRD, a living benchmark for theoretical-physics reasoning with 63 Reproduce and 43 Discover problems. Reproduce tests derivation of published results; Discover tests consequences of modified theoretical conditions. FormulaForest constructs the tasks with reference solutions and subquestion-level rubrics. Across five models, whole-problem accuracy ranges from 49.21% to 68.25% on Reproduce and from 18.60% to 74.42% on closed-book Discover. With tools, four models complete more Discover problems, but conceptual errors and missing arguments persist. Besides, our experimental results demonstrate the value of FormulaForest as synthetic data. On FrontierScience, a benchmark developed by OpenAI, it raises the accuracy of a Qwen-35B-A3B model from 61% to 72%.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32575v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32575v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "69474dba65ed"
+    },
+    {
+      "title": "Accordion: Elastic-Depth Inference via Fixed-Prefix Layer Looping",
+      "authors": "Yudong Zhang, Wei Ding, Kaili Zheng, Yuchen Ding, Zhenyu Zhang",
+      "abstract": "Large language models serve applications with diverse inference budgets, but training and maintaining separate models for each budget incurs substantial costs. Recent Looped Transformers enable flexible inference computation through parameter reuse, but maintaining strong performance across different inference budgets remains an open challenge. We introduce Accordion, a mixture-of-experts-based model that supports five inference budgets through fixed-prefix layer looping. Each budget follows a pre-defined execution path, while the minimum budget retains the unlooped model. Joint pretraining samples one budget per micro-batch and optimizes its next-token prediction loss without additional cross-budget consistency objectives. We further preserve these inference budgets through supervised fine-tuning and reinforcement learning, where parameter-group merging and budget-matched multi-teacher on-policy distillation integrate three domain experts into one model. After 3.6T tokens of pretraining, increasing inference depth improves Accordion-6B-A0.5B's five-category macro-average across 37 tasks by 3.01 percentage points, with the middle budget capturing 89% of this gain using half as many additional layer executions. The final model surpasses each domain expert on its corresponding task-and-budget average, while achieving strong instruction-following performance across all budgets and retaining depth-dependent gains in mathematical reasoning and code generation.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32492v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32492v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f8dcc15bf8e2"
+    },
+    {
+      "title": "Beyond Post-Hoc Rewards: Privileged Reasoning Exploration for Multimodal Embeddings",
+      "authors": "Tianyu Yang, Yijun Tian, Lars Benedikt Kaesberg, Jan Philip Wahle, Bela Gipp...",
+      "abstract": "Advances in Multimodal Large Language Models (MLLMs) have driven substantial progress in multimodal embeddings. Recent methods exploit generative capabilities by augmenting embedded inputs with self-generated reasoning to produce more informative embeddings. However, conventional retrieval supervision for training embedding models specifies pairwise relevance relations without explicitly guiding the reasoning used for input augmentation. Such reasoning is neither directly observed nor uniquely determined by the input, allowing multiple plausible traces to introduce semantic cues of varying retrieval utility. Existing approaches largely optimize reasoning conditioned on the input alone, limiting the exploration of retrieval-relevant traces. We introduce PILOT, a framework that models reasoning as a latent variable and instantiates its prior and posterior distributions as distinct reasoning modes of a shared MLLM. The prior conditions only on the input, whereas the posterior uses additional training-time relational evidence to guide reasoning exploration. To translate the posterior's broader exploration into inference-time improvements, we derive an importance-weighted variational objective and instantiate it as a prior-posterior co-evolution framework that improves both modes under a shared inference-compatible reward while selectively transferring posterior trajectories to the prior according to their utility and prior reachability. On the 78-task MMEB-V2 benchmark, PILOT outperforms the primary baseline across all 12 task groups at both 2B and 7B parameters, improving overall scores by 3.2 and 3.3 points, respectively, with the largest gains in visual-document retrieval (+6.1 and +6.4 points). Our results show that relational supervision is most valuable not as a post-hoc reward but as a signal for shaping how reasoning is explored in training reasoning-enhanced embedding models.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32474v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32474v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7c26875db0d3"
+    },
+    {
+      "title": "Decoupling Patient Personas and Clinical Workflows: A Dual-Agent Approach to Realistic Medical Dialogue Generation",
+      "authors": "Qiyuan Li, Xiaomei Guo, Chao Gao, Haijiang Liu, Deyu Chen...",
+      "abstract": "Pre-consultation medical dialogues are essential for collecting comprehensive patient information, but are costly to obtain at scale due to privacy and ethical constraints. Existing LLM-based synthesis methods often rely on prompt engineering or rigid rules, limiting their ability to balance clinical relevance with realistic patient diversity. We propose CoRPS-Dial, a controllable dual-agent framework for pre-consultation medical dialogue synthesis that integrates patient personas with guideline-aligned clinical workflow rules. CoRPS-Dial generates dialogues through interactions between a persona-driven patient agent and a process-guided doctor agent, followed by post-hoc quality control for role consistency, workflow completeness, and textual consistency. Experiments on coronary heart disease demonstrate that CoRPS-Dial improves alignment between synthetic and real dialogues in information coverage, clinical compliance, and dialogue naturalness. Downstream fine-tuning experiments further confirm the utility of the generated synthetic data for medical dialogue tasks. These results highlight the effectiveness of CoRPS-Dial for clinically grounded and controllable medical dialogue synthesis.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32443v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32443v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "228aab295bb9"
+    },
+    {
+      "title": "Can LLM Annotators Match Human Consistency? Benchmarking Human Agreement and Optimizing Multi-Agent with Contrastive Knowledge",
+      "authors": "Xiaopeng Ke, Zhixin Wang, Xuebo Liu, Xinyu Ma, Xing Zheng...",
+      "abstract": "LLM-based annotation has advanced rapidly, yet existing benchmarks remain misaligned with real-world practice. Actual annotation often involves lengthy, task-specific guidelines, and different annotators may produce divergent but reasonable judgments, especially on boundary cases, where single-labeled dataset fail to reflect this disagreement. This gap also limits existing single-agent and workflow-based annotation systems, which often lack adaptability to complex, evolving guidelines. To bridge this gap, we introduce ANT-A Benchmark, a real-world multi-annotator benchmark spanning 7 datasets across domains and modalities, with task-specific guidelines and 5 independent human labels per instance. ANT-A enables a distribution-aware evaluation, using Fleiss kappa to assess how closely model annotations align with human labeling distributions. We further propose ANT-OR, a multi-agent annotation framework that refines prompts by distilling contrastive decision rules from positive and negative feedback. Experiments show that ANT-OR improves agreement@>=2 accuracy by 4.5 points over the strongest baseline and achieves the highest alignment with human annotator distributions as measured by Fleiss kappa within 2 points. Code and benchmark are available at https://github.com/Krueske/ANT-OR.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32415v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32415v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "3b74f6be8885"
+    },
+    {
+      "title": "SOPO: Socratic Guided Policy Optimization for Span-Level Hallucination Detection",
+      "authors": "Jiawei Dong, Zilong Bai, Pengtian zhu, Peng Zhou",
+      "abstract": "Large Language Models (LLMs) have gained widespread adoption in various natural language processing tasks, but suffer from hallucination issues where they generate unfaithful or inconsistent content. While Reinforcement Learning with Verifiable Rewards (RLVR) has shown promising applications in reasoning tasks, its application to span-level hallucination detection is challenged by localization ambiguity, reward sparsity on hard examples, and uncontrolled length inflation. To address these issues, we introduce Socratic Guided Policy Optimization (SOPO), a multi-turn RL framework for robust hallucination detection. The key innovation of SOPO is a Socratic feedback mechanism, where a teacher model guides the reasoning trajectories during rollout by providing indirect hints inferred from the ground truth. This teacher-guided approach enables the model to generate more effective reasoning trajectories for hard examples, thus alleviating reward sparsity. Furthermore, we incorporate Turn-based Advantage Scaling to penalize verbosity bias, encouraging the model to develop efficient and autonomous reasoning capabilities. Empirical results on RAGTruth demonstrate that SOPO (4B) achieves state-of-the-art performance, surpassing leading proprietary models (e.g., GPT-5) and standard RL baselines, while obtaining higher reported mean scores than GRPO on four out-of-domain benchmarks, with mixed evidence against CAPO. We release our training and evaluation code alongside the 1.7B and 4B SOPO models at https://github.com/patsnap/SOPO.",
+      "date": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32212v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.32212v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "06a8e965b9b0"
     },
     {
       "title": "Generative AI and health misinformation: a lifecycle-based communication framework",
@@ -384,6 +492,18 @@
       "venue": "ACM Transactions on Architecture and Code Optimization",
       "direction": "llm",
       "id": "c0f569e4503d"
+    },
+    {
+      "title": "Quantum machine learning for Healthcare 5.0: Opportunities, challenges, and future directions",
+      "authors": "Thippa Reddy Gadekallu, Brij B. Gupta, Pronaya Bhattacharya, Rutvij H. Jhaveri, Y. Mohammed, ...",
+      "abstract": "Healthcare 5.0 combines artificial intelligence, the Internet of Medical Things, edge and cloud computing, and digital twins to support safer, more personal, and more efficient care. Interest in quantum machine learning is growing in this space, but the current evidence is fragmented and hard to compare across studies. Many reports focus on small tasks, use weak or inconsistent baselines, and do not separate algorithmic gains from costs caused by data encoding, repeated circuit execution, and hardware noise. This survey addresses these gaps by providing a structured synthesis of Healthcare 5.0 applications and by offering a practical comparison between classical machine learning and quantum machine learning using criteria that matter for clinical use. We review representative use cases in medical imaging, electronic health record based prediction, remote monitoring, decision support, and digital twin enabled systems. We then analyze QML integration patterns that are realistic today, with emphasis on hybrid pipelines where classical models extract features and quantum components act as narrow decision or optimization modules. Finally, we consolidate the barriers that currently limit adoption, including encoding overhead, limited qubit counts and circuit depth, training instability and reproducibility, privacy and governance constraints, and the need for careful benchmarking and reporting. We conclude with guidance on evaluation and study design to support fair comparison, clearer clinical relevance, and better alignment with Healthcare 5.0 engineering requirements.",
+      "date": "2026-10-21",
+      "url": "https://doi.org/10.1016/j.array.2026.101353",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Array",
+      "direction": "medical",
+      "id": "d813013003a0"
     },
     {
       "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
@@ -11880,126 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "c5e443346793"
-    },
-    {
-      "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
-      "authors": "Xinyan Guan, Jiali Zeng, Chunlei Xin, Yaojie Lu, Hongyu Lin...",
-      "abstract": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, creating risks where plausible-sounding but incorrect derivations mislead users. We characterize this \\textit{futile reasoning} phenomenon through systematic analysis, revealing universal capability overreach and systematic miscalibration between capability and behavior. The dominant failure mode is specious reasoning, which outputs look superficially valid but contain subtle errors, escalating with task difficulty. To address this, we introduce \\textbf{CaRL} (\\textbf{Ca}pability-\\textbf{a}ligned \\textbf{R}einforcement \\textbf{L}earning), which aligns model behavior with capability boundaries through reward shaping that incentivizes refusal over futile reasoning and hindsight refusal augmentation that converts failures into refusal supervision. Experiments demonstrate a substantial reduction in futile reasoning while preserving performance across task difficulties, effectively achieving capability-aligned behavior without sacrificing utility. \\footnote{https://github.com/icip-cas/Knowing-When-to-Quit}",
-      "date": "2026-07-31",
-      "url": "https://arxiv.org/abs/2607.29211v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.29211v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "f486dfe54154"
-    },
-    {
-      "title": "Learning Latent Reasoning Traces for Scalar Reward Models End-to-End",
-      "authors": "Sanwoo Lee, Clive Bai, Hsiu-Yuan Huang, Kun Liang, Weijie Liu...",
-      "abstract": "Reward models (RMs) are central to aligning large language models with human preferences via reinforcement learning. Although traditional scalar RMs enable efficient and probabilistic reward modeling, they rely on superficial cues that fail to generalize to complex or out-of-distribution (OOD) tasks. Conversely, generative RMs leverage extensive reasoning to improve robustness on challenging tasks, but their natural language-based scores lack the numerical flexibility and probabilistic interpretability that scalar RMs offer. While recent approaches combine both paradigms through off-policy multi-task learning, such parallel optimization does not guarantee that generated reasoning traces actively align with or benefit downstream scalar reward prediction. To address this mismatch, we propose LatentRM, a reward modeling framework that learns intermediate reasoning traces as discrete latent variables to explicitly maximize the likelihood of downstream scalar rewards. Through on-policy optimization of the latent reasoning space end-to-end, LatentRM tightly couples deep reasoning-based evaluation with precise scoring. Extensive validations on in-distribution and OOD datasets and RLHF show that LatentRM outperforms scalar, generative, and hybrid RMs on preference modeling and policy alignment across tasks ranging from open-ended conversation to complex reasoning.",
-      "date": "2026-07-31",
-      "url": "https://arxiv.org/abs/2607.29185v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.29185v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9c769319d24a"
-    },
-    {
-      "title": "Tokenizer-Agnostic Engram Module",
-      "authors": "Jia Peng Lim, Hai Leong Chieu",
-      "abstract": "Deepseek's Engram, a conditional memory module, was introduced to trade-off storage versus reasoning in large language models. However, the module relies on token-level $N$-gram hashing for Engram embedding lookup, introducing a tight coupling to the tokenizer used: a model with a different tokenizer would have to train its own Engram embeddings from scratch. To improve the reusability of Engram embeddings, we propose a change to the hashing routine, enabling compatibility between Engram models using different tokenizers. Instead of modelling disjoint $N$-gram spaces, we treat $N$-gram as a method to sample potentially useful byte sequences, from all possible byte sequences across tokens. We replace the XOR-based hashing with the general polynomial hashing with a joint embedding space across $N$. This work investigates the possible trade-offs and shows that this simple substitution produces comparable performance and achieves tokenizer-agnosticism: hash equivalence for byte-equivalent token sequences.",
-      "date": "2026-07-31",
-      "url": "https://arxiv.org/abs/2607.29065v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.29065v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "45a2dfa4f9f9"
-    },
-    {
-      "title": "TransMem: Transforming Hidden States into Memory for Large Language Models",
-      "authors": "Haodong Lei, Junming Liu, Yirong Chen, Pinlong Cai, Botian Shi...",
-      "abstract": "Large language model (LLM) agents increasingly operate over long interaction histories, where effective reasoning requires identifying and exploiting task-relevant evidence distributed across past observations and actions. However, useful information encoded in previously computed representations is often underutilized during subsequent generation. We propose \\textbf{TransMem}, a lightweight inference-time parametric memory module that transforms sparse historical hidden states from a frozen LLM backbone into reusable memory representations. TransMem uses a lightweight gating network to dynamically apply the latent intervention to the current hidden states, without repeatedly encoding the preceding context. To learn transferable memory utilization rather than task-specific knowledge, we introduce evidence-conditioned self-distillation. A memory-augmented student processes the full context and matches the predictive distribution of an evidence-only teacher that shares the same frozen backbone. Experiments on LoCoMo, HotpotQA, and MemoryAgentBench demonstrate consistent improvements across different model architectures and scales. TransMem yields gains of 11.58--29.25 $F_1$ on LoCoMo and 10.20--13.03 $F_1$ on HotpotQA, while improving the average MemoryAgentBench accuracy from 29.54\\% to 40.00\\%. These results establish sparse historical hidden states as an effective and efficient memory substrate for long-context LLM agents. Our code is available at https://github.com/Haodong-Lei-Ray/TransMem.",
-      "date": "2026-07-31",
-      "url": "https://arxiv.org/abs/2607.29032v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.29032v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "553c5e6f09d0"
-    },
-    {
-      "title": "Thinking about scientific authorship in the age of large language&amp;nbsp;models: Implications for geographers",
-      "authors": "Chad Staddon, Fiorella La Matta Romero, Godfred Adu-Sarfo, Abdulrahman Hassanin",
-      "abstract": "This paper examines whether large language models (LLMs) can qualify as scientific co-authors, situating the debate within broader epistemological and philosophical traditions. Distinguishing between &amp;ldquo;instrumentalist&amp;rdquo; and &amp;ldquo;purist&amp;rdquo; perspectives, the authors analyse empirical evidence on artificial intelligence (AI) use alongside critiques concerning opacity, accountability, and epistemic authority. Drawing on Plato&amp;rsquo;s concept of the pharmakon and Derrida&amp;rsquo;s theory of textual mediation, the paper argues that while AI increasingly participates in knowledge production, authorship entails normative responsibility and answerability that AI systems cannot bear. The authors conclude with practical principles for governing AI use in scientific writing, emphasising collective epistemic stewardship over technological determinism.",
-      "date": "2026-07-31",
-      "url": "https://doi.org/10.3897/jbgs.e188669",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of the Bulgarian Geographical Society",
-      "direction": "medical",
-      "id": "362a41af1b3a"
-    },
-    {
-      "title": "Topic Modeling and Semantic Similarity-Based Evaluation of Biomedical Text Abstracts Generated by LLM",
-      "authors": "Burcu Baştürk, Aytuğ Onan",
-      "abstract": "This study investigates how large language models (LLMs)—ChatGPT, Gemini, and DeepSeek—preserve thematic consistency in biomedical text summarization. A dataset of 56,000 cardiovascular texts was constructed, including 8,000 original PubMed abstracts and 48,000 LLM-generated summaries. After domain-specific preprocessing, topic modeling was performed using Latent Dirichlet Allocation (LDA), Latent Semantic Analysis (LSA), and Non-negative Matrix Factorization (NMF) across topic sizes (k = 10–50). Thematic consistency was evaluated using C_v coherence scores. In addition, semantic similarity between original and generated texts was assessed using SBERT-based cosine similarity to capture meaning preservation beyond lexical overlap. The results indicate that abstractive summaries, particularly those generated by Gemini and ChatGPT, achieve coherence levels comparable to or higher than original abstracts under LDA and LSA, while extractive summaries exhibit greater variability. For NMF, original abstracts show more stable trends, whereas ChatGPT’s extractive summaries remain competitive at higher topic sizes. Overall, coherence tends to decrease with increasing topic numbers in LDA, whereas LSA and NMF benefit from larger topic sizes. These findings highlight the importance of combining coherence and semantic similarity for a more comprehensive evaluation of LLM-based biomedical summarization.",
-      "date": "2026-07-31",
-      "url": "https://doi.org/10.17671/gazibtd.1846644",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Bilişim Teknolojileri Dergisi",
-      "direction": "medical",
-      "id": "3f1e1f527f9f"
-    },
-    {
-      "title": "Structured Schemas for Provenance‐Rich, <scp>LLM</scp> ‐Assisted <scp>QSP</scp> Model Calibration",
-      "authors": "Joel Eliason, Aleksander S. Popel",
-      "abstract": "Quantitative systems pharmacology (QSP) models require calibration data from literature, yet manual curation is inconsistently documented and large language model (LLM) extraction can hallucinate values and fabricate citations. We present MAPLE (Model-Aware Parameterization from Literature Evidence), which uses structured validation schemas as a collaboration interface between LLMs and modelers. Two schemas span two scales: the SubmodelTarget schema for isolated experiments constraining individual parameters, and the CalibrationTarget schema for clinical and in vivo endpoints constraining the full model. Both separate data extraction from modeling decisions, recording every value with full provenance. Targeted validators catch characteristic LLM errors by matching values to source snippets, resolving DOIs, and executing code. For a pancreatic ductal adenocarcinoma QSP model, we used MAPLE to extract and curate 37 SubmodelTargets and 45 CalibrationTargets. Before any human review, the validators triggered 50 automated retries; every value carries a direct quote from its source and a verified citation; and 11 of 19 parameters are supported by more than one independent source. The LLM drafted usable forward models and code from context, while the modeler supplied the context and scientific judgment it cannot infer, revising forward-model choices in 65% of SubmodelTargets, priors in 46%, and source relevance in all files. This evaluation covers one model in one disease area, by a single group, so it characterizes the framework rather than establishing how broadly it generalizes. MAPLE records the modeler's reasoning in a form that can be re-run and independently checked, so it is not lost when the modeling team changes.",
-      "date": "2026-07-31",
-      "url": "https://doi.org/10.1002/psp4.70306",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "CPT Pharmacometrics & Systems Pharmacology",
-      "direction": "medical",
-      "id": "a79185225643"
-    },
-    {
-      "title": "Smarter and healthier cities in the era of AI: A state-of-the-art review",
-      "authors": "Chulwoong Park, Kyounghee Cho, Yeunsoo Park, Mohammad Mayouf, Muhammad Afzal",
-      "abstract": "The smart city agenda has focused on technological solutions to urban problems. However, rapid social, environmental, and technological change, especially the rise of AI, have revealed significant transformations, highlighting the need for a state-of-the-art academic concept. This study proposes the concept of the Smarter and Healthier city , grounded in a systematic review of smart and healthy city research using the PRISMA protocol. We analyse the literature across three domains (governance, environment, and modelling) with emphasis on AI. In this study, we define smarter and healthier cities as AI-enabled urban systems that integrate advanced digital technologies with human-centred objectives, including environmental sustainability, and inclusive governance. Our review identifies that AI is driving conceptual transformations within the governance domain toward (1) integrative, (2) participatory, and (3) anticipatory governance, and within the environmental domain toward (1) dense IoT and crowdsensing infrastructures, (2) multimodal and transferable learning approaches, and (3) edge intelligence architectures. We further propose principles to address the emerging urban challenges, emphasising (1) ethical safeguards, (2) environmental justice, and (3) trustworthy AI systems. Overall, the smarter and healthier cities framework contributes an integrative perspective that bridges technological innovation, responsible governance, and human well-being in the context of AI-driven urban transformations and challenges.",
-      "date": "2026-07-31",
-      "url": "https://doi.org/10.1016/j.cities.2026.107436",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Cities",
-      "direction": "medical",
-      "id": "3073e05cc0ce"
-    },
-    {
-      "title": "Benchmarking biochemical networks generated by large language models",
-      "authors": "Jeevan Tewari, Benjamin W Dahl, B Adam Bates, Jason A. Papin, Jeffrey J. Saucerman",
-      "abstract": "Computational models of biochemical networks provide frameworks for predicting how molecular cues guide cell decisions. These models are typically limited by the time-intensive manual curation required to extract network mechanisms from incomplete literature. Here, we test whether general-purpose large language models (LLMs) can generate accurate models of signaling and metabolic networks. We find that general-purpose LLMs generate 24–65% of the reactions of literature-curated signaling networks for cardiomyocyte hypertrophy, myofibroblast activation, and mechanosignaling. Further, logic-based models based on these networks predict responses to perturbations with accuracies of 6–33%. In the context of metabolic modeling, LLMs are able to generate 64–91% of the reactions within the core Escherichia coli metabolic network and demonstrate highly variable accuracies in predicting substrate utilization. Current general-purpose LLMs generate biochemical networks with moderate accuracy, and this study provides a pipeline and benchmarks to guide future improvements.",
-      "date": "2026-07-31",
-      "url": "https://doi.org/10.7554/elife.109709.3",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "eLife",
-      "direction": "cell",
-      "id": "dabf0f812ce3"
-    },
-    {
-      "title": "Rewards-based image analysis in microscopy",
-      "authors": "Kamyar Barakati, Yu Liu, Utkarsh Pratiush, Boris N. Slautin, Sergei V. Kalinin",
-      "abstract": "Imaging and hyperspectral data analysis is central to progress across biology, medicine, chemistry, and physics. The core challenge lies in converting high-resolution or high-dimensional datasets into interpretable representations that enable insight into the underlying physical or chemical properties of a system. Traditional analysis relies on expert-designed, multistep workflows, such as denoising, feature extraction, clustering, dimensionality reduction, and physics-based deconvolution, or on machine learning (ML) methods that accelerate individual steps. Both approaches, however, typically demand significant human intervention, including hyperparameter tuning and data labeling. Achieving the next level of autonomy in scientific imaging requires designing effective reward-based workflows that guide algorithms toward the best data representation for human or automated decision-making. Here, we discuss recent advances in reward-based workflows for image analysis, which capture key elements of human reasoning and exhibit strong transferability across various tasks. We highlight how reward-driven approaches enable a shift from supervised black-box models toward explainable, unsupervised optimization on the examples of Scanning Probe and Electron Microscopies. Such reward-based frameworks are promising for a broad range of applications, including classification, regression, structure-property mapping, and general hyperspectral data processing.",
-      "date": "2026-07-31",
-      "url": "https://doi.org/10.1038/s41524-026-02235-2",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Computational Materials",
-      "direction": "cell",
-      "id": "3dbd81e37958"
     }
   ]
 }
