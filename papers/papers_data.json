@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-10-28 22:57",
+  "last_updated": "2026-10-29 23:06",
   "papers": [
+    {
+      "title": "Human-AI collaborative generative AI for comfortable care: a doctor–patient–AI feedback loop for pre-operative distress and workforce shortages",
+      "authors": "Hui Sun, Yan Luan, Bo Song",
+      "abstract": "Psychological screening is easily displaced by physiological safety checks when preoperative teams have little time and too few staff. Healthcare systems are already affected by widespread workforce shortages and clinician burnout. We suggest that preoperative anxiety consequently often remains unmanaged, with implications for postoperative recovery and hospital workload. Generic educational materials do not adequately address differences in patients’ anxiety, and “health data poverty” can further exclude vulnerable groups. We propose a conceptual human-machine collaborative (HMC) generative artificial intelligence framework to address these clinical and occupational problems together. In the proposed doctor–patient–AI feedback loop, natural language processing would dynamically assess psychosocial risk and guide patient-specific, multimodal education, including dialect-adapted voice agents, as a source of baseline emotional support. Routine interactions would be automated under clinician supervision. Our hypothesis is that this arrangement may conserve clinicians’ limited emotional bandwidth and allow healthier “cognitive reappraisal” in place of chronic fatigue. Implementation science provides a basis for considering how lightweight AI models could be scaled across regional health networks to bring standardized psychoeducation to under-resourced rural areas. This remains a theoretical pathway. Through sociotechnical governance and “data solidarity” to fairly manage algorithmic liability, the framework is still a conceptual framework, but it is operational: it proposes a path to improve perioperative workflows and health equity in the face of severe human resource constraints.",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.3389/fpubh.2026.2001218",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Public Health",
+      "direction": "medical",
+      "id": "d25c980565b0"
+    },
+    {
+      "title": "LEAF: benchmarking multiobjective evolutionary feature selection over large language model–extracted symptoms for interpretable Traditional Chinese Medicine respiratory syndrome differentiation",
+      "authors": "Luo Xuanhang, Huan Ding, Xize Zhang, Binhuan Miao, Li Shi",
+      "abstract": "Differentiating Traditional Chinese Medicine (TCM) respiratory syndromes requires weighing overlapping symptoms together with tongue and pulse findings, a task that most AI systems for TCM perform end-to-end but without an interpretable intermediate representation. In this study, we addressed this gap with LEAF (LLM extraction and multiobjective feature selection), a two-stage modular framework evaluated on 3,253 records covering 14 respiratory syndromes from the TCM-SD benchmark. Its first large language model (LLM) stage extracted a 35-item symptom ontology that was built entirely from public TCM sources; among three interchangeable LLMs, Qwen2.5-14B-Instruct was ranked as the best, followed by Phi-4 and the TCM domain model BianCang. Its second evolutionary-computation stage benchmarked four multiobjective evolutionary algorithms [non-dominated sorting genetic algorithm-II (NSGA-II), strength Pareto evolutionary algorithm 2 (SPEA2), competitive mechanism-based multiobjective particle swarm optimizer (CMOPSO), and non-dominated sorting differential evolution (NSDE)] over 10 seeds, and they were compared using Friedman’s and Nemenyi’s testing in terms of both classification outcome and search-process quality. The four algorithms showed no significant separation on held-out macro-F1, although NSDE led nominally, and none exceeded the full-feature baseline on point estimates. In contrast, hypervolume differed significantly and favored NSGA-II, the weakest of the four on held-out macro-F1. A four-classifier panel found no algorithm to be significantly different from either the full-feature baseline or a random-feature control, which was significantly outperformed only by the full-feature baseline. Applying NSDE to the remaining two LLM pipelines reproduced the original ranking, and its representative solution was fully attested against the knowledge base of TCM-SD, although not typically so across all the 10 seeds. These results show that an LLM-extraction frontend built exclusively from public knowledge can provide a representation over which evolutionary feature selection cuts the candidate feature set roughly in half without a statistically detectable cost in performance, albeit at a small point-estimate cost; that hypervolume and inverted generational distance are not reliable stand-ins for classification-relevant algorithm selection here; and that a no-gold-standard proxy evaluation can substitute human annotation when expert time is limited. Because both stages plug in and out freely, the framework can absorb stronger components in either stage as they become available.",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.3389/fmed.2026.1990580",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "medical",
+      "id": "a817dd7cc2f9"
+    },
+    {
+      "title": "NOS2 as a candidate molecular link between air pollutants and depression: an integrated computational and experimental study",
+      "authors": "Huizheng Zhu, Bei Yin, Jingning Du, Siwei Zhang, Liyuan Su, ...",
+      "abstract": "Introduction Studies exploring the molecules and potential mechanisms linking air pollution exposure to depression remain scarce. This study aimed to elucidate the potential regulatory molecules and possible mechanisms associated with air pollutants and depression, thereby providing scientific clues for disease prevention and treatment. Methods Seven air pollutants (SO 2 , NO, benzene, CO, O 3 , NO 2 , and toluene) were included. A multilevel research framework was employed. Network toxicology and the Gene Expression Omnibus (GEO) database were used to identify potential targets and pathways of air pollutants; intersection genes were used to construct machine learning diagnostic models, and the optimal model was selected for validation. Mendelian randomization (MR) was applied to assess the genetic causal association between depression and relevant genes. Single-cell virtual perturbation was performed for network perturbation analysis to dissect potential molecular mechanisms. Molecular docking and molecular dynamics simulations were used to evaluate the binding affinity and complex stability between specific pollutants and depression-related genes. Finally, in vitro cell experiments were conducted to preliminarily validate the computational findings. Results By intersecting air pollution-related targets with the Gene Expression Omnibus depression dataset, nine candidate target genes were identified. Ensemble machine learning analysis suggested that nitric oxide synthase 2 (NOS2) showed expression in depression. Mendelian randomization analysis suggested that elevated NOS2 expression may be associated with depression, supporting a possible genetic causal association between the two. Single-cell virtual perturbation suggested that perturbing NOS2 in microglia could affect inflammation- and oxidative stress-related pathways. Molecular docking predicted that all seven pollutants might bind to NOS2, but the predicted binding energies varied, with benzene and toluene showing relatively higher binding affinity. Molecular dynamics simulations further evaluated the stability of the benzene–and toluene–NOS2 complexes, suggesting that toluene binding to NOS2 was more stable. In vitro cell experiments preliminarily suggested that toluene exposure could induce inflammation and oxidative stress in BV2 cells, and changes in NOS2 expression may be involved in this process. However, these results cannot yet prove that NOS2 is a causal mediator of depression, and further functional experiments are needed for validation. Discussion Integrating computational prediction, genetic association, network perturbation, and cellular validation, NOS2 may be a candidate molecular node linking air pollution exposure to depression, and its potential mechanism may involve neuroinflammation and oxidative stress. This study provides new hypotheses and theoretical clues for the possible molecular mechanisms linking air pollutants and depression, but the underlying mechanisms still require further experimental investigation.",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.3389/fcell.2026.1962251",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Cell and Developmental Biology",
+      "direction": "cell",
+      "id": "73bfc452e2a1"
+    },
+    {
+      "title": "Cyberlogic-enabled Thinking Space: a closed-loop human-cyber cognitive architecture in CPST",
+      "authors": "Ruizi Chen, Lei Zhou, Jianguo Ding, Huansheng Ning",
+      "abstract": "Human–AI collaboration in Cyber–Physical–Social–Thinking (CPST) environments requires coordination among perception, reasoning, human judgment, and governance. This paper proposes Cyberlogic-enabled Thinking Space (CyTS), a conceptual governance-centric architecture organized through Entity, Mapping, Reasoning, and Governance layers. Its closed loop connects multimodal representation, heterogeneous reasoning, collaborative decisions, and controlled adaptation. The Entity layer provides operational descriptions rather than a sufficient ontology of cognition; logical consistency and predictive accuracy do not by themselves establish the causal validity of an action. CyTS therefore distinguishes associative, deductive, interventional, and exploratory claims and requires explicit assumptions, evidence provenance, uncertainty, and verification status at component interfaces. Structural causal models provide one implementable route, while equilibrium-based causal logic and proposals concerning brain–universe similarity and entangled machine thinking are examined as research perspectives with separate validation requirements. Governance mechanisms support privacy, accountability, human oversight, and runtime monitoring, including abstention when evidence or constraints are insufficient. Research hypotheses and evaluation protocols address causal transparency, decision quality, adaptation, cross-space coordination, and energy cost. Healthcare, education, and transportation scenarios illustrate the proposed workflow; they do not constitute empirical validation. CyTS contributes an auditable organizational framework and a testable implementation agenda, without claiming a completed theory of cognition or demonstrated performance gains.",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.3389/frai.2026.1899109",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Artificial Intelligence",
+      "direction": "llm",
+      "id": "defba1194eee"
+    },
+    {
+      "title": "C-MAGE: Automated Extraction and Organization Engine for Molecular Representations in Chemical Documents",
+      "authors": "Alex Taylor, Jeehyun Hwang, Mihir Surve, Wei Wang, Olaf Wiest",
+      "abstract": "Abstract To exploit the data present in chemical literature for AI applications in chemistry, an expanded and reliable extraction pipeline is needed. AI-ready chemical databases broaden chemical space coverage and provide benchmarking and training sets for machine learning model development to drive innovation within the field. To curate data from chemical documents, a multimodal approach is needed. C-MAGE is an open-source molecule extraction engine that processes figures and tables in PDF files to provide machine-readable molecule data sets of the structures as CXSMILES strings, an encompassing representation that evades heuristic translation of superatoms to SMILES subunits. This led to a 7.1% increase in accurate molecular representations generated. All data extracted undergo confidence-based sorting to ensure high precision (77.6%) in data set collection and remove the need for manually sorting data point validity. Both the CXSMILES and their confidence values are reproducible and are generated efficiently (1.7 s per molecule). C-MAGE’s use is demonstrated by the generation of an annotated data set containing 1454 CXSMILES strings from 38 chemical documents. C-MAGE thus enables large-scale information extraction of chemical structures in a consistent and reproducible pipeline, complementing the more common text extractions.",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02975",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Chemical Information and Modeling",
+      "direction": "llm",
+      "id": "31a4df6a5507"
+    },
     {
       "title": "Supervising the search process produces reliable and generalizable information-seeking agents",
       "authors": "Guangzhi Xiong, Qiao Jin, Xiao Wang, Fang Yin, Haolin Liu, ...",
@@ -12,6 +72,66 @@
       "venue": "Nature Communications",
       "direction": "llm",
       "id": "4e6e39a63d79"
+    },
+    {
+      "title": "Artificial intelligence in odontology education",
+      "authors": "María Belén Morales-Cevallos, Canva Byron Ma Lam, Kathy Violeta Serrano Avalos, Mónica Jimena Concha Guailla, Diego Fabián Vique López",
+      "abstract": "Introduction Artificial intelligence (AI) is increasingly being explored in dental education as a tool to support teaching, learning, assessment, and clinical decision-making. This systematic review synthesized current evidence on the implementation and educational impact of AI technologies in undergraduate, postgraduate, and continuing dental education. Methodology A PRISMA-guided systematic review was conducted using Scopus, PubMed, and IEEE Xplore. Studies published between 2020 and 2025 evaluating AI applications in dental education were identified using predefined PICO criteria. Educational outcomes included knowledge acquisition, diagnostic accuracy, clinical reasoning, procedural skills, learner engagement, and perceptions of AI-assisted learning. Results The included literature reflects an expansion from machine learning, deep learning, and computer vision systems primarily evaluated for diagnostic support toward generative AI platforms, including large language models and retrieval-augmented generation systems. Across the included studies, AI applications were frequently associated with favorable diagnostic and examination performance and, in selected educational contexts, with supportive findings related to clinical reasoning, technical competency, feedback, and self-directed learning. However, the evidence was predominantly based on technical performance assessments and observational or cross-sectional designs. Discussion AI is increasingly being explored as a potential complementary educational resource, with applications including interactive tutoring, adaptive learning, and support for clinical reasoning. Nevertheless, heterogeneous methodologies and limited longitudinal evidence indicate the need for standardized educational evaluation and responsible curricular integration. Conclusion AI shows potential as a complementary resource in dental education. Its integration should remain pedagogically guided and ethically supervised while future research establishes its educational effectiveness through standardized and longitudinal evaluation.",
+      "date": "2026-10-27",
+      "url": "https://doi.org/10.3389/fdgth.2026.1965185",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Digital Health",
+      "direction": "medical",
+      "id": "151594c42613"
+    },
+    {
+      "title": "Anti-inflammatory drug discovery from medicinal plants: from molecular targets to therapeutic paradigms",
+      "authors": "Ye Wu, Jiyuan Zhang, Qingyi Xiong, Jiajun Gong, Xiaokun Zhang, ...",
+      "abstract": "Chronic inflammation is a central driver of diverse human diseases, including autoimmune, metabolic, neurodegenerative, and cardiovascular disorders. Although current anti-inflammatory therapies have substantially improved disease control, important unmet needs remain because of incomplete or variable responses, long-term safety concerns, high costs for some targeted treatments, and substantial interpatient heterogeneity. Medicinal plants provide a rich source of structurally diverse bioactive compounds that may offer complementary opportunities for modulating complex inflammatory processes. In this review, we discuss anti-inflammatory drug discovery from a mechanism-to-translation perspective, integrating chemical identity and active forms, proximal or direct molecular targets, the strength of target-engagement evidence, pharmacologically relevant exposure, disease-relevant mechanisms, and clinical maturity. Predicted or downstream effects are considered separately from direct target engagement and from evidence obtained in patients. We further examine emerging strategies for the discovery, mechanistic validation, and translational development of these compounds. This review outlines the main opportunities and barriers to translating plant-derived anti-inflammatory compounds into clinically useful therapies.",
+      "date": "2026-10-27",
+      "url": "https://doi.org/10.1007/s44466-026-00059-9",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Immunity & Inflammation",
+      "direction": "cell",
+      "id": "1be662d5972c"
+    },
+    {
+      "title": "Scheduling Techniques in Astronomical Observation: Survey, Taxonomy, Challenges, and Future Trends",
+      "authors": "Yajie Zhang, Ce Yu, Chao Sun, Yi Hu, Zhaohui Shang, ...",
+      "abstract": "ABSTRACT Astronomical observation scheduling becomes a prominent issue due to the urgent need for astronomers to conduct a comprehensive exploration of the dynamic universe. In recent decades, an increase in survey area and spatio‐temporal monitoring frequency is raising the complexity of scheduling decisions. Inefficient scheduling technologies face issues such as inefficient and inflexible decision‐making, overutilized resources, and imbalanced resource allocation, which are not conducive to scientific output. Astronomical observation facilities are expensive and have a limited life cycle, so the improvement of observation efficiency is crucial. A variety of time‐varying constraints, such as scientific objectives, observation resource performance, and astronomical observation conditions, pose great challenges to this problem. Hence, proper strategies for task scheduling and telescope coordination are indispensable. A comprehensive taxonomic review of the current state‐of‐the‐art scheduling techniques is presented using exhaustive evaluation criteria. An extensive list of scheduling objectives, along with their associated evaluation metrics, has been considered in this study. A rigorous evaluation of existing literature based on key features is conducted, and their limitations are highlighted. Many factors and challenges in advancing astronomical observation scheduling for next‐generation automatic astronomical applications are also identified, and several potential recommendations are provided. This article is categorized under: Technologies > Artificial Intelligence Technologies > Machine Learning Application Areas > Science and Technology",
+      "date": "2026-10-27",
+      "url": "https://doi.org/10.1002/widm.70138",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
+      "direction": "cell",
+      "id": "1032c1dc9aa0"
+    },
+    {
+      "title": "Guided-RLVR: Guided Exploration in Reinforcement Learning with Verifiable Rewards",
+      "authors": "Bo Yang, Zishuai Zhang, Weihua Li, Qinnan Zhang, Sijia Wen...",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has shown strong empirical gains in improving the reasoning ability of large language models (LLMs) on tasks such as mathematics and programming. However, recent studies have shown that RLVR rollouts often collapse onto a narrow set of reasoning trajectories, limiting the explored reasoning space. Motivated by findings that thinking tokens at critical steps serve as critical structural elements in LLM reasoning pathways, we propose Guided-RLVR, a novel approach that augments RLVR with a lightweight controller. The controller strategically injects semantically meaningful steering tokens into the sampling distribution, encouraging the model to approach problems from multiple reasoning perspectives and thereby expanding the exploration space. Experiments on mathematical reasoning and code generation benchmarks show that Guided-RLVR consistently outperforms existing RLVR methods while producing more diverse reasoning trajectories.",
+      "date": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.37041v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37041v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "dc81d88396d4"
+    },
+    {
+      "title": "CONCUR: Concordant Auxiliary Rewards for Multi-Task, Multi-Reward Reinforcement Learning",
+      "authors": "Jixuan Leng, Si Si, Fei Wang, Cho-Jui Hsieh, Jiong Zhang...",
+      "abstract": "When a Large Language Model (LLM) is trained with Reinforcement Learning (RL) on multiple tasks, a task's primary reward can gate auxiliary rewards such as a length reward: on a failing response, an auxiliary cannot exceed the primary. However, group-relative advantage estimators treat a gated auxiliary like any other component, so it can reverse the primary's order, and at the primary's ceiling only auxiliaries order responses. Keeping gated auxiliaries hurts some tasks, while dropping them hurts others. We propose CONCUR, an advantage estimator that replaces the standardized scores of each gated auxiliary with the closest scores that satisfy two conditions: responses with higher primary rewards cannot receive lower scores, and responses at the primary's ceiling receive equal scores. CONCUR-T applies both conditions throughout training, and CONCUR-A lifts the second for an auxiliary that agrees with the primary's order more often than it reverses it among passing responses. On three models from two families and across math, code, instruction following, and writing, both variants score higher on average than all baselines and than when all the gated auxiliaries are dropped.",
+      "date": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.36437v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36437v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "adc7b905617c"
     },
     {
       "title": "Artificial Intelligence in Mental Health Support: Opportunities, Applications, and Ethical Challenges",
@@ -11880,126 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "ac4cbd9efa56"
-    },
-    {
-      "title": "ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts",
-      "authors": "Ronja Schwarz, Jannik Strötgen",
-      "abstract": "The automatic structural analysis of legal texts is a cornerstone of legal technology, yet the extraction of their logical components remains a significant challenge. In this paper, we introduce the task of identifying and segmenting legal conditions (Tatbestand) and legal consequences (Rechtsfolge) within German statutory texts. To support this task, we present ANNOTARES (Annotations of Tatbestand-Rechtsfolge Sequences), a novel dataset comprising German law texts with span-level annotations. Spanning three distinct legal codes, the dataset is designed to evaluate both domain-specific performance and cross-statute generalizability. We benchmark diverse architectural approaches: a rule-based baseline, CRFs, BiLSTMs, BiLSTM-CRF, and modern Transformer-based models, including BERT variants and LLM-based methods. Our results demonstrate that BERT and LLM-based models achieve superior performance in capturing the complex syntactic structures of legal language. We release our dataset to facilitate further research in automated legal reasoning.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03898v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03898v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "23b64ce848d1"
-    },
-    {
-      "title": "DS@GT-ARC at eRisk 2026 Task 3: Sparse, Semantic, and LLM Reranking for ADHD Symptom Sentences",
-      "authors": "David Guecha",
-      "abstract": "This paper describes our submissions to eRisk 2026 Task 3, ADHD Symptom Sentence Ranking. The task requires systems to rank candidate Reddit sentences according to their relevance to each of the 18 symptoms in the Adult ADHD Self-Report Scale (ASRS-v1.1). Because no annotated training data were released for this first edition of the task, we relied on zero-shot experimentation, manual validation, and unsupervised or weakly guided retrieval pipelines. Our systems combine sparse BM25 retrieval, evidence-aware rescoring for self-referential symptom reports, embedding-based reranking, query-prototype expansion, and LLM-based reranking. All submitted systems follow a staged retrieval design in which BM25 retrieves candidates at scale and semantic or LLM rerankers refine the final rankings. Among our submissions, the LLM reranker achieved the strongest official scores, followed by the prototype query-expansion run. Our manual top-10 analysis aligned with the official expert scoring trend, suggesting that staged reranking is a promising direction for further development.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03883v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03883v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "a37290f4d825"
-    },
-    {
-      "title": "MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning",
-      "authors": "Martin Böckling, Elizaveta Nosova, Heiko Paulheim, Andreea Iana",
-      "abstract": "Geospatial reasoning, i.e., computing distances, containment, and other spatial relations over real-world entities, is central to navigation and logistics, yet large language models (LLMs) struggle with the required geometric and topological computation despite storing considerable geographic knowledge. Existing benchmarks localize these failures only partially: they are synthetic or smallscale, largely monolingual, and offer limited control over geographic coverage. We introduce MultiGlobeQA, a multilingual benchmark of 46,060 question-answer pairs spanning 14 spatial-function families and 15 answer formats, with execution-based ground truth over three knowledge graphs. It covers 201 countries and territories via income- and density-stratified sampling, with parallel questions in English and 16 additional high- and low-resource languages. Across parametric, reasoning, and agentic settings, LLMs collapse on tasks requiring grid indexing and shape computation, while topological relations and directions fare best. Retrieval and tool use yield considerable gains, yet performance plateaus below two thirds even when gold facts are supplied, indicating that computation, not access to knowledge, is the bottleneck. Models also underperform on low-income regions, a gap that gold facts widen rather than close.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03882v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03882v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "99d76c79ed5d"
-    },
-    {
-      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
-      "authors": "Kejian Zhu, Zhuoran Jin, Shangqing Tu, Hongbang Yuan, Yushi Bai...",
-      "abstract": "Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing multi-task reasoning for large language models (LLMs). Our preliminary experiments revealed a phenomenon: SFT suffers from severe task conflicts under multi-stage training, whereas RL enables stable coexistence across diverse tasks. Empirically, we trace this to the parameter level, observing that RL induces sparse and approximately orthogonal updates across tasks. We provide a theoretical explanation for this mechanism by analyzing multi-task gradient interference. Our results reveal a distinction: interference in SFT is norm-limited, scaling with the absolute gradient magnitude, whereas interference in RL is variance-limited, bounded by the gradient variance induced by advantage normalization and on-policy optimization. This small variance bound yields near-orthogonal optimization directions across tasks. Leveraging this insight, we propose Parallel-RL, a paradigm that decouples multi-task training, significantly improving efficiency and flexibility.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03573v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03573v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "76c69587b735"
-    },
-    {
-      "title": "Hi-TTRL: Regulating Consensus with Hints for Test-Time Reinforcement Learning",
-      "authors": "Kunbin Xu, Xingzuo Li, Xuefeng Bai, Kehai Chen",
-      "abstract": "Test-time reinforcement learning (TTRL) improves the reasoning capabilities of large language models without labeled data by updating the policy with pseudo-labels constructed through majority voting. While effective, the reward signal assigned from majority voting is highly sensitive to consensus strength, defined as the frequency of the most common answer within a rollout group. In TTRL, consensus strength plays a dual role: it reflects both the reliability of the pseudo-label and the distribution of advantages. Low consensus can amplify updates from unreliable pseudo-labels through disproportionately large advantages, whereas high consensus reduces reward contrast and ultimately yields vanishing gradients. In this paper, we introduce Hi-TTRL, a test-time reinforcement learning framework that utilizes hints during sampling to regulate rollout consensus strength. Hi-TTRL first estimates consensus strength from a partial rollout group. When the consensus strength falls outside a target interval, it invokes a Markov chain Monte Carlo (MCMC) hint sampler. The sampler targets the power-transformed prefix distribution and uses finite-step approximate sampling to generate rollout prefixes as hints. By tuning the power exponent, Hi-TTRL generates hints with a sharpened or flattened power target, steering rollout consensus strength toward the target interval. Experiments on multiple datasets and backbones show that Hi-TTRL consistently improves over standard TTRL, with ablations and consensus-steering analyses validating the effectiveness of adaptive hint-guided consensus regulation.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03545v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03545v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8c2d55bcfa2d"
-    },
-    {
-      "title": "Aligning Large Vision-Language Models at Test Time: A Trajectory-Guided Structured Sampling Approach",
-      "authors": "Tianbao Jiang, Weicong Ni, Gerard de Melo, Linlin Wang",
-      "abstract": "Post-training reinforcement learning (RL) algorithms are commonly used to align large vision-language models (LVLMs) with human intent and the requirements of visual reasoning tasks. However, existing RL-based alignment methods are often resource-intensive and encounter mismatches between training objectives and inference-time distributions. To bridge this gap, we propose a novel test-time alignment approach that leverages trajectory-guided structured sampling for dynamic inference-time refinement, achieving better alignment with visual grounding and ensuring logical consistency. Our approach begins with curating a reasoning memory bank via a trajectory learning algorithm, which decomposes complex question solving into ordered sequences of predefined reasoning patterns. It subsequently accomplishes inference-time alignment by first collecting trajectories from reasoning memory bank to establish a global structural reasoning prior, and then using an iterative Markov Chain Monte Carlo (MCMC) algorithm for localized multi-objective refinement of the reasoning trace. Experiments across multiple multimodal reasoning datasets demonstrate that our approach significantly improves accuracy without incurring prohibitive inference overhead. These results establish trajectory-guided test-time sampling as a scalable and effective alternative to traditional post-training alignment, particularly for complex visual reasoning tasks.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03204v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03204v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e8b36c0a39f8"
-    },
-    {
-      "title": "CVPO: Enhancing LLM Reinforcement Learning Reasoning via Value-Variance Adaptation and Dynamic Curriculum Learning",
-      "authors": "Ziqi Jia, Yalu Ouyang, Bo Pang, Panpan Li, Hangfei Xu...",
-      "abstract": "Reinforcement learning (RL) has emerged as an effective method for enhancing the reasoning capabilities of large language models (LLMs). However, existing methods suffer from insufficient precision in feedback on generated answer trajectories and exhibit the phenomenon of problem difficulty drift. To address these challenges, we propose CVPO - Curriculum-guided Value-Variance Policy Optimization. At the response trajectory level, we find that token-level value-variance correlates with exploration intensity. Our theoretical analysis shows this variance bounds policy update magnitude. We then use the estimated trajectory value-variance to quantify the intrinsic randomness in generation. Based on this, we design a variance-aware advantage adjustment mechanism for different reward types. At the question level, we introduce a dynamic curriculum weighting method that adapts to question difficulty. This helps the model focus on tasks matched to its current ability during each training stage. Experimental results show our method outperforms strong value-based baselines like VAPO. It achieves better performance and stronger exploration, enabling more accurate and robust reasoning in language models across various math tasks.",
-      "date": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03068v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.03068v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "abc5c260f9df"
-    },
-    {
-      "title": "Large language model-based automated knowledge extraction and prediction system using Artificial Intelligence",
-      "authors": "Jun Yin",
-      "abstract": "The rapid proliferation of unstructured data on digital platforms has generated an urgent demand for intelligent systems that can extract meaningful knowledge and produce accurate predictions. This study presents an automated knowledge extraction and prediction system using the advancements in Artificial Intelligence (AI) tools, which is referred to as APEX-LLM. The proposed system uses the latest architectures based on transformers for processing massive textual data, mining relevant entities, relationships, and patterns, and structuring them into knowledge-based representations. The framework integrates knowledge retrieval, natural language understanding, and machine learning techniques for immediate retrieval of knowledge from other sources such as documents, web content and databases. Furthermore, there is an integration of elements related to predictive modelling to analyze the knowledge extracted and predict trends, outcomes, or an action in various regions. It is a scalable, domain-independent system which can be customized and applied to health, financial and business sectors, and education. The experimental analysis demonstrates that the proposed method is much more accurate and efficient than the traditional rule-based and statistical methods. The results demonstrate that the LLM-based system has an overall automation rate of 99.2%, which is significantly higher than the 90.7% for rule-based and 83.9% for statistical methods, thereby minimizing the human factor by 99.6% and enhancing the accuracy of decision-making to 99.4%. This APEX-LLM will be added to the emerging branch of AI-enabled knowledge systems, offering a single solution for extraction and prediction tasks.",
-      "date": "2026-08-03",
-      "url": "https://doi.org/10.1007/s10791-026-10411-7",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Discover Computing",
-      "direction": "medical",
-      "id": "58a149f9c678"
-    },
-    {
-      "title": "Artificial Intelligence and Digital Technologies in Prakriti Assessment: Toward Standardized Evidence-Based Ayurvedic Practice",
-      "authors": "Ramakrishna Allam, B. Kothainayagi, Sankari Subbiah, Swagata Sarkar, Sivgaamasundari R",
-      "abstract": "Prakriti, the Ayurvedic concept of individual somatic constitution, forms the foundation for personalized preventive and therapeutic strategies by classifying individuals based on distinctive physical, physiological, and psychological attributes. Traditional methods of Prakriti assessment, such as physician-administered questionnaires, clinical examinations, and observational techniques, though deeply rooted in Ayurvedic principles, are often constrained by subjectivity, limited reproducibility, and a lack of standardization. Recent advancements in Artificial Intelligence (AI), Machine Learning (ML), and digital health technologies offer new opportunities to modernize Prakriti assessment and enhance its reliability. This narrative review systematically located, selected, and synthesized relevant literature from scientific databases and institutional repositories to identify digital, AI, and ML tools applicable to the parameters outlined in the Central Council for Research in Ayurvedic Sciences (CCRAS) Prakriti Assessment Manual. Retrieved data were categorized according to their relevance to physical, physiological, psychological, and behavioral domains, emphasizing technologies that enable objective measurement and computational analysis. The review highlights the potential of integrating physiological sensors, image analysis systems, and computational algorithms with classical Ayurvedic approaches to improve the accuracy and clinical relevance of Prakriti analysis. The convergence of Ayurveda and digital health technologies holds transformative potential to generate evidence, enhance clinical applicability, and foster interdisciplinary research in personalized medicine. However, challenges related to data quality, interoperability, algorithmic interpretability, and domain-specific validation must be addressed to ensure credibility and wider adoption. Overall, digital innovations can significantly enhance the rigor, reach, and impact of Prakriti assessment in integrative healthcare.",
-      "date": "2026-08-03",
-      "url": "https://doi.org/10.1016/j.jaim.2026.101372",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Ayurveda and Integrative Medicine",
-      "direction": "medical",
-      "id": "b0218bb026c5"
-    },
-    {
-      "title": "Scaling an Autoregressive Transformer for Single-Cell Generation",
-      "authors": "Aleksandr Sharipov, Yusif Mukhtarov, Igor Molybog",
-      "abstract": "We study a self-supervised generation task for single-cell gene expression vectors: given a set of vectors from a cell type, we aim to generate additional gene expression vectors of that cell type. For this task we characterize both the biological fidelity of the generated gene expression vectors and the scaling behavior of the pretraining loss. The model is a causal transformer paired with a learned quantized VAE tokenizer, trained with a cross-entropy loss. To evaluate the model, we condition it on held-out gene expression vectors of a cell type and generate vectors of gene expression, comparing the resulting distribution over gene expression vectors to the ground truth distribution of that cell type. We study the scaling properties of the proposed architecture by varying the number of trained parameters and the amount of training data. To our knowledge, we find the first jointly-fit two-exponent scaling law and compute-optimal frontier for a single-cell foundation model. Finally, we discuss how this pretrained model could be finetuned for perturbation response prediction.",
-      "date": "2026-08-03",
-      "url": "https://arxiv.org/abs/2608.02961v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.02961v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "cell",
-      "id": "d97c5c95aa1d"
     }
   ]
 }
