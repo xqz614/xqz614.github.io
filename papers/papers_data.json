@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-10-31 22:13",
+  "last_updated": "2026-11-01 22:35",
   "papers": [
+    {
+      "title": "REWRITING THE ADDICTION NARRATIVE THROUGH ARTIFICIAL INTELLIGENCE IN THE PREDICTION, SCREENING, AND TREATMENT OF SUBSTANCE USE DISORDERS AND BEHAVIOURAL ADDICTION",
+      "authors": "Shristi Tyagi, Archisha Singh, Puja Kumari",
+      "abstract": "Background :Substance Use Disorders (SUDs) and Behavioural Addic tion are intricately related constructs that shed light on the coherent conceptual paradigm of addiction science which involve a shared patho logical disruption of neural mechanisms. SUD is a medical, psychiatric condition defined as a pattern of substance use leading to clinically significant impairment, characterized by compulsive consumption, and continued use despite harmful consequences.",
+      "date": "2026-10-31",
+      "url": "https://doi.org/10.21474/ijar01/24415",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Advanced Research",
+      "direction": "medical",
+      "id": "f25c1e87bd05"
+    },
+    {
+      "title": "Artificial Intelligence-Enhanced Telemedicine: Transforming Diagnosis and Personalized Care in Virtual Health Systems",
+      "authors": "Manasi Bendale",
+      "abstract": "The integration of artificial intelligence (AI) within telemedicine has revolutionized virtual healthcare delivery by enabling high-precision diagnostics and tailored treatment strategies remotely. This paper evaluates state-of-the-art AI models applied to medical imaging and clinical text data within telehealth platforms, highlighting significant improvements in diagnostic accuracy and clinical decision support. Using deep learning architectures like ResNet-50 for imaging and BERT for natural language processing of electronic health records, the framework demonstrates enhanced patient care personalization and operational efficiency. Survey feedback from clinicians and patients underscores AI's practical benefits in improving healthcare accessibility and quality in remote settings. Challenges, including algorithmic biases and data privacy risks, are discussed, along with future research directions aimed at sustaining AI-driven telemedicine enhancements to health systems worldwide.",
+      "date": "2026-10-31",
+      "url": "https://doi.org/10.67231/1z4wx008",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Intelligent Systems and Data Science",
+      "direction": "medical",
+      "id": "ab3a7c823682"
+    },
+    {
+      "title": "A comprehensive review of computational strategies in the rational design of biosensors based on allosteric transcription factors for pollutant detection",
+      "authors": "Oluwatoba Emmanuel Oyeneyin",
+      "abstract": "Allosteric transcription factor (aTF)-based biosensors are powerful analytical tools for the detection of different analytes such as environmental pollutants and are widely used in medical diagnostics and environmental monitoring. These biosensors rely on ligand-induced conformational changes in transcription factors that regulate gene expression, thereby positioning them as low-cost, sensitive and selective components in biosensor design. In recent times, computational biology and chemistry techniques such as homology modelling, molecular docking, molecular dynamics (MD) simulations, free energy perturbation (FEP), enhanced sampling techniques and machine learning have been widely employed in the design and optimization of aTF-based biosensors. With these methods, the structures of proteins could be predicted, the ligand-binding pockets could be identified and characterized, the interactions therein could be analyzed and binding affinities could be predicted. Also, the conformational dynamics, allosteric and transition pathways, free energy landscapes, relative binding free energies of the ligand-aTF complexes can be predicted. Taken together, these can facilitate the engineering of aTFs with improved sensitivity and specificity. Therefore, this review highlights the individual and complementary roles of these computational techniques in the design and optimization of aTF-based biosensors and discusses the recent advances, current limitations and future directions in the design of next-generation aTF-based biosensors.",
+      "date": "2026-10-31",
+      "url": "https://doi.org/10.1007/s44371-026-01051-3",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Discover Chemistry.",
+      "direction": "cell",
+      "id": "b2b677b01872"
+    },
+    {
+      "title": "Privacy-Aware Synthetic Trajectory Generation for Taxi Mobility Analytics and Anomaly Detection",
+      "authors": "Dhanush Gopal Battina",
+      "abstract": "Emerging applications of urban mobility data create potential new applications of transport analytics and anomaly detection, and pose new threats of privacy leakage. The inclusion of sensitive spatial and temporal data in taxi trajectories raises privacy concerns. In this paper, we present a novel framework, Diff Traj --LM--TAD, for privacy-aware taxi trajectory generation and anomaly detection. We incorporate a diffusion-based generative model to generate human-like real-world trajectories, with a transformer-based language model to detect anomalous movement behavior patterns. In addition, we propose an iterative refinement procedure for anomaly diversity and interpretability, achieved by unsupervised anomaly mining and rule-based anomaly categorization. Further, to balance utility and privacy leakage, we adapt differentially private stochastic gradient descent (DP--SGD) to the generative model training process, and develop a trajectory-level anonymization scheme to protect trajectory identity during anomaly detection. Finally, to validate the capability of our framework, we present experimental results of applying our framework to trajectory datasets from the cities of Beijing, Chengdu and Xi'an. Experimental results show an F1-score of approximately 0.78-0.81 for taxi anomaly detection in these three cities and a Jensen-Shannon divergence of less than 0.05 for all three cities, indicating that taxi trajectories from our framework can preserve important spatial properties. Privacy attack experiments indicate over 70% attack success reduction against the original attacks. Our experimental results suggest the generated taxi trajectories have utility for transportation mobility analytics and anomaly detection, with only a small portion of location information being exposed for anonymized user identities. Our proposed framework for privacy-aware anomaly detection offers a promising future direction for privacy-preserving urban mobility analysis.",
+      "date": "2026-10-31",
+      "url": "https://doi.org/10.67231/gw7sez13",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Intelligent Systems and Data Science",
+      "direction": "llm",
+      "id": "5b3c88a2d024"
+    },
+    {
+      "title": "Toward an Intelligent Legal Education Simulator for Medical Negligence Litigation in India: A Hybrid AI/ML Framework and System Design",
+      "authors": "Niraja Jain, Dr Rajeev kumar, Dr. Golnoosh Manteghi",
+      "abstract": "Medical negligence disputes in India are increasing in volume and complexity, yet the legal frameworks governing them remain fragmented with no dedicated statute or IPC provision. Law students often struggle to understand how to construct pleadings, structure evidence, and apply judicial reasoning. This paper presents (i) a comprehensive review of state-of-the-art automated legal judgment prediction, explainable AI systems, and domain-specific retrieval tools, and (ii) a conceptual design of an Intelligent Medical-Negligence Litigation Simulator (IMN-LS) tailored for Indian legal education. The proposed framework integrates retrieval-augmented generation (RAG), long-context transformer models, medical NER/event extraction, and probabilistic evidence reasoning. The paper maps datasets, engineering challenges, and ethical considerations, and outlines a research agenda for deploying intelligent simulators in Indian legal institutions. This work contributes both to Intelligent Systems and E-Governance, offering a blueprint for future AI-supported legal education ecosystems.",
+      "date": "2026-10-30",
+      "url": "https://doi.org/10.5281/zenodo.23790103",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Artificial Intelligence and Legal Technology",
+      "direction": "medical",
+      "id": "b4dac60b32d4"
+    },
+    {
+      "title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics",
+      "authors": "Li Mu, Lei Zhang, Zhenglun Yu, Jun Li, Shuo Wang, ...",
+      "abstract": "Small cell lung cancer (SCLC) is aggressive, treatment-sensitive, and prone to relapse. This Review evaluates how generative AI, graph neural networks, molecular language and diffusion models, structure-based design, and multimodal learning can exploit SCLC dependencies for small-molecule discovery. It integrates biomarker-guided patient stratification, resistance, combination therapy, medicinal chemistry, pharmacology, safety, manufacturing, and clinical translation, emphasizing benchmarked, uncertainty-aware, prospectively validated design–build–test–learn workflows.",
+      "date": "2026-10-30",
+      "url": "https://doi.org/10.1038/s41698-026-01705-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Precision Oncology",
+      "direction": "cell",
+      "id": "1a075bee58ff"
+    },
+    {
+      "title": "ARTIFICIAL INTELLIGENCE IN EDUCATION: THEORETICAL FOUNDATIONS, HISTORICAL DEVELOPMENT, AND PROSPECTS",
+      "authors": "Viktor Shakotko, Natalia Karapuzova",
+      "abstract": "This article addresses the use of artificial intelligence in education. As a subject of pedagogical research, artificial intelligence has its own conceptual framework, structure, and a history of development spanning more than half a century. There are also limits to the application of AI in education and constraints imposed on these processes. It has been noted that, since 2022, generative language models have gradually but rapidly been incorporated into the practice of educators at various levels of education. Artificial intelligence services began to be used even before the relevant institutional rules were established, methodological recommendations were developed, and professional development programs for educators were organized. The aim of the study is to substantiate the interpretation of the concept of “artificial intelligence in education,” to identify the stages of AI development, and to explore the prospects for its integration into the education system, taking into account the results of a survey of teachers. The study employs a comparative analysis of definitions, the historical-pedagogical method, an analysis of regulatory documents from the European Union and UNESCO, and a survey of academic and teaching staff at Ukrainian higher education institutions (31 questions in six sections). Artificial intelligence in education is proposed to be broadly defined as a group of software tools that, based on relevant services, perform operations such as forecasting, individualization, assessment, and the generation of instructional materials, as well as carrying out specific functions to support the educational process without replacing the teacher. In the history of the development and implementation of AI elements in education, five stages have been identified, spanning periods from the use of programmed computerized instruction to the use of generative artificial intelligence services with varying functionality. The prospects for the further integration of artificial intelligence services into the educational process are primarily linked to changes in the assessment system and a shift in emphasis from evaluating the final results of tasks to the process itself, the development of institution-specific policies for AI application in educational institutions, and the institutionalization of training for both future and current teachers in the pedagogically sound use of AI services.ReferencesBaker, T., & Smith, L. (2019). Educ-AI-tion rebooted? Exploring the future of artificial intelligence in schools and colleges. Nesta.Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. Educational Researcher, 13(6), 4–16. https://doi.org/10.3102/0013189X013006004Bond, M., Khosravi, H., De Laat, M., Bergdahl, N., Negrea, V., Oxley, E., Pham, P., Chong, S. W., & Siemens, G. (2024). A meta systematic review of artificial intelligence in higher education: A call for increased ethics, collaboration, and rigour. International Journal of Educational Technology in Higher Education, 21, Article 4. https://doi.org/10.1186/s41239-023-00436-zCarbonell, J. R. (1970). AI in CAI: An artificial-intelligence approach to computer-assisted instruction. IEEE Transactions on Man-Machine Systems, 11(4), 190–202. https://doi.org/10.1109/TMMS.1970.299942Chiu, T. K. F., Xia, Q., Zhou, X., Chai, C. S., & Cheng, M. (2023). Systematic literature review on opportunities, challenges, and future research recommendations of artificial intelligence in education. Computers and Education: Artificial Intelligence, 4, Article 100118. https://doi.org/10.1016/j.caeai.2022.100118Doroudi, S. (2023). The intertwined histories of artificial intelligence and education. International Journal of Artificial Intelligence in Education, 33(4), 885–928. https://doi.org/10.1007/s40593-022-00313-2Holmes, W., Bialik, M., & Fadel, C. (2019). Artificial intelligence in education: Promises and implications for teaching and learning. Center for Curriculum Redesign.Jones, C. R., & Bergen, B. K. (2024). Does GPT-4 pass the Turing test? In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Vol. 1, pp. 5183–5210). https://doi.org/10.18653/v1/2024.naacl-long.290Jones, C. R., & Bergen, B. K. (2025). Large language models pass the Turing test (arXiv:2503.23674). arXiv. https://doi.org/10.48550/arXiv.2503.23674Kasneci, E., Seßler, K., Küchemann, S., Bannert, M., Dementieva, D., Fischer, F., Gasser, U., Groh, G., Günnemann, S., Hüllermeier, E., Krusche, S., Kutyniok, G., Michaeli, T., Nerdel, C., Pfeffer, J., Poquet, O., Sailer, M., Schmidt, A., Seidel, T., … Kasneci, G. (2023). ChatGPT for good? On opportunities and challenges of large language models for education. Learning and Individual Differences, 103, Article 102274. https://doi.org/10.1016/j.lindif.2023.102274Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., & Iwasawa, Y. (2022). Large language models are zero-shot reasoners. Advances in Neural Information Processing Systems, 35, 22199–22213.Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against non-native English writers. Patterns, 4(7), Article 100779. https://doi.org/10.1016/j.patter.2023.100779Mah, D.-K., & Groß, N. (2024). Artificial intelligence in higher education: Exploring faculty use, self-efficacy, distinct profiles, and professional development needs. International Journal of Educational Technology in Higher Education, 21, Article 58. https://doi.org/10.1186/s41239-024-00490-1McCarthy, J., Minsky, M. L., Rochester, N., & Shannon, C. E. (2006). A proposal for the Dartmouth summer research project on artificial intelligence, August 31, 1955. AI Magazine, 27(4), 12–14.Miao, F., & Holmes, W. (2023). Guidance for generative AI in education and research. UNESCO. https://doi.org/10.54675/EWZM9535Miao, F., & Shiohira, K. (2024). AI competency framework for students. UNESCO. https://doi.org/10.54675/JKJB9835Ministry of Education and Science of Ukraine. (2024). Instruktyvno-metodychni rekomendatsii shchodo zaprovadzhennia ta vykorystannia tekhnolohii shtuchnoho intelektu v zakladakh zahalnoi serednoi osvity: Proiekt [Instructional and methodological recommendations on the introduction and use of artificial intelligence technologies in general secondary education institutions: Draft]. https://mon.gov.ua/static-objects/mon/sites/1/news/2024/05/21/Instruktyvno.metodychni.rekomendatsiyi.shchodo.SHI.v.ZZSO-22.05.2024.pdfMinistry of Education and Science of Ukraine, & Ministry of Digital Transformation of Ukraine. (2025). Rekomendatsii shchodo vidpovidalnoho vprovadzhennia ta vykorystannia tekhnolohii shtuchnoho intelektu v zakladakh vyshchoi osvity [Recommendations for the responsible implementation and use of artificial intelligence technologies in higher education institutions]. https://mon.gov.ua/news/shtuchnyi-intelekt-u-zakladakh-vyshchoi-osvity-rekomendatsii-dlia-vykladachiv-studentiv-i-pratsivnykiv-zvoMorze, N. V., Boiko, M. A., Strutynska, O. V., & Smyrnova-Trybulska, Ye. M. (2024). Yakoiu maie buty tsyfrova kompetentnist vchyteliv u haluzi vykorystannia shtuchnoho intelektu? [What should teachers' digital competence in the use of artificial intelligence be?]. Vidkryte osvitnie e-seredovyshche suchasnoho universytetu, (16), 76–91. https://doi.org/10.28925/2414-0325.2024.166Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act), 2024 O.J. (L 1689). http://data.europa.eu/eli/reg/2024/1689/ojRussell, S., & Norvig, P. (2020). Artificial intelligence: A modern approach (4th ed.). Pearson.Searle, J. R. (1980). Minds, brains, and programs. Behavioral and Brain Sciences, 3(3), 417–424. https://doi.org/10.1017/S0140525X00005756Shakotko, V. V. (2018). Metodychna systema formuvannia informolohichnykh kompetentnostei maibutnikh uchyteliv informatyky [Methodological system for developing informological competencies of future informatics teachers] [Candidate dissertation, National Pedagogical Dragomanov University].Turing, A. M. (1950). Computing machinery and intelligence. Mind, 59(236), 433–460. https://doi.org/10.1093/mind/LIX.236.433Vorotnykova, I., Dziabenko, O., & Morze, N. (2025). Vyklyky vprovadzhennia personalizovanoho navchannia z vykorystanniam shtuchnoho intelektu u vyshchii osviti [Challenges of implementing personalized learning using artificial intelligence in higher education]. Informatsiini tekhnolohii i zasoby navchannia, 105(1), 144–157. https://doi.org/10.33407/itlt.v105i1.5893Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. Advances in Neural Information Processing Systems, 35, 24824–24837.",
+      "date": "2026-10-30",
+      "url": "https://doi.org/10.65237/2336-3630-2026-10(3)-13",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Middle European Scientific Bulletin",
+      "direction": "llm",
+      "id": "846171cb550c"
+    },
     {
       "title": "Next-Generation Exposure Assessment for Personalized Environmental Health: A Scoping Review of Knowledge Representation, Dynamic Modeling, and Artificial Intelligence Approaches",
       "authors": "Shin-Young Park, Cheol-Min Lee",
@@ -11916,90 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "77b989661580"
-    },
-    {
-      "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
-      "authors": "Tao Wang, Qihao Yang, Rongjiao Liang, Lianghong Lin, Haitao Wang...",
-      "abstract": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and governed by explicit rules for scope, terminology, normative wording, and cross-section consistency. Existing benchmarks focus on domain knowledge and question answering, largely overlooking intrinsic quality review for professional documents. Such reviews rely heavily on human experts, making them costly and difficult to scale. To bridge this gap, we introduce GB/T-Bench, the first benchmark for the structured review of national standard documents. Its GB/T Review Taxonomy is a hierarchical schema covering document structure, scope alignment, normative modality, terminology consistency, and normative references, with 25 diagnosable error types. A controllable counterexample generation mechanism combines deterministic rules and constrained LLM rewriting to process 488 documents into 7,306 traceable review error instances for evaluation. We also develop a diagnosis-oriented evaluation protocol requiring exact matches on error location, review dimension, and error type, plus document-level coverage metrics. We further propose GB/T-Reviewer, a multi-agent framework that converts review knowledge into specialized skills and coordinates global inspection, targeted diagnosis, rule scanning, and result verification. Experiments with 14 mainstream LLMs reveal a substantial human-LLM gap: the strongest model achieves only 0.3280 CMCS versus 0.6640 for experts. GB/T-Reviewer raises the best CMCS to 0.5094, showing the value of structured skill coordination for rule-intensive document review. This work paves the way for trustworthy AI in standardization and other high-stakes document domains.",
-      "date": "2026-08-06",
-      "url": "https://arxiv.org/abs/2608.06312v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06312v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9a1f46917f30"
-    },
-    {
-      "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
-      "authors": "Jonas Gann, Michael Gertz",
-      "abstract": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to verify and cannot be reliably attributed to specific evidence. Moreover, missing user-specific context is rarely detected systematically, often leading to incomplete or incorrect output. We propose NeSy-RAG, a modular neuro-symbolic RAG framework that synthesizes attributable Prolog modules from retrieved text chunks. For each chunk, the system generates semantically meaningful predicates that encode Boolean claims, which may depend on user facts. Using joint natural language-code embeddings, predicates are retrieved and composed into Prolog queries. To address incomplete user context, we introduce a symbolic knowledge-gap detection mechanism that identifies missing user facts whose truth values affect the query outcome and automatically triggers follow-up interactions. Executing the resulting Prolog queries yields deterministic answers together with transparent execution traces that link each reasoning step to its originating source. On the ShARC benchmark, without domain-specific training, NeSy-RAG achieves 61.1% accuracy, outperforming a same-model RAG baseline that achieves 42.8% accuracy.",
-      "date": "2026-08-06",
-      "url": "https://arxiv.org/abs/2608.06292v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06292v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "c82473f7b0f7"
-    },
-    {
-      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
-      "authors": "Massi-Nissa Abboud, Aladin Djuhera, Elena Cabrio, Holger Boche",
-      "abstract": "Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce Poli-Bias, a counterfactual framework for measuring whether LLMs treat legally equivalent conflict scenarios differently depending on the countries involved. Poli-Bias compares responses to paired prompts in which country identities are systematically swapped across diverse geopolitical relationships, legal violations, and reasoning tasks. Rather than reducing bias to a single judgment, our framework decomposes response disparities into five interpretable dimensions, revealing how and where unequal treatment manifests. Across 13 contemporary LLMs spanning diverse model families and sizes, we find that country identities and user affiliations can systematically affect how equivalent actions are described, evaluated, and defended under international law. Our results thus establish Poli-Bias as a fine-grained framework for auditing political even-handedness and sycophancy in LLMs.",
-      "date": "2026-08-06",
-      "url": "https://arxiv.org/abs/2608.06123v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06123v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "69f83d8ac2a4"
-    },
-    {
-      "title": "LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs",
-      "authors": "Lukas Twist, Twm Stone, Helen Yannakoudakis, Jie M. Zhang",
-      "abstract": "Large language models (LLMs) have been shown to exhibit strong Python preferences when generating project-level code, but there is currently no systematic way to measure this behaviour across new models. To bridge this gap, we introduce LangChoiceBench, a project-level code-generation benchmark for measuring Python preference, recommendation-implementation consistency, and language diversity. LangChoiceBench covers 28 projects across seven software areas where Python is often a poor default. We evaluate 25 diverse LLMs and find that Python remains heavily over-selected, recommendation-implementation consistency is low, and smaller open-weight models generally show stronger Python preference and lower language diversity. We further analyse 9,826 reasoning traces and find that most Python choices are automatic or driven primarily by ease, rather than explicit consideration of project requirements. In a smaller but important set of cases, models fabricate contextual support for choosing Python - a failure mode we call phantom evidence - or produce code that contradicts the language selected in their own reasoning.",
-      "date": "2026-08-06",
-      "url": "https://arxiv.org/abs/2608.06041v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.06041v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "bed0f3e6529b"
-    },
-    {
-      "title": "Enhancing Social Intelligence in LLMs with Hierarchical Reasoning and Utterance-Level Goal Rewarding",
-      "authors": "Xiaofeng Wang, Kakam Chong, Shuai Xiao, DeXin Kong, Qingyuan Tian...",
-      "abstract": "Large language models (LLMs) excel in structured tasks but struggle with dynamic social interactions, where success requires long-term goal coordination and rapid adaptation. Current methods often apply uniform goal-based rewards to every utterance, overlooking the specificity of objectives at each dialogue turn and failing to account for the rationale of potential strategies. Inspired by the Theory of Planned Behavior, we propose the Think-Strategy-Response (TSR) framework, which decomposes social dialogue into two hierarchical stages: high-level strategic planning and low-level linguistic execution. To optimize TSR, we introduce Linearized Hierarchical Reinforcement Learning with Variance-Gated Rewards (LHRL-VGR), a novel algorithm that dynamically routes rewards - balancing goal completion and strategy adherence - based on the variance of goal achievement scores. Experiments on the SOTOPIA benchmark show that our approach fine-tunes a Qwen2.5-7B agent to surpass the GPT-4o baseline by 7.32% in goal completion success, demonstrating state-of-the-art performance in multi-agent social negotiation tasks.",
-      "date": "2026-08-06",
-      "url": "https://arxiv.org/abs/2608.05832v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.05832v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "05c9aaf817c6"
-    },
-    {
-      "title": "From predictive algorithms to generative intelligence: a decadal bibliometric mapping of global research frontiers in AI-driven mental health (2016–2025)",
-      "authors": "Qiqi Zhao, Siyi Wen, Wenbing Yu",
-      "abstract": "Objective: The escalating global mental health burden has triggered an urgent real-world need for scalable artificial intelligence (AI) solutions. This study employs a quantitative bibliometric approach to objectively present the research hotspots and emerging trends in the global AI-driven mental health landscape (2016-2025), specifically capturing the post-2023 surge in generative AI. Methods: We analyzed 9,623 original research articles from Web of Science and Scopus. CiteSpace and VOSviewer were utilized for co-authorship analysis, literature co-citation clustering, and keyword burst detection. Results: Research output grew exponentially, surpassing 3,000 publications in 2025. The US and China led productivity, with King's College London as the top institution. Research clusters encompass foundational AI methodologies and four clinical domains: diagnosis (e.g., neuroimaging), digital interventions (e.g., chatbots), targeted conditions (e.g., PTSD), and suicide prevention. Recent keyword bursts highlight diagnostic accuracy, loneliness, and occupational burnout as post-2023 frontiers. Conclusion: The field is transitioning from exploratory algorithmic development to patient-centered clinical applications. While AI offers transformative potential for mental health research and care, future research must urgently prioritize patient safety, algorithmic bias, data privacy, safeguards against algorithmic hallucinations, and ethical integration into clinical workflows to ensure sustainable implementation.",
-      "date": "2026-08-05",
-      "url": "https://doi.org/10.1080/00049530.2026.2710168",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Australian Journal of Psychology",
-      "direction": "medical",
-      "id": "ef519c1f315f"
-    },
-    {
-      "title": "NATURAL LANGUAGE PROCESSING USING DEEP LEARNING: A COMPREHENSIVE REVIEW OF MODELS, TECHNIQUES, AND FUTURE DIRECTIONS",
-      "authors": "Pradeep Kumar Atulker, Rahul K. Hindustani, Ravi Shankar Nanduri, Shaurya Vir Singh Pathania, Swati Kale, ...",
-      "abstract": "Natural language processing (NLP) has emerged as a key focus of AI research for the analysis, interpretation, extraction, summarisation, and generation of human language. The vast amount of unstructured textual data in scientific research, electronic health records, clinical notes, radiology reports, public health documents, and digital health platforms has driven the demand for sophisticated computational tools and techniques capable of extracting structured and actionable knowledge from language. NLP has been greatly advanced by deep learning, which allows for automatic representation learning, understanding context, modeling sequences, and generating large amounts of language by means of structures like CNN, RNN, LSTM, GRU, attention mechanisms, transformers, and large language models. This review aims to present a detailed overview of deep learning-based NLP models, methods, applications, challenges, and future directions, focusing on biomedical informatics, clinical text mining, digital health and biomathematical relevance. It has numerous applications such as biomedical literature mining, named entity recognition, relation extraction, clinical decision support, pharmacovigilance, radiology report generation, public health surveillance, and construction of knowledge graph. The specific focus lies in the application of NLP to identify biological entities, clinical variables and quantitative evidence that can be used to support biomathematical modeling. There are several current challenges such as domain shift, privacy, hallucination, bias, interpretability, and reproducibility. The success of future progress relies on reliable, comprehensible, domain specific and clinically verified NLP systems.",
-      "date": "2026-08-05",
-      "url": "https://doi.org/10.4238/02y5dn46",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Genetics and Molecular Research",
-      "direction": "medical",
-      "id": "754bf0b062fc"
     }
   ]
 }
