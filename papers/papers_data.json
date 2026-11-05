@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-11-03 23:52",
+  "last_updated": "2026-11-05 00:10",
   "papers": [
+    {
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "authors": "Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy, Bhuvnesh Kumar, Parivesh Choudhary",
+      "abstract": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instruct v0.1, with GPT-4o or a larger open-weight model of the same family as the annotator. On AlpacaEval 2.0 with GPT-4o as judge, three iterations raise the length-controlled (LC) win rate against GPT-4o from 31.7% to 45.3% for Llama and from 6.8% to 18.4% for Mistral, and the tuned 8B model scores above Llama 3.1 70B Instruct on every reported win rate. With same-family open-weight annotators, the runs retain 62% (Llama) and 82% (Mistral) of the LC gain achieved with GPT-4o as annotator, so the rating step does not require a proprietary model. In a separate ablation configuration, variants that remove the gold responses, remove the data look-back, or accept only teacher-preferred pairs score 6 to 10 LC points below the full procedure, whereas varying the number of on-policy samples per prompt (1 to 7) moves the LC win rate by at most 2.1 points, and a margin sweep (1 to 5) run in its own pipeline by at most 2.4 points. We also report the cost of the pipeline and where the practical algorithm departs from the theory it approximates. All results are single runs, and GPT-4o is both the teacher and the evaluation judge; we discuss what this implies for the reported gains.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05373v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05373v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f0446534d8ee"
+    },
+    {
+      "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+      "authors": "Minsoo Cheong, Sungjoo Yoo",
+      "abstract": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV) cache grows linearly with the number of loop steps and becomes the main memory bottleneck. We observe that the KV cache of looped models is highly redundant along the loop axis and that the loop steps differ substantially in their sensitivity to quantization. Based on these observations, we propose $\\textbf{LoopVQ}$, a KV cache vector quantization method for looped transformers that codes channels of multiple loop steps jointly, and fine-tunes the codebooks to match the output of the full-precision model. At 0.5 bits per element, LoopVQ outperforms existing KV cache vector quantization methods for standard LLMs on general, long chain-of-thought reasoning, and long-context retrieval tasks with Ouro and Huginn models. Its design is orthogonal to these methods, and combined with TaSQ, it retains much of the BF16 accuracy even at 0.25 bits per element. We also implement LoopVQ in SGLang, where it nearly halves the decode latency at a 32K-token context and raises the peak serving throughput by up to $4.3\\times$ and $6.1\\times$ on the 1.4B and 2.6B Ouro models compared to the BF16 baseline.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05304v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05304v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c67d0ca18b9e"
+    },
+    {
+      "title": "Beyond Accuracy: What Language-Subspace Interventions Capture, Remove, and Improve",
+      "authors": "Shaanil Punglia, Dadhichi Telwadkar, Vaibhav Rathore, Siddharth Sureka, Neha Bhargava",
+      "abstract": "Language-subspace interventions aim to improve multilingual reasoning by suppressing language-related components in mid-layer activations. Using MATH and MGSM across four open-weight LLMs, we ask three questions: do estimated language subspaces capture translation-associated variation? Does projecting them out remove language information? And do they improve accuracy without compromising response language? For the first question, we build subspaces using the existing Mean-SVD construction and our DiffPCA. Both capture substantial translation-associated variation and show similar patterns across model depth. For the second, we project out each subspace and train linear probes to classify language from the projected activations. The probes still identify language almost perfectly, showing that neither subspace exhaustively captures language information. For the third, we evaluate several intervention configurations on Qwen2.5-7B, by varying subspace creation methods and intervention operators. We find that the intervention that most improves MGSM accuracy sacrifices response-language fidelity, with only one intervention improving joint accuracy--answers that are correct and in the target language--slightly, by 1.60 points. Interestingly, subtle changes in the prompt alone can reproduce the accuracy gains albeit with significant damage to language fidelity. We argue that causal interventions must be judged on more than accuracy, to fully account for language substitution trade-offs.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05278v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05278v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c0748ad1f746"
+    },
+    {
+      "title": "Who is the Pronoun Pro? Comparing LLMs and Humans at Number-Disambiguation of 'they'",
+      "authors": "Carlos Hartmann",
+      "abstract": "This study evaluates whether large language models (LLMs) can reliably replace or complement human research assistants in linguistically complex annotation. In a controlled annotation task, 73 human annotators (local students and crowdworkers with and without a background in linguistics) and more than 40 LLM configurations number-disambiguated 174 authentic uses of 'they' from Reddit, including innovative and context-sensitive cases. The best LLM, Kimi K3, reached 94.5% accuracy, above the human majority vote (86.2%) and the mean of the top half of human annotators (78.5%); only the single best human annotator scored higher (95.7%). LLMs also offer substantial practical advantages in cost and speed. However, qualitative error analysis reveals a crucial complementarity: human reasoning in low-agreement cases exposes inconsistencies in the annotation typology and thereby improves the methodological framework itself. The study contributes (i) a benchmark-style human-LLM comparison for a semantically demanding task, (ii) transparent cost and time evidence, and (iii) a methodological argument against a purely replacement-oriented view of automation. LLMs are viable for large-scale annotation support in linguistics, but their responsible use requires human critical oversight. The dataset with its gold-standard labels, all human and LLM annotations, and the fully reproducible code are openly available as a Quarto-based, public repository.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.04968v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04968v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c24eb8476845"
+    },
+    {
+      "title": "Feeling of Knowing in Large Language Models",
+      "authors": "Zichuan Fu, Xian Wu, Jingtong Gao, Wenlin Zhang, Jiaxuan Li...",
+      "abstract": "Post-training updates change what large language models (LLMs) can answer, but may leave their answerability judgments misaligned. We study this knowledge-judgment desynchronization through functional feeling of knowing (FoK), which supports selective generation, retrieval triggering, and model routing without implying subjective experience. We propose two trainable channels: a knowledge channel that changes answerability and a FoK channel that judges the current knowledge state. Three stages train them: on-policy supervised fine-tuning (OP-SFT) updates knowledge from corrected on-policy answers; knowledge-delta FoK training (K$Δ$-FT) adapts judgments across intermediate knowledge states; and FoK-guided policy optimization (FGPO) trains the subsequent answer or explanation. Factual-QA experiments, cross-dataset evaluation, and three sequential updates show that explicit FoK alignment improves judgment quality on updated knowledge. MMLU and ARC-Easy separately assess capability preservation.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.04834v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04834v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "21c7d69f1d93"
+    },
+    {
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "authors": "Luxi He, Pengcheng Jiang, Jifan Zhang, Jiawei Han, Danqi Chen",
+      "abstract": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism misbehaves only when the prompt contains a specific cue: it cheats on multiple-choice questions by following a planted hint that points to a wrong answer, and behaves normally otherwise. The broad-trigger organism has no such cue: after fine-tuning on insecure code, it gives harmful responses across a wide range of open-ended prompts. We then formalize post-hoc behavioral suppression and evaluate methods along three criteria: immediate suppression of the target behavior, durability under further training, and preservation of general capability. We compare standard methods--SFT, GRPO, and gradient-ascent unlearning--along these dimensions. Building on prior work on alignment shallowness, we hypothesize that more durable suppression requires the ability to recover from a wider range of misalignment states. We introduce Prefix-Expanded Adversarial Reinforcement Learning (PEARL), a GRPO variant that augments rollouts with continuations from intermediate states sampled along cached organism trajectories. Across both organism settings and two model families (Qwen3-4B, GPT-OSS-20B), PEARL achieves strong immediate suppression while preserving task accuracy, and remains durable under further fine-tuning on either the organism's data or unrelated data. It obtains the greatest benefit when the undesirable behavior is broad and cannot be addressed through targeted SFT. Together, our framework and method offer a step toward more durable post-hoc removal of undesired behaviors.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05358v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05358v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "0d907bc2d21a"
+    },
+    {
+      "title": "ReSI-Math: Exploring Recoverable Capability Frontiers for Efficient Reasoning Improvement",
+      "authors": "Yao Cui, Zhen Yang, Yuandong Wang, Yangfu Zhu, Tianyu Wo...",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) has become an effective approach for improving mathematical reasoning in large language models. However, a fundamental question remains: when a model fails to solve a problem, does it truly lack the underlying capability? In this work, we reveal that direct failure does not necessarily imply inability. Some reasoning failures can be recovered by exploring the model's own trajectories, exposing a recoverable capability frontier: a policy-dependent region where solutions are not reliably generated through direct decoding but can be elicited through trajectory-level search. Based on this observation, we introduce ReSI-Math, a framework that explores recoverable capability frontiers and converts recovered capabilities into data-efficient RLVR supervision. ReSI-Math uses Self-Judge-guided evolutionary search to identify recoverable failures under a fixed policy and adaptively selects frontier problems for sequential RLVR as the policy evolves. On Qwen3-VL-8B, correct-incorrect trajectory crossover produces 272 verifier-confirmed correct offspring from 621 attempts (43.8%). After three sequential one-shot RLVR stages, the MATH500 and WE-MATH average improves from 78.71 to 80.16. Under matched single-problem RLVR, random selection reaches only 53.31 versus 54.16 for frontier-guided Q1.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.04787v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04787v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "2bf2c11371eb"
+    },
+    {
+      "title": "Self-Privileged Fine-Tuning",
+      "authors": "Yangrong Hu, Xueyu Zhou, Yue Wu, Jian Huang",
+      "abstract": "Supervised fine-tuning (SFT) is a key component of language model post-training, enabling effective task adaptation and serving as an important foundation for subsequent reinforcement learning. Recent methods seek to improve SFT by introducing token-level weights into the training objective, where these weights are typically derived from a model's output distribution at each token position. To better understand how such weighting schemes affect SFT, we analyze their optimization objectives and theoretically characterize the target distributions they induce. Our analysis shows that dynamic weighting methods, such as Dynamic Fine-Tuning (DFT), induce a heavily sharpened distribution, whereas static weighting methods fit a target distribution proportional to the product of the data distribution and a frozen prior. These findings suggest that static weighting provides a more stable training target, while its effectiveness critically depends on the quality of the prior distribution. Building on this observation, we propose Self-Privileged Fine-Tuning (SPFT), which uses a frozen copy of the initial model conditioned on privileged information (such as ground truth for mathematical questions) as a prior to provide guidance for token-level weighting during fine-tuning. Through a Bayesian decomposition, we further show that SPFT reweights the standard static prior according to how informative each target token is for predicting the ground-truth outcome, thereby assigning larger weights to more predictive tokens. Experiments on mathematical reasoning and code generation show that SPFT improves over standard SFT and other baselines across the main settings.",
+      "date": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.04632v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04632v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "cd0f24867180"
+    },
     {
       "title": "Towards Early and Accurate Disease Detection Through Multimodal Predictive Modeling: Fusion of Electronic Health Records, Medical Imaging, And Omics Data Using Interpretable Machine Learning.",
       "authors": "Muhammad Ahsan Hayat, Jahangir Baig, Shayan Ahmed, Ahmed Faraz Ayubi",
@@ -12,6 +108,30 @@
       "venue": "Policy Research Journal",
       "direction": "llm",
       "id": "fd1a27f8323b"
+    },
+    {
+      "title": "Language Model Augmented Decision Transformer for Multi-Task Offline Reinforcement Learning",
+      "authors": "Xinbo Zhao, Yuhang Liu, Xin Zhang, Lei Le, Zhaohan Xi...",
+      "abstract": "Offline multi-task reinforcement learning (MTRL) aims to learn a unified policy from heterogeneous offline datasets that generalizes across tasks. However, existing offline MTRL methods often struggle with two fundamental issues: severe per-task data scarcity and limited cross-task generalization. In this paper, we propose Language-Model Augmented Decision Transformer (LaMA-DT), a unified sequence-modeling framework that leverages a single large language model (LLM) for both trajectory augmentation and multi-task policy learning. LaMA-DT uses natural-language task descriptions to guide task-aligned trajectory augmentation through a set of supervised generation and alignment objectives, and incorporates a scoring-and-filtering mechanism to retain high-quality augmented trajectories. The same LLM is then repurposed as a language-conditioned Decision Transformer and fine-tuned on a mixture of real and augmented data. Experiments on Meta-World and MuJoCo multi-task benchmarks demonstrate that LaMA-DT consistently outperforms competitive baselines, particularly in low-data regimes, showing that language-guided data augmentation substantially improves cross-task generalization.",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2611.04031v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04031v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f2580b4b5147"
+    },
+    {
+      "title": "Dory1.0-4B: A Looped Normalized-GPT",
+      "authors": "Maxim Fishman, Simeng Sun, Shantanu Acharya, Faisal Ladhak, Brian Chmiel...",
+      "abstract": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organized into an input block, a shared recurrent block, and an output block. At inference, the recurrent block can be applied a variable number of times. We pre-trained Dory1.0-4B on 6 trillion tokens. The first 4.5 trillion tokens were trained in NVFP4, and additional pre-training then extended the context length to 256K tokens. Next, we post-trained the model using Supervised Fine-Tuning (SFT) and Reinforcement Learning with Verifiable Rewards (RLVR), with a difficulty-aware loop curriculum that routes harder prompts to deeper loops. Increasing the loop count improves accuracy, with the largest gains on coding, agentic, and long-context benchmarks. With two or more loops, Dory1.0-4B outperforms larger models such as Qwen3.5-9B, Gemma 4 12B, and Gemma 4 26B-A4B on average across 12 benchmarks. Looping also makes Dory1.0-4B more token-efficient on agentic benchmarks: with four loops, it generates 1.3-2.5x fewer tokens than with one loop, as the extra computation is spent in latent space rather than on longer outputs. To reduce memory during looping, Dory1.0-4B caches keys and values only from the last loop, keeping its KV-cache footprint equal to that of a non-looped model at any loop count while retaining most of the accuracy gains. We open-source the BF16, MXFP8, NVFP4, and GGUF quantized checkpoints.",
+      "date": "2026-11-02",
+      "url": "https://arxiv.org/abs/2611.03998v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.03998v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "81efd8223a86"
     },
     {
       "title": "Automated assessment of healthcare de-escalation communication skills in a conversational AI virtual reality simulation",
@@ -11880,126 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "537cee74513d"
-    },
-    {
-      "title": "Mismatch Matters: On-Policy Distillation Beyond Token Agreement",
-      "authors": "Zichao Yu, Chengzhi Yu, Shengze Xu, Yujin Han, Bingqing Jiang...",
-      "abstract": "On-policy distillation (OPD) has emerged as a core component of modern LLM post-training pipelines, yet we reveal a failure mode: degenerate agreement, where students exploit repetitive loops to achieve near-perfect token agreement with the teacher despite globally flawed responses. We therefore shift our focus from agreement to teacher-student mismatch, and find that mismatch tokens can be mainly categorized into two types: student-excess tokens and student-deficit tokens. Student-excess tokens are generated by the student but assigned near-zero probability by the teacher; their log-ratio corrections grow unbounded and destabilize the update. Student-deficit tokens, in contrast, are preferred by the teacher but rarely sampled by the student; their absence blocks the transfer of the teacher's reasoning patterns. To tackle these mismatch directions, we propose TIDE (Token-level Independent Deficit-Excess correction), which applies bounded Hellinger shaping to suppress the most severe sampled excesses and an analytic teacher top-$K$ injection to restore deficient probability mass without requiring deficit tokens to be sampled. Across mathematical reasoning benchmarks with multiple Qwen3 teacher-student pairs, TIDE consistently outperforms standard OPD and recent token-selection and reward-shaping baselines. Moreover, the gains of TIDE are more pronounced under strong teacher-student mismatch, where it improves Avg@8 from 6.9% to 20.3%, reduces average response length by a factor of 3.6, and substantially reduces formatting failures. Code is available at https://github.com/yzc-666/TIDE",
-      "date": "2026-08-10",
-      "url": "https://arxiv.org/abs/2608.09836v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09836v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "2e114ee7f1ad"
-    },
-    {
-      "title": "Parameter Exploration for RLVR via Variational Learning",
-      "authors": "Vatsal Venkatkrishna, Nico Daheim, Iryna Gurevych",
-      "abstract": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evidence that it is also an important ingredient in LLM reinforcement learning recipes that can significantly impact downstream performance. Many existing methods control exploration in the action-space, for example, using temperature scaling. However, these methods cannot reorder tokens but only influence the variance in the output distribution. This limits exploration and can lead to divergence or stalled training. Here, we investigate parameter-space exploration, where rollouts are generated by sampling different policies from a posterior that may each explore different rollouts. Sampling less or more diverse policies is then a complementary control lever over exploration. We introduce a family of methods called Perturbed Parameter Policy Optimization (3PO) which use different sampling strategies and different rollout grouping for reward estimation. Experiments on OLMo-3-1025-7B and Qwen2.5-Math-7B across mathematical reasoning and code generation tasks show that these approaches consistently improve average downstream performance over standard GRPO at a near-identical FLOPs cost. Moreover, using multiple parameter samples consistently produces fewer zero-advantage groups and malformed or incorrect rollouts during training than GRPO and action-space baselines. Overall, our work presents evidence that parameter-space exploration can improve reinforcement learning for LLMs.",
-      "date": "2026-08-10",
-      "url": "https://arxiv.org/abs/2608.09805v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09805v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "90f3b3bea5ac"
-    },
-    {
-      "title": "ZetaGPT: A Reference Implementation of Positional--Encoding--Free State--Space--Attention Language Models",
-      "authors": "Róisín Luo",
-      "abstract": "Transformer-based language models rely on self-attention, whose computation is permutation-equivariant and therefore lacks an intrinsic mechanism for representing token order. Existing architectures address this limitation by explicitly incorporating positional information through learned positional embeddings or hand-crafted positional encodings, such as rotary positional encoding (RoPE), treating positional information as an architecturally acquired capability rather than an inherent property of the model. Motivated by the pursuit of positional-encoding-free architectures, this work explores a language model architecture that integrates causal state-space equations to implicitly encode positional information before attention computation. Specifically, each model block applies a causal state-space equation before self-attention, allowing recurrent state dynamics to encode sequential information into token representations. Consequently, subsequent attention layers operate on position-aware representations without requiring explicit positional encodings while retaining the expressive modeling capacity of self-attention. We present \\textsc{ZetaGPT}, a compact hybrid language model designed for research, rapid prototyping, algorithm verification, and educational applications. In addition to the proposed architecture, \\textsc{ZetaGPT} provides a fully open-source, end-to-end training pipeline encompassing dataset construction, tokenizer training, pretraining, supervised fine-tuning, reinforcement learning from human feedback (RLHF), and chain-of-thought (CoT) reasoning via pure reinforcement learning. To the best of our knowledge, \\textsc{ZetaGPT} is the first open-source small language model without explicit positional encoding and establishes a compact, reproducible reference implementation for the development and empirical study of positional-encoding-free language models.",
-      "date": "2026-08-10",
-      "url": "https://arxiv.org/abs/2608.09432v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09432v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "18579350c078"
-    },
-    {
-      "title": "An Agentic Generative Large Language Model for Treatment Planning of Colorectal Cancer",
-      "authors": "Mengxian Lyu, Cheng Peng, Tim Jang, Ang Li, Mengyuan Zhang...",
-      "abstract": "Treatment planning in precision oncology requires synthesizing heterogeneous patient information with rapidly evolving clinical guidelines to ensure guideline-concordant care. While large language models (LLMs) show promise in many diagnostic tasks, their adoption for high-stakes treatment planning is hindered by complex reasoning, adherence to timely clinical guidelines, and safety concerns. In this study, we present GatorOnco, an agentic LLM for colorectal cancer (CRC) treatment planning. GatorOnco is developed using a total of 282 billion tokens of biomedical text, including healthcare system-scale clinical text comprising 166 billion tokens from UF Health. We implemented a domain-adaptation method that integrates pre-training, model merging, a two-stage post-training approach, and agent-based reinforcement learning. An agentic retrieval-augmented generation (RAG) approach dynamically integrates time-sensitive clinical guidelines into the reasoning process. In a blind, randomized clinical evaluation conducted by five UF Health oncologists, GatorOnco significantly outperformed open-source LLMs (P < 0.01) and achieved expert-level performance comparable to UF Health oncologists. Compared with expert oncologists, GatorOnco received significantly higher ratings for readability (4.46 vs. 4.19, P < 0.01) and completeness (3.91 vs. 3.52, P < 0.01), while showing statistically comparable performance in correctness (4.09 vs. 4.11, P = 0.921), currency (4.04 vs. 3.98, P = 0.478), and safety (4.22 vs. 4.22, P = 0.999). These findings demonstrate that integrating agentic reasoning with large-scale domain adaptation can help bridge the gap for generative AI in high-stakes cancer treatment planning.",
-      "date": "2026-08-10",
-      "url": "https://arxiv.org/abs/2608.09142v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.09142v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "09d862c3ce0a"
-    },
-    {
-      "title": "New knowledge source pipelines for sociocultural representations in a cognitive architecture",
-      "authors": "Swapnika Dulam, Julian R. Gay, Christopher L. Dancy",
-      "abstract": "Introduction With the increasing use of large language models (LLMs) and related scaled knowledge systems, it is important to achieve a better picture of the downstream impacts of the ubiquity of these systems. LLMs (as they currently are instantiated) largely output text using the skewed training data and patterns recognized through pretraining. The datasets of these systems are collected primarily from WEIRD (Western, Educated, Industrialized, Rich, Democratic) societies, and those data are often drawn from sources that represent marginalized, exploited communities (in WEIRD societies) problematically. This data process renders uneven representation, skewing potential cultural insights, and the complicated structure of LLMs can cloud the task of elucidating the full extent of problematic sociocultural structure representation within those models. Methods Using LLMs with process-based computational cognitive models and architectures (e.g., using ACT-R) provides a potential avenue for understanding the implications of these systems on human cognitive processes. We present two systems that combine the ACT-R architecture with more scalable, holographic (vector-symbolic) memory representations – one using an LLM and another using the ConceptNet semantic network – and compare the two systems using a cognitive model of the implicit association task (IAT). Results Though both systems are useful, we found that the ConceptNet based system more closely resembled human data from the IAT in its impact of sociocultural structure representation on behavior through memory. Nonetheless, both systems represent an opportunity to probe and evaluate those knowledge systems (i.e., ConceptNet and Llama3.2 in this case) using more cognitively relevant and plausible methods that are more generalizable to actual human behavior. Discussion Though we present a model of a relatively simple task here in the IAT, the results point to a unique and powerful opportunity to develop a deeper understanding of what the ubiquity of these (and related) systems means for the propagation and bootstrapping of existing sociocultural knowledge and structures – especially those structures that uphold problematic, racialized representations of the human.",
-      "date": "2026-08-10",
-      "url": "https://doi.org/10.3389/fpsyg.2026.1874556",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Psychology",
-      "direction": "llm",
-      "id": "aaaf7fcf15b6"
-    },
-    {
-      "title": "A Systematic Taxonomy of Large Language Model Inference Optimization: Bridging Model-Level and API-Layer Latency Reduction Strategies",
-      "authors": "Yao-Liang Chung",
-      "abstract": "The deployment of Large Language Models (LLMs) as autonomous agents in next generation infrastructures, such as Agentic AI-Native 6G networks, introduces severe latency, memory, and operational cost bottlenecks.Existing optimization approaches frequently treat model compression and system orchestration in isolation, failing to adequately address the multidimensional constraints of modern production environments.This paper presents a systematic, multi criteria taxonomy of LLM inference optimization, bridging granular model level compression techniques with macro level API-layer orchestration strategies.We conduct a rigorous comparative analysis of post training quantization algorithms specifically highlighting activationaware methods like AWQ alongside GPTQ and GGUF evaluating their trade offs across memory efficiency, inference throughput, and predictive quality.Our findings reveal that deployment efficiency is not solely dictated by numerical precision but is fundamentally a co-design problem requiring optimized hardware kernels and adaptive, importance aware parameter protection.Furthermore, we demonstrate that systemlevel interventions, such as intelligent model routing, prompt caching, and deterministic decoupling, yield immediate latency reductions without altering underlying model weights.Ultimately, this study provides a comprehensive, scenario based decision framework for matching specific quantization algorithms and APIlayer strategies to distinct deployment environments, ranging from high throughput GPU serving to resourceconstrained edge devices and safety critical autonomous systems.By unifying these perspectives, we establish a foundational guide for practitioners aiming to build reliable, high performance inference pipelines that ensure scalable and economically sustainable AI integration across diverse industrial domains.",
-      "date": "2026-08-10",
-      "url": "https://doi.org/10.6025/pca/2026/15/2/82-103",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Progress in Computing Applications",
-      "direction": "llm",
-      "id": "1a1995688769"
-    },
-    {
-      "title": "Subaltern Testimony and Necropolitical Sovereignty in Shadia al-Zoubi’s Aradna al-Hurriyyah'",
-      "authors": "Ahmad Fauzi Simatupang, Achmad Syafri Maulana",
-      "abstract": "This study examines Aradna al-Hurriyah by Shadia al-Zoubi from a postcolonial perspective by employing Gayatri Chakravorty Spivak's theory of Subalternity and Achille Mbembe's concept of Necropolitics. It aims to investigate the mechanisms of oppressive sovereignty in Syria and the forms of resistance articulated by subaltern subjects within testimonial literature. The study adopts a descriptive qualitative method, utilizing close reading and qualitative content analysis. The primary data consist of narratives, phrases, and linguistic expressions that represent violence, dehumanization, and freedom in the text. The findings reveal that the Syrian regime exercises internal colonialism through indiscriminate shootings, the bombing of civilian infrastructure, arbitrary detention, and the use of chemical weapons as instruments of necropolitical control. The analysis further demonstrates that testimonial narrative not only represents the lived experiences of subaltern suffering but also constitutes a space of political articulation through which silenced subjects are transformed into agents capable of renegotiating relations of power under conditions of state violence. These findings extend existing scholarship on Syrian testimonial literature by demonstrating the interconnection between subaltern experience, necropolitical governance, and the reconstruction of identity within a unified postcolonial analytical framework. Consequently, this study argues that testimonial literature functions not merely as a representation of wartime suffering but also as a medium for restoring human dignity, collective memory, and the sovereignty of identity while serving as a form of resistance to oppressive power. تتناول هذه الدراسة رواية \"أردنا الحرية\" للكاتبة شادية الزعبي من منظور ما بعد الاستعمار، مستندةً إلى نظرية التابع (Subalternity) عند غاياتري تشاكرافورتي سبيفاك ومفهوم السياسات الموتية (Necropolitics) لدى أشيل مبيمبي. وتهدف إلى الكشف عن آليات السيادة القمعية في سوريا، وأشكال المقاومة التي يعبر عنها التابعون في أدب الشهادة. واعتمدت الدراسة المنهج الوصفي النوعي من خلال القراءة الدقيقة (Close Reading) وتحليل المحتوى الكيفي. وتمثلت البيانات الرئيسة في السرديات والعبارات والتعبيرات اللغوية التي تمثل العنف ونزع الإنسانية والحرية داخل النص. وأظهرت النتائج أن النظام السوري يمارس شكلاً من أشكال الاستعمار الداخلي عبر إطلاق النار العشوائي، وقصف البنية التحتية المدنية، والاعتقال التعسفي، واستخدام الأسلحة الكيميائية بوصفها أدوات للسيطرة السياسات الموتية. كما بين التحليل أن السرد الشهادي لا يقتصر على تمثيل معاناة التابعين، بل يشكل فضاءً للتعبير السياسي تتحول فيه الذوات المهمشة والمقموعـة إلى فواعل قادرة على إعادة التفاوض بشأن علاقات السلطة في ظل عنف الدولة. وتسهم هذه النتائج في توسيع آفاق دراسة الأدب الشهادي السوري من خلال إبراز الترابط بين تجربة التابع، وآليات السياسات الموتية، وإعادة تشكل الهوية ضمن إطار تحليلي موحد يستند إلى دراسات ما بعد الاستعمار. وتخلص الدراسة إلى أن أدب الشهادة لا يؤدي وظيفة تمثيل معاناة ضحايا الحرب فحسب، بل يشكل أيضاً وسيلة لاستعادة الكرامة الإنسانية، والذاكرة الجمعية، وسيادة الهوية، فضلاً عن كونه ممارسةً مقاومةً في مواجهة السلطة القمعية. Penelitian ini mengkaji Aradna al-Hurriyah karya Shadia al-Zoubi melalui perspektif poskolonial dengan menggunakan teori Subalternitas Gayatri Chakravorty Spivak dan konsep Nekropolitik Achille Mbembe. Penelitian ini bertujuan mengungkap mekanisme kedaulatan represif di Suriah serta bentuk-bentuk perlawanan yang diekspresikan oleh subjek subaltern dalam sastra kesaksian. Penelitian menggunakan metode deskriptif kualitatif dengan teknik close reading dan analisis isi kualitatif. Data primer berupa narasi, frasa, dan ungkapan linguistik yang merepresentasikan kekerasan, dehumanisasi, dan kebebasan dalam teks. Hasil penelitian menunjukkan bahwa rezim Suriah menjalankan praktik kolonialisme internal melalui penembakan membabi buta, pengeboman infrastruktur sipil, penahanan sewenang-wenang, serta penggunaan senjata kimia sebagai instrumen kontrol nekropolitik. Analisis juga memperlihatkan bahwa narasi kesaksian tidak hanya merepresentasikan pengalaman penderitaan subaltern, tetapi sekaligus membentuk ruang artikulasi politik yang mentransformasikan posisi subjek yang dibungkam menjadi agensi yang mampu menegosiasikan kembali relasi kuasa dalam konteks kekerasan negara. Temuan tersebut memperluas pembacaan terhadap sastra kesaksian Suriah dengan memperlihatkan keterkaitan antara pengalaman subaltern, mekanisme nekropolitik, dan proses rekonstruksi identitas dalam satu kerangka analisis poskolonial. Dengan demikian, penelitian ini menegaskan bahwa sastra kesaksian berfungsi sebagai medium restorasi martabat kemanusiaan, memori kolektif, dan kedaulatan identitas di tengah kekerasan serta represi sistemik.",
-      "date": "2026-08-09",
-      "url": "https://doi.org/10.22373/nahdah.v6i2.10213",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "An-Nahdah Al- Arabiyah",
-      "direction": "llm",
-      "id": "91e3ed9bdf79"
-    },
-    {
-      "title": "Computer-Based Systems And Artificial Intelligence In Healthcare: A Review Of Applications, Challenges, And Future Directions",
-      "authors": "Fawaz H. Alanazi",
-      "abstract": "In the healthcare industry, AI and computer-based systems promise to advance patient care, improve diagnostic precision, and facilitate improved clinical decision-making. In this review, the use of cutting-edge AI tools like machine learning, deep learning, and natural language processing, along with telemedicine systems, clinical decision support systems, electronic health records, and lab automation systems, is explored. Early identification of disease, optimized treatment, evidence-based processes, real-time analytics, and efficient data management can be performed using artificial intelligence techniques. Currently, medical imaging, early diagnosis, drug development, personalized medicine, robotic-assisted surgery, and predictive analytics are important applications. Combining the technologies of Artificial Intelligence, Cloud Computing, and Internet of Medical Things allows for intelligent service in healthcare and constant monitoring of patients. It still, however, has challenges to address, such as the lack of skilled professionals, the cost of implementation, privacy and security issues, connectivity, and data quality. There's also an ethical concern because there's a lack of transparency and algorithmic prejudice. These challenges must be tackled by bridging the gap between disciplines, implementing robust regulations, and continually advancing technology to ensure the successful application of AI in healthcare. The technology could revolutionize the industry.",
-      "date": "2026-08-08",
-      "url": "https://doi.org/10.59543/jidmis.v3.1473",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Intelligent Decision Making and Information Science",
-      "direction": "medical",
-      "id": "4b1ff9ecc3a6"
-    },
-    {
-      "title": "Design of an Iterative Model for Contextual Structuring of Unstructured NoSQL Data Using Hybrid Topological, Probabilistic, and Relational Learning Models",
-      "authors": "Pragya Lekheshwar Balley",
-      "abstract": "Unstructured exponential growth of NoSQL data is causing an effective challenge for data processing in general, semantic querying, and integration into the traditional analytics pipeline for efficient data processing. Current solutions depend at least in part on rule-based static transformation or partial machine learning models, often lacking any preservation of semantic integrity, schema heterogeneity, or alignment with real-world usage patterns. These constraints severely cripple downstream applications like query optimization, relational mapping, and ML pipeline integration in process. This work proposes a thorough Contextual Structuring Pipeline that automatically converts unstructured NoSQL data into structured, schema-consistent, and optimized relational representations in the queries. The pipeline includes five new learning models designed to contribute to a specific subtask in the transformation. First, CADA-Net (Context-Aware Document Attention Network) uses transformer-based hierarchical encoding to segment raw NoSQL records into semantically meaningful key Value structures. Second, TopoGraph-X constructs an entity-type graph with multi-level topologies from latent document hierarchies through topological learning. Third, HarmoField employs domain-specific BERT embeddings along with the Gaussian mixture model to normalize field representation across heterogeneous sources. Fourth, MetaRel-Frame constructs meta-relational abstractions on logical entity-role patterns to discover relational table blueprints. Finally, QueryStruct transforms the blueprint into a use-optimized dataset through restructuring, indexing, reordering, and compressing its components, taking into account historic query logs. The structural accuracy achieved by this framework is 92.3%, schema normalized is 91.2%, and query latency is decreased by 39.4%. The entire process of structuring unstructured NoSQL data forms a fully automated method, semantically grounded and performance-aware, towards compatibility with SQL-ready, graph analytics, and downstream workflows in machine learning process.",
-      "date": "2026-08-08",
-      "url": "https://doi.org/10.59543/jidmis.v3.1481",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Intelligent Decision Making and Information Science",
-      "direction": "medical",
-      "id": "9861ff3aa233"
-    },
-    {
-      "title": "Named Entity Recognition (NER) in educational texts using transformer models with X (formerly Twitter)",
-      "authors": "Fida Ullah, Muhammad Ahmad, Muhammad Tayyab Zamir, Muhammad Arif, Grigori Sidorov, ...",
-      "abstract": "Named Entity Recognition (NER) plays a crucial role in Natural Language Processing by identifying and categorizing named entities in unstructured text into predefined classes. Most research focuses on high-resource languages, leaving Urdu particularly in the education domain largely underexplored. This gap is largely due to the lack of annotated datasets for educational content, which limits the ability of existing models to accurately identify entities in this domain. To fill this gap, this study makes four key contributions. First, a large-scale Urdu dataset is developed for the education domain, containing 599,007 carefully annotated named entities across 11 key classes. Second, a detailed annotation process and corresponding guidelines are established. Third, key linguistic challenges such as morphological complexity and ambiguity are identified and resolved during the annotation of formal Urdu texts. Finally, ten experiments are conducted using 5-fold cross-validation, involving three machine learning models, two deep learning models, and three transformer-based models to identify the best-performing approach for the said task. Based on the results, the proposed model (XLM-R) achieves a cross-validation score of 98%, outperforming classical methods such as Random Forest (89%) by 10.11%. To further evaluate the proposed model, ablation experiments using an 80–20 train–test split show that a frozen XLM-R encoder reaches 91% accuracy, while full fine-tuning attains 98%, confirming the importance of end-to-end training. This work not only fills a significant gap in Urdu NER research but also establishes a robust foundation for future exploration of educational texts in under-resourced languages.",
-      "date": "2026-08-08",
-      "url": "https://doi.org/10.1038/s41598-026-65864-z",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "medical",
-      "id": "91194c0daf7f"
     }
   ]
 }
