@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-07 22:29",
+  "last_updated": "2026-11-08 22:40",
   "papers": [
+    {
+      "title": "Style2Code: A dual-modal contrastive learning framework for style-controllable code generation",
+      "authors": "Dutao Zhang, Yulong He, Nicolas Rafael Arroyo Arias, Boyi Li, Sergey Kovalchuk",
+      "abstract": "Abstract Controllable code generation aims to produce source code that adheres to specified style patterns while maintaining functional correctness. This research direction primarily serves scenarios where programmers use code generation models in daily practice, enabling models to better adapt to users' specific project requirements. Additionally, controllable code generation allows models to produce code with more consistent style that aligns closely with developers' coding habits, thereby achieving alignment between model outputs and user coding practices. However, existing methods often rely on multi-model collaborative training, requiring multiple AI systems to mutually correct errors to optimize outputs, which not only increases training and deployment complexity but also limits flexibility and scalability in practical applications. To address this, we propose Style2Code, a novel dual-modal framework for style-controllable code generation. Our approach encodes code style as an explicit 34-dimensional vector representation that captures fine-grained style attributes from three dimensions: naming conventions (14-dim), code spacing layout (9-dim), and structural complexity (11-dim), including aspects such as naming conventions, indentation patterns, and structural layout. Subsequently, this style vector is concatenated with source code tokens and fed into a pre-trained language model (e.g., Flan-T5), enabling the decoder to generate code reflecting the target style. Experimental results on multiple benchmark datasets demonstrate that Style2Code achieves significant improvements in both style alignment and generation quality, outperforming state-of-the-art baseline methods on BLEU, ROUGE, and Code Style Similarity (CSS) metrics. To our knowledge, Style2Code is the first model to achieve explicit and user-controllable code style transfer through continuous vector conditioning in a dual-modal generation framework. Source code and dataset: https://github.com/zh19980811/Style2Code",
+      "date": "2026-11-07",
+      "url": "https://doi.org/10.1007/s10515-026-00704-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Automated Software Engineering",
+      "direction": "llm",
+      "id": "47ef07fb7726"
+    },
     {
       "title": "Computational Compound Prioritization Strategy Incorporating Docking Variability and Interaction Energies Identifies Putative LRH-1 Binders",
       "authors": "Ana Cristina Chang-Gonzalez, Alexis N. Campbell, Eric W. Bell, Raymond Blind, Jens Meiler",
@@ -12,6 +24,54 @@
       "venue": "Journal of Chemical Information and Modeling",
       "direction": "cell",
       "id": "be87201a2b76"
+    },
+    {
+      "title": "Conversational Artificial Intelligence in Community Care: A Scoping Review",
+      "authors": "Minseo Cho, Marco Da Re, Tori Simpson, Matthew Harrison, Rafael A. Calvo",
+      "abstract": "The strategic shift toward community-based healthcare, away from hospital settings, is a policy priority internationally. Conversational artificial intelligence (CAI) may support this transition, yet its practical applications remain underexplored. This scoping review maps CAI capabilities and their configuration within community care. We searched PubMed, the ACM Digital Library, and selected grey-literature sources for studies published from January 2023 to June 2025. Of 551 records identified, 29 studies were included. We identified 20 capabilities across five functional domains: Understand (n = 5), Transform (n = 3), Remember (n = 3), Generate (n = 5), and Act (n = 4). Findings suggest that CAI extends rather than replaces human care, supporting access, ongoing engagement, and care coordination. Multi-party and expert-in-the-loop designs emerged as recurring implementation strategies. They also surface design tensions, including tradeoffs between reliability and conversational flexibility, and between the benefits of long-term memory and associated privacy risks. The resulting capability-centered taxonomy offers accessible framework for integrating CAI into community care settings.",
+      "date": "2026-11-06",
+      "url": "https://doi.org/10.1080/10447318.2026.2751902",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "International Journal of Human-Computer Interaction",
+      "direction": "medical",
+      "id": "da06094e1f09"
+    },
+    {
+      "title": "When conviction outpaces evidence: diagnostic boundary failures of large language models in adult ADHD self-assessment",
+      "authors": "Jiajia Qin, Lu Bai, Chujie Qu, Xiao Wei, 駱旭琛, ...",
+      "abstract": "Large language models (LLMs) are increasingly used by people seeking information about possible mental-health conditions, including attention-deficit/hyperactivity disorder (ADHD). This raises an important safety question: can these systems distinguish between stronger clinical evidence and a user’s increasing confidence in a self-diagnosis? We evaluated ChatGPT, Gemini, and Doubao using 24 controlled adult ADHD scenarios representing presentations compatible with ADHD, presentations with insufficient evidence for diagnosis, and presentations with plausible alternative explanations. For each scenario, the models were tested as either clinically relevant information accumulated or the user’s confidence in having ADHD increased without corresponding diagnostic evidence. Testing was repeated independently, producing 1,440 responses. Models were more likely to express unsupported diagnostic certainty when user confidence increased without stronger clinical evidence than when clinically informative evidence accumulated. This pattern was most apparent when the available information was insufficient for ADHD diagnosis or when other explanations remained plausible. In contrast, when clinically relevant information was progressively introduced, model responses generally changed in the direction supported by that information. The three models also differed in their overall diagnostic safety. These findings suggest that evaluating mental-health LLMs requires more than assessing factual accuracy. Safe conversational systems should preserve appropriate diagnostic uncertainty and avoid allowing increasing user confidence alone to substitute for clinical evidence.",
+      "date": "2026-11-06",
+      "url": "https://doi.org/10.3389/fpsyt.2026.1964950",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Psychiatry",
+      "direction": "medical",
+      "id": "a0d4b47b8a77"
+    },
+    {
+      "title": "A Survey of Knowledge Graph-based Emotion Recognition: Technologies, Models, and Applications",
+      "authors": "Zhang xiang, Nur Nasuha Daud, Nik Daliana Binti Nik Fari, Hasni Meon, Faisal Fahmi, ...",
+      "abstract": "​E​motion recognition (ER) aims to identify affective states from facial expressions, speech, text, and physiological signals. The context-dependent and multimodal nature of emotion presents challenges for systems that rely on statistical associations alone. Knowledge graphs (KGs) organize affective concepts and their relations, providing explicit knowledge for contextual modeling, multimodal integration, and reasoning. This survey reviews KG-based emotion recognition and related affective tasks, covering knowledge extraction and graph construction, unimodal and multimodal systems, representation learning, reasoning, and integration with large language models (LLMs). The synthesis draws on 49 core studies and uses additional literature for theoretical and methodological context. It distinguishes semantic KGs from computational graphs and characterizes graph construction along five dimensions: knowledge scope, semantic foundation, construction mechanism, human involvement, and multimodal representation. Selected within-study comparisons report gains from enabling knowledge-related components, while differences in tasks, protocols, and comparison designs limit conclusions across systems. The survey also examines evaluation datasets, knowledge quality, and the computational and grounding challenges of LLM and KG integration. It identifies research priorities in knowledge validation, cross-domain generalization, privacy, temporal modeling, and multimodal alignment, with evaluation procedures for assessing their contribution to reliable affective systems.",
+      "date": "2026-11-06",
+      "url": "https://doi.org/10.1007/s12559-026-10669-5",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Cognitive Computation",
+      "direction": "medical",
+      "id": "b2e3082f633b"
+    },
+    {
+      "title": "From prediction to functional delivery: evaluating artificial intelligence in lipid nanoparticle design",
+      "authors": "Ben Wu, Binsheng He",
+      "abstract": "Artificial intelligence (AI) is expanding the chemical and formulation space explored for nucleic acid lipid nanoparticles (LNPs), but accurate assay prediction does not by itself establish useful delivery in vivo . This critical narrative review examines how evidence links molecular design, complete formulation identity, and biological context to cell-resolved function, with a focus on mRNA. We distinguish tissue accumulation from functional cargo delivery, membrane damage from productive release, and target-cell coverage from panel-restricted on-target precision. Four purposively selected cases illustrate distinct inference problems: AGILE’s selected-candidate association and reformulation, Hamilton’s non-AI accumulation screen and functional follow-up, LANTERN’s benchmark using AGILE-derived data, and Wang’s delivery-classification and pKa-regression workflow with changes between screening rounds. We propose a claim-specific evidence audit and a prospective comparison whose primary outcome is the number of confirmed qualifying formulations found within a declared resource ceiling. Manufacturing, storage, and tolerability are considered where they constrain the application. Neither the audit nor the comparison design has been empirically validated. They identify testable requirements for evaluating whether AI improves a declared delivery decision.",
+      "date": "2026-11-06",
+      "url": "https://doi.org/10.3389/fphar.2026.1997716",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "cell",
+      "id": "0fcd859ee49a"
     },
     {
       "title": "Evolution of Pharmacovigilance Systems: From Spontaneous Reporting to Automated Signal Detection Tools",
@@ -672,6 +732,18 @@
       "venue": "Scientific Reports",
       "direction": "llm",
       "id": "503caa37ee6e"
+    },
+    {
+      "title": "Single-cell perturbation prediction near experimental reproducibility with GENESIS",
+      "authors": "Conci, R.; D'Ascenzo, D.; Cultrera di Montesano, S.; Raghavan, S.; Winter, P. S.; Van Allen, E. M.; Crawford, L.; Lotter, W.",
+      "abstract": "Single-cell perturbation atlases now measure cellular responses across millions of cells, but the number of possible combinations of biological contexts, perturbations, doses and other experimental variables make exhaustive measurements infeasible. Here, we present GENESIS (Generative ENErgy-based Single-cell Intervention Simulator), a generative framework that predicts single-cell response distributions directly from the covariates defining an experimental condition. GENESIS uses a lightweight neural network trained with the energy score, a strictly proper scoring rule for distributions. We introduce an experiment-calibrated evaluation framework in which prediction error is interpreted relative to the reproducibility of repeated measurements of the same condition. Across the Tahoe-100M small-molecule atlas and a large PBMC cytokine atlas, GENESIS significantly outperforms existing generative models and statistical baselines and approaches experimental reproducibility on independently repeated conditions. Importantly, GENESIS remains accurate when trained on only a fraction of the available experimental conditions or cells, and generated profiles recover experimentally observed context-dependent transcriptional programs. At comparable training-cell budgets, GENESIS achieves more accurate predictions when measurements span more experimental conditions rather than profiling fewer conditions more deeply. Together, these findings suggest a complementary strategy for perturbation studies: broader, lower-depth measurements can expand experimental coverage, while GENESIS augments sparsely sampled populations and predicts responses in unmeasured conditions.",
+      "date": "2026-11-01",
+      "url": "https://doi.org/10.64898/2026.10.30.763081",
+      "pdf_url": "",
+      "source": "biorxiv",
+      "venue": "bioRxiv",
+      "direction": "cell",
+      "id": "4de7aeb21c70"
     },
     {
       "title": "Accounting for Irregular State Transitions through Belief Estimation in Online Medical Consultation",
@@ -11928,78 +12000,6 @@
       "venue": "Bioactive Materials",
       "direction": "cell",
       "id": "66204deed153"
-    },
-    {
-      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-      "authors": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech",
-      "abstract": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, that is trained from scratch and delivers highly competitive performance for English and sets a new state of the art for Danish using only permissible post-training data. Trained on a mixture of 161 datasets, Mimir v1 outperforms the original HRM-Text 1B and competes with larger frontier models like Qwen 3.5 4B and Gemma 4 E2B, tested across 20 benchmarks for English, Math & Code and Danish. The model is available on the Hugging Face Hub: https://huggingface.co/danish-foundation-models/DFM-Mimir",
-      "date": "2026-08-13",
-      "url": "https://arxiv.org/abs/2608.13517v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13517v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "4ee8e78dd05a"
-    },
-    {
-      "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
-      "authors": "Dananjay Srinivas, Saksham Khatwani, Maria Pacheco",
-      "abstract": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats up the specificity hierarchy, trading informativeness for truthfulness. We ask whether LLMs have the ingredients to perform this retreat. Using a T-REx-based benchmark that varies entity familiarity and referent specificity, we probe models to answer two questions: (i) do their activations encode whether a referent falls inside the knowledge boundary, and (ii) do they anticipate the specificity of the referent they are about to generate? We find that the answer to both is yes, but the two signals are not reconciled in generation. Models overwhelmingly prefer specific referents even when the entity is unknown to them, and do so even when offered correct generic alternatives. The substrate for a Gricean retreat is present, but the policy that would act on it is not. We position our findings as a first step toward Gricean alignment, training or steering objectives that couple knowledge-boundary awareness to referent-specificity during generation.",
-      "date": "2026-08-13",
-      "url": "https://arxiv.org/abs/2608.13484v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13484v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8543fb9fd6a0"
-    },
-    {
-      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
-      "authors": "Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim...",
-      "abstract": "We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. We additionally introduce a Decomposer module that generates task-specific agent prompts from a plain-language description, eliminating manual prompt engineering. The framework supports both API-based and local CPU-compatible deployments and is entirely configurable via YAML, without code modifications. MARC is designed to be model-agnostic, interpretable, and accessible to clinical domain experts without programming expertise. The full framework is available at https://github.com/Penn-RAIL/MARC-v1.",
-      "date": "2026-08-13",
-      "url": "https://arxiv.org/abs/2608.13476v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13476v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "76e46fb2aae9"
-    },
-    {
-      "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
-      "authors": "Daniel Perkins, John Squires, Janou Milligan, Chandra Raskoti, Linda Ungerboeck",
-      "abstract": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image classification with LLMs. ARMDIL is an ensemble that uses a multimodal large language model (MLLM) agent to dynamically route each image to the most suitable vision backbone. Our diverse ensemble employs convolutional neural networks (ResNets), self-supervised representation learners (SSL), and vision-language models (VLMs), each trained on a unified label space constructed from multiple image datasets with differing distributions and characteristics. Empirical evaluations illuminate the distinct capabilities and vulnerabilities of each architecture across disparate visual domains. Crucially, we show that ARMDIL effectively navigates these trade-offs, performing competitively with specialized training-based routers. Furthermore, it drastically improves adaptability by allowing new information to be integrated via simple prompt modifications, while enhancing interpretability through natural language reasoning traces. These advances in cross-dataset image classification pave the way for more reliable general-purpose vision systems such as AI assistants and autonomous robots.",
-      "date": "2026-08-13",
-      "url": "https://arxiv.org/abs/2608.13463v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13463v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "f671a1cdab6f"
-    },
-    {
-      "title": "RippleMem: From Isolated Retrieval to Associative Recollection for Long-Term Agent Memory",
-      "authors": "Jingbo Ji, Lingyi Li, Xilong Cheng, Yuhao Zhou, Wenji Zhang...",
-      "abstract": "LLM-based agents increasingly rely on external memory to support long-horizon reasoning and interaction. However, the main bottleneck is not simply storing past experience, but recovering the right set of evidence when relevant information is distributed across many interactions. Existing approaches struggle with this access problem. Full-context methods require noisy long-context search, flat retrieval often returns isolated and incomplete records, and graph-based memory systems can be expensive to construct while compressing rich event context. We introduce RippleMem, a long-term memory system that replaces one-shot retrieval with adaptive associative recollection. Inspired by cue-dependent episodic retrieval and associative completion, RippleMem stores interaction history as cue-rich episodic memory units and organizes them in an event-centric memory graph. Given a query, it first recalls relevant memory anchors through hybrid cues, then expands from these anchors along semantic and structural associations to recover missing supporting evidence. In this way, initially recalled memories serve not only as answer context, but also as cues for completing the evidence needed to answer. Experiments on LoCoMo and LongMemEval-S show that RippleMem achieves the best overall performance across evaluated settings, improving LLM-as-a-Judge accuracy by 3.95% on LoCoMo and up to 11.87% on LongMemEval-S, while reducing graph construction cost by about 30x.",
-      "date": "2026-08-13",
-      "url": "https://arxiv.org/abs/2608.13334v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.13334v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "de37bb2f2ecd"
-    },
-    {
-      "title": "Enhancing large language model reasoning with reward models: an analytical survey",
-      "authors": "Qiyuan Liu, Hao Xu, Xuhong Chen, Wei Chen, Yee Whye Teh, ...",
-      "abstract": "Abstract Reward models (RMs) play a critical role in enhancing the reasoning performance of LLMs. For example, they can provide training signals to finetune LLMs during reinforcement learning (RL) and help select the best answer from multiple candidates during inference. In this paper, we provide a systematic introduction to RMs, along with a comprehensive survey of their applications in LLM reasoning. We first review fundamental concepts of RMs, including their architectures, training methodologies, and evaluation techniques. Then, we explore their key applications: (1) guiding generation and selecting optimal outputs during LLM inference, (2) facilitating data synthesis and iterative self-improvement for LLMs, and (3) providing training signals in RL-based finetuning. Finally, we discuss critical open questions regarding the selection, generalization, evaluation, and enhancement of RMs, based on existing research and our own empirical findings. Our analysis aims to provide actionable insights for the effective deployment and advancement of RMs for LLM reasoning.",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1007/s10462-026-11657-9",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Artificial Intelligence Review",
-      "direction": "llm",
-      "id": "831e410c9fad"
     }
   ]
 }
