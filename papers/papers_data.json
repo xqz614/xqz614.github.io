@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-11-12 01:19",
+  "last_updated": "2026-11-12 23:58",
   "papers": [
+    {
+      "title": "Trustworthy AI for multimodal load-response modelling in team sports: a scoping review and full-text validation audit",
+      "authors": "Šimon Salaj, Michal Hrubý, Jan Cacek",
+      "abstract": "Introduction Artificial intelligence (AI), machine-learning and conventional statistical prediction methods are increasingly used in team-sport athlete monitoring, but it remains unclear whether current studies are validated and reported in ways that support trustworthy prospective use. This scoping review mapped predictive-modelling studies in team-sport athlete monitoring and multimodal load-response modelling and audited their validation and reporting practices. Methods Searches were conducted in OpenAlex, PubMed, Scopus and SPORTDiscus for records published from 2010 to 2026. After deduplication, screening and updated OpenAlex rerun screening, 258 studies were included and audited from full text. Systematic duplicate screening was not performed; full-text eligibility assessment and original audit coding were completed by a single reviewer. Data were extracted on publication characteristics, sport context, data modalities, modelled outcomes, model families and validation practices. A 10-domain trustworthy-AI audit assessed prediction context, temporal validity, repeated-observation independence, external validation, leakage control, calibration, class-imbalance handling, interpretability, uncertainty reporting and deployment/actionability. Bibliometric and NLP analyses provided complementary field mapping. A second reviewer independently assessed 45 studies from the original 223-study audit subset across all ten audit domains. Results The literature expanded rapidly after 2021, with performance modelling and injury-risk prediction as the dominant applications. Studies frequently used GPS/GNSS, session-RPE/internal load, wellness/sleep, HR/HRV, neuromuscular testing, IMU/accelerometry and video-derived features. Random forests, logistic/linear models and gradient boosting were the most common model families. Deployment-relevant validation remained limited. After targeted reassessment and updated-search incorporation, temporal validity was strongly documented in 28 studies (10.9%), while independent external validation was strongly documented in one study (0.4%) and partially documented in one additional study (0.4%). Leakage control, calibration, repeated-observation independence and model-level uncertainty reporting were also uncommon. Pre-correction exact agreement in the independent audit subset was 65.3% overall and varied substantially across domains. Discussion Predictive modelling in team-sport athlete monitoring is expanding, but model development has advanced faster than trustworthy validation practice. Future studies should define the intended decision context, preserve temporal and player-level data structure, prevent leakage, report calibration and uncertainty, validate models under realistic deployment conditions and translate outputs into practitioner-facing decision support.",
+      "date": "2026-11-11",
+      "url": "https://doi.org/10.3389/fspor.2026.2001654",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Sports and Active Living",
+      "direction": "medical",
+      "id": "8b7e08859d19"
+    },
+    {
+      "title": "A hybrid deep learning framework with domain-adapted embeddings for regulatory violation classification",
+      "authors": "Shuai Li",
+      "abstract": "Regulatory violation classification encounters fundamental challenges arising from the lack of domain-specific knowledge in general-purpose language models, insufficient multi-granular feature representation in single-architecture frameworks, and severe class imbalance characteristic of real-world regulatory datasets. This study introduces a hybrid deep learning framework integrating three synergistic innovations to address these limitations through domain-adapted embedding fusion, hierarchical feature extraction, and class-aware contrastive learning mechanisms. The domain-adapted dual-layer embedding fusion (DA-DLEF) dynamically combines general linguistic knowledge, specialized legal understanding, and regulatory-specific terminology through attention-based integration, while the Hierarchical Hybrid Feature Extraction Network (H2-FEN) captures discriminative patterns across local n-gram sequences, bidirectional temporal dependencies, and global contextual relationships through multi-scale convolutional processing, recurrent modeling, and regulatory-biased self-attention mechanisms. The class-aware contrastive fusion classifier (CA-CFC) optimizes inter-class separability and intra-class compactness through supervised contrastive learning combined with focal loss and multi-expert fusion strategies. Comprehensive evaluation on a constructed dataset of Chinese administrative penalty decisions demonstrates substantial improvements over state-of-the-art baselines, particularly for minority violation categories, validating the effectiveness of domain adaptation, hierarchical architecture design, and contrastive learning in enhancing classification performance. The framework provides practical solutions for governmental regulatory agencies requiring automated violation categorization with enhanced accuracy and equitable treatment of underrepresented categories.",
+      "date": "2026-11-11",
+      "url": "https://doi.org/10.1038/s41598-026-78042-y",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "d0633ef8d2c9"
+    },
+    {
+      "title": "Performance–efficiency trade-offs of large language models for structured extraction from Chinese clinical free text: a benchmark study of model scale, reasoning mode, and architecture",
+      "authors": "Bosen Hu, Fei Wang, Chengdian Lan, Pan Liu, Ying Yu, ...",
+      "abstract": "Background Large language models (LLMs) may support structured extraction from clinical free text, but evaluation should consider accuracy, output validity, and inference efficiency. Objective To evaluate LLM performance–efficiency trade-offs in Chinese clinical text extraction across model scale, reasoning mode, temperature, architecture, and text-only versus multimodal configurations. Methods This single-center retrospective benchmark sampled 100 Chinese clinical reports per task: left ventricular ejection fraction (LVEF) extraction, carotid intima-media thickness (IMT) extraction, and coronary computed tomography angiography (CTA) classification. The same 300 reports were evaluated under 23 conditions, yielding 6900 outputs. Outcomes included output validity and all-report accuracy (exact-match for LVEF and IMT; classification for CTA). Class-specific precision, recall, and F1, macro-F1, and the Matthews correlation coefficient (MCC) were calculated among valid CTA responses. Local inference efficiency measures included tokens, time to first token, and end-to-end latency. Results Four designated default configurations achieved 99.7% overall accuracy and 100.0% validity. CTA accuracy was 99.0%, with valid-response macro-F1 of 0.984–0.985 and MCC of 0.969–0.970, although false-positive and false-negative errors differed. Reasoning increased Qwen3-0.6B overall accuracy from 31.0% to 88.7% and CTA MCC from 0.025 to 0.599. For Qwen3-32B, overall accuracy increased from 98.7% to 99.7%, CTA MCC from 0.890 to 0.970, and median end-to-end latency from 3.746 to 32.097 s. Temperature changes offered no consistent improvement across CTA metrics. Dense and mixture-of-experts configurations had closely spaced CTA metrics but different latency and token profiles. Text-only and multimodal Qwen configurations showed no consistent relative advantage across two temperatures. The primary dense-only parameter-scale association was not significant after multiplicity correction, and report-level estimates were sensitive to model composition. Conclusions Several evaluated configurations achieved high LVEF and IMT exact-match accuracy, CTA classification performance, and output validity on three predefined tasks. Class-specific metrics identified error differences that accuracy alone did not capture. Selection should consider all-report performance, output validity, class-specific errors, and inference requirements under intended deployment conditions.",
+      "date": "2026-11-11",
+      "url": "https://doi.org/10.3389/fmed.2026.1942113",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Medicine",
+      "direction": "medical",
+      "id": "185748e59048"
+    },
+    {
+      "title": "Exploring candidate molecular links between aspartame and pulmonary arterial hypertension through network toxicology and transcriptomics",
+      "authors": "Donghui Zhu, Xiuxiu Chen",
+      "abstract": "Objective To identify candidate molecular overlaps between aspartame target profiles and pulmonary arterial hypertension (PAH)-associated transcriptomic signatures. Methods We integrated network toxicology, Weighted Gene Co-expression Network Analysis (WGCNA), and 12 machine learning algorithms to prioritize candidate genes. Molecular docking, single-cell RNA sequencing, and virtual CAPN1 knockout analysis explored predicted interactions, cellular expression patterns, and network perturbations. Results We identified 21 overlapping genes enriched in renin–angiotensin and calcium-related processes. Machine learning prioritized CAPN1, ERAP2, ITK, PTGS1, and KDR. The five-gene panel achieved an area under the receiver operating characteristic curve of 0.972 in lung tissue and 0.660 in external blood samples. Docking scores ranged from −8.0 to −5.7 kcal/mol. PAH samples showed lower hematopoietic-cell proportions and reduced CAPN1 expression within this population. Virtual CAPN1 knockout identified VNN2 and MLX as candidate network effectors. Conclusion These analyses prioritize candidate genes for investigating molecular links between aspartame-related target profiles and PAH. The absence of exposure records, metabolite measurements, and experimental validation limits the findings to hypothesis generation.",
+      "date": "2026-11-11",
+      "url": "https://doi.org/10.3389/fbinf.2026.2008294",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Bioinformatics",
+      "direction": "cell",
+      "id": "d0383e90cf69"
+    },
+    {
+      "title": "Healthcare professionals' experiences of using an Artificial Intelligence training tool to practice asking questions about child abuse",
+      "authors": "Agenäs Helena, Ödling Maria, Ahlsten Catharina, Inger Kull, Ebbevi David, ...",
+      "abstract": "BACKGROUND: Children with chronic diseases face an increased risk of child abuse. The aim was to explore healthcare professionals' experiences with an artificial intelligence (AI)-based training tool for practicing questions to identify potential child abuse as well as their overall experiences of asking such questions. METHODS: An exploratory qualitative study was conducted at a pediatric hospital in Sweden. Fifteen healthcare professionals participated. Following a brief educational session on child abuse and its consequences, participants used an AI-based training tool to practice asking questions about potential child abuse in simulated conversations. Semi-structured interviews analyzed using Systematic Text Condensation, a thematic cross-case analysis method. RESULTS: Four categories emerged from the analysis, 'Perceptions of interaction and support in the training tool', 'An opportunity to practice asking questions about child abuse', 'Organizational support for learning and development', 'Difficulties and uncertainty in asking questions about child abuse'. The training tool was perceived as credible and engaging, and useful for practicing difficult conversations. The analysis revealed a need for practice in asking difficult questions and a need for managerial guidance to allocate time. Regular follow-up visits increase opportunities to build trust and are perceived to make it easier to ask sensitive questions. CONCLUSION: Healthcare professionals described uncertainty regarding how to ask about child abuse. Practicing with an AI-based training tool in simulated conversations appeared to increase their confidence and preparedness for addressing potential child abuse in clinical encounters.",
+      "date": "2026-11-10",
+      "url": "https://doi.org/10.1016/j.chiabu.2026.108410",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Child Abuse & Neglect",
+      "direction": "medical",
+      "id": "7a887fa18da1"
+    },
+    {
+      "title": "Understanding Advances in Computational Cognitive Neuroscience Over the Past Ten Years: A Scoping Review",
+      "authors": "Tiago Schimit Rocha, Sabrina Souto, Aline Macedo Brito, Thaynara Paiva Barbosa, João Pedro Pinheiro Alves, ...",
+      "abstract": "Abstract Computational Cognitive Neuroscience (CCN) is an interdisciplinary field that uses computational models to understand how the brain gives rise to cognition. Although the field has grown substantially over the past ten years, no review has systematically mapped the major advances achieved during this period. This review therefore aims to map advances in CCN over the past ten years by analyzing the most frequently used computational models, the cognitive domains investigated, and the computational tools employed, and by determining the predominant emphasis of the studies, whether theoretical, translational, or integrated. This scoping review was conducted in accordance with the methodology proposed by the Joanna Briggs Institute (JBI) and reported following PRISMA-ScR. Searches were performed in PubMed, Embase and IEEE Xplore between 24 and 28 April 2025, and were complemented by a supplementary relevance-ranked Scopus search and by expert-informed identification of additional records. A total of 104 studies were included. Recent progress in CCN was found to be predominantly theoretical, with research focused on memory, learning, language and communication, and decision-making. Recurrent neural networks and Bayesian models emerged as the most widely adopted frameworks. Although CCN has advanced rapidly over the past ten years, the field continues to face critical challenges, notably concerning neurobiological plausibility, model integration, limited external generalizability, and a pressing need for more translational research. Beyond the reviewed corpus, the review discusses emerging AI paradigms, transformers, foundation models, large language models, and neuromorphic computing, as prospective directions informed by complementary literature.",
+      "date": "2026-11-10",
+      "url": "https://doi.org/10.1007/s12559-026-10658-8",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Cognitive Computation",
+      "direction": "cell",
+      "id": "f58f05f7feab"
+    },
     {
       "title": "Pathology AI clinical integration: From promise to practice",
       "authors": "Pingjun Chen, Francis A. San Lucas, Bella Samia Guerrouahen, Sara Ranjbar, Khushali Shah, ...",
@@ -11928,78 +12000,6 @@
       "venue": "Digital",
       "direction": "medical",
       "id": "fa5868e6dc49"
-    },
-    {
-      "title": "The Future of Research with AI: A Study of Innovation, Efficiency and Responsible Use",
-      "authors": "Dr. Vinod Kumar Kanakapura Channankegowda Ritesh Kandari, Ravi Ranjan Dr. Amita Garg",
-      "abstract": "Artificial intelligence (AI) has moved within a single decade from a specialised computational method to a general-purpose research instrument that now touches almost every stage of the scholarly lifecycle, from problem formulation and literature synthesis to experimentation, analysis, writing and peer review. This paper asks three connected questions: where AI produces genuine innovation in research rather than incremental automation; where it delivers measurable efficiency; and what conditions of responsible use must hold for those gains to be epistemically and ethically legitimate. The study adopts a structured narrative review of peer-reviewed literature, policy instruments and editorial guidance published between 2016 and 2026, and synthesises the evidence through thematic coding into a conceptual model. We find that innovation gains cluster in domains where AI compresses very large combinatorial search spaces—protein structure prediction, molecular and materials screening, and simulation surrogates—while efficiency gains are widest in language-intensive and data-curation work, where they are also most weakly audited. The dominant risks are epistemic rather than merely procedural: fabricated citations, homogenisation of research questions, and an illusion of explanatory depth in which fluent output is mistaken for understanding. We argue that disclosure statements alone are an insufficient governance response, and propose the Innovation–Efficiency–Responsibility (IER) framework, comprising three pillars, twelve operational levers and a five-level institutional maturity scale. Implications are drawn for universities, funders, publishers and policymakers, with particular attention to resource-constrained institutions in India and comparable settings.",
-      "date": "2026-08-17",
-      "url": "https://doi.org/10.48175/ijarsct-38066",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Advanced Research in Science Communication and Technology",
-      "direction": "cell",
-      "id": "6e5f93254a99"
-    },
-    {
-      "title": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
-      "authors": "David Eric Austin, Kaheer Suleman, Jackie Chi Kit Cheung",
-      "abstract": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. However, existing work has raised questions about how LLMs actually balance exploration and exploitation. Unlike classical agents, LLM agents engage with tasks through natural language, exposing them to semantic information with no formal counterpart in the task structure. We introduce the semantic bandit, an extension of the multi-armed bandit setting that explicitly considers the textual labels assigned to actions, and use it to study how semantic priors --- inductive biases arising from associations between language and expected reward learned during pre-training, shape LLM exploration behaviour. We find that semantically informative action labels reduce exploration in favour of exploitation, improving performance when aligned with the reward structure and severely degrading it when misaligned. We further find that negative rewards trigger substantially more exploration than equivalent positive rewards, consistent with an expected-scale bias induced by reward conventions common in pre-training data. Overall, we argue that the use of language to define the environment and rewards introduces unavoidable biases derived from the fact that the model is trained on word co-occurence, with implications for the reliability and robustness of LLM agents in real-world decision-making settings.",
-      "date": "2026-08-17",
-      "url": "https://arxiv.org/abs/2608.16707v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16707v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "cb53d7b69d7a"
-    },
-    {
-      "title": "Closing the Affective Loop: Multimodal Speaker-Listener Emotion-Dynamics-Aware Empathetic Social Robots",
-      "authors": "Zi Haur Pang, Casey Kennington, Tatsuya Kawahara",
-      "abstract": "Empathetic social robots should respond not only to what users say, but also to how their emotions dynamically evolve during interaction. However, existing empathetic dialogue systems are often text-centered and primarily model empathy as a one-way mapping from the user's emotion to the system response, limiting their ability to capture embodied speaker--listener affective exchange. We present AffectLoop, a multimodal speaker-listener emotion-dynamics-aware spoken dialogue system implemented on the Misty II robot. The system tracks the speaker's verbal and facial affective dynamics, estimates the robot listener's own verbal and behavioral affective state, and conditions LLM-based response generation on both affective streams. The robot then generates a short spoken empathetic response together with emotionally congruent embodied behavior, forming a closed speaker--listener affective loop. We evaluate the system in a pilot within-subject study with five participants, comparing it with an otherwise identical utterance-conditioned baseline that omits the speaker- and listener-affective-state inputs. The proposed system received higher overall impression ratings, especially for empathetic response and user satisfaction. Post-hoc log analysis further showed higher speaker-listener affective alignment and stronger valence-based distress recovery. These preliminary results suggest that explicitly modeling both speaker emotional dynamics and listener affective state can improve embodied empathetic interaction.",
-      "date": "2026-08-17",
-      "url": "https://arxiv.org/abs/2608.16686v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16686v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "5ae943f92f99"
-    },
-    {
-      "title": "Reconstruction: A Blind Benchmark for Recovering Research Ideas from Pre-Publication Bibliographies",
-      "authors": "Shaolong Chen, Yanlin Fei, Nazhou Liu, Xinmiao Yu, Lei Li...",
-      "abstract": "Can a language model recover the true research idea of a published paper when given only that paper's pre-publication bibliography? We introduce Reconstruction, a blind idea-recovery benchmark that withholds the seed paper and all contemporaneous or future literature, and asks models to propose hypotheses that an independent large language model judge matches against the held-out ground-truth idea. A strict anti-leakage protocol-temporal citation cutoff, anonymous reference IDs, and frozen per-paper bibliographies, which prevents prompt-time leakage of the seed idea. Across six scientific domains and 643 evaluated papers, seven frontier models achieve only modest Match rates (approx. 3-15%). We then evaluate a reference-only multi-agent (top 4) pipeline that combines cross-model review with a Swiss tournament over aligned hypothesis slots, without external web search. Cross-model review plus tournament selection raises Match rates to approx. 23-42% across all six domains, which is an observed approx. 2.4x lift over the best single-model baseline. This draft reports the protocol, anti-leakage design, and current results as an arXiv timestamp.",
-      "date": "2026-08-17",
-      "url": "https://arxiv.org/abs/2608.16645v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16645v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "9b3f75dd70b2"
-    },
-    {
-      "title": "When Do Explanations Help In-Context Learning? A Comparative Study of Natural Language Explanation Types and Faithfulness",
-      "authors": "Mahdi Dhaini, Adam Dejl, Juraj Vladika, Volkan Özer, Barbara Plank...",
-      "abstract": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL). However, it remains unclear how different types of NLEs compare in their effects on downstream model performance in explanation-augmented prompting. Therefore, we provide a comparative evaluation across six benchmarks and four instruction-tuned models, studying how NLE source (human-written when available, self-generated explanations, generated by an external LLM) and NLE selection (random vs faithfulness-based filtering) affect downstream utility of NLEs when used in ICL settings. Our extensive evaluation shows that, on classification-style benchmarks, adding NLEs to few-shot prompts often improves accuracy over few-shot prompting without explanations; among NLE sources, externally generated LLM-NLEs often provide strong downstream utility and remain competitive with human rationales where both are available, whereas self-NLEs are more sensitive to the selection strategy. On math reasoning, the effects are more model- and source-dependent. We further show that faithfulness-based selection of self-NLEs yields small average gains overall, but can improve or reduce performance depending on the metric, task, and model. Different faithfulness metrics can disagree substantially, affecting which self-NLE examples are selected and their downstream predictive utility. Robustness tests with randomly swapped and out-of-distribution rationales indicate partial robustness, suggesting that semantic alignment contributes to performance gains. Overall, our results provide insights for selecting and reporting explanations that influence model behavior in practical prompting pipelines.",
-      "date": "2026-08-17",
-      "url": "https://arxiv.org/abs/2608.16627v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16627v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "eeaa7c4f6255"
-    },
-    {
-      "title": "BabelSteering: Multilingual Safety Alignment via English Steering Vectors",
-      "authors": "Emma V. Stein, Dominik Meier, Terry Ruas, Jan Philip Wahle, Bela Gipp",
-      "abstract": "Large language models (LLMs) are deployed globally in high-stakes settings, yet most safety research and alignment efforts remain concentrated on English. Thus, users interacting with LLMs in other languages may encounter weaker safeguards despite relying on the same systems for similarly sensitive tasks. In this work, we investigate whether safety signals learned from a high-resource language, like English, can improve multilingual safety. We propose BabelSteering, an activation steering method that acts as a lightweight inference- time intervention, using refusal directions derived from English safety supervision to generalize across languages. Our evaluation includes eight languages and jointly measures refusal of harmful requests, over-refusal, and general task utility. The results show that BabelSteering increases the refusal of harmful requests across languages, with only a marginal to no reduction in task utility but with some increase in refusal of pseudo-harmful prompts. For example, for Gemma 7B, we see an average increase in the refusal of harmful prompts across languages of 11 percentage points (pp), with individual languages like Bengali seeing an increase of 17 pp, with no loss of utility on Global MMLU, while pseudo-harmful refusals increase by 13 pp on average. We also introduce a multilingual translation-and-evaluation pipeline to facilitate future work on cross-lingual safety interventions. Overall, our findings suggest that activation steering may provide a practical, low- cost mechanism for extending English-derived safety signals to other languages. Warning: this paper contains examples with unsafe content",
-      "date": "2026-08-17",
-      "url": "https://arxiv.org/abs/2608.16577v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.16577v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "059f4153dcf7"
     }
   ]
 }
