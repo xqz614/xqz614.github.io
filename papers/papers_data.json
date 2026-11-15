@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-11-14 22:52",
+  "last_updated": "2026-11-15 23:19",
   "papers": [
+    {
+      "title": "Interpretable neuro-affective language understanding for psychological and psychometric assessment towards clinical-support applications",
+      "authors": "Diego R. Faria",
+      "abstract": "Human language conveys interacting semantic, affective, behavioral, psychological and risk-related information that is commonly modeled through isolated natural-language-processing tasks. This paper presents NALU (Neuro-Affective Language Understanding), an interpretable multi-task language-representation framework designed to jointly model multiple complementary dimensions of psychologically relevant language. The framework combines a shared Transformer encoder with specialized prediction heads, element-level supervision masks, validation-based threshold calibration and an auditable deterministic interpretation layer. The study was developed in two experimental stages. The initial configuration used 205,109 samples and eight specialized prediction heads comprising exactly 45 scalar outputs. The framework was then extended and evaluated on an audited corpus containing 589,155 unique samples, including 395,417 Brazilian-Portuguese and 193,738 English records. The expanded multilingual configuration uses XLM-RoBERTa and twelve specialized heads covering sentiment, emotion, valence–arousal–dominance, psychological constructs, behavior, mental-health risk, neurodevelopmental-language indicators, psychiatric-language indicators, addiction/eating/cognition-related language, electronic-risk indicators, psychometric items and psychometric scores. For the initial eight-head configuration, the calibrated model achieved a composite test score of 0.761 with a 95% bootstrap confidence interval of [0.754, 0.767]. Macro-F1 reached 0.874 for psychological constructs, 0.783 for mental-health risk and 0.769 for clinical-language markers. Validation-tuned thresholds significantly improved emotion, psychological, behavioral, clinical and overall composite performance relative to a fixed 0.5 threshold ( p < 0.001), whereas the improvement for the risk head was positive but not statistically significant ( p = 0.096). The expanded 589,155-sample XLM-R configuration achieved a sentiment Macro-F1 of 0.7912 and emotion Macro-F1 of 0.6858. Threshold-free discrimination was high for several multi-label heads, with AUROC values of 0.9659 for emotion, 0.9838 for psychological constructs, 0.9694 for behavior, 0.9810 for mental-health risk, 0.9899 for psychiatric-language indicators and 0.9963 for addiction/eating/cognition-related language. Continuous prediction errors were MAE = 0.1009 for valence–arousal–dominance, MAE = 0.0109 for psychometric items and MAE=0.0280 for psychometric scores. Outcomes without sufficient positive held-out support are explicitly reported as not estimable rather than interpreted as validated zero performance. NALU is not presented as a diagnostic instrument. Psychometric outputs are interpreted as questionnaire-associated or language-derived latent estimates, and clinical-support outputs are intended for screening-oriented research and human-in-the-loop analysis.",
+      "date": "2026-11-13",
+      "url": "https://doi.org/10.1038/s41598-026-73224-0",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "dcd87a064393"
+    },
+    {
+      "title": "Patient‐Centred Communication About AI‐Related Information in Perioperative Care: An Attention‐Controlled Randomised Trial of Anxiety, Perceived Control and Interpretive Preparedness",
+      "authors": "Volkan Gökmen, Burcu Demir Gökmen",
+      "abstract": "BACKGROUND OR CONTEXT: Patients encountering artificial intelligence (AI) in health care may be uncertain about whether AI supports or replaces clinicians, who remains accountable and how general AI-related information applies to their own care. These are questions about how clinicians talk about AI rather than about how AI performs, and they may be particularly salient before surgery. This trial evaluated communication about AI-related information only: no AI system, clinical algorithm, device or decision-support tool was used, tested or applied to any participant's care. OBJECTIVE: The aim of this study was to evaluate whether a brief, public-informed, clinician-delivered protocol of structured AI communication improves immediate interpretive preparedness before surgery compared with time-matched attention-control supportive communication. DESIGN: Single-centre, two-arm, parallel-group, attention-controlled superiority randomised trial with 1:1 allocation. SETTING AND PARTICIPANTS: Adult patients scheduled for elective surgery at Ağrı Training and Research Hospital, Ağrı, Türkiye, were randomised 1:1 to structured AI communication (n = 60) or attention-control supportive communication (n = 60). INTERVENTION: Structured AI communication was a 5-7-min nurse-delivered session explaining that AI may support but does not replace health professionals, that responsibility for clinical decisions remains with the care team, that AI-related information may be general or probabilistic, and that such information should be interpreted within the patient's own clinical context. Attention-control supportive communication was time-matched nurse-patient contact about routine perioperative preparation without AI-specific content. MAIN OUTCOME MEASURES: The primary outcome was pre-surgery anxiety measured using the Amsterdam Preoperative Anxiety and Information Scale (APAIS) anxiety subscale. The key secondary outcome was perceived control. AI-related uncertainty, information clarity and trust in the clinical team were measured immediately after the session as study-specific communication-uptake indicators rather than as validated independent clinical endpoints. RESULTS: All 120 randomised participants completed the pre-surgery endpoint assessment. Pre-surgery anxiety was lower after structured AI communication than after attention-control supportive communication (9.28 ± 2.55 vs. 12.48 ± 3.01; baseline-adjusted mean difference [MD], -2.56; 95% CI, -2.87 to -2.26; p < 0.001). Structured AI communication was also associated with higher perceived control (25.83 ± 4.04 vs. 22.62 ± 3.90; adjusted MD, 3.73; 95% CI, 3.34 to 4.12; p < 0.001), greater information clarity and trust, and lower AI-related uncertainty. Clinically meaningful anxiety reduction (≥ 2 APAIS points) was more frequent after structured AI communication (48/60, 80.0%) than after attention-control supportive communication (1/60, 1.7%). The unblinded design and the immediate self-reported assessment may have amplified these differences through expectancy, novelty, social desirability and measurement reactivity. The responder result should therefore be interpreted as a short-term self-reported difference rather than evidence of durable clinical benefit. DISCUSSION AND CONCLUSIONS: In a single centre, a brief public-informed protocol was associated with better immediate self-reported psychological and interpretive preparedness before surgery. Structured AI communication about AI-related uncertainty and human accountability is a plausible patient-centred component of technology-enabled care. These findings do not show that AI technology itself improves patient outcomes, and they do not establish durable anxiety reduction, behaviour change or clinical benefit beyond the immediate preoperative window. LIVED EXPERIENCE OR PUBLIC CONTRIBUTION: Three lived-experience advisors reviewed patient-facing materials during protocol refinement. After analysis, a six-member public advisory group reviewed plain-language findings and advised on interpretation, practitioner-facing wording and calibrated trust, accountability and human oversight. Their feedback informed the Discussion and Practitioner Points. PATIENT AND PUBLIC CONTRIBUTION: Three lived-experience advisors with previous sur cal experience reviewed the patient-facing communication materials during protocol refinement. After analysis, a six-member public advisory group reviewed a plain-language summary of the findings and informed interpretation, practitioner-facing wording and the framing of calibrated trust, accountability and human oversight. TRIAL REGISTRATION: This randomised controlled trial was prospectively registered at ClinicalTrials.gov (Identifier: NCT07393945).",
+      "date": "2026-11-13",
+      "url": "https://doi.org/10.1111/hex.70838",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Health Expectations",
+      "direction": "medical",
+      "id": "38bd08ee9568"
+    },
+    {
+      "title": "Deep learning-based discovery of an antimicrobial peptide from Tenebrio molitor active against Gram-positive and Gram-negative bacteria",
+      "authors": "Mingfeng Xu, Xinhui Zhou, Fei Pan, Chaoyi Duan, Aifen Yang, ...",
+      "abstract": "Yellow mealworm ( Tenebrio molitor ) is an EU-approved novel food and a promising source of edible protein, yet its potential to release antimicrobial peptides (AMPs) upon gastrointestinal digestion remains largely unexplored. In this study, we employed a deep learning (DL)-driven approach to systematically mine the T. molitor proteome for novel AMPs generated during gastrointestinal digestion. A comprehensive in silico peptide library of 3,782,689 fragments was constructed via virtual enzymatic digestion of 49,132 proteins. A tailored Transformer-based model was applied for rapid screening, achieving 92% accuracy and high specificity, which led to the identification of seven candidate AMPs. These peptides were synthesized, and their antimicrobial activity was validated in vitro against five foodborne pathogens ( Staphylococcus aureus, Salmonella typhimurium, Escherichia coli, Pseudomonas aeruginosa , and Listeria monocytogenes ). Among them, AP2 exhibited potent activity, with MIC values as low as 1/16th that of the commercial preservative Nisin Z. Further analysis revealed AP2’s ability to self-assemble into stable nanoparticles and its primary mechanism of action: disrupting bacterial membrane integrity, as confirmed by SEM and all-atom molecular dynamics simulations. Furthermore, AP2 demonstrated favorable thermal, pH, and salt stability, as well as low cytotoxicity against mammalian cells. This study utilized a deep learning framework to identify antimicrobial peptides from yellow mealworm, particularly the AP2 variant with potent antibacterial activity. It holds potential for future applications in food preservation and infection control.",
+      "date": "2026-11-13",
+      "url": "https://doi.org/10.1038/s41538-026-01214-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Science of Food",
+      "direction": "cell",
+      "id": "9823def3596c"
+    },
+    {
+      "title": "The context-dependent roles of ATG5 in age-related lung diseases",
+      "authors": "Yuxin Liu, Bo Bian, Yu Li, Xiaolei Zhou, Yahong Qiao, ...",
+      "abstract": "Lung aging, characterized by the decline in lung structure and function, increases the susceptibility to age-related lung diseases. Autophagy-related 5 (ATG5) is a critical protein of the autophagy machinery and exhibits remarkably complex functions in the aging lung. Depending on the biological context, ATG5-associated processes may promote either cellular homeostasis and tissue repair or inflammation and tissue remodeling. In this review, we propose a context-dependent conceptual framework to explain the diverse roles of ATG5 in age-related lung diseases. Distinct ATG5-associated substrates and mechanisms produce different biological effects, while cellular states and disease stages influence which mechanisms predominate. We further highlight precision strategies for therapeutic modulation of ATG5, including context-dependent regulatory mechanisms, pharmacological approaches, targeted delivery, the potential role of artificial intelligence, and clinical translation. A comprehensive understanding of when, where, and how ATG5 should be modulated may open new avenues for precision pharmacotherapy and ultimately improve the treatment of age-related lung diseases.",
+      "date": "2026-11-13",
+      "url": "https://doi.org/10.3389/fphar.2026.1973016",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Pharmacology",
+      "direction": "cell",
+      "id": "3bbf3c7396a3"
+    },
+    {
+      "title": "Artificial intelligence virtual patients",
+      "authors": "Yanhong Pei, Xiaoya Li, Xin Yin, Yinglong Zhang, Ping Song, ...",
+      "abstract": "Translating fine-grained intracellular dynamics into predictable systemic clinical phenotypes remains a core challenge in biomedical research. This review explores the architectural continuum and translational value of artificial intelligence (AI) virtual patients (AIVPs) for bridging the gap between microscale biological mechanisms and macroscale clinical manifestations. We clarify the computational hierarchy of AIVPs, covering AI-based virtual cells, AI-based virtual extracellular vesicles, and AI virtual organoids. These modules jointly form the mechanistic basis of the integrated AIVP models. This review also clearly distinguishes between the epistemological connotations of AIVPs and digital twins (DTs). AIVPs act as population-level synthetic archetypes optimized for in silico clinical trials, whereas DTs serve as individualized longitudinal replicas updated by real-world data assimilation. Focusing on pharmaceutical research and development and regulatory science, we discuss the capacity of AIVP cohorts to reduce developmental risks in drug research. These in silico models can be used to construct synthetic control arms, optimize dynamic precision dosing, and accelerate regulatory progress via Model-Informed Drug Development. We further summarize the key obstacles restricting the clinical translation of AIVPs, including epistemological limitations, inadequate infrastructure, and complex socio-regulatory constraints. Resolving data fragmentation, reducing algorithmic bias, and unifying verification and validation standards are critical for transforming AIVPs from theoretical prototypes into credible regulatory and clinical tools (Graphical Abstract).",
+      "date": "2026-11-13",
+      "url": "https://doi.org/10.1016/j.engmed.2026.100171",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "EngMedicine",
+      "direction": "cell",
+      "id": "c99494baabc7"
+    },
     {
       "title": "AI-integrated programmatic assessment: a proposed framework for safeguarding cognitive development in AI-augmented learning environments",
       "authors": "Samar A. Ahmed, Mohamed Hany Shehata",
@@ -11940,66 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "d83445d38967"
-    },
-    {
-      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
-      "authors": "Mengru Wang, Haozhe Luo, Zhenqian Xu, Zhixiang Cui, Haoming Xu...",
-      "abstract": "Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memories reshape model reasoning and affect performance on the current task. We identify memory-induced cognitive traps: even faithfully recorded and semantically relevant memories can distort model reasoning or beliefs and degrade current task performance. To systematically evaluate these failure modes, we introduce MemTrapBench, which covers two forms of cognitive traps: Reasoning Fixation and Belief Distortion. Experiments across two model families and five representative memory frameworks show that MemTrapBench is challenging: all evaluated memory strategies underperform the no-memory setting, with even the strongest methods suffering drops of more than 10%. To mitigate these cognitive traps, we propose AdaptiveMem, a simple yet effective inference-time method that instructs LLMs to avoid memory traps. AdaptiveMem mitigates cognitive traps on MemTrapBench while preserving or improving performance on standard memory benchmarks across diverse memory frameworks.",
-      "date": "2026-08-20",
-      "url": "https://arxiv.org/abs/2608.20202v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.20202v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "246daea0e9fd"
-    },
-    {
-      "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
-      "authors": "Mehdi Azarafza, Faezeh Pasandideh, Ali Ehteshami Bejnordi, Stefan Henkler, Achim Rettberg",
-      "abstract": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks. To address these limitations, a hybrid framework is proposed. This system uses an orchestrator to coordinate PPO-trained reinforcement learning and PID control, with LLM common-sense reasoning applied throughout the framework. LLM reasoning is further employed iteratively to refine the RL reward function for dynamic driving environments. The proposed framework is evaluated in highly randomized CARLA scenarios under diverse environmental and traffic conditions. The results demonstrate the potential of integrating LLM-based reasoning with conventional autonomous driving methods while retaining structured control and safety mechanism.",
-      "date": "2026-08-20",
-      "url": "https://arxiv.org/abs/2608.20129v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.20129v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8b5f05feb007"
-    },
-    {
-      "title": "Towards Clinically Faithful Medical Image Captioning via Enhanced Vision-Language Alignment",
-      "authors": "Yunseo Lee, Hyun Jun Kim, Heeseung Shin, Changwon Lim",
-      "abstract": "Medical image captioning is a technique that accelerates early-stage diagnostic workflows and enhances the interpretability of medical diagnostic AI systems. However, unlike general image captioning, clinically reliable captioning remains challenging due to grayscale-based modalities, subtle anatomical cues, specialized medical phrasing, and variations in data quality. Despite recent advances in large vision-language models, fluent outputs do not necessarily guarantee sufficient alignment with clinical concept spaces or evaluation criteria. To address this issue, we propose a framework that strengthens clinical alignment by separating and enhancing training-time alignment and inference-time alignment. We build a medical image captioning pipeline that integrates single/dual vision encoders based on BioMedCLIP and SigLIP2, a Q-Former, and a LLaMA-based decoder, and examine the contribution of auxiliary learning for UMLS concept/type prediction. At inference, we apply single-embedding-based reranking to select the best caption among candidates, while at training we introduce MedPAIR-SCST, which combines clinically relevant rewards to shift the generative distribution toward improved clinical alignment. Our experiments show that complementary visual representations with a multi-encoder design and concept-level auxiliary learning help preserve clinically meaningful information. Furthermore, inference-time reranking provides a practical way to improve semantic and clinical alignment without additional training, whereas MedPAIR-SCST goes beyond selection by directly improving the model's distribution to generate more consistent and clinically grounded captions. These findings suggest that jointly leveraging selection-based alignment and reinforcement-learning-based alignment can promote more trustworthy medical image captioning even in data-constrained settings.",
-      "date": "2026-08-20",
-      "url": "https://arxiv.org/abs/2608.19825v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.19825v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "3d142c48d232"
-    },
-    {
-      "title": "PubMind: literature-based genetic variant extraction and functional annotation using large language models",
-      "authors": "Peng Wang, Kai Wang",
-      "abstract": "Abstract The rapid growth of biomedical literature has produced extensive functional knowledge on genetic variants, much of which remains buried in unstructured texts. Current databases such as ClinVar and the Human Gene Mutation Database (HGMD) attempt to catalog this knowledge but have significant limitations: ClinVar depends on voluntary submissions and covers only a fraction of published literature, while the academic version of HGMD is updated infrequently and provides limited functional annotation. To address these gaps, we developed PubMind, an AI-driven multi-layer framework that uses large language models (LLMs) to extract variant– function–disease associations and supporting evidence from text. PubMind integrates a fine-tuned BERT model for input triage with instruction-tuned GPT models for inferring disease associations and functional annotations. The system captures diverse variant types—including SNVs, CNVs, SVs, and gene fusions—and normalizes records to genome and transcriptome coordinates. Benchmarking demonstrates >90% accuracy in variant recognition and 99% precision in disease extraction. Application of PubMind on >41 million PubMed abstracts and >5 million open-access full-text articles produced PubMind-DB, a database containing ∼1.3 million unique variants with rich contextual annotations, accessible via a web interface and API. Only ∼10% of PubMind’s variants overlapped with ClinVar entries, yet >80% showed concordant pathogenicity labels, including full agreement with ClinVar’s expert-reviewed variants. Case studies demonstrate PubMind-DB’s ability to uncover supporting evidence for variant pathogenicity that might otherwise be missed by manual searches. Together, these findings establish PubMind as a scalable LLM-based framework that transforms unstructured biomedical text into structured genomic knowledge, advancing variant interpretation for precision medicine.",
-      "date": "2026-08-20",
-      "url": "https://doi.org/10.1038/s41467-026-76834-4",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Nature Communications",
-      "direction": "llm",
-      "id": "f5a16d886308"
-    },
-    {
-      "title": "ALPaCA: Adapting Llama for Pathology Context Analysis to enable slide-level question answering",
-      "authors": "Zeyu Gao, Kai He, Weiheng Su, Xiaobo Pang, Inês Machado, ...",
-      "abstract": "Abstract Large Vision Language Models (LVLMs) are increasingly used in computational pathology for image classification, description generation, question answering and interactive diagnostics. However, most pathology LVLMs analyse small regions of interest rather than pyramidal, gigapixel-scale whole-slide images (WSIs), limiting their use for tasks requiring whole-slide assessment across sub-regions and magnification levels. Here, we present ALPaCA (Adapting Llama for Pathology Context Analysis), a slide-level LVLM framework for WSI question answering across diverse cancer types and tissue sites. ALPaCA is trained using 35,913 WSIs with curated descriptions and 341,051 question-answer pairs from TCGA and GTEx. It combines a LongFormer vision-text adaptor with a Gaussian mixture model-based prototyping adaptor and Llama3.1. ALPaCA exceeds 90% accuracy on internal close-ended benchmarks and maintains 77–82% accuracy on independent external cohorts. Expert pathologist evaluation of open-ended responses supports its slide-level reasoning capability. Additionally, ALPaCA can be fine-tuned on organ- or disease-specific datasets, supporting specialised pathology question answering.",
-      "date": "2026-08-20",
-      "url": "https://doi.org/10.1038/s41467-026-76372-z",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Nature Communications",
-      "direction": "llm",
-      "id": "1ddf3fe41ef6"
     }
   ]
 }
