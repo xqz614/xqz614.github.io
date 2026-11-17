@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-11-15 23:19",
+  "last_updated": "2026-11-17 02:18",
   "papers": [
+    {
+      "title": "Frequency-aware and depth-guided neural radiance fields for 3D reconstruction of complex disaster scenes",
+      "authors": "Yi Chen, Dewen Tang, Liu HM, Junjia Chen, Xinlong Chen, ...",
+      "abstract": "Smoke occlusion, weak textures, non-Lambertian reflectance, and structural fragmentation in complex disaster scenes undermine multi-view photometric consistency and exacerbate depth ambiguity under sparse-view settings, resulting in geometric floaters, blurred boundaries, and the loss of fine details in neural radiance field reconstruction. To address these challenges, we propose a neural radiance field reconstruction method that integrates frequency-aware gating with depth-guided geometric priors. The proposed method constructs a hierarchical spatial representation using multi-resolution hash encoding, adaptively fuses low-frequency geometric features with high-frequency residual features through frequency-aware gating, and incorporates cross-level geometric consistency regularization and dynamic residual learning to suppress structural drift caused by hash collisions and enhance local responses in spectral transition regions. To mitigate geometric degradation under sparse-view conditions, monocular depth priors are further introduced, together with scale-and-shift alignment and an uncertainty-aware spectral consistency constraint, to reduce the adverse influence of erroneous priors on geometry optimization. Experimental results show that the proposed method improves the PSNR by 1.865 dB over the baseline model. Compared with the model using only depth priors, the proposed method reduces the depth MSE by 88.99%, demonstrating its effectiveness in improving pixel-level reconstruction accuracy, structural similarity, and depth consistency in complex disaster scenes.",
+      "date": "2026-11-15",
+      "url": "https://doi.org/10.1038/s41598-026-80278-7",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "e84da6f5e431"
+    },
+    {
+      "title": "ARTIFICIAL INTELLIGENCE APPLICATIONS FOR IMPROVING PRONUNCIATION SKILLS OF AUTISTIC PATIENTS: A CRITICAL REVIEW",
+      "authors": "Ghadeer Alaa, Zaid Abdi Alkareem Alyasseri, Ali Hilal Ali",
+      "abstract": "Autism Spectrum Disorder (ASD) is a developmental disorder and individuals with ASD experience challenges in social relation, communication, as well as speech articulation. Many children with ASD have significant difficulty pronouncing words properly, presenting difficulties with learning at school and communicating in day-to-day situations. Recently, AI has demonstrated high potential and application value in many therapeutic and educational applications, speech and pronunciation training among others. AI systems typically integrate speech recognition, text-to-speech synthesis, automatic feedback and interactive learning environments. However, even with this progress, the existing solutions still have limitations such as limited vocabulary, lack of real-time interaction and poor adaptation to different dialects and cultural backgrounds. In this paper, a review of AI techniques that have been proposed to enhance pronunciation skills in children with ASD is offered. The review included 44 peer-reviewed articles obtained from Scopus database. We indicate current research trends, reflect existing gaps, and propose directions toward the development of more adaptive, inclusive, and cultural responsive AI-pedestal pronunciation training tools for improving communication skills and quality of life in children with ASD",
+      "date": "2026-11-14",
+      "url": "https://doi.org/10.30572/2018/kje/170431",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Kufa Journal of Engineering",
+      "direction": "medical",
+      "id": "dafa4fb6a0f6"
+    },
+    {
+      "title": "Learning health system frameworks and the integration of artificial intelligence and data science in United States health care: a scoping review",
+      "authors": "Rotana M. Radwan, Hao Dai, Yao An Lee, Ronald Ramon, Wei‐Han Chen, ...",
+      "abstract": "Learning Health Systems (LHSs) use routinely collected data to generate evidence that informs practice through continuous learning cycles. Artificial intelligence (AI) and data science may strengthen this model, but how LHS frameworks and AI applications relate remains unclear. We mapped LHS frameworks and their components and examined how AI and data science are integrated. Searches identified U.S.-based, English-language studies published January 2007–August 2025; two reviewers independently screened and extracted data, resolving disagreements by consensus. We included 54 framework studies (24 [44%] conceptual adaptations; 30 [56%] real-world implementations) and 30 AI/data science studies. Five components recurred across the frameworks: data infrastructure and interoperability, governance and stakeholder engagement, learning and improvement cycles, evidence generation and translation, and equity and ethics. Relative to framework studies, AI studies less often addressed governance and stakeholder engagement (17% vs 35%) or equity (13% vs 22%), emphasizing computational over organizational functions. Most AI studies (27/30) focused on the data-to-knowledge phase; only three extended to knowledge-to-practice, and none described practice-to-data feedback with post-deployment outcomes informing model updating. AI applications capture only part of the LHS vision, concentrating on knowledge generation with less attention to the organizational and feedback mechanisms needed to translate insights into practice and sustain learning.",
+      "date": "2026-11-14",
+      "url": "https://doi.org/10.1038/s41746-026-03452-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Digital Medicine",
+      "direction": "medical",
+      "id": "e48acc05d2e0"
+    },
+    {
+      "title": "Large Language Models for AI Infrastructure",
+      "authors": "Bolin Shen, Shaoyi Huang, Yushun Dong",
+      "abstract": "Large language models (LLMs) are increasingly used to design, optimize, and operate the infrastructure behind AI training and serving, yet the literature remains fragmented across hardware design, machine learning systems, electronic design automation, and high-performance computing. We present a comprehensive survey of LLM-assisted AI infrastructure across its lifecycle, from accelerator design and kernel engineering to compilation, deployment, operations, data management, and energy optimization. We organize the literature by the primary resource the LLM manages: artifact-centric methods for computational artifacts, operational-centric methods for deployment context and system state, and resource-centric methods for data and energy. These categories span the lifecycle and cover AI-specific concerns such as distributed-training configuration, inference serving, GPU-cluster scheduling, and data loading. Building on this taxonomy, we conduct a cross-study quantitative synthesis of reported results. Because studies adopt heterogeneous benchmarks, baselines, hardware, and metrics, we compare methods only where evaluation conditions permit and align results along common dimensions: functional correctness, execution performance, throughput, resource and energy consumption, operational outcomes, and optimization cost, keeping each result's native metric, baseline, and setting rather than collapsing them into a single score. This comparison reveals where LLM-driven methods yield consistent gains, how reported gains in workload orchestration depend on the evaluation environment, from simulators to real clusters and production, and where evidence is still lacking. Together, the taxonomy, lifecycle perspective, and quantitative evaluation provide an evidence-grounded reference for LLM-driven engineering of AI infrastructure.",
+      "date": "2026-11-14",
+      "url": "https://arxiv.org/abs/2611.19061v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19061v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "f9993100f2bc"
+    },
+    {
+      "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
+      "authors": "Syed Nazmus Sakib, Nafiul Haque, Ahnaf Tahmid Manan, M M Mahabub Morshed, Shifat E. Arman",
+      "abstract": "Alignment-trained large language model (LLM) agents are increasingly deployed in autonomous, multi-round settings where ethical compliance can come into direct tension with task success. While safety literature extensively documents failure modes like sycophancy and reward hacking, it largely overlooks a critical vulnerability: how agents behave under simulated existential economic pressure. We introduce MemeEconomy, a multimodal agentic market simulation in which LLM agents act as meme investors. Agents select content from a five-tier harm taxonomy and target communities under low-pressure and high-pressure (survival) environments. Each decision is logged in a Belief-Desire-Intention (BDI) schema that we use as a diagnostic instrument, externalizing the agent's event understanding, declared priorities, and harm acknowledgment. Across ten models from four frontier model families, harmful selection rates remain consistently high and rise by +15 percentage points on average under an economic survival incentive. Frontier alignment-trained models commit to harm-tolerant selection at initialization while suppressing the explicit harm acknowledgment that previously accompanied it. In competitive tournaments, ethical agents finish higher overall, yet moderation penalties fail to suppress harm: harmful selection rates remain elevated in rounds following a removal, indicating the moderation mechanism does not function as a deterrent. We further train MemeAgent, a 2B-parameter verifier on the simulation's BDI logs, which outperforms zero-shot frontier verifiers on in-distribution audits (97.5% vs. 63-74% accuracy on the Pass vs. Block decision) and generalizes to external multimodal harm benchmarks (78% vs. 50-56% on Hateful Memes). The same logs that surface the failure mode also help train the model that detects it.",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18908v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18908v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "cd3ccf9ae3fc"
+    },
+    {
+      "title": "KUDEX: A Zero-Shot Decompositional Framework for Logical Analysis in Natural Language",
+      "authors": "Zixu Zhao, Tianhang Zhang, Tong He, Zheng Zhang",
+      "abstract": "While Large Language Models (LLMs) excel at generating fluent text, they often struggle with multi-step logical reasoning with inferential connections among statements. We introduce KUDEX (Knowledge-Upward-Downward Reasoning Extension), a novel zero-shot, decompositional framework for analyzing and verifying logical relationships in natural language. Unlike traditional approaches that rely on surface-level entailment checks, KUDEX leverages LLMs to decompose reasoning into atomic primitives and constructs transparent reasoning graphs that serve both as execution traces and audit logs. Our framework includes a general prompt adaptation pipeline that adapts to diverse reasoning tasks without additional fine-tuning or domain-specific pipelines. Through comprehensive experiments on benchmarks across four domains, we demonstrate that KUDEX provides superior performance compared to existing methods, offering a more granular and robust framework for assessing logical relationships between statements.",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18851v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18851v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b8e3a0606ffd"
+    },
+    {
+      "title": "f-Divergence Self-Play for Tabular Anomaly Detection via Large Language Models",
+      "authors": "Hoang Tran Vuong, Linh Ngo Van, Dang Nguyen, Thin Nguyen, Phuoc Nguyen...",
+      "abstract": "Anomaly detection in tabular data poses significant challenges due to heterogeneous feature types-mixing numerical, categorical, and textual attributes, which complicate learning meaningful representations of normality. Recent work has applied large language models (LLMs) to this problem by serializing table rows as text sequences, yet these approaches rely on one-shot supervised fine-tuning that offers limited signal to tighten the model's description of normality. We propose DiSPaT, a self-play fine-tuning framework that strengthens the model's understanding of normal data. Building on the theoretical foundation of f-divergence minimization, we derive a tight approximation connecting our training objective to reducing the distributional gap between real normal data and model-generated samples. DiSPaT operates through an alternating optimization: at each iteration, the current policy generates synthetic samples that serve as pseudo-anomalies, while a critic discriminator learns to distinguish these from real normal samples; this signal drives policy updates that progressively align the model distribution with the true normal-data distribution. Extensive experiments on diverse benchmarks demonstrate that DiSPaT consistently outperforms prior LLM-based methods, deep learning approaches, and classical unsupervised detectors for tabular anomaly detection.",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18370v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18370v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "59e4e2e4d29b"
+    },
+    {
+      "title": "A Multi-Layered AI Pipeline for BPMN Generation from Natural Language",
+      "authors": "Alexandru Rancea, Ionut Anghel, Tudor Cioara, Ovidiu Anchidin, Ancuta Nemes",
+      "abstract": "The automated transformation of unstructured natural language process descriptions into Business Process Model and Notation (BPMN) diagrams remains a challenging task, due to linguistic ambiguity and the difficulty to detect non-adjacent control-flow relationships. This paper proposes a solution for generating BPMN models from natural language descriptions through a multi-layered pipeline that integrates transformer-based architectures, Large Language Models and ontology population. The proposed method starts with natural language descriptions and separates textual processing, control-flow relation extraction, and structural validation into dedicated components. Entity extraction is performed using a fine-tuned RoBERTa-based transformer model while a control-flow engine captures non-adjacent relationships through LLM-based inference. To improve generalization under limited available data, the approach uses a dynamic few-shot strategy with con- trolled template input construction, enabling improved generalization under limited data availability. Additionally, an ontology population mechanism is introduced to represent the generated process models as semantic knowledge structures. For evaluation purposes we have used from the literature and industry reference processes. Additionally, we have validated the proposed method on a real-world heart disease patients transitional care process, capturing practical constraints and multi-actor collaboration, and serving as an expert-defined benchmark scenario. Experimental results demonstrate strong performance in the relation extraction task, achieving an accuracy of 90.7%, as well as maintaining structural alignment between the generated and reference BPMN models across multiple evaluation scenarios scenarios.",
+      "date": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18157v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18157v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "cb457c58b86a"
+    },
     {
       "title": "Interpretable neuro-affective language understanding for psychological and psychometric assessment towards clinical-support applications",
       "authors": "Diego R. Faria",
@@ -84,6 +180,18 @@
       "venue": "PLoS Computational Biology",
       "direction": "cell",
       "id": "042e83a32764"
+    },
+    {
+      "title": "Benchmarks Don't Talk Back: Learning Through Self-Disagreement",
+      "authors": "Soheil Abbasloo, Peng Cheng",
+      "abstract": "A benchmark usually measures a language model alone with a question, and deployment rarely looks like that: answers get contested, and models give up correct ones under counter-reasoning that is itself wrong. We show that what fails there is not a shortfall of accuracy but a capability in its own right -- knowing when to hold a position and when to yield to a better one -- which we call dialectical competence. It stands on first-answer accuracy without following from it: a model can be made materially better at answering and no better at this, and training for accuracy alone can drift against it. Nor can it be bought at inference, by self-reflection or by sampling more. Taking a cue from the dialectical tradition in philosophy, in which productive opposition arises within a position rather than being imposed on it from outside, we hypothesize that this capability can be trained from opposition the model supplies itself. It states a position, generates the strongest case against that position -- its antithesis -- rules on whether the case stands, and is trained on that ruling, with no second model at training or at deployment. We call this learning through Self-Disagreement: reinforcement learning from verifiable rewards throughout, where the same check that scores an answer against its reference scores the ruling too, so no reward model, no preference data and no human annotation enter anywhere. The capability is trained rather than elicited: weak in the base model, it arrives with the reward, is not paid for out of first-answer accuracy, and holds against challengers the model never trained against, including ones stronger than itself. The opposition a model needs in order to improve, it turns out, need not come from outside it.",
+      "date": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17563v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17563v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "fa5fe89fbc8d"
     },
     {
       "title": "Large language models for mental health",
@@ -7646,6 +7754,18 @@
       "id": "60b18520ce3d"
     },
     {
+      "title": "Interpretability-Guided Auditing for Clinical Language Models for Discharge Prediction",
+      "authors": "Ha Na Cho, Sairam Sutari, Alexander Lopez, Hansen Bow, Kai Zheng",
+      "abstract": "Clinical natural language processing (NLP) models for hospital discharge prediction are vulnerable to explicit discharge-related lexical cues in clinical notes, even when note timestamps are temporally filtered. These cues may act as proxies for future outcomes, leading models to rely on shortcut-like signals rather than clinically meaningful evidence. We propose AuditBERT-Discharge, a lightweight framework that reframes interpretability as a training-time auditing mechanism. Token-level SHAP attributions from an initial BioClinicalBERT model are used to identify highly attributed discharge-related tokens, which are subsequently masked in the training corpus before model retraining. We evaluate the framework on a retrospective cohort of elective spine surgery encounters from a single academic medical center. Qualitative attribution analysis and preliminary evaluation suggest that SHAP-guided auditing reduces reliance on explicit discharge-proxy language and yields more conservative, better-calibrated predictions, although improvements in discrimination are not uniform. These findings demonstrate the potential of interpretability-guided auditing as a practical strategy for identifying and constraining shortcut-like lexical dependencies in temporally sensitive clinical NLP tasks.",
+      "date": "2026-09-18",
+      "url": "https://arxiv.org/abs/2611.18626v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18626v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "96d3c6d15ea3"
+    },
+    {
       "title": "Consistent Relexicalization of Clinical Documents using Graph-Based Approach",
       "authors": "Dipankar Das, Atri Mandal, Sandeep Singh, Tushar Shandhilya",
       "abstract": "Relexicalization is a pivotal technique in clinical NLP, as it facilitates robust masking of sensitive information while synthesizing datasets that retain high-fidelity, real-world characteristics. However, preserving structural integrity, relational coherence, and temporal consistency during transformation remains a significant challenge. Existing approaches frequently rely on independent entity replacement, which results in clinical inconsistencies across longitudinal records. This reduces the value of such relexicalized datasets for downstream scientific analysis. To address these limitations, we introduce G-RELIC (Graph Based Contextual Relexicalization with Improved Consistency) which combines the power of LLMs with graphs. G-RELIC implements a graph-based mapping mechanism which optimizes for one-to-one correspondence between original and surrogate entities. It also introduces a deterministic temporal repositioning algorithm to preserve temporal consistency. Empirical evaluations on diverse, real-world clinical datasets validate that G-RELIC significantly outperforms state-of-the-art baselines. G-RELIC yields a 30.4 percentage point improvement in relational integrity (62.1% to 92.5%) and 45.9 percentage point improvement in temporal coherence (46% to 91.9%) without compromising on the recognized privacy benchmarks for clinical datasets. This maximizes the analytical utility of relexicalized datasets while minimizing re-identification risk.",
@@ -11880,126 +12000,6 @@
       "venue": "Frontiers in Materials",
       "direction": "cell",
       "id": "c366f5dff385"
-    },
-    {
-      "title": "Green extraction and smart nanodelivery of bioactive molecules for industrial and biomedical applications",
-      "authors": "Rekha Thiruvengadam, Carmelin Durai Singh, Parimala Lakshmanan, Naveenkumar Suresh, Baskar Venkidasamy, ...",
-      "abstract": "Plant-based bioactive compounds have gained considerable interest owing to their therapeutic and functional benefits in various sectors, including the food, pharmaceutical, cosmetic, and agricultural sectors. However, their real-time applications are limited due to their low solubility and decreased bioavailability. Nanotechnology has emerged as an effective strategy to improve the solubility, stability, and targeted delivery of plant-derived compounds. This review provides a comprehensive and integrated overview of recent advances in green extraction technologies and smart nanodelivery systems, highlighting their synergistic roles in improving the recovery, functionality, and industrial applicability of plant-derived bioactive molecules. Moreover, green extraction technologies, including supercritical CO₂ extraction and ultrasound- and microwave-assisted methods, are discussed. This study further explores advanced nanotechnology platforms, including nanoencapsulation systems, nanoemulsions, biopolymer-based nanoparticles, and nanostructured lipid carriers, which improve bioactive stability and delivery efficiency. Several formulation techniques, including nanoprecipitation, spray drying, freeze drying, and layer-by-layer assembly, have been addressed in relation to encapsulation efficiency, particle size, and shelf life. In addition, physicochemical, thermal, and functional characterization methods are discussed to understand nano-bioactive performance, release kinetics, and bioavailability. The major findings indicate that integrating green extraction with nanotechnology significantly enhances the extraction efficiency, physicochemical stability, bioavailability, and controlled delivery of plant bioactives, thereby facilitating their industrial and biomedical applications. Despite these advances, several challenges remain, including process scalability, long-term formulation stability, manufacturing reproducibility, regulatory approval, and commercialization issues. Future research should focus on the development of smart stimuli-responsive nanocarriers, artificial intelligence-assisted formulation design, sustainable manufacturing strategies, and circular bioeconomy approaches supported by life cycle assessments to accelerate the translation of laboratory research into commercially viable products.",
-      "date": "2026-08-21",
-      "url": "https://doi.org/10.1016/j.indcrop.2026.124186",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Industrial Crops and Products",
-      "direction": "cell",
-      "id": "900de84d21a2"
-    },
-    {
-      "title": "Development of AI competencies within the medical curriculum",
-      "authors": "María Belén Morales Cevallos, Diego Fabián Vique López, Catherine Hortensia Martínez Avalos, Brigette Carolina Huaraca Morocho, Jhonatan David Silva Ameza, ...",
-      "abstract": "Introduction The rapid integration of artificial intelligence (AI) into healthcare is transforming clinical practice and redefining the competencies required of future physicians. As AI increasingly supports diagnostics, clinical decision-making, and healthcare management, medical curricula must evolve to ensure graduates possess the knowledge, skills, and ethical competencies necessary to interact effectively with AI-enabled systems. Methodology A systematic review was conducted following PRISMA guidelines. Literature searches were performed in PubMed, Scopus, and IEEE Xplore for studies published between 2020 and 2025. Eligibility criteria focused on original studies addressing AI competency development, curricular interventions, educational frameworks, and AI-related training within medical education. Following screening and eligibility assessment, 20 studies were included in the final synthesis. Results AI literacy was the most frequently identified competency, alongside clinical AI applications, data science, ethical reasoning, critical appraisal, and human–AI collaboration. Integrated and longitudinal curriculum models emerged as the predominant approaches for competency development. Active learning strategies, particularly simulations, workshops, project-based learning, and authentic clinical applications, were consistently associated with positive educational outcomes. Discussion The evidence indicates a transition from isolated AI educational initiatives toward competency-based and longitudinal curriculum integration. Effective AI education extends beyond technical literacy and increasingly incorporates ethical, clinical, and professional competencies necessary for responsible AI adoption in healthcare. Conclusion AI competencies should be recognized as a core component of the medical curriculum. Integrated, longitudinal, and active learning-based educational models provide the strongest foundation for preparing future physicians to critically evaluate, ethically govern, and effectively collaborate with AI technologies in clinical practice.",
-      "date": "2026-08-21",
-      "url": "https://doi.org/10.3389/fmed.2026.1899639",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Medicine",
-      "direction": "llm",
-      "id": "fd971442e4ca"
-    },
-    {
-      "title": "Development of a hybrid artificial intelligence framework for pharmacotherapy optimization",
-      "authors": "Olaf Rose, Stephanie Clemens, Andreas Leiherer, Michael Bücker, Finn Petersson, ...",
-      "abstract": "Abstract Introduction Pharmacotherapy optimization in multimorbid patients is increasingly complex due to polypharmacy, fragmented data, expanding electronic health records, and workforce constraints. Conventional clinical decision support systems remain largely rule-based and often fail to adequately incorporate patient-specific context. While artificial intelligence offers new opportunities, stand-alone models remain insufficiently reliable for high-risk pharmacotherapy decision support. Aim To develop a relevance-driven, clinician-supervised hybrid AI framework for pharmacotherapy optimization. Method Using a design science-informed approach, an interdisciplinary research group developed a conceptual framework for AI-supported pharmacotherapy optimization. Framework development was informed by prior feasibility work, published literature, clinical practice requirements, and iterative interdisciplinary discussions. Hybrid AI was defined as the combination of retrieval-augmented generation, deterministic safety rules, and large language model reasoning. Results Seven design principles were identified, including decomposition of clinical activities, relevance-based prioritization, hybrid reasoning under clinician oversight, integration of patient goals, transparency of evidence sources, longitudinal optimization within a governed closed loop, and evaluation as a design requirement. These principles informed a conceptual architecture integrating structured clinical data, patient preferences, longitudinal patient information, and evidence retrieval within a clinician-governed decision-support framework. Conclusion The proposed framework conceptualizes AI as a relevance-structuring, clinician-governed decision-support layer rather than an autonomous decision-maker. By combining hybrid reasoning, patient-specific context, and professional oversight, it provides a conceptual foundation for future development, implementation, and evaluation of AI-supported pharmacotherapy systems.",
-      "date": "2026-08-21",
-      "url": "https://doi.org/10.1007/s11096-026-02205-0",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "International Journal of Clinical Pharmacy",
-      "direction": "llm",
-      "id": "78bd0c9dee19"
-    },
-    {
-      "title": "TransCat: a hybrid CNN-transformer network with KAN for medical image segmentation",
-      "authors": "Jin Wang, Zhenghua Yang, Dongming Zhou, Gang Chen, Sihan Wang, ...",
-      "abstract": "Medical image segmentation is a fundamental task in computer vision and plays an important role in clinical diagnosis and treatment planning. Existing methods are mainly built on either convolutional neural networks (CNNs) or Transformer-based encoder-decoder architectures. CNNs are effective at capturing local patterns, whereas Transformers are better suited to modeling long-range dependencies. However, current hybrid designs still face three persistent challenges: insufficient exploitation of multi-scale CNN features for global modeling, rapidly increasing attention cost after token expansion, and ineffective fusion between CNN and Transformer representations. To address these issues, we propose TransCat, a hybrid CNN-Transformer architecture for medical image segmentation. First, we introduce Patch Concat, which converts multi-scale CNN features into patch tokens and feeds them jointly into the Transformer, enabling global reasoning across multiple scales. Second, to control the computational burden caused by the enlarged token set, we develop an extended deformable attention mechanism with attentive value identification. Third, we design a Kolmogorov–Arnold Network (KAN) attention module for adaptive cross-branch fusion. The module projects high-level CNN and Transformer features into a shared space and uses a KAN layer to estimate data-dependent pixel-wise weights. These weights selectively modulate the globally modeled Transformer features, allowing complementary local structural evidence from the CNN branch to be incorporated according to the image content rather than through fixed addition or concatenation. Experiments on multiple medical image segmentation benchmarks show that TransCat is competitive under the reported protocols, with its clearest advantage observed on unseen polyp test data.",
-      "date": "2026-08-21",
-      "url": "https://doi.org/10.3389/fbinf.2026.1849059",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Bioinformatics",
-      "direction": "llm",
-      "id": "def144f2eec5"
-    },
-    {
-      "title": "Comprehensive overview of AI methodologies in nano-drug delivery Optimization and Design",
-      "authors": "Lei Zhang, Jun Li, Li Mu, Lanlan Guo, Jing Zhang, ...",
-      "abstract": "This review comprehensively examines the application of artificial intelligence (AI) to revolutionize precision oncology across all phases of drug development, including target discovery and molecular design, nanomedicine delivery, and resistance mitigation. Deep learning, systems biology, and multi-omics analytics enabled by AI accelerate target discovery, lead optimization, and personalized therapy. This study focuses on a new area of AI-driven nanocarrier design, adaptive therapy design, and digital twin clinical decision support. AI bridges the knowledge gap between molecular information and real-world data to enable forecasting, transparent, patient-centered cancer treatment, and the foundation for a data platform to counsel future generations of cancer patients, therapies, and resistance control.",
-      "date": "2026-08-20",
-      "url": "https://doi.org/10.1038/s41698-026-01513-y",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Precision Oncology",
-      "direction": "medical",
-      "id": "4a075bade04f"
-    },
-    {
-      "title": "Performing Power and Transitional Space: the Use of Acoustics and Multimodal AI in Etruscan Painted Tombs",
-      "authors": "Maurizio Forte, Jacqueline K. Ortoleva",
-      "abstract": "Abstract This article presents a new multimodal AI and acoustic methodology using two 5th c. BCE Etruscan painted tombs at Tarquinia, Italy, the Tomba del Gallo and the Tomba dei Demoni Azzurri as case studies. Via the integration of AI computer vision–based visual saliency analysis, architectural affordance modelling, acoustic data, and agent-based perceptual trajectories, the study suggests that each tomb affords distinct experiential strategies. The Tomba del Gallo privileges visual sequencing, threshold control, and gaze discipline, whereas the Tomba dei Demoni Azzurri potentially induces perceptual disorientation and immerses the visitor into a sensory and spatial environment that has the possibility of inducing trance-like experiences. A central contribution of the study is the reinterpretation of subterranean funerary spaces as possible transitional spaces, where architectural and symbolic devices mediate between life and death, order and chaos, memory and transformation, and sensory manipulation operate as core ritual technologies. Ultimately, we argue that when combined with scientifically documented acoustic data, AI enables archaeology to move beyond representational interpretation toward the experimental modelling of ritualised experiences in the ancient Mediterranean.",
-      "date": "2026-08-20",
-      "url": "https://doi.org/10.1007/s10816-026-09820-1",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Archaeological Method and Theory",
-      "direction": "cell",
-      "id": "54c5f5853204"
-    },
-    {
-      "title": "PubMind: literature-based genetic variant extraction and functional annotation using large language models",
-      "authors": "Peng Wang, Kai Wang",
-      "abstract": "Abstract The rapid growth of biomedical literature has produced extensive functional knowledge on genetic variants, much of which remains buried in unstructured texts. Current databases such as ClinVar and the Human Gene Mutation Database (HGMD) attempt to catalog this knowledge but have significant limitations: ClinVar depends on voluntary submissions and covers only a fraction of published literature, while the academic version of HGMD is updated infrequently and provides limited functional annotation. To address these gaps, we developed PubMind, an AI-driven multi-layer framework that uses large language models (LLMs) to extract variant– function–disease associations and supporting evidence from text. PubMind integrates a fine-tuned BERT model for input triage with instruction-tuned GPT models for inferring disease associations and functional annotations. The system captures diverse variant types—including SNVs, CNVs, SVs, and gene fusions—and normalizes records to genome and transcriptome coordinates. Benchmarking demonstrates >90% accuracy in variant recognition and 99% precision in disease extraction. Application of PubMind on >41 million PubMed abstracts and >5 million open-access full-text articles produced PubMind-DB, a database containing ∼1.3 million unique variants with rich contextual annotations, accessible via a web interface and API. Only ∼10% of PubMind’s variants overlapped with ClinVar entries, yet >80% showed concordant pathogenicity labels, including full agreement with ClinVar’s expert-reviewed variants. Case studies demonstrate PubMind-DB’s ability to uncover supporting evidence for variant pathogenicity that might otherwise be missed by manual searches. Together, these findings establish PubMind as a scalable LLM-based framework that transforms unstructured biomedical text into structured genomic knowledge, advancing variant interpretation for precision medicine.",
-      "date": "2026-08-20",
-      "url": "https://doi.org/10.1038/s41467-026-76834-4",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Nature Communications",
-      "direction": "medical",
-      "id": "f5a16d886308"
-    },
-    {
-      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-      "authors": "Sahil Kale, Ian Harris",
-      "abstract": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and beneficial knowledge. We argue that effective unlearning must operate at the level of concepts, ensuring complete removal of unsafe applications while maintaining their correct and useful usage, thereby achieving conceptually meaningful and complete unlearning. To better evaluate unlearning techniques from such a practical viewpoint, we introduce the notion of dual-use concepts: concepts that can be used in both harmful and benign contexts. Building on these concepts, we construct a benchmark called ConceptGuard where forget and retain sets are explicitly complementary in concept usage. Our benchmark uniquely enables unlearning to be explored and gauged at the level of concepts, instead of sparse facts, and evaluation is intent-sensitive with the goal of maximizing contextual separation to promote safer behavior. We demonstrate that current unlearning techniques perform poorly under this setting, showing weak contextual separation alongside poor performance in ROUGE and concept-level metrics. Our results reveal strong forgetting-utility trade-offs, limited gains in contextual sensitivity, and poor consistency in concept-level control across methods, and provide ideas for unlearning approaches that better align with real-world safety requirements. Our dataset is publicly available.",
-      "date": "2026-08-20",
-      "url": "https://arxiv.org/abs/2608.20338v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.20338v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "fa839712006f"
-    },
-    {
-      "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
-      "authors": "Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou",
-      "abstract": "Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question answering. We propose IAR (Inject, Align, and Recover), a three-stage post-training framework that separates structured document knowledge injection, QA behavior alignment, and general ability recovery. Unlike conventional continued pretraining, Inject converts source documents into continuation, rewrite, and instruction-conditioned reconstruction objectives. Align then adapts the injected model with answer-only QA supervision, while Recover merges the domain-adapted model with the base instruction model to recover general capabilities. Across Common Corpus (CC) and CCI, and across Llama, Phi, Qwen, and SmolLM model families, IAR improves the domain-primary domain-general frontier for retrieval-free document internalization. In the main comparison, IAR improves over Vanilla SFT on all four reported metrics in 7 of 8 dataset-model settings, with average gains of 3.6 percentage points in domain QA accuracy and 12.1 percentage points in mean general performance across IFEval, MMLU, and MSBench. Extended CC baselines show that LoRA and FAPM can win individual general metrics, but among methods that also reach leading or near-leading domain internalization, IAR retains one of the strongest general profiles.",
-      "date": "2026-08-20",
-      "url": "https://arxiv.org/abs/2608.20281v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.20281v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "1efd8952fcde"
-    },
-    {
-      "title": "ContractScrub: A benchmark for final review of legal contracts",
-      "authors": "Yejin Bang, Kirsty Fielding, Brandan Oliver, Brian Birke, Nabeel Seedat...",
-      "abstract": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for errors and inconsistencies, is a particularly suitable task for automation, because it is routine, painstaking work requiring detailed attention to long documents. Scrubbing also seems to align naturally with the general capabilities expected of frontier LLMs around long-context reasoning, consistency checking, and named entity recognition (NER). Despite the economic value and potential for automation, no formal evaluations of LLMs performing contract scrubbing have been conducted. We introduce ContractScrub, the first benchmark designed to evaluate contract scrubbing capabilities, comprising contracts hand-crafted by experienced lawyers over diverse error categories such as misuse of defined terms, incorrect references, and inconsistent language. Frontier models perform surprisingly poorly with only one model reaching 0.75 macro average recall despite strong performance on seemingly related general benchmarks, demonstrating the practical limits of current models and the importance of narrowly targeted, domain-specific benchmarks for measuring real-world impact.",
-      "date": "2026-08-20",
-      "url": "https://arxiv.org/abs/2608.20204v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.20204v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "d83445d38967"
     }
   ]
 }
