@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-11-18 01:29",
+  "last_updated": "2026-11-19 01:00",
   "papers": [
+    {
+      "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
+      "authors": "Lorenzo Masoero",
+      "abstract": "The \"AI revolution\" has enabled teams across the technology industry to deliver software features at unprecedented velocity. While code evolves faster than ever, customer-facing documentation often struggles to stay up to speed. As users increasingly rely on LLM-based agents that consume documentation as their primary interface, the impact of this documentation gap worsens: stale information propagates and is treated as authoritative. Signals for identifying where documentation has fallen behind already exist in abundance, both explicit (e.g., resolved support tickets revealing what documentation lacks) and implicit (e.g., code-documentation discrepancies detectable from automated loops). We deploy a multi-agent system, built around a triage agent we call \"TriAgent,\" that continuously extracts these signals and repairs documentation drift. Over 43 days of shadow-mode operation, our system triaged 499 tickets and surfaced 92 gaps in the documentation. Using a panel of LLM judges from independent model families, 81.1% of TriAgent's verifiable assertions were correct (245 of the 302 assertions the human resolution addresses; majority of three judges); on length-comparable pairs the panel preferred TriAgent's response in 70.5% of pairs and the human engineer's in 23.2% (the rest had no judge majority). Importantly, agent- and human-sourced replies tended to be complementary, with the human often surfacing insights that were either buried within the existing documentation or missing from it entirely; our system turns each such insight into a documentation gap and, after human review, a fix. Repairing a gap measurably improved the agent's later answer: when the agent re-answered the same ticket after the repair, blinded judges preferred the post-repair answer over its own pre-repair answer 71.4% of the time (n=35). A blinded human audit confirms strong alignment on self-improvement.",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23142v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23142v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "ba1c04236ed7"
+    },
+    {
+      "title": "Natural Language Programming: Rethinking Language, Memory, and Cognition in the Era of Generative AI",
+      "authors": "Giovanni Adorni, Daniele Grosso",
+      "abstract": "Generative Artificial Intelligence is transforming the role of natural language in computational systems. In classical Natural Language Processing (NLP), language was treated as an object of computation: something to analyse, classify, translate, or generate. Large Language Models (LLMs) challenge this perspective, enabling natural language to function increasingly as an executable cognitive medium through which humans structure reasoning, orchestrate problem solving, and regulate hybrid human/AI workflows. This paper introduces Natural Language Programming (NLPg) as a theoretical and epistemological extension of traditional NLP. Rather than focusing on language understanding alone, NLPg conceptualises prompts as dynamic cognitive artefacts that externalise goals, constraints, assumptions, validation criteria, and intermediate reasoning states. Prompting is thus not merely a technical interaction technique, but a form of dialogic cognitive programming operating within distributed human/AI memory architectures. Building on theories of distributed cognition, extended mind, metacognition, and dialogic learning, the paper proposes the notion of Dialogic Working Memory, describing how prompts and conversational states function as temporary external memory structures supporting reasoning continuity and reflective regulation. We further map existing memory architectures (BTMA, SKGE, RMR) onto this framework, illustrating how episodic, semantic, and metacognitive layers support long-horizon conversational coherence. Finally, implications for computational linguistics and AI/mediated knowledge systems are discussed, suggesting a post symbolic and post interface paradigm in which natural language operates simultaneously as communication medium, executable specification, cognitive scaffold, and distributed memory architecture.",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23106v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23106v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9e34f2eae308"
+    },
+    {
+      "title": "ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents",
+      "authors": "Yicheng Tao, Yuante Li, Zipei Fan",
+      "abstract": "Agents built on large language models (LLMs) increasingly forecast real-world events by searching the Web and reasoning over what they find. How well such an agent forecasts depends on both the retrieved evidence and the model, making control over that evidence essential for evaluation. Live evaluations can mix retrieval with reasoning when each system searches on its own, while retrospective search can leak later information through date filters or today's ranking of historical pages. Comparing models, search sources, and memory strategies requires both fixed evidence and a record of how it evolved before resolution. We introduce ForecastGym, which records what four commercial web search APIs return for open prediction-market questions every two days and replays this frozen evidence offline once outcomes are known, comparing models, memory, and captured search sources under a fixed evidence-acquisition policy. Its first release covers 150 questions, 614 evidence states, one per question and collection time, and 131k search results. Rerunning the same queries after settlement returns results that all but state the outcome for up to 92% of the questions, despite the tested date filters. On the frozen evidence, all tested LLMs trail the market in forecasting accuracy. Our diagnostic analysis suggests that missed public information contributes more to the gap in high-gap states than misreading does. Switching the search API changes a model's Brier score by up to 0.043, more than the spread across models, while persistent notes score similarly to rereading all evidence at half the input tokens. The evidence a forecaster sees can matter as much as the model that reads it.",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23045v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23045v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e6c1898ec6df"
+    },
+    {
+      "title": "The Shared Word: Evaluating Language Models on Dutch Word Puzzles",
+      "authors": "Rik van Noord, Maurice Voors",
+      "abstract": "Many LLM benchmarks for languages other than English are translated, multiple-choice, or difficult to score automatically. We introduce The Shared Word (TSW-NL), a Dutch benchmark built around four core principles: it is language-specific, open-vocabulary, human-curated, and deterministically scored. Each puzzle gives three clues that describe different senses or uses of the same Dutch word. The clues are individually ambiguous, requiring the solver to combine evidence across multiple clues. We construct the benchmark from Dutch Wikipedia disambiguation pages, followed by automatic filtering and extensive manual curation. The final dataset contains 222 instances, with three independent human answers per test item. The task is clearly challenging: scores in our human study range from 49.5% to 61.0% and the highest-scoring open-weight model we tested reaches only 39.3%. Many others even score below 20%. At the same time, closed-source models show great progress: GPT-4.1 (April 2025) scores 59.2%, whereas GPT-5.6 Sol with max reasoning scores 88.8%. We believe this task provides a useful addition to Dutch model evaluation, plus a clear recipe that can be applied to construct a similar benchmark for other languages.",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22935v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22935v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "81af68157fc1"
+    },
+    {
+      "title": "AfriNORM: An Evaluation Benchmark for Normative Reasoning of LLMs Across African Cultures",
+      "authors": "Ahmad Samuel Gali, Tadesse Destaw Belay, Idris Abdulmumin, Seid Muhie Yimam, Shamsuddeen Hassan Muhammad",
+      "abstract": "Large language models (LLMs) are increasingly deployed across various sectors. However, current evaluation benchmarks are insufficient to assess the applicability of these models in local African contexts, as most focus on linguistic fluency (grammar/translation) rather than cultural competence. The few existing benchmarks that measure general knowledge or social conventions do not capture the African deontic modality, i.e., the strict norms and taboos that govern diverse social interactions. In this paper, we introduce AfriNORM, a scenario-based, multiple-choice question dataset designed to measure and diagnose the normative reasoning limitations of LLMs when applied to African sociocultural contexts. We introduce two metrics: a Universal Commonsense Bias Score (UCBS) to quantify commonsense bias in LLM and a Distractor Bias Score (DBS) to quantify an LLM's limited understanding of African cultural norms. We also conduct a case study on the Yorùbá language, identifying confusion gaps in two closed-source LLMs, \"Gemini 2.0 Flash\" and \"GPT-5\", and one open-source LLM, \"Llama 3.1 8B Instruct\" when prompted in English versus Yorùbá. While their accuracy in English is high, their performance in Yorùbá is much lower, attributable to cultural confusion rather than simple bias, indicating that the models exhibit semantic confusion when reasoning about norms in Yorùbá.",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22580v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22580v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "2a2ab921b748"
+    },
+    {
+      "title": "When Do Typed Decision Models Work in Transportation? Evidence from Travel Choice and Traffic Signal Control",
+      "authors": "Hongyang Zhang, Boyuan Deng, Siyuan Feng, Kai Chen, Junbo Zhang",
+      "abstract": "Typed decision models combine natural-language understanding with a structured interface that returns a selected action and an option-level probability distribution without generating lengthy textual responses. Their low inference cost and response latency make them attractive for transportation problems with predefined alternatives. This paper investigates their effectiveness, robustness, and efficiency in two representative transportation tasks: individual travel-mode choice prediction and sequential traffic signal control. We systematically evaluate TypeSafe Jev and GPT-6 Luna Decisions against conventional transportation methods, reinforcement learning algorithms, and four chat-based large language models. Experiments on the Swissmetro dataset show that typed decision models achieve lower prediction accuracy than traditional discrete choice models and the strongest chat-based baseline, while their performance varies substantially with input representation and question framing. In closed-loop traffic signal control experiments, typed decision models demonstrate competitive performance against established controllers in several scenarios, but exhibit performance degradation under more challenging network conditions. Furthermore, the typed models achieve lower inference latency and computational cost than the evaluated chat-based large language models, highlighting their potential for efficient, zero-shot transportation decision-making. Overall, these findings demonstrate both the potential and limitations of typed decision models, emphasizing the importance of input design, task characteristics, and robustness evaluation for their effective application in transportation systems.",
+      "date": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22926v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.22926v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d0fc64c8ad82"
+    },
     {
       "title": "Decoding Complications: Large Language Model-Based Classification of Free-Text Entries in Clinical Stroke Registries",
       "authors": "Hannah Asperger, Johannes Weller, Felix Jürgen Bode, Taraneh Ebrahimi, Lara Klehr, ...",
@@ -11928,78 +12000,6 @@
       "venue": "International Journal of Intelligent Systems and Data Science",
       "direction": "medical",
       "id": "c707d73f5049"
-    },
-    {
-      "title": "An epithelial-derived epigenetic clock reveals pathway-level aging mechanisms in chronic lung disease",
-      "authors": "Jinxiao Liao, Zhongting Huang, Yuxin Liu, Fuqiang Cai, Jijun Zhu, ...",
-      "abstract": "Biological aging is strongly associated with tissue vulnerability in the respiratory system, yet existing epigenetic clocks remain limited by insufficient tissue specificity and poor mechanistic interpretability. We developed and validated tissue-specific PathwayAge clocks for airway epithelium and pulmonary parenchyma by projecting DNA methylation profiles onto gene ontology pathways. The epithelial clock yielded a mean absolute error (MAE) of 2.86, and a Pearson correlation (Rho) of 0.97, and the parenchymal clock remained consistent (MAE = 4.36–4.60; Rho = 0.889–0.899) across independent cohorts. Pathway-level analyses revealed distinct tissue-specific aging architectures. Epithelial aging was characterized by dysregulation of ABL1-, SOX9-, and MEF2C-centered pathways governing cell adhesion, apoptosis, and morphogenetic stability, suggesting early loss of adhesion-mediated signaling fidelity as a hallmark of epithelial aging. In contrast, pulmonary parenchymal aging was shaped by coordinated rewiring of developmental, cytoskeletal, inflammatory, and metabolic programs involving SOX4, WNT3A, LRRK2, HIPK2, EXT1, and TNF, consistent with a transition toward a pro-inflammatory and metabolically fragile state. Age acceleration further correlated with key clinical indices, including smoking burden, inhaled corticosteroid exposure, serum IgE levels, and disease severity. Convergent pathway association analyses identified shared disease mechanisms centered on impaired epithelial regeneration, sustained inflammatory activation, and maladaptive extracellular matrix remodeling.",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.1038/s41514-026-00487-2",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "npj Aging",
-      "direction": "cell",
-      "id": "863694b913e0"
-    },
-    {
-      "title": "SNAKE optimised deep neural networks for Parkinson’s disease detection using multimodal handwriting as a digital biomarker",
-      "authors": "Ishan Ayus, Biswajit Jena, Chandrashekhar Azad",
-      "abstract": "Early identification of Parkinson’s disease (PD) remains a major clinical challenge, largely due to the lack of definitive biological biomarkers and the continued dependence on subjective neurological evaluations. Subtle motor abnormalities often manifest in handwriting behaviour, making handwriting analysis an increasingly recognised non-invasive digital biomarker for detecting early neuromotor dysfunction associated with PD. In this work, a multimodal deep learning framework is developed that combines handwritten image patterns with sensor-derived handwriting signals to improve automated detection of PD. For analysing spatial handwriting patterns, several deep learning architectures are evaluated, like conventional convolutional models, residual and efficient networks, and recent transformer-based architectures such as Vision Transformer, Swin Transformer, DaViT, and ConvNeXtV2. Temporal handwriting dynamics are analysed using sequential learning models designed to capture motor execution patterns, including Bidirectional Long Short-Term Memory (BiLSTM), Bidirectional Gated Recurrent Unit (BiGRU), and a hybrid Conv1D–BiGRU architecture. To improve learning stability and model generalisation, hyperparameters are optimised using the SNAKE metaheuristic optimisation algorithm. In addition, a decision-level ensemble fusion strategy using accuracy-based weighting is applied to combine predictions from image and signal models, enabling effective utilisation of complementary spatial and temporal information. The experimental evaluation on the NewHandPD dataset shows that transformer-based vision architectures and hybrid sequential models achieve superior performance for individual modalities. The proposed multimodal fusion framework achieves classification accuracies of 98.95% for meander patterns and 97.74% for spiral patterns, which represent statistically significant improvements compared with unimodal approaches. These results show that multimodal handwriting analysis can serve as a robust and scalable digital biomarker for early PD detection. The proposed framework could provide the foundation for future clinical decision-support systems and remote neurological screening platforms after further clinical validation. Not applicable.",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.1007/s10791-026-10507-0",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Discover Computing",
-      "direction": "llm",
-      "id": "6566f3813260"
-    },
-    {
-      "title": "Multimodal Video Summarization Using Vision‐Language Embeddings and Hierarchical Temporal Modeling",
-      "authors": "S M Nazmuz Sakib, Kaushik Deb",
-      "abstract": "ABSTRACT Video summarization aims to produce concise representations of videos by selecting the most informative frames or shots. Existing methods predominantly rely on unimodal visual features extracted from convolutional neural networks, overlooking the rich semantic information that natural language can provide. In this paper, we present an integrated multimodal video summarization framework that makes two tightly coupled contributions. Initially, we construct a semantically enriched multimodal dataset by augmenting standard video summarization benchmarks (SumMe, TVSum, OVP, and YouTube) with BLIP‐2‐generated frame‐level captions and CLIP‐based aligned visual–textual embeddings, producing four feature variants—Image‐only, Text‐only, Averaged fusion, and concatenated fusion—for systematic analysis of modality contributions. We validate the dataset through cross‐modal retrieval, similarity gap analysis, Spearman complementarity correlation, and caption quality diagnostics, confirming that the generated captions are semantically meaningful and that the two modalities provide complementary information (average Spearman ). Finally, we develop a multi‐scale temporal summarization architecture comprising a U‐Net‐based temporal backbone and a hierarchical transformer‐style scoring head. Our best configuration achieves F 1‐scores of 59.27% on SumMe, competitive with recent state‐of‐the‐art methods while maintaining only 28.27M parameters with linear computational scaling.",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.1002/ail2.70039",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Applied AI Letters",
-      "direction": "llm",
-      "id": "a2038b25d12b"
-    },
-    {
-      "title": "Adaptive fast terminal sliding mode control and bionic intelligent optimization for hydraulic cylinder trajectory tracking and error warning",
-      "authors": "Tong Liu, Xianren You",
-      "abstract": "This paper addresses the challenges of precise trajectory tracking and proactive error management in hydraulic servo systems subject to inherent nonlinearities, parameter uncertainties, and external disturbances. A novel two-layer intelligent control framework is proposed. Distinct from existing approaches that combine adaptive sliding mode control with generic neural networks, this work introduces an adaptive fast terminal sliding mode controller (AFTSMC) that estimates the lumped disturbance bound online without prior knowledge, supported by a rigorous proof of practical finite-time convergence. In the second layer, a long short-term memory (LSTM) network predicts future tracking errors, with its hyperparameters optimized offline by an improved particle swarm optimization (IPSO) algorithm that incorporates future reference trajectory information. A real-time early warning mechanism is then established based on both the predicted error magnitude and its rate of change. Comparative simulations show that the AFTSMC achieves substantially higher tracking accuracy and robustness than conventional sliding mode control, and the IPSO-optimized LSTM yields significantly lower prediction error and improved goodness-of-fit relative to standard PSO-LSTM, demonstrating the effectiveness of the integrated framework.",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.1038/s41598-026-66044-9",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "cell",
-      "id": "4d285b0282b1"
-    },
-    {
-      "title": "Llm-assisted physics-guided spatiotemporal graph learning for power meteorological disaster evolution",
-      "authors": "Shuanglong Jin, Shenbing Hua, Xiaolin Liu, Zongpeng Song, Shu Wang",
-      "abstract": "Extreme meteorological events—such as winter cold waves, ice accretion, and typhoons—are increasingly becoming primary triggers that threaten the safe and stable operation of power systems. Their disaster-causing processes exhibit strong spatial correlations and multi-stage temporal evolution characteristics, posing severe challenges to traditional static risk assessment methods. Although existing spatiotemporal graph neural network approaches can characterize grid topological dependencies, they generally suffer from limitations including the absence of physical mechanism constraints, insufficient utilization of semantic information from disaster warning texts, and the inability of single-scale graph structures to capture the inherent hierarchical nature of “bus-level fine-grained topology versus meteorological-zone coarse-grained granularity.” To address these issues, this paper proposes an LLM-Assisted Physics-Guided Spatiotemporal Graph Learning model (LPG-STGNet). The proposed model incorporates a large language model (LLM) to perform structured semantic encoding of meteorological warning texts, constructs dynamic graph failure priors based on wind load guidelines and physical equations governing conductor ice accretion growth, and designs a hierarchical spatiotemporal graph encoder that integrates bus-level fine-grained topology with meteorological-zone coarse-grained structure. Furthermore, a semantic–physical dual-gating fusion mechanism is proposed to achieve adaptive weighting among multi-source information, thereby synergistically leveraging data-driven representations, physical priors, and semantic priors within a unified framework. Experiments are conducted on a disaster-evolution dataset constructed through DC-OPF cascade simulation on the ACTIVSg2000 synthetic power grid—built from real geographic and electrical parameters of the Electric Reliability Council of Texas (ERCOT) region and comprising 2,000 bus nodes, 1,250 substations, 3,206 branches, and 8 real meteorological zones—covering 600 synthetic winter cold-wave scenarios (43,200 hourly snapshots). Evaluated against nine mainstream spatiotemporal graph baselines under a unified protocol with three random seeds, LPG-STGNet achieves an F1-score of $$0.798\\pm 0.004$$ and a load-loss RMSE of $$10.02\\pm 0.15$$ MW on the branch-level trip-classification and node-level load-loss regression tasks, respectively, representing improvements of 6.2 percentage points in F1-score and 21.3% in RMSE over the strongest single-modality baseline. Ablation studies further confirm the effectiveness and complementarity of the physics-guided module and the LLM semantic module. This work provides a novel paradigm for power systems to cope with extreme meteorological disasters, featuring both physical interpretability and semantic understanding capabilities.",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.1007/s44163-026-02016-2",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Discover Artificial Intelligence",
-      "direction": "cell",
-      "id": "35c57d1990a6"
-    },
-    {
-      "title": "The Impact of Blockchain-Linked Audit Trails and Stakeholder Feedback Loops on Ethical Adherence in the U.S. Federal and State Agencies",
-      "authors": "Leon Pikor",
-      "abstract": "This dissertation explores the impacts of blockchain-based audit trails and stakeholder feedback loops on ethical conduct in U.S. federal and state public administration. The study addresses ongoing ethical problems in government, such as low levels of accountability, inadequate procedures, policy manipulation, and a waning public confidence in government, despite the existence of government ethics codes and oversight bodies. Ethical adherence is considered using two complementary theories: the virtue theory (Honesty, Fairness, Integrity, Responsiveness, Trust) and the deontological theory (Duty fulfillment, Rule following, Documentation, Accountability, Procedural compliance). The study was conducted with closed and open-ended answers from public administration participants who have experience in ethics, compliance, audit, procurement, oversight, stakeholder engagement, or other related areas using an anonymous online survey via Google Forms. Ten responses were received and nine valid responses were analyzed. The findings revealed that audit trails linked to blockchain were seen as the most beneficial for holding accountable, tracing, ensuring record integrity, reviewing and ensuring duty-based compliance. Stakeholder feedback loops were seen as most beneficial for fairness, honesty, telling the truth, responsiveness and public trust. The two tools were perceived as complementary tools and not as competing tools. The results, however, also showed that transparency instruments are not necessarily the drivers of ethical behavior. They rely on leadership, staff development, correct data entry, active data review, meaningful follow-up to feedback, and follow-through on actions. The study brings to the public administration literature a connection between mechanisms of transparency and ethical adherence in both virtue-based and duty-based approaches. It provides pragmatic advice to agencies that want to build ethical governance through technology, participation, and organizational culture in complex federal, state, and government-adjacent administrative contexts, in everyday practice.",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.13140/rg.2.2.29843.03368",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scholars Crossing (Liberty University)",
-      "direction": "llm",
-      "id": "e3ae38fbc9a5"
     }
   ]
 }
