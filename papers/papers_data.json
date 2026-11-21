@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-11-21 00:38",
+  "last_updated": "2026-11-21 23:42",
   "papers": [
+    {
+      "title": "What is the Role of Small Models in the LLM Era: A Survey",
+      "authors": "Lihu Chen, Gael P. Varoquaux",
+      "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in various reasoning tasks, which leads to the development of increasingly large models. However, scaling up model sizes results in significantly higher computational costs and energy consumption, which makes these models impractical for academic researchers and businesses with limited resources. At the same time, Small Models (SMs) are frequently used in practical settings, although their significance is currently underestimated. This raises important questions about the role of SMs in the era of LLMs, a topic that has received limited attention in prior surveys. In this work, we systematically examine the relationship between LLMs and SMs from two key perspectives: Collaboration and Competition ( or Complementarity ). We hope this survey provides valuable insights for practitioners, fostering a deeper understanding of the contribution of small models and promoting more efficient use of computational resources. Code and additional resources for this survey are available at: https://github.com/tigerchen52/awesome_role_of_small_models.",
+      "date": "2026-11-21",
+      "url": "https://doi.org/10.1162/coli.a.652",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Computational Linguistics",
+      "direction": "medical",
+      "id": "34a5811055eb"
+    },
+    {
+      "title": "Taking a Pulse on How Generative AI is Reshaping the Software Engineering Research Landscape",
+      "authors": "Bianca Trinkenreich, Fabio Calefato, Kelly Blincoe, Viggo Tellefsen Wivestad, Antonio Pedro Santos Alves, ...",
+      "abstract": "Context: Software engineering (SE) researchers increasingly study Generative AI (GenAI) while also incorporating it into their own research practices. Despite rapid adoption, there is limited empirical evidence on how GenAI is used in SE research and its implications for research practices and governance. Aims: We conduct a large-scale survey of 456 SE researchers publishing in top venues (2023–2025). Method: Using quantitative and qualitative analyses, we examine who uses GenAI and why, where it is used across research activities, and how researchers perceive its benefits, opportunities, challenges, risks, and governance. Results: GenAI use is widespread, with many researchers reporting pressure to adopt and align their work with it. Usage is concentrated in writing, data processing, and analysis, while goal formulation and study design remain largely human-driven. Although productivity gains are widely perceived, concerns about trust, correctness, and regulatory uncertainty persist. Researchers highlight risks such as inaccuracies and bias, emphasize mitigation through human oversight and verification, and call for clearer governance, including guidance on responsible use and peer review. Conclusion: We provide a fine-grained, SE-specific characterization of GenAI use across research activities, along with taxonomies of GenAI use cases for research and peer review, opportunities, risks, mitigation strategies, and governance needs. These findings establish an empirical baseline for the responsible integration of GenAI into academic practice.",
+      "date": "2026-11-20",
+      "url": "https://doi.org/10.1145/3864453",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "direction": "medical",
+      "id": "b564ff321430"
+    },
+    {
+      "title": "Policy Improvement-Guided Replay for Continual Reinforcement Learning",
+      "authors": "Qin-Wen Luo, Haoxuan Gao, Sheng Ren, Xiang Chen, Sheng-Jun Huang",
+      "abstract": "Continual reinforcement learning (CRL) requires models to acquire new capabilities while retaining performance on previous tasks. A stability-oriented perspective common in conventional continual learning emphasizes knowledge preservation and interference mitigation. Complementing this perspective, we revisit CRL for vision-language models through policy improvement, a fundamental principle of RL, to preserve acquired performance gains. Using the performance difference lemma, we characterize historical performance changes through the current policy's expected advantages on historical task distributions, motivating replay of historical prompts with the current policy. To allocate limited replay memory, we propose Contrastive Likelihood Replay (CoLiR), which contrasts likelihood gains on correct responses from the final task policy with likelihood reductions on incorrect responses from the initial policy. Our analysis links correct-response likelihood gains to reference-policy advantages under an idealized KL-regularized optimal update and provides an endogenous-reward interpretation for general policy updates. CoLiR estimates scores from finite training rollouts and cached log-likelihoods, selects prompts at task boundaries, and replays them uniformly during subsequent training, with KL regularization restricted to replayed prompts. Memory construction only requires a small amount of additional cross-policy scoring but no additional response generation. Across three Qwen3-VL model sizes on MRCL, CoLiR achieves the highest mean final accuracy and mean task accuracy among the compared methods while maintaining competitive new-task performance.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25989v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25989v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "5c9fc26926c0"
+    },
+    {
+      "title": "PAIR-MED: Policy-reward Alternation for Iterative Refinement in Multilingual Medical Reasoning",
+      "authors": "Fan Gao, Xiaohang Xu, Lang Huang, Nan Lu, Irene Li",
+      "abstract": "Large language models demonstrate strong medical question-answering capabilities, yet reasoning performance remains uneven across languages. Process reward models (PRMs) provide step-level feedback for improving reasoning, but a fixed PRM may become increasingly misaligned with the trajectory distribution of an evolving policy during reinforcement learning, thereby reducing the reliability of its supervision. We propose a policy--reward alternating training framework that jointly adapts a medical PRM and optimizes a multilingual reasoning policy. Following supervised initialization, the current policy generates multilingual trajectories to update the PRM, which then provides process-level rewards for the next policy update. Medical step supervision maintains the PRM's medical foundation, while process, outcome, and language-related rewards guide policy learning. We develop multilingual medical PRMs (PAIR-PRM) and reasoning models (PAIR-MED) at 8B and 9B scales across 12 languages. On the medical subsets of Global-MMLU and MMLU-ProX, our models improve average accuracy by 3.01--7.47% over their corresponding Qwen backbones. On CUREMED-BENCH, PAIR-MED-9B improves the joint language consistency and logical accuracy metric by 12.88% and 7.45% over baselines for in-domain and out-of-domain languages. Further analyses examine PRM adaptation, multilingual reasoning quality, and the contributions of individual training components.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25446v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25446v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "34377ad951f9"
+    },
     {
       "title": "PVminer: a domain-specific tool to detect the patient voice in patient generated data",
       "authors": "Samah Jarad Fodeh, Linhai Ma, Yan Wang, Srivani Talakokkul, Ganesh Puthiaraju, ...",
@@ -84,6 +132,18 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "b4cbd090a451"
+    },
+    {
+      "title": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
+      "authors": "Rudransh Agnihotri, Manasvi Kapoor",
+      "abstract": "Reinforcement learning (RL) can only teach a language model what its reward can recognize. Answer checkers are exact but need a reference answer; learned reward models and LLM judges work everywhere, but their scores are not probabilities. We study RLCDR (Reinforcement Learning from Calibrated Decision Rewards). An LLM converted into a decision model answers a typed question about a response (\"is the final answer correct?\", \"which step is the first error?\") with a probability distribution, read in one forward pass, debiased over option orders and calibrated with about a hundred labels. Training Qwen3-1.7B with GRPO on MATH, this reference-free reward raises MATH500 accuracy from 72.2% to 76.8% (+4.65 points, p < 1e-4), matching training on the answer key (76.9%), while a random reward gains only +0.65. The gain grows with difficulty, from 44.8% to 51.7% on the hardest level. On the policy's own changing samples the reward stays calibrated: its expected calibration error is half that of a softmax judge on the same 27B backbone (0.074 vs. 0.141), and it shows no sign of reward hacking. Without step training, the same model finds the first wrong step better than a dedicated 7B process reward model (ProcessBench F1 0.772 vs. 0.722, 20/20 splits). We also map where the approach stops being enough: trained only on problems the base model mostly fails, the reference-free reward still improves the policy (+1.9 MATH500 points, p = 0.03) but trails the answer key, because its probabilities become overconfident on that distribution. We state six hypotheses in advance and test each with a control designed to falsify it.",
+      "date": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.25135v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25135v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d302a11503b7"
     },
     {
       "title": "Lived experiences of relationships to generative AI mental health chatbots among adults",
@@ -11940,66 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "5cd17fb9e6bc"
-    },
-    {
-      "title": "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models",
-      "authors": "Augusto Camargo",
-      "abstract": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model weights, training data, alignment procedures, and user prompts. This view is incomplete. Modern inference pipelines may systematically modify the probability distribution produced by a model immediately before token selection, creating an additional layer of control between frozen weights and observed text. While controlled generation (e.g., PPLM, GeDi, DExperts, FUDGE) and text-watermarking systems (e.g., SynthID-Text) demonstrate the technical maturity of decoding- and logit-level interventions, the governance, security, and economic implications of an undisclosed inference policy remain comparatively underexplored. This paper examines the emergence of inference-time framing bias: the systematic modification of generated language toward political, ideological, institutional, or commercial frames via interventions applied after model inference but before token sampling. We formalize the operational reality Model != Deployed System and introduce three concepts: (1) the Inference Attribution Problem, characterizing why observed behavioral bias cannot generally be causally attributed to model weights alone under limited observability; (2) Probability Placement, defining a hypothetical advertising primitive in which commercial influence is implemented through systematic shifts in generation probabilities rather than explicit product insertions; and (3) Inference Policy Transparency, a governance principle for making deployment-layer interventions auditable. We examine these concepts in relation to Article 5 of the EU AI Act, the EU Digital Services Act, and FTC doctrines.",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24662v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24662v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "e122eb0e0924"
-    },
-    {
-      "title": "Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation",
-      "authors": "Ismail Hossain, Nafi Ullah Shafin, Mohammad Abdullah Al Mumin",
-      "abstract": "Post-training quantization lowers the memory footprint of Large Language Models (LLMs) and speeds up inference, which is why it is now common for on-device deployment. Most of what we know about its effects, however, comes from English benchmarks. It is not clear whether the same holds for morphologically complex, low-resource languages such as Bangla, and this gap is what we address here. We evaluate three model families---Qwen-2.5-7B, LLaMA-3.1-8B, and GPT-OSS-20B---in full precision and in three quantized formats (GPTQ-Int8, GPTQ-Q8, GGUF-W8A16) across five Bangla natural language understanding benchmarks (Bangla MMLU, CommonsenseQA-BN, OpenBookQA-BN, PIQA-BN, and BoolQ-BN), using zero-shot evaluation through lm-evaluation-harness. To our knowledge this is the first controlled comparison of quantization formats on Bangla NLU. The three families do not respond the same way: GPT-OSS loses up to 57.35% accuracy on reasoning-heavy tasks under GGUF-W8A16, while Qwen and LLaMA hold steady under GPTQ, and in a few cases the quantized version edges out the full-precision one. BoolQ-BN, a comprehension task, stays stable across all three families regardless of format. Taken together, these results suggest quantization can work well for Bangla deployment, but the choice of architecture and quantization method matters more than the bit width alone. We discuss what this means for practitioners choosing a model to run on constrained hardware.",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24615v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24615v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "23e45d2c798b"
-    },
-    {
-      "title": "FARCA: Fact-Aligned Reliability-Aware Credit Assignment for Reinforcement Learning with Factual Supervision",
-      "authors": "Qiming Xie, Wenjie Zheng, Xiangqing Shen, Rui Xia",
-      "abstract": "To reduce the hallucination risk caused by outcome-driven rewards in large language models trained through reinforcement learning with verifiable rewards, existing mitigation approaches introduce process-level factual supervision. However, due to coarse-grained aggregation of factual signals and the lack of reliability assessment for these signals, they create a mismatch between fact verification and policy updates. We term this noisy factual credit assignment and decompose it into two aspects: credit localization ambiguity and credit reliability ambiguity. To address these issues, we propose FARCA (Fact-Aligned Reliability-Aware Credit Assignment), a policy optimization framework that transforms factual supervision into localized, reliability-weighted token-level training signals. FARCA achieves fine-grained credit localization by aligning the granularity of fact verification with that of policy updates. It further introduces counterfactual evidence attribution, which uses the dependence of a factual judgment on key evidence as an empirical proxy for verification reliability to compute reliability weights. These weights modulate factual rewards and local policy advantages, reducing the influence of potentially unreliable signals on policy optimization. Experiments across different models and multiple factual reasoning benchmarks show that FARCA significantly improves model factuality while preserving general reasoning capabilities.",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24350v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24350v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "2d9165c9e392"
-    },
-    {
-      "title": "RecurSE: Bounded Recursive Self-Evaluation for LLM Rubric Judges",
-      "authors": "Kaiyuan Liu, Ziyuan Zhuang, Rongxiang Weng, Jieping Ye",
-      "abstract": "LLM-as-judge is essential for evaluating open-ended text and steering post-training, yet improving the judge itself typically relies on expensive annotations, reward models, or distillation from stronger teachers. In this work, we eliminate external gold supervision from the RL training reward: the model's own evaluative capability generates learning signals for its optimization -- a closed-loop setting of bounded recursive self-improvement (RSI) termed Recursive Self-Evaluation (RecurSE). We study two central questions: when can self-improvement occur, and when must it stop? First, RecurSE pairs a trainable judge evaluating candidate responses under per-rule rubrics (Pass 1) with a synchronized policy-copy checker that audits the judge's reasoning against meta-rubrics to supply a scalar process reward (Pass 2). To enable learning, interface decoupling structurally isolates the checker's scalar score from the judge's verdict tokens, eliminating a degenerative token-copying shortcut that inflates self-assigned rewards. Second, because unanchored recursive learning is inherently bounded, Pairwise Advantage Validity (PAV) serves as an unbiased validation monitor that jointly tracks judge accuracy and checker fidelity to reliably identify the optimal early-stopping window. Across Qwen3.5-9B, Gemma-4-E4B-it, and Qwen3.6-27B, RecurSE achieves consistent generalization gains across held-out medical, pairwise, summarization, and professional benchmarks. Ablations demonstrate that synchronized judge-checker co-evolution outperforms frozen checkers, external meta-judges, self-consistency, and scaled teacher distillation. Furthermore, preference pairs curated by our judge effectively enhance downstream policy alignment. Bounded RSI for LLM-as-judge is thus viable when self-produced reward validity is explicitly decoupled and monitored.",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24231v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24231v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "95e50e083337"
-    },
-    {
-      "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
-      "authors": "Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang, Renda Li...",
-      "abstract": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. Recent skill-based approaches, such as SkillRL, attempt to address this issue by extracting skills from raw trajectories, but treat the skill bank as an append-only repository without verifying whether stored skills remain effective. In this paper, we propose SkillForge, a framework for continuous skill evolution that enables skills to be verified and refined through environment interaction. By making skill usage explicit during agent interaction, RL can directly optimize both environment actions and skill invocation decisions. SkillForge further introduces evidence-based skill verification and multi-pathway skill induction, allowing the skill bank to continuously grow while maintaining its quality. Extensive experiments on ALFWorld, WebShop, and AppWorld show that SkillForge consistently outperforms SkillRL, demonstrating the effectiveness of continuously verified skills in training stronger LLM agents.",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24747v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24747v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "8ec4b992976a"
     }
   ]
 }
