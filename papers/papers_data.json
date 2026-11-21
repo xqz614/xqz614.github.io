@@ -1,6 +1,90 @@
 {
-  "last_updated": "2026-11-20 01:04",
+  "last_updated": "2026-11-21 00:38",
   "papers": [
+    {
+      "title": "PVminer: a domain-specific tool to detect the patient voice in patient generated data",
+      "authors": "Samah Jarad Fodeh, Linhai Ma, Yan Wang, Srivani Talakokkul, Ganesh Puthiaraju, ...",
+      "abstract": "Patient generated text such as secure messages, surveys, and interviews contains rich expressions of the patient voice (PV), reflecting both communicative behaviors and social determinants of health (SDOH). Traditional qualitative coding methods are labor intensive and do not scale to the large number of patient-authored messages produced across health systems. Existing machine learning (ML) and natural language processing (NLP) approaches provide partial solutions for analyzing patient generated text. However, most methods treat patient generated text and SDOH as separate tasks, ignoring overlapping expressions within the same message. Some of them rely on pre-trained models that are not well suited to patient-facing language. These limitations highlight the need for scalable, domain-adapted approaches that jointly model the linguistic and social dimensions of patient generated communication. We introduce PVminer, a domain-adapted NLP tool for structuring patient voice in secure patient-provider communication. PVminer formalizes PV detection as a multi-label, multi-class prediction task and integrates three components: pre-training of patient-specific BERT encoders (PV-BERT-base and PV-BERT-large), unsupervised topic modeling for thematic augmentation (PV-Topic-BERT), and fine-tuned classifiers of Code, Subcode, and Combo-level labels. Topic information derived from a PV-Topic-BERT model is appended during both fine-tuning and inference to enrich input representations with high-level semantic cues. PVminer with our proposed domain-adapted pre-trained models achieves strongest performance across all three hierarchical tasks and outperforms biomedical and clinical pre-trained baselines. For Code-level classification, PV-BERT-large attains an F1 of 82.25%. At the Subcode level, PV-BERT-base achieves the highest F1 of 80.14%. For the more challenging Combo-level task, PV-BERT-base and PV-BERT-large obtain F1 of 77.58% and 77.87%. An ablation study further shows that author identity and topic-based augmentation each contribute meaningful gains. The training and evaluation code is available at https://github.com/Data-Mining-Lab-Yale/PVBERT .",
+      "date": "2026-11-19",
+      "url": "https://doi.org/10.1038/s41598-026-72916-x",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "medical",
+      "id": "e309bf921772"
+    },
+    {
+      "title": "What If Chain-of-Thought Is Not Enough?",
+      "authors": "Marc Jansen",
+      "abstract": "Reasoning capabilities in large language models have evolved from prompting-based methods to internalized model behaviors. In this paper, we investigate whether the internal thinking model of an LLM can be deliberately changed and whether such a change is beneficial. Instead of relying on Chain-of-Thought, we train models to follow Question--Option--Criteria (QOC), a structured decision process that decomposes a task into explicit questions, competing options, and evaluation criteria. We present a three-generation development pipeline that ranges from a basic QOC decision core to richer answer synthesis and statistically enriched QOC reasoning. We then evaluate the resulting models with respect to both internal consistency and output quality. Across the reported experiments, QOC-based fine-tuning improves answer quality relative to non-fine-tuned base models and yields particularly strong gains once models are large enough to execute the underlying QOC computations reliably. The results suggest that the internal thinking model of an LLM is trainable and that structured alternatives to Chain-of-Thought can provide a promising path toward more reliable, interpretable, and task-adapted decision support.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26282v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26282v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "2892955f702f"
+    },
+    {
+      "title": "SheetAlign: Grounded Interaction and Stage-Isolated Learning for Spreadsheet Agents",
+      "authors": "Yuxiang Wang, Junhao Gan, Jianzhong Qi",
+      "abstract": "Spreadsheets are widely used for data analysis and supporting decision-making. Automating spreadsheet analysis while protecting sensitive data and controlling deployment costs motivates locally deployed open-weight large language models (LLMs). Meanwhile, complex spreadsheet tasks require both task reasoning and workbook understanding, while predefined operation interfaces impose additional tool-selection and invocation demands. We introduce SheetAlign, a spreadsheet manipulation framework with stage-isolated policy learning, organized around where to operate, what to change, and how to implement transformations. Task-guided inspection and API grounding anchor code generation in workbook observations and available operations, while stage-isolated learning optimizes program generation and review using edit-progress rewards. At inference, execution consistency selects programs through agreement among workbook states. On SpreadsheetBench, our grounded task interface improves Qwen3-4B's accuracy from 13.5% to 29.2% on average without training. With learning and execution consistency, SheetAlign achieves 32.8% accuracy on average on SpreadsheetBench and 30.1% on Domain-Spreadsheet, outperforming comparable baselines. The code will be made publicly available upon publication.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26069v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26069v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "4b750a57c928"
+    },
+    {
+      "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+      "authors": "Youssef ElNahas, Adel Ammar, Soumaya Chaffar, Wadii Boulila",
+      "abstract": "Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade, in which multi-agent and tool-augmented systems propagate and amplify early reasoning errors; process reward modeling as step-level supervision; and neuro-symbolic grounding, in which formal logic engines, ontology reasoners, and knowledge graphs place verifiable constraints on neural output. Within their encoded domains, systems with symbolic veto layers offer guarantees that hold relative to their encoded knowledge, and they report large gains on the safety measures they use. These results come from single studies, mostly in simulated or small-sample settings, and are not directly comparable with neural baselines. Process reward models remain bounded by the statistics of their training data. We propose a conceptual framework that maps each agentic failure mode to a symbolic intervention point, and we argue that clinical AI safety depends substantially on system architecture. Because current regulation emphasizes performance and does not require verification of reasoning steps, we argue that responsible certification should also audit reasoning trajectories alongside accuracy on static benchmarks.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25898v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25898v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9059a45db68b"
+    },
+    {
+      "title": "HALTT: A HAte Lexicon Through Time",
+      "authors": "Dario Franzese, Farah Benamara, Véronique Moriceau, Viviana Patti",
+      "abstract": "Automated hate speech detection degrades over time as everyday vocabulary is weaponized into covert slurs while retaining original benign meanings (polysemy retention). Existing lexical semantic change detection (LSCD) frameworks struggle with this phenomenon due to a lack of standardized, sense-delineated diachronic resources. We propose a multi-stage framework to construct and validate a diachronic lexicon of semantically shifted hate speech terms. Filtering > 20,000 candidates, our pipeline combines historical (1770-1964) and modern (2001-2024) corpus frequency grounding, masked definition-level scoring to mitigate LLM temporal bias, and a dual-persona reasoning prompt paradigm. We release HALTT, a grounded lexicon of 19 polysemous terms with literal and derogatory senses, analyze shift typologies, and establish evaluation protocols for downstream diachronic benchmarking.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25862v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25862v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "d8a9aa308374"
+    },
+    {
+      "title": "Efficient and Robust Drafting with Multi-Token Prediction",
+      "authors": "Filippo Galgani, Ziwei Ji, Omri Homburger, Ganesh Jawahar, Michelle Ramanovich...",
+      "abstract": "Speculative decoding has emerged as a critical technique for accelerating Large Language Model (LLM) inference by decoupling generation into a drafting phase and a parallel verification phase. A crucial challenge is therefore designing a drafter that is both lightweight and accurate enough to approximate the predictions of the target model. We present a highly optimized Multi-Token Prediction (MTP) architecture that extends existing backbone LLMs to efficiently produce high-quality drafts. Built around a single shared drafting head, our approach features three core architectural optimizations: target activation injection to anchor semantic planning, zero-copy KV-cache cross-attention to bypass prefill compute and reduce memory overhead, and an efficient clustered vocabulary projection to reduce the cost of full-vocabulary decoding. Testing these improvements with the Gemma 4 model family, our G-MTP shows out-of-the-box speedups for both large server-side setups (up to 3.1$\\times$) and smaller models targeting memory-constrained on-device environments (up to 2.3$\\times$ on H100 and up to 2.2$\\times$ on a smartphone GPU). In addition, we present parameter-efficient fine-tuning recipes for G-MTP that keep the drafter aligned with the backbone LLM under domain shift, requiring up to 1.83$\\times$ fewer target forward passes than tuning only the backbone.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25813v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.25813v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b96f7782e776"
+    },
+    {
+      "title": "RL Can Only Reinforce What It Sees Succeed",
+      "authors": "Ruben Sanchez-Corcuera, Unai Zulaika, Aritz Bilbao-Jayo, Miguel Fernandez-de-Retana",
+      "abstract": "When a familiar rule stops working, an agent has to weigh what pre-training taught it against what it now observes. We ask how outcome-reward reinforcement learning (RL) changes this balance, in a puzzle world where both sides are known: small language models trained from scratch on games played by a Bayesian player, so that the prior and the right answer are exact. Base models hedge as their corpus did, and RL turns that hedging into decisions, in whichever direction the reward favours. But RL can only reinforce what it sees succeed. When the right action is rare, each run either learns it everywhere or not at all, and which runs take off is predicted before training by one count: the expected number of groups of attempts in which the action wins. About 35 such groups give even odds. The count holds for new and repeated problems and for groups of 4 to 256 attempts, and across learning rates, optimizers, GRPO variants and model sizes from 1.3M to 85M parameters, which move the threshold but not what is counted.",
+      "date": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26084v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26084v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "b4cbd090a451"
+    },
     {
       "title": "Lived experiences of relationships to generative AI mental health chatbots among adults",
       "authors": "Uwemedimo Sunday Isaiah, Chineye Fabian Adili-George, Abraham Terfa Naibo, Iniobong George, Ekaette Mfon Useh, ...",
@@ -11916,90 +12000,6 @@
       "venue": "arXiv",
       "direction": "llm",
       "id": "8ec4b992976a"
-    },
-    {
-      "title": "RePolicy: Reinforcement Learning for Safety-Policy Invocation in Agent Safeguards",
-      "authors": "Houcheng Jiang, Boxuan Zhang, Qiyong Zhong, Junfeng Fang, Xiang Wang...",
-      "abstract": "Safeguarding language model agents requires assessing complete execution trajectories under context-dependent safety policies. Existing policy-aware safeguards mainly rely on prompting or supervised fine-tuning, limiting their ability to adapt to unseen trajectories and changing policy contexts. We propose RePolicy, an agent safeguard that learns safety-policy invocation through reinforcement learning. Given an agent trajectory and a dynamic policy library, RePolicy invokes the applicable policy and uses its content to produce a policy-grounded rationale and safety judgment. We construct PolicyTraj-20K to support supervised initialization, followed by GRPO with verifiable rewards and policy-context perturbation. Experiments across six agent safety benchmarks show that RePolicy achieves strong overall safety-detection performance and robust policy invocation under varying policy contexts.",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24275v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24275v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "43d9de525696"
-    },
-    {
-      "title": "Developing and evaluating automated deep learning and human-in-the-loop vision–language systems for microplastic characterization",
-      "authors": "Mahmoud Sami, Sara El-Kerkary, Marina S. Fawzy",
-      "abstract": "Microplastic (MP) pollution poses escalating environmental risks, demanding efficient and reproducible tools for morphological characterization of plastic particles. Traditional manual microscopy is labour-intensive, operator-dependent, and poorly suited to large-scale monitoring. This study presents a comparative evaluation of two distinct artificial intelligence paradigms for the analysis of optical microscope images of microplastics. The first paradigm is a domain-specific, multi-task deep learning (DL) classifier based on EfficientNet-B0 with transfer learning, trained on an in-house dataset of approximately 700 annotated microscope images to simultaneously predict microplastic shape/type (five classes), color (10 classes), and surface texture (two classes). The second paradigm employs the Claude Vision API as a zero-shot vision-language model (VLM), augmented with a structured human-in-the-loop (HITL) mechanism allowing domain experts to provide targeted guidance for ambiguous particles. Both systems were evaluated on an identical, independent test set using accuracy, macro-averaged precision, recall, and F1-score. The DL classifier achieved F1-scores of 91.2%, 88.5%, and 85.1% for shape/type, color, and texture classification, respectively. In contrast, the VLM achieved raw F1-scores ranging between 72 and 81% across the evaluated tasks, which improved substantially to approximately 84-89% following expert-guided refinement. These results demonstrate that the trained DL model excels in high-throughput, reproducible screening, while the VLM-HITL system offers enhanced interpretability and flexibility for ambiguous cases. This comparative framework, deployed as a freely accessible web application via Hugging Face Spaces, provides practical insights into the deployment trade-offs between domain-specific and generalist AI approaches for environmental microplastic analysis.",
-      "date": "2026-08-25",
-      "url": "https://doi.org/10.1038/s41598-026-67536-4",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "llm",
-      "id": "2846b90b25bd"
-    },
-    {
-      "title": "Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs",
-      "authors": "Haokun Lin, Haobo Xu, Yichen Wu, Ziyu Guo, Renrui Zhang, ...",
-      "abstract": "Abstract Recent advances in diffusion large language models (dLLMs) have introduced a promising alternative to autoregressive (AR) LLMs for natural language generation tasks, leveraging full attention and denoising-based decoding strategies. However, the deployment of these models on edge devices remains challenging due to their massive parameter scale and high resource demands. While post-training quantization (PTQ) has emerged as a widely adopted technique for compressing AR LLMs, its applicability to dLLMs remains largely unexplored. In this work, we present the first systematic study on quantizing diffusion-based language models. We begin by identifying the presence of activation outliers, characterized by abnormally large activation values that dominate the dynamic range. These outliers pose a key challenge to low-bit quantization, as they make it difficult to preserve precision for the majority of values. More importantly, we implement state-of-the-art PTQ methods and conduct a comprehensive evaluation across multiple task types and model variants. Our analysis is structured along four key dimensions: bit-width, quantization method, task category, and model type. Through this multi-perspective evaluation, we offer that practical insights into the quantization behavior of dLLMs under different configurations. We hope that our findings provide a foundation for future research in efficient dLLM deployment. Our code is publicly available at https://github.com/MessiX77/QDLM .",
-      "date": "2026-08-25",
-      "url": "https://doi.org/10.1007/s11633-025-1624-x",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Machine Intelligence Research",
-      "direction": "llm",
-      "id": "30373ab04350"
-    },
-    {
-      "title": "Large language models for applied superconductivity: Towards physics-aware reasoning and integrated multi-modal generative AI",
-      "authors": "Yahao Wu, Wenjuan Song, Lurui Fang, Mohammad Yazdani-Asrami",
-      "abstract": "Abstract Applied superconductivity research spans materials science, physics, cryogenics, and large-scale device and system engineering, generating highly fragmented data, heterogeneous models, and disconnected domain-specific knowledge representations. This fragmentation limits systematic cross-disciplinary reasoning (across experimental, computational, and operational domains), slows innovation, and hinders the translation of experimental insights into deployable technologies. Compared with traditional analytical and data-driven methods, large language models (LLMs) exhibit complementary strengths in cross-domain knowledge integration, contextual reasoning, and multimodal information fusion. This perspective examines how these capabilities may be combined with superconducting-physics constraints, symbolic representations, and structured experimental and simulation data. We propose a conceptual framework in which LLMs act as high-level reasoning and knowledge-integration layers that connect experimental data, simulation outputs, literature, and expert knowledge across modalities, while numerical computation and real-time protection remain the responsibility of validated physics-based models and specialised machine-learning algorithms. Potential applications include LLM-assisted superconducting materials discovery, automated fault and quench diagnostics of experimental systems and superconducting devices, smart manufacturing and intelligent quality control, and technical documentation and support. We further discuss the practical limitations of these systems, including data quality, multimodal alignment, inference latency, uncertainty, hallucination, privacy, and the need for human oversight. The paper concludes by outlining a roadmap for the trustworthy integration of LLMs into superconductivity research and engineering.",
-      "date": "2026-08-24",
-      "url": "https://doi.org/10.1088/1361-6668/ae9df9",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Superconductor Science and Technology",
-      "direction": "medical",
-      "id": "eab501a37a19"
-    },
-    {
-      "title": "GraPNet: Protein-ligand interaction prediction based on graph learning",
-      "authors": "Turgay Batbat, Seda Mürütsoy",
-      "abstract": "Pharmaceutical research and development are highly time-consuming and costly processes. As computer processing capabilities increase, computer-aided design becomes increasingly important. This study aims to determine protein-ligand interactions that underpin drug discovery and design, using computational methods to reduce the time and cost of laboratory studies. In this study, ligand SMILES representations and protein fingerprint representations were used. Graph Learning, a modern artificial intelligence methodology, effectively simulates biomolecular interactions in similar problems and achieved rapid, effective results in protein-ligand interaction detection, demonstrating 80.96% accuracy on an experimentally validated dataset. This marks a significant milestone in the drug design process and serves as a valuable guide in drug discovery and biotechnology.",
-      "date": "2026-08-24",
-      "url": "https://doi.org/10.28948/ngumuh.1837582",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Ömer Halisdemir Üniversitesi Mühendislik Bilimleri Dergisi",
-      "direction": "cell",
-      "id": "e2ed0eb53a43"
-    },
-    {
-      "title": "DeMixPert: Decomposed Response Modeling with Gaussian Mixtures for OOD Single-Cell Perturbation Prediction",
-      "authors": "Jiawen Liu, Xuechenxiao Cao, Yutong Li, Bing Liu, Jiaming Liang...",
-      "abstract": "Predicting transcriptome-wide responses to unseen genetic perturbations remains a major computational challenge because accurate prediction requires recovering both perturbation-specific transcriptional shifts and heterogeneous cellular responses. Existing methods often entangle deterministic response structure with stochastic population-level variation, causing dominant shared patterns to mask weaker perturbation-specific signals and impair distributional modeling. To address these challenges, we propose \\textbf{DeMixPert}, an approach for Decomposed response Modeling with Gaussian Mixtures for Out-Of-Distribution (OOD) single-cell Perturbation prediction. DeMixPert decomposes perturbation-induced changes into a basal-state-dependent systematic response, a perturbation-specific response, and population-level variation. The systematic component is derived from the basal state encoded from control-cell expression, whereas the perturbation-specific component is inferred from pretrained target embeddings for unseen-target generalization. DeMixPert models population-level variation using a Gaussian prototype Invertible Network and adaptively combines reusable Gaussian prototypes according to the basal state and perturbation condition. The resulting mixture is mapped to a condition-specific variation distribution. Sampled variations are integrated with the systematic and perturbation-specific components, followed by joint decoding with the basal state to reconstruct perturbed-cell gene expression. Experimental results show that DeMixPert effectively captures heterogeneous single-cell perturbation responses and achieves superior performance across unseen-perturbation settings. The source code is made publicly available upon publication.",
-      "date": "2026-08-24",
-      "url": "https://arxiv.org/abs/2608.23114v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.23114v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "cell",
-      "id": "f2f21807129a"
-    },
-    {
-      "title": "Large language models in bioinformatics: a comprehensive survey",
-      "authors": "Zhigang Meng, Zhikai Yang, Mingxun Zhu, Jianzhen Xu",
-      "abstract": "The emergence of foundation models with trillion-level parameters has redefined the landscape of artificial intelligence. Various fields are developing their own large-scale models, which can solve many problems within the field and improve work efficiency. Biological large-scale models are a cross-disciplinary research field that combines mathematics, computer science, and biology, aiming to simulate and understand the structure, function, and dynamic changes of biological systems through the establishment of complex computational models. This field covers multiple levels such as biological pathways, population dynamics, protein folding, etc., providing us with tools for deep exploration of the mysteries of life and applications in medicine, ecology, and other fields. This article reviews the background and research status of biological large-scale models, and discusses future directions. Large language models (LLMs) and other large-scale foundation models have rapidly advanced in recent years, enabling powerful representation learning and generation across text, sequences, and multimodal data. In bioinformatics and biomedicine, these models are increasingly used to analyze genomic sequences, infer protein properties and structures, support drug discovery, and integrate heterogeneous biomedical evidence. This survey reviews the basic principles of LLMs and summarizes representative applications in (i) gene and genome sequence analysis, (ii) protein structure and function prediction, and (iii) drug design, including virtual screening and personalized medicine. We also discuss emerging multi-model modeling approaches, as well as key challenges such as data quality and privacy, interpretability, generalization to new organisms and tasks, and responsible deployment in health-related settings. Finally, we outline future directions for developing reliable, scalable, and explainable bioinformatics foundation models.",
-      "date": "2026-08-24",
-      "url": "https://doi.org/10.3389/fgene.2026.1797863",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Genetics",
-      "direction": "cell",
-      "id": "4a5d7202c7f8"
     }
   ]
 }
