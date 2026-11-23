@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-11-21 23:42",
+  "last_updated": "2026-11-23 00:02",
   "papers": [
+    {
+      "title": "Human Centric Embodied Intelligence for Soft Wearable Robotics",
+      "authors": "Rainier F. Natividad, Chen‐Hua Yeow",
+      "abstract": "Soft wearable robots have evolved rapidly from proof‐of‐concept devices into promising platforms for rehabilitation, occupational assistance, and human augmentation. As the field matures, its central challenge extends beyond developing softer materials and more capable actuators to integrating sensing, intelligence, and human adaptation into systems that users can wear comfortably, trust, and benefit from over long periods. This transition motivates the concept of human centric embodied intelligence (HCEI). In HCEI, intelligence emerges from the coupled human–robot system, through the interaction of morphology, multimodal sensing, adaptive cognition, compliant actuation, and the wearer's own physiological and behavioral adaptation. To organize this perspective, we introduce the perception–cognition–actuation–augmentation (PCAA) framework. It proposes that design start from the augmentation objective, the change sought in the wearer's function, and that the requirements on perception, cognition, and actuation be derived from that objective rather than from the actuating mechanism. Using this framework, we review advances in soft materials, wearable sensing, artificial intelligence, actuation, human–robot interaction, digital twins, clinical translation, manufacturing, regulation, and ethics, and trace how these interdependent components together shape long‐term personalization and real‐world deployment. The review aims to guide future research, encourage interdisciplinary collaboration, and speed the translation of soft wearable robots toward personalized, predictive, and human‐centric wearable intelligence.",
+      "date": "2026-11-21",
+      "url": "https://doi.org/10.1002/smb2.70081",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "SmartBot",
+      "direction": "cell",
+      "id": "8e95f43349eb"
+    },
+    {
+      "title": "Region-aware CT-to-PET image synthesis using deep learning models for accurate lung cancer localization",
+      "authors": "Md. Abu Sayed, Ashiqur Rahman, G. M. Mahmudur Rahman, Md. Sherajul Islam, Muhammad E. H. Chowdhury, ...",
+      "abstract": "Accurate functional imaging remains a major challenge in medical diagnostics, particularly in regions with limited access to positron emission tomography (PET). We propose a modular, tumor-aware pipeline that learns PET-associated representations from computed tomography (CT) images using paired CT–PET data as supervisory information. The computer-aided diagnostic (CAD) system consists of four stages: (i) field-of-view alignment using YOLOv11, (ii) synthetic 18 F-FDG PET generation via a ResNet-9 based generator with a patchGAN discriminator (CPGAN), (iii) tumor segmentation with SegResNet to guide region-specific synthesis, and (iv) tumor-aware PET enhancement through tumor superimposition and PET-CT fusion. Experimental evaluations indicate strong performance across multiple tasks. Thoracic region detection achieved mAP50 scores of 99.50% (CT) and 98.50% (PET), while lung segmentation reached 99.20%. 18 F-FDG PET synthesis with CPGAN yielded PSNR 20.94 dB, SSIM 72.94%, and MAE 0.036. Incorporating tumor superimposition substantially improved 18 F-FDG PET quality within tumor regions (SSIM 83.47%, PSNR 25.99 dB, MAE 0.017). After peripheral padding, full-image metrics further improved (SSIM 96.35%, PSNR 33.66 dB, MAE 0.0036). For the segmentation, SegResNet model achieved the highest performance (Dice: 97.06%, IoU: 93.65%). The proposed framework provides an anatomically grounded visualization that can highlight CT regions associated with metabolically active tumors and may assist radiologists in identifying areas warranting further assessment.",
+      "date": "2026-11-21",
+      "url": "https://doi.org/10.1038/s41598-026-80981-5",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Scientific Reports",
+      "direction": "cell",
+      "id": "d1287b3cd06e"
+    },
     {
       "title": "What is the Role of Small Models in the LLM Era: A Survey",
       "authors": "Lihu Chen, Gael P. Varoquaux",
@@ -12,6 +36,18 @@
       "venue": "Computational Linguistics",
       "direction": "medical",
       "id": "34a5811055eb"
+    },
+    {
+      "title": "Word embeddings from text corpora: A simulation study on the representation of underlying structures",
+      "authors": "Willem M. Otte, Archibald L.H.M. van Wieringen, Bart J. Koet",
+      "abstract": "The grounding problem concerns how symbolic representations acquire meaning through connections to what they refer to. For word embeddings learned from text, a related empirical question is how much of the structure that generated the text they retain. This is difficult to test in natural corpora because that structure is generally unknown. We employed a microsimulation methodology to generate a controlled text corpus from a known spatial structure. A virtual language supermarket with 40 shelves organised into four departments (fruit, vegetables, beverages, extras) served as the generative environment. Product sequences from 80,000 simulated shoppers formed a corpus of 804,422 product selections, with each sequence unique. The GloVe algorithm was applied to this corpus to learn 50-dimensional word embeddings, which we compared with the network of shelves. Cosine distance between products correlated with their shortest-path distance in the network (Spearman ρ = 0.79 over all 7,140 product pairs, Mantel p = 0.001), and on average 61% of a product's network neighbours were among its nearest neighbours in the embedding, against 7% expected by chance. Over ten independent simulations these values were 0.80 ± 0.01 and 0.62 ± 0.02, and shuffling words across the corpus removed the association. Raw co-occurrence counts, PPMI, SVD and word2vec also captured global distance structure but retrieved fewer neighbours (29-50%). Recovery was best with a context window of one word (ρ = 0.93) and was weaker for rare products. K-medoid clustering of all 120 products separated the fruit and extras departments completely, while vegetables and beverages, which are interleaved in the network, were mixed (adjusted Rand index 0.82). UMAP projections followed the network closely (ρ = 0.92) but distorted some parts of it. These findings show that distributional word embeddings can recover much of the structure that a generating process puts into co-occurrence statistics. They do not show that the embeddings are grounded in, or understand, what the words refer to. This controlled simulation provides a reproducible way to measure structural recovery by word embeddings.",
+      "date": "2026-11-20",
+      "url": "https://doi.org/10.1371/journal.pone.0362816",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "PLoS ONE",
+      "direction": "cell",
+      "id": "b5c602440dfb"
     },
     {
       "title": "Taking a Pulse on How Generative AI is Reshaping the Software Engineering Research Landscape",
@@ -11964,42 +12000,6 @@
       "venue": "arXiv",
       "direction": "medical",
       "id": "e9e336c18357"
-    },
-    {
-      "title": "Naringenin as a dual-target modulator of RAGE–NF-κB signaling and Aβ fibrillization in Alzheimer’s disease: integrated computational and experimental analyses",
-      "authors": "Inderjeet Bhogal, Ivo Frydrych, Ajay Modi, Vaishali Pankaj, Akhil Kumar, ...",
-      "abstract": "Introduction Alzheimer’s disease (AD) is a complex neurodegenerative disorder characterized by the accumulation and aggregation of β-amyloid (Aβ) and chronic neuroinflammation mediated by the receptor for advanced glycation end products (RAGE). Current therapeutic candidates targeting RAGE signaling or Aβ aggregation continue to face challenges, including off-target toxicity, poor blood-brain barrier (BBB) penetration, and limited multi-target efficacy. Methods Naringenin (NAR), a naturally occurring flavanone polyphenol prioritized through structure-based virtual screening and preliminary biological evaluation, was selected for further mechanistic investigation as a potential dual-target modulator of RAGE-associated inflammatory signaling and Aβ42 fibrillization. Results Molecular docking analyses showed that NAR interacts with the RAGE interface (PDB: 6XQ3) via π-cation interactions with ARG_98 and LYS_110 (docking score: −5.072 kcal/mol). At the Aβ fibril (PDB: 2MXU), NAR showed a superior docking score than ALZ-801 (valiltramiprosate), involving hydrogen bonding and π–π stacking with HIS_A14 (docking score: −8.098 kcal/mol). 100 ns molecular dynamics simulations supported the stability of these binding modes, with RMSD and RMSF values within acceptable ranges. MM-GBSA rescoring indicated competitive predicted binding free energies (ΔGBind: −30.260 kcal/mol at RAGE; −220.162 kcal/mol at the fibril, compared to ALZ- 801’s −214.482 kcal/mol), influenced by electrostatic and hydrophobic interactions. Per-residue energy decomposition indicated PHE_20 (−9.10 kcal/ mol) as the dominant hotspot residue, alongside ARG_98 (−4.71 kcal/mol) and LYS_52 (−3.96 kcal/mol) as key RAGE anchors. In silico ADMET profiling suggested favorable predicted BBB accessibility (score: 0.001), Caco-2 permeability, Lipinski compliance, and a more favorable predicted cardiac safety profile (hERG: 0.145) relative to V6Y. Experimentally, NAR reduced Aβ42-induced NF-κB activation in RAGE-positive C6 cells, protected SH-SY5Y neurons from Aβ42 toxicity, and inhibited Aβ42 fibrillization in vitro , producing non-seeding aggregates consistent with impaired fibril formation, and attenuated rotenone-induced α-synuclein-associated cellular stress. Discussion Collectively, these findings support further investigation of NAR as a mechanistically plausible multi-target candidate for protein aggregation and RAGE-associated inflammatory signaling in neurodegenerative disease models.",
-      "date": "2026-08-25",
-      "url": "https://doi.org/10.3389/fphar.2026.1901236",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Pharmacology",
-      "direction": "cell",
-      "id": "fd7a95e35b07"
-    },
-    {
-      "title": "Missing physics discovery through fully differentiable finite element-based machine learning",
-      "authors": "Ado Farsi, Nacime Bouziani, David A. Ham",
-      "abstract": "Abstract Modelling physical systems with partial differential equations (PDEs) is central to science and engineering, yet in most real applications the PDE model is incomplete: relationships such as constitutive or thermal laws are unknown. Existing surrogate approaches close this gap by learning the PDE solution from data, sometimes with added physical constraints, but they remain tied to a specific configuration (geometry, boundary conditions, discretisation) and recover the solution rather than the missing physics itself. We introduce FEML, an end-to-end differentiable framework that couples the known PDE (the system’s known physics) with a machine-learned operator for the missing physics. Embedding the PDE solver into training lets this operator be learned directly from the PDE solution, even when its own output cannot be measured-for example, stress when learning constitutive laws. Because the operator, unlike the PDE model, is independent of the system configuration, a law learned in one setting transfers zero-shot to new geometries, boundary conditions, and discretisations, and can be inspected by domain specialists. FEML represents the operator with structure-preserving operator networks (SPONs), which retain key continuous properties at the discrete level and enable learning over complex geometries and meshes. We demonstrate FEML across solid mechanics and thermal transport. From synthetic experiments we progressively discover an elastoplastic law-the nonlinear elastic response, then the plastic hardening law-and compose the two operators into a foundation constitutive model that transfers zero-shot to a three-dimensional torsion problem. Moving to real data, we learn coupled plastic-hardening and ductile-damage laws directly from a benchmark shear-coupon test, reproducing the measured response, including post-peak softening, to within the experimental scatter. Finally, we recover a temperature-dependent conductivity from transient heat-flow data and apply symbolic regression to the learned operator to extract a closed-form law matching the ground truth.",
-      "date": "2026-08-25",
-      "url": "https://doi.org/10.1038/s41598-026-65125-z",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "cell",
-      "id": "f8dc80f4d8c4"
-    },
-    {
-      "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
-      "authors": "Zae Myung Kim, Young-Jun Lee, Seungyeon Jwa, Dongyeop Kang",
-      "abstract": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery untouched to stay stable, capping the meta-depth they realize at roughly two. We present Meta$^n$, which keeps the meta-operation fixed and recurses on its input instead. That operation, $Ω$, is applied repeatedly to its own products, reading the traces of the solver stack below together with the code that produced them, then writing the next layer as a strategic pre-process and a library of callable helpers. Because $Ω$ never changes, it cannot destabilize the system, and because its input strictly grows, each layer reasons from a higher vantage than the last. Depth is set by convergence rather than fixed in advance, and an evolutionary archive searches over layer chains. Across two backbones, Meta$^n$ outperforms prior self-improving agents on all eight benchmark families. The sharpest case is ARC-AGI-2, built to resist skill memorization, where it alone scores above zero. Ablations indicate that most of the gain from recursion comes from the conditioning each layer passes to the next, and distinct layer roles emerge with depth although no prompt prescribes them. Code available at https://github.com/minnesotanlp/meta-n",
-      "date": "2026-08-25",
-      "url": "https://arxiv.org/abs/2608.24735v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24735v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "5cd17fb9e6bc"
     }
   ]
 }
