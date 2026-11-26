@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-11-25 02:56",
+  "last_updated": "2026-11-26 02:02",
   "papers": [
+    {
+      "title": "Artificial Intelligence in Science and Physics Education, 2015-2026: An AI-Assisted Bibliometric and Title-and-Abstract Analysis across Fourteen Journals",
+      "authors": "Konstantinos T. Kotsis",
+      "abstract": "Artificial intelligence (AI) research in science and physics education has expanded rapidly, particularly since the emergence of generative AI. This study maps publication patterns, research characteristics, and citation connections across 14 selected science and physics education journals. OpenAlex searches using fifteen AI-related terms identified 966 unique records published between January 2015 and September 2026. AI-assisted screening retained 333 publications, which were coded using available titles and abstracts. Bibliometric analyses examined publication growth, thematic patterns, and citations within and between the two journal groups. Of the included publications, 87.1% appeared from 2023 onwards. Generative large language models and chatbots accounted for 58.9% of the corpus, while instruction and assessment together represented 48.3% of publications. Among 182 records classified as involving human participants, comparison groups were identifiable in 14.3%, effect sizes in 8.2%, and instrument validity evidence in 5.5%. These frequencies reflect information identifiable in bibliographic records, rather than the absence of these features in the full studies. Laboratory and experimental support was the principal educational function in 27 publications. Citation connections between the journal groups were limited: their reference sets had a Jaccard index of 0.047, and 15.6% of publications cited an included study from the other group. The findings document rapid growth and uneven research emphases within the selected venues. Independent human validation and full-text assessment are needed before drawing firm conclusions about methodological quality or educational effectiveness.",
+      "date": "2026-11-26",
+      "url": "https://doi.org/10.59652/fcvx2129",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "EIKI Journal of Effective Teaching Methods",
+      "direction": "cell",
+      "id": "08f1ebbc3757"
+    },
+    {
+      "title": "NORMCRAFT: Cultural Norm Generation for Context-Aware Language Model Alignment",
+      "authors": "Tangyuan Zhang, Zhuang Li, Fatemeh Shiri, Xiangyu Zhao, Junyu Yan...",
+      "abstract": "Cultural alignment requires large language models (LLMs) to infer often-implicit social norms from a scenario and its cultural context. Existing approaches typically adapt individual models or supply external cultural knowledge, while learning norm inference independently of downstream response generation remains underexplored. We introduce NORMCRAFT, a modular framework that decouples norm inference from response generation. Through norm-centric multi-view supervision, we train an LLM as a norm generator to recover shared norms from prospective, adherence, and violation scenarios without downstream response labels. The generated norms guide a separate, frozen LLM (the responder). With Qwen3.5-4B as the responder, NORMCRAFT outperforms prompting and supervised fine-tuning (SFT) baselines on four of five downstream metrics. On SafeWorld, its responses reflect the reference norms more often (Coverage) and more precisely (Faithfulness), exceeding Responder SFT by 18.0 and 14.1 percentage points, respectively. Direct norm evaluation also shows higher norm quality than the base and few-shot generators. The same trained generator improves cultural alignment on SafeWorld across fourteen frozen LLMs spanning five families and 0.8B to 27B parameters, with the largest gains for the smallest models.",
+      "date": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.33726v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33726v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "e3fc18c18604"
+    },
+    {
+      "title": "Generating Schema-Aligned Synthetic Dialogues and Measuring Their Diversity",
+      "authors": "Konrad Stolte, Toni Fetzer",
+      "abstract": "Training or evaluating a model that turns a conversation into a structured record requires paired data, meaning a transcript together with the exact record it should be converted into. Such pairs are expensive to annotate, and in sensitive domains they are also difficult to obtain at all. We therefore build them in the opposite order by sampling a schema-valid record first, then writing a dialogue from it, and optionally synthesizing speech from the dialogue, so the label exists before the text and we need no annotation step. Naively prompting a language model for such dialogues yields small variations of a single conversation, so we add a sampled variation configuration, personas, and a topic plan that orders the fields of the record as explicit mechanisms for variation. We measure the variation that reaches the output through embedding space, where the embedding variance spreads over about two and a half times as many independent directions with our full configuration compared to without (participation ratio 23.3 against 9.2). Two corpora of medical dialogue give values of the same order, with sample size, text length and language being additional factors there. We also show the positive effect of our method in a downstream test, where an 8B extraction model reaches 64.8% field accuracy when fine-tuned on dialogues from our method, against 57.5% from naive generation. We release the generation library and the generated corpus of German clinical dialogues with aligned records.",
+      "date": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.32631v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.32631v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "medical",
+      "id": "5ed67b2aadae"
+    },
+    {
+      "title": "The EHRNavigator multi-agent system for patient-level clinical question answering over heterogeneous electronic health records",
+      "authors": "Lingfei Qian, Mauro Giuffrè, Yan Wang, Huan He, Qianqian Xie, ...",
+      "abstract": "Clinical workflows increasingly depend on timely, context-aware access to electronic health record (EHR) data, but heterogeneous institutional schemas limit the portability of information-retrieval tools. Large language model (LLM)-based question-answering systems show promise yet typically address a single modality and are evaluated on point-in-time benchmarks. We introduce EHRNavigator, a multi-agent system that adapts to new EHR schemas without supervised training and answers patient-level questions by reasoning across structured tables, unstructured clinical narratives, and temporal relationships. Specialized agents iteratively explore EHR structure and use tools to formulate cross-modal queries without manual schema mappings. We evaluated EHRNavigator on three public benchmarks spanning structured, unstructured, and multimodal questions, and on an institutional OMOP database at Yale New Haven Hospital. EHRNavigator outperformed chain-of-thought prompting, retrieval-augmented generation, and dedicated text-to-SQL baselines. Without schema-specific retraining or manual table mapping, it achieved 85% accuracy on a physician-curated patient-trajectory benchmark with interactive latency. By returning answers with supporting structured and unstructured evidence and operating across MIMIC and OMOP schemas, EHRNavigator provides a reproducible cross-institution foundation for LLM-based clinical question answering.",
+      "date": "2026-11-24",
+      "url": "https://doi.org/10.1038/s44401-026-00149-1",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Health Systems",
+      "direction": "medical",
+      "id": "e311b84da65c"
+    },
+    {
+      "title": "From reactive care to predictive wellness: AI-integrated preventive medicine and holistic health in the era of precision healthcare",
+      "authors": "Shivam Dubey",
+      "abstract": "As chronic disease, mental illness, metabolic disease, and aging populations rise in prevalence, there has been a shift from reactive healthcare to predictive and preventive medicine. The healthcare system has experienced radical changes in technology with the introduction of artificial intelligence (AI), precision medicine, wearable devices, digital biomarkers, genomics, and microbiome analysis, which can provide individualized risk assessments, continuous monitoring, and adaptive preventive measures. In addition, a holistic approach to health, including nutrition, exercise, sleep, mental wellness and lifestyle medicine, can help individuals sustainably optimize their health. This article will review how AI can be integrated into the field of preventive healthcare, including applications of digital therapeutics, personalized nutrition, remote monitoring, cancer prevention, cardiovascular prevention, and longevity medicine. While there are still many challenges surrounding bias, privacy and data security, equity, and ethical considerations, addressing these issues will be critical. Ultimately, combining AI-based predictive wellness with holistic healthcare will create new possibilities for future precision healthcare systems that emphasize personalized prevention and have a positive impact on the overall health of communities.",
+      "date": "2026-11-24",
+      "url": "https://doi.org/10.18231/j.jpmhh.29699.1795509698",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Journal of Preventive Medicine and Holistic Health",
+      "direction": "cell",
+      "id": "6f9ab45b00eb"
+    },
+    {
+      "title": "FOL-Proof: Verifying LLM Text-to-Logic Translations via Deterministic Semantics",
+      "authors": "Yisrael Clark, Guy Katz",
+      "abstract": "Large Language Models (LLMs) are increasingly used to translate natural-language statements into first-order logic (FOL) to improve reasoning. However, LLMs are prone to errors, and so a semantically unfaithful FOL formula could corrupt downstream reasoning. We present FOL-Proof, a semantic firewall pipeline that validates LLM-generated FOL translations against independently derived linguistic interpretations. FOL-Proof operates by deterministically obtaining a pool of candidate translations via semantic analysis tools, such as the English Resource Grammar and Minimal Recursion Semantics; then applying an SMT solver to check each derived reading for logical equivalence to the LLM-generated formula. If the translation is faithful it is accepted; otherwise, it is rejected, or optionally repaired via repeated invocations to the LLM. The procedure is conservative: incomplete search, unsupported constructions, or inconclusive checks yield abstention rather than false rejection. We evaluated FOL-Proof on established benchmarks (ProofWriter, RuleTaker and PrOntoQA), and also on a new adversarial benchmark (LongFaithCheck). Our experiments show that FOL-Proof attains near perfect selective accuracy, while direct LLM judges and round-trip baselines show substantially worse performance.",
+      "date": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33078v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33078v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "a368cf2e5ae3"
+    },
+    {
+      "title": "Worth the Wait? How Response Time and Streaming Shape Judgments of Generative AI Answers and Chatbot Engagement",
+      "authors": "Zihan Chen, Di Zhu, Lei Nico Zheng",
+      "abstract": "Answers from generative AI chatbots built on large language models (LLMs) now arrive at very different speeds: reasoning models deliberate before replying, while response caches can return a stored answer at once. Blind preference votes, which rank these models, are read as judgments of their text, and if delivery matters, faster answers are expected to gain. Research on the labor illusion and on how text appears on screen suggests instead that an answer which unfolds as it is written is credited over the same answer shown at once. We test these accounts with three sources of variation in natural use. First, compar:IA, a French government chatbot arena, answered repeated prompts, by a random draw, either with a fresh answer streamed as it was written or with a stored earlier answer from the same model, shown at once. Within the same prompt, a replay lowered an answer's chance of winning a decisive blind vote by 25.8 percentage points. The same stored text won 57% of its decisive votes when streamed and 29% when replayed, and voters called it less complete, more superficial and more often incorrect when replayed. Second, provider congestion slowed streamed answers. In 324,029 conversations, slower answers earned no detectable net credit in the vote, but a slower first exchange made visitors less likely to ask a follow-up question. Third, in 4,378,514 WildChat replies from everyday ChatGPT use, replies slowed by congestion made users less likely to continue. Delivery moved blind votes, in the direction opposite to the one the arena's designers expected, while waiting cost follow-up questions that a comparison between two answers cannot register when both are slow. The results bear on how AI services cache and stream answers, how they budget latency, and how preference leaderboards evaluate models.",
+      "date": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33050v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33050v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "51658f37f325"
+    },
+    {
+      "title": "Latent Merger: Latent-Space Composition of Hypernetwork-Generated LoRAs",
+      "authors": "Yanlai Yang, Minki Kang, Divyam Madaan, Sung Ju Hwang, Mengye Ren",
+      "abstract": "Recent work proposes hypernetworks that convert a document into a low-rank parameter update (LoRA) in a single forward pass, enabling fast injection of new knowledge into a frozen LLM. However, storing separate LoRA adapters for each document can be unsustainable in streaming settings. In this paper, we study the problem of composing hypernetwork-generated LoRAs using two representative systems, Doc-to-LoRA and SHINE. We show that hypernetwork-generated LoRAs have a geometry sharply different from directly fine-tuned LoRAs. They exhibit greater spectral concentration and stronger cross-document alignment than next-token prediction and QA fine-tuned adapters, which are diffuse and nearly orthogonal across documents. Guided by this observation, we propose latent-space LoRA merging. We compose the intermediate hypernetwork latents and then decode the merged latent through the frozen LoRA-generation head. We show that latent-space merging techniques consistently improve over weight-space and factor-space baselines while preserving a single fixed-rank adapter. These results support latent-space composition as a promising mechanism for combining hypernetwork-generated LoRAs under a fixed output-rank budget.",
+      "date": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33048v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33048v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "c0e5b8af4caa"
+    },
     {
       "title": "SPARQL-Planned Single-Hop Traversal over a Live Knowledge Graph for Multi-Hop Question Answering",
       "authors": "Priyesh Vakharia, Masud Moshtaghi, Pratyay Banerjee, Nicholas Jedema, Amita Misra...",
@@ -11904,102 +12000,6 @@
       "venue": "Frontiers in the Internet of Things",
       "direction": "llm",
       "id": "d31cc83c9cf5"
-    },
-    {
-      "title": "Concerning uncertainty—a systematic survey of uncertainty-aware XAI",
-      "authors": "Helena Löfström, Tuve Löfström, Anders Hjort, Fatima Rabia Yapicioglu",
-      "abstract": "This paper surveys uncertainty-aware explainable artificial intelligence (UAXAI), examining how uncertainty is incorporated into explanatory pipelines and how such methods are evaluated. Across the literature, three recurring approaches to uncertainty quantification (UQ) emerge (Bayesian, Monte Carlo and conformal methods), alongside distinct strategies for integrating uncertainty into explanations: assessing trustworthiness, constraining models or explanations and explicitly communicating uncertainty. Evaluation practices remain fragmented and largely model centred, with limited attention to users and inconsistent reporting of reliability properties (e.g. calibration, coverage and explanation stability). Recent work leans towards calibration, distribution-free techniques and recognizes explainer variability as a central concern. We argue that progress in UAXAI requires unified evaluation principles that link uncertainty propagation, robustness and human decision-making, and highlight counterfactual and calibration approaches as promising avenues for aligning interpretability with reliability. This article is part of the theme issue 'Advancing uncertainty quantification in AI systems'.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1098/rsta.2025.0079",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
-      "direction": "llm",
-      "id": "17cedff221fa"
-    },
-    {
-      "title": "CAP-UNet: frequency-decoupled and geometry-aware attention for medical image segmentation across multiple imaging modalities",
-      "authors": "Yuting Zheng, Qianping Zhu, 牛殿礼",
-      "abstract": "Accurate medical image segmentation is frequently hampered by pervasive challenges such as severe visual camouflage, extreme scale variations, and highly irregular anatomical boundaries across diverse imaging modalities. To address these challenges, we propose CAP-UNet, a geometry-aware encoder-decoder framework evaluated across four independent single-modality medical image segmentation benchmarks. Specifically, we introduce a decoupled skip-connection pathway featuring a Camouflage-Decoupled Frequency Attention (CDFA) module, which leverages parallel spatial and frequency-domain transformations to explicitly enhance target structures while suppressing low-contrast background interference. This pathway is further refined by a Boundary-Aligned Multi-scale Masking (BAMM) module that dynamically aggregates hierarchical contextual features and improves boundary consistency. Furthermore, we design a Curvature & Recalibration Attention (CRA) module to replace conventional decoder convolutions. By jointly modeling local geometric deformation and channel-wise feature recalibration, the CRA module effectively adapts to irregular anatomical structures while reducing modality-specific imaging interference. Extensive experiments on four representative public datasets, including colonoscopy, dermoscopy, ultrasound, and panoramic X-ray images, demonstrate that CAP-UNet consistently achieves superior segmentation performance compared with recent CNN-based, Transformer-based, and hybrid methods. These results indicate that CAP-UNet provides a robust and effective segmentation framework across diverse single-modality clinical scenarios.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1038/s41598-026-67724-2",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Scientific Reports",
-      "direction": "llm",
-      "id": "24c15a724642"
-    },
-    {
-      "title": "DocTalkBN: A Novel Dataset of Expert Telemedicine Conversations in Bengali",
-      "authors": "Anik Saha, Fahmida Sultana Naznin, Sadatul Islam Sadi, Ananya Shahrin Promi, Wahid Al Azad Navid...",
-      "abstract": "Reliable medical conversational AI requires authentic expert--patient interaction data, yet such datasets remain scarce, especially for low-resource languages such as Bengali. We present DocTalkBN, a large-scale multimodal dataset of real-world expert telemedicine conversations in Bengali, collected from nationally broadcast telemedicine programs featuring board-certified physicians. DocTalkBN contains 557.63 hours of paired audio and text, 1,515 multi-turn patient calls, 10,274 host--doctor question--answer exchanges, totaling 1.7M tokens, spanning 26 medical specialties. Unlike prior resources derived from medical forums, written health content, or synthetic data, our dataset preserves the spontaneity, contextual richness, and spoken characteristics of authentic medical interactions in a low-resource setting. To support benchmark-driven research, we further construct three downstream tasks from the corpus, medical triage classification, advice safety evaluation, and medical named entity recognition, and benchmark a diverse set of large language models and encoder-based baselines. Our results show that DocTalkBN is a practically useful resource, particularly for clinically grounded reasoning tasks. We release this resource to facilitate future research on reliable medical NLP and safer, more culturally grounded healthcare systems for low-resource languages. Our source codes and dataset are publicly available at https://anonymous.4open.science/r/doctalk.",
-      "date": "2026-08-27",
-      "url": "https://arxiv.org/abs/2608.27110v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27110v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "medical",
-      "id": "86e01385d734"
-    },
-    {
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "authors": "Yufan Wu, Yinghui He, Zhengyi Hu, Lang Wei, Ruichen Li...",
-      "abstract": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as a source of guidance. Specifically, we utilize failure modes derived from weaker models and incorporate them into inference through critique-based in-context examples. We propose two variants: CritICL-dynamic, which adaptively predicts input-specific failure modes and retrieves critiques, and CritICL-static, which uses a global failure mode profile to provide stable guidance. Experimental results show that CritICL consistently outperforms standard in-context learning and achieves performance competitive with or superior to test-time scaling methods, while requiring significantly fewer generations and lower token cost. Code available at: https://github.com/umwyf/CRITICL",
-      "date": "2026-08-27",
-      "url": "https://arxiv.org/abs/2608.27455v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27455v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "26fa8084a48f"
-    },
-    {
-      "title": "TTPO: Test-Time Policy Optimization",
-      "authors": "Aozhe Wang, Zhengxi Lu, Jianze Wang, Shangke Lv, Ying Liu...",
-      "abstract": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT). Replacing ground truth with majority-vote pseudo-labels is a natural alternative, yet it is fragile: an incorrect vote corrupts the teacher and misleads every token. We observe that this failure mode is asymmetric: rollouts that disagree with the pseudo-label are typically wrong regardless of whether the vote itself is correct. Building on this observation, we propose Test-Time Policy Optimization (TTPO), an asymmetric objective that distills agreeing rollouts via OPSD and penalizes disagreeing rollouts with Grouped RL. Token-level selection further refines both branches: distillation down-weights already-converged positions, while RL penalizes only confident errors. Both updates remain well-grounded even under frequent pseudo-label errors, and majority-vote routing yields tighter self-supervision as the model improves. Without any labels, TTPO matches label-supervised OPSD on five competition-level benchmarks, raises Qwen3-1.7B from 38.0% to 45.2% in TTT, yields +25.2% to +36.4% without thinking, and shows strong cross-task generalization.",
-      "date": "2026-08-27",
-      "url": "https://arxiv.org/abs/2608.27448v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27448v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "00ff709bd1dd"
-    },
-    {
-      "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
-      "authors": "Xingyu Shen, Huishuai Zhang, Peng Li, Yinchun Wang, Dongyan Zhao",
-      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) significantly improves LLM reasoning but often causes a drop in policy entropy, leading to narrowed reasoning coverage and degraded pass@$k$ for large $k$. While existing methods mitigate this entropy collapse through algorithmic regularizations, cross-model non-parametric perturbation is also neglected. In this work, we propose a simple yet effective approach to preserve the generative diversity of LLMs during RLVR. Instead of relying solely on internal exploration, we force the target model to generate answers based on partial reasoning trajectories generated by a smaller, weaker language models. These unfamiliar prefixes effectively disrupt over-confidence and encourage the exploration of distinct reasoning paths. We empirically study the potential of outer prefixes, revealing the mechanism of the impact of distributional discrepancy to the exploration dynamics in RLVR training. Experiments across multiple mathematical benchmarks show that our method consistently outperforms vanilla RLVR. Notably, the performance gain becomes increasingly pronounced as $k$ scales up, demonstrating a substantial expansion of reasoning coverage. Furthermore, our approach efficiently mitigates entropy collapse without requiring additional SFT, intricate reward designs, or complex prompting.",
-      "date": "2026-08-27",
-      "url": "https://arxiv.org/abs/2608.27420v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27420v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "cd873bc2255f"
-    },
-    {
-      "title": "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases",
-      "authors": "Sil Hamilton, Albert Yu Sun, Oscar J. Romero, Carl-Leander Henneking, David Mimno...",
-      "abstract": "LLMs are increasingly able to answer complex questions about enterprise-scale document collections. But evaluation is hard: companies don't want to share internal communications, and synthetic datasets have been overly simple. We present CorporateBench (CB), a human-validated multi-task Q&A benchmark whose scale approaches the conditions LLMs encounter in corporate communication networks, with evaluation corpora surpassing 230,000 documents. CB evaluates LLMs across two dimensions (information extraction and knowledge base querying) through four synthetically generated firms ranging from 12 to 10,000 employees. Each corpus is sampled from a temporally evolving knowledge base describing a consistent world, guaranteeing cross-document logical consistency even across hundreds of thousands of documents. We evaluate five LLMs on CB, revealing increasingly poor performance as input size approaches realistic scales. CB provides LLM developers a metric for corporate communication reasoning, filling a crucial gap in the benchmarking ecosystem.",
-      "date": "2026-08-27",
-      "url": "https://arxiv.org/abs/2608.27391v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27391v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "47d0abca93e6"
-    },
-    {
-      "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
-      "authors": "Yutong Zhang, Jianshuo Dong, Peng Xu, Long Wang, Jie Zhang...",
-      "abstract": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harmful actions under goal conflicts and pressures. Using chain-of-thought (CoT) monitoring, we find that harmful execution is often preceded by intent signals in reasoning. However, post-hoc CoT labels are too coarse to show how intent changes during generation. We introduce INTENT-AS-A-TOOL, an approach that adds intent-targeted tools to give the model a dedicated channel for expressing commitment to a target behavior. The probability of calling an intent tool provides a judge-free, fine-grained signal of the model's tendency to pursue that behavior. Our results show that INTENT-AS-A-TOOL complements CoT monitoring, expands post-hoc CoT labels into dense trajectories, and identifies critical steps for online intervention. These findings suggest that action preferences are useful for tracking agentic misalignment during reasoning. Our code and data are accessible: https://github.com/RebeccaZhang22/intent-as-a-tool.",
-      "date": "2026-08-27",
-      "url": "https://arxiv.org/abs/2608.27348v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.27348v1",
-      "source": "arxiv",
-      "venue": "arXiv",
-      "direction": "llm",
-      "id": "15aa5f3da1ee"
     }
   ]
 }
