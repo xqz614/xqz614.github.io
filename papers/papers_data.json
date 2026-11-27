@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-26 02:02",
+  "last_updated": "2026-11-27 02:01",
   "papers": [
+    {
+      "title": "Artificial intelligence-enabled virtual organoids: Digital-twin frameworks for predictive stem cell biology and precision regenerative medicine",
+      "authors": "Chen-Qi Zhang, Peng-Yu Yan, Hui-Fang Wang, Yaxiong Guo, Xiao Fan, ...",
+      "abstract": "Stem cell and organoid technologies have transformed the study of human development, disease, and tissue regeneration, yet their broader scientific and clinical utility remains constrained by experimental variability, limited throughput, destructive endpoint measurements, incomplete longitudinal tracking, and the difficulty of systematically interrogating complex cell-cell and cell-microenvironment interactions. Recent advances in artificial intelligence, multimodal single-cell profiling, high-content imaging, biosensing, and mechanistic simulation are creating the foundations for a new computational paradigm: Artificial intelligence-enabled virtual organoids (AIVOs). We define AIVOs as dynamically updated, biologically constrained digital representations of stem cell-derived organoid systems that integrate experimental data with predictive models to simulate cell-state transitions, tissue self-organisation, perturbation responses, and therapeutic outcomes. Rather than static computational replicas, AIVOs are envisioned as executable digital twins in which virtual cells represent cellular interactions underlying emergent tissue properties. Their proposed architecture comprises five linked stages: Longitudinal multimodal observation, dynamic internal-state estimation, executable virtual-cell and hybrid multiscale modelling, prediction and virtual perturbation, and experimental validation with iterative updating. Longitudinal multimodal measurements provide temporally resolved evidence for estimating cellular and tissue states. These states can be represented in hybrid mechanistic and data-driven models to support trajectory prediction and virtual perturbations. However, no complete AIVO satisfying all of these criteria has yet been demonstrated. Available studies instead largely represent enabling technologies or methodological precedents, with only limited evidence for partial or early AIVO prototypes. Potential applications span developmental biology, disease modelling, precision medicine, and regenerative medicine. AIVOs may prospectively support investigation of lineage and tissue patterning, representation of patient-specific heterogeneity and disease dynamics, virtual evaluation of treatment strategies, and optimisation of differentiation, biomaterial, and graft-design parameters. However, the realisation of AIVOs will require substantial methodological and conceptual advances. Key priorities include standardised longitudinal datasets, interpretable modelling, uncertainty quantification, causal validation, multicentre benchmarking, and assessment of transferability across donors, laboratories, and platforms. Regulatory evaluation will also need to distinguish exploratory simulation from clinically actionable prediction and to define evidentiary standards for digital-twin-supported decision-making. AIVOs may thereby shift organoid research towards more predictive, testable, and adaptive modelling across stem cell biology, disease modelling, drug development, and regenerative medicine.",
+      "date": "2026-11-26",
+      "url": "https://doi.org/10.4252/wjsc.128748",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "World Journal of Stem Cells",
+      "direction": "cell",
+      "id": "32d3e6214d69"
+    },
     {
       "title": "Artificial Intelligence in Science and Physics Education, 2015-2026: An AI-Assisted Bibliometric and Title-and-Abstract Analysis across Fourteen Journals",
       "authors": "Konstantinos T. Kotsis",
@@ -12,6 +24,90 @@
       "venue": "EIKI Journal of Effective Teaching Methods",
       "direction": "cell",
       "id": "08f1ebbc3757"
+    },
+    {
+      "title": "LLM-augmented therapy normalization and aspect-based sentiment analysis of treatment-resistant depression-labeled Reddit discourse",
+      "authors": "Yuxin Zhu, Sahithi Lakamana, Masoud Rouhizadeh, Selen Bozkurt, Rachel Hershenberg, ...",
+      "abstract": "Treatment-resistant depression (TRD) is a severe form of major depressive disorder in which patients do not achieve remission despite multiple adequate treatment trials. Evidence across pharmacologic options for TRD remains limited, and trials often incompletely reflect patient-reported experiences. Online peer-support narratives offer a complementary lens on how people describe and evaluate therapies in real-world use. We curated a corpus of 5059 TRD-mentioning Reddit posts from 3480 posters across 28 mental health-related subreddits (2010–2025). From these, we identified 3839 therapy-mentioning posts from 2700 posters, yielding 23,399 mentions of 81 unique therapies after normalization of trade names, misspellings, and colloquialisms. We developed an aspect-based sentiment classifier by fine-tuning a transformer model with large language model-based synthetic data augmentation, achieving a micro-F₁ of 0.800 on a held-out test set. Applying this classifier, we quantified mention-level sentiment toward individual therapies across three dimensions (positive, neutral, and negative) and tracked patterns by drug, poster, subreddit, and year. Overall, 72.1% of therapy mentions were neutral, 14.8% negative, and 13.1% positive. Conventional antidepressants (SSRIs/SNRIs) showed higher negative than positive proportions, whereas ketamine and esketamine exhibited comparatively less negative sentiment profiles. These findings characterize therapy-related sentiment in TRD-labeled Reddit discourse, complementing clinical evidence and generating hypotheses about patient-centered treatment experiences.",
+      "date": "2026-11-25",
+      "url": "https://doi.org/10.1038/s44184-026-00259-6",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "npj Mental Health Research",
+      "direction": "medical",
+      "id": "5c74477f6e98"
+    },
+    {
+      "title": "Large language models in digital public health: closing the validation gap from data foundations to real-world applications",
+      "authors": "Cong Liu, Xilin Liu",
+      "abstract": "Large language models (LLMs) are entering digital public health faster than the evidence needed to deploy them safely. This narrative review synthesizes peer-reviewed evidence, identified through PubMed and Web of Science searches covering 1 January 2020 to 1 September 2026, across the public health data-to-deployment pipeline: how clinical, surveillance, online, participatory, wearable, and multimodal data are assembled and harmonized; how models are adapted, grounded, and protected; how they are benchmarked and validated; and how they perform in public health applications. Key studies were classified by design and level of validation, and direct public health evidence was distinguished from clinical and individual-level evidence. Most evidence comes from clinical and medical decision-making settings; direct public health evidence consists mainly of retrospective surveillance and forecasting studies, infodemic audits, and one randomized study of public users. Knowledge benchmarks dominate the evidence base, few evaluations use real patient data, and multiple-choice formats overstate performance relative to free-response questioning. In the randomized study of 1,298 members of the public, models that identified relevant conditions in 94.9% of cases when tested alone did not help participants identify conditions or choose a course of action better than controls. We interpret this pattern as a validation gap rather than a capability gap, an interpretation that has not been tested directly. Fragmented, linguistically narrow data; development practices that only partially address privacy, data poisoning, and social bias; and evaluation designs that measure knowledge recall rather than in-context performance plausibly contribute to this gap. We examine six controversies, together with implementation costs and sustainability in resource-limited systems, identify eight research gaps, and propose measurable criteria for external validation, safety, representativeness, equity, surveillance timeliness, and post-deployment monitoring. Interoperable, representative data infrastructure, privacy-preserving and bias-aware development, evaluation that requires human user testing and real-world outcomes before public deployment, and accountable governance and training are necessary conditions for responsible implementation; they are not evidence that LLMs improve population health, which requires prospective comparative evaluation.",
+      "date": "2026-11-25",
+      "url": "https://doi.org/10.3389/fpubh.2026.2002806",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Public Health",
+      "direction": "medical",
+      "id": "0aaa8c077f54"
+    },
+    {
+      "title": "Artificial intelligence meets nanomedicine: a new era in cancer treatment and diagnosis",
+      "authors": "Amit Singh, Pankaj Kumar, Siddharth, Ritushree Kukreti, Luciano Saso, ...",
+      "abstract": "Artificial intelligence (AI), particularly in the field of nanomedicine, is rapidly revolutionizing the design, prediction, and application of nanoparticles at the nanoscale with great precision in oncology. Cancer is one of the primary causes of death worldwide, and though nanomedicine offers great promise in the treatment and diagnosis of various types of cancer, yet there are a number of challenges associated with it. The complexity of the tumor microenvironment, uncontrolled nanoparticle-cell interactions, and variable therapeutic outcomes present a complex problem that requires advanced analytical capabilities to solve them. AI, particularly machine learning (ML) and deep learning (DL), provides sophisticated methodologies to address these challenges through the analysis of extensive biological datasets, forecasting the biodistribution of nanoparticles, and discovering novel therapeutic targets. AI-based nanomedicine in oncology is transforming drug delivery systems like liposomes, polymeric nanoparticles, dendrimers, quantum dots, and exosomes by enhancing precision, minimizing toxicity, and enabling real-time monitoring of therapeutic outcomes. AI-driven predictive models have expedited the development of nanoparticle-based imaging probes and biosensors for cancer diagnosis. The integration of AI with high-throughput screening, molecular dynamics simulations, omics-based methodologies, and patient-derived data has uncovered novel prospects for cancer nanomedicine, customizable to specific genetic and phenotypic traits. However, several challenges must be resolved prior to the application of AI-driven nanomedicine in addressing the intricate issues related to the diagnosis and treatment of diverse cancer types. This review discusses that how AI and nanotechnology work together in oncology, especially when it comes to designing drugs, delivering them, and diagnosing different types of cancer.",
+      "date": "2026-11-25",
+      "url": "https://doi.org/10.3389/fbioe.2026.1952437",
+      "pdf_url": "",
+      "source": "journal",
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "direction": "cell",
+      "id": "ecebdbb5c931"
+    },
+    {
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "authors": "Lukas Aichberger, Adam Golinski, Arno Blaas, Arwen Bradley, Jacob Springer...",
+      "abstract": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-training Llama-3.1-8B-Instruct on traces mined by DART achieves the highest point estimate in five of six evaluations across MATH-500 and AIME benchmarks. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data.",
+      "date": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34928v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34928v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "264c2c79b9dc"
+    },
+    {
+      "title": "Proverbs As A Window On Collective Prescriptions",
+      "authors": "Tomás Lejarraga, Dirk U. Wulff, Ralph Hertwig",
+      "abstract": "Proverbs, as repositories of traditional wisdom, have informed human reasoning for millennia. Yet the collective prescriptions they encode have remained largely unquantified. We introduce a computational framework to analyze nearly 50,000 English-language proverbs. Using large language models, validated against human judgments, we map the topical landscape of proverbs, assess their prescriptive power, and quantify their recommendations on key dimensions of human judgment and behavior. We find that most proverbs are prescriptive, offering guidance in domains under individual control, such as preparation and prudent action, whereas proverbs about uncontrollable circumstances, such as fate and mortality, tend to describe rather than prescribe. When prescriptive proverbs take a consistent stance, they favor caution over risk, long-term over short-term outcomes, honesty over deception, and kindness over malice, and show a moderate tendency toward suspicion over trust. On dimensions involving genuine trade-offs, especially autonomy versus compliance, proverbs provide contradicting advice rather than a single recommendation. This analysis provides a quantitative map of the collective prescriptions in a culture's proverbial wisdom, revealing a core of prudent, honest, and forward-looking guidance alongside varied advice where circumstances dictate the best course of action.",
+      "date": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34832v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34832v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "9a8d2918f976"
+    },
+    {
+      "title": "PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank",
+      "authors": "Bich Ngoc Doan, Hanna Yukhymenko, Imanol Schlag",
+      "abstract": "Large language models increasingly replace real people in the AI development pipeline, as they are used to generate training dialogues at scale and to drive alignment and evaluation. However, out-of-the-box models produce monolingual and stylistically flat texts as synthetic user prompts, failing to replicate the real user-AI communication mechanics. We present PersonaFactory, an end-to-end pipeline that generates detailed user personas and uses them to augment existing user prompts from their point of view, producing a bank of over 740000 structured synthetic personas detailing their background and communication behaviors, and a corpus of roughly 1.24 million persona-styled synthetic conversations spanning 85 languages. We evaluate the effect of personal features on style adoption and intent preservation, using an LLM-judge and heuristic metrics to assess augmentation fidelity together with the downstream impact on assistant persona control through training data. Results show that our structured, attribute-based style representation enables per-axis control and better intent preservation at comparable style fidelity than free-text persona descriptions used in existing methods. A human expert evaluation found the augmented conversations plausible, with favorable ratings for intent preservation, style naturalness, and multilingual authenticity. Finally, PersonaFactory conversations achieve comparable performance to original training data on capability benchmarks, are preferred on real user prompts at equal reply length, and adapt their reply style more closely to users without explicit steering.",
+      "date": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34785v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34785v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "7d08d8d42af7"
+    },
+    {
+      "title": "One Model, Many Modes: Evolving System Prompt Ensembles for Creative Generation",
+      "authors": "Daiwei Chen, Anda He, Binwei Yao, Junjie Hu, Ramya Korlakai Vinayak",
+      "abstract": "Preference-aligned LLMs can exhibit mode collapse, concentrating their output distributions around a narrow set of high-reward responses. This limits creative generation, which requires quality, novelty, and diversity. Existing test-time methods often emphasize diversity, giving less attention to whether individual responses are both high-quality and novel. This distinction matters in practical use, where users may seek a single compelling, original response. We formalize creative generation as a multi-objective distributional optimization problem and introduce SEPO, a training-free framework for System Prompt Ensemble Optimization. The framework combines prompt evolution with greedy max-min selection to identify behaviorally distinct system prompts under a quality constraint, then uniformly samples one prompt per response at inference time. Across four creative generation tasks with increasing quality requirements and three open-weight models, SEPO ranks first in 8 of 12 settings on the harmonic mean of quality, diversity, and novelty, while no baseline leads in more than two. On average, it raises LLM-judged diversity from 1.92 to 3.43 and novelty from 1.00 to 3.34 over base sampling (1-5 scale), with quality decreasing from 3.72 to 3.30. We further show that expanding the optimized ensemble increases separation among prompt-conditioned response distributions. These results support system prompt ensemble optimization as a promising approach to improving LLM creativity at inference time.",
+      "date": "2026-11-25",
+      "url": "https://arxiv.org/abs/2611.34760v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34760v1",
+      "source": "arxiv",
+      "venue": "arXiv",
+      "direction": "llm",
+      "id": "8b1acab2bc38"
     },
     {
       "title": "NORMCRAFT: Cultural Norm Generation for Context-Aware Language Model Alignment",
@@ -11904,102 +12000,6 @@
       "venue": "npj Digital Medicine",
       "direction": "medical",
       "id": "01eb7519ac53"
-    },
-    {
-      "title": "From free association to free parameters: machine-learning empowers artificial intelligence models to rate the affective-relational aspects of narratives like an expert psychologist",
-      "authors": "Caleb J. Siefert, Barry Dauphin, Jenelle Slavin-Mulford, Sai Dileep Kumar Mukkamala, Venkat Akhila Reddy Tatipally, ...",
-      "abstract": "Background Narrative assessment offers unique insight into psychological functioning but is resource-intensive, requiring extensive expert training and time. Recent work suggests Artificial Intelligence (AI), including moderately sized, adaptable large language models (LLMs), can master narrative assessment's complex, multi-step scoring rules. This study examined whether fine-tuning could enable AI raters to accurately assess narratives. Method We fine-tuned five diverse LLMs (3–7 billion parameters) on two datasets, one for the SCORS-G Affective Quality of Representations (AFF) scale and one for Emotional Investment in Relationships (EIR). All narratives were rated by expert human raters. Each dataset was split into training and testing samples to evaluate AI-human agreement. Results Fine-tuned models showed good to excellent reliability with human experts for both AFF and EIR. Ensemble ratings, averaged across all five models, yielded excellent single-rater and average-rater ICCs and low error rates, with 97% of AFF and 92% of EIR ratings falling within accepted discrepancy limits. Conclusion Fine-tuning effectively adapted AI models into raters capable of reliably scoring complex psychological constructs from narrative. Ensemble-based AI raters can automate AFF and EIR ratings in research settings and, with further validation, may support clinical use via a human-in-the-loop approach. Fine-tuning adaptable AI models offers considerable potential to increase the feasibility and accessibility of sophisticated, multi-method assessment in research and clinical settings alike.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.3389/fdgth.2026.1762253",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Digital Health",
-      "direction": "medical",
-      "id": "12c9ec3ec87d"
-    },
-    {
-      "title": "Artificial intelligence virtual bone organoids (AIVBOs)",
-      "authors": "Ning Ding, Biao Yu, Xukun Lyu, Ke Xu, Zhen Geng, ...",
-      "abstract": "Global population aging has made skeletal disorders a major threat to human health. Solid bone organoids reproduce skeletal physiology and pathology more faithfully than traditional models, yet remain limited in standardisation, real-time monitoring, and high-throughput use. Integrating artificial intelligence (AI) with computational biology offers a route to ease these limits and motivates an emerging direction we develop here. We use virtual bone organoids (VBOs) for the in silico counterpart of a solid bone organoid, and artificial intelligence virtual bone organoids (AIVBOs) for its AI-driven realisation, which takes the virtual cell as its basic unit and fuses multimodal omics data with biophysical constraints. It remains an early-stage proposal, since most capabilities discussed here have been shown only in non-bone systems such as virtual cells and AI-assisted organoids and are carried over to bone rather than established in it. This review traces the logic from solid bone organoids to the AIVBO as a meso-scale digital-twin approach. We outline a modular strategy across stem-cell differentiation, vascular and immune coupling, and pathological evolution, and consider the prospective value of AIVBOs for standardised organoid construction, reverse design of biomaterials, mechanistic analysis, reagent-sparing drug screening, and in silico trials. Throughout, we separate goals already supported by real data from longer-term aspirations and address the main limitations directly, including data noise, bias, and sparsity, organoid irreproducibility, limited digital-twin fidelity, interpretability, data fusion, and ethical and regulatory issues. As a digital bridge between microscopic mechanism and macroscopic phenotype, AIVBOs may help move bone research from descriptive experimentation toward predictive engineering, though substantial experimental validation remains a prerequisite for clinical translation. The translational potential of this article AIVBOs are framed as a meso-scale digital-twin concept meant to complement, not replace, solid bone organoids and in vivo models. Their translational potential lies in using calibrated in silico models to narrow the experimental search space for biomaterial design, drug screening, and disease modelling, which could cut the cost and time of pre-clinical orthopaedic research and support more standardised, predictive, and personalised care for bone repair and metabolic bone disease. These benefits are prospective and contingent on rigorous validation, transparent reporting of model limits, and shared data and quality standards.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1016/j.jot.2026.101196",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Orthopaedic Translation",
-      "direction": "cell",
-      "id": "e5059ad24519"
-    },
-    {
-      "title": "Finetuning Foundation Models for Temporal Clinical Transcriptomics Data",
-      "authors": "Sachin Mathur, Alexander Kagan, Peyman Passban, Hamid Mattoo, Euxhen Hasanaj, ...",
-      "abstract": "BACKGROUND: Timeseries clinical transcriptomic datasets offer the opportunity to gain insights into the dynamics of disease mechanisms/treatment responses. However, their utility in uncovering temporal patterns is often limited by high noise levels and small sample sizes. Leveraging foundational gene embeddings and incorporating interaction information can help address these challenges, improve gene network analysis, and enable the detection of subtle changes that drive disease progression or drug response. RESULTS: We finetuned gene embeddings from foundation models using healthy tissue gene expression data and used them in temporal GNNs to model gene expression of responder and non-responders to treatment in 4 disease datasets - ulcerative colitis, Crohn's disease, Alopecia Areata, and psoriasis. Application of our method to these datasets confirmed known mechanisms associated with drug action, and also identified key differences between activated and repressed pathways for responders and non-responders, including B-Cell activation and mitochondria-related activity in ulcerative colitis patients. CONCLUSION: Finetuning gene embeddings from foundation models provides a richer context to model gene expression data compared to using them in their naive state. Even with smaller sample sizes, results from GNN-based temporal models outperform traditional methods by detecting known mechanisms of response and unraveling role of genes and mechanisms not known to be associated with response and non-response. CODE AVAILABILITY: Code and data are available in a public GitHub repository - https://github.com/Sanofi-Public/GNN-Timeseries. DOI: 10.5281/zenodo.20494035.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1093/bioinformatics/btag640",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Bioinformatics",
-      "direction": "cell",
-      "id": "23cd0f6675b2"
-    },
-    {
-      "title": "Infarct border-zone biomechanics after myocardial infarction: linking mechanotransduction, fibrosis, and ventricular dysfunction",
-      "authors": "Fulufhelo Ṋemavhola, Thanyani Pandelani",
-      "abstract": "Myocardial infarction (MI) transforms the left ventricle into a mechanically heterogeneous, evolving composite in which necrotic scar, viable myocardium, edema, microvascular injury, and fibro-inflammatory remodeling coexist. The infarct border zone is the decisive interface of this composite: a region in which surviving myocytes and stressed extracellular matrix (ECM) share load, exchange signals, and progressively reshape one another. Clinically, border-zone phenotype helps explain why patients with similar infarct size diverge toward recovery or progressive remodeling, heart failure, and arrhythmia. Mechanistically, the border zone concentrates “demand” through stress, strain, stress gradients, and shear generated by tethering between contracting remote myocardium and noncontracting or weakly contracting infarct core, by evolving thickness and curvature, and by stiffness gradients that change as edema resolves and collagen networks form and mature. Simultaneously, it determines “capacity” by governing matrix continuity, collagen alignment and cross-linking, and myocyte–ECM coupling that together set stiffness, strength, and tearing resistance, which are not interchangeable and can evolve in different directions. This review synthesizes border-zone biomechanics across scales, integrating histology, echocardiographic strain, cardiac magnetic resonance (CMR) late gadolinium enhancement (LGE) and mapping, diffusion and microstructure imaging, and patient-specific computational cardiomechanics. We connect abnormal border-zone deformation to mechanosensing in myocytes, fibroblasts, endothelial cells, and immune cells via integrins, focal adhesion signaling, stretch-activated channels, cytoskeletal remodeling, and transcriptional regulators including YAP/TAZ and MRTF, and we interpret fibrosis architecture as a mechanically regulated “record” of cumulative loading history. We then evaluate evidence linking border-zone strain patterns, stiffness gradients, microvascular obstruction, and intramyocardial hemorrhage to remodeling trajectory and electrical instability, explicitly distinguishing association, prediction, and causation. Finally, we outline translational requirements for a clinically deployable border-zone risk phenotype that combines imaging with inverse modeling and uncertainty quantification, and we propose testable hypotheses that can be validated in prospective cohorts. A mechanics-first view of the border zone reframes post-MI remodeling as an interface problem and provides a disciplined basis for mechanomodulatory therapies that unload, reinforce, or reprogram the peri-infarct microenvironment.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.3389/fbioe.2026.1828513",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in Bioengineering and Biotechnology",
-      "direction": "cell",
-      "id": "d61eb9489376"
-    },
-    {
-      "title": "Label-free ovarian cancer histopathological diagnosis using two-photon autofluorescence microscopy with a joint denoising and segmentation framework",
-      "authors": "Zhengyuan Pan, Naikun Song, Shanshan Cheng, Wen Pang, Hongen Liao, ...",
-      "abstract": "Two-photon autofluorescence (TPAF) microscopy is a promising modality for rapid, label-free assessment of unstained tissue, but is fundamentally limited by the poor visibility of nuclei, which are one of the gold-standard cancer biomarkers, due to their negative contrast nature. A restoration method capable of distinguishing these signal voids from stochastic noise to render quantitative pathology is lacking. Here, we proposed a deep learning framework of AFN-DeSeg (Auto-Fluorescence Nuclei Denoising and Segmentation) to unify image denoising and nuclear segmentation via a dual-encoder architecture incorporating a DINOv3 vision transformer. By explicitly modeling detector/shot noise while optimizing for morphological fidelity, AFN-DeSeg recovered diagnostic-grade nuclear features from noisy signals. We demonstrated that AFN-DeSeg achieved a superior reconstruction fidelity compared to state-of-the-art sequential and joint denoising-segmentation pipelines and yielded a high correlation with hematoxylin and eosin (H&E) pathology in identifying key diagnostic areas of high-grade serous ovarian carcinoma. The proposed AFN-DeSeg bridges the gap between label-free TPAF imaging and H&E-based histology, establishing a computational foundation for label-free morphological pathology and toward future intraoperative optical biopsy.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1038/s41377-026-02464-6",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Light Science & Applications",
-      "direction": "cell",
-      "id": "e19821c1572e"
-    },
-    {
-      "title": "Neuroergonomic signatures of improved human–robot collaboration in LLM-supported industrial workflows",
-      "authors": "Jose A. Trapero, Yannick Robin, Eric Wagner, Steffen Knapp, Martina Lehser, ...",
-      "abstract": "Abstract The Industry 5.0 is hindered by the communication bottleneck between humans and collaborative robots (cobots), because of the rigid programming requirements, which prevent dynamic and unexpected workflow changes. This study introduces and validates a Large Language Model (LLM)-enabled framework for natural language robot task planning to improve communication between humans and robots while simultaneously reducing the mental load of the worker. Utilizing a resource-efficient one-shot prompt engineering strategy, the system allows operators to adapt cobot trajectories via conversational input. We evaluated this dynamic workflow against a traditional static baseline in a simulated assembly environment, employing a comprehensive multimodal neuroergonomic assessment. Results demonstrate that the LLM framework achieved high technical efficacy, generating executable code within 1–2 prompts. Crucially, the combination of physiological metrics (heart rate, blink rate), behavioral data (task error rate), and subjective workload (NASA Task Load Index) revealed a significant reduction in operator strain and an increase in process reliability in the LLM-assisted condition. These findings provide empirical evidence that LLMs can lower the technical barriers to cobot programming while improving the physiological well-being of the workforce, thereby supporting a human-centric approach to flexible automation.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1007/s10845-026-02958-5",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Intelligent Manufacturing",
-      "direction": "llm",
-      "id": "fa0cc8d2705e"
-    },
-    {
-      "title": "Artificial intelligence virtual bone organoids (AIVBOs)",
-      "authors": "Ning Ding, Biao Yu, Xukun Lyu, Ke Xu, Zhen Geng, ...",
-      "abstract": "Global population aging has made skeletal disorders a major threat to human health. Solid bone organoids reproduce skeletal physiology and pathology more faithfully than traditional models, yet remain limited in standardisation, real-time monitoring, and high-throughput use. Integrating artificial intelligence (AI) with computational biology offers a route to ease these limits and motivates an emerging direction we develop here. We use virtual bone organoids (VBOs) for the in silico counterpart of a solid bone organoid, and artificial intelligence virtual bone organoids (AIVBOs) for its AI-driven realisation, which takes the virtual cell as its basic unit and fuses multimodal omics data with biophysical constraints. It remains an early-stage proposal, since most capabilities discussed here have been shown only in non-bone systems such as virtual cells and AI-assisted organoids and are carried over to bone rather than established in it. This review traces the logic from solid bone organoids to the AIVBO as a meso-scale digital-twin approach. We outline a modular strategy across stem-cell differentiation, vascular and immune coupling, and pathological evolution, and consider the prospective value of AIVBOs for standardised organoid construction, reverse design of biomaterials, mechanistic analysis, reagent-sparing drug screening, and in silico trials. Throughout, we separate goals already supported by real data from longer-term aspirations and address the main limitations directly, including data noise, bias, and sparsity, organoid irreproducibility, limited digital-twin fidelity, interpretability, data fusion, and ethical and regulatory issues. As a digital bridge between microscopic mechanism and macroscopic phenotype, AIVBOs may help move bone research from descriptive experimentation toward predictive engineering, though substantial experimental validation remains a prerequisite for clinical translation. The translational potential of this article AIVBOs are framed as a meso-scale digital-twin concept meant to complement, not replace, solid bone organoids and in vivo models. Their translational potential lies in using calibrated in silico models to narrow the experimental search space for biomaterial design, drug screening, and disease modelling, which could cut the cost and time of pre-clinical orthopaedic research and support more standardised, predictive, and personalised care for bone repair and metabolic bone disease. These benefits are prospective and contingent on rigorous validation, transparent reporting of model limits, and shared data and quality standards.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1016/j.jot.2026.101196",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Journal of Orthopaedic Translation",
-      "direction": "llm",
-      "id": "e5059ad24519"
-    },
-    {
-      "title": "Artificial intelligence-driven resource management in edge-cloud computing continuum for internet of things applications: new trends and future directions",
-      "authors": "Zhiyu Wang, Nilotpal Kapri, Luiz F. Bittencourt, Rajkumar Buyya",
-      "abstract": "The rapid proliferation of Internet of Things (IoT) devices across domains such as smart transportation, healthcare, and smart city infrastructure has intensified the demand for low-latency, energy-efficient, and scalable computing paradigms. While cloud computing has traditionally served as the backbone for IoT data processing, its inherent limitations have catalyzed the emergence of edge/fog computing, forming a distributed edge-cloud continuum. This review examines emerging trends in Artificial Intelligence (AI)-driven resource management within this continuum, with a focus on three directions: (1) the transition from centralized to distributed and collaborative intelligence, (2) cross-domain adaptation and knowledge transfer for heterogeneous IoT applications, and (3) the nascent integration of foundation models into edge environments. We ground our discussion in three complementary case studies: smart transportation as a representative vertical domain, cross-domain heterogeneous IoT application scheduling as a horizontal perspective, and industrial transferred arc plasma monitoring as an emerging industrial IoT scenario, and conclude with forward-looking research directions, including quantum-enhanced edge optimization, edge-native continual learning, digital twin-driven resource orchestration, and neuromorphic computing for ultra-low-power edge AI.",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.3389/friot.2026.1883673",
-      "pdf_url": "",
-      "source": "journal",
-      "venue": "Frontiers in the Internet of Things",
-      "direction": "llm",
-      "id": "d31cc83c9cf5"
     }
   ]
 }
